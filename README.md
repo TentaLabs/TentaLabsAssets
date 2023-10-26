@@ -1,4 +1,4 @@
-# ThunderAssets
+# TentaLabs Creator Assets
 The goal of this project is make a variety of easily accessible files for Splatoon content creation. 
 Within, you'll find resources that you can use in a variety of projects - art, 3D modeling, SFM, VRChat/NeosVR/etc.
 Whatever your creative ambitions, TentaLabs aims to give you the tools to succeed!
