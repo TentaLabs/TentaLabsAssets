@@ -1,3 +1,5 @@
+![tentalabs-white](https://github.com/TentaLabs/TentaLabsAssets/assets/148016696/dd0099a5-6149-4c47-b584-a15a80c1a719)
+
 # TentaLabs Creator Assets
 The goal of this project is make a variety of easily accessible files for Splatoon content creation. 
 Within, you'll find resources that you can use in a variety of projects - art, 3D modeling, SFM, VRChat/NeosVR/etc.
