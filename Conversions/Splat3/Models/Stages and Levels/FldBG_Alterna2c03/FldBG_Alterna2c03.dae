@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Signage00_Alb">
+      <init_from>Signage00_Alb.png</init_from>
+    </image>
+    <image id="Signage00_Emi">
+      <init_from>Signage00_Emi.png</init_from>
+    </image>
+    <image id="Signage00_Mtl">
+      <init_from>Signage00_Mtl.png</init_from>
+    </image>
+    <image id="Signage00_Nrm">
+      <init_from>Signage00_Nrm.png</init_from>
+    </image>
+    <image id="Signage00_Opa">
+      <init_from>Signage00_Opa.png</init_from>
+    </image>
+    <image id="Signage00_Rgh">
+      <init_from>Signage00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Signage00">
+      <instance_effect url="#Effect_Signage00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Signage00">
+      <profile_COMMON>
+        <newparam sid="surface_Signage00-diffuse">
+          <surface type="2D">
+            <init_from>Signage00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Signage00-diffuse">
+          <sampler2D>
+            <source>surface_Signage00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Signage00-emission">
+          <surface type="2D">
+            <init_from>Signage00_Emi</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Signage00-emission">
+          <sampler2D>
+            <source>surface_Signage00-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Signage00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <texture texture="sampler_Signage00-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Pop2__Signage00-mesh" name="Pop2__Signage00">
+      <mesh>
+        <source id="Pop2__Signage00-position">
+          <float_array id="Pop2__Signage00-position-array" count="12">33.87096 92.49376 57.46777 73.52036 93.04265 44.33871 37.11294 58.16914 67.45633 78.59576 58.74341 53.72018</float_array>
+          <technique_common>
+            <accessor source="#Pop2__Signage00-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop2__Signage00-normal">
+          <float_array id="Pop2__Signage00-normal-array" count="12">-0.297456 -0.2915851 -0.9080235 -0.297456 -0.2915851 -0.9080235 -0.297456 -0.2915851 -0.9080235 -0.297456 -0.2915851 -0.9080235</float_array>
+          <technique_common>
+            <accessor source="#Pop2__Signage00-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop2__Signage00-texcoord">
+          <float_array id="Pop2__Signage00-texcoord-array" count="8">1 0.9404602 0.004882813 0.9404602 1 0.09814453 0.004882813 0.09814453</float_array>
+          <technique_common>
+            <accessor source="#Pop2__Signage00-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Pop2__Signage00-vertex">
+          <input semantic="POSITION" source="#Pop2__Signage00-position" />
+        </vertices>
+        <triangles material="Signage00" count="2">
+          <input semantic="VERTEX" source="#Pop2__Signage00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Pop2__Signage00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Pop2__Signage00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Pop7__Signage00-mesh" name="Pop7__Signage00">
+      <mesh>
+        <source id="Pop7__Signage00-position">
+          <float_array id="Pop7__Signage00-position-array" count="36">-43.27993 45.09159 54.72628 -41.03923 54.78832 53.29268 -37.82932 45.07507 62.02116 -40.29336 58.01606 52.81548 -34.91156 57.99976 60.01824 -25.2938 45.03712 78.79825 -23.22344 54.73436 77.13663 -32.72181 67.69971 58.51513 -20.46327 67.66257 74.92142 -17.14027 57.94595 83.80266 -17.81222 54.71798 84.37877 -15.12101 67.64641 82.07124</float_array>
+          <technique_common>
+            <accessor source="#Pop7__Signage00-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop7__Signage00-normal">
+          <float_array id="Pop7__Signage00-normal-array" count="36">0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994 0.7729941 -0.2641879 -0.5772994</float_array>
+          <technique_common>
+            <accessor source="#Pop7__Signage00-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop7__Signage00-texcoord">
+          <float_array id="Pop7__Signage00-texcoord-array" count="24">0.8431373 0.1098039 0.8431373 0.3019608 0.6705883 0.1098039 0.8431373 0.3647059 0.6705883 0.3647059 0.282353 0.1098039 0.282353 0.3019608 0.6705883 0.5529412 0.282353 0.5529412 0.1098039 0.3647059 0.1098039 0.3019608 0.1098039 0.5529412</float_array>
+          <technique_common>
+            <accessor source="#Pop7__Signage00-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Pop7__Signage00-vertex">
+          <input semantic="POSITION" source="#Pop7__Signage00-position" />
+        </vertices>
+        <triangles material="Signage00" count="10">
+          <input semantic="VERTEX" source="#Pop7__Signage00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Pop7__Signage00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Pop7__Signage00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 1 1 1 1 1 1 4 4 4 2 2 2 5 5 5 2 2 2 6 6 6 2 2 2 4 4 4 6 6 6 7 7 7 8 8 8 4 4 4 4 4 4 8 8 8 6 6 6 6 6 6 8 8 8 9 9 9 10 10 10 6 6 6 9 9 9 9 9 9 8 8 8 11 11 11 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="group12_pCube10__Signage00-mesh" name="group12_pCube10__Signage00">
+      <mesh>
+        <source id="group12_pCube10__Signage00-position">
+          <float_array id="group12_pCube10__Signage00-position-array" count="108">58.66847 21.1133 74.14087 33.42959 21.31885 89.20628 58.13509 34.18412 73.06898 32.89621 34.38967 88.1344 57.29997 19.48374 75.07737 32.0611 19.68928 90.14278 56.76659 32.55456 74.00548 31.52772 32.76011 89.0709 57.98422 20.29852 74.60912 32.74535 20.50407 89.67454 57.45084 33.36934 73.53723 32.21197 33.57489 88.60265 56.61572 18.66895 75.54562 31.37685 18.8745 90.61104 56.08234 31.73977 74.47373 30.84347 31.94532 89.53915 55.93148 17.85417 76.01388 30.6926 18.05972 91.0793 55.3981 30.92499 74.94199 30.15922 31.13054 90.00741 55.24723 17.03939 76.48212 30.00835 17.24494 91.54755 54.71385 30.11021 75.41024 29.47498 30.31576 90.47565 54.56298 16.22461 76.95038 29.3241 16.43015 92.01581 54.0296 29.29543 75.87849 28.79073 29.50097 90.94391 53.87873 15.40983 77.41864 28.63986 15.61537 92.48405 53.34535 28.48065 76.34674 28.10648 28.68619 91.41216 53.19448 14.59504 77.88689 27.95561 14.80059 92.95231 52.66111 27.66586 76.81499 27.42223 27.87141 91.88042</float_array>
+          <technique_common>
+            <accessor source="#group12_pCube10__Signage00-position-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group12_pCube10__Signage00-normal">
+          <float_array id="group12_pCube10__Signage00-normal-array" count="108">-0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859 -0.5107632 -0.09001957 -0.8551859</float_array>
+          <technique_common>
+            <accessor source="#group12_pCube10__Signage00-normal-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group12_pCube10__Signage00-texcoord">
+          <float_array id="group12_pCube10__Signage00-texcoord-array" count="72">0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059</float_array>
+          <technique_common>
+            <accessor source="#group12_pCube10__Signage00-texcoord-array" count="36" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="group12_pCube10__Signage00-vertex">
+          <input semantic="POSITION" source="#group12_pCube10__Signage00-position" />
+        </vertices>
+        <triangles material="Signage00" count="18">
+          <input semantic="VERTEX" source="#group12_pCube10__Signage00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#group12_pCube10__Signage00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#group12_pCube10__Signage00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="group5_pCube10__Signage00-mesh" name="group5_pCube10__Signage00">
+      <mesh>
+        <source id="group5_pCube10__Signage00-position">
+          <float_array id="group5_pCube10__Signage00-position-array" count="108">-43.88498 38.53077 -8.355513 -55.31426 38.53077 -35.43653 -43.88498 51.65631 -8.355513 -55.31426 51.65631 -35.43653 -44.48081 36.88713 -9.888073 -55.91009 36.88713 -36.96909 -44.48081 50.01267 -9.888073 -55.91009 50.01267 -36.96909 -44.18289 37.70895 -9.121794 -55.61218 37.70895 -36.20281 -44.18289 50.83449 -9.121794 -55.61218 50.83449 -36.20281 -44.77872 36.06531 -10.65435 -56.20801 36.06531 -37.73537 -44.77872 49.19085 -10.65435 -56.20801 49.19085 -37.73537 -45.07664 35.24349 -11.42063 -56.50592 35.24349 -38.50166 -45.07664 48.36903 -11.42063 -56.50592 48.36903 -38.50166 -45.37455 34.42167 -12.18691 -56.80384 34.42167 -39.26793 -45.37455 47.54721 -12.18691 -56.80384 47.54721 -39.26793 -45.67247 33.59985 -12.95319 -57.10175 33.59985 -40.03421 -45.67247 46.7254 -12.95319 -57.10175 46.7254 -40.03421 -45.97038 32.77803 -13.71947 -57.39967 32.77803 -40.8005 -45.97038 45.90357 -13.71947 -57.39967 45.90357 -40.8005 -46.2683 31.95621 -14.48575 -57.69758 31.95621 -41.56678 -46.2683 45.08175 -14.48575 -57.69758 45.08175 -41.56678</float_array>
+          <technique_common>
+            <accessor source="#group5_pCube10__Signage00-position-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group5_pCube10__Signage00-normal">
+          <float_array id="group5_pCube10__Signage00-normal-array" count="108">0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325 0.9217221 0 -0.3894325</float_array>
+          <technique_common>
+            <accessor source="#group5_pCube10__Signage00-normal-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group5_pCube10__Signage00-texcoord">
+          <float_array id="group5_pCube10__Signage00-texcoord-array" count="72">0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059</float_array>
+          <technique_common>
+            <accessor source="#group5_pCube10__Signage00-texcoord-array" count="36" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="group5_pCube10__Signage00-vertex">
+          <input semantic="POSITION" source="#group5_pCube10__Signage00-position" />
+        </vertices>
+        <triangles material="Signage00" count="18">
+          <input semantic="VERTEX" source="#group5_pCube10__Signage00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#group5_pCube10__Signage00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#group5_pCube10__Signage00-texcoord" offset="2" set="0" />
+          <p>33 33 33 35 35 35 34 34 34 29 29 29 31 31 31 30 30 30 28 28 28 29 29 29 30 30 30 32 32 32 33 33 33 34 34 34 25 25 25 27 27 27 26 26 26 24 24 24 25 25 25 26 26 26 21 21 21 23 23 23 22 22 22 20 20 20 21 21 21 22 22 22 17 17 17 19 19 19 18 18 18 16 16 16 17 17 17 18 18 18 12 12 12 13 13 13 14 14 14 9 9 9 11 11 11 10 10 10 8 8 8 9 9 9 10 10 10 5 5 5 7 7 7 6 6 6 4 4 4 5 5 5 6 6 6 13 13 13 15 15 15 14 14 14 1 1 1 3 3 3 2 2 2 0 0 0 1 1 1 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="group6_pCube10__Signage00-mesh" name="group6_pCube10__Signage00">
+      <mesh>
+        <source id="group6_pCube10__Signage00-position">
+          <float_array id="group6_pCube10__Signage00-position-array" count="108">39.03726 67.56262 -13.72493 58.97892 67.19785 7.866897 39.14472 80.68715 -13.60246 59.08639 80.32239 7.989368 40.10439 65.89869 -12.50105 60.04605 65.53394 9.090781 40.21185 79.02322 -12.37858 60.15351 78.65846 9.213252 39.57082 66.73065 -13.11299 59.51249 66.3659 8.47884 39.67828 79.85519 -12.99052 59.61995 79.49043 8.601311 40.63795 65.06673 -11.8891 60.57962 64.70197 9.702724 40.74541 78.19126 -11.76663 60.68708 77.8265 9.825195 41.17152 64.23476 -11.27716 61.11318 63.87001 10.31467 41.27898 77.3593 -11.15469 61.22064 76.99454 10.43714 41.70509 63.40281 -10.66522 61.64675 63.03805 10.92661 41.81255 76.52734 -10.54275 61.75421 76.16258 11.04908 42.23865 62.57085 -10.05328 62.18032 62.20609 11.53855 42.34611 75.69537 -9.930806 62.28778 75.33062 11.66102 42.77222 61.73888 -9.441336 62.71388 61.37412 12.15049 42.87968 74.86341 -9.318865 62.82134 74.49866 12.27296 43.30578 60.90693 -8.829392 63.24744 60.54216 12.76244 43.41324 74.03146 -8.706922 63.3549 73.66669 12.88491</float_array>
+          <technique_common>
+            <accessor source="#group6_pCube10__Signage00-position-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group6_pCube10__Signage00-normal">
+          <float_array id="group6_pCube10__Signage00-normal-array" count="108">-0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606 -0.7338552 0 0.6790606</float_array>
+          <technique_common>
+            <accessor source="#group6_pCube10__Signage00-normal-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group6_pCube10__Signage00-texcoord">
+          <float_array id="group6_pCube10__Signage00-texcoord-array" count="72">0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059 0.282353 0.1176471 0.8392157 0.1176471 0.282353 0.3647059 0.8392157 0.3647059</float_array>
+          <technique_common>
+            <accessor source="#group6_pCube10__Signage00-texcoord-array" count="36" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="group6_pCube10__Signage00-vertex">
+          <input semantic="POSITION" source="#group6_pCube10__Signage00-position" />
+        </vertices>
+        <triangles material="Signage00" count="18">
+          <input semantic="VERTEX" source="#group6_pCube10__Signage00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#group6_pCube10__Signage00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#group6_pCube10__Signage00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Pop2__Signage00-mesh">
+      <skin source="#Pop2__Signage00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Pop2__Signage00-mesh-joint">
+          <Name_array id="Pop2__Signage00-mesh-joint-array" count="1">Pop2</Name_array>
+          <technique_common>
+            <accessor source="#Pop2__Signage00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop2__Signage00-mesh-inv_bind_matrix">
+          <float_array id="Pop2__Signage00-mesh-inv_bind_matrix-array" count="16">1 0 0 -55.56535 0 1 0 -75.6059 0 0 1 -56.18069 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Pop2__Signage00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop2__Signage00-mesh-weight">
+          <float_array id="Pop2__Signage00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Pop2__Signage00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Pop2__Signage00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Pop2__Signage00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Pop2__Signage00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Pop2__Signage00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Pop7__Signage00-mesh">
+      <skin source="#Pop7__Signage00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Pop7__Signage00-mesh-joint">
+          <Name_array id="Pop7__Signage00-mesh-joint-array" count="1">Pop7</Name_array>
+          <technique_common>
+            <accessor source="#Pop7__Signage00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop7__Signage00-mesh-inv_bind_matrix">
+          <float_array id="Pop7__Signage00-mesh-inv_bind_matrix-array" count="16">1 0 0 29.1662 0 1 0 -56.36842 0 0 1 -68.6151 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Pop7__Signage00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pop7__Signage00-mesh-weight">
+          <float_array id="Pop7__Signage00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Pop7__Signage00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Pop7__Signage00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Pop7__Signage00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#Pop7__Signage00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Pop7__Signage00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_group12_pCube10__Signage00-mesh">
+      <skin source="#group12_pCube10__Signage00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="group12_pCube10__Signage00-mesh-joint">
+          <Name_array id="group12_pCube10__Signage00-mesh-joint-array" count="1">group12_pCube10</Name_array>
+          <technique_common>
+            <accessor source="#group12_pCube10__Signage00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group12_pCube10__Signage00-mesh-inv_bind_matrix">
+          <float_array id="group12_pCube10__Signage00-mesh-inv_bind_matrix-array" count="16">1 0 0 -43.04535 0 1 0 -24.49236 0 0 1 -83.01064 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#group12_pCube10__Signage00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group12_pCube10__Signage00-mesh-weight">
+          <float_array id="group12_pCube10__Signage00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#group12_pCube10__Signage00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#group12_pCube10__Signage00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#group12_pCube10__Signage00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="36">
+          <input semantic="JOINT" source="#group12_pCube10__Signage00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#group12_pCube10__Signage00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_group5_pCube10__Signage00-mesh">
+      <skin source="#group5_pCube10__Signage00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="group5_pCube10__Signage00-mesh-joint">
+          <Name_array id="group5_pCube10__Signage00-mesh-joint-array" count="1">group5_pCube10</Name_array>
+          <technique_common>
+            <accessor source="#group5_pCube10__Signage00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group5_pCube10__Signage00-mesh-inv_bind_matrix">
+          <float_array id="group5_pCube10__Signage00-mesh-inv_bind_matrix-array" count="16">1 0 0 50.79128 0 1 0 -41.80626 0 0 1 24.96114 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#group5_pCube10__Signage00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group5_pCube10__Signage00-mesh-weight">
+          <float_array id="group5_pCube10__Signage00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#group5_pCube10__Signage00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#group5_pCube10__Signage00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#group5_pCube10__Signage00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="36">
+          <input semantic="JOINT" source="#group5_pCube10__Signage00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#group5_pCube10__Signage00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_group6_pCube10__Signage00-mesh">
+      <skin source="#group6_pCube10__Signage00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="group6_pCube10__Signage00-mesh-joint">
+          <Name_array id="group6_pCube10__Signage00-mesh-joint-array" count="1">group6_pCube10</Name_array>
+          <technique_common>
+            <accessor source="#group6_pCube10__Signage00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group6_pCube10__Signage00-mesh-inv_bind_matrix">
+          <float_array id="group6_pCube10__Signage00-mesh-inv_bind_matrix-array" count="16">1 0 0 -51.19608 0 1 0 -70.61465 0 0 1 0.4200122 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#group6_pCube10__Signage00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group6_pCube10__Signage00-mesh-weight">
+          <float_array id="group6_pCube10__Signage00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#group6_pCube10__Signage00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#group6_pCube10__Signage00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#group6_pCube10__Signage00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="36">
+          <input semantic="JOINT" source="#group6_pCube10__Signage00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#group6_pCube10__Signage00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldBG_Alterna2c03" name="FldBG_Alterna2c03" sid="FldBG_Alterna2c03" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_Pop2" name="Pop2" sid="Pop2" type="JOINT">
+            <matrix sid="transform">1 0 0 55.56535 0 1 0 75.6059 0 0 1 56.18069 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_Pop7" name="Pop7" sid="Pop7" type="JOINT">
+            <matrix sid="transform">1 0 0 -29.1662 0 1 0 56.36842 0 0 1 68.6151 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_group12_pCube10" name="group12_pCube10" sid="group12_pCube10" type="JOINT">
+            <matrix sid="transform">1 0 0 43.04535 0 1 0 24.49236 0 0 1 83.01064 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_group5_pCube10" name="group5_pCube10" sid="group5_pCube10" type="JOINT">
+            <matrix sid="transform">1 0 0 -50.79128 0 1 0 41.80626 0 0 1 -24.96114 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_group6_pCube10" name="group6_pCube10" sid="group6_pCube10" type="JOINT">
+            <matrix sid="transform">1 0 0 51.19608 0 1 0 70.61465 0 0 1 -0.4200122 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="Pop2__Signage00" name="Pop2__Signage00" type="NODE">
+        <instance_controller url="#Armature_Pop2__Signage00-mesh">
+          <skeleton>#Armature_FldBG_Alterna2c03</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Signage00" target="#Signage00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Pop7__Signage00" name="Pop7__Signage00" type="NODE">
+        <instance_controller url="#Armature_Pop7__Signage00-mesh">
+          <skeleton>#Armature_FldBG_Alterna2c03</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Signage00" target="#Signage00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="group12_pCube10__Signage00" name="group12_pCube10__Signage00" type="NODE">
+        <instance_controller url="#Armature_group12_pCube10__Signage00-mesh">
+          <skeleton>#Armature_FldBG_Alterna2c03</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Signage00" target="#Signage00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="group5_pCube10__Signage00" name="group5_pCube10__Signage00" type="NODE">
+        <instance_controller url="#Armature_group5_pCube10__Signage00-mesh">
+          <skeleton>#Armature_FldBG_Alterna2c03</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Signage00" target="#Signage00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="group6_pCube10__Signage00" name="group6_pCube10__Signage00" type="NODE">
+        <instance_controller url="#Armature_group6_pCube10__Signage00-mesh">
+          <skeleton>#Armature_FldBG_Alterna2c03</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Signage00" target="#Signage00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

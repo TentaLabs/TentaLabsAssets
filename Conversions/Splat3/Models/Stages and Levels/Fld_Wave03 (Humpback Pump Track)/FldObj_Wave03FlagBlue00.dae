@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Accessory_Alb">
+      <init_from>Accessory_Alb.png</init_from>
+    </image>
+    <image id="Accessory_Nrm">
+      <init_from>Accessory_Nrm.png</init_from>
+    </image>
+    <image id="Accessory_Rgh">
+      <init_from>Accessory_Rgh.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="Bike00_Alb">
+      <init_from>Bike00_Alb.png</init_from>
+    </image>
+    <image id="Bike00_Mtl">
+      <init_from>Bike00_Mtl.png</init_from>
+    </image>
+    <image id="Bike00_Nrm">
+      <init_from>Bike00_Nrm.png</init_from>
+    </image>
+    <image id="Bike00_Opa">
+      <init_from>Bike00_Opa.png</init_from>
+    </image>
+    <image id="Bike00_Rgh">
+      <init_from>Bike00_Rgh.png</init_from>
+    </image>
+    <image id="BikeShopObj_Alb">
+      <init_from>BikeShopObj_Alb.png</init_from>
+    </image>
+    <image id="BikeShopObj_Mtl">
+      <init_from>BikeShopObj_Mtl.png</init_from>
+    </image>
+    <image id="BikeShopObj_Nrm">
+      <init_from>BikeShopObj_Nrm.png</init_from>
+    </image>
+    <image id="BikeShopObj_Opa">
+      <init_from>BikeShopObj_Opa.png</init_from>
+    </image>
+    <image id="BikeShopObj_Rgh">
+      <init_from>BikeShopObj_Rgh.png</init_from>
+    </image>
+    <image id="Bolt_Alb">
+      <init_from>Bolt_Alb.png</init_from>
+    </image>
+    <image id="Bolt_Nrm">
+      <init_from>Bolt_Nrm.png</init_from>
+    </image>
+    <image id="Bolt_Opa">
+      <init_from>Bolt_Opa.png</init_from>
+    </image>
+    <image id="Bolt_Rgh">
+      <init_from>Bolt_Rgh.png</init_from>
+    </image>
+    <image id="BuildingSet00_Alb">
+      <init_from>BuildingSet00_Alb.png</init_from>
+    </image>
+    <image id="BuildingSet00_Emm">
+      <init_from>BuildingSet00_Emm.png</init_from>
+    </image>
+    <image id="BuildingSet00_Nrm">
+      <init_from>BuildingSet00_Nrm.png</init_from>
+    </image>
+    <image id="BuildingSet00_Rgh">
+      <init_from>BuildingSet00_Rgh.png</init_from>
+    </image>
+    <image id="BuildingSet01_Alb">
+      <init_from>BuildingSet01_Alb.png</init_from>
+    </image>
+    <image id="BuildingSet01_Emm">
+      <init_from>BuildingSet01_Emm.png</init_from>
+    </image>
+    <image id="BuildingSet01_Rgh">
+      <init_from>BuildingSet01_Rgh.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Nrm">
+      <init_from>CanolaA_Nrm.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Nrm">
+      <init_from>CanolaB_Nrm.png</init_from>
+    </image>
+    <image id="Canola_Fxm">
+      <init_from>Canola_Fxm.png</init_from>
+    </image>
+    <image id="Canola_Opa">
+      <init_from>Canola_Opa.png</init_from>
+    </image>
+    <image id="Cloth_Alb">
+      <init_from>Cloth_Alb.png</init_from>
+    </image>
+    <image id="Cloth_Nrm">
+      <init_from>Cloth_Nrm.png</init_from>
+    </image>
+    <image id="Cloth_Opa">
+      <init_from>Cloth_Opa.png</init_from>
+    </image>
+    <image id="Container_Alb">
+      <init_from>Container_Alb.png</init_from>
+    </image>
+    <image id="Container_Nrm">
+      <init_from>Container_Nrm.png</init_from>
+    </image>
+    <image id="Container_Rgh">
+      <init_from>Container_Rgh.png</init_from>
+    </image>
+    <image id="CorrugatedRoof_Alb">
+      <init_from>CorrugatedRoof_Alb.png</init_from>
+    </image>
+    <image id="CorrugatedRoof_Emm">
+      <init_from>CorrugatedRoof_Emm.png</init_from>
+    </image>
+    <image id="CorrugatedRoof_Nrm">
+      <init_from>CorrugatedRoof_Nrm.png</init_from>
+    </image>
+    <image id="duct_Alb">
+      <init_from>duct_Alb.png</init_from>
+    </image>
+    <image id="duct_Nrm">
+      <init_from>duct_Nrm.png</init_from>
+    </image>
+    <image id="FabricCover_Alb">
+      <init_from>FabricCover_Alb.png</init_from>
+    </image>
+    <image id="FabricCover_Nrm">
+      <init_from>FabricCover_Nrm.png</init_from>
+    </image>
+    <image id="Fence00_Alb">
+      <init_from>Fence00_Alb.png</init_from>
+    </image>
+    <image id="Fence00_Nrm">
+      <init_from>Fence00_Nrm.png</init_from>
+    </image>
+    <image id="Fence00_Opa">
+      <init_from>Fence00_Opa.png</init_from>
+    </image>
+    <image id="FenceIronNet_Alb">
+      <init_from>FenceIronNet_Alb.png</init_from>
+    </image>
+    <image id="FenceIronNet_Mtl">
+      <init_from>FenceIronNet_Mtl.png</init_from>
+    </image>
+    <image id="FenceIronNet_Nrm">
+      <init_from>FenceIronNet_Nrm.png</init_from>
+    </image>
+    <image id="FenceIronNet_Opa">
+      <init_from>FenceIronNet_Opa.png</init_from>
+    </image>
+    <image id="FenceIronNet_Rgh">
+      <init_from>FenceIronNet_Rgh.png</init_from>
+    </image>
+    <image id="FlagBanners_Alb">
+      <init_from>FlagBanners_Alb.png</init_from>
+    </image>
+    <image id="FlagBanners_Mtl">
+      <init_from>FlagBanners_Mtl.png</init_from>
+    </image>
+    <image id="FlagBanners_Nrm">
+      <init_from>FlagBanners_Nrm.png</init_from>
+    </image>
+    <image id="FlagBanners_Rgh">
+      <init_from>FlagBanners_Rgh.png</init_from>
+    </image>
+    <image id="Flag_Alb">
+      <init_from>Flag_Alb.png</init_from>
+    </image>
+    <image id="Flag_Mtl">
+      <init_from>Flag_Mtl.png</init_from>
+    </image>
+    <image id="Flag_Nrm">
+      <init_from>Flag_Nrm.png</init_from>
+    </image>
+    <image id="Flag_Rgh">
+      <init_from>Flag_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Alb">
+      <init_from>FloorConcreteHigh_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Nrm">
+      <init_from>FloorConcreteHigh_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Rgh">
+      <init_from>FloorConcreteHigh_Rgh.png</init_from>
+    </image>
+    <image id="FoamBlock_Alb">
+      <init_from>FoamBlock_Alb.png</init_from>
+    </image>
+    <image id="FoamBlock_Nrm">
+      <init_from>FoamBlock_Nrm.png</init_from>
+    </image>
+    <image id="FoamBlock_Rgh">
+      <init_from>FoamBlock_Rgh.png</init_from>
+    </image>
+    <image id="FoamMat_Alb">
+      <init_from>FoamMat_Alb.png</init_from>
+    </image>
+    <image id="FoamMat_Nrm">
+      <init_from>FoamMat_Nrm.png</init_from>
+    </image>
+    <image id="FoamMat_Rgh">
+      <init_from>FoamMat_Rgh.png</init_from>
+    </image>
+    <image id="Glass_Alb">
+      <init_from>Glass_Alb.png</init_from>
+    </image>
+    <image id="Glass_Nrm">
+      <init_from>Glass_Nrm.png</init_from>
+    </image>
+    <image id="Glass_Rgh">
+      <init_from>Glass_Rgh.png</init_from>
+    </image>
+    <image id="Graffitiset_Alb">
+      <init_from>Graffitiset_Alb.png</init_from>
+    </image>
+    <image id="Graffitiset_Nrm">
+      <init_from>Graffitiset_Nrm.png</init_from>
+    </image>
+    <image id="Graffitiset_Opa">
+      <init_from>Graffitiset_Opa.png</init_from>
+    </image>
+    <image id="Graffitiset_Rgh">
+      <init_from>Graffitiset_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Alb">
+      <init_from>GroundAsphalt_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Rgh">
+      <init_from>GroundAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="GroundCementGrey_Alb">
+      <init_from>GroundCementGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundCementGrey_Nrm">
+      <init_from>GroundCementGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundCementGrey_Rgh">
+      <init_from>GroundCementGrey_Rgh.png</init_from>
+    </image>
+    <image id="GroundCementLightGrey_Alb">
+      <init_from>GroundCementLightGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundCementLightGrey_Nrm">
+      <init_from>GroundCementLightGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Alb">
+      <init_from>GroundConcreteGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Nrm">
+      <init_from>GroundConcreteGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Rgh">
+      <init_from>GroundConcreteGrey_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="GroundPlywood_Alb">
+      <init_from>GroundPlywood_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Brown_Alb">
+      <init_from>GroundPlywood_Brown_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Logo_Alb">
+      <init_from>GroundPlywood_Logo_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Logo_Opa">
+      <init_from>GroundPlywood_Logo_Opa.png</init_from>
+    </image>
+    <image id="GroundPlywood_Multi_Alb">
+      <init_from>GroundPlywood_Multi_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Multi_Rgh">
+      <init_from>GroundPlywood_Multi_Rgh.png</init_from>
+    </image>
+    <image id="GroundPlywood_Nrm">
+      <init_from>GroundPlywood_Nrm.png</init_from>
+    </image>
+    <image id="GroundPlywood_Rgh">
+      <init_from>GroundPlywood_Rgh.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Alb">
+      <init_from>GroundRoughWood_Alb.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Nrm">
+      <init_from>GroundRoughWood_Nrm.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Rgh">
+      <init_from>GroundRoughWood_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="Light_Alb">
+      <init_from>Light_Alb.png</init_from>
+    </image>
+    <image id="Light_Emi">
+      <init_from>Light_Emi.png</init_from>
+    </image>
+    <image id="Light_Emm">
+      <init_from>Light_Emm.png</init_from>
+    </image>
+    <image id="Light_Mtl">
+      <init_from>Light_Mtl.png</init_from>
+    </image>
+    <image id="Light_Nrm">
+      <init_from>Light_Nrm.png</init_from>
+    </image>
+    <image id="Light_Opa">
+      <init_from>Light_Opa.png</init_from>
+    </image>
+    <image id="Light_Rgh">
+      <init_from>Light_Rgh.png</init_from>
+    </image>
+    <image id="metalbeamsset_Alb">
+      <init_from>metalbeamsset_Alb.png</init_from>
+    </image>
+    <image id="metalbeamsset_Nrm">
+      <init_from>metalbeamsset_Nrm.png</init_from>
+    </image>
+    <image id="metalbeamsset_Rgh">
+      <init_from>metalbeamsset_Rgh.png</init_from>
+    </image>
+    <image id="MtBike00_Alb">
+      <init_from>MtBike00_Alb.png</init_from>
+    </image>
+    <image id="MtBike00_Mtl">
+      <init_from>MtBike00_Mtl.png</init_from>
+    </image>
+    <image id="MtBike00_Nrm">
+      <init_from>MtBike00_Nrm.png</init_from>
+    </image>
+    <image id="MtBike00_Opa">
+      <init_from>MtBike00_Opa.png</init_from>
+    </image>
+    <image id="MtBike00_Rgh">
+      <init_from>MtBike00_Rgh.png</init_from>
+    </image>
+    <image id="MtBike01_Alb">
+      <init_from>MtBike01_Alb.png</init_from>
+    </image>
+    <image id="MtBike01_Mtl">
+      <init_from>MtBike01_Mtl.png</init_from>
+    </image>
+    <image id="MtBike01_Nrm">
+      <init_from>MtBike01_Nrm.png</init_from>
+    </image>
+    <image id="MtBike01_Rgh">
+      <init_from>MtBike01_Rgh.png</init_from>
+    </image>
+    <image id="ObjSet01_Alb">
+      <init_from>ObjSet01_Alb.png</init_from>
+    </image>
+    <image id="ObjSet01_Mtl">
+      <init_from>ObjSet01_Mtl.png</init_from>
+    </image>
+    <image id="ObjSet01_Nrm">
+      <init_from>ObjSet01_Nrm.png</init_from>
+    </image>
+    <image id="ObjSet01_Rgh">
+      <init_from>ObjSet01_Rgh.png</init_from>
+    </image>
+    <image id="Plywood_Alb">
+      <init_from>Plywood_Alb.png</init_from>
+    </image>
+    <image id="Plywood_Nrm">
+      <init_from>Plywood_Nrm.png</init_from>
+    </image>
+    <image id="Plywood_Rgh">
+      <init_from>Plywood_Rgh.png</init_from>
+    </image>
+    <image id="Set_Alb">
+      <init_from>Set_Alb.png</init_from>
+    </image>
+    <image id="Set_Opa">
+      <init_from>Set_Opa.png</init_from>
+    </image>
+    <image id="Set_Rgh">
+      <init_from>Set_Rgh.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Alb">
+      <init_from>ShipVinylSheet_Alb.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Nrm">
+      <init_from>ShipVinylSheet_Nrm.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Rgh">
+      <init_from>ShipVinylSheet_Rgh.png</init_from>
+    </image>
+    <image id="ShopIronWood_Alb">
+      <init_from>ShopIronWood_Alb.png</init_from>
+    </image>
+    <image id="ShopIronWood_Mtl">
+      <init_from>ShopIronWood_Mtl.png</init_from>
+    </image>
+    <image id="ShopIronWood_Nrm">
+      <init_from>ShopIronWood_Nrm.png</init_from>
+    </image>
+    <image id="ShopIronWood_Rgh">
+      <init_from>ShopIronWood_Rgh.png</init_from>
+    </image>
+    <image id="Sign_Alb">
+      <init_from>Sign_Alb.png</init_from>
+    </image>
+    <image id="Sign_Emm">
+      <init_from>Sign_Emm.png</init_from>
+    </image>
+    <image id="Sign_Nrm">
+      <init_from>Sign_Nrm.png</init_from>
+    </image>
+    <image id="Sign_Rgh">
+      <init_from>Sign_Rgh.png</init_from>
+    </image>
+    <image id="Soil_Alb">
+      <init_from>Soil_Alb.png</init_from>
+    </image>
+    <image id="Soil_Rgh">
+      <init_from>Soil_Rgh.png</init_from>
+    </image>
+    <image id="StoneWoodSet_Alb">
+      <init_from>StoneWoodSet_Alb.png</init_from>
+    </image>
+    <image id="StoneWoodSet_Nrm">
+      <init_from>StoneWoodSet_Nrm.png</init_from>
+    </image>
+    <image id="StoneWoodSet_Rgh">
+      <init_from>StoneWoodSet_Rgh.png</init_from>
+    </image>
+    <image id="TreeSiluet_Alb">
+      <init_from>TreeSiluet_Alb.png</init_from>
+    </image>
+    <image id="VehicleColor_Alb">
+      <init_from>VehicleColor_Alb.png</init_from>
+    </image>
+    <image id="VehicleColor_Nrm">
+      <init_from>VehicleColor_Nrm.png</init_from>
+    </image>
+    <image id="VehicleColor_Rgh">
+      <init_from>VehicleColor_Rgh.png</init_from>
+    </image>
+    <image id="vent_Alb">
+      <init_from>vent_Alb.png</init_from>
+    </image>
+    <image id="vent_Mtl">
+      <init_from>vent_Mtl.png</init_from>
+    </image>
+    <image id="vent_Nrm">
+      <init_from>vent_Nrm.png</init_from>
+    </image>
+    <image id="vent_Rgh">
+      <init_from>vent_Rgh.png</init_from>
+    </image>
+    <image id="Wallbricks_Alb">
+      <init_from>Wallbricks_Alb.png</init_from>
+    </image>
+    <image id="Wallbricks_Nrm">
+      <init_from>Wallbricks_Nrm.png</init_from>
+    </image>
+    <image id="Wallbricks_Rgh">
+      <init_from>Wallbricks_Rgh.png</init_from>
+    </image>
+    <image id="wallbrick_Alb">
+      <init_from>wallbrick_Alb.png</init_from>
+    </image>
+    <image id="wallbrick_Nrm">
+      <init_from>wallbrick_Nrm.png</init_from>
+    </image>
+    <image id="wallbrick_Rgh">
+      <init_from>wallbrick_Rgh.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Alb">
+      <init_from>WallMetalFenceSet_Alb.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Mtl">
+      <init_from>WallMetalFenceSet_Mtl.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Nrm">
+      <init_from>WallMetalFenceSet_Nrm.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Rgh">
+      <init_from>WallMetalFenceSet_Rgh.png</init_from>
+    </image>
+    <image id="WallVinylCover_Black_Alb">
+      <init_from>WallVinylCover_Black_Alb.png</init_from>
+    </image>
+    <image id="WallVinylCover_Nrm">
+      <init_from>WallVinylCover_Nrm.png</init_from>
+    </image>
+    <image id="Window_Alb">
+      <init_from>Window_Alb.png</init_from>
+    </image>
+    <image id="Window_Emm">
+      <init_from>Window_Emm.png</init_from>
+    </image>
+    <image id="Window_Rgh">
+      <init_from>Window_Rgh.png</init_from>
+    </image>
+    <image id="WoodenBox_Alb">
+      <init_from>WoodenBox_Alb.png</init_from>
+    </image>
+    <image id="WoodenBox_Mtl">
+      <init_from>WoodenBox_Mtl.png</init_from>
+    </image>
+    <image id="WoodenBox_Nrm">
+      <init_from>WoodenBox_Nrm.png</init_from>
+    </image>
+    <image id="WoodenBox_Rgh">
+      <init_from>WoodenBox_Rgh.png</init_from>
+    </image>
+    <image id="woodpanel_Alb">
+      <init_from>woodpanel_Alb.png</init_from>
+    </image>
+    <image id="woodpanel_Nrm">
+      <init_from>woodpanel_Nrm.png</init_from>
+    </image>
+    <image id="woodpanel_Rgh">
+      <init_from>woodpanel_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="FlagBanners_cp">
+      <instance_effect url="#Effect_FlagBanners_cp" />
+    </material>
+    <material id="WallMetalFenceSet_ol_cp">
+      <instance_effect url="#Effect_WallMetalFenceSet_ol_cp" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_FlagBanners_cp">
+      <profile_COMMON>
+        <newparam sid="surface_FlagBanners_cp-diffuse">
+          <surface type="2D">
+            <init_from>FlagBanners_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FlagBanners_cp-diffuse">
+          <sampler2D>
+            <source>surface_FlagBanners_cp-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_FlagBanners_cp-bump">
+          <surface type="2D">
+            <init_from>FlagBanners_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FlagBanners_cp-bump">
+          <sampler2D>
+            <source>surface_FlagBanners_cp-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_FlagBanners_cp-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_FlagBanners_cp-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallMetalFenceSet_ol_cp">
+      <profile_COMMON>
+        <newparam sid="surface_WallMetalFenceSet_ol_cp-diffuse">
+          <surface type="2D">
+            <init_from>WallMetalFenceSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallMetalFenceSet_ol_cp-diffuse">
+          <sampler2D>
+            <source>surface_WallMetalFenceSet_ol_cp-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallMetalFenceSet_ol_cp-bump">
+          <surface type="2D">
+            <init_from>WallMetalFenceSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallMetalFenceSet_ol_cp-bump">
+          <sampler2D>
+            <source>surface_WallMetalFenceSet_ol_cp-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallMetalFenceSet_ol_cp-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallMetalFenceSet_ol_cp-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh" name="nurbsToPoly98__WallMetalFenceSet_ol_cp">
+      <mesh>
+        <source id="nurbsToPoly98__WallMetalFenceSet_ol_cp-position">
+          <float_array id="nurbsToPoly98__WallMetalFenceSet_ol_cp-position-array" count="408">-0.006125838 9.207888 -0.03 0 2.993114 -0.03 -0.03519568 9.215877 0 -0.02957177 2.993114 0 -0.006125838 9.207888 0.02999997 0 2.993114 0.02999997 0.022944 9.199898 0 0.02957177 2.993114 0 -0.006125838 9.207888 -0.03 0 2.993114 -0.03 -0.02957177 2.993114 0 0 2.993114 -0.03 0 0 -0.01999999 0 2.993114 -0.01999999 0.02 2.993114 0 0.02 0 0 0 2.993114 0.02 0 0 0.02 -0.02 2.993114 0 -0.02 0 0 0 2.993114 -0.01999999 0 0 -0.01999999 1.163919 10.56342 -0.03 1.163919 10.59342 0 1.163919 10.56342 0.02999997 1.163919 10.53342 0 1.163919 10.56342 -0.03 0.8913785 10.50891 -0.03 0.897181 10.47891 0 0.6408083 10.37846 -0.03 0.8913785 10.50891 0.02999997 0.6535952 10.35105 0 0.4168565 10.20028 -0.03 0.6408088 10.37846 0.02999997 0.8855758 10.53891 0 1.163919 10.59342 0 1.163919 10.56342 -0.03 0.8913785 10.50891 -0.03 0.6280229 10.40587 0 0.6408083 10.37846 -0.03 0.3984669 10.22435 0 0.4168565 10.20028 -0.03 0.4168566 10.20028 0.02999997 0.219672 10.0024 0 0.2422928 9.982401 -0.03 0.435247 10.17621 0 0.2422928 9.982401 -0.03 0.2422928 9.982401 0.02999997 0.0902772 9.754366 0 0.1156809 9.738198 -0.03 0.2649136 9.962399 0 0.1156809 9.738198 -0.03 0.1156812 9.738199 0.02999997 0.005909485 9.485598 0 0.03347353 9.47343 -0.03 0.1410847 9.722031 0 0.03347353 9.47343 -0.03 0.03347357 9.47343 0.02999997 0.06103769 9.461264 0 0 0 -0.01999999 0 2.993114 -0.01999999 0.02 2.993114 0 0 0 0.02 0.02 2.993114 0 -0.02 2.993114 0 -0.02 0 0 0 2.993114 -0.01999999 0 0 -0.01999999 0.1410847 9.722031 0 0.03347357 9.47343 0.02999997 0.03347353 9.47343 -0.03 -0.006125838 9.207888 -0.03 0.435247 10.17621 0 0.6408088 10.37846 0.02999997 0.3984669 10.22435 0 0.8855758 10.53891 0 0.6408083 10.37846 -0.03 0.2422928 9.982401 -0.03 0.435247 10.17621 0 0.6408083 10.37846 -0.03 0.897181 10.47891 0 0.8855758 10.53891 0 1.163919 10.53342 0 0.8913785 10.50891 0.02999997 1.163919 10.56342 0.02999997 1.163919 10.53342 0 -0.006125838 9.207888 0.02999997 0.02957177 2.993114 0 0 2.993114 -0.03 0 2.993114 0.02999997 0 2.993114 -0.03 0 2.993114 -0.03 -0.03519568 9.215877 0 -0.006125838 9.207888 0.02999997 -0.006125838 9.207888 -0.03 0.03347357 9.47343 0.02999997 0.03347353 9.47343 -0.03 0.0902772 9.754366 0 0.1410847 9.722031 0 0.2422928 9.982401 -0.03 0.8807566 10.49917 0.000733707 0.2300453 9.994474 -0.02743865 0.1261516 9.734995 0.005818355 0.2300453 9.994474 -0.02743865 0.03048173 9.474331 -0.02882142 0.1261516 9.734995 0.005818355 0.8807566 10.49917 0.000733707 0.1261516 9.734995 0.005818355 0.2300453 9.994474 -0.02743865 0.2300453 9.994474 -0.02743865 0.1261516 9.734995 0.005818355 0.03048173 9.474331 -0.02882142 0.002231219 -0.001577711 -0.02000064 0 2.993114 -0.01999999 0.02002043 2.993102 0.002251052 0.002231218 -0.00157771 0.01999935 0.002231218 -0.00157771 0.01999935 0.02002043 2.993102 0.002251052 -0.02000066 2.993114 0.002251053 -0.02 0 0 0 2.993114 -0.01999999 0.002231219 -0.001577711 -0.02000064 0.1261516 9.734995 0.005818355 0.002269375 9.207191 0.03010648 0.03048173 9.474331 -0.02882142 0.002274903 9.207225 -0.03001253 0.02958739 2.993114 0 -0.007129349 2.988086 -0.0300003 -0.007130987 2.988084 0.02999966 -0.007129349 2.988086 -0.0300003 -0.007129349 2.988086 -0.0300003 -0.03613095 9.216063 0.0006631703 0.002274903 9.207225 -0.03001253 0.002269375 9.207191 0.03010648 0.03048173 9.474331 -0.02882142 0.1261516 9.734995 0.005818355</float_array>
+          <technique_common>
+            <accessor source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-position-array" count="136" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nurbsToPoly98__WallMetalFenceSet_ol_cp-normal">
+          <float_array id="nurbsToPoly98__WallMetalFenceSet_ol_cp-normal-array" count="408">-0.1154599 0 -0.9941292 0 -0.003913894 -1 -1 0.005870841 0 -1 -0.005870841 0 -0.1154599 0 0.9941292 0 -0.003913894 1 1 -0.003913894 0 1 -0.003913894 0 -0.1154599 0 -0.9941292 0 -0.003913894 -1 -1 -0.005870841 0 0 -0.003913894 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 0 0 1 0 0 1 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0.09001957 0.09589041 -0.9921722 -0.07827789 0.9960861 0 0.09001957 0.09589041 0.9921722 0.2915851 -0.9569471 0 0.09001957 0.09589041 -0.9921722 -0.0332681 0.06849315 -0.9980431 0.3444227 -0.9393346 0 -0.0332681 0.04500978 -0.9980431 -0.0332681 0.06849315 0.9980431 0.5518591 -0.8336595 0 -0.04696673 0.03913894 -0.9980431 -0.0332681 0.04500978 0.9980431 -0.3228963 0.9471624 0 -0.07827789 0.9960861 0 0.09001957 0.09589041 -0.9921722 -0.0332681 0.06849315 -0.9980431 -0.5381604 0.8434442 0 -0.0332681 0.04500978 -0.9980431 -0.6986302 0.7142857 0 -0.04696673 0.03913894 -0.9980431 -0.04696673 0.03913894 0.9980431 -0.8336595 0.5518591 0 -0.04696673 0.02544031 -0.9980431 0.7103718 -0.704501 0 -0.04696673 0.02544031 -0.9980431 -0.04696673 0.02544031 0.9980431 -0.9217221 0.3874756 0 -0.04696673 0.01369863 -0.9980431 0.8414873 -0.5401174 0 -0.04696673 0.01369863 -0.9980431 -0.04696673 0.01369863 0.9980431 -0.9726027 0.2328767 0 -0.04109589 0.003913894 -1 0.9275929 -0.37182 0 -0.04109589 0.003913894 -1 -0.04109589 0.003913894 1 0.9765166 -0.2152642 0 0 0 -1 0 0 -1 1 0 0 0 0 1 0 0 1 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0.9275929 -0.37182 0 -0.08610567 -0.1154599 0.9902152 -0.2289628 0.09393346 -0.9686888 -0.1174168 0 -0.9921722 0.5440313 -0.5636008 0.6223092 -0.0332681 0.04305284 0.9980431 -0.6986302 0.7142857 0 -0.2818004 0.9589041 -0.02152642 -0.04500978 0.07436399 -0.9960861 -0.04696673 0.02544031 -0.9980431 0.6947162 -0.7181996 0 -0.04500978 0.07436399 -0.9960861 0.3444227 -0.9393346 0 -0.2818004 0.9589041 -0.02152642 0.2915851 -0.9569471 0 -0.0332681 0.06849315 0.9980431 0.09001957 0.09784736 0.9902152 0.09001957 0.09784736 -0.9902152 0.62818 -0.001956947 0.778865 1 -0.003913894 0 0 -0.003913894 -1 -0.7103718 -0.009784736 0.702544 0 -0.003913894 -1 0 -0.003913894 -1 -1 0.005870841 0 -0.1174168 0 0.9921722 -0.1174168 0 -0.9921722 -0.08610567 -0.1154599 0.9902152 -0.2289628 0.09393346 -0.9686888 -0.9217221 0.3874756 0 0.518591 -0.1663405 0.8395303 -0.04696673 0.02544031 -0.9980431 -0.04500978 0.07436399 -0.9960861 -0.04696673 0.02544031 -0.9980431 -0.6986302 0.7142857 0 -0.04696673 0.02544031 -0.9980431 -0.2289628 0.09393346 -0.9686888 -0.5596869 0.2309198 0.7964775 0.183953 -0.183953 -0.964775 0.9275929 -0.37182 0 -0.04696673 0.02544031 -0.9980431 -0.04696673 0.02544031 -0.9980431 0.9275929 -0.37182 0 -0.2289628 0.09393346 -0.9686888 0 0 -1 0 0 -1 1 0 0 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0.9275929 -0.37182 0 0.62818 -0.001956947 0.778865 -0.2289628 0.09393346 -0.9686888 -0.1174168 0 -0.9921722 1 -0.003913894 0 0 -0.003913894 -1 -0.7103718 -0.009784736 0.702544 0 -0.003913894 -1 0 -0.003913894 -1 -1 0.005870841 0 -0.1174168 0 -0.9921722 -0.1174168 0 0.9921722 -0.2289628 0.09393346 -0.9686888 -0.5596869 0.2309198 0.7964775</float_array>
+          <technique_common>
+            <accessor source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-normal-array" count="136" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord">
+          <float_array id="nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord-array" count="272">0.8168945 0.2338867 0.8168945 1.012039 0.8120117 0.2329102 0.8120117 1.012032 0.8066406 0.2338867 0.8066406 1.012039 0.8012695 0.2348633 0.8012695 1.012039 0.7958984 0.2338867 0.7958984 1.012039 0.8066406 1.017242 0.8012695 1.017258 0.9511719 0.05517578 0.9511719 0.4291992 0.9477539 0.4291992 0.9477539 0.05517578 0.9438477 0.4291992 0.9438477 0.05517578 0.9404297 0.4291992 0.9404297 0.05517578 0.9370117 0.4291992 0.9370117 0.05517578 0.8012695 -0.01171875 0.8066406 -0.01171875 0.8066406 -0.006835938 0.8012695 -0.005859375 0.7958984 -0.006835938 0.7958984 0.02783203 0.8012695 0.02832031 0.7958984 0.0625 0.8066406 0.02783203 0.8012695 0.06298828 0.7958984 0.09765625 0.8066406 0.0625 0.8120117 0.02685547 0.8120117 -0.006835938 0.8168945 -0.006835938 0.8168945 0.02734375 0.8120117 0.06201172 0.8168945 0.0625 0.8120117 0.09716797 0.8168945 0.09765625 0.8066406 0.09765625 0.8120117 0.1318359 0.8168945 0.1323242 0.8012695 0.09814453 0.7958984 0.1323242 0.8066406 0.1323242 0.8120117 0.1655273 0.8168945 0.1665039 0.8012695 0.1328125 0.7958984 0.1665039 0.8066406 0.1665039 0.8120117 0.2001953 0.8168945 0.2006836 0.8012695 0.1669922 0.7958984 0.2006836 0.8066406 0.2006836 0.8012695 0.2011719 0.9511719 0.05517578 0.9511719 0.4291992 0.9477539 0.4291992 0.9438477 0.05517578 0.9477539 0.4291992 0.9404297 0.4291992 0.9404297 0.05517578 0.9370117 0.4291992 0.9370117 0.05517578 0.8012695 0.1669922 0.8066406 0.2006836 0.7958984 0.2006836 0.7958984 0.2338867 0.8012695 0.09814453 0.8066406 0.0625 0.8120117 0.09716797 0.8120117 0.02685547 0.8168945 0.0625 0.7958984 0.1323242 0.8012695 0.09814453 0.7958984 0.0625 0.8012695 0.02832031 0.7958984 0.02783203 0.8012695 -0.005859375 0.8066406 0.02783203 0.8066406 -0.006835938 0.8168945 -0.006835938 0.8066406 0.2338867 0.8012695 1.012039 0.7958984 1.012039 0.8066406 1.012039 0.8012695 1.017258 0.8168945 1.012039 0.8120117 0.2329102 0.8066406 0.2338867 0.8168945 0.2338867 0.8066406 0.2006836 0.8168945 0.2006836 0.8120117 0.1655273 0.8012695 0.1669922 0.8168945 0.1323242 0.8120117 0.02685547 0.8168945 0.1323242 0.8012695 0.1669922 0.8168945 0.1323242 0.8168945 0.2006836 0.8012695 0.1669922 0.8012695 0.02832031 0.8012695 0.1669922 0.7958984 0.1323242 0.7958984 0.1323242 0.8012695 0.1669922 0.7958984 0.2006836 0.9511719 0.05517578 0.9511719 0.4291992 0.9477539 0.4291992 0.9438477 0.05517578 0.9438477 0.05517578 0.9477539 0.4291992 0.9404297 0.4291992 0.9404297 0.05517578 0.9370117 0.4291992 0.9370117 0.05517578 0.8012695 0.1669922 0.8066406 0.2338867 0.7958984 0.2006836 0.7958984 0.2338867 0.8012695 1.012039 0.7958984 1.012039 0.8066406 1.012039 0.8012695 1.017258 0.8168945 1.012039 0.8120117 0.2329102 0.8168945 0.2338867 0.8066406 0.2338867 0.8168945 0.2006836 0.8012695 0.1669922</float_array>
+          <technique_common>
+            <accessor source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord-array" count="136" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord_1">
+          <float_array id="nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord-array_1" count="272">0.02525368 0.244068 0.02525368 0.9851224 0.02024872 0.243122 0.02024872 0.9851224 0.01524376 0.244068 0.01524376 0.9851224 0.0102388 0.2449989 0.0102388 0.9851377 0.005233845 0.2440528 0.005233845 0.9851224 0.01516747 0.9900969 0.0102388 0.9900969 0.05166705 0.009903133 0.05166705 0.3661708 0.0482948 0.3661708 0.0482948 0.009903133 0.04493782 0.3661708 0.04493782 0.009903133 0.04156557 0.3661708 0.04156557 0.009903133 0.03819333 0.3661708 0.03819333 0.009903133 0.0102388 0.0101015 0.01524376 0.009903133 0.01524376 0.01470971 0.0102388 0.01532006 0.005233845 0.01461816 0.005233845 0.04747081 0.0102388 0.04802012 0.005233845 0.08065921 0.01524376 0.04747081 0.0102388 0.08116275 0.005233845 0.1143664 0.01524376 0.08065921 0.02024872 0.04695201 0.02024872 0.01400781 0.02525368 0.01469445 0.02525368 0.04747081 0.02024872 0.08017093 0.02525368 0.08065921 0.02024872 0.1139086 0.02525368 0.1143664 0.01524376 0.1143664 0.02024872 0.146685 0.02525368 0.1471885 0.0102388 0.1148241 0.005233845 0.1471885 0.01524376 0.1471885 0.02024872 0.1789578 0.02525368 0.1795834 0.0102388 0.1477226 0.005233845 0.1795834 0.01524376 0.1795834 0.02024872 0.2116121 0.02525368 0.2122682 0.0102388 0.180209 0.005233845 0.2122682 0.01524376 0.2122682 0.0102388 0.2129549 0.05166705 0.009903133 0.05166705 0.3661708 0.0482948 0.3661708 0.04493782 0.009903133 0.0482948 0.3661708 0.04156557 0.3661708 0.04156557 0.009903133 0.03819333 0.3661708 0.03819333 0.009903133 0.0102388 0.180209 0.01524376 0.2122682 0.005233845 0.2122682 0.005233845 0.2440528 0.0102388 0.1148241 0.01524376 0.08065921 0.02024872 0.1139086 0.02024872 0.04695201 0.02525368 0.08065921 0.005233845 0.1471885 0.0102388 0.1148241 0.005233845 0.08065921 0.0102388 0.04802012 0.005233845 0.04747081 0.0102388 0.01532006 0.01524376 0.04747081 0.01524376 0.01470971 0.02525368 0.01469445 0.01524376 0.244068 0.0102388 0.9851377 0.005233845 0.9851224 0.01524376 0.9851224 0.0102388 0.9900969 0.02525368 0.9851224 0.02024872 0.243122 0.01524376 0.244068 0.02525368 0.244068 0.01524376 0.2122682 0.02525368 0.2122682 0.02024872 0.1789578 0.0102388 0.180209 0.02525368 0.1471885 0.02024872 0.04695201 0.02525368 0.1471885 0.0102388 0.180209 0.02525368 0.1471885 0.02525368 0.2122682 0.0102388 0.180209 0.0102388 0.04802012 0.0102388 0.180209 0.005233845 0.1471885 0.005233845 0.1471885 0.0102388 0.180209 0.005233845 0.2122682 0.05166705 0.009903133 0.05166705 0.3661708 0.0482948 0.3661708 0.04493782 0.009903133 0.04493782 0.009903133 0.0482948 0.3661708 0.04156557 0.3661708 0.04156557 0.009903133 0.03819333 0.3661708 0.03819333 0.009903133 0.0102388 0.180209 0.01524376 0.244068 0.005233845 0.2122682 0.005233845 0.2440528 0.0102388 0.9851377 0.005233845 0.9851224 0.01524376 0.9851224 0.0102388 0.9900969 0.02525368 0.9851224 0.02024872 0.243122 0.02525368 0.244068 0.01524376 0.244068 0.02525368 0.2122682 0.0102388 0.180209</float_array>
+          <technique_common>
+            <accessor source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord-array_1" count="136" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="nurbsToPoly98__WallMetalFenceSet_ol_cp-vertex">
+          <input semantic="POSITION" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-position" />
+        </vertices>
+        <triangles material="WallMetalFenceSet_ol_cp" count="76">
+          <input semantic="VERTEX" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 3 3 3 3 5 5 5 5 4 4 4 4 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 6 6 6 6 7 7 7 7 8 8 8 8 7 7 7 7 9 9 9 9 8 8 8 8 7 7 7 7 5 5 5 5 10 10 10 10 11 11 11 11 7 7 7 7 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 15 15 15 15 12 12 12 12 14 14 14 14 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 15 15 15 15 16 16 16 16 17 17 17 17 16 16 16 16 18 18 18 18 19 19 19 19 17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 19 19 19 19 20 20 20 20 22 22 22 22 23 23 23 23 24 24 24 24 25 25 25 25 22 22 22 22 24 24 24 24 26 26 26 26 25 25 25 25 27 27 27 27 25 25 25 25 28 28 28 28 27 27 27 27 27 27 27 27 28 28 28 28 29 29 29 29 24 24 24 24 30 30 30 30 25 25 25 25 30 30 30 30 28 28 28 28 25 25 25 25 28 28 28 28 31 31 31 31 29 29 29 29 29 29 29 29 31 31 31 31 32 32 32 32 30 30 30 30 33 33 33 33 28 28 28 28 33 33 33 33 31 31 31 31 28 28 28 28 34 34 34 34 30 30 30 30 24 24 24 24 35 35 35 35 34 34 34 34 24 24 24 24 35 35 35 35 36 36 36 36 34 34 34 34 36 36 36 36 37 37 37 37 34 34 34 34 34 34 34 34 38 38 38 38 30 30 30 30 34 34 34 34 37 37 37 37 38 38 38 38 38 38 38 38 33 33 33 33 30 30 30 30 37 37 37 37 39 39 39 39 38 38 38 38 38 38 38 38 39 39 39 39 40 40 40 40 33 33 33 33 38 38 38 38 40 40 40 40 39 39 39 39 41 41 41 41 40 40 40 40 42 42 42 42 33 33 33 33 40 40 40 40 31 31 31 31 33 33 33 33 42 42 42 42 40 40 40 40 41 41 41 41 43 43 43 43 40 40 40 40 43 43 43 43 42 42 42 42 41 41 41 41 44 44 44 44 43 43 43 43 45 45 45 45 31 31 31 31 42 42 42 42 31 31 31 31 45 45 45 45 32 32 32 32 32 32 32 32 45 45 45 45 46 46 46 46 43 43 43 43 47 47 47 47 42 42 42 42 42 42 42 42 47 47 47 47 45 45 45 45 43 43 43 43 44 44 44 44 48 48 48 48 43 43 43 43 48 48 48 48 47 47 47 47 44 44 44 44 49 49 49 49 48 48 48 48 45 45 45 45 50 50 50 50 46 46 46 46 47 47 47 47 50 50 50 50 45 45 45 45 46 46 46 46 50 50 50 50 51 51 51 51 48 48 48 48 52 52 52 52 47 47 47 47 47 47 47 47 52 52 52 52 50 50 50 50 48 48 48 48 49 49 49 49 53 53 53 53 52 52 52 52 48 48 48 48 53 53 53 53 49 49 49 49 54 54 54 54 53 53 53 53 50 50 50 50 55 55 55 55 51 51 51 51 52 52 52 52 55 55 55 55 50 50 50 50 51 51 51 51 55 55 55 55 56 56 56 56 54 54 54 54 0 0 0 0 2 2 2 2 53 53 53 53 54 54 54 54 2 2 2 2 57 57 57 57 52 52 52 52 53 53 53 53 53 53 53 53 2 2 2 2 57 57 57 57 55 55 55 55 52 52 52 52 57 57 57 57 2 2 2 2 4 4 4 4 57 57 57 57 58 58 58 58 55 55 55 55 57 57 57 57 57 57 57 57 4 4 4 4 58 58 58 58 55 55 55 55 58 58 58 58 56 56 56 56 4 4 4 4 6 6 6 6 58 58 58 58 56 56 56 56 58 58 58 58 8 8 8 8 58 58 58 58 6 6 6 6 8 8 8 8 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pPlane2747__FlagBanners_cp-mesh" name="pPlane2747__FlagBanners_cp">
+      <mesh>
+        <source id="pPlane2747__FlagBanners_cp-position">
+          <float_array id="pPlane2747__FlagBanners_cp-position-array" count="264">0.02334017 2.993114 0 0.3592553 3.129856 -5.977219E-09 0.022944 9.199898 -2.713072E-07 0.6870958 3.321911 -1.437219E-08 0.06103769 9.461265 -2.827319E-07 0.1410847 9.722033 -2.941304E-07 0.2649136 9.962399 -3.046371E-07 0.4352469 10.17621 -3.139833E-07 0.9536143 3.618691 -2.734486E-08 1.096106 3.966043 -4.252808E-08 0.6535953 10.35105 -3.216257E-07 1.163919 4.334877 -5.865033E-08 0.897181 10.47891 -3.272145E-07 1.163919 10.53342 -3.295971E-07 0.02334017 2.993114 0 0.022944 9.199898 -2.713072E-07 0.3592553 3.129856 -5.977219E-09 0.6870958 3.321911 -1.437219E-08 0.06103769 9.461265 -2.827319E-07 0.1410847 9.722033 -2.941304E-07 0.2649136 9.962399 -3.046371E-07 0.4352469 10.17621 -3.139832E-07 0.9536143 3.618691 -2.734486E-08 1.096106 3.966043 -4.252808E-08 0.6535953 10.35105 -3.216257E-07 1.163919 4.334877 -5.865033E-08 0.897181 10.47891 -3.272145E-07 1.163919 10.53342 -3.295971E-07 0.02334017 2.993114 0 0.3592553 3.129856 0 0.022944 9.199898 0 0.6870958 3.321911 0 0.1410847 9.722033 0 0.6870958 3.321911 0 0.4352469 10.17621 0 0.1410847 9.722033 0 0.9536143 3.618691 0 0.4352469 10.17621 0 1.096106 3.966043 0 1.163919 4.334877 0 0.4352469 10.17621 0 1.163919 4.334877 0 0.897181 10.47891 0 1.163919 4.334877 0 1.163919 10.53342 0 0.897181 10.47891 0 0.02334017 2.993114 0 0.022944 9.199898 0 0.3592553 3.129856 0 0.6870958 3.321911 0 0.1410847 9.722033 0 0.6870958 3.321911 0 0.1410847 9.722033 0 0.4352469 10.17621 0 0.9536143 3.618691 0 0.4352469 10.17621 0 1.096106 3.966043 0 1.163919 4.334877 0 0.4352469 10.17621 0 0.897181 10.47891 0 1.163919 4.334877 0 1.163919 4.334877 0 0.897181 10.47891 0 1.163919 10.53342 0 0.02334017 2.993114 0 0.7798786 3.425229 0 0.1168852 9.545182 0 0.7798786 3.425229 0 0.5262282 10.24907 0 0.1168852 9.545182 0 1.130324 4.152158 0 0.5262282 10.24907 0 0.7798786 3.425229 0 0.5262282 10.24907 0 1.130324 4.152158 0 0.9651259 10.49279 0 0.7798786 3.425229 0 0.02334017 2.993114 0 0.1168852 9.545182 0 0.7798786 3.425229 0 0.1168852 9.545182 0 0.5262282 10.24907 0 1.130324 4.152158 0 0.7798786 3.425229 0 0.5262282 10.24907 0 0.5262282 10.24907 0 0.9651259 10.49279 0 1.130324 4.152158 0</float_array>
+          <technique_common>
+            <accessor source="#pPlane2747__FlagBanners_cp-position-array" count="88" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2747__FlagBanners_cp-normal">
+          <float_array id="pPlane2747__FlagBanners_cp-normal-array" count="264">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2747__FlagBanners_cp-normal-array" count="88" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2747__FlagBanners_cp-texcoord">
+          <float_array id="pPlane2747__FlagBanners_cp-texcoord-array" count="176">0.3103838 0.4345464 0.3367666 0.4443733 0.310338 0.8800488 0.3625239 0.4581521 0.3133287 0.8988022 0.3196002 0.9175097 0.3293355 0.9347982 0.3427176 0.950164 0.3834592 0.479469 0.3946441 0.5044022 0.3598382 0.9626764 0.3998169 0.5308766 0.3788968 0.9717861 0.3996643 0.9755856 0.3103838 0.4345464 0.310338 0.8800488 0.3367666 0.4443733 0.3625239 0.4581521 0.3133287 0.8988022 0.3196002 0.9175097 0.3293355 0.9347982 0.3427176 0.950164 0.3834592 0.479469 0.3946441 0.5044022 0.3598382 0.9626764 0.3998169 0.5308766 0.3788968 0.9717861 0.3996643 0.9755856 0.3103838 0.4345464 0.3367666 0.4443733 0.310338 0.8800488 0.3625239 0.4581521 0.3196002 0.9175097 0.3625239 0.4581521 0.3427176 0.950164 0.3196002 0.9175097 0.3834592 0.479469 0.3427176 0.950164 0.3946441 0.5044022 0.3998169 0.5308766 0.3427176 0.950164 0.3998169 0.5308766 0.3788968 0.9717861 0.3998169 0.5308766 0.3996643 0.9755856 0.3788968 0.9717861 0.3103838 0.4345464 0.310338 0.8800488 0.3367666 0.4443733 0.3625239 0.4581521 0.3196002 0.9175097 0.3625239 0.4581521 0.3196002 0.9175097 0.3427176 0.950164 0.3834592 0.479469 0.3427176 0.950164 0.3946441 0.5044022 0.3998169 0.5308766 0.3427176 0.950164 0.3788968 0.9717861 0.3998169 0.5308766 0.3998169 0.5308766 0.3788968 0.9717861 0.3996643 0.9755856 0.3103838 0.4345464 0.3834592 0.479469 0.310338 0.8800488 0.3834592 0.479469 0.3427176 0.950164 0.310338 0.8800488 0.3998169 0.5308766 0.3427176 0.950164 0.3834592 0.479469 0.3427176 0.950164 0.3998169 0.5308766 0.3996643 0.9755856 0.3834592 0.479469 0.3103838 0.4345464 0.310338 0.8800488 0.3834592 0.479469 0.310338 0.8800488 0.3427176 0.950164 0.3998169 0.5308766 0.3834592 0.479469 0.3427176 0.950164 0.3427176 0.950164 0.3996643 0.9755856 0.3998169 0.5308766</float_array>
+          <technique_common>
+            <accessor source="#pPlane2747__FlagBanners_cp-texcoord-array" count="88" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2747__FlagBanners_cp-texcoord_1">
+          <float_array id="pPlane2747__FlagBanners_cp-texcoord-array_1" count="176">0.006759747 0.009903133 0.054551 0.02767986 0.006683452 0.8170138 0.1012131 0.05265886 0.01208515 0.8510109 0.02345312 0.8849012 0.04109254 0.9162127 0.06533913 0.9440452 0.1391318 0.09126419 0.159411 0.1364462 0.09634546 0.9667201 0.1687648 0.1844205 0.1308919 0.9832304 0.1685054 0.9900969 0.343389 0.009903133 0.3434501 0.8170138 0.2955825 0.02767986 0.2489357 0.05265886 0.3380484 0.8510109 0.3266804 0.8849012 0.309041 0.9162127 0.2847944 0.9440452 0.2110018 0.09126419 0.1907225 0.1364462 0.2537881 0.9667201 0.1813687 0.1844205 0.2192569 0.9832304 0.1816281 0.9900969 0.006759747 0.009903133 0.054551 0.02767986 0.006683452 0.8170138 0.1012131 0.05265886 0.02345312 0.8849012 0.1012131 0.05265886 0.06533913 0.9440452 0.02345312 0.8849012 0.1391318 0.09126419 0.06533913 0.9440452 0.159411 0.1364462 0.1687648 0.1844205 0.06533913 0.9440452 0.1687648 0.1844205 0.1308919 0.9832304 0.1687648 0.1844205 0.1685054 0.9900969 0.1308919 0.9832304 0.343389 0.009903133 0.3434501 0.8170138 0.2955825 0.02767986 0.2489357 0.05265886 0.3266804 0.8849012 0.2489357 0.05265886 0.3266804 0.8849012 0.2847944 0.9440452 0.2110018 0.09126419 0.2847944 0.9440452 0.1907225 0.1364462 0.1813687 0.1844205 0.2847944 0.9440452 0.2192569 0.9832304 0.1813687 0.1844205 0.1813687 0.1844205 0.2192569 0.9832304 0.1816281 0.9900969 0.006759747 0.009903133 0.1391318 0.09126419 0.006683452 0.8170138 0.1391318 0.09126419 0.06533913 0.9440452 0.006683452 0.8170138 0.1687648 0.1844205 0.06533913 0.9440452 0.1391318 0.09126419 0.06533913 0.9440452 0.1687648 0.1844205 0.1685054 0.9900969 0.2110018 0.09126419 0.343389 0.009903133 0.3434501 0.8170138 0.2110018 0.09126419 0.3434501 0.8170138 0.2847944 0.9440452 0.1813687 0.1844205 0.2110018 0.09126419 0.2847944 0.9440452 0.2847944 0.9440452 0.1816281 0.9900969 0.1813687 0.1844205</float_array>
+          <technique_common>
+            <accessor source="#pPlane2747__FlagBanners_cp-texcoord-array_1" count="88" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane2747__FlagBanners_cp-vertex">
+          <input semantic="POSITION" source="#pPlane2747__FlagBanners_cp-position" />
+        </vertices>
+        <triangles material="FlagBanners_cp" count="24">
+          <input semantic="VERTEX" source="#pPlane2747__FlagBanners_cp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pPlane2747__FlagBanners_cp-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pPlane2747__FlagBanners_cp-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pPlane2747__FlagBanners_cp-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 3 3 3 3 4 4 4 4 2 2 2 2 3 3 3 3 5 5 5 5 4 4 4 4 6 6 6 6 5 5 5 5 3 3 3 3 3 3 3 3 7 7 7 7 6 6 6 6 8 8 8 8 7 7 7 7 3 3 3 3 9 9 9 9 7 7 7 7 8 8 8 8 9 9 9 9 10 10 10 10 7 7 7 7 11 11 11 11 10 10 10 10 9 9 9 9 10 10 10 10 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 14 14 14 14 15 15 15 15 16 16 16 16 17 17 17 17 16 16 16 16 15 15 15 15 18 18 18 18 17 17 17 17 15 15 15 15 17 17 17 17 18 18 18 18 19 19 19 19 20 20 20 20 17 17 17 17 19 19 19 19 17 17 17 17 20 20 20 20 21 21 21 21 22 22 22 22 17 17 17 17 21 21 21 21 23 23 23 23 22 22 22 22 21 21 21 21 23 23 23 23 21 21 21 21 24 24 24 24 25 25 25 25 23 23 23 23 24 24 24 24 24 24 24 24 26 26 26 26 25 25 25 25 25 25 25 25 26 26 26 26 27 27 27 27 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh">
+      <skin source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-joint">
+          <Name_array id="nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-joint-array" count="1">FldObj_Wave03FlagBlue00</Name_array>
+          <technique_common>
+            <accessor source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-inv_bind_matrix">
+          <float_array id="nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-weight">
+          <float_array id="nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="136">
+          <input semantic="JOINT" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pPlane2747__FlagBanners_cp-mesh">
+      <skin source="#pPlane2747__FlagBanners_cp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pPlane2747__FlagBanners_cp-mesh-joint">
+          <Name_array id="pPlane2747__FlagBanners_cp-mesh-joint-array" count="1">FldObj_Wave03FlagBlue00</Name_array>
+          <technique_common>
+            <accessor source="#pPlane2747__FlagBanners_cp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2747__FlagBanners_cp-mesh-inv_bind_matrix">
+          <float_array id="pPlane2747__FlagBanners_cp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2747__FlagBanners_cp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2747__FlagBanners_cp-mesh-weight">
+          <float_array id="pPlane2747__FlagBanners_cp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2747__FlagBanners_cp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pPlane2747__FlagBanners_cp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pPlane2747__FlagBanners_cp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="88">
+          <input semantic="JOINT" source="#pPlane2747__FlagBanners_cp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pPlane2747__FlagBanners_cp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_Wave03FlagBlue00" name="FldObj_Wave03FlagBlue00" sid="FldObj_Wave03FlagBlue00" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="nurbsToPoly98__WallMetalFenceSet_ol_cp" name="nurbsToPoly98__WallMetalFenceSet_ol_cp" type="NODE">
+        <instance_controller url="#Armature_nurbsToPoly98__WallMetalFenceSet_ol_cp-mesh">
+          <skeleton>#Armature_FldObj_Wave03FlagBlue00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallMetalFenceSet_ol_cp" target="#WallMetalFenceSet_ol_cp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pPlane2747__FlagBanners_cp" name="pPlane2747__FlagBanners_cp" type="NODE">
+        <instance_controller url="#Armature_pPlane2747__FlagBanners_cp-mesh">
+          <skeleton>#Armature_FldObj_Wave03FlagBlue00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FlagBanners_cp" target="#FlagBanners_cp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
