@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Apartment_Alb">
+      <init_from>Apartment_Alb.png</init_from>
+    </image>
+    <image id="Apartment_Emm">
+      <init_from>Apartment_Emm.png</init_from>
+    </image>
+    <image id="Apartment_Mtl">
+      <init_from>Apartment_Mtl.png</init_from>
+    </image>
+    <image id="Apartment_Nrm">
+      <init_from>Apartment_Nrm.png</init_from>
+    </image>
+    <image id="Apartment_Rgh">
+      <init_from>Apartment_Rgh.png</init_from>
+    </image>
+    <image id="BackgroundBuildings_Alb">
+      <init_from>BackgroundBuildings_Alb.png</init_from>
+    </image>
+    <image id="Bake_Fld_Ditch01_DV_g00_b00_f00">
+      <init_from>Bake_Fld_Ditch01_DV_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Ditch01_g00_b00_f00">
+      <init_from>Bake_Fld_Ditch01_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Ditch01_g00_b01_f00">
+      <init_from>Bake_Fld_Ditch01_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Banner00_Alb">
+      <init_from>Banner00_Alb.png</init_from>
+    </image>
+    <image id="Banner00_Col">
+      <init_from>Banner00_Col.png</init_from>
+    </image>
+    <image id="Banner00_Mtl">
+      <init_from>Banner00_Mtl.png</init_from>
+    </image>
+    <image id="Banner00_Nrm">
+      <init_from>Banner00_Nrm.png</init_from>
+    </image>
+    <image id="Bike00_Alb">
+      <init_from>Bike00_Alb.png</init_from>
+    </image>
+    <image id="Bike00_Mtl">
+      <init_from>Bike00_Mtl.png</init_from>
+    </image>
+    <image id="Bike00_Nrm">
+      <init_from>Bike00_Nrm.png</init_from>
+    </image>
+    <image id="Bike00_Rgh">
+      <init_from>Bike00_Rgh.png</init_from>
+    </image>
+    <image id="Bottom_Alb">
+      <init_from>Bottom_Alb.png</init_from>
+    </image>
+    <image id="Bottom_Nrm">
+      <init_from>Bottom_Nrm.png</init_from>
+    </image>
+    <image id="Bottom_Rgh">
+      <init_from>Bottom_Rgh.png</init_from>
+    </image>
+    <image id="Box00_Alb">
+      <init_from>Box00_Alb.png</init_from>
+    </image>
+    <image id="Box00_Mtl">
+      <init_from>Box00_Mtl.png</init_from>
+    </image>
+    <image id="Box00_Nrm">
+      <init_from>Box00_Nrm.png</init_from>
+    </image>
+    <image id="Cover_Alb">
+      <init_from>Cover_Alb.png</init_from>
+    </image>
+    <image id="Cover_Mtl">
+      <init_from>Cover_Mtl.png</init_from>
+    </image>
+    <image id="Cover_Nrm">
+      <init_from>Cover_Nrm.png</init_from>
+    </image>
+    <image id="Cover_Rgh">
+      <init_from>Cover_Rgh.png</init_from>
+    </image>
+    <image id="DotPanelAndLine_Alb">
+      <init_from>DotPanelAndLine_Alb.png</init_from>
+    </image>
+    <image id="DotPanelAndLine_Nrm">
+      <init_from>DotPanelAndLine_Nrm.png</init_from>
+    </image>
+    <image id="DotPanelAndLine_Spm">
+      <init_from>DotPanelAndLine_Spm.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Alb">
+      <init_from>DVBuildingBase_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Emm">
+      <init_from>DVBuildingBase_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Rgh">
+      <init_from>DVBuildingBase_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Alb">
+      <init_from>DVBuildingsSet_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Emm">
+      <init_from>DVBuildingsSet_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Mtl">
+      <init_from>DVBuildingsSet_Mtl.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Nrm">
+      <init_from>DVBuildingsSet_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Rgh">
+      <init_from>DVBuildingsSet_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Alb">
+      <init_from>DVBuildingWall00_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Mtl">
+      <init_from>DVBuildingWall00_Mtl.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Nrm">
+      <init_from>DVBuildingWall00_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Rgh">
+      <init_from>DVBuildingWall00_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingWall_Alb">
+      <init_from>DVBuildingWall_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingWall_Nrm">
+      <init_from>DVBuildingWall_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceVinylBlue_Alb">
+      <init_from>DVFenceVinylBlue_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylBlue_Nrm">
+      <init_from>DVFenceVinylBlue_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceVinylGray_Alb">
+      <init_from>DVFenceVinylGray_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylGray_Nrm">
+      <init_from>DVFenceVinylGray_Nrm.png</init_from>
+    </image>
+    <image id="DVFerris_Alb">
+      <init_from>DVFerris_Alb.png</init_from>
+    </image>
+    <image id="DVFerris_Emm">
+      <init_from>DVFerris_Emm.png</init_from>
+    </image>
+    <image id="DVFerris_Nrm">
+      <init_from>DVFerris_Nrm.png</init_from>
+    </image>
+    <image id="DVFerris_Rgh">
+      <init_from>DVFerris_Rgh.png</init_from>
+    </image>
+    <image id="DVGroundBlock_Alb">
+      <init_from>DVGroundBlock_Alb.png</init_from>
+    </image>
+    <image id="DVGroundBlock_Nrm">
+      <init_from>DVGroundBlock_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundBlock_Rgh">
+      <init_from>DVGroundBlock_Rgh.png</init_from>
+    </image>
+    <image id="DVLeaves_Alb">
+      <init_from>DVLeaves_Alb.png</init_from>
+    </image>
+    <image id="DVLeaves_Nrm">
+      <init_from>DVLeaves_Nrm.png</init_from>
+    </image>
+    <image id="DVLeaves_Rgh">
+      <init_from>DVLeaves_Rgh.png</init_from>
+    </image>
+    <image id="DVMaterialsSteelPlate_Alb">
+      <init_from>DVMaterialsSteelPlate_Alb.png</init_from>
+    </image>
+    <image id="DVMaterialsSteelPlate_Nrm">
+      <init_from>DVMaterialsSteelPlate_Nrm.png</init_from>
+    </image>
+    <image id="DVRoadLine_Alb">
+      <init_from>DVRoadLine_Alb.png</init_from>
+    </image>
+    <image id="DVSaku_Alb">
+      <init_from>DVSaku_Alb.png</init_from>
+    </image>
+    <image id="DVSaku_Nrm">
+      <init_from>DVSaku_Nrm.png</init_from>
+    </image>
+    <image id="DVSaku_Rgh">
+      <init_from>DVSaku_Rgh.png</init_from>
+    </image>
+    <image id="DVTile_Alb">
+      <init_from>DVTile_Alb.png</init_from>
+    </image>
+    <image id="DVTile_Nrm">
+      <init_from>DVTile_Nrm.png</init_from>
+    </image>
+    <image id="DVTile_Rgh">
+      <init_from>DVTile_Rgh.png</init_from>
+    </image>
+    <image id="DVTreeBody_Alb">
+      <init_from>DVTreeBody_Alb.png</init_from>
+    </image>
+    <image id="DVTreeBody_Nrm">
+      <init_from>DVTreeBody_Nrm.png</init_from>
+    </image>
+    <image id="DVTreeBody_Rgh">
+      <init_from>DVTreeBody_Rgh.png</init_from>
+    </image>
+    <image id="DVTreeSet_Alb">
+      <init_from>DVTreeSet_Alb.png</init_from>
+    </image>
+    <image id="DVWaterBasic_Nrm">
+      <init_from>DVWaterBasic_Nrm.png</init_from>
+    </image>
+    <image id="FenceIronSet_Alb">
+      <init_from>FenceIronSet_Alb.png</init_from>
+    </image>
+    <image id="FenceIronSet_Nrm">
+      <init_from>FenceIronSet_Nrm.png</init_from>
+    </image>
+    <image id="FenceIronSet_Spm">
+      <init_from>FenceIronSet_Spm.png</init_from>
+    </image>
+    <image id="FloorConcreteEdge_Alb">
+      <init_from>FloorConcreteEdge_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteEdge_Nrm">
+      <init_from>FloorConcreteEdge_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcreteEdge_Spm">
+      <init_from>FloorConcreteEdge_Spm.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Alb">
+      <init_from>FloorConcreteHigh_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Nrm">
+      <init_from>FloorConcreteHigh_Nrm.png</init_from>
+    </image>
+    <image id="Glasspatern_Alb">
+      <init_from>Glasspatern_Alb.png</init_from>
+    </image>
+    <image id="Glasspatern_Mtl">
+      <init_from>Glasspatern_Mtl.png</init_from>
+    </image>
+    <image id="Glasspatern_Nrm">
+      <init_from>Glasspatern_Nrm.png</init_from>
+    </image>
+    <image id="Glasspatern_Rgh">
+      <init_from>Glasspatern_Rgh.png</init_from>
+    </image>
+    <image id="GlassTileDistant_Alb">
+      <init_from>GlassTileDistant_Alb.png</init_from>
+    </image>
+    <image id="GlassTileDistant_Emm">
+      <init_from>GlassTileDistant_Emm.png</init_from>
+    </image>
+    <image id="GlassTileDistant_Spm">
+      <init_from>GlassTileDistant_Spm.png</init_from>
+    </image>
+    <image id="GrafiitiMissionKanban_Alb">
+      <init_from>GrafiitiMissionKanban_Alb.png</init_from>
+    </image>
+    <image id="GrafiitiMissionKanban_Emm">
+      <init_from>GrafiitiMissionKanban_Emm.png</init_from>
+    </image>
+    <image id="GrafiitiMissionKanban_Nrm">
+      <init_from>GrafiitiMissionKanban_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Alb">
+      <init_from>GrafittiKanbanTate_Alb.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Emm">
+      <init_from>GrafittiKanbanTate_Emm.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Nrm">
+      <init_from>GrafittiKanbanTate_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Rgh">
+      <init_from>GrafittiKanbanTate_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Alb">
+      <init_from>GroundAsphaltCrackGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Nrm">
+      <init_from>GroundAsphaltCrackGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Rgh">
+      <init_from>GroundAsphaltCrackGrey_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackRed_Alb">
+      <init_from>GroundAsphaltCrackRed_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackRed_Nrm">
+      <init_from>GroundAsphaltCrackRed_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackRed_Rgh">
+      <init_from>GroundAsphaltCrackRed_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Alb">
+      <init_from>GroundAsphaltEdge_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Mtl">
+      <init_from>GroundAsphaltEdge_Mtl.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Nrm">
+      <init_from>GroundAsphaltEdge_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Rgh">
+      <init_from>GroundAsphaltEdge_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Alb">
+      <init_from>GroundConcreteGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Nrm">
+      <init_from>GroundConcreteGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Spm">
+      <init_from>GroundConcreteGrey_Spm.png</init_from>
+    </image>
+    <image id="GroundConcrete_Alb">
+      <init_from>GroundConcrete_Alb.png</init_from>
+    </image>
+    <image id="GroundConcrete_Nrm">
+      <init_from>GroundConcrete_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcrete_Rgh">
+      <init_from>GroundConcrete_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Alb">
+      <init_from>GroundSlopeDot_Alb.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Nrm">
+      <init_from>GroundSlopeDot_Nrm.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Spm">
+      <init_from>GroundSlopeDot_Spm.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Alb">
+      <init_from>GroundSoilLittleGrass_Alb.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Mtl">
+      <init_from>GroundSoilLittleGrass_Mtl.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Nrm">
+      <init_from>GroundSoilLittleGrass_Nrm.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Rgh">
+      <init_from>GroundSoilLittleGrass_Rgh.png</init_from>
+    </image>
+    <image id="GroundSquareTile_Alb">
+      <init_from>GroundSquareTile_Alb.png</init_from>
+    </image>
+    <image id="GroundSquareTile_Nrm">
+      <init_from>GroundSquareTile_Nrm.png</init_from>
+    </image>
+    <image id="Logo00_Alb">
+      <init_from>Logo00_Alb.png</init_from>
+    </image>
+    <image id="Logo00_Nrm">
+      <init_from>Logo00_Nrm.png</init_from>
+    </image>
+    <image id="Logo00_Rgh">
+      <init_from>Logo00_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalFrame_Alb">
+      <init_from>MetalFrame_Alb.png</init_from>
+    </image>
+    <image id="MetalFrame_Mtl">
+      <init_from>MetalFrame_Mtl.png</init_from>
+    </image>
+    <image id="MetalFrame_Nrm">
+      <init_from>MetalFrame_Nrm.png</init_from>
+    </image>
+    <image id="MetalFrame_Spm">
+      <init_from>MetalFrame_Spm.png</init_from>
+    </image>
+    <image id="MetalWall00_Alb">
+      <init_from>MetalWall00_Alb.png</init_from>
+    </image>
+    <image id="MetalWall00_Mtl">
+      <init_from>MetalWall00_Mtl.png</init_from>
+    </image>
+    <image id="MetalWall00_Nrm">
+      <init_from>MetalWall00_Nrm.png</init_from>
+    </image>
+    <image id="MetalWall00_Rgh">
+      <init_from>MetalWall00_Rgh.png</init_from>
+    </image>
+    <image id="MiiverseA00VSWall_Alb">
+      <init_from>MiiverseA00VSWall_Alb.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlA">
+      <init_from>MiiverseVSWall_MlA.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlB">
+      <init_from>MiiverseVSWall_MlB.png</init_from>
+    </image>
+    <image id="MonorailKoka_Alb">
+      <init_from>MonorailKoka_Alb.png</init_from>
+    </image>
+    <image id="MonorailKoka_Mtl">
+      <init_from>MonorailKoka_Mtl.png</init_from>
+    </image>
+    <image id="MonorailKoka_Nrm">
+      <init_from>MonorailKoka_Nrm.png</init_from>
+    </image>
+    <image id="MonorailKoka_Rgh">
+      <init_from>MonorailKoka_Rgh.png</init_from>
+    </image>
+    <image id="MonorailPole_Alb">
+      <init_from>MonorailPole_Alb.png</init_from>
+    </image>
+    <image id="MonorailPole_Mtl">
+      <init_from>MonorailPole_Mtl.png</init_from>
+    </image>
+    <image id="MonorailPole_Nrm">
+      <init_from>MonorailPole_Nrm.png</init_from>
+    </image>
+    <image id="MonorailPole_Rgh">
+      <init_from>MonorailPole_Rgh.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Alb">
+      <init_from>MonsteraLeaf_Alb.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Mtl">
+      <init_from>MonsteraLeaf_Mtl.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Nrm">
+      <init_from>MonsteraLeaf_Nrm.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Rgh">
+      <init_from>MonsteraLeaf_Rgh.png</init_from>
+    </image>
+    <image id="M_deck01_Alb">
+      <init_from>M_deck01_Alb.png</init_from>
+    </image>
+    <image id="M_deck01_Mtl">
+      <init_from>M_deck01_Mtl.png</init_from>
+    </image>
+    <image id="M_deck01_Nrm">
+      <init_from>M_deck01_Nrm.png</init_from>
+    </image>
+    <image id="M_deck01_Rgh">
+      <init_from>M_deck01_Rgh.png</init_from>
+    </image>
+    <image id="NewFence01_Alb">
+      <init_from>NewFence01_Alb.png</init_from>
+    </image>
+    <image id="NewFence01_Mtl">
+      <init_from>NewFence01_Mtl.png</init_from>
+    </image>
+    <image id="NewFence01_Nrm">
+      <init_from>NewFence01_Nrm.png</init_from>
+    </image>
+    <image id="NewFence01_Rgh">
+      <init_from>NewFence01_Rgh.png</init_from>
+    </image>
+    <image id="Noren_Alb">
+      <init_from>Noren_Alb.png</init_from>
+    </image>
+    <image id="Noren_Emm">
+      <init_from>Noren_Emm.png</init_from>
+    </image>
+    <image id="Noren_Nrm">
+      <init_from>Noren_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Alb">
+      <init_from>Obj_PlanlLeaf_Alb.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Nrm">
+      <init_from>Obj_PlanlLeaf_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Rgh">
+      <init_from>Obj_PlanlLeaf_Rgh.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Trm">
+      <init_from>Obj_PlanlLeaf_Trm.png</init_from>
+    </image>
+    <image id="Obj_Plant_Alb">
+      <init_from>Obj_Plant_Alb.png</init_from>
+    </image>
+    <image id="Obj_Plant_Mtl">
+      <init_from>Obj_Plant_Mtl.png</init_from>
+    </image>
+    <image id="Obj_Plant_Nrm">
+      <init_from>Obj_Plant_Nrm.png</init_from>
+    </image>
+    <image id="Obj_Plant_Rgh">
+      <init_from>Obj_Plant_Rgh.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Alb">
+      <init_from>Obj_PlazaBuilding00_Alb.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Mtl">
+      <init_from>Obj_PlazaBuilding00_Mtl.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Nrm">
+      <init_from>Obj_PlazaBuilding00_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Rgh">
+      <init_from>Obj_PlazaBuilding00_Rgh.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Alb">
+      <init_from>Obj_PlazaBuildingGlass_Alb.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Emm">
+      <init_from>Obj_PlazaBuildingGlass_Emm.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Nrm">
+      <init_from>Obj_PlazaBuildingGlass_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Rgh">
+      <init_from>Obj_PlazaBuildingGlass_Rgh.png</init_from>
+    </image>
+    <image id="PartitionWhite_Alb">
+      <init_from>PartitionWhite_Alb.png</init_from>
+    </image>
+    <image id="PartitionWhite_Nrm">
+      <init_from>PartitionWhite_Nrm.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Alb">
+      <init_from>PlazaFloorLine_Alb.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Emm">
+      <init_from>PlazaFloorLine_Emm.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Nrm">
+      <init_from>PlazaFloorLine_Nrm.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Spm">
+      <init_from>PlazaFloorLine_Spm.png</init_from>
+    </image>
+    <image id="PlazaRightF1Panel_Alb">
+      <init_from>PlazaRightF1Panel_Alb.png</init_from>
+    </image>
+    <image id="PlazaRightF1Panel_Nrm">
+      <init_from>PlazaRightF1Panel_Nrm.png</init_from>
+    </image>
+    <image id="PlazaRightF1Panel_Spm">
+      <init_from>PlazaRightF1Panel_Spm.png</init_from>
+    </image>
+    <image id="PlazaRightF2Floor_Alb">
+      <init_from>PlazaRightF2Floor_Alb.png</init_from>
+    </image>
+    <image id="PlazaRightF2Floor_Nrm">
+      <init_from>PlazaRightF2Floor_Nrm.png</init_from>
+    </image>
+    <image id="PlazaRightF2Floor_Spm">
+      <init_from>PlazaRightF2Floor_Spm.png</init_from>
+    </image>
+    <image id="PlazaWoodTable_Alb">
+      <init_from>PlazaWoodTable_Alb.png</init_from>
+    </image>
+    <image id="PlazaWoodTable_Nrm">
+      <init_from>PlazaWoodTable_Nrm.png</init_from>
+    </image>
+    <image id="PlazaWoodTable_Spm">
+      <init_from>PlazaWoodTable_Spm.png</init_from>
+    </image>
+    <image id="Plywood_Alb">
+      <init_from>Plywood_Alb.png</init_from>
+    </image>
+    <image id="Plywood_Nrm">
+      <init_from>Plywood_Nrm.png</init_from>
+    </image>
+    <image id="Plywood_Rgh">
+      <init_from>Plywood_Rgh.png</init_from>
+    </image>
+    <image id="RoofParts_Alb">
+      <init_from>RoofParts_Alb.png</init_from>
+    </image>
+    <image id="RoofParts_Mtl">
+      <init_from>RoofParts_Mtl.png</init_from>
+    </image>
+    <image id="RoofParts_Nrm">
+      <init_from>RoofParts_Nrm.png</init_from>
+    </image>
+    <image id="RoofParts_Rgh">
+      <init_from>RoofParts_Rgh.png</init_from>
+    </image>
+    <image id="RoseWood_Alb">
+      <init_from>RoseWood_Alb.png</init_from>
+    </image>
+    <image id="RoseWood_Nrm">
+      <init_from>RoseWood_Nrm.png</init_from>
+    </image>
+    <image id="RoseWood_Rgh">
+      <init_from>RoseWood_Rgh.png</init_from>
+    </image>
+    <image id="Saku_Alb">
+      <init_from>Saku_Alb.png</init_from>
+    </image>
+    <image id="Saku_Nrm">
+      <init_from>Saku_Nrm.png</init_from>
+    </image>
+    <image id="Saku_Spm">
+      <init_from>Saku_Spm.png</init_from>
+    </image>
+    <image id="Shop00_Alb">
+      <init_from>Shop00_Alb.png</init_from>
+    </image>
+    <image id="Shop00_Mtl">
+      <init_from>Shop00_Mtl.png</init_from>
+    </image>
+    <image id="Shop00_Nrm">
+      <init_from>Shop00_Nrm.png</init_from>
+    </image>
+    <image id="Shop00_Rgh">
+      <init_from>Shop00_Rgh.png</init_from>
+    </image>
+    <image id="Shop02_Alb">
+      <init_from>Shop02_Alb.png</init_from>
+    </image>
+    <image id="Shop02_Emm">
+      <init_from>Shop02_Emm.png</init_from>
+    </image>
+    <image id="Shop02_Mtl">
+      <init_from>Shop02_Mtl.png</init_from>
+    </image>
+    <image id="Shop02_Nrm">
+      <init_from>Shop02_Nrm.png</init_from>
+    </image>
+    <image id="Shop02_Rgh">
+      <init_from>Shop02_Rgh.png</init_from>
+    </image>
+    <image id="SkateBox_Alb">
+      <init_from>SkateBox_Alb.png</init_from>
+    </image>
+    <image id="SkateBox_Mtl">
+      <init_from>SkateBox_Mtl.png</init_from>
+    </image>
+    <image id="SkateBox_Nrm">
+      <init_from>SkateBox_Nrm.png</init_from>
+    </image>
+    <image id="SkateBox_Rgh">
+      <init_from>SkateBox_Rgh.png</init_from>
+    </image>
+    <image id="Stone_Alb">
+      <init_from>Stone_Alb.png</init_from>
+    </image>
+    <image id="Stone_Mtl">
+      <init_from>Stone_Mtl.png</init_from>
+    </image>
+    <image id="Stone_Nrm">
+      <init_from>Stone_Nrm.png</init_from>
+    </image>
+    <image id="Stone_Rgh">
+      <init_from>Stone_Rgh.png</init_from>
+    </image>
+    <image id="Stor_Alb">
+      <init_from>Stor_Alb.png</init_from>
+    </image>
+    <image id="StreetLight_Alb">
+      <init_from>StreetLight_Alb.png</init_from>
+    </image>
+    <image id="StreetLight_Col">
+      <init_from>StreetLight_Col.png</init_from>
+    </image>
+    <image id="StreetLight_Emm">
+      <init_from>StreetLight_Emm.png</init_from>
+    </image>
+    <image id="StreetLight_Mtl">
+      <init_from>StreetLight_Mtl.png</init_from>
+    </image>
+    <image id="StreetLight_Nrm">
+      <init_from>StreetLight_Nrm.png</init_from>
+    </image>
+    <image id="StreetLight_Rgh">
+      <init_from>StreetLight_Rgh.png</init_from>
+    </image>
+    <image id="Tile_Alb">
+      <init_from>Tile_Alb.png</init_from>
+    </image>
+    <image id="Tile_Nrm">
+      <init_from>Tile_Nrm.png</init_from>
+    </image>
+    <image id="Tile_Spm">
+      <init_from>Tile_Spm.png</init_from>
+    </image>
+    <image id="Vendor01_Alb">
+      <init_from>Vendor01_Alb.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.0">
+      <init_from>Vendor01_Emm.0.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.1">
+      <init_from>Vendor01_Emm.1.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.2">
+      <init_from>Vendor01_Emm.2.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.3">
+      <init_from>Vendor01_Emm.3.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.4">
+      <init_from>Vendor01_Emm.4.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.5">
+      <init_from>Vendor01_Emm.5.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.6">
+      <init_from>Vendor01_Emm.6.png</init_from>
+    </image>
+    <image id="Vendor01_Mtl">
+      <init_from>Vendor01_Mtl.png</init_from>
+    </image>
+    <image id="Vendor01_Nrm">
+      <init_from>Vendor01_Nrm.png</init_from>
+    </image>
+    <image id="Vendor01_Rgh">
+      <init_from>Vendor01_Rgh.png</init_from>
+    </image>
+    <image id="WallBrickTeam_Alb">
+      <init_from>WallBrickTeam_Alb.png</init_from>
+    </image>
+    <image id="WallBrickTeam_Nrm">
+      <init_from>WallBrickTeam_Nrm.png</init_from>
+    </image>
+    <image id="WallBrickTeam_Rgh">
+      <init_from>WallBrickTeam_Rgh.png</init_from>
+    </image>
+    <image id="WallConcretePurpleHalf_Alb">
+      <init_from>WallConcretePurpleHalf_Alb.png</init_from>
+    </image>
+    <image id="WallConcretePurpleHalf_Nrm">
+      <init_from>WallConcretePurpleHalf_Nrm.png</init_from>
+    </image>
+    <image id="WallConcretePurpleHalf_Spm">
+      <init_from>WallConcretePurpleHalf_Spm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Alb">
+      <init_from>WallConcreteWhite_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Nrm">
+      <init_from>WallConcreteWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Rgh">
+      <init_from>WallConcreteWhite_Rgh.png</init_from>
+    </image>
+    <image id="WallLightSteel_Alb">
+      <init_from>WallLightSteel_Alb.png</init_from>
+    </image>
+    <image id="WallLightSteel_Emm">
+      <init_from>WallLightSteel_Emm.png</init_from>
+    </image>
+    <image id="WallVinyl_Alb">
+      <init_from>WallVinyl_Alb.png</init_from>
+    </image>
+    <image id="WallVinyl_Nrm">
+      <init_from>WallVinyl_Nrm.png</init_from>
+    </image>
+    <image id="Zakka_Alb">
+      <init_from>Zakka_Alb.png</init_from>
+    </image>
+    <image id="Zakka_Mtl">
+      <init_from>Zakka_Mtl.png</init_from>
+    </image>
+    <image id="Zakka_Nrm">
+      <init_from>Zakka_Nrm.png</init_from>
+    </image>
+    <image id="Zakka_Rgh">
+      <init_from>Zakka_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="FenceIronSet">
+      <instance_effect url="#Effect_FenceIronSet" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_FenceIronSet">
+      <profile_COMMON>
+        <newparam sid="surface_FenceIronSet-diffuse">
+          <surface type="2D">
+            <init_from>FenceIronSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FenceIronSet-diffuse">
+          <sampler2D>
+            <source>surface_FenceIronSet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_FenceIronSet-bump">
+          <surface type="2D">
+            <init_from>FenceIronSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FenceIronSet-bump">
+          <sampler2D>
+            <source>surface_FenceIronSet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_FenceIronSet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_FenceIronSet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="DitchYellowFrame_NoFld__FenceIronSet-mesh" name="DitchYellowFrame_NoFld__FenceIronSet">
+      <mesh>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-position">
+          <float_array id="DitchYellowFrame_NoFld__FenceIronSet-position-array" count="96">207.0004 120 327 207.0003 120 217 207.0004 117.5 327 207.0003 117.5 217 210.0004 120 330 210.0004 120 217 207.0004 120 327 207.0003 120 217 210.0004 117.5 330 207.0004 117.5 327 210.0004 117.5 217 207.0003 117.5 217 82.44355 120 327 207.0004 120 327 82.44356 117.5 327 207.0004 117.5 327 210.0004 120 330 207.0004 120 327 82.44356 120 330 82.44355 120 327 210.0004 117.5 330 82.44356 117.5 330 207.0004 117.5 327 82.44356 117.5 327 82.44356 120 330 82.44355 120 327 82.44356 117.5 330 82.44356 117.5 327 207.0003 120 217 210.0004 120 217 207.0003 117.5 217 210.0004 117.5 217</float_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-normal">
+          <float_array id="DitchYellowFrame_NoFld__FenceIronSet-normal-array" count="96">-1 0 0.009784736 -1 0 0.009784736 -1 0 0.009784736 -1 0 0.009784736 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.009784736 0 -1 -0.009784736 0 -1 -0.009784736 0 -1 -0.009784736 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-color">
+          <float_array id="DitchYellowFrame_NoFld__FenceIronSet-color-array" count="128">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-color-array" count="32" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-texcoord">
+          <float_array id="DitchYellowFrame_NoFld__FenceIronSet-texcoord-array" count="64">0.2907715 0.1416016 0.2910156 2.362305 0.1901855 0.1416016 0.1898193 2.362305 0.3703613 -0.05761719 0.3703613 1.108337 0.3120117 -0.02636719 0.3120117 1.108337 0.1169434 0.5231934 0.1704102 0.5522461 0.1169434 1.614746 0.1704102 1.614746 0.2912598 0.8761597 0.2907715 3.390625 0.2399902 0.8761597 0.2403564 3.390625 0.3430176 1.666016 0.3120117 1.635254 0.3430176 0.3496094 0.3120117 0.3496094 0.1414795 2.136719 0.1414795 0.9047241 0.1704102 2.107422 0.1704102 0.9047241 0.2915039 0.8135986 0.2912598 0.8761597 0.239624 0.8135986 0.2399902 0.8761597 0.2910156 2.362305 0.2912598 2.484375 0.1898193 2.362305 0.1895752 2.484375</float_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-texcoord_1">
+          <float_array id="DitchYellowFrame_NoFld__FenceIronSet-texcoord-array_1" count="64">0.8278325 0.3847257 0.8278325 0.5093614 0.8221866 0.3847257 0.8221866 0.5093614 0.6000916 0.7216144 0.6000916 0.7870756 0.5968261 0.7233539 0.5968261 0.7870756 0.7572747 0.7271992 0.7602808 0.7288166 0.7572747 0.7884489 0.7602808 0.7884489 0.3238727 0.2457923 0.3238575 0.3869078 0.321004 0.2457923 0.3210193 0.3869078 0.4272831 0.719234 0.4255436 0.7174945 0.4272831 0.6453345 0.4255436 0.6453345 0.1190509 0.7456321 0.1190509 0.6764782 0.1206683 0.7439994 0.1206683 0.6764782 0.3239033 0.2422827 0.3238727 0.2457923 0.3209735 0.2422827 0.321004 0.2457923 0 0.8333257 1 0.8333257 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-texcoord-array_1" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DitchYellowFrame_NoFld__FenceIronSet-vertex">
+          <input semantic="POSITION" source="#DitchYellowFrame_NoFld__FenceIronSet-position" />
+        </vertices>
+        <triangles material="FenceIronSet" count="16">
+          <input semantic="VERTEX" source="#DitchYellowFrame_NoFld__FenceIronSet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DitchYellowFrame_NoFld__FenceIronSet-normal" offset="1" />
+          <input semantic="COLOR" source="#DitchYellowFrame_NoFld__FenceIronSet-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#DitchYellowFrame_NoFld__FenceIronSet-texcoord" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#DitchYellowFrame_NoFld__FenceIronSet-texcoord_1" offset="4" set="1" />
+          <p>0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 1 1 1 1 1 3 3 3 3 3 2 2 2 2 2 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 5 5 5 5 5 7 7 7 7 7 6 6 6 6 6 8 8 8 8 8 9 9 9 9 9 10 10 10 10 10 9 9 9 9 9 11 11 11 11 11 10 10 10 10 10 12 12 12 12 12 13 13 13 13 13 14 14 14 14 14 13 13 13 13 13 15 15 15 15 15 14 14 14 14 14 16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 17 17 17 17 17 19 19 19 19 19 18 18 18 18 18 20 20 20 20 20 21 21 21 21 21 22 22 22 22 22 21 21 21 21 21 23 23 23 23 23 22 22 22 22 22 24 24 24 24 24 25 25 25 25 25 26 26 26 26 26 25 25 25 25 25 27 27 27 27 27 26 26 26 26 26 28 28 28 28 28 29 29 29 29 29 30 30 30 30 30 29 29 29 29 29 31 31 31 31 31 30 30 30 30 30 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_DitchYellowFrame_NoFld__FenceIronSet-mesh">
+      <skin source="#DitchYellowFrame_NoFld__FenceIronSet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-mesh-joint">
+          <Name_array id="DitchYellowFrame_NoFld__FenceIronSet-mesh-joint-array" count="1">DitchYellowFrame_NoFld</Name_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-mesh-inv_bind_matrix">
+          <float_array id="DitchYellowFrame_NoFld__FenceIronSet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DitchYellowFrame_NoFld__FenceIronSet-mesh-weight">
+          <float_array id="DitchYellowFrame_NoFld__FenceIronSet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DitchYellowFrame_NoFld__FenceIronSet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DitchYellowFrame_NoFld__FenceIronSet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DitchYellowFrame_NoFld__FenceIronSet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#DitchYellowFrame_NoFld__FenceIronSet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DitchYellowFrame_NoFld__FenceIronSet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_DitchYellowFrame_NoFld" name="DitchYellowFrame_NoFld" sid="DitchYellowFrame_NoFld" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="DitchYellowFrame_NoFld__FenceIronSet" name="DitchYellowFrame_NoFld__FenceIronSet" type="NODE">
+        <instance_controller url="#Armature_DitchYellowFrame_NoFld__FenceIronSet-mesh">
+          <skeleton>#Armature_DitchYellowFrame_NoFld</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FenceIronSet" target="#FenceIronSet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Apartment_Alb">
+      <init_from>Apartment_Alb.png</init_from>
+    </image>
+    <image id="Apartment_Emm">
+      <init_from>Apartment_Emm.png</init_from>
+    </image>
+    <image id="Apartment_Mtl">
+      <init_from>Apartment_Mtl.png</init_from>
+    </image>
+    <image id="Apartment_Nrm">
+      <init_from>Apartment_Nrm.png</init_from>
+    </image>
+    <image id="Apartment_Rgh">
+      <init_from>Apartment_Rgh.png</init_from>
+    </image>
+    <image id="BackgroundBuildings_Alb">
+      <init_from>BackgroundBuildings_Alb.png</init_from>
+    </image>
+    <image id="Bake_Fld_Ditch01_DV_g00_b00_f00">
+      <init_from>Bake_Fld_Ditch01_DV_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Ditch01_g00_b00_f00">
+      <init_from>Bake_Fld_Ditch01_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Ditch01_g00_b01_f00">
+      <init_from>Bake_Fld_Ditch01_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Banner00_Alb">
+      <init_from>Banner00_Alb.png</init_from>
+    </image>
+    <image id="Banner00_Col">
+      <init_from>Banner00_Col.png</init_from>
+    </image>
+    <image id="Banner00_Mtl">
+      <init_from>Banner00_Mtl.png</init_from>
+    </image>
+    <image id="Banner00_Nrm">
+      <init_from>Banner00_Nrm.png</init_from>
+    </image>
+    <image id="Bike00_Alb">
+      <init_from>Bike00_Alb.png</init_from>
+    </image>
+    <image id="Bike00_Mtl">
+      <init_from>Bike00_Mtl.png</init_from>
+    </image>
+    <image id="Bike00_Nrm">
+      <init_from>Bike00_Nrm.png</init_from>
+    </image>
+    <image id="Bike00_Rgh">
+      <init_from>Bike00_Rgh.png</init_from>
+    </image>
+    <image id="Bottom_Alb">
+      <init_from>Bottom_Alb.png</init_from>
+    </image>
+    <image id="Bottom_Nrm">
+      <init_from>Bottom_Nrm.png</init_from>
+    </image>
+    <image id="Bottom_Rgh">
+      <init_from>Bottom_Rgh.png</init_from>
+    </image>
+    <image id="Box00_Alb">
+      <init_from>Box00_Alb.png</init_from>
+    </image>
+    <image id="Box00_Mtl">
+      <init_from>Box00_Mtl.png</init_from>
+    </image>
+    <image id="Box00_Nrm">
+      <init_from>Box00_Nrm.png</init_from>
+    </image>
+    <image id="Cover_Alb">
+      <init_from>Cover_Alb.png</init_from>
+    </image>
+    <image id="Cover_Mtl">
+      <init_from>Cover_Mtl.png</init_from>
+    </image>
+    <image id="Cover_Nrm">
+      <init_from>Cover_Nrm.png</init_from>
+    </image>
+    <image id="Cover_Rgh">
+      <init_from>Cover_Rgh.png</init_from>
+    </image>
+    <image id="DotPanelAndLine_Alb">
+      <init_from>DotPanelAndLine_Alb.png</init_from>
+    </image>
+    <image id="DotPanelAndLine_Nrm">
+      <init_from>DotPanelAndLine_Nrm.png</init_from>
+    </image>
+    <image id="DotPanelAndLine_Spm">
+      <init_from>DotPanelAndLine_Spm.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Alb">
+      <init_from>DVBuildingBase_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Emm">
+      <init_from>DVBuildingBase_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Rgh">
+      <init_from>DVBuildingBase_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Alb">
+      <init_from>DVBuildingsSet_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Emm">
+      <init_from>DVBuildingsSet_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Mtl">
+      <init_from>DVBuildingsSet_Mtl.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Nrm">
+      <init_from>DVBuildingsSet_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingsSet_Rgh">
+      <init_from>DVBuildingsSet_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Alb">
+      <init_from>DVBuildingWall00_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Mtl">
+      <init_from>DVBuildingWall00_Mtl.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Nrm">
+      <init_from>DVBuildingWall00_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingWall00_Rgh">
+      <init_from>DVBuildingWall00_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingWall_Alb">
+      <init_from>DVBuildingWall_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingWall_Nrm">
+      <init_from>DVBuildingWall_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceVinylBlue_Alb">
+      <init_from>DVFenceVinylBlue_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylBlue_Nrm">
+      <init_from>DVFenceVinylBlue_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceVinylGray_Alb">
+      <init_from>DVFenceVinylGray_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylGray_Nrm">
+      <init_from>DVFenceVinylGray_Nrm.png</init_from>
+    </image>
+    <image id="DVFerris_Alb">
+      <init_from>DVFerris_Alb.png</init_from>
+    </image>
+    <image id="DVFerris_Emm">
+      <init_from>DVFerris_Emm.png</init_from>
+    </image>
+    <image id="DVFerris_Nrm">
+      <init_from>DVFerris_Nrm.png</init_from>
+    </image>
+    <image id="DVFerris_Rgh">
+      <init_from>DVFerris_Rgh.png</init_from>
+    </image>
+    <image id="DVGroundBlock_Alb">
+      <init_from>DVGroundBlock_Alb.png</init_from>
+    </image>
+    <image id="DVGroundBlock_Nrm">
+      <init_from>DVGroundBlock_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundBlock_Rgh">
+      <init_from>DVGroundBlock_Rgh.png</init_from>
+    </image>
+    <image id="DVLeaves_Alb">
+      <init_from>DVLeaves_Alb.png</init_from>
+    </image>
+    <image id="DVLeaves_Nrm">
+      <init_from>DVLeaves_Nrm.png</init_from>
+    </image>
+    <image id="DVLeaves_Rgh">
+      <init_from>DVLeaves_Rgh.png</init_from>
+    </image>
+    <image id="DVMaterialsSteelPlate_Alb">
+      <init_from>DVMaterialsSteelPlate_Alb.png</init_from>
+    </image>
+    <image id="DVMaterialsSteelPlate_Nrm">
+      <init_from>DVMaterialsSteelPlate_Nrm.png</init_from>
+    </image>
+    <image id="DVRoadLine_Alb">
+      <init_from>DVRoadLine_Alb.png</init_from>
+    </image>
+    <image id="DVSaku_Alb">
+      <init_from>DVSaku_Alb.png</init_from>
+    </image>
+    <image id="DVSaku_Nrm">
+      <init_from>DVSaku_Nrm.png</init_from>
+    </image>
+    <image id="DVSaku_Rgh">
+      <init_from>DVSaku_Rgh.png</init_from>
+    </image>
+    <image id="DVTile_Alb">
+      <init_from>DVTile_Alb.png</init_from>
+    </image>
+    <image id="DVTile_Nrm">
+      <init_from>DVTile_Nrm.png</init_from>
+    </image>
+    <image id="DVTile_Rgh">
+      <init_from>DVTile_Rgh.png</init_from>
+    </image>
+    <image id="DVTreeBody_Alb">
+      <init_from>DVTreeBody_Alb.png</init_from>
+    </image>
+    <image id="DVTreeBody_Nrm">
+      <init_from>DVTreeBody_Nrm.png</init_from>
+    </image>
+    <image id="DVTreeBody_Rgh">
+      <init_from>DVTreeBody_Rgh.png</init_from>
+    </image>
+    <image id="DVTreeSet_Alb">
+      <init_from>DVTreeSet_Alb.png</init_from>
+    </image>
+    <image id="DVWaterBasic_Nrm">
+      <init_from>DVWaterBasic_Nrm.png</init_from>
+    </image>
+    <image id="FenceIronSet_Alb">
+      <init_from>FenceIronSet_Alb.png</init_from>
+    </image>
+    <image id="FenceIronSet_Nrm">
+      <init_from>FenceIronSet_Nrm.png</init_from>
+    </image>
+    <image id="FenceIronSet_Spm">
+      <init_from>FenceIronSet_Spm.png</init_from>
+    </image>
+    <image id="FloorConcreteEdge_Alb">
+      <init_from>FloorConcreteEdge_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteEdge_Nrm">
+      <init_from>FloorConcreteEdge_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcreteEdge_Spm">
+      <init_from>FloorConcreteEdge_Spm.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Alb">
+      <init_from>FloorConcreteHigh_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Nrm">
+      <init_from>FloorConcreteHigh_Nrm.png</init_from>
+    </image>
+    <image id="Glasspatern_Alb">
+      <init_from>Glasspatern_Alb.png</init_from>
+    </image>
+    <image id="Glasspatern_Mtl">
+      <init_from>Glasspatern_Mtl.png</init_from>
+    </image>
+    <image id="Glasspatern_Nrm">
+      <init_from>Glasspatern_Nrm.png</init_from>
+    </image>
+    <image id="Glasspatern_Rgh">
+      <init_from>Glasspatern_Rgh.png</init_from>
+    </image>
+    <image id="GlassTileDistant_Alb">
+      <init_from>GlassTileDistant_Alb.png</init_from>
+    </image>
+    <image id="GlassTileDistant_Emm">
+      <init_from>GlassTileDistant_Emm.png</init_from>
+    </image>
+    <image id="GlassTileDistant_Spm">
+      <init_from>GlassTileDistant_Spm.png</init_from>
+    </image>
+    <image id="GrafiitiMissionKanban_Alb">
+      <init_from>GrafiitiMissionKanban_Alb.png</init_from>
+    </image>
+    <image id="GrafiitiMissionKanban_Emm">
+      <init_from>GrafiitiMissionKanban_Emm.png</init_from>
+    </image>
+    <image id="GrafiitiMissionKanban_Nrm">
+      <init_from>GrafiitiMissionKanban_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Alb">
+      <init_from>GrafittiKanbanTate_Alb.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Emm">
+      <init_from>GrafittiKanbanTate_Emm.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Nrm">
+      <init_from>GrafittiKanbanTate_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiKanbanTate_Rgh">
+      <init_from>GrafittiKanbanTate_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Alb">
+      <init_from>GroundAsphaltCrackGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Nrm">
+      <init_from>GroundAsphaltCrackGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Rgh">
+      <init_from>GroundAsphaltCrackGrey_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackRed_Alb">
+      <init_from>GroundAsphaltCrackRed_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackRed_Nrm">
+      <init_from>GroundAsphaltCrackRed_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackRed_Rgh">
+      <init_from>GroundAsphaltCrackRed_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Alb">
+      <init_from>GroundAsphaltEdge_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Mtl">
+      <init_from>GroundAsphaltEdge_Mtl.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Nrm">
+      <init_from>GroundAsphaltEdge_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Rgh">
+      <init_from>GroundAsphaltEdge_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Alb">
+      <init_from>GroundConcreteGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Nrm">
+      <init_from>GroundConcreteGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Spm">
+      <init_from>GroundConcreteGrey_Spm.png</init_from>
+    </image>
+    <image id="GroundConcrete_Alb">
+      <init_from>GroundConcrete_Alb.png</init_from>
+    </image>
+    <image id="GroundConcrete_Nrm">
+      <init_from>GroundConcrete_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcrete_Rgh">
+      <init_from>GroundConcrete_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Alb">
+      <init_from>GroundSlopeDot_Alb.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Nrm">
+      <init_from>GroundSlopeDot_Nrm.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Spm">
+      <init_from>GroundSlopeDot_Spm.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Alb">
+      <init_from>GroundSoilLittleGrass_Alb.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Mtl">
+      <init_from>GroundSoilLittleGrass_Mtl.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Nrm">
+      <init_from>GroundSoilLittleGrass_Nrm.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Rgh">
+      <init_from>GroundSoilLittleGrass_Rgh.png</init_from>
+    </image>
+    <image id="GroundSquareTile_Alb">
+      <init_from>GroundSquareTile_Alb.png</init_from>
+    </image>
+    <image id="GroundSquareTile_Nrm">
+      <init_from>GroundSquareTile_Nrm.png</init_from>
+    </image>
+    <image id="Logo00_Alb">
+      <init_from>Logo00_Alb.png</init_from>
+    </image>
+    <image id="Logo00_Nrm">
+      <init_from>Logo00_Nrm.png</init_from>
+    </image>
+    <image id="Logo00_Rgh">
+      <init_from>Logo00_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalFrame_Alb">
+      <init_from>MetalFrame_Alb.png</init_from>
+    </image>
+    <image id="MetalFrame_Mtl">
+      <init_from>MetalFrame_Mtl.png</init_from>
+    </image>
+    <image id="MetalFrame_Nrm">
+      <init_from>MetalFrame_Nrm.png</init_from>
+    </image>
+    <image id="MetalFrame_Spm">
+      <init_from>MetalFrame_Spm.png</init_from>
+    </image>
+    <image id="MetalWall00_Alb">
+      <init_from>MetalWall00_Alb.png</init_from>
+    </image>
+    <image id="MetalWall00_Mtl">
+      <init_from>MetalWall00_Mtl.png</init_from>
+    </image>
+    <image id="MetalWall00_Nrm">
+      <init_from>MetalWall00_Nrm.png</init_from>
+    </image>
+    <image id="MetalWall00_Rgh">
+      <init_from>MetalWall00_Rgh.png</init_from>
+    </image>
+    <image id="MiiverseA00VSWall_Alb">
+      <init_from>MiiverseA00VSWall_Alb.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlA">
+      <init_from>MiiverseVSWall_MlA.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlB">
+      <init_from>MiiverseVSWall_MlB.png</init_from>
+    </image>
+    <image id="MonorailKoka_Alb">
+      <init_from>MonorailKoka_Alb.png</init_from>
+    </image>
+    <image id="MonorailKoka_Mtl">
+      <init_from>MonorailKoka_Mtl.png</init_from>
+    </image>
+    <image id="MonorailKoka_Nrm">
+      <init_from>MonorailKoka_Nrm.png</init_from>
+    </image>
+    <image id="MonorailKoka_Rgh">
+      <init_from>MonorailKoka_Rgh.png</init_from>
+    </image>
+    <image id="MonorailPole_Alb">
+      <init_from>MonorailPole_Alb.png</init_from>
+    </image>
+    <image id="MonorailPole_Mtl">
+      <init_from>MonorailPole_Mtl.png</init_from>
+    </image>
+    <image id="MonorailPole_Nrm">
+      <init_from>MonorailPole_Nrm.png</init_from>
+    </image>
+    <image id="MonorailPole_Rgh">
+      <init_from>MonorailPole_Rgh.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Alb">
+      <init_from>MonsteraLeaf_Alb.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Mtl">
+      <init_from>MonsteraLeaf_Mtl.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Nrm">
+      <init_from>MonsteraLeaf_Nrm.png</init_from>
+    </image>
+    <image id="MonsteraLeaf_Rgh">
+      <init_from>MonsteraLeaf_Rgh.png</init_from>
+    </image>
+    <image id="M_deck01_Alb">
+      <init_from>M_deck01_Alb.png</init_from>
+    </image>
+    <image id="M_deck01_Mtl">
+      <init_from>M_deck01_Mtl.png</init_from>
+    </image>
+    <image id="M_deck01_Nrm">
+      <init_from>M_deck01_Nrm.png</init_from>
+    </image>
+    <image id="M_deck01_Rgh">
+      <init_from>M_deck01_Rgh.png</init_from>
+    </image>
+    <image id="NewFence01_Alb">
+      <init_from>NewFence01_Alb.png</init_from>
+    </image>
+    <image id="NewFence01_Mtl">
+      <init_from>NewFence01_Mtl.png</init_from>
+    </image>
+    <image id="NewFence01_Nrm">
+      <init_from>NewFence01_Nrm.png</init_from>
+    </image>
+    <image id="NewFence01_Rgh">
+      <init_from>NewFence01_Rgh.png</init_from>
+    </image>
+    <image id="Noren_Alb">
+      <init_from>Noren_Alb.png</init_from>
+    </image>
+    <image id="Noren_Emm">
+      <init_from>Noren_Emm.png</init_from>
+    </image>
+    <image id="Noren_Nrm">
+      <init_from>Noren_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Alb">
+      <init_from>Obj_PlanlLeaf_Alb.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Nrm">
+      <init_from>Obj_PlanlLeaf_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Rgh">
+      <init_from>Obj_PlanlLeaf_Rgh.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Trm">
+      <init_from>Obj_PlanlLeaf_Trm.png</init_from>
+    </image>
+    <image id="Obj_Plant_Alb">
+      <init_from>Obj_Plant_Alb.png</init_from>
+    </image>
+    <image id="Obj_Plant_Mtl">
+      <init_from>Obj_Plant_Mtl.png</init_from>
+    </image>
+    <image id="Obj_Plant_Nrm">
+      <init_from>Obj_Plant_Nrm.png</init_from>
+    </image>
+    <image id="Obj_Plant_Rgh">
+      <init_from>Obj_Plant_Rgh.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Alb">
+      <init_from>Obj_PlazaBuilding00_Alb.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Mtl">
+      <init_from>Obj_PlazaBuilding00_Mtl.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Nrm">
+      <init_from>Obj_PlazaBuilding00_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuilding00_Rgh">
+      <init_from>Obj_PlazaBuilding00_Rgh.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Alb">
+      <init_from>Obj_PlazaBuildingGlass_Alb.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Emm">
+      <init_from>Obj_PlazaBuildingGlass_Emm.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Nrm">
+      <init_from>Obj_PlazaBuildingGlass_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlazaBuildingGlass_Rgh">
+      <init_from>Obj_PlazaBuildingGlass_Rgh.png</init_from>
+    </image>
+    <image id="PartitionWhite_Alb">
+      <init_from>PartitionWhite_Alb.png</init_from>
+    </image>
+    <image id="PartitionWhite_Nrm">
+      <init_from>PartitionWhite_Nrm.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Alb">
+      <init_from>PlazaFloorLine_Alb.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Emm">
+      <init_from>PlazaFloorLine_Emm.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Nrm">
+      <init_from>PlazaFloorLine_Nrm.png</init_from>
+    </image>
+    <image id="PlazaFloorLine_Spm">
+      <init_from>PlazaFloorLine_Spm.png</init_from>
+    </image>
+    <image id="PlazaRightF1Panel_Alb">
+      <init_from>PlazaRightF1Panel_Alb.png</init_from>
+    </image>
+    <image id="PlazaRightF1Panel_Nrm">
+      <init_from>PlazaRightF1Panel_Nrm.png</init_from>
+    </image>
+    <image id="PlazaRightF1Panel_Spm">
+      <init_from>PlazaRightF1Panel_Spm.png</init_from>
+    </image>
+    <image id="PlazaRightF2Floor_Alb">
+      <init_from>PlazaRightF2Floor_Alb.png</init_from>
+    </image>
+    <image id="PlazaRightF2Floor_Nrm">
+      <init_from>PlazaRightF2Floor_Nrm.png</init_from>
+    </image>
+    <image id="PlazaRightF2Floor_Spm">
+      <init_from>PlazaRightF2Floor_Spm.png</init_from>
+    </image>
+    <image id="PlazaWoodTable_Alb">
+      <init_from>PlazaWoodTable_Alb.png</init_from>
+    </image>
+    <image id="PlazaWoodTable_Nrm">
+      <init_from>PlazaWoodTable_Nrm.png</init_from>
+    </image>
+    <image id="PlazaWoodTable_Spm">
+      <init_from>PlazaWoodTable_Spm.png</init_from>
+    </image>
+    <image id="Plywood_Alb">
+      <init_from>Plywood_Alb.png</init_from>
+    </image>
+    <image id="Plywood_Nrm">
+      <init_from>Plywood_Nrm.png</init_from>
+    </image>
+    <image id="Plywood_Rgh">
+      <init_from>Plywood_Rgh.png</init_from>
+    </image>
+    <image id="RoofParts_Alb">
+      <init_from>RoofParts_Alb.png</init_from>
+    </image>
+    <image id="RoofParts_Mtl">
+      <init_from>RoofParts_Mtl.png</init_from>
+    </image>
+    <image id="RoofParts_Nrm">
+      <init_from>RoofParts_Nrm.png</init_from>
+    </image>
+    <image id="RoofParts_Rgh">
+      <init_from>RoofParts_Rgh.png</init_from>
+    </image>
+    <image id="RoseWood_Alb">
+      <init_from>RoseWood_Alb.png</init_from>
+    </image>
+    <image id="RoseWood_Nrm">
+      <init_from>RoseWood_Nrm.png</init_from>
+    </image>
+    <image id="RoseWood_Rgh">
+      <init_from>RoseWood_Rgh.png</init_from>
+    </image>
+    <image id="Saku_Alb">
+      <init_from>Saku_Alb.png</init_from>
+    </image>
+    <image id="Saku_Nrm">
+      <init_from>Saku_Nrm.png</init_from>
+    </image>
+    <image id="Saku_Spm">
+      <init_from>Saku_Spm.png</init_from>
+    </image>
+    <image id="Shop00_Alb">
+      <init_from>Shop00_Alb.png</init_from>
+    </image>
+    <image id="Shop00_Mtl">
+      <init_from>Shop00_Mtl.png</init_from>
+    </image>
+    <image id="Shop00_Nrm">
+      <init_from>Shop00_Nrm.png</init_from>
+    </image>
+    <image id="Shop00_Rgh">
+      <init_from>Shop00_Rgh.png</init_from>
+    </image>
+    <image id="Shop02_Alb">
+      <init_from>Shop02_Alb.png</init_from>
+    </image>
+    <image id="Shop02_Emm">
+      <init_from>Shop02_Emm.png</init_from>
+    </image>
+    <image id="Shop02_Mtl">
+      <init_from>Shop02_Mtl.png</init_from>
+    </image>
+    <image id="Shop02_Nrm">
+      <init_from>Shop02_Nrm.png</init_from>
+    </image>
+    <image id="Shop02_Rgh">
+      <init_from>Shop02_Rgh.png</init_from>
+    </image>
+    <image id="SkateBox_Alb">
+      <init_from>SkateBox_Alb.png</init_from>
+    </image>
+    <image id="SkateBox_Mtl">
+      <init_from>SkateBox_Mtl.png</init_from>
+    </image>
+    <image id="SkateBox_Nrm">
+      <init_from>SkateBox_Nrm.png</init_from>
+    </image>
+    <image id="SkateBox_Rgh">
+      <init_from>SkateBox_Rgh.png</init_from>
+    </image>
+    <image id="Stone_Alb">
+      <init_from>Stone_Alb.png</init_from>
+    </image>
+    <image id="Stone_Mtl">
+      <init_from>Stone_Mtl.png</init_from>
+    </image>
+    <image id="Stone_Nrm">
+      <init_from>Stone_Nrm.png</init_from>
+    </image>
+    <image id="Stone_Rgh">
+      <init_from>Stone_Rgh.png</init_from>
+    </image>
+    <image id="Stor_Alb">
+      <init_from>Stor_Alb.png</init_from>
+    </image>
+    <image id="StreetLight_Alb">
+      <init_from>StreetLight_Alb.png</init_from>
+    </image>
+    <image id="StreetLight_Col">
+      <init_from>StreetLight_Col.png</init_from>
+    </image>
+    <image id="StreetLight_Emm">
+      <init_from>StreetLight_Emm.png</init_from>
+    </image>
+    <image id="StreetLight_Mtl">
+      <init_from>StreetLight_Mtl.png</init_from>
+    </image>
+    <image id="StreetLight_Nrm">
+      <init_from>StreetLight_Nrm.png</init_from>
+    </image>
+    <image id="StreetLight_Rgh">
+      <init_from>StreetLight_Rgh.png</init_from>
+    </image>
+    <image id="Tile_Alb">
+      <init_from>Tile_Alb.png</init_from>
+    </image>
+    <image id="Tile_Nrm">
+      <init_from>Tile_Nrm.png</init_from>
+    </image>
+    <image id="Tile_Spm">
+      <init_from>Tile_Spm.png</init_from>
+    </image>
+    <image id="Vendor01_Alb">
+      <init_from>Vendor01_Alb.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.0">
+      <init_from>Vendor01_Emm.0.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.1">
+      <init_from>Vendor01_Emm.1.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.2">
+      <init_from>Vendor01_Emm.2.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.3">
+      <init_from>Vendor01_Emm.3.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.4">
+      <init_from>Vendor01_Emm.4.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.5">
+      <init_from>Vendor01_Emm.5.png</init_from>
+    </image>
+    <image id="Vendor01_Emm.6">
+      <init_from>Vendor01_Emm.6.png</init_from>
+    </image>
+    <image id="Vendor01_Mtl">
+      <init_from>Vendor01_Mtl.png</init_from>
+    </image>
+    <image id="Vendor01_Nrm">
+      <init_from>Vendor01_Nrm.png</init_from>
+    </image>
+    <image id="Vendor01_Rgh">
+      <init_from>Vendor01_Rgh.png</init_from>
+    </image>
+    <image id="WallBrickTeam_Alb">
+      <init_from>WallBrickTeam_Alb.png</init_from>
+    </image>
+    <image id="WallBrickTeam_Nrm">
+      <init_from>WallBrickTeam_Nrm.png</init_from>
+    </image>
+    <image id="WallBrickTeam_Rgh">
+      <init_from>WallBrickTeam_Rgh.png</init_from>
+    </image>
+    <image id="WallConcretePurpleHalf_Alb">
+      <init_from>WallConcretePurpleHalf_Alb.png</init_from>
+    </image>
+    <image id="WallConcretePurpleHalf_Nrm">
+      <init_from>WallConcretePurpleHalf_Nrm.png</init_from>
+    </image>
+    <image id="WallConcretePurpleHalf_Spm">
+      <init_from>WallConcretePurpleHalf_Spm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Alb">
+      <init_from>WallConcreteWhite_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Nrm">
+      <init_from>WallConcreteWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Rgh">
+      <init_from>WallConcreteWhite_Rgh.png</init_from>
+    </image>
+    <image id="WallLightSteel_Alb">
+      <init_from>WallLightSteel_Alb.png</init_from>
+    </image>
+    <image id="WallLightSteel_Emm">
+      <init_from>WallLightSteel_Emm.png</init_from>
+    </image>
+    <image id="WallVinyl_Alb">
+      <init_from>WallVinyl_Alb.png</init_from>
+    </image>
+    <image id="WallVinyl_Nrm">
+      <init_from>WallVinyl_Nrm.png</init_from>
+    </image>
+    <image id="Zakka_Alb">
+      <init_from>Zakka_Alb.png</init_from>
+    </image>
+    <image id="Zakka_Mtl">
+      <init_from>Zakka_Mtl.png</init_from>
+    </image>
+    <image id="Zakka_Nrm">
+      <init_from>Zakka_Nrm.png</init_from>
+    </image>
+    <image id="Zakka_Rgh">
+      <init_from>Zakka_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GrafittiKanbanTate">
+      <instance_effect url="#Effect_GrafittiKanbanTate" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GrafittiKanbanTate">
+      <profile_COMMON>
+        <newparam sid="surface_GrafittiKanbanTate-diffuse">
+          <surface type="2D">
+            <init_from>GrafittiKanbanTate_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GrafittiKanbanTate-diffuse">
+          <sampler2D>
+            <source>surface_GrafittiKanbanTate-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GrafittiKanbanTate-bump">
+          <surface type="2D">
+            <init_from>GrafittiKanbanTate_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GrafittiKanbanTate-bump">
+          <sampler2D>
+            <source>surface_GrafittiKanbanTate-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GrafittiKanbanTate-emission">
+          <surface type="2D">
+            <init_from>GrafittiKanbanTate_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GrafittiKanbanTate-emission">
+          <sampler2D>
+            <source>surface_GrafittiKanbanTate-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GrafittiKanbanTate-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GrafittiKanbanTate-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_GrafittiKanbanTate-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="IDATEN__GrafittiKanbanTate-mesh" name="IDATEN__GrafittiKanbanTate">
+      <mesh>
+        <source id="IDATEN__GrafittiKanbanTate-position">
+          <float_array id="IDATEN__GrafittiKanbanTate-position-array" count="711">-331.079 218.3102 301.2022 -331.079 218.3102 288.9206 -333.2698 218.1308 288.9749 -333.2698 218.1308 301.2565 -333.2698 218.1308 288.9749 -333.9993 217.4329 288.9848 -333.9993 217.4329 301.2664 -333.819 215.9844 301.2632 -333.819 215.9844 288.9816 -330.7033 213.5812 301.1692 -330.7033 213.5812 288.8876 -334.7528 213.5099 288.9329 -334.7528 213.5099 301.2145 -342.5399 195.4655 289.1158 -342.5399 195.4655 301.3975 -250.6129 197.2138 299.0439 -342.5399 195.4655 301.3975 -250.6129 197.2138 286.7623 -241.7329 214.9037 298.8631 -241.7329 214.9037 286.5815 -241.7329 214.9037 298.8631 -241.7329 214.9037 286.5815 -248.5659 214.8568 286.9523 -248.5659 214.8568 299.2339 -248.5659 214.8568 286.9523 -248.586 216.3849 299.2348 -248.586 216.3849 286.9532 -248.9471 217.5334 286.9626 -248.9471 217.5334 299.2443 -243.3458 218.3416 299.1076 -243.3458 218.3416 286.826 -237.9016 218.2172 298.9233 -237.9016 218.2172 286.6417 -236.7337 219.1776 298.8998 -236.7337 219.1776 286.6182 -237.0209 220.6969 286.6279 -237.0209 220.6969 298.9095 -239.4807 221.676 286.6821 -239.4807 221.676 298.9637 -243.39 222.5538 286.762 -243.39 222.5538 299.0436 -243.3283 223.6201 299.0476 -243.3283 223.6201 286.766 -243.8884 224.6335 286.7816 -243.8884 224.6335 299.0632 -247.5974 225.8214 286.8998 -247.5974 225.8214 299.1814 -252.224 226.9958 287.05 -252.224 226.9958 299.3317 -252.5332 228.1208 287.0615 -252.5332 228.1208 299.343 -253.647 229.0094 287.0831 -253.647 229.0094 299.3647 -271.0767 233.2613 287.3129 -271.0767 233.2613 299.5945 -278.9837 234.0022 287.549 -278.9837 234.0022 299.8306 -280.1963 239.3021 287.5931 -280.1963 239.3021 299.8748 -280.4149 243.4019 287.6093 -280.4149 243.4019 299.8909 -272.2427 243.0815 299.6533 -272.2427 243.0815 287.3716 -263.1161 243.794 299.4616 -263.1161 243.794 287.1801 -262.0726 245.6243 299.4391 -262.0726 245.6243 287.1575 -263.4582 247.9393 287.173 -263.4582 247.9393 299.4546 -268.3748 251.0957 287.2878 -268.3748 251.0957 299.5695 -271.5945 255.9649 287.408 -271.5945 255.9649 299.6895 -273.7579 261.3555 287.4835 -273.7579 261.3555 299.7651 -273.9457 265.8576 287.5422 -273.9457 265.8576 299.8239 -274.9777 266.4166 287.5674 -274.9777 266.4166 299.8491 -288.172 264.9371 287.8281 -274.9777 266.4166 299.8491 -274.9777 266.4166 287.5674 -288.172 264.9371 300.1097 -298.1118 264.8714 288.0366 -298.1118 264.8714 300.3181 -303.8995 265.2028 288.2382 -303.8995 265.2028 300.5198 -311.8212 266.4857 288.4629 -311.8212 266.4857 300.7445 -313.1244 265.64 288.4971 -313.1244 265.64 300.7787 -313.4168 263.99 300.7782 -313.4168 263.99 288.4966 -306.6227 256.4906 300.6136 -306.6227 256.4906 288.332 -309.7839 254.4715 288.4352 -309.7839 254.4715 300.7168 -312.0779 254.2875 288.4919 -312.0779 254.2875 300.7735 -316.2649 250.9452 288.5485 -316.2649 250.9452 300.8301 -321.0644 242.9015 288.6407 -321.0644 242.9015 300.9223 -323.5699 236.4936 288.7262 -323.5699 236.4936 301.0078 -328.2229 236.1735 288.8279 -328.2229 236.1735 301.1095 -331.0301 234.2958 288.9068 -331.0301 234.2958 301.1884 -334.4091 232.9515 288.9217 -334.4091 232.9515 301.2033 -336.2845 230.1889 288.9366 -336.2845 230.1889 301.2182 -336.4381 226.9221 301.218 -336.4381 226.9221 288.9364 -335.2555 223.5424 301.1751 -335.2555 223.5424 288.8936 -331.079 218.3102 288.9206 -331.079 218.3102 301.2022 -248.5659 214.8568 299.2339 -250.6129 197.2138 299.0439 -241.7329 214.9037 298.8631 -330.7033 213.5812 301.1692 -248.586 216.3849 299.2348 -342.5399 195.4655 301.3975 -334.7528 213.5099 301.2145 -248.9471 217.5334 299.2443 -333.819 215.9844 301.2632 -333.9993 217.4329 301.2664 -333.2698 218.1308 301.2565 -331.079 218.3102 301.2022 -271.0767 233.2613 299.5945 -253.647 229.0094 299.3647 -252.5332 228.1208 299.343 -252.224 226.9958 299.3317 -247.5974 225.8214 299.1814 -243.8884 224.6335 299.0632 -243.3283 223.6201 299.0476 -243.39 222.5538 299.0436 -243.3458 218.3416 299.1076 -239.4807 221.676 298.9637 -237.0209 220.6969 298.9095 -236.7337 219.1776 298.8998 -237.9016 218.2172 298.9233 -278.9837 234.0022 299.8306 -335.2555 223.5424 301.1751 -336.4381 226.9221 301.218 -336.2845 230.1889 301.2182 -334.4091 232.9515 301.2033 -331.0301 234.2958 301.1884 -328.2229 236.1735 301.1095 -323.5699 236.4936 301.0078 -321.0644 242.9015 300.9223 -280.1963 239.3021 299.8748 -316.2649 250.9452 300.8301 -280.4149 243.4019 299.8909 -272.2427 243.0815 299.6533 -263.1161 243.794 299.4616 -262.0726 245.6243 299.4391 -263.4582 247.9393 299.4546 -268.3748 251.0957 299.5695 -309.7839 254.4715 300.7168 -312.0779 254.2875 300.7735 -306.6227 256.4906 300.6136 -271.5945 255.9649 299.6895 -273.7579 261.3555 299.7651 -273.9457 265.8576 299.8239 -274.9777 266.4166 299.8491 -288.172 264.9371 300.1097 -298.1118 264.8714 300.3181 -303.8995 265.2028 300.5198 -311.8212 266.4857 300.7445 -313.1244 265.64 300.7787 -313.4168 263.99 300.7782 -248.5659 214.8568 286.9523 -241.7329 214.9037 286.5815 -250.6129 197.2138 286.7623 -330.7033 213.5812 288.8876 -248.586 216.3849 286.9532 -342.5399 195.4655 289.1158 -334.7528 213.5099 288.9329 -248.9471 217.5334 286.9626 -333.9993 217.4329 288.9848 -333.819 215.9844 288.9816 -333.2698 218.1308 288.9749 -331.079 218.3102 288.9206 -271.0767 233.2613 287.3129 -253.647 229.0094 287.0831 -252.5332 228.1208 287.0615 -252.224 226.9958 287.05 -247.5974 225.8214 286.8998 -243.8884 224.6335 286.7816 -243.3283 223.6201 286.766 -243.39 222.5538 286.762 -243.3458 218.3416 286.826 -239.4807 221.676 286.6821 -237.0209 220.6969 286.6279 -236.7337 219.1776 286.6182 -237.9016 218.2172 286.6417 -278.9837 234.0022 287.549 -335.2555 223.5424 288.8936 -336.4381 226.9221 288.9364 -336.2845 230.1889 288.9366 -334.4091 232.9515 288.9217 -331.0301 234.2958 288.9068 -328.2229 236.1735 288.8279 -323.5699 236.4936 288.7262 -321.0644 242.9015 288.6407 -280.1963 239.3021 287.5931 -316.2649 250.9452 288.5485 -280.4149 243.4019 287.6093 -272.2427 243.0815 287.3716 -263.1161 243.794 287.1801 -262.0726 245.6243 287.1575 -263.4582 247.9393 287.173 -268.3748 251.0957 287.2878 -312.0779 254.2875 288.4919 -309.7839 254.4715 288.4352 -306.6227 256.4906 288.332 -271.5945 255.9649 287.408 -273.7579 261.3555 287.4835 -273.9457 265.8576 287.5422 -274.9777 266.4166 287.5674 -288.172 264.9371 287.8281 -298.1118 264.8714 288.0366 -303.8995 265.2028 288.2382 -311.8212 266.4857 288.4629 -313.1244 265.64 288.4971 -313.4168 263.99 288.4966 -287.3917 196.5384 293.8634 -293.2567 183.7066 288.141 -293.2567 196.5384 288.141 -298.782 196.5384 294.2621 -287.3917 183.7066 293.8634 -298.782 183.6781 294.2621 -292.9171 196.5384 299.9846 -292.9171 183.6781 299.9846</float_array>
+          <technique_common>
+            <accessor source="#IDATEN__GrafittiKanbanTate-position-array" count="237" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="IDATEN__GrafittiKanbanTate-normal">
+          <float_array id="IDATEN__GrafittiKanbanTate-normal-array" count="711">-0.9412916 -0.3385518 0 -0.9373777 -0.3502935 0 -0.2857143 0.9589041 0 -0.2857143 0.9589041 0 -0.2857143 0.9589041 0 -0.9686888 0.2465753 0 -0.9686888 0.2465753 0 -0.7573385 -0.6516634 0 -0.7573385 -0.6516634 0 -0.9393346 0.3424658 0 -0.9315069 0.3639922 0 -0.8414873 0.5420744 0 -0.8414873 0.5420744 0 -0.1878669 -0.9823875 0 -0.1878669 -0.9823875 0 0.1917808 -0.9804305 0 -0.1878669 -0.9823875 0 0.1917808 -0.9804305 0 0.9941292 -0.1037182 0 0.9921722 -0.1252446 0 0.9941292 -0.1037182 0 0.9921722 -0.1252446 0 0.2035225 0.9784736 0 0.2191781 0.9765166 0 0.2035225 0.9784736 0 0.9902152 0.1409002 0 0.9902152 0.1409002 0 0.3483366 -0.9373777 0 0.3483366 -0.9373777 0 0.06262231 -0.9980431 0 0.06262231 -0.9980431 0 0.1213307 -0.9921722 0 0.1213307 -0.9921722 0 0.9432485 -0.332681 0 0.9432485 -0.332681 0 0.6751468 0.7377691 0 0.6751468 0.7377691 0 0.2818004 0.9589041 0 0.2818004 0.9589041 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.9726027 0.2309198 0 0.9726027 0.2309198 0 0.4618395 0.8864971 0 0.4481409 0.8943248 0 0.2818004 0.9589041 0 0.2818004 0.9589041 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.8180039 0.5753425 0 0.8180039 0.5753425 0 0.2681018 0.962818 0 0.2681018 0.962818 0 0.1937378 0.9804305 0 0.1937378 0.9804305 0 0.5459883 0.8375734 0 0.5596869 0.8297456 0 0.9882583 0.1506849 0 0.9902152 0.1409002 0 0.4227006 -0.9060665 0 0.4363992 -0.9001957 0 0.02152642 -1 0 0.02152642 -1 0 0.2407045 -0.9706458 0 0.2407045 -0.9706458 0 0.9960861 0.08219178 0 0.9960861 0.08219178 0 0.6536204 0.7553816 0 0.6536204 0.7553816 0 0.7005871 0.7142857 0 0.7005871 0.7142857 0 0.8845401 0.4657534 0 0.8845401 0.4657534 0 0.9726027 0.2309198 0 0.9726027 0.2309198 0 0.9726027 0.2309198 0 0.9726027 0.2309198 0 -0.06262231 0.9980431 0 -0.06262231 0.9980431 0 -0.06262231 0.9980431 0 -0.06262231 0.9980431 0 -0.06262231 0.9980431 0 -0.06262231 0.9980431 0 0.01565558 1 0 0.01565558 1 0 0.1154599 0.9941292 0 0.1154599 0.9941292 0 0.05088063 0.9980431 0 0.05088063 0.9980431 0 -0.8414873 0.5420744 0 -0.8414873 0.5420744 0 -0.81409 -0.5792564 0 -0.81409 -0.5792564 0 -0.9373777 -0.3502935 0 -0.9373777 -0.3502935 0 -0.37182 0.9295499 0 -0.37182 0.9295499 0 -0.4755382 0.8806262 0 -0.4755382 0.8806262 0 -0.7847358 0.6203523 0 -0.7847358 0.6203523 0 -0.8923679 0.4500979 0 -0.8923679 0.4500979 0 -0.6810176 0.7338552 0 -0.6810176 0.7338552 0 -0.2857143 0.9589041 0 -0.2857143 0.9589041 0 -0.4618395 0.8864971 0 -0.4618395 0.8864971 0 -0.6164383 0.7866927 0 -0.6164383 0.7866927 0 -0.9471624 0.3189824 0 -0.9471624 0.3189824 0 -0.9882583 -0.1545988 0 -0.9882583 -0.1545988 0 -0.849315 -0.5283757 0 -0.849315 -0.5283757 0 -0.9373777 -0.3502935 0 -0.9412916 -0.3385518 0 0.02544031 -0.01369863 1 0.02544031 -0.01174168 1 0.05479452 -0.01761252 0.9980431 0.02544031 -0.003913894 1 0.02348337 0 1 0.02544031 -0.003913894 1 0.01174168 0.005870841 1 0.02348337 0 1 0.03131115 0.001956947 1 0.02348337 -0.005870841 1 0.02739726 -0.003913894 1 0.02544031 0.003913894 1 0.01956947 0.02152642 1 0.01956947 0.01565558 1 0.02348337 -0.001956947 1 0.02348337 -0.001956947 1 0.0332681 0.001956947 1 0.0332681 0.001956947 1 0.0332681 0 1 0.02739726 0.009784736 1 0.02348337 0.01369863 1 0.02544031 0.01369863 1 0.02935421 0.003913894 1 0.03131115 -0.003913894 1 0.0332681 -0.01565558 1 0.02348337 0.009784736 1 0.02348337 0.005870841 1 0.02544031 -0.001956947 1 0.02544031 -0.003913894 1 0.02544031 -0.01369863 1 0.02544031 -0.04109589 0.9980431 0.02544031 0.001956947 1 0.02544031 -0.003913894 1 0.02544031 0 1 0.02544031 -0.001956947 1 0.02544031 -0.005870841 1 0.02739726 0.003913894 1 0.02348337 -0.02152642 1 0.02544031 -0.003913894 1 0.02544031 0.003913894 1 0.02739726 0.007827789 1 0.02544031 0.001956947 1 0.02739726 -0.01369863 1 0.02544031 -0.01565558 1 0.02739726 0.003913894 1 0.02544031 -0.005870841 1 0.02739726 -0.007827789 1 0.02739726 -0.009784736 1 0.02348337 0.003913894 1 0.01761252 0.02152642 1 0.02348337 0.01174168 1 0.03131115 0 1 0.02739726 0.001956947 1 0.02348337 0 1 0.01956947 -0.003913894 1 -0.02544031 0.01369863 -1 -0.05479452 0.01761252 -0.9980431 -0.02544031 0.01174168 -1 -0.02544031 0.003913894 -1 -0.02348337 0 -1 -0.02544031 0.003913894 -1 -0.01174168 -0.005870841 -1 -0.02348337 0 -1 -0.02348337 0.005870841 -1 -0.03131115 -0.001956947 -1 -0.02739726 0.003913894 -1 -0.02544031 -0.003913894 -1 -0.01956947 -0.02152642 -1 -0.01956947 -0.01565558 -1 -0.02348337 0.001956947 -1 -0.02348337 0.001956947 -1 -0.0332681 -0.001956947 -1 -0.0332681 -0.001956947 -1 -0.0332681 0 -1 -0.02739726 -0.009784736 -1 -0.02348337 -0.01369863 -1 -0.02544031 -0.01369863 -1 -0.02935421 -0.003913894 -1 -0.03131115 0.003913894 -1 -0.0332681 0.01565558 -1 -0.02348337 -0.009784736 -1 -0.02348337 -0.005870841 -1 -0.02544031 0.001956947 -1 -0.02544031 0.003913894 -1 -0.02544031 0.01369863 -1 -0.02544031 0.04109589 -0.9980431 -0.02544031 -0.001956947 -1 -0.02544031 0.003913894 -1 -0.02544031 0 -1 -0.02544031 0.001956947 -1 -0.02544031 0.005870841 -1 -0.02739726 -0.003913894 -1 -0.02348337 0.02152642 -1 -0.02544031 0.003913894 -1 -0.02544031 -0.003913894 -1 -0.02739726 -0.007827789 -1 -0.02544031 -0.001956947 -1 -0.02544031 0.01565558 -1 -0.02739726 0.01369863 -1 -0.02739726 -0.003913894 -1 -0.02544031 0.005870841 -1 -0.02739726 0.007827789 -1 -0.02739726 0.009784736 -1 -0.02348337 -0.003913894 -1 -0.01761252 -0.02152642 -1 -0.02348337 -0.01174168 -1 -0.03131115 0 -1 -0.02739726 -0.001956947 -1 -0.02348337 0 -1 -0.01956947 0.003913894 -1 0.7260274 0 0.6888454 -0.7260274 0 -0.6888454 -0.7260274 0 -0.6888454 -0.6888454 0 0.7240704 0.7260274 0 0.6888454 -0.6888454 0 0.7240704 -0.6888454 0 0.7240704 -0.6888454 0 0.7240704</float_array>
+          <technique_common>
+            <accessor source="#IDATEN__GrafittiKanbanTate-normal-array" count="237" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="IDATEN__GrafittiKanbanTate-texcoord">
+          <float_array id="IDATEN__GrafittiKanbanTate-texcoord-array" count="474">-0.3859863 0.957489 -0.3864746 0.9960442 -0.3615723 0.9960442 -0.361084 0.957489 -0.3615723 0.9960442 -0.3498535 0.9960442 -0.3498535 0.957489 -0.333252 0.957489 -0.333252 0.9960442 -0.2888184 0.957489 -0.2888184 0.9960442 -0.2432861 0.9960442 -0.2427979 0.957489 -0.01940918 0.9960442 -0.02200317 0.957489 1.018555 0.957489 -0.02200317 0.957489 1.021484 0.9960442 1.244141 0.957489 1.243164 0.9960442 1.244141 0.957489 1.243164 0.9960442 1.320313 0.9960442 1.322266 0.957489 1.320313 0.9960442 1.338867 0.957489 1.338867 0.9960442 1.352539 0.9960442 1.352539 0.957489 1.416016 0.957489 1.416992 0.9960442 1.477539 0.957489 1.478516 0.9960442 1.495117 0.957489 1.495117 0.9960442 1.512695 0.9960442 1.512695 0.957489 1.541992 0.9960442 1.542969 0.957489 1.586914 0.9960442 1.588867 0.957489 1.601563 0.957489 1.598633 0.9960442 1.612305 0.9960442 1.614258 0.957489 1.65625 0.9960442 1.658203 0.957489 1.709961 0.9960442 1.712891 0.957489 1.723633 0.9960442 1.725586 0.957489 1.739258 0.9960442 1.742188 0.957489 1.942383 0.9960442 1.945313 0.957489 2.033203 0.9960442 2.033203 0.957489 2.09375 0.9960442 2.095703 0.957489 2.142578 0.9960442 2.140625 0.957489 2.232422 0.957489 2.234375 0.9960442 2.337891 0.957489 2.337891 0.9960442 2.361328 0.957489 2.361328 0.9960442 2.392578 0.9960442 2.392578 0.957489 2.457031 0.9960442 2.458984 0.957489 2.523438 0.9960442 2.525391 0.957489 2.589844 0.9960442 2.591797 0.957489 2.640625 0.9960442 2.642578 0.957489 2.652344 0.9960442 2.65625 0.957489 -1.444336 0.9960442 -1.591797 0.957489 -1.594727 0.9960442 -1.441406 0.957489 -1.332031 0.9960442 -1.328125 0.957489 -1.265625 0.9960442 -1.262695 0.957489 -1.173828 0.9960442 -1.171875 0.957489 -1.15625 0.9960442 -1.155273 0.957489 -1.136719 0.957489 -1.136719 0.9960442 -1.021484 0.957489 -1.022461 0.9960442 -0.9804688 0.9960442 -0.9790039 0.957489 -0.9545898 0.9960442 -0.953125 0.957489 -0.894043 0.9960442 -0.8925781 0.957489 -0.7880859 0.9960442 -0.7866211 0.957489 -0.7104492 0.9960442 -0.7084961 0.957489 -0.6577148 0.9960442 -0.6557617 0.957489 -0.6191406 0.9960442 -0.6176758 0.957489 -0.5776367 0.9960442 -0.5766602 0.957489 -0.5395508 0.9960442 -0.5390625 0.957489 -0.5024414 0.957489 -0.5024414 0.9960442 -0.4619141 0.957489 -0.4619141 0.9960442 -0.3864746 0.9960442 -0.3859863 0.957489 0.116394 0.05615234 0.1356201 0.01025391 0.05184937 0.05615234 0.8916016 0.05615234 0.1165771 0.05908203 1.00293 0.01025391 0.9301758 0.05615234 0.1199341 0.06396484 0.9213867 0.06201172 0.9228516 0.06591797 0.9160156 0.06787109 0.8955078 0.06787109 0.3288574 0.1035156 0.1643066 0.09179688 0.1538086 0.08984375 0.1508789 0.08691406 0.1072388 0.08398438 0.07220459 0.08056641 0.06689453 0.07861328 0.06750488 0.07519531 0.06707764 0.06445313 0.03060913 0.07275391 0.007392883 0.0703125 0.004680634 0.06591797 0.01570129 0.06396484 0.4035645 0.105957 0.9345703 0.08154297 0.9458008 0.09033203 0.9443359 0.09863281 0.9267578 0.1054688 0.8950195 0.1088867 0.8681641 0.1132813 0.8242188 0.1142578 0.8007813 0.1303711 0.4150391 0.1196289 0.7553711 0.1508789 0.4169922 0.1303711 0.3398438 0.1289063 0.2536621 0.1303711 0.2438965 0.1352539 0.2568359 0.1411133 0.3032227 0.1494141 0.6943359 0.159668 0.7158203 0.1591797 0.6645508 0.1645508 0.3337402 0.1621094 0.354248 0.1762695 0.355957 0.1875 0.3657227 0.1889648 0.4902344 0.1855469 0.5839844 0.1860352 0.6386719 0.1870117 0.7133789 0.1904297 0.7255859 0.1884766 0.7285156 0.184082 0.8828125 0.8049316 0.9472656 0.8048096 0.8632813 0.7587891 0.1074829 0.8048096 0.8828125 0.8079834 -0.004249573 0.7587891 0.06921387 0.8045654 0.8793945 0.8127441 0.07635498 0.8145752 0.07806396 0.8109131 0.08325195 0.8162842 0.1038818 0.8166504 0.6704102 0.8521729 0.8349609 0.8405762 0.8452148 0.838623 0.8481445 0.8358154 0.8920898 0.8325195 0.9267578 0.8292236 0.9321289 0.8271484 0.9316406 0.8240967 0.9321289 0.8131104 0.96875 0.8215332 0.9916992 0.8187256 0.9946289 0.8148193 0.9833984 0.8123779 0.5957031 0.8546143 0.06451416 0.8300781 0.05334473 0.8388672 0.05480957 0.847168 0.07250977 0.854248 0.1043701 0.8575439 0.1308594 0.8621826 0.1748047 0.862793 0.1984863 0.8790894 0.5839844 0.8682861 0.2437744 0.8994751 0.5820313 0.8788452 0.6591797 0.8776245 0.7456055 0.8790894 0.7553711 0.8837891 0.7421875 0.8898315 0.6958008 0.8981934 0.2832031 0.9078369 0.3049316 0.9082031 0.3347168 0.913269 0.6655273 0.9107666 0.6450195 0.9246826 0.6430664 0.9362183 0.6333008 0.9376526 0.5087891 0.9343262 0.4150391 0.9345093 0.3603516 0.9354858 0.2856445 0.9389954 0.2734375 0.9368896 0.2705078 0.9326782 0.7666016 0.9579163 0.7666016 0.9914398 0.7666016 0.9914398 0.7915039 0.9914322 0.7666016 0.9579163 0.7915039 0.9914322 0.7915039 0.9578857 0.7915039 0.9578857</float_array>
+          <technique_common>
+            <accessor source="#IDATEN__GrafittiKanbanTate-texcoord-array" count="237" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="IDATEN__GrafittiKanbanTate-texcoord_1">
+          <float_array id="IDATEN__GrafittiKanbanTate-texcoord-array_1" count="474">0.7252156 0.7173724 0.7252156 0.7173724 0.7248188 0.7227436 0.7248188 0.7227436 0.7248188 0.7227436 0.7230182 0.7245289 0.7230182 0.7245289 0.7191882 0.7240864 0.7191882 0.7240864 0.7128252 0.7164569 0.7128252 0.7164569 0.7126421 0.72636 0.7126421 0.72636 0.665095 0.7454643 0.665095 0.7454643 0.6650645 0.52018 0.665095 0.7454643 0.6650645 0.52018 0.7129015 0.4984207 0.7129015 0.4984207 0.7129015 0.4984207 0.7129015 0.4984207 0.7129626 0.5151751 0.7129626 0.5151751 0.7129626 0.5151751 0.7161517 0.5152361 0.7161517 0.5152361 0.7212024 0.5162127 0.7212024 0.5162127 0.7214771 0.5024033 0.7214771 0.5024033 0.7207599 0.4890516 0.7207599 0.4890516 0.7232776 0.4861829 0.7232776 0.4861829 0.7273823 0.4868849 0.7273823 0.4868849 0.7302205 0.4929274 0.7302205 0.4929274 0.7328756 0.5025253 0.7328756 0.5025253 0.7360799 0.502388 0.7360799 0.502388 0.7381704 0.5037156 0.7381704 0.5037156 0.74168 0.51281 0.74168 0.51281 0.7450523 0.5241169 0.7450523 0.5241169 0.7479972 0.5248646 0.7479972 0.5248646 0.7500725 0.5276112 0.7500725 0.5276112 0.7620203 0.5703212 0.7620203 0.5703212 0.7645838 0.5897154 0.7645838 0.5897154 0.7787747 0.5926757 0.7787747 0.5926757 0.7897612 0.5932097 0.7897612 0.5932097 0.7884794 0.5731899 0.7884794 0.5731899 0.7900206 0.5508202 0.7900206 0.5508202 0.7949035 0.5482719 0.7949035 0.5482719 0.8011749 0.5516594 0.8011749 0.5516594 0.8098268 0.563714 0.8098268 0.563714 0.8229038 0.5716029 0.8229038 0.5716029 0.8373388 0.5768979 0.8373388 0.5768979 0.8493019 0.5773709 0.8493019 0.5773709 0.8508278 0.5799038 0.8508278 0.5799038 0.8473487 0.6122224 0.8508278 0.5799038 0.8508278 0.5799038 0.8473487 0.6122224 0.8475166 0.6365759 0.8475166 0.6365759 0.8485695 0.6507667 0.8485695 0.6507667 0.8522164 0.6701763 0.8522164 0.6701763 0.8500038 0.6733654 0.8500038 0.6733654 0.8456244 0.6740825 0.8456244 0.6740825 0.8254673 0.6574349 0.8254673 0.6574349 0.8202335 0.6651865 0.8202335 0.6651865 0.8198367 0.6708019 0.8198367 0.6708019 0.8111696 0.6810712 0.8111696 0.6810712 0.7900053 0.6928207 0.7900053 0.6928207 0.7730831 0.69897 0.7730831 0.69897 0.772427 0.7103685 0.772427 0.7103685 0.7675745 0.7172503 0.7675745 0.7172503 0.7641413 0.7255207 0.7641413 0.7255207 0.756878 0.7301137 0.756878 0.7301137 0.7482109 0.7304952 0.7482109 0.7304952 0.739086 0.7275959 0.739086 0.7275959 0.7252156 0.7173724 0.7252156 0.7173724 0.7129626 0.5151751 0.6650645 0.52018 0.7129015 0.4984207 0.7128252 0.7164569 0.7161517 0.5152361 0.665095 0.7454643 0.7126421 0.72636 0.7212024 0.5162127 0.7191882 0.7240864 0.7230182 0.7245289 0.7248188 0.7227436 0.7252156 0.7173724 0.7620203 0.5703212 0.7500725 0.5276112 0.7479972 0.5248646 0.7450523 0.5241169 0.74168 0.51281 0.7381704 0.5037156 0.7360799 0.502388 0.7328756 0.5025253 0.7214771 0.5024033 0.7302205 0.4929274 0.7273823 0.4868849 0.7232776 0.4861829 0.7207599 0.4890516 0.7645838 0.5897154 0.739086 0.7275959 0.7482109 0.7304952 0.756878 0.7301137 0.7641413 0.7255207 0.7675745 0.7172503 0.772427 0.7103685 0.7730831 0.69897 0.7900053 0.6928207 0.7787747 0.5926757 0.8111696 0.6810712 0.7897612 0.5932097 0.7884794 0.5731899 0.7900206 0.5508202 0.7949035 0.5482719 0.8011749 0.5516594 0.8098268 0.563714 0.8202335 0.6651865 0.8198367 0.6708019 0.8254673 0.6574349 0.8229038 0.5716029 0.8373388 0.5768979 0.8493019 0.5773709 0.8508278 0.5799038 0.8473487 0.6122224 0.8475166 0.6365759 0.8485695 0.6507667 0.8522164 0.6701763 0.8500038 0.6733654 0.8456244 0.6740825 0.7129626 0.5151751 0.7129015 0.4984207 0.6650645 0.52018 0.7128252 0.7164569 0.7161517 0.5152361 0.665095 0.7454643 0.7126421 0.72636 0.7212024 0.5162127 0.7230182 0.7245289 0.7191882 0.7240864 0.7248188 0.7227436 0.7252156 0.7173724 0.7620203 0.5703212 0.7500725 0.5276112 0.7479972 0.5248646 0.7450523 0.5241169 0.74168 0.51281 0.7381704 0.5037156 0.7360799 0.502388 0.7328756 0.5025253 0.7214771 0.5024033 0.7302205 0.4929274 0.7273823 0.4868849 0.7232776 0.4861829 0.7207599 0.4890516 0.7645838 0.5897154 0.739086 0.7275959 0.7482109 0.7304952 0.756878 0.7301137 0.7641413 0.7255207 0.7675745 0.7172503 0.772427 0.7103685 0.7730831 0.69897 0.7900053 0.6928207 0.7787747 0.5926757 0.8111696 0.6810712 0.7897612 0.5932097 0.7884794 0.5731899 0.7900206 0.5508202 0.7949035 0.5482719 0.8011749 0.5516594 0.8098268 0.563714 0.8198367 0.6708019 0.8202335 0.6651865 0.8254673 0.6574349 0.8229038 0.5716029 0.8373388 0.5768979 0.8493019 0.5773709 0.8508278 0.5799038 0.8473487 0.6122224 0.8475166 0.6365759 0.8485695 0.6507667 0.8522164 0.6701763 0.8500038 0.6733654 0.8456244 0.6740825 0.3750057 0 0.3749447 0.4999924 0.3749447 0.4999924 0.6249332 0.4999924 0.3750057 0 0.6249332 0.4999924 0.6249943 0 0.6249943 0</float_array>
+          <technique_common>
+            <accessor source="#IDATEN__GrafittiKanbanTate-texcoord-array_1" count="237" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="IDATEN__GrafittiKanbanTate-vertex">
+          <input semantic="POSITION" source="#IDATEN__GrafittiKanbanTate-position" />
+        </vertices>
+        <triangles material="GrafittiKanbanTate" count="224">
+          <input semantic="VERTEX" source="#IDATEN__GrafittiKanbanTate-vertex" offset="0" />
+          <input semantic="NORMAL" source="#IDATEN__GrafittiKanbanTate-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#IDATEN__GrafittiKanbanTate-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#IDATEN__GrafittiKanbanTate-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 5 5 5 5 3 3 3 3 5 5 5 5 6 6 6 6 3 3 3 3 5 5 5 5 7 7 7 7 6 6 6 6 5 5 5 5 8 8 8 8 7 7 7 7 7 7 7 7 8 8 8 8 9 9 9 9 8 8 8 8 10 10 10 10 9 9 9 9 9 9 9 9 10 10 10 10 11 11 11 11 9 9 9 9 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 16 16 16 16 13 13 13 13 17 17 17 17 15 15 15 15 15 15 15 15 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 20 20 20 20 22 22 22 22 23 23 23 23 23 23 23 23 24 24 24 24 25 25 25 25 24 24 24 24 26 26 26 26 25 25 25 25 25 25 25 25 26 26 26 26 27 27 27 27 25 25 25 25 27 27 27 27 28 28 28 28 27 27 27 27 29 29 29 29 28 28 28 28 27 27 27 27 30 30 30 30 29 29 29 29 29 29 29 29 30 30 30 30 31 31 31 31 30 30 30 30 32 32 32 32 31 31 31 31 31 31 31 31 32 32 32 32 33 33 33 33 32 32 32 32 34 34 34 34 33 33 33 33 33 33 33 33 34 34 34 34 35 35 35 35 33 33 33 33 35 35 35 35 36 36 36 36 35 35 35 35 37 37 37 37 36 36 36 36 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 38 38 38 38 39 39 39 39 40 40 40 40 39 39 39 39 41 41 41 41 40 40 40 40 39 39 39 39 42 42 42 42 41 41 41 41 41 41 41 41 42 42 42 42 43 43 43 43 41 41 41 41 43 43 43 43 44 44 44 44 43 43 43 43 45 45 45 45 44 44 44 44 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 46 46 46 46 47 47 47 47 48 48 48 48 47 47 47 47 49 49 49 49 48 48 48 48 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 50 50 50 50 51 51 51 51 52 52 52 52 51 51 51 51 53 53 53 53 52 52 52 52 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 54 54 54 54 55 55 55 55 56 56 56 56 55 55 55 55 57 57 57 57 56 56 56 56 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 58 58 58 58 59 59 59 59 60 60 60 60 59 59 59 59 61 61 61 61 60 60 60 60 59 59 59 59 62 62 62 62 61 61 61 61 61 61 61 61 62 62 62 62 63 63 63 63 62 62 62 62 64 64 64 64 63 63 63 63 63 63 63 63 64 64 64 64 65 65 65 65 64 64 64 64 66 66 66 66 65 65 65 65 65 65 65 65 66 66 66 66 67 67 67 67 65 65 65 65 67 67 67 67 68 68 68 68 67 67 67 67 69 69 69 69 68 68 68 68 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 70 70 70 70 71 71 71 71 72 72 72 72 71 71 71 71 73 73 73 73 72 72 72 72 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 74 74 74 74 75 75 75 75 76 76 76 76 75 75 75 75 77 77 77 77 76 76 76 76 76 76 76 76 77 77 77 77 78 78 78 78 79 79 79 79 80 80 80 80 81 81 81 81 82 82 82 82 80 80 80 80 79 79 79 79 83 83 83 83 82 82 82 82 79 79 79 79 84 84 84 84 82 82 82 82 83 83 83 83 85 85 85 85 84 84 84 84 83 83 83 83 86 86 86 86 84 84 84 84 85 85 85 85 87 87 87 87 86 86 86 86 85 85 85 85 88 88 88 88 86 86 86 86 87 87 87 87 89 89 89 89 88 88 88 88 87 87 87 87 90 90 90 90 88 88 88 88 89 89 89 89 91 91 91 91 90 90 90 90 89 89 89 89 91 91 91 91 89 89 89 89 92 92 92 92 93 93 93 93 91 91 91 91 92 92 92 92 93 93 93 93 92 92 92 92 94 94 94 94 95 95 95 95 93 93 93 93 94 94 94 94 96 96 96 96 93 93 93 93 95 95 95 95 97 97 97 97 96 96 96 96 95 95 95 95 98 98 98 98 96 96 96 96 97 97 97 97 99 99 99 99 98 98 98 98 97 97 97 97 100 100 100 100 98 98 98 98 99 99 99 99 101 101 101 101 100 100 100 100 99 99 99 99 102 102 102 102 100 100 100 100 101 101 101 101 102 102 102 102 101 101 101 101 103 103 103 103 102 102 102 102 103 103 103 103 104 104 104 104 103 103 103 103 105 105 105 105 104 104 104 104 104 104 104 104 105 105 105 105 106 106 106 106 105 105 105 105 107 107 107 107 106 106 106 106 106 106 106 106 107 107 107 107 108 108 108 108 107 107 107 107 109 109 109 109 108 108 108 108 108 108 108 108 109 109 109 109 110 110 110 110 109 109 109 109 111 111 111 111 110 110 110 110 110 110 110 110 111 111 111 111 112 112 112 112 111 111 111 111 113 113 113 113 112 112 112 112 111 111 111 111 114 114 114 114 113 113 113 113 113 113 113 113 114 114 114 114 115 115 115 115 114 114 114 114 116 116 116 116 115 115 115 115 115 115 115 115 116 116 116 116 117 117 117 117 115 115 115 115 117 117 117 117 118 118 118 118 119 119 119 119 120 120 120 120 121 121 121 121 122 122 122 122 120 120 120 120 119 119 119 119 122 122 122 122 119 119 119 119 123 123 123 123 122 122 122 122 124 124 124 124 120 120 120 120 122 122 122 122 125 125 125 125 124 124 124 124 126 126 126 126 122 122 122 122 123 123 123 123 127 127 127 127 122 122 122 122 128 128 128 128 128 128 128 128 122 122 122 122 129 129 129 129 129 129 129 129 122 122 122 122 130 130 130 130 130 130 130 130 122 122 122 122 131 131 131 131 131 131 131 131 122 122 122 122 132 132 132 132 132 132 132 132 122 122 122 122 133 133 133 133 133 133 133 133 122 122 122 122 134 134 134 134 134 134 134 134 122 122 122 122 126 126 126 126 134 134 134 134 126 126 126 126 135 135 135 135 126 126 126 126 136 136 136 136 135 135 135 135 126 126 126 126 137 137 137 137 136 136 136 136 126 126 126 126 138 138 138 138 137 137 137 137 126 126 126 126 139 139 139 139 138 138 138 138 138 138 138 138 139 139 139 139 140 140 140 140 140 140 140 140 139 139 139 139 141 141 141 141 139 139 139 139 142 142 142 142 141 141 141 141 139 139 139 139 143 143 143 143 142 142 142 142 130 130 130 130 131 131 131 131 144 144 144 144 130 130 130 130 144 144 144 144 145 145 145 145 145 145 145 145 144 144 144 144 146 146 146 146 146 146 146 146 144 144 144 144 147 147 147 147 147 147 147 147 144 144 144 144 148 148 148 148 148 148 148 148 144 144 144 144 149 149 149 149 149 149 149 149 144 144 144 144 150 150 150 150 144 144 144 144 151 151 151 151 150 150 150 150 144 144 144 144 152 152 152 152 151 151 151 151 144 144 144 144 153 153 153 153 152 152 152 152 152 152 152 152 153 153 153 153 154 154 154 154 153 153 153 153 155 155 155 155 154 154 154 154 155 155 155 155 156 156 156 156 154 154 154 154 156 156 156 156 157 157 157 157 154 154 154 154 154 154 154 154 157 157 157 157 158 158 158 158 154 154 154 154 158 158 158 158 159 159 159 159 154 154 154 154 159 159 159 159 160 160 160 160 154 154 154 154 161 161 161 161 162 162 162 162 154 154 154 154 160 160 160 160 161 161 161 161 160 160 160 160 163 163 163 163 161 161 161 161 160 160 160 160 164 164 164 164 163 163 163 163 164 164 164 164 165 165 165 165 163 163 163 163 165 165 165 165 166 166 166 166 163 163 163 163 166 166 166 166 167 167 167 167 163 163 163 163 167 167 167 167 168 168 168 168 163 163 163 163 163 163 163 163 168 168 168 168 169 169 169 169 163 163 163 163 169 169 169 169 170 170 170 170 163 163 163 163 170 170 170 170 171 171 171 171 163 163 163 163 171 171 171 171 172 172 172 172 163 163 163 163 172 172 172 172 173 173 173 173 174 174 174 174 175 175 175 175 176 176 176 176 177 177 177 177 174 174 174 174 176 176 176 176 177 177 177 177 178 178 178 178 174 174 174 174 177 177 177 177 176 176 176 176 179 179 179 179 177 177 177 177 179 179 179 179 180 180 180 180 181 181 181 181 178 178 178 178 177 177 177 177 182 182 182 182 177 177 177 177 183 183 183 183 182 182 182 182 184 184 184 184 177 177 177 177 184 184 184 184 185 185 185 185 177 177 177 177 185 185 185 185 186 186 186 186 177 177 177 177 186 186 186 186 187 187 187 187 177 177 177 177 187 187 187 187 188 188 188 188 177 177 177 177 188 188 188 188 189 189 189 189 177 177 177 177 189 189 189 189 181 181 181 181 177 177 177 177 189 189 189 189 190 190 190 190 181 181 181 181 190 190 190 190 191 191 191 191 181 181 181 181 181 181 181 181 191 191 191 191 192 192 192 192 181 181 181 181 192 192 192 192 193 193 193 193 181 181 181 181 193 193 193 193 194 194 194 194 193 193 193 193 195 195 195 195 194 194 194 194 194 194 194 194 195 195 195 195 196 196 196 196 194 194 194 194 196 196 196 196 197 197 197 197 194 194 194 194 197 197 197 197 198 198 198 198 185 185 185 185 199 199 199 199 186 186 186 186 185 185 185 185 200 200 200 200 199 199 199 199 200 200 200 200 201 201 201 201 199 199 199 199 201 201 201 201 202 202 202 202 199 199 199 199 202 202 202 202 203 203 203 203 199 199 199 199 203 203 203 203 204 204 204 204 199 199 199 199 204 204 204 204 205 205 205 205 199 199 199 199 205 205 205 205 206 206 206 206 199 199 199 199 206 206 206 206 207 207 207 207 199 199 199 199 199 199 199 199 207 207 207 207 208 208 208 208 207 207 207 207 209 209 209 209 208 208 208 208 208 208 208 208 209 209 209 209 210 210 210 210 209 209 209 209 211 211 211 211 210 210 210 210 209 209 209 209 212 212 212 212 211 211 211 211 209 209 209 209 213 213 213 213 212 212 212 212 209 209 209 209 214 214 214 214 213 213 213 213 209 209 209 209 215 215 215 215 214 214 214 214 209 209 209 209 216 216 216 216 217 217 217 217 209 209 209 209 217 217 217 217 215 215 215 215 215 215 215 215 217 217 217 217 218 218 218 218 215 215 215 215 218 218 218 218 219 219 219 219 219 219 219 219 218 218 218 218 220 220 220 220 220 220 220 220 218 218 218 218 221 221 221 221 221 221 221 221 218 218 218 218 222 222 222 222 222 222 222 222 218 218 218 218 223 223 223 223 218 218 218 218 224 224 224 224 223 223 223 223 218 218 218 218 225 225 225 225 224 224 224 224 218 218 218 218 226 226 226 226 225 225 225 225 218 218 218 218 227 227 227 227 226 226 226 226 218 218 218 218 228 228 228 228 227 227 227 227 229 229 229 229 230 230 230 230 231 231 231 231 230 230 230 230 232 232 232 232 231 231 231 231 229 229 229 229 233 233 233 233 230 230 230 230 230 230 230 230 234 234 234 234 232 232 232 232 229 229 229 229 235 235 235 235 233 233 233 233 236 236 236 236 232 232 232 232 234 234 234 234 233 233 233 233 235 235 235 235 236 236 236 236 235 235 235 235 232 232 232 232 236 236 236 236 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_IDATEN__GrafittiKanbanTate-mesh">
+      <skin source="#IDATEN__GrafittiKanbanTate-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="IDATEN__GrafittiKanbanTate-mesh-joint">
+          <Name_array id="IDATEN__GrafittiKanbanTate-mesh-joint-array" count="1">IDATEN</Name_array>
+          <technique_common>
+            <accessor source="#IDATEN__GrafittiKanbanTate-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="IDATEN__GrafittiKanbanTate-mesh-inv_bind_matrix">
+          <float_array id="IDATEN__GrafittiKanbanTate-mesh-inv_bind_matrix-array" count="16">1 0 0 292.9171 0 1 0 -183.6781 0 0 1 -293.8634 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#IDATEN__GrafittiKanbanTate-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="IDATEN__GrafittiKanbanTate-mesh-weight">
+          <float_array id="IDATEN__GrafittiKanbanTate-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#IDATEN__GrafittiKanbanTate-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#IDATEN__GrafittiKanbanTate-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#IDATEN__GrafittiKanbanTate-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="237">
+          <input semantic="JOINT" source="#IDATEN__GrafittiKanbanTate-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#IDATEN__GrafittiKanbanTate-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_IDATEN" name="IDATEN" sid="IDATEN" type="JOINT">
+          <matrix sid="transform">1 0 0 -292.9171 0 1 0 183.6781 0 0 1 293.8634 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="IDATEN__GrafittiKanbanTate" name="IDATEN__GrafittiKanbanTate" type="NODE">
+        <instance_controller url="#Armature_IDATEN__GrafittiKanbanTate-mesh">
+          <skeleton>#Armature_IDATEN</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GrafittiKanbanTate" target="#GrafittiKanbanTate" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
