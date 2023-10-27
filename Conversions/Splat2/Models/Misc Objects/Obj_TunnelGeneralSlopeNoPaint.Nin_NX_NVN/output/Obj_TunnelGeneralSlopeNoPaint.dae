@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_FenceVinyl">
+      <instance_effect url="#Effect_M_FenceVinyl" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_FenceVinyl">
+      <profile_COMMON>
+        <newparam sid="surface_M_FenceVinyl-diffuse">
+          <surface type="2D">
+            <init_from>M_FenceVinyl_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_FenceVinyl-diffuse">
+          <sampler2D>
+            <source>surface_M_FenceVinyl-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_FenceVinyl-bump">
+          <surface type="2D">
+            <init_from>M_FenceVinyl_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_FenceVinyl-bump">
+          <sampler2D>
+            <source>surface_M_FenceVinyl-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_FenceVinyl-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_FenceVinyl-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh" name="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl">
+      <mesh>
+        <source id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-position">
+          <float_array id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-position-array" count="162">-14.302 0 -29.41702 14.302 0 -29.41702 -14.302 0 28.7777 14.302 0 28.7777 14.302 0.5406051 28.91778 14.302 29.7 -29.38991 -14.302 0.5406051 28.91778 -14.302 29.7 -29.38991 -14.302 0.5406051 28.91778 -14.302 29.7 -29.38991 -14.79558 29.50908 -29.40347 -14.67396 0.5617902 28.54385 -15 29.04817 -29.41702 -15 0.5829753 27.6411 -15 0.5829753 -29.41702 -14.82925 0.1707495 -29.41702 -14.67396 0.1630787 28.44053 -14.302 0 -29.41702 -14.302 0 28.7777 14.302 0 28.7777 14.302 0 -29.41702 14.82925 0.1707495 -29.41702 14.67396 0.1630787 28.44053 15 0.5829753 -29.41702 15 0.5829753 27.6411 15 29.04817 -29.41702 14.79558 29.50908 -29.40347 14.67396 0.5617902 28.54385 14.302 29.7 -29.38991 14.302 0.5406051 28.91778 -14.79558 29.26015 -29.82652 -14.70505 29.58083 -29.73043 -14.82925 0.5829753 -29.82925 -14.302 29.69495 -29.79759 -14.302 29.34102 -30 14.302 29.69495 -29.79759 14.302 29.34102 -30 14.70505 29.58083 -29.73043 14.79558 29.26015 -29.82652 -14.302 0.5829753 -30 14.82925 0.5829753 -29.82925 14.302 0.5829753 -30 14.75429 0.2465339 -29.75347 14.302 0.1707473 -29.82924 -14.302 0.1707473 -29.82924 -14.75429 0.2465339 -29.75347 14.302 0.2160979 29.05692 -14.302 0.2160979 29.05692 14.302 0.5406051 28.91778 -14.302 0.5406051 28.91778 -14.52826 0.2755938 28.82734 -14.302 0.2160979 29.05692 14.52826 0.2755938 28.82734 14.302 0.2160979 29.05692</float_array>
+          <technique_common>
+            <accessor source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-position-array" count="54" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-normal">
+          <float_array id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-normal-array" count="162">-0.005870841 -1 -0.001956947 0.005870841 -1 -0.001956947 -0.003913894 -1 0.003913894 0.003913894 -1 0.003913894 0 0.8943248 0.4481409 0 0.8943248 0.4481409 0 0.8943248 0.4481409 0 0.8943248 0.4481409 -0.2367906 0.7162427 0.6555773 -0.2563601 0.9197652 0.2994129 -0.5812133 0.7299413 0.3620352 -0.4677104 0.7886497 0.3992172 -1 0.03131115 0.003913894 -1 0.005870841 0.03913894 -1 -0.01761252 -0.005870841 -0.6399217 -0.7671233 -0.001956947 -0.4755382 -0.8786693 0.003913894 -0.005870841 -1 -0.001956947 -0.003913894 -1 0.003913894 0.003913894 -1 0.003913894 0.005870841 -1 -0.001956947 0.6399217 -0.7671233 -0.001956947 0.4755382 -0.8786693 0.003913894 1 -0.01761252 -0.005870841 1 0.005870841 0.03913894 1 0.03131115 0.003913894 0.5812133 0.7299413 0.3620352 0.4677104 0.7886497 0.3992172 0.2563601 0.9197652 0.2994129 0.2367906 0.7162427 0.6555773 -0.5753425 0.005870841 -0.8180039 -0.5675147 0.7103718 -0.4168297 -0.6399217 -0.003913894 -0.7671233 -0.003913894 0.8610567 -0.5068493 -0.005870841 0.007827789 -1 0.003913894 0.8610567 -0.5068493 0.005870841 0.007827789 -1 0.5675147 0.7103718 -0.4168297 0.5753425 0.005870841 -0.8180039 -0.005870841 -0.005870841 -1 0.6399217 -0.003913894 -0.7671233 0.005870841 -0.005870841 -1 0.4990215 -0.6125244 -0.6125244 0.003913894 -0.7064579 -0.7064579 -0.003913894 -0.7064579 -0.7064579 -0.4990215 -0.6125244 -0.6125244 0.007827789 -0.2504892 0.9686888 -0.007827789 -0.2504892 0.9686888 0.2367906 0.7162427 0.6555773 -0.2367906 0.7162427 0.6555773 -0.816047 -0.1448141 0.5596869 -0.007827789 -0.2504892 0.9686888 0.816047 -0.1448141 0.5596869 0.007827789 -0.2504892 0.9686888</float_array>
+          <technique_common>
+            <accessor source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-normal-array" count="54" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-texcoord">
+          <float_array id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-texcoord-array" count="108">1.700195 -0.1777344 1.700195 0.1762695 0.9667969 -0.1777344 0.9667969 0.1762695 0.512207 -0.6113281 0.512207 0.2895508 0.1517334 -0.6113281 0.1517334 0.2895508 1.931641 0.4389648 1.182617 0.8070068 1.185547 0.8012695 1.924805 0.4379883 1.186523 0.7956543 1.913086 0.4379883 1.1875 0.4360352 1.186523 0.4311523 1.923828 0.4326172 1.182617 0.425293 1.928711 0.4287109 0.06567383 0.4262695 0.8149414 0.4243164 0.8115234 0.4301758 0.07098389 0.4301758 0.8100586 0.4350586 0.08148193 0.4355469 0.8105469 0.7957764 0.8120117 0.8012695 0.06970215 0.4355469 0.8134766 0.807251 0.06311035 0.4365234 1.182617 0.7979736 1.182617 0.8009033 1.183594 0.4355469 1.179688 0.8034668 1.177734 0.7993164 0.8173828 0.8034668 0.8193359 0.7990723 0.8144531 0.8009033 0.8149414 0.7979736 1.177734 0.4350586 0.8139648 0.4350586 0.8193359 0.4345703 0.8139648 0.4316406 0.8178711 0.4291992 1.179688 0.4301758 1.183594 0.4326172 0.9624023 0.1762695 0.9624023 -0.1777344 0.9580078 0.1762695 0.9580078 -0.1777344 1.928711 0.434082 1.932617 0.4331055 0.06561279 0.4316406 0.06140137 0.4306641</float_array>
+          <technique_common>
+            <accessor source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-texcoord-array" count="54" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-vertex">
+          <input semantic="POSITION" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-position" />
+        </vertices>
+        <triangles material="M_FenceVinyl" count="80">
+          <input semantic="VERTEX" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-vertex" offset="0" />
+          <input semantic="NORMAL" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 11 11 11 10 10 10 12 12 12 13 13 13 11 11 11 12 12 12 14 14 14 13 13 13 12 12 12 13 13 13 14 14 14 15 15 15 16 16 16 13 13 13 15 15 15 16 16 16 15 15 15 17 17 17 18 18 18 16 16 16 17 17 17 19 19 19 20 20 20 21 21 21 22 22 22 19 19 19 21 21 21 22 22 22 21 21 21 23 23 23 24 24 24 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 25 25 25 26 26 26 27 27 27 24 24 24 26 26 26 27 27 27 26 26 26 28 28 28 29 29 29 27 27 27 28 28 28 12 12 12 10 10 10 30 30 30 12 12 12 30 30 30 14 14 14 10 10 10 31 31 31 30 30 30 10 10 10 9 9 9 31 31 31 30 30 30 32 32 32 14 14 14 9 9 9 33 33 33 31 31 31 34 34 34 30 30 30 31 31 31 33 33 33 34 34 34 31 31 31 30 30 30 34 34 34 32 32 32 33 33 33 9 9 9 35 35 35 9 9 9 28 28 28 35 35 35 34 34 34 33 33 33 36 36 36 33 33 33 35 35 35 36 36 36 35 35 35 28 28 28 37 37 37 36 36 36 35 35 35 37 37 37 28 28 28 26 26 26 37 37 37 38 38 38 37 37 37 26 26 26 38 38 38 36 36 36 37 37 37 25 25 25 38 38 38 26 26 26 34 34 34 36 36 36 39 39 39 34 34 34 39 39 39 32 32 32 38 38 38 25 25 25 40 40 40 25 25 25 23 23 23 40 40 40 36 36 36 38 38 38 41 41 41 38 38 38 40 40 40 41 41 41 36 36 36 41 41 41 39 39 39 40 40 40 23 23 23 42 42 42 41 41 41 40 40 40 42 42 42 23 23 23 21 21 21 42 42 42 21 21 21 20 20 20 42 42 42 43 43 43 41 41 41 42 42 42 20 20 20 43 43 43 42 42 42 39 39 39 41 41 41 43 43 43 44 44 44 43 43 43 20 20 20 44 44 44 39 39 39 43 43 43 17 17 17 44 44 44 20 20 20 39 39 39 44 44 44 45 45 45 44 44 44 17 17 17 45 45 45 32 32 32 39 39 39 45 45 45 17 17 17 15 15 15 45 45 45 14 14 14 32 32 32 45 45 45 15 15 15 14 14 14 45 45 45 2 2 2 3 3 3 46 46 46 47 47 47 2 2 2 46 46 46 47 47 47 46 46 46 48 48 48 49 49 49 47 47 47 48 48 48 13 13 13 16 16 16 11 11 11 16 16 16 50 50 50 11 11 11 16 16 16 18 18 18 50 50 50 8 8 8 11 11 11 50 50 50 18 18 18 51 51 51 50 50 50 51 51 51 8 8 8 50 50 50 24 24 24 27 27 27 22 22 22 27 27 27 52 52 52 22 22 22 27 27 27 29 29 29 52 52 52 19 19 19 22 22 22 52 52 52 29 29 29 53 53 53 52 52 52 53 53 53 19 19 19 52 52 52 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh">
+      <skin source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-joint">
+          <Name_array id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-joint-array" count="1">Obj_GeneralBoxNoPaint</Name_array>
+          <technique_common>
+            <accessor source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-inv_bind_matrix">
+          <float_array id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-weight">
+          <float_array id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="54">
+          <input semantic="JOINT" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_GeneralBoxNoPaint" name="Obj_GeneralBoxNoPaint" sid="Obj_GeneralBoxNoPaint" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl" name="GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl" type="NODE">
+        <instance_controller url="#Armature_GeneralSlopeNoPaint_30x30x60_Blitz__M_FenceVinyl-mesh">
+          <skeleton>#Armature_Obj_GeneralBoxNoPaint</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_FenceVinyl" target="#M_FenceVinyl" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

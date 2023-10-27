@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="CushionDrum_Alb">
+      <init_from>CushionDrum_Alb.png</init_from>
+    </image>
+    <image id="CushionDrum_Nrm">
+      <init_from>CushionDrum_Nrm.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Alb">
+      <init_from>FloorWireNetN_Alb.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Mtl">
+      <init_from>FloorWireNetN_Mtl.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Nrm">
+      <init_from>FloorWireNetN_Nrm.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Rgh">
+      <init_from>FloorWireNetN_Rgh.png</init_from>
+    </image>
+    <image id="FluorescentLight_Alb">
+      <init_from>FluorescentLight_Alb.png</init_from>
+    </image>
+    <image id="FluorescentLight_Emm">
+      <init_from>FluorescentLight_Emm.png</init_from>
+    </image>
+    <image id="GlassStandard_Alb">
+      <init_from>GlassStandard_Alb.png</init_from>
+    </image>
+    <image id="GlassStandard_Nrm">
+      <init_from>GlassStandard_Nrm.png</init_from>
+    </image>
+    <image id="GlassStandard_Rgh">
+      <init_from>GlassStandard_Rgh.png</init_from>
+    </image>
+    <image id="GraphtySealParts_Alb">
+      <init_from>GraphtySealParts_Alb.png</init_from>
+    </image>
+    <image id="IronBrown_Alb">
+      <init_from>IronBrown_Alb.png</init_from>
+    </image>
+    <image id="IronBrown_Mtl">
+      <init_from>IronBrown_Mtl.png</init_from>
+    </image>
+    <image id="IronBrown_Nrm">
+      <init_from>IronBrown_Nrm.png</init_from>
+    </image>
+    <image id="IronBrown_Rgh">
+      <init_from>IronBrown_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="PlasticCaseColor_Alb">
+      <init_from>PlasticCaseColor_Alb.png</init_from>
+    </image>
+    <image id="PlasticCaseColor_Nrm">
+      <init_from>PlasticCaseColor_Nrm.png</init_from>
+    </image>
+    <image id="PlasticCaseColor_Rgh">
+      <init_from>PlasticCaseColor_Rgh.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Alb">
+      <init_from>PlateSteelGrey_Alb.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Mtl">
+      <init_from>PlateSteelGrey_Mtl.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Nrm">
+      <init_from>PlateSteelGrey_Nrm.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Rgh">
+      <init_from>PlateSteelGrey_Rgh.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Alb">
+      <init_from>SlopeMetalRustGray_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Mtl">
+      <init_from>SlopeMetalRustGray_Mtl.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Nrm">
+      <init_from>SlopeMetalRustGray_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Rgh">
+      <init_from>SlopeMetalRustGray_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="MapGround1__MapGround-mesh" name="MapGround1__MapGround">
+      <mesh>
+        <source id="MapGround1__MapGround-position">
+          <float_array id="MapGround1__MapGround-position-array" count="48">44.35921 12.82 55 55 12.82 55 44.35921 12.82 -55 55 12.82 -55 55 12.82 55 44.35921 12.82 55 55 8.21846 55 44.35921 8.21846 55 44.35921 12.82 -55 55 12.82 -55 44.35921 8.21846 -55 55 8.21846 -55 55 12.82 -55 55 12.82 55 55 8.21846 -55 55 8.21846 55</float_array>
+          <technique_common>
+            <accessor source="#MapGround1__MapGround-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapGround1__MapGround-normal">
+          <float_array id="MapGround1__MapGround-normal-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#MapGround1__MapGround-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapGround1__MapGround-texcoord">
+          <float_array id="MapGround1__MapGround-texcoord-array" count="32">2.339844 0 2.876953 0 2.339844 5.460938 2.876953 5.460938 2.876953 0 2.339844 0 2.876953 -0.4853516 2.339844 -0.4853516 2.339844 5.460938 2.876953 5.460938 2.339844 5.820313 2.876953 5.820313 2.876953 5.460938 2.876953 0 3.337891 5.460938 3.337891 0.0004882813</float_array>
+          <technique_common>
+            <accessor source="#MapGround1__MapGround-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapGround1__MapGround-texcoord_1">
+          <float_array id="MapGround1__MapGround-texcoord-array_1" count="32">-0.03396606 0.01025391 0.06222534 0.01025391 -0.03396606 0.9915543 0.06222534 0.9915543 0.06222534 0.01025391 -0.03396606 0.01025391 0.06222534 -0.07714844 -0.03396606 -0.07714844 -0.03396606 0.9915543 0.06222534 0.9915543 -0.03396606 1.055878 0.06222534 1.055878 0.06222534 0.9915543 0.06222534 0.01025391 0.1450195 0.9915771 0.1450195 0.01025391</float_array>
+          <technique_common>
+            <accessor source="#MapGround1__MapGround-texcoord-array_1" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="MapGround1__MapGround-vertex">
+          <input semantic="POSITION" source="#MapGround1__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="8">
+          <input semantic="VERTEX" source="#MapGround1__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#MapGround1__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#MapGround1__MapGround-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#MapGround1__MapGround-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="MapWall1__MapWall-mesh" name="MapWall1__MapWall">
+      <mesh>
+        <source id="MapWall1__MapWall-position">
+          <float_array id="MapWall1__MapWall-position-array" count="30">44.35921 44.49081 -54.8 44.4755 -2.5 21.80001 44.35921 -2.5 -54.8 -54.32286 -2.5 21.80001 -54.4755 44.49081 -54.8 -54.4755 -2.5 -54.8 -54.4755 44.49081 -54.8 44.35921 44.49081 -54.8 -54.4755 -2.5 -54.8 44.35921 -2.5 -54.8</float_array>
+          <technique_common>
+            <accessor source="#MapWall1__MapWall-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapWall1__MapWall-normal">
+          <float_array id="MapWall1__MapWall-normal-array" count="30">1 0 -0.001956947 1 0 -0.001956947 1 0 -0.001956947 -1 0 0.001956947 -1 0 0.001956947 -1 0 0.001956947 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#MapWall1__MapWall-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapWall1__MapWall-texcoord">
+          <float_array id="MapWall1__MapWall-texcoord-array" count="20">1.045898 0.359375 0.1140747 -0.2275391 1.045898 -0.2275391 0.8579102 -0.2275391 -0.05038452 0.3623047 -0.05038452 -0.2373047 1.057617 0.359375 -0.03665161 0.359375 1.057617 -0.2275391 -0.03665161 -0.2275391</float_array>
+          <technique_common>
+            <accessor source="#MapWall1__MapWall-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="MapWall1__MapWall-vertex">
+          <input semantic="POSITION" source="#MapWall1__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="4">
+          <input semantic="VERTEX" source="#MapWall1__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#MapWall1__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#MapWall1__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_MapGround1__MapGround-mesh">
+      <skin source="#MapGround1__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="MapGround1__MapGround-mesh-joint">
+          <Name_array id="MapGround1__MapGround-mesh-joint-array" count="1">Obj_QuarryCenterConveyor_Map</Name_array>
+          <technique_common>
+            <accessor source="#MapGround1__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapGround1__MapGround-mesh-inv_bind_matrix">
+          <float_array id="MapGround1__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#MapGround1__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapGround1__MapGround-mesh-weight">
+          <float_array id="MapGround1__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#MapGround1__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#MapGround1__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#MapGround1__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#MapGround1__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#MapGround1__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_MapWall1__MapWall-mesh">
+      <skin source="#MapWall1__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="MapWall1__MapWall-mesh-joint">
+          <Name_array id="MapWall1__MapWall-mesh-joint-array" count="1">Obj_QuarryCenterConveyor_Map</Name_array>
+          <technique_common>
+            <accessor source="#MapWall1__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapWall1__MapWall-mesh-inv_bind_matrix">
+          <float_array id="MapWall1__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#MapWall1__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MapWall1__MapWall-mesh-weight">
+          <float_array id="MapWall1__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#MapWall1__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#MapWall1__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#MapWall1__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="10">
+          <input semantic="JOINT" source="#MapWall1__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#MapWall1__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_QuarryCenterConveyor_Map" name="Obj_QuarryCenterConveyor_Map" sid="Obj_QuarryCenterConveyor_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="MapGround1__MapGround" name="MapGround1__MapGround" type="NODE">
+        <instance_controller url="#Armature_MapGround1__MapGround-mesh">
+          <skeleton>#Armature_Obj_QuarryCenterConveyor_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="MapWall1__MapWall" name="MapWall1__MapWall" type="NODE">
+        <instance_controller url="#Armature_MapWall1__MapWall-mesh">
+          <skeleton>#Armature_Obj_QuarryCenterConveyor_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Obj_LineYaguraKabe_g00_b00_f00">
+      <init_from>Bake_Obj_LineYaguraKabe_g00_b00_f00.png</init_from>
+    </image>
+    <image id="KomonoSetA_Alb">
+      <init_from>KomonoSetA_Alb.png</init_from>
+    </image>
+    <image id="KomonoSetA_Emm">
+      <init_from>KomonoSetA_Emm.png</init_from>
+    </image>
+    <image id="KomonoSetA_Mtl">
+      <init_from>KomonoSetA_Mtl.png</init_from>
+    </image>
+    <image id="KomonoSetA_Nrm">
+      <init_from>KomonoSetA_Nrm.png</init_from>
+    </image>
+    <image id="KomonoSetA_Rgh">
+      <init_from>KomonoSetA_Rgh.png</init_from>
+    </image>
+    <image id="KomonoSetB_Alb">
+      <init_from>KomonoSetB_Alb.png</init_from>
+    </image>
+    <image id="KomonoSetB_Mtl">
+      <init_from>KomonoSetB_Mtl.png</init_from>
+    </image>
+    <image id="KomonoSetB_Nrm">
+      <init_from>KomonoSetB_Nrm.png</init_from>
+    </image>
+    <image id="KomonoSetB_Rgh">
+      <init_from>KomonoSetB_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Edge397_1__MapWall-mesh" name="Edge397_1__MapWall">
+      <mesh>
+        <source id="Edge397_1__MapWall-position">
+          <float_array id="Edge397_1__MapWall-position-array" count="144">105 110 170 105 140 170 50.00002 110 170 50.00002 140 170 50.00002 110 170 50.00002 140 170 50.00001 110 130 50.00001 140 130 50.00001 110 130 50.00001 140 130 105 110 130 105 140 130 105 110 130 105 140 130 105 110 170 105 140 170 -105 110 -170 -105 140 -170 -50 110 -170 -50 140 -170 -50 110 -170 -50 140 -170 -50 110 -130 -50 140 -130 -50 110 -130 -50 140 -130 -105 110 -130 -105 140 -130 -105 110 -130 -105 140 -130 -105 110 -170 -105 140 -170 105 140 170 102 140 167 50.00002 140 170 102 140 133 53.00002 140 167 105 140 130 50.00001 140 130 53.00001 140 133 -105 140 -170 -102 140 -167 -50 140 -170 -102 140 -133 -53 140 -167 -105 140 -130 -50 140 -130 -53 140 -133</float_array>
+          <technique_common>
+            <accessor source="#Edge397_1__MapWall-position-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge397_1__MapWall-normal">
+          <float_array id="Edge397_1__MapWall-normal-array" count="144">0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Edge397_1__MapWall-normal-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge397_1__MapWall-texcoord">
+          <float_array id="Edge397_1__MapWall-texcoord-array" count="96">0.01070404 0.01171875 1.446289 0.01171875 0.01070404 2.883789 1.446289 2.883789 0.534668 3.033203 2.033203 3.033203 0.534668 5.03125 2.033203 5.03125 2.923828 2.883789 1.488281 2.883789 2.923828 0.01171875 1.488281 0.01171875 2.068359 3.033203 3.568359 3.033203 2.068359 5.03125 3.568359 5.03125 0.01070404 0.01171875 1.446289 0.01171875 0.01070404 2.883789 1.446289 2.883789 0.534668 3.033203 2.033203 3.033203 0.534668 5.03125 2.033203 5.03125 2.923828 2.883789 1.488281 2.883789 2.923828 0.01171875 1.488281 0.01171875 2.068359 3.033203 3.568359 3.033203 2.068359 5.03125 3.568359 5.03125 2.003906 2.754883 1.854492 2.604492 2.003906 0.005371094 0.1550293 2.604492 1.854492 0.1552734 0.005084991 2.754883 0.005084991 0.005371094 0.1550293 0.1552734 2.003906 2.754883 1.854492 2.604492 2.003906 0.005371094 0.1550293 2.604492 1.854492 0.1552734 0.005084991 2.754883 0.005084991 0.005371094 0.1550293 0.1552734</float_array>
+          <technique_common>
+            <accessor source="#Edge397_1__MapWall-texcoord-array" count="48" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge397_1__MapWall-vertex">
+          <input semantic="POSITION" source="#Edge397_1__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="32">
+          <input semantic="VERTEX" source="#Edge397_1__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge397_1__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge397_1__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 35 35 35 33 33 33 32 32 32 33 33 33 36 36 36 34 34 34 37 37 37 35 35 35 32 32 32 34 34 34 36 36 36 38 38 38 39 39 39 35 35 35 37 37 37 36 36 36 39 39 39 38 38 38 38 38 38 39 39 39 37 37 37 40 40 40 41 41 41 42 42 42 43 43 43 41 41 41 40 40 40 41 41 41 44 44 44 42 42 42 45 45 45 43 43 43 40 40 40 42 42 42 44 44 44 46 46 46 47 47 47 43 43 43 45 45 45 44 44 44 47 47 47 46 46 46 46 46 46 47 47 47 45 45 45 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube194436_1__MapGround-mesh" name="pCube194436_1__MapGround">
+      <mesh>
+        <source id="pCube194436_1__MapGround-position">
+          <float_array id="pCube194436_1__MapGround-position-array" count="24">102 140 167 102 140 133 53.00002 140 167 53.00001 140 133 -102 140 -167 -102 140 -133 -53 140 -167 -53 140 -133</float_array>
+          <technique_common>
+            <accessor source="#pCube194436_1__MapGround-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube194436_1__MapGround-normal">
+          <float_array id="pCube194436_1__MapGround-normal-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube194436_1__MapGround-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube194436_1__MapGround-vertex">
+          <input semantic="POSITION" source="#pCube194436_1__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="4">
+          <input semantic="VERTEX" source="#pCube194436_1__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube194436_1__MapGround-normal" offset="1" />
+          <p>0 0 1 1 2 2 1 1 3 3 2 2 4 4 5 5 6 6 5 5 7 7 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Edge397_1__MapWall-mesh">
+      <skin source="#Edge397_1__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge397_1__MapWall-mesh-joint">
+          <Name_array id="Edge397_1__MapWall-mesh-joint-array" count="1">Obj_LineYaguraKabe_Map</Name_array>
+          <technique_common>
+            <accessor source="#Edge397_1__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge397_1__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Edge397_1__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 -2.5 0 1 0 -125 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge397_1__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge397_1__MapWall-mesh-weight">
+          <float_array id="Edge397_1__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge397_1__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge397_1__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge397_1__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="48">
+          <input semantic="JOINT" source="#Edge397_1__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge397_1__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube194436_1__MapGround-mesh">
+      <skin source="#pCube194436_1__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube194436_1__MapGround-mesh-joint">
+          <Name_array id="pCube194436_1__MapGround-mesh-joint-array" count="1">Obj_LineYaguraKabe_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCube194436_1__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube194436_1__MapGround-mesh-inv_bind_matrix">
+          <float_array id="pCube194436_1__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 -2.5 0 1 0 -125 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube194436_1__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube194436_1__MapGround-mesh-weight">
+          <float_array id="pCube194436_1__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube194436_1__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube194436_1__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube194436_1__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#pCube194436_1__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube194436_1__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_LineYaguraKabe_Map" name="Obj_LineYaguraKabe_Map" sid="Obj_LineYaguraKabe_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 2.5 0 1 0 125 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Edge397_1__MapWall" name="Edge397_1__MapWall" type="NODE">
+        <instance_controller url="#Armature_Edge397_1__MapWall-mesh">
+          <skeleton>#Armature_Obj_LineYaguraKabe_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube194436_1__MapGround" name="pCube194436_1__MapGround" type="NODE">
+        <instance_controller url="#Armature_pCube194436_1__MapGround-mesh">
+          <skeleton>#Armature_Obj_LineYaguraKabe_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

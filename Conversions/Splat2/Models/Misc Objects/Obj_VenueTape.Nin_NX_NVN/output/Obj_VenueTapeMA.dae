@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="StageViny_Alb">
+      <init_from>StageViny_Alb.png</init_from>
+    </image>
+    <image id="StageViny_Col">
+      <init_from>StageViny_Col.png</init_from>
+    </image>
+    <image id="StageViny_Mtl">
+      <init_from>StageViny_Mtl.png</init_from>
+    </image>
+    <image id="StageViny_Nrm">
+      <init_from>StageViny_Nrm.png</init_from>
+    </image>
+    <image id="StageViny_Rgh">
+      <init_from>StageViny_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="StageViny">
+      <instance_effect url="#Effect_StageViny" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_StageViny">
+      <profile_COMMON>
+        <newparam sid="surface_StageViny-diffuse">
+          <surface type="2D">
+            <init_from>StageViny_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_StageViny-diffuse">
+          <sampler2D>
+            <source>surface_StageViny-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_StageViny-bump">
+          <surface type="2D">
+            <init_from>StageViny_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_StageViny-bump">
+          <sampler2D>
+            <source>surface_StageViny-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_StageViny-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_StageViny-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="kazariMaku30__StageViny-mesh" name="kazariMaku30__StageViny">
+      <mesh>
+        <source id="kazariMaku30__StageViny-position">
+          <float_array id="kazariMaku30__StageViny-position-array" count="129">-101.1605 125.887 483.1923 -101.297 119.8438 483.1923 -112.5793 125.8115 482.7429 -112.6789 119.7694 482.7474 -148.6865 125.5728 481.3217 -149.1507 119.5309 481.3217 -180.4674 125.9978 481.3217 -181.1936 119.9608 481.3217 -180.6241 125.9999 481.3217 -207.5235 120.3139 481.3217 -207.2278 126.3558 481.3217 -249.8058 126.7908 481.7349 -249.8058 120.7489 481.7349 -112.3662 126.1564 484.6552 -115.3574 126.0185 481.6444 -112.3043 120.0378 484.5775 -115.2378 119.779 481.625 -112.5048 126.0185 478.7838 -112.4253 119.779 478.8039 -109.5186 120.0378 481.5678 -109.5406 126.1564 481.606 -112.3043 120.0378 484.5775 -112.3662 126.1564 484.6552 -180.6701 126.1564 484.6552 -183.6613 126.0185 481.6444 -180.6082 120.0378 484.5775 -183.5417 119.779 481.625 -180.8087 126.0185 478.7838 -180.7292 119.779 478.8039 -177.8225 120.0378 481.5678 -177.8445 126.1564 481.606 -180.6082 120.0378 484.5775 -180.6701 126.1564 484.6552 -102.3236 125.8592 486.4258 -105.3147 125.7213 483.415 -102.2616 119.7406 486.348 -105.1952 119.4817 483.3956 -102.4621 125.7213 480.5544 -102.3826 119.4817 480.5745 -99.47598 119.7406 483.3384 -99.49793 125.8592 483.3766 -102.2616 119.7406 486.348 -102.3236 125.8592 486.4258</float_array>
+          <technique_common>
+            <accessor source="#kazariMaku30__StageViny-position-array" count="43" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kazariMaku30__StageViny-normal">
+          <float_array id="kazariMaku30__StageViny-normal-array" count="129">0.03913894 -0.001956947 -1 0.03913894 -0.001956947 -1 0.03913894 -0.001956947 -1 0.03913894 -0.001956947 -1 0.02152642 -0.001956947 -1 0.01956947 -0.001956947 -1 0 0 -1 0 0 -1 0 0 -1 -0.005870841 0 -1 -0.005870841 0 -1 -0.009784736 0 -1 -0.009784736 0 -1 0.009784736 -0.01174168 1 -1 -0.01956947 0.02935421 -0.01174168 -0.01369863 1 -1 -0.01956947 -0.003913894 -0.007827789 -0.003913894 -1 -0.02739726 -0.003913894 -1 0.9980431 0.003913894 -0.05088063 1 0.003913894 -0.01369863 -0.01174168 -0.01369863 1 0.009784736 -0.01174168 1 0.009784736 -0.01174168 1 -1 -0.01956947 0.02935421 -0.01174168 -0.01369863 1 -1 -0.01956947 -0.003913894 -0.007827789 -0.003913894 -1 -0.02739726 -0.003913894 -1 0.9980431 0.003913894 -0.05088063 1 0.003913894 -0.01369863 -0.01174168 -0.01369863 1 0.009784736 -0.01174168 1 0.009784736 -0.01174168 1 -1 -0.01956947 0.02935421 -0.01174168 -0.01369863 1 -1 -0.01956947 -0.003913894 -0.007827789 -0.003913894 -1 -0.02739726 -0.003913894 -1 0.9980431 0.003913894 -0.05088063 1 0.003913894 -0.01369863 -0.01174168 -0.01369863 1 0.009784736 -0.01174168 1</float_array>
+          <technique_common>
+            <accessor source="#kazariMaku30__StageViny-normal-array" count="43" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kazariMaku30__StageViny-texcoord">
+          <float_array id="kazariMaku30__StageViny-texcoord-array" count="86">3.306641 -0.8408203 3.308594 -0.8935547 3.412109 -0.8408203 3.414063 -0.8935547 3.746094 -0.8408203 3.751953 -0.8935547 3.998047 -0.8408203 4.003906 -0.8935547 3.998047 -0.8408203 4.210938 -0.8935547 4.207031 -0.8408203 4.761719 -0.8408203 4.761719 -0.8935547 0.3383789 -0.8408203 0.2873535 -0.8408203 0.3383789 -0.8935547 0.2873535 -0.8935547 0.237793 -0.8408203 0.237793 -0.8935547 0.1864014 -0.8935547 0.1864014 -0.8408203 0.1345215 -0.8935547 0.1345215 -0.8408203 0.3383789 -0.8408203 0.2873535 -0.8408203 0.3383789 -0.8935547 0.2873535 -0.8935547 0.237793 -0.8408203 0.237793 -0.8935547 0.1864014 -0.8935547 0.1864014 -0.8408203 0.1345215 -0.8935547 0.1345215 -0.8408203 0.3417969 -0.8408203 0.2902832 -0.8408203 0.3417969 -0.8935547 0.2902832 -0.8935547 0.2397461 -0.8408203 0.2397461 -0.8935547 0.1865234 -0.8935547 0.1865234 -0.8408203 0.1345215 -0.8935547 0.1345215 -0.8408203</float_array>
+          <technique_common>
+            <accessor source="#kazariMaku30__StageViny-texcoord-array" count="43" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kazariMaku30__StageViny-texcoord_1">
+          <float_array id="kazariMaku30__StageViny-texcoord-array_1" count="86">0.04333562 0.2122072 0.035935 0.2119325 0.04333562 0.1973144 0.035935 0.197055 0.04333562 0.1502708 0.035935 0.1493706 0.04333562 0.1147173 0.035935 0.1136034 0.04333562 0.1145495 0.035935 0.08422983 0.04333562 0.0847944 0.04333562 0.006713986 0.035935 0.006713986 0.3196002 0.6278172 0.3196002 0.6350042 0.3121996 0.6278172 0.3121996 0.6350042 0.3196002 0.6420233 0.3121996 0.6420233 0.3121996 0.6492714 0.3196002 0.6492714 0.3121996 0.6565804 0.3196002 0.6565804 0.3196002 0.6278172 0.3196002 0.6350042 0.3121996 0.6278172 0.3121996 0.6350042 0.3196002 0.6420233 0.3121996 0.6420233 0.3121996 0.6492714 0.3196002 0.6492714 0.3121996 0.6565804 0.3196002 0.6565804 0.437995 0.621622 0.437995 0.6288853 0.4305943 0.621622 0.4305943 0.6288853 0.437995 0.6360113 0.4305943 0.6360113 0.4305943 0.6435187 0.437995 0.6435187 0.4305943 0.6508583 0.437995 0.6508583</float_array>
+          <technique_common>
+            <accessor source="#kazariMaku30__StageViny-texcoord-array_1" count="43" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kazariMaku30__StageViny-vertex">
+          <input semantic="POSITION" source="#kazariMaku30__StageViny-position" />
+        </vertices>
+        <triangles material="StageViny" count="35">
+          <input semantic="VERTEX" source="#kazariMaku30__StageViny-vertex" offset="0" />
+          <input semantic="NORMAL" source="#kazariMaku30__StageViny-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#kazariMaku30__StageViny-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#kazariMaku30__StageViny-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 3 3 3 3 5 5 5 5 4 4 4 4 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 6 6 6 6 7 7 7 7 8 8 8 8 7 7 7 7 9 9 9 9 8 8 8 8 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 9 9 9 9 12 12 12 12 11 11 11 11 13 13 13 13 14 14 14 14 15 15 15 15 14 14 14 14 16 16 16 16 15 15 15 15 14 14 14 14 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 17 17 17 17 20 20 20 20 19 19 19 19 19 19 19 19 20 20 20 20 21 21 21 21 20 20 20 20 22 22 22 22 21 21 21 21 23 23 23 23 24 24 24 24 25 25 25 25 24 24 24 24 26 26 26 26 25 25 25 25 24 24 24 24 27 27 27 27 26 26 26 26 26 26 26 26 27 27 27 27 28 28 28 28 27 27 27 27 29 29 29 29 28 28 28 28 27 27 27 27 30 30 30 30 29 29 29 29 29 29 29 29 30 30 30 30 31 31 31 31 30 30 30 30 32 32 32 32 31 31 31 31 33 33 33 33 34 34 34 34 35 35 35 35 34 34 34 34 36 36 36 36 35 35 35 35 34 34 34 34 37 37 37 37 36 36 36 36 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 37 37 37 37 40 40 40 40 39 39 39 39 39 39 39 39 40 40 40 40 41 41 41 41 40 40 40 40 42 42 42 42 41 41 41 41 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_kazariMaku30__StageViny-mesh">
+      <skin source="#kazariMaku30__StageViny-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="kazariMaku30__StageViny-mesh-joint">
+          <Name_array id="kazariMaku30__StageViny-mesh-joint-array" count="6">joint164 joint165 joint166 joint167 joint168 joint169</Name_array>
+          <technique_common>
+            <accessor source="#kazariMaku30__StageViny-mesh-joint-array" count="6" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kazariMaku30__StageViny-mesh-inv_bind_matrix">
+          <float_array id="kazariMaku30__StageViny-mesh-inv_bind_matrix-array" count="96">7.54979E-08 0 -1 483.3384 0 1 0 -122.9944 1 0 7.54979E-08 102.2802 0 0 0 1 7.54979E-08 0 -1 483.3384 0 1 0 -122.9944 1 0 7.54979E-08 112.2928 0 0 0 1 7.54979E-08 0 -1 481.3217 0 1 0 -122.7848 1 0 7.54979E-08 149.1507 0 0 0 1 7.54979E-08 0 -1 481.5678 0 1 0 -123.2917 1 0 7.54979E-08 180.9739 0 0 0 1 7.54979E-08 0 -1 481.3217 0 1 0 -123.5678 1 0 7.54979E-08 207.5235 0 0 0 1 7.54979E-08 0 -1 481.735 0 1 0 -124.0028 1 0 7.54979E-08 249.8058 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#kazariMaku30__StageViny-mesh-inv_bind_matrix-array" count="6" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kazariMaku30__StageViny-mesh-weight">
+          <float_array id="kazariMaku30__StageViny-mesh-weight-array" count="17">0.9882353 0.01176471 0.9803922 0.01960784 1 0.05098039 0.9490196 0.03921569 0.9607843 0.07843138 0.9215686 0.09019608 0.9098039 0.9686275 0.03137255 0.8980392 0.1019608</float_array>
+          <technique_common>
+            <accessor source="#kazariMaku30__StageViny-mesh-weight-array" count="17" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#kazariMaku30__StageViny-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#kazariMaku30__StageViny-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="43">
+          <input semantic="JOINT" source="#kazariMaku30__StageViny-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#kazariMaku30__StageViny-mesh-weight" offset="1" />
+          <vcount>2 2 2 2 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 </vcount>
+          <v>0 0 1 1 0 2 1 3 0 1 1 0 0 1 1 0 2 4 2 4 3 4 3 4 3 4 4 4 4 4 5 4 5 4 0 1 1 0 0 1 1 0 0 1 1 0 0 1 1 0 0 5 1 6 0 7 1 8 0 9 1 10 0 11 1 12 0 1 1 0 0 1 1 0 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 0 2 1 3 0 10 1 9 0 13 1 14 0 15 1 16 0 2 1 3 0 13 1 14 0 0 1 1 0 0 1 1 0 13 1 14 0 2 1 3 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_root2" name="root2" sid="root2" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_joint164" name="joint164" sid="joint164" type="JOINT">
+            <matrix sid="transform">7.54979E-08 0 1 -102.2803 0 1 0 122.9944 -1 0 7.54979E-08 483.3384 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_joint165" name="joint165" sid="joint165" type="JOINT">
+            <matrix sid="transform">7.54979E-08 0 1 -112.2928 0 1 0 122.9944 -1 0 7.54979E-08 483.3384 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_joint166" name="joint166" sid="joint166" type="JOINT">
+            <matrix sid="transform">7.54979E-08 0 1 -149.1507 0 1 0 122.7848 -1 0 7.54979E-08 481.3217 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_joint167" name="joint167" sid="joint167" type="JOINT">
+            <matrix sid="transform">7.54979E-08 0 1 -180.9739 0 1 0 123.2917 -1 0 7.54979E-08 481.5678 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_joint168" name="joint168" sid="joint168" type="JOINT">
+            <matrix sid="transform">7.54979E-08 0 1 -207.5235 0 1 0 123.5678 -1 0 7.54979E-08 481.3217 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_joint169" name="joint169" sid="joint169" type="JOINT">
+            <matrix sid="transform">7.54979E-08 0 1 -249.8058 0 1 0 124.0028 -1 0 7.54979E-08 481.7349 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="kazariMaku30__StageViny" name="kazariMaku30__StageViny" type="NODE">
+        <instance_controller url="#Armature_kazariMaku30__StageViny-mesh">
+          <skeleton>#Armature_root2</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="StageViny" target="#StageViny" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

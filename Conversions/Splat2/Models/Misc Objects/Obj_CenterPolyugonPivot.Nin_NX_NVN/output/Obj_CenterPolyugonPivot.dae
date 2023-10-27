@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="GroundSquareTile_Alb">
+      <init_from>GroundSquareTile_Alb.png</init_from>
+    </image>
+    <image id="GroundSquareTile_Nrm">
+      <init_from>GroundSquareTile_Nrm.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GroundSquareTile">
+      <instance_effect url="#Effect_GroundSquareTile" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GroundSquareTile">
+      <profile_COMMON>
+        <newparam sid="surface_GroundSquareTile-diffuse">
+          <surface type="2D">
+            <init_from>GroundSquareTile_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundSquareTile-diffuse">
+          <sampler2D>
+            <source>surface_GroundSquareTile-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundSquareTile-bump">
+          <surface type="2D">
+            <init_from>GroundSquareTile_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundSquareTile-bump">
+          <sampler2D>
+            <source>surface_GroundSquareTile-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundSquareTile-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundSquareTile-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="CenterPolygon__GroundSquareTile-mesh" name="CenterPolygon__GroundSquareTile">
+      <mesh>
+        <source id="CenterPolygon__GroundSquareTile-position">
+          <float_array id="CenterPolygon__GroundSquareTile-position-array" count="78">29.99995 40 1.525879E-05 25.98076 40 15 28.97777 40 7.764572 21.21318 40 21.2132 14.99998 40 25.98074 7.764557 40 28.97775 29.99995 40 1.525879E-05 28.97774 40 -7.764542 -1.508399E-05 39.99999 -29.99998 25.98073 40 -14.99997 21.21318 40 -21.21317 14.99997 40 -25.98073 7.764542 40 -28.97775 -7.764587 40 -28.97772 -1.508399E-05 39.99999 30.00002 -29.99998 40 1.525879E-05 -28.97777 40 7.764572 -25.98076 40 15 -21.21321 40 21.2132 -15 40 25.98076 -7.764572 40 28.97778 -15.00002 40 -25.98071 -29.99998 40 1.525879E-05 -21.21321 40 -21.21317 -25.98079 40 -14.99997 -28.9778 40 -7.764542</float_array>
+          <technique_common>
+            <accessor source="#CenterPolygon__GroundSquareTile-position-array" count="26" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CenterPolygon__GroundSquareTile-normal">
+          <float_array id="CenterPolygon__GroundSquareTile-normal-array" count="78">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#CenterPolygon__GroundSquareTile-normal-array" count="26" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CenterPolygon__GroundSquareTile-texcoord">
+          <float_array id="CenterPolygon__GroundSquareTile-texcoord-array" count="52">2.998047 1.5 2.798828 0.7501221 2.947266 1.111755 2.560547 0.4394531 2.248047 0.2011719 1.887695 0.05126953 2.998047 1.5 2.947266 1.888184 1.499023 2.999023 2.798828 2.249023 2.560547 2.560547 2.248047 2.798828 1.887695 2.948242 1.111328 2.948242 1.499023 0 0 1.5 0.05108643 1.111755 0.2009277 0.7501221 0.439209 0.4394531 0.7495117 0.2011719 1.111328 0.05126953 0.7495117 2.798828 0 1.5 0.439209 2.560547 0.2009277 2.249023 0.05108643 1.888184</float_array>
+          <technique_common>
+            <accessor source="#CenterPolygon__GroundSquareTile-texcoord-array" count="26" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CenterPolygon__GroundSquareTile-texcoord_1">
+          <float_array id="CenterPolygon__GroundSquareTile-texcoord-array_1" count="52">0.9041123 0.1815671 0.8708019 0.1904936 0.8868696 0.1838407 0.8570077 0.2010834 0.8464332 0.2148775 0.8397803 0.23093 0.9041123 0.3147784 0.8868696 0.3125048 0.8375067 0.2481728 0.8708019 0.3058518 0.8570077 0.2952621 0.8464332 0.2814679 0.8397803 0.2654154 0.8397803 0.23093 0.8375067 0.2481728 0.9041123 0.3147784 0.8868696 0.3125048 0.8708019 0.3058518 0.8570077 0.2952621 0.8464332 0.2814679 0.8397803 0.2654154 0.8464332 0.2148775 0.9041123 0.1815671 0.8570077 0.2010834 0.8708019 0.1904936 0.8868696 0.1838407</float_array>
+          <technique_common>
+            <accessor source="#CenterPolygon__GroundSquareTile-texcoord-array_1" count="26" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="CenterPolygon__GroundSquareTile-vertex">
+          <input semantic="POSITION" source="#CenterPolygon__GroundSquareTile-position" />
+        </vertices>
+        <triangles material="GroundSquareTile" count="22">
+          <input semantic="VERTEX" source="#CenterPolygon__GroundSquareTile-vertex" offset="0" />
+          <input semantic="NORMAL" source="#CenterPolygon__GroundSquareTile-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#CenterPolygon__GroundSquareTile-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#CenterPolygon__GroundSquareTile-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 0 0 0 0 3 3 3 3 1 1 1 1 4 4 4 4 3 3 3 3 0 0 0 0 5 5 5 5 4 4 4 4 0 0 0 0 6 6 6 6 7 7 7 7 5 5 5 5 7 7 7 7 8 8 8 8 5 5 5 5 7 7 7 7 9 9 9 9 8 8 8 8 9 9 9 9 10 10 10 10 8 8 8 8 8 8 8 8 10 10 10 10 11 11 11 11 8 8 8 8 11 11 11 11 12 12 12 12 8 8 8 8 13 13 13 13 5 5 5 5 5 5 5 5 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 16 16 16 16 13 13 13 13 16 16 16 16 14 14 14 14 14 14 14 14 16 16 16 16 17 17 17 17 14 14 14 14 17 17 17 17 18 18 18 18 14 14 14 14 18 18 18 18 19 19 19 19 14 14 14 14 19 19 19 19 20 20 20 20 13 13 13 13 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 22 22 22 22 23 23 23 23 24 24 24 24 22 22 22 22 24 24 24 24 25 25 25 25 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_CenterPolygon__GroundSquareTile-mesh">
+      <skin source="#CenterPolygon__GroundSquareTile-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="CenterPolygon__GroundSquareTile-mesh-joint">
+          <Name_array id="CenterPolygon__GroundSquareTile-mesh-joint-array" count="1">Obj_CenterPolygonPivot</Name_array>
+          <technique_common>
+            <accessor source="#CenterPolygon__GroundSquareTile-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CenterPolygon__GroundSquareTile-mesh-inv_bind_matrix">
+          <float_array id="CenterPolygon__GroundSquareTile-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#CenterPolygon__GroundSquareTile-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CenterPolygon__GroundSquareTile-mesh-weight">
+          <float_array id="CenterPolygon__GroundSquareTile-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#CenterPolygon__GroundSquareTile-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#CenterPolygon__GroundSquareTile-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#CenterPolygon__GroundSquareTile-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="26">
+          <input semantic="JOINT" source="#CenterPolygon__GroundSquareTile-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#CenterPolygon__GroundSquareTile-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_CenterPolygonPivot" name="Obj_CenterPolygonPivot" sid="Obj_CenterPolygonPivot" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="CenterPolygon__GroundSquareTile" name="CenterPolygon__GroundSquareTile" type="NODE">
+        <instance_controller url="#Armature_CenterPolygon__GroundSquareTile-mesh">
+          <skeleton>#Armature_Obj_CenterPolygonPivot</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundSquareTile" target="#GroundSquareTile" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

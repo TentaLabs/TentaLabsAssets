@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="KanbanScroll_Alb">
+      <init_from>KanbanScroll_Alb.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="KanbanScroll">
+      <instance_effect url="#Effect_KanbanScroll" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_KanbanScroll">
+      <profile_COMMON>
+        <newparam sid="surface_KanbanScroll-diffuse">
+          <surface type="2D">
+            <init_from>KanbanScroll_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_KanbanScroll-diffuse">
+          <sampler2D>
+            <source>surface_KanbanScroll-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_KanbanScroll-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="OBJ_PlazaTVH__KanbanScroll-mesh" name="OBJ_PlazaTVH__KanbanScroll">
+      <mesh>
+        <source id="OBJ_PlazaTVH__KanbanScroll-position">
+          <float_array id="OBJ_PlazaTVH__KanbanScroll-position-array" count="12">152.9152 68.74931 -369.9264 152.9152 68.74931 -304.0002 152.9152 98.10349 -369.9264 152.9152 98.10349 -304.0002</float_array>
+          <technique_common>
+            <accessor source="#OBJ_PlazaTVH__KanbanScroll-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="OBJ_PlazaTVH__KanbanScroll-normal">
+          <float_array id="OBJ_PlazaTVH__KanbanScroll-normal-array" count="12">-1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#OBJ_PlazaTVH__KanbanScroll-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="OBJ_PlazaTVH__KanbanScroll-texcoord">
+          <float_array id="OBJ_PlazaTVH__KanbanScroll-texcoord-array" count="8">0.6745098 0.7254902 0.9254902 0.7254902 0.6745098 0.9764706 0.9254902 0.9764706</float_array>
+          <technique_common>
+            <accessor source="#OBJ_PlazaTVH__KanbanScroll-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="OBJ_PlazaTVH__KanbanScroll-vertex">
+          <input semantic="POSITION" source="#OBJ_PlazaTVH__KanbanScroll-position" />
+        </vertices>
+        <triangles material="KanbanScroll" count="2">
+          <input semantic="VERTEX" source="#OBJ_PlazaTVH__KanbanScroll-vertex" offset="0" />
+          <input semantic="NORMAL" source="#OBJ_PlazaTVH__KanbanScroll-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#OBJ_PlazaTVH__KanbanScroll-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_OBJ_PlazaTVH__KanbanScroll-mesh">
+      <skin source="#OBJ_PlazaTVH__KanbanScroll-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="OBJ_PlazaTVH__KanbanScroll-mesh-joint">
+          <Name_array id="OBJ_PlazaTVH__KanbanScroll-mesh-joint-array" count="1">OBJ_PlazaTVH</Name_array>
+          <technique_common>
+            <accessor source="#OBJ_PlazaTVH__KanbanScroll-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="OBJ_PlazaTVH__KanbanScroll-mesh-inv_bind_matrix">
+          <float_array id="OBJ_PlazaTVH__KanbanScroll-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#OBJ_PlazaTVH__KanbanScroll-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="OBJ_PlazaTVH__KanbanScroll-mesh-weight">
+          <float_array id="OBJ_PlazaTVH__KanbanScroll-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#OBJ_PlazaTVH__KanbanScroll-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#OBJ_PlazaTVH__KanbanScroll-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#OBJ_PlazaTVH__KanbanScroll-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#OBJ_PlazaTVH__KanbanScroll-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#OBJ_PlazaTVH__KanbanScroll-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_OBJ_PlazaTVH" name="OBJ_PlazaTVH" sid="OBJ_PlazaTVH" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="OBJ_PlazaTVH__KanbanScroll" name="OBJ_PlazaTVH__KanbanScroll" type="NODE">
+        <instance_controller url="#Armature_OBJ_PlazaTVH__KanbanScroll-mesh">
+          <skeleton>#Armature_OBJ_PlazaTVH</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="KanbanScroll" target="#KanbanScroll" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

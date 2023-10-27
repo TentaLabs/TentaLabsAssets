@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BiDummy">
+      <init_from>BiDummy.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_BulletThrough">
+      <instance_effect url="#Effect_M_BulletThrough" />
+    </material>
+    <material id="M_Field">
+      <instance_effect url="#Effect_M_Field" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_BulletThrough">
+      <profile_COMMON>
+        <newparam sid="surface_M_BulletThrough-diffuse">
+          <surface type="2D">
+            <init_from>BiDummy</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_BulletThrough-diffuse">
+          <sampler2D>
+            <source>surface_M_BulletThrough-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_BulletThrough-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_M_Field">
+      <profile_COMMON>
+        <newparam sid="surface_M_Field-diffuse">
+          <surface type="2D">
+            <init_from>BiDummy</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Field-diffuse">
+          <sampler2D>
+            <source>surface_M_Field-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Field-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pPlane1__M_Field-mesh" name="pPlane1__M_Field">
+      <mesh>
+        <source id="pPlane1__M_Field-position">
+          <float_array id="pPlane1__M_Field-position-array" count="12">-1024 0 1024 1024 0 1024 -1024 0 -1024 1024 0 -1024</float_array>
+          <technique_common>
+            <accessor source="#pPlane1__M_Field-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1__M_Field-normal">
+          <float_array id="pPlane1__M_Field-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pPlane1__M_Field-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1__M_Field-texcoord">
+          <float_array id="pPlane1__M_Field-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane1__M_Field-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane1__M_Field-vertex">
+          <input semantic="POSITION" source="#pPlane1__M_Field-position" />
+        </vertices>
+        <triangles material="M_Field" count="2">
+          <input semantic="VERTEX" source="#pPlane1__M_Field-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pPlane1__M_Field-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pPlane1__M_Field-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pPlane2__M_BulletThrough-mesh" name="pPlane2__M_BulletThrough">
+      <mesh>
+        <source id="pPlane2__M_BulletThrough-position">
+          <float_array id="pPlane2__M_BulletThrough-position-array" count="12">-1024 10 1024 1024 10 1024 -1024 10 -1024 1024 10 -1024</float_array>
+          <technique_common>
+            <accessor source="#pPlane2__M_BulletThrough-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2__M_BulletThrough-normal">
+          <float_array id="pPlane2__M_BulletThrough-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pPlane2__M_BulletThrough-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2__M_BulletThrough-texcoord">
+          <float_array id="pPlane2__M_BulletThrough-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2__M_BulletThrough-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane2__M_BulletThrough-vertex">
+          <input semantic="POSITION" source="#pPlane2__M_BulletThrough-position" />
+        </vertices>
+        <triangles material="M_BulletThrough" count="2">
+          <input semantic="VERTEX" source="#pPlane2__M_BulletThrough-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pPlane2__M_BulletThrough-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pPlane2__M_BulletThrough-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pPlane1__M_Field-mesh">
+      <skin source="#pPlane1__M_Field-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pPlane1__M_Field-mesh-joint">
+          <Name_array id="pPlane1__M_Field-mesh-joint-array" count="1">nw4f_root</Name_array>
+          <technique_common>
+            <accessor source="#pPlane1__M_Field-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1__M_Field-mesh-inv_bind_matrix">
+          <float_array id="pPlane1__M_Field-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane1__M_Field-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1__M_Field-mesh-weight">
+          <float_array id="pPlane1__M_Field-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pPlane1__M_Field-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pPlane1__M_Field-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pPlane1__M_Field-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#pPlane1__M_Field-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pPlane1__M_Field-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pPlane2__M_BulletThrough-mesh">
+      <skin source="#pPlane2__M_BulletThrough-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pPlane2__M_BulletThrough-mesh-joint">
+          <Name_array id="pPlane2__M_BulletThrough-mesh-joint-array" count="1">nw4f_root</Name_array>
+          <technique_common>
+            <accessor source="#pPlane2__M_BulletThrough-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2__M_BulletThrough-mesh-inv_bind_matrix">
+          <float_array id="pPlane2__M_BulletThrough-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2__M_BulletThrough-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2__M_BulletThrough-mesh-weight">
+          <float_array id="pPlane2__M_BulletThrough-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2__M_BulletThrough-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pPlane2__M_BulletThrough-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pPlane2__M_BulletThrough-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#pPlane2__M_BulletThrough-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pPlane2__M_BulletThrough-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_nw4f_root" name="nw4f_root" sid="nw4f_root" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pPlane1__M_Field" name="pPlane1__M_Field" type="NODE">
+        <instance_controller url="#Armature_pPlane1__M_Field-mesh">
+          <skeleton>#Armature_nw4f_root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Field" target="#M_Field" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pPlane2__M_BulletThrough" name="pPlane2__M_BulletThrough" type="NODE">
+        <instance_controller url="#Armature_pPlane2__M_BulletThrough-mesh">
+          <skeleton>#Armature_nw4f_root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_BulletThrough" target="#M_BulletThrough" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

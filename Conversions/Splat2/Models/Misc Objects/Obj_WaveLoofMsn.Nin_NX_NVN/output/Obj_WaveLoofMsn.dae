@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="DVglassroof_Alb">
+      <init_from>DVglassroof_Alb.png</init_from>
+    </image>
+    <image id="DVglassroof_Emm">
+      <init_from>DVglassroof_Emm.png</init_from>
+    </image>
+    <image id="DVglassroof_Nrm">
+      <init_from>DVglassroof_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="DVglassroof">
+      <instance_effect url="#Effect_DVglassroof" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_DVglassroof">
+      <profile_COMMON>
+        <newparam sid="surface_DVglassroof-diffuse">
+          <surface type="2D">
+            <init_from>DVglassroof_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_DVglassroof-diffuse">
+          <sampler2D>
+            <source>surface_DVglassroof-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_DVglassroof-bump">
+          <surface type="2D">
+            <init_from>DVglassroof_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_DVglassroof-bump">
+          <sampler2D>
+            <source>surface_DVglassroof-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_DVglassroof-emission">
+          <surface type="2D">
+            <init_from>DVglassroof_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_DVglassroof-emission">
+          <sampler2D>
+            <source>surface_DVglassroof-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_DVglassroof-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_DVglassroof-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_DVglassroof-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="_pCube19996__DVglassroof-mesh" name="_pCube19996__DVglassroof">
+      <mesh>
+        <source id="_pCube19996__DVglassroof-position">
+          <float_array id="_pCube19996__DVglassroof-position-array" count="60">-362.6558 235.0248 619.993 -362.6558 235.0248 -619.993 -254.334 266.0856 619.993 -254.3341 266.0856 -619.993 -243.7601 269.1176 619.993 -243.7601 269.1176 -619.993 -135.4384 300.1784 619.993 -135.4384 300.1783 -619.993 -124.8644 303.2104 619.993 -124.8645 303.2104 -619.993 -16.54271 334.2711 619.993 -16.54272 334.2711 -619.993 -5.968812 337.3032 619.993 -5.968826 337.3032 -619.993 102.3529 368.3639 619.993 102.3529 368.3639 -619.993 112.9268 371.396 619.993 112.9268 371.396 -619.993 221.2486 402.4567 619.993 221.2486 402.4567 -619.993</float_array>
+          <technique_common>
+            <accessor source="#_pCube19996__DVglassroof-position-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube19996__DVglassroof-normal">
+          <float_array id="_pCube19996__DVglassroof-normal-array" count="60">0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0 0.2759295 -0.960861 0</float_array>
+          <technique_common>
+            <accessor source="#_pCube19996__DVglassroof-normal-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube19996__DVglassroof-texcoord">
+          <float_array id="_pCube19996__DVglassroof-texcoord-array" count="40">0 22.0076 0 0 1 22.0076 0.9999993 0 0 22.0076 0 0 1 22.0076 0.9999993 0 0 22.0076 0 0 1 22.0076 0.9999993 0 0 22.0076 0 0 1 22.0076 0.9999993 0 0 22.0076 0 0 1 22.0076 0.9999993 0</float_array>
+          <technique_common>
+            <accessor source="#_pCube19996__DVglassroof-texcoord-array" count="20" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube19996__DVglassroof-texcoord_1">
+          <float_array id="_pCube19996__DVglassroof-texcoord-array_1" count="40">0.001052873 0.9960327 0.001052873 0.003967345 0.04612802 0.9960327 0.04612802 0.003967345 0.05619898 0.9960327 0.05619898 0.003967345 0.1012741 0.9960327 0.1012741 0.003967345 0.1113603 0.9960327 0.1113603 0.003967345 0.1564355 0.9960327 0.1564355 0.003967345 0.1647211 0.9960327 0.1647211 0.003967345 0.2098116 0.9960327 0.2098116 0.003967345 0.2180972 0.9960327 0.2180972 0.003967345 0.2631724 0.9960327 0.2631724 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#_pCube19996__DVglassroof-texcoord-array_1" count="20" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_pCube19996__DVglassroof-vertex">
+          <input semantic="POSITION" source="#_pCube19996__DVglassroof-position" />
+        </vertices>
+        <triangles material="DVglassroof" count="10">
+          <input semantic="VERTEX" source="#_pCube19996__DVglassroof-vertex" offset="0" />
+          <input semantic="NORMAL" source="#_pCube19996__DVglassroof-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#_pCube19996__DVglassroof-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#_pCube19996__DVglassroof-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature__pCube19996__DVglassroof-mesh">
+      <skin source="#_pCube19996__DVglassroof-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="_pCube19996__DVglassroof-mesh-joint">
+          <Name_array id="_pCube19996__DVglassroof-mesh-joint-array" count="1">Obj_WaveLoofMsn</Name_array>
+          <technique_common>
+            <accessor source="#_pCube19996__DVglassroof-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube19996__DVglassroof-mesh-inv_bind_matrix">
+          <float_array id="_pCube19996__DVglassroof-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_pCube19996__DVglassroof-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube19996__DVglassroof-mesh-weight">
+          <float_array id="_pCube19996__DVglassroof-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#_pCube19996__DVglassroof-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#_pCube19996__DVglassroof-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#_pCube19996__DVglassroof-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="20">
+          <input semantic="JOINT" source="#_pCube19996__DVglassroof-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#_pCube19996__DVglassroof-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_WaveLoofMsn" name="Obj_WaveLoofMsn" sid="Obj_WaveLoofMsn" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="_pCube19996__DVglassroof" name="_pCube19996__DVglassroof" type="NODE">
+        <instance_controller url="#Armature__pCube19996__DVglassroof-mesh">
+          <skeleton>#Armature_Obj_WaveLoofMsn</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="DVglassroof" target="#DVglassroof" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

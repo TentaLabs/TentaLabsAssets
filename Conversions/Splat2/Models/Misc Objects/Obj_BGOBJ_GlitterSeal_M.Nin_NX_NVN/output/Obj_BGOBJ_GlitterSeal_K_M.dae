@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_BGOBJ_GlitterSeal_A_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_A_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_B_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_B_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_C_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_C_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_D_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_D_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_E_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_E_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_F_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_F_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_G_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_G_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_H_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_H_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_I_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_I_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_J_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_J_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_K_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_K_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_L_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_L_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_M_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_M_g00_b00_f00.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Alb">
+      <init_from>GlitterSealSet_Alb.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Emm">
+      <init_from>GlitterSealSet_Emm.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Mfk">
+      <init_from>GlitterSealSet_Mfk.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Mtl">
+      <init_from>GlitterSealSet_Mtl.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Nrm">
+      <init_from>GlitterSealSet_Nrm.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Rgh">
+      <init_from>GlitterSealSet_Rgh.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Alb">
+      <init_from>GlitterSealSingle_Alb.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Emm">
+      <init_from>GlitterSealSingle_Emm.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Mfk">
+      <init_from>GlitterSealSingle_Mfk.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Mtl">
+      <init_from>GlitterSealSingle_Mtl.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Nrm">
+      <init_from>GlitterSealSingle_Nrm.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Rgh">
+      <init_from>GlitterSealSingle_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GlitterSealSet">
+      <instance_effect url="#Effect_GlitterSealSet" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GlitterSealSet">
+      <profile_COMMON>
+        <newparam sid="surface_GlitterSealSet-diffuse">
+          <surface type="2D">
+            <init_from>GlitterSealSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GlitterSealSet-diffuse">
+          <sampler2D>
+            <source>surface_GlitterSealSet-diffuse</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GlitterSealSet-bump">
+          <surface type="2D">
+            <init_from>GlitterSealSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GlitterSealSet-bump">
+          <sampler2D>
+            <source>surface_GlitterSealSet-bump</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GlitterSealSet-emission">
+          <surface type="2D">
+            <init_from>GlitterSealSet_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GlitterSealSet-emission">
+          <sampler2D>
+            <source>surface_GlitterSealSet-emission</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GlitterSealSet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GlitterSealSet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_GlitterSealSet-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface52__GlitterSealSet-mesh" name="polySurface52__GlitterSealSet">
+      <mesh>
+        <source id="polySurface52__GlitterSealSet-position">
+          <float_array id="polySurface52__GlitterSealSet-position-array" count="192">-115.29 7.559859 5.671171 -93.79325 7.559859 5.671171 -115.29 7.559859 -5.728971 -93.79325 7.559859 -5.728971 -115.29 7.579287 5.728971 -115.29 7.579287 -5.671171 -93.79325 7.579287 5.728971 -93.79325 7.579287 -5.671171 -85.75418 7.559859 5.671171 -64.25746 7.559859 5.671171 -85.75418 7.559859 -5.728971 -64.25746 7.559859 -5.728971 -85.75594 7.579287 5.728971 -85.75594 7.579287 -5.671171 -64.25922 7.579287 5.728971 -64.25922 7.579287 -5.671171 -54.57854 7.559859 5.671171 -33.08182 7.559859 5.671171 -54.57854 7.559859 -5.728971 -33.08182 7.559859 -5.728971 -54.51859 7.579287 5.67289 -54.51859 7.579287 -5.727253 -33.02187 7.579287 5.67289 -33.02187 7.579287 -5.727253 -26.42178 7.579287 5.67289 -26.42178 7.579287 -5.727253 -4.925064 7.579287 5.67289 -4.925064 7.579287 -5.727253 -26.4026 7.559859 5.671171 -4.905869 7.559859 5.671171 -26.4026 7.559859 -5.728971 -4.905869 7.559859 -5.728971 4.269943 7.559859 5.671171 25.76666 7.559859 5.671171 4.269943 7.559859 -5.728971 25.76666 7.559859 -5.728971 4.289825 7.579287 5.67289 4.289825 7.579287 -5.727253 25.78654 7.579287 5.67289 25.78654 7.579287 -5.727253 34.21109 7.579287 -5.727253 55.70781 7.579287 -5.727253 55.70781 7.579287 5.67289 34.21109 7.579287 5.67289 34.22916 7.559859 5.671171 55.72588 7.559859 5.671171 34.22916 7.559859 -5.728971 55.72588 7.559859 -5.728971 64.18839 7.559859 5.671171 85.6851 7.559859 5.671171 64.18839 7.559859 -5.728971 85.6851 7.559859 -5.728971 64.18504 7.579287 5.67289 64.18504 7.579287 -5.727253 85.68178 7.579287 5.67289 85.68178 7.579287 -5.727253 93.79323 7.579287 5.67289 93.79323 7.579287 -5.727253 115.29 7.579287 5.67289 115.29 7.579287 -5.727253 93.79097 7.559859 5.671171 115.2877 7.559859 5.671171 93.79097 7.559859 -5.728971 115.2877 7.559859 -5.728971</float_array>
+          <technique_common>
+            <accessor source="#polySurface52__GlitterSealSet-position-array" count="64" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface52__GlitterSealSet-normal">
+          <float_array id="polySurface52__GlitterSealSet-normal-array" count="192">0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface52__GlitterSealSet-normal-array" count="64" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface52__GlitterSealSet-texcoord">
+          <float_array id="polySurface52__GlitterSealSet-texcoord-array" count="128">0.8351568 0.5856413 0.966949 0.5856413 0.8351568 0.6582742 0.966949 0.6582742 0.4442359 0.6120393 0.4442359 0.6846724 0.5760433 0.6120393 0.5760433 0.6846724 0.8351568 0.5089647 0.966949 0.5089647 0.8351568 0.5815976 0.966949 0.5815976 0.4442359 0.6120393 0.4442359 0.6846724 0.5760433 0.6120393 0.5760433 0.6846724 0.8351568 0.4218357 0.966949 0.4218357 0.8351568 0.4944686 0.966949 0.4944686 0.4442359 0.6120393 0.4442359 0.6846724 0.5760433 0.6120393 0.5760433 0.6846724 0.4442359 0.6120393 0.4442359 0.6846724 0.5760433 0.6120393 0.5760433 0.6846724 0.8351568 0.3277333 0.966949 0.3277333 0.8351568 0.4003662 0.966949 0.4003662 0.8351568 0.2475776 0.966949 0.2475776 0.8351568 0.3202106 0.966949 0.3202106 0.4442359 0.6120393 0.4442359 0.6846724 0.5760433 0.6120393 0.5760433 0.6846724 0.4442359 0.6846724 0.5760433 0.6846724 0.5760433 0.6120393 0.4442359 0.6120393 0.8351568 0.1639277 0.966949 0.1639277 0.8351568 0.2365606 0.966949 0.2365606 0.8351568 0.08726633 0.966949 0.08726633 0.8351568 0.159884 0.966949 0.159884 0.4442359 0.6120393 0.4442359 0.6846724 0.5760433 0.6120393 0.5760433 0.6846724 0.4442359 0.6120393 0.4442359 0.6846724 0.5760433 0.6120393 0.5760433 0.6846724 0.8351568 0.007095456 0.966949 0.007095456 0.8351568 0.07972836 0.966949 0.07972836</float_array>
+          <technique_common>
+            <accessor source="#polySurface52__GlitterSealSet-texcoord-array" count="64" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface52__GlitterSealSet-texcoord_1">
+          <float_array id="polySurface52__GlitterSealSet-texcoord-array_1" count="128">0.003387503 0.2454109 0.003387503 0.004592955 0.1360952 0.2454109 0.1360952 0.004592955 0.2780651 0.2457008 0.1453422 0.2457008 0.2780651 0.004882872 0.1453422 0.004882872 0.2891432 0.2454261 0.2891432 0.004608214 0.4218662 0.2454261 0.4218662 0.004608214 0.5656672 0.2457008 0.4329442 0.2457008 0.5656672 0.004882872 0.4329442 0.004882872 0.5767605 0.2447852 0.5767605 0.003967345 0.7094682 0.2447852 0.7094682 0.003967345 0.8514229 0.2457008 0.7187152 0.2457008 0.8514229 0.004882872 0.7187152 0.004882872 0.2780651 0.4964218 0.1453422 0.4964218 0.2780651 0.2556038 0.1453422 0.2556038 0.003387503 0.4950332 0.003387503 0.2542153 0.1360952 0.4950332 0.1360952 0.2542153 0.4274205 0.4960555 0.4274205 0.2552376 0.5601282 0.4960555 0.5601282 0.2552376 0.8477302 0.4964218 0.7150225 0.4964218 0.8477302 0.2556038 0.7150225 0.2556038 0.2891432 0.7453117 0.2891432 0.5044938 0.4218662 0.5044938 0.4218662 0.7453117 0.5712215 0.4962386 0.5712215 0.2554207 0.7039292 0.4962386 0.7039292 0.2554207 0.1416648 0.7469749 0.1416648 0.506157 0.2743725 0.7469749 0.2743725 0.506157 0.8458839 0.7471428 0.7131762 0.7471428 0.8458839 0.5063249 0.7131762 0.5063249 0.7094682 0.9960327 0.5767605 0.9960327 0.7094682 0.7552148 0.5767605 0.7552148 0.4329442 0.7461662 0.4329442 0.5053483 0.5656672 0.7461662 0.5656672 0.5053483</float_array>
+          <technique_common>
+            <accessor source="#polySurface52__GlitterSealSet-texcoord-array_1" count="64" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface52__GlitterSealSet-vertex">
+          <input semantic="POSITION" source="#polySurface52__GlitterSealSet-position" />
+        </vertices>
+        <triangles material="GlitterSealSet" count="32">
+          <input semantic="VERTEX" source="#polySurface52__GlitterSealSet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface52__GlitterSealSet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface52__GlitterSealSet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface52__GlitterSealSet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 43 43 43 43 40 40 40 40 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface52__GlitterSealSet-mesh">
+      <skin source="#polySurface52__GlitterSealSet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface52__GlitterSealSet-mesh-joint">
+          <Name_array id="polySurface52__GlitterSealSet-mesh-joint-array" count="1">BGOBJ_GlitterSeal_K</Name_array>
+          <technique_common>
+            <accessor source="#polySurface52__GlitterSealSet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface52__GlitterSealSet-mesh-inv_bind_matrix">
+          <float_array id="polySurface52__GlitterSealSet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 -7.569573 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface52__GlitterSealSet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface52__GlitterSealSet-mesh-weight">
+          <float_array id="polySurface52__GlitterSealSet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface52__GlitterSealSet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface52__GlitterSealSet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface52__GlitterSealSet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="64">
+          <input semantic="JOINT" source="#polySurface52__GlitterSealSet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface52__GlitterSealSet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_BGOBJ_GlitterSeal_K" name="BGOBJ_GlitterSeal_K" sid="BGOBJ_GlitterSeal_K" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 7.569573 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface52__GlitterSealSet" name="polySurface52__GlitterSealSet" type="NODE">
+        <instance_controller url="#Armature_polySurface52__GlitterSealSet-mesh">
+          <skeleton>#Armature_BGOBJ_GlitterSeal_K</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GlitterSealSet" target="#GlitterSealSet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

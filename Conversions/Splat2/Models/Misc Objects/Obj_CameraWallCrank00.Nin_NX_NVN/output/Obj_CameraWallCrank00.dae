@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="CameraWall_Col">
+      <init_from>CameraWall_Col.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="CameraWall">
+      <instance_effect url="#Effect_CameraWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_CameraWall">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube4267__CameraWall-mesh" name="pCube4267__CameraWall">
+      <mesh>
+        <source id="pCube4267__CameraWall-position">
+          <float_array id="pCube4267__CameraWall-position-array" count="300">-100 29.00002 -173.7057 -100 29.00001 -113.4007 -170 29.00001 -173.7057 -170 29 7.450205E-07 -123.3556 29 7.450205E-07 -65.52365 29.00002 -113.4007 -65.52365 29 71.00001 -123.3556 29 7.450205E-07 -123.3555 28.99999 71.00001 -100 -29.46736 -173.7057 -170 -29.46736 -173.7057 -100 -29.46736 -113.4007 -170 -29.46738 -4.36636E-06 -123.3556 -29.46737 -4.36636E-06 -65.52365 -29.46736 -113.4007 -100 -29.46736 -113.4007 -65.52365 -29.46739 172.0174 -123.3555 -29.46739 172.0174 -170 29.00001 -173.7057 -170 29 7.450205E-07 -170 -29.46736 -173.7057 -170 -29.46738 -4.36636E-06 -100 29.00002 -173.7057 -100 -29.46736 -173.7057 -100 29.00001 -113.4007 -100 -29.46736 -113.4007 -170 29.00001 -173.7057 -170 -29.46736 -173.7057 -100 29.00002 -173.7057 -100 -29.46736 -173.7057 -170 -29.46738 -4.36636E-06 -170 29 7.450205E-07 -123.3556 -29.46737 -4.36636E-06 -123.3556 29 7.450205E-07 -100 29.00001 -113.4007 -100 -29.46736 -113.4007 -65.52365 29.00002 -113.4007 -65.52365 -29.46736 -113.4007 -65.52365 -29.46739 172.0174 -65.52365 29 71.00001 -65.52365 -29.46736 -113.4007 -65.52365 29.00002 -113.4007 -123.3556 29 7.450205E-07 -123.3555 28.99999 71.00001 -123.3556 -29.46737 -4.36636E-06 -123.3555 -29.46739 172.0174 -65.52365 29 71.00001 -65.52365 -29.46739 172.0174 -123.3555 28.99999 71.00001 -123.3555 -29.46739 172.0174 100 29 113.4007 65.52365 29 113.4007 123.3556 29 0 65.52365 29 -71 123.3556 29 0 123.3555 29 -71 100 29 113.4007 100 -29.46738 113.4007 65.52365 29 113.4007 65.52365 -29.46738 113.4007 65.52365 -29.46738 -172.0174 65.52365 29 -71 65.52365 -29.46738 113.4007 65.52365 29 113.4007 123.3556 29 0 123.3555 29 -71 123.3556 -29.46738 0 123.3555 -29.46738 -172.0174 65.52365 29 -71 65.52365 -29.46738 -172.0174 123.3555 29 -71 123.3555 -29.46738 -172.0174 100 -29.46738 113.4007 123.3556 -29.46738 0 65.52365 -29.46738 113.4007 65.52365 -29.46738 -172.0174 123.3555 -29.46738 -172.0174 170 29 173.7057 170 29 0 170 -29.46738 173.7057 170 -29.46738 0 100 29 173.7057 100 -29.46738 173.7057 100 29 113.4007 100 -29.46738 113.4007 170 29 173.7057 170 -29.46738 173.7057 100 29 173.7057 100 -29.46738 173.7057 170 -29.46738 0 170 29 0 123.3556 -29.46738 0 123.3556 29 0 100 -29.46738 173.7057 170 -29.46738 173.7057 100 -29.46738 113.4007 170 -29.46738 0 100 29 173.7057 170 29 173.7057 170 29 0</float_array>
+          <technique_common>
+            <accessor source="#pCube4267__CameraWall-position-array" count="100" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube4267__CameraWall-normal">
+          <float_array id="pCube4267__CameraWall-normal-array" count="300">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -0.8649706 -0.5009785 0 -0.8649706 -0.5009785 0 -0.8649706 -0.5009785 0 -0.8649706 -0.5009785 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -0.8649706 0.5009785 0 -0.8649706 0.5009785 0 -0.8649706 0.5009785 0 -0.8649706 0.5009785 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube4267__CameraWall-normal-array" count="100" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube4267__CameraWall-texcoord">
+          <float_array id="pCube4267__CameraWall-texcoord-array" count="200">0.000135541 0.3774414 0.0001538992 0.5 0.0002710819 0.5 0.1925049 0.3710938 0.1925049 0.3710938 0 0.5 0.6147461 0.2416992 0.6225586 0.3051758 0.3847656 0.2416992 0.4997559 0.25 0.9995117 0.5 0.4997559 0.25 0.6933594 0.2919922 0.3833008 0.005859375 0.0001145005 0.6992188 0.4997559 0.5996094 1.104492 0.6774902 1 0 0.0002710819 0.5 0.1925049 0.3710938 0.9995117 0.5 0.6933594 0.2919922 0.000135541 0.3774414 0.4997559 0.25 0.000135541 0.3774414 0.4997559 0.25 0.0002710819 0.5 0.9995117 0.5 0.000135541 0.3774414 0.4997559 0.25 0.6933594 0.2919922 0.1925049 0.3710938 0.6933594 0.2919922 0.1925049 0.3710938 0.000135541 0.3774414 0.4997559 0.25 0 0.2548828 0 0 0 0 0 0.2124023 1 0 1 0.2124023 0.1925049 0.3710938 0.3847656 0.2416992 0.6933594 0.2919922 0.3876953 0.08349609 0.6147461 0.2416992 0.6118164 0.08349609 0.3847656 0.2416992 0.3876953 0.08349609 0.0001538992 0.5 0 0.5 0.1925049 0.3710938 0.6147461 0.2416992 0.6225586 0.3051758 0.3847656 0.2416992 0.000135541 0.3774414 0.4997559 0.25 0 0.2548828 0 0 0 0 0 0.2124023 1 0 1 0.2124023 0.1925049 0.3710938 0.3847656 0.2416992 0.6933594 0.2919922 0.3876953 0.08349609 0.6147461 0.2416992 0.6118164 0.08349609 0.3847656 0.2416992 0.3876953 0.08349609 0.4997559 0.5996094 0.3833008 0.005859375 0.0001145005 0.6992188 1.104492 0.6774902 1 0 0.0002710819 0.5 0.1925049 0.3710938 0.9995117 0.5 0.6933594 0.2919922 0.000135541 0.3774414 0.4997559 0.25 0.000135541 0.3774414 0.4997559 0.25 0.0002710819 0.5 0.9995117 0.5 0.000135541 0.3774414 0.4997559 0.25 0.6933594 0.2919922 0.1925049 0.3710938 0.6933594 0.2919922 0.1925049 0.3710938 0.4997559 0.25 0.9995117 0.5 0.4997559 0.25 0.6933594 0.2919922 0.000135541 0.3774414 0.0002710819 0.5 0.1925049 0.3710938</float_array>
+          <technique_common>
+            <accessor source="#pCube4267__CameraWall-texcoord-array" count="100" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube4267__CameraWall-vertex">
+          <input semantic="POSITION" source="#pCube4267__CameraWall-position" />
+        </vertices>
+        <triangles material="CameraWall" count="56">
+          <input semantic="VERTEX" source="#pCube4267__CameraWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube4267__CameraWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube4267__CameraWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 1 1 1 3 3 3 3 3 3 1 1 1 4 4 4 1 1 1 5 5 5 4 4 4 5 5 5 6 6 6 7 7 7 6 6 6 8 8 8 7 7 7 9 9 9 10 10 10 11 11 11 10 10 10 12 12 12 11 11 11 11 11 11 12 12 12 13 13 13 13 13 13 14 14 14 15 15 15 13 13 13 16 16 16 14 14 14 13 13 13 17 17 17 16 16 16 18 18 18 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 26 26 26 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 30 30 30 31 31 31 32 32 32 31 31 31 33 33 33 32 32 32 34 34 34 35 35 35 36 36 36 35 35 35 37 37 37 36 36 36 38 38 38 39 39 39 40 40 40 39 39 39 41 41 41 40 40 40 42 42 42 43 43 43 44 44 44 43 43 43 45 45 45 44 44 44 46 46 46 47 47 47 48 48 48 47 47 47 49 49 49 48 48 48 50 50 50 51 51 51 52 52 52 51 51 51 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 73 73 73 76 76 76 75 75 75 77 77 77 78 78 78 79 79 79 78 78 78 80 80 80 79 79 79 81 81 81 82 82 82 83 83 83 82 82 82 84 84 84 83 83 83 85 85 85 86 86 86 87 87 87 86 86 86 88 88 88 87 87 87 89 89 89 90 90 90 91 91 91 90 90 90 92 92 92 91 91 91 93 93 93 94 94 94 95 95 95 94 94 94 96 96 96 95 95 95 95 95 95 96 96 96 73 73 73 97 97 97 50 50 50 98 98 98 98 98 98 50 50 50 99 99 99 50 50 50 52 52 52 99 99 99 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCube4267__CameraWall-mesh">
+      <skin source="#pCube4267__CameraWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube4267__CameraWall-mesh-joint">
+          <Name_array id="pCube4267__CameraWall-mesh-joint-array" count="1">Obj_CameraWallCrank00</Name_array>
+          <technique_common>
+            <accessor source="#pCube4267__CameraWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube4267__CameraWall-mesh-inv_bind_matrix">
+          <float_array id="pCube4267__CameraWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube4267__CameraWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube4267__CameraWall-mesh-weight">
+          <float_array id="pCube4267__CameraWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube4267__CameraWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube4267__CameraWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube4267__CameraWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="100">
+          <input semantic="JOINT" source="#pCube4267__CameraWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube4267__CameraWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_CameraWallCrank00" name="Obj_CameraWallCrank00" sid="Obj_CameraWallCrank00" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCube4267__CameraWall" name="pCube4267__CameraWall" type="NODE">
+        <instance_controller url="#Armature_pCube4267__CameraWall-mesh">
+          <skeleton>#Armature_Obj_CameraWallCrank00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="CameraWall" target="#CameraWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

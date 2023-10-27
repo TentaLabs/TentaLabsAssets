@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_BGOBJ_GlitterSeal_A_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_A_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_B_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_B_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_C_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_C_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_D_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_D_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_E_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_E_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_F_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_F_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_G_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_G_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_H_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_H_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_I_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_I_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_J_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_J_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_K_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_K_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_L_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_L_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_BGOBJ_GlitterSeal_M_g00_b00_f00">
+      <init_from>Bake_BGOBJ_GlitterSeal_M_g00_b00_f00.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Alb">
+      <init_from>GlitterSealSet_Alb.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Emm">
+      <init_from>GlitterSealSet_Emm.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Mfk">
+      <init_from>GlitterSealSet_Mfk.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Mtl">
+      <init_from>GlitterSealSet_Mtl.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Nrm">
+      <init_from>GlitterSealSet_Nrm.png</init_from>
+    </image>
+    <image id="GlitterSealSet_Rgh">
+      <init_from>GlitterSealSet_Rgh.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Alb">
+      <init_from>GlitterSealSingle_Alb.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Emm">
+      <init_from>GlitterSealSingle_Emm.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Mfk">
+      <init_from>GlitterSealSingle_Mfk.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Mtl">
+      <init_from>GlitterSealSingle_Mtl.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Nrm">
+      <init_from>GlitterSealSingle_Nrm.png</init_from>
+    </image>
+    <image id="GlitterSealSingle_Rgh">
+      <init_from>GlitterSealSingle_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GlitterSealSet">
+      <instance_effect url="#Effect_GlitterSealSet" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GlitterSealSet">
+      <profile_COMMON>
+        <newparam sid="surface_GlitterSealSet-diffuse">
+          <surface type="2D">
+            <init_from>GlitterSealSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GlitterSealSet-diffuse">
+          <sampler2D>
+            <source>surface_GlitterSealSet-diffuse</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GlitterSealSet-bump">
+          <surface type="2D">
+            <init_from>GlitterSealSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GlitterSealSet-bump">
+          <sampler2D>
+            <source>surface_GlitterSealSet-bump</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GlitterSealSet-emission">
+          <surface type="2D">
+            <init_from>GlitterSealSet_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GlitterSealSet-emission">
+          <sampler2D>
+            <source>surface_GlitterSealSet-emission</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GlitterSealSet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GlitterSealSet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_GlitterSealSet-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface89__GlitterSealSet-mesh" name="polySurface89__GlitterSealSet">
+      <mesh>
+        <source id="polySurface89__GlitterSealSet-position">
+          <float_array id="polySurface89__GlitterSealSet-position-array" count="384">104.2783 7.559859 5.700071 104.2783 7.559859 -5.700071 104.8027 7.559859 5.700071 104.8027 7.559859 -5.700071 115.2888 7.559859 5.700071 115.2888 7.559859 -5.700071 104.2783 7.646984 5.700071 104.8027 7.646984 5.700071 104.2783 7.646984 -5.700071 104.8027 7.646984 -5.700071 115.2888 7.646984 5.700071 115.2888 7.646984 -5.700071 -115.2888 11.79757 5.700071 -115.2888 11.79757 -5.700071 -105.0614 7.559859 5.700071 -105.0614 7.559859 -5.700071 -104.0195 7.559859 5.700071 -104.0195 7.559859 -5.700071 -93.79211 8.97642 5.700071 -93.79211 8.97642 -5.700071 -93.79211 9.063544 5.700071 -93.79211 9.063544 -5.700071 -104.0195 7.646984 -5.700071 -104.0195 7.646984 5.700071 -105.0614 7.646984 -5.700071 -105.0614 7.646984 5.700071 -115.2888 11.88469 -5.700071 -115.2888 11.88469 5.700071 -85.75304 10.37172 -5.700071 -85.75304 10.37172 5.700071 -75.38247 7.646984 5.700071 -75.38247 7.646984 -5.700071 -74.61864 7.646984 5.700071 -74.61864 7.646984 -5.700071 -64.25632 7.646984 5.700071 -64.25632 7.646984 -5.700071 -64.25632 7.559859 -5.700071 -64.25632 7.559859 5.700071 -74.61864 7.559859 -5.700071 -74.61864 7.559859 5.700071 -75.38247 7.559859 -5.700071 -75.38247 7.559859 5.700071 -85.75304 10.2846 -5.700071 -85.75304 10.2846 5.700071 -33.08067 10.90392 5.700071 -33.08067 10.90392 -5.700071 -43.63274 7.646984 -5.700071 -43.63274 7.646984 5.700071 -44.05164 7.646984 -5.700071 -44.05164 7.646984 5.700071 -54.57739 7.646984 -5.700071 -54.57739 7.646984 5.700071 -26.40146 7.559859 5.700071 -26.40146 7.559859 -5.700071 -16.02837 7.559859 5.700071 -16.02837 7.559859 -5.700071 -15.27782 7.559859 5.700071 -15.27782 7.559859 -5.700071 -4.904724 10.22543 5.700071 -4.904724 10.22543 -5.700071 -54.57739 7.559859 5.700071 -54.57739 7.559859 -5.700071 -44.05164 7.559859 5.700071 -44.05164 7.559859 -5.700071 -43.63274 7.559859 5.700071 -43.63274 7.559859 -5.700071 -33.08067 10.8168 5.700071 -33.08067 10.8168 -5.700071 -4.904724 10.31255 5.700071 -4.904724 10.31255 -5.700071 -15.27782 7.646984 -5.700071 -15.27782 7.646984 5.700071 -16.02837 7.646984 -5.700071 -16.02837 7.646984 5.700071 -26.40146 7.646984 -5.700071 -26.40146 7.646984 5.700071 4.271088 11.58006 -5.700071 4.271088 11.58006 5.700071 14.82179 7.646984 5.700071 14.82179 7.646984 -5.700071 15.31384 7.646984 5.700071 15.31384 7.646984 -5.700071 25.76781 10.30094 5.700071 25.76781 10.30094 -5.700071 25.76781 10.21381 -5.700071 25.76781 10.21381 5.700071 15.31384 7.559859 -5.700071 15.31384 7.559859 5.700071 14.82179 7.559859 -5.700071 14.82179 7.559859 5.700071 4.271088 11.49293 -5.700071 4.271088 11.49293 5.700071 34.2303 7.646984 -5.700071 34.2303 7.646984 5.700071 44.80997 7.646984 5.700071 44.80997 7.646984 -5.700071 45.27927 7.646984 5.700071 45.27927 7.646984 -5.700071 55.72702 10.33035 5.700071 55.72702 10.33035 -5.700071 55.72702 10.24322 -5.700071 55.72702 10.24322 5.700071 45.27927 7.559859 -5.700071 45.27927 7.559859 5.700071 44.80997 7.559859 -5.700071 44.80997 7.559859 5.700071 34.2303 7.559859 -5.700071 34.2303 7.559859 5.700071 64.18953 9.78487 -5.700071 64.18953 9.78487 5.700071 74.80309 7.646984 5.700071 74.80309 7.646984 -5.700071 75.21443 7.646984 5.700071 75.21443 7.646984 -5.700071 85.68625 9.78487 5.700071 85.68625 9.78487 -5.700071 85.68625 9.697746 -5.700071 85.68625 9.697746 5.700071 75.21443 7.559859 -5.700071 75.21443 7.559859 5.700071 74.80309 7.559859 -5.700071 74.80309 7.559859 5.700071 64.18953 9.697746 -5.700071 64.18953 9.697746 5.700071 95.55099 15.18095 5.700071 95.55099 15.18095 -5.700071 95.55099 15.26807 -5.700071 95.55099 15.26807 5.700071</float_array>
+          <technique_common>
+            <accessor source="#polySurface89__GlitterSealSet-position-array" count="128" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface89__GlitterSealSet-normal">
+          <float_array id="polySurface89__GlitterSealSet-normal-array" count="384">-0.6360078 -0.7710372 0 -0.6360078 -0.7710372 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.6360078 0.7710372 0 0 1 0 0.6360078 0.7710372 0 0 1 0 0 1 0 0 1 0 -0.3835616 -0.9236791 0 -0.3835616 -0.9236791 0 -0.3522505 -0.9354208 0 -0.3522505 -0.9354208 0 0.1252446 -0.9921722 0 0.1252446 -0.9921722 0 0.1369863 -0.9902152 0 0.1369863 -0.9902152 0 -0.1369863 0.9902152 0 -0.1369863 0.9902152 0 -0.1252446 0.9921722 0 -0.1252446 0.9921722 0 0.3522505 0.9354208 0 0.3522505 0.9354208 0 0.3835616 0.9236791 0 0.3835616 0.9236791 0 0.2544031 0.9667319 0 0.2544031 0.9667319 0 0.2367906 0.9706458 0 0.2367906 0.9706458 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.2367906 -0.9706458 0 -0.2367906 -0.9706458 0 -0.2544031 -0.9667319 0 -0.2544031 -0.9667319 0 -0.295499 0.9549902 0 -0.295499 0.9549902 0 -0.2837573 0.9589041 0 -0.2837573 0.9589041 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.2328767 -0.9726027 0 0.2328767 -0.9726027 0 0.2485323 -0.9686888 0 0.2485323 -0.9686888 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.2837573 -0.9589041 0 0.2837573 -0.9589041 0 0.295499 -0.9549902 0 0.295499 -0.9549902 0 -0.2485323 0.9686888 0 -0.2485323 0.9686888 0 -0.2328767 0.9726027 0 -0.2328767 0.9726027 0 0 1 0 0 1 0 0 1 0 0 1 0 0.3483366 0.9373777 0 0.3483366 0.9373777 0 0.334638 0.9412916 0 0.334638 0.9412916 0 -0.2348337 0.9726027 0 -0.2348337 0.9726027 0 -0.2465753 0.9686888 0 -0.2465753 0.9686888 0 0.2465753 -0.9686888 0 0.2465753 -0.9686888 0 0.2348337 -0.9726027 0 0.2348337 -0.9726027 0 -0.334638 -0.9412916 0 -0.334638 -0.9412916 0 -0.3483366 -0.9373777 0 -0.3483366 -0.9373777 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.2387476 0.9706458 0 -0.2387476 0.9706458 0 -0.2485323 0.9686888 0 -0.2485323 0.9686888 0 0.2485323 -0.9686888 0 0.2485323 -0.9686888 0 0.2387476 -0.9706458 0 0.2387476 -0.9706458 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.1976517 0.9804305 0 0.1976517 0.9804305 0 0.1898239 0.9823875 0 0.1898239 0.9823875 0 -0.1917808 0.9804305 0 -0.1917808 0.9804305 0 -0.1996086 0.9804305 0 -0.1996086 0.9804305 0 0.1996086 -0.9804305 0 0.1996086 -0.9804305 0 0.1917808 -0.9804305 0 0.1917808 -0.9804305 0 -0.1898239 -0.9823875 0 -0.1898239 -0.9823875 0 -0.1976517 -0.9804305 0 -0.1976517 -0.9804305 0 -0.6575342 -0.7534246 0 -0.6575342 -0.7534246 0 0.6575342 0.7534246 0 0.6575342 0.7534246 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface89__GlitterSealSet-normal-array" count="128" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface89__GlitterSealSet-texcoord">
+          <float_array id="polySurface89__GlitterSealSet-texcoord-array" count="256">0.5083008 0.6103516 0.5083008 0.6838379 0.5112305 0.6103516 0.5112305 0.6838379 0.5756836 0.6103516 0.5756836 0.6838379 2.707031 0.007324219 2.712891 0.007324219 2.707031 0.08007813 2.712891 0.08007813 2.775391 0.007324219 2.775391 0.08007813 0.4438477 0.6103516 0.4438477 0.6838379 0.5063477 0.6103516 0.5063477 0.6838379 0.5126953 0.6103516 0.5126953 0.6838379 0.5756836 0.6103516 0.5756836 0.6838379 2.775391 0.5856934 2.775391 0.6584473 2.710938 0.6584473 2.710938 0.5856934 2.707031 0.6584473 2.707031 0.5856934 2.644531 0.6584473 2.644531 0.5856934 2.644531 0.5817871 2.644531 0.5090332 2.707031 0.5090332 2.707031 0.5817871 2.712891 0.5090332 2.712891 0.5817871 2.775391 0.5090332 2.775391 0.5817871 0.5756836 0.6838379 0.5756836 0.6103516 0.512207 0.6838379 0.512207 0.6103516 0.5073242 0.6838379 0.5073242 0.6103516 0.4438477 0.6838379 0.4438477 0.6103516 2.775391 0.421875 2.775391 0.4946289 2.708984 0.4946289 2.708984 0.421875 2.708984 0.4946289 2.708984 0.421875 2.644531 0.4946289 2.644531 0.421875 0.4438477 0.6103516 0.4438477 0.6838379 0.5073242 0.6103516 0.5073242 0.6838379 0.512207 0.6103516 0.512207 0.6838379 0.5756836 0.6103516 0.5756836 0.6838379 0.4438477 0.6103516 0.4438477 0.6838379 0.5083008 0.6103516 0.5083008 0.6838379 0.5107422 0.6103516 0.5107422 0.6838379 0.5756836 0.6103516 0.5756836 0.6838379 2.775391 0.328125 2.775391 0.4003906 2.712891 0.4003906 2.712891 0.328125 2.707031 0.4003906 2.707031 0.328125 2.644531 0.4003906 2.644531 0.328125 2.644531 0.3203125 2.644531 0.2480469 2.708984 0.2480469 2.708984 0.3203125 2.712891 0.2480469 2.712891 0.3203125 2.775391 0.2480469 2.775391 0.3203125 0.5756836 0.6838379 0.5756836 0.6103516 0.5117188 0.6838379 0.5117188 0.6103516 0.5083008 0.6838379 0.5083008 0.6103516 0.4438477 0.6838379 0.4438477 0.6103516 2.644531 0.2368164 2.644531 0.1640625 2.707031 0.1640625 2.707031 0.2368164 2.708984 0.1640625 2.708984 0.2368164 2.775391 0.1640625 2.775391 0.2368164 0.5756836 0.6838379 0.5756836 0.6103516 0.5117188 0.6838379 0.5117188 0.6103516 0.5087891 0.6838379 0.5087891 0.6103516 0.4438477 0.6838379 0.4438477 0.6103516 2.644531 0.1601563 2.644531 0.08740234 2.708984 0.08740234 2.708984 0.1601563 2.710938 0.08740234 2.710938 0.1601563 2.775391 0.08740234 2.775391 0.1601563 0.5756836 0.6838379 0.5756836 0.6103516 0.5112305 0.6838379 0.5112305 0.6103516 0.5087891 0.6838379 0.5087891 0.6103516 0.4438477 0.6838379 0.4438477 0.6103516 0.4438477 0.6103516 0.4438477 0.6838379 2.644531 0.08007813 2.644531 0.007324219</float_array>
+          <technique_common>
+            <accessor source="#polySurface89__GlitterSealSet-texcoord-array" count="128" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface89__GlitterSealSet-texcoord_1">
+          <float_array id="polySurface89__GlitterSealSet-texcoord-array_1" count="256">0.7054704 0.6339055 0.5706722 0.6339055 0.7054704 0.6280156 0.5706722 0.6280156 0.7054704 0.5100023 0.5706722 0.5100023 0.003402762 0.8802167 0.003402762 0.8716716 0.1367056 0.8802167 0.1367056 0.8716716 0.003402762 0.7550011 0.1367056 0.7550011 0.138201 0.2458686 0.003402762 0.2458686 0.138201 0.130785 0.003402762 0.130785 0.138201 0.1190509 0.003402762 0.1190509 0.138201 0.003967345 0.003402762 0.003967345 0.1474784 0.004745543 0.2807813 0.004745543 0.2807813 0.1252308 0.1474784 0.1252308 0.2807813 0.1315633 0.1474784 0.1315633 0.2807813 0.2466468 0.1474784 0.2466468 0.5689174 0.2463874 0.4356146 0.2463874 0.4356146 0.1296864 0.5689174 0.1296864 0.4356146 0.1210956 0.5689174 0.1210956 0.4356146 0.004486144 0.5689174 0.004486144 0.2915389 0.003967345 0.4263371 0.003967345 0.2915389 0.1205768 0.4263371 0.1205768 0.2915389 0.1291676 0.4263371 0.1291676 0.2915389 0.2458686 0.4263371 0.2458686 0.5778744 0.004852355 0.7111772 0.004852355 0.7111772 0.1271077 0.5778744 0.1271077 0.7111772 0.1293965 0.5778744 0.1293965 0.7111772 0.2467536 0.5778744 0.2467536 0.138201 0.4961929 0.003402762 0.4961929 0.138201 0.3794613 0.003402762 0.3794613 0.138201 0.3710231 0.003402762 0.3710231 0.138201 0.2542916 0.003402762 0.2542916 0.8549325 0.2458686 0.7201495 0.2458686 0.8549325 0.1274281 0.7201495 0.1274281 0.8549325 0.122713 0.7201495 0.122713 0.8549325 0.003967345 0.7201495 0.003967345 0.2879377 0.2553445 0.4212406 0.2553445 0.4212406 0.372076 0.2879377 0.372076 0.4212406 0.3805142 0.2879377 0.3805142 0.4212406 0.4972457 0.2879377 0.4972457 0.5653163 0.497795 0.4320134 0.497795 0.4320134 0.3790646 0.5653163 0.3790646 0.4320134 0.3735256 0.5653163 0.3735256 0.4320134 0.2558938 0.5653163 0.2558938 0.718349 0.2560922 0.8531319 0.2560922 0.718349 0.373724 0.8531319 0.373724 0.718349 0.379263 0.8531319 0.379263 0.718349 0.4979934 0.8531319 0.4979934 0.7075761 0.4991379 0.5742733 0.4991379 0.5742733 0.380087 0.7075761 0.380087 0.5742733 0.383093 0.7075761 0.383093 0.5742733 0.2572366 0.7075761 0.2572366 0.1456779 0.5064012 0.2804608 0.5064012 0.1456779 0.6239719 0.2804608 0.6239719 0.1456779 0.6292515 0.2804608 0.6292515 0.1456779 0.7483025 0.2804608 0.7483025 0.5617151 0.7492027 0.4284123 0.7492027 0.4284123 0.6297703 0.5617151 0.6297703 0.4284123 0.6260319 0.5617151 0.6260319 0.4284123 0.5073014 0.5617151 0.5073014 0.7147478 0.508217 0.8495308 0.508217 0.7147478 0.6260471 0.8495308 0.6260471 0.7147478 0.6306707 0.8495308 0.6306707 0.7147478 0.750103 0.8495308 0.750103 0.7054704 0.7519035 0.5706722 0.7519035 0.1367056 0.9960327 0.003402762 0.9960327</float_array>
+          <technique_common>
+            <accessor source="#polySurface89__GlitterSealSet-texcoord-array_1" count="128" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface89__GlitterSealSet-vertex">
+          <input semantic="POSITION" source="#polySurface89__GlitterSealSet-position" />
+        </vertices>
+        <triangles material="GlitterSealSet" count="96">
+          <input semantic="VERTEX" source="#polySurface89__GlitterSealSet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface89__GlitterSealSet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface89__GlitterSealSet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface89__GlitterSealSet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 2 2 2 2 3 3 3 3 5 5 5 5 4 4 4 4 3 3 3 3 6 6 6 6 7 7 7 7 8 8 8 8 7 7 7 7 9 9 9 9 8 8 8 8 9 9 9 9 7 7 7 7 10 10 10 10 11 11 11 11 9 9 9 9 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 14 14 14 14 15 15 15 15 16 16 16 16 15 15 15 15 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 23 23 23 23 20 20 20 20 22 22 22 22 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 23 23 23 23 24 24 24 24 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 25 25 25 25 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 30 30 30 30 32 32 32 32 31 31 31 31 32 32 32 32 33 33 33 33 31 31 31 31 33 33 33 33 32 32 32 32 34 34 34 34 35 35 35 35 33 33 33 33 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 38 38 38 38 39 39 39 39 41 41 41 41 40 40 40 40 39 39 39 39 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 47 47 47 47 44 44 44 44 46 46 46 46 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 47 47 47 47 48 48 48 48 49 49 49 49 48 48 48 48 50 50 50 50 51 51 51 51 49 49 49 49 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 54 54 54 54 55 55 55 55 56 56 56 56 55 55 55 55 57 57 57 57 56 56 56 56 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 62 62 62 62 63 63 63 63 64 64 64 64 63 63 63 63 65 65 65 65 64 64 64 64 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 71 71 71 71 68 68 68 68 70 70 70 70 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 71 71 71 71 72 72 72 72 73 73 73 73 72 72 72 72 74 74 74 74 75 75 75 75 73 73 73 73 74 74 74 74 76 76 76 76 77 77 77 77 78 78 78 78 79 79 79 79 76 76 76 76 78 78 78 78 78 78 78 78 80 80 80 80 79 79 79 79 80 80 80 80 81 81 81 81 79 79 79 79 81 81 81 81 80 80 80 80 82 82 82 82 83 83 83 83 81 81 81 81 82 82 82 82 84 84 84 84 85 85 85 85 86 86 86 86 85 85 85 85 87 87 87 87 86 86 86 86 88 88 88 88 86 86 86 86 87 87 87 87 89 89 89 89 88 88 88 88 87 87 87 87 88 88 88 88 89 89 89 89 90 90 90 90 89 89 89 89 91 91 91 91 90 90 90 90 92 92 92 92 93 93 93 93 94 94 94 94 95 95 95 95 92 92 92 92 94 94 94 94 94 94 94 94 96 96 96 96 95 95 95 95 96 96 96 96 97 97 97 97 95 95 95 95 97 97 97 97 96 96 96 96 98 98 98 98 99 99 99 99 97 97 97 97 98 98 98 98 100 100 100 100 101 101 101 101 102 102 102 102 101 101 101 101 103 103 103 103 102 102 102 102 104 104 104 104 102 102 102 102 103 103 103 103 105 105 105 105 104 104 104 104 103 103 103 103 104 104 104 104 105 105 105 105 106 106 106 106 105 105 105 105 107 107 107 107 106 106 106 106 108 108 108 108 109 109 109 109 110 110 110 110 111 111 111 111 108 108 108 108 110 110 110 110 110 110 110 110 112 112 112 112 111 111 111 111 112 112 112 112 113 113 113 113 111 111 111 111 113 113 113 113 112 112 112 112 114 114 114 114 115 115 115 115 113 113 113 113 114 114 114 114 116 116 116 116 117 117 117 117 118 118 118 118 117 117 117 117 119 119 119 119 118 118 118 118 120 120 120 120 118 118 118 118 119 119 119 119 121 121 121 121 120 120 120 120 119 119 119 119 120 120 120 120 121 121 121 121 122 122 122 122 121 121 121 121 123 123 123 123 122 122 122 122 0 0 0 0 124 124 124 124 125 125 125 125 1 1 1 1 0 0 0 0 125 125 125 125 8 8 8 8 126 126 126 126 6 6 6 6 126 126 126 126 127 127 127 127 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface89__GlitterSealSet-mesh">
+      <skin source="#polySurface89__GlitterSealSet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface89__GlitterSealSet-mesh-joint">
+          <Name_array id="polySurface89__GlitterSealSet-mesh-joint-array" count="1">BGOBJ_GlitterSeal_M</Name_array>
+          <technique_common>
+            <accessor source="#polySurface89__GlitterSealSet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface89__GlitterSealSet-mesh-inv_bind_matrix">
+          <float_array id="polySurface89__GlitterSealSet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 -11.41397 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface89__GlitterSealSet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface89__GlitterSealSet-mesh-weight">
+          <float_array id="polySurface89__GlitterSealSet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface89__GlitterSealSet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface89__GlitterSealSet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface89__GlitterSealSet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="128">
+          <input semantic="JOINT" source="#polySurface89__GlitterSealSet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface89__GlitterSealSet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_BGOBJ_GlitterSeal_M" name="BGOBJ_GlitterSeal_M" sid="BGOBJ_GlitterSeal_M" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 11.41397 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface89__GlitterSealSet" name="polySurface89__GlitterSealSet" type="NODE">
+        <instance_controller url="#Armature_polySurface89__GlitterSealSet-mesh">
+          <skeleton>#Armature_BGOBJ_GlitterSeal_M</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GlitterSealSet" target="#GlitterSealSet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_Obj_CoopSakepuncherBox_2cl">
+      <init_from>M_Obj_CoopSakepuncherBox_2cl.png</init_from>
+    </image>
+    <image id="M_Obj_CoopSakepuncherBox_Alb">
+      <init_from>M_Obj_CoopSakepuncherBox_Alb.png</init_from>
+    </image>
+    <image id="M_Obj_CoopSakepuncherBox_Emm">
+      <init_from>M_Obj_CoopSakepuncherBox_Emm.png</init_from>
+    </image>
+    <image id="M_Obj_CoopSakepuncherBox_Nrm">
+      <init_from>M_Obj_CoopSakepuncherBox_Nrm.png</init_from>
+    </image>
+    <image id="M_Obj_CoopSakepuncherBox_Rgh">
+      <init_from>M_Obj_CoopSakepuncherBox_Rgh.png</init_from>
+    </image>
+    <image id="M_Obj_CoopSakepuncherBox_Trm">
+      <init_from>M_Obj_CoopSakepuncherBox_Trm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Obj_CoopSakepuncherBox">
+      <instance_effect url="#Effect_M_Obj_CoopSakepuncherBox" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Obj_CoopSakepuncherBox">
+      <profile_COMMON>
+        <newparam sid="surface_M_Obj_CoopSakepuncherBox-bump">
+          <surface type="2D">
+            <init_from>M_Obj_CoopSakepuncherBox_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Obj_CoopSakepuncherBox-bump">
+          <sampler2D>
+            <source>surface_M_Obj_CoopSakepuncherBox-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Obj_CoopSakepuncherBox-diffuse">
+          <surface type="2D">
+            <init_from>M_Obj_CoopSakepuncherBox_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Obj_CoopSakepuncherBox-diffuse">
+          <sampler2D>
+            <source>surface_M_Obj_CoopSakepuncherBox-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Obj_CoopSakepuncherBox-emission">
+          <surface type="2D">
+            <init_from>M_Obj_CoopSakepuncherBox_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Obj_CoopSakepuncherBox-emission">
+          <sampler2D>
+            <source>surface_M_Obj_CoopSakepuncherBox-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <bump>
+              <texture texture="sampler_M_Obj_CoopSakepuncherBox-bump" texcoord="CHANNEL0" />
+            </bump>
+            <diffuse>
+              <texture texture="sampler_M_Obj_CoopSakepuncherBox-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <texture texture="sampler_M_Obj_CoopSakepuncherBox-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Obj_Break01__M_Obj_CoopSakepuncherBox-mesh" name="Obj_Break01__M_Obj_CoopSakepuncherBox">
+      <mesh>
+        <source id="Obj_Break01__M_Obj_CoopSakepuncherBox-position">
+          <float_array id="Obj_Break01__M_Obj_CoopSakepuncherBox-position-array" count="324">-2.387265 5.488051 -2.729048 0.05011463 1.423063 -3.912157 -0.8443208 3.706452 -4.707994 3.795909 -5.512526 -3.185291 3.956086 -5.299633 -3.699261 3.979579 -4.785663 -3.912155 -3.142437 -5.512526 4.258547 4.574186 -4.506893 -2.312168 -2.804145 -4.506893 4.707994 -3.656406 -5.299633 4.067665 -3.8693 -4.785663 3.988602 -2.804145 2.408813 3.198385 -3.8693 2.779473 2.335585 -4.574185 3.706452 1.81579 -4.574185 5.066156 0.5426865 -2.804146 5.28532 -0.1869831 -2.804145 5.489933 -2.312168 -4.574185 5.395488 -2.269743 -4.574185 5.504955 -2.945984 -4.349498 5.512526 -3.488428 -4.349498 5.512526 -3.488428 -2.804145 5.489933 -2.312168 -3.951006 5.475651 -4.084814 -2.387265 5.488051 -2.729048 -3.35462 5.089609 -4.483305 -2.812176 4.453483 -4.707993 -0.8443208 3.706452 -4.707994 4.324053 -4.506893 -2.729048 0.05011463 1.423063 -3.912157 3.979579 -4.785663 -3.912155 3.795909 -5.512526 -3.185291 4.574186 -4.506893 -2.312168 4.324053 -4.506893 -2.729048 -2.387265 5.488051 -2.729048 -2.387265 -4.506893 -2.729048 -2.804145 5.489933 -2.312168 -2.804145 -4.506893 -2.312168 -2.804145 -4.506893 4.707994 -2.804145 -4.506893 -2.312168 -2.804145 2.408813 3.198385 -2.804146 5.28532 -0.1869831 -2.804145 5.489933 -2.312168 -2.804145 -4.506893 4.707994 4.574186 -4.506893 -2.312168 -2.804145 -4.506893 -2.312168 -2.387265 -4.506893 -2.729048 4.324053 -4.506893 -2.729048 -3.656406 -5.299633 4.067665 -3.142437 -5.512526 -0.2630806 -3.142437 -5.512526 4.258547 -3.656406 -5.299633 -0.07220078 -3.8693 -4.785663 3.988602 -3.847322 -5.512526 -1.081188 -3.8693 -4.785663 0.00686264 -3.8693 2.779473 2.335585 -4.361292 -5.299633 -0.8903084 -3.8693 2.779473 0.00686264 -4.574185 3.706452 1.81579 -4.574185 -4.785663 -0.8112431 -4.574185 3.706452 -0.8112431 -4.574185 5.066156 0.5426865 -4.574185 5.395488 -2.269743 -4.574185 5.504955 -2.945984 -4.574185 -4.785663 -2.945984 -4.349498 5.512526 -3.488428 -4.361292 -5.299633 -2.903637 -3.847322 -5.512526 -2.801401 -4.349498 -4.785663 -3.488428 -3.951006 5.475651 -4.084814 -3.951006 -4.785663 -4.084814 -3.797519 -5.299633 -3.931326 -4.160834 -5.299633 -3.387585 -3.70536 -5.512526 -3.144129 -3.426967 -5.512526 -3.560774 -3.951006 5.475651 -4.084814 -3.35462 5.089609 -4.483305 -3.951006 -4.785663 -4.084814 -3.35462 -4.785663 -4.483305 -2.812176 4.453483 -4.707993 -3.797519 -5.299633 -3.931326 -2.812176 -4.785663 -4.707993 -0.8443208 3.706452 -4.707994 -3.253778 -5.299633 -4.294641 -3.426967 -5.512526 -3.560774 -3.010322 -5.512526 -3.839169 -2.667594 -5.512526 -3.981131 -2.769829 -5.299633 -4.4951 -1.120877 -5.512526 -3.981131 -0.9253225 -5.299633 -4.4951 -0.8443208 -4.785663 -4.707993 0.05011463 1.423063 -3.912157 -0.03088713 -5.299633 -3.699261 -0.2264419 -5.512526 -3.185291 3.795909 -5.512526 -3.185291 3.956086 -5.299633 -3.699261 0.05011463 -4.785663 -3.912155 3.979579 -4.785663 -3.912155 -0.2264419 -5.512526 -3.185291 3.795909 -5.512526 -3.185291 -3.142437 -5.512526 4.258547 -3.142437 -5.512526 -0.2630806 -3.847322 -5.512526 -1.081188 -3.847322 -5.512526 -2.801401 -3.70536 -5.512526 -3.144129 -3.426967 -5.512526 -3.560774 -3.010322 -5.512526 -3.839169 -2.667594 -5.512526 -3.981131 -1.120877 -5.512526 -3.981131</float_array>
+          <technique_common>
+            <accessor source="#Obj_Break01__M_Obj_CoopSakepuncherBox-position-array" count="108" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Break01__M_Obj_CoopSakepuncherBox-normal">
+          <float_array id="Obj_Break01__M_Obj_CoopSakepuncherBox-normal-array" count="324">0.5381604 0.8101761 -0.2367906 0.853229 0.5127202 -0.09393346 0.6771037 0.7240704 -0.1232877 0.9393346 -0.3405088 0.05675147 0.9393346 0.09393346 0.3307241 0.9941292 0.07436399 -0.0704501 0.06849315 -0.5362035 0.8414873 0.8473581 -0.5303327 0.01956947 -0.3052838 -0.2485323 0.9197652 -0.4853229 -0.1722113 0.8571429 -0.5733855 0.08414873 0.816047 -0.3835616 0.3874756 0.8375734 -0.6164383 0.05870841 0.7847358 -0.4011742 0.3522505 0.8454012 -0.007827789 0.9080235 0.4187867 0.04500978 0.9197652 0.3874756 -0.02348337 0.9980431 0.05870841 -0.04892368 0.9882583 0.1369863 -0.02348337 0.9960861 0.08806262 0.02152642 1 -0.009784736 0.02152642 1 -0.009784736 -0.02348337 0.9980431 0.05870841 0.1213307 0.9823875 -0.1409002 0.5381604 0.8101761 -0.2367906 0.4559687 0.7808219 -0.4285714 0.4500979 0.7475538 -0.4872798 0.6771037 0.7240704 -0.1232877 0.9315069 0.1213307 -0.3405088 0.853229 0.5127202 -0.09393346 0.9941292 0.07436399 -0.0704501 0.9393346 -0.3405088 0.05675147 0.8473581 -0.5303327 0.01956947 0 0.7064579 0.7064579 0.3835616 0 0.9236791 0.3365949 0.4755382 0.8121331 0.9236791 0 0.3835616 0.6262231 0.7338552 0.260274 0.7064579 0.7064579 0 0.6262231 0.7338552 0.260274 1 0 0 1 0 0 0.9236791 0 0.3835616 0.7064579 0.7064579 0 0 1 0 0.6262231 0.7338552 0.260274 0.3365949 0.4755382 0.8121331 0 0.7064579 0.7064579 -0.7064579 -0.7064579 0 -0.1722113 -0.9823875 0.06457926 -0.1291585 -0.9921722 0 -0.6418787 -0.7299413 0.2387476 -0.9804305 -0.1956947 0 -0.1722113 -0.9823875 0.06457926 -0.9178082 -0.2074364 0.3405088 -0.9471624 -0.3189824 0 -0.6418787 -0.7299413 0.2387476 -0.9452055 -0.223092 0.2407045 -0.9471624 -0.3189824 0 -0.9178082 -0.2074364 0.3405088 -0.9706458 -0.1643836 0.1780822 -1 0 0 -1 0 0 -0.9804305 0 -0.1956947 -0.960861 -0.1996086 -0.1917808 -0.8825831 0 -0.4716243 -0.6868885 -0.7142857 -0.1369863 -0.1878669 -0.9823875 -0.037182 -0.8649706 -0.1956947 -0.4618395 -0.7064579 0 -0.7064579 -0.6927593 -0.1996086 -0.6927593 -0.4951076 -0.7142857 -0.4951076 -0.6223092 -0.7084149 -0.332681 -0.1722113 -0.9804305 -0.09197652 -0.1350294 -0.9823875 -0.1350294 -0.7064579 0 -0.7064579 -0.4716243 0 -0.8825831 -0.6927593 -0.1996086 -0.6927593 -0.4618395 -0.1956947 -0.8649706 -0.1956947 0 -0.9804305 -0.4951076 -0.7142857 -0.4951076 -0.1917808 -0.1996086 -0.960861 0.3561644 0 -0.9354208 -0.332681 -0.7084149 -0.6223092 -0.1350294 -0.9823875 -0.1350294 -0.09197652 -0.9804305 -0.1722113 -0.037182 -0.9823875 -0.1878669 -0.1369863 -0.7142857 -0.6868885 0.08610567 -0.9706458 -0.2270059 0.2426614 -0.7299413 -0.6379648 0.3483366 -0.2074364 -0.9138943 0.3561644 0 -0.9354208 0.2426614 -0.7299413 -0.6379648 0.02348337 -0.9980431 -0.06066536 0 -0.9804305 -0.1956947 0 -0.7064579 -0.7064579 0.3483366 -0.2074364 -0.9138943 0 -0.1956947 -0.9804305 0.02348337 -0.9980431 -0.06066536 0 -0.9804305 -0.1956947 -0.1291585 -0.9921722 0 -0.1722113 -0.9823875 0.06457926 -0.1722113 -0.9823875 0.06457926 -0.1878669 -0.9823875 -0.037182 -0.1722113 -0.9804305 -0.09197652 -0.1350294 -0.9823875 -0.1350294 -0.09197652 -0.9804305 -0.1722113 -0.037182 -0.9823875 -0.1878669 0.08610567 -0.9706458 -0.2270059</float_array>
+          <technique_common>
+            <accessor source="#Obj_Break01__M_Obj_CoopSakepuncherBox-normal-array" count="108" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Break01__M_Obj_CoopSakepuncherBox-texcoord">
+          <float_array id="Obj_Break01__M_Obj_CoopSakepuncherBox-texcoord-array" count="216">0.5380859 0.7502441 0.5698242 0.71875 0.565918 0.7443848 0.5966797 0.651123 0.597168 0.6606445 0.5932617 0.6674805 0.5043945 0.6486816 0.5844727 0.6616211 0.5043945 0.6572266 0.4987793 0.6496582 0.4953613 0.6538086 0.496582 0.7075195 0.4873047 0.7131348 0.487793 0.7270508 0.4970703 0.7441406 0.5146484 0.7397461 0.5317383 0.7519531 0.5195313 0.7648926 0.5258789 0.769165 0.5322266 0.7701416 0.5322266 0.7701416 0.5317383 0.7519531 0.5395508 0.7694092 0.5380859 0.7502441 0.5473633 0.7666016 0.5546875 0.7625732 0.565918 0.7443848 0.5859375 0.6647949 0.5698242 0.71875 0.5932617 0.6674805 0.5966797 0.651123 0.5844727 0.6616211 0.1036377 0.2441406 0.02038574 0.3686523 0.02038574 0.2441406 0.0125351 0.3686523 0.0125351 0.2441406 0.7719727 0.2441406 0.859375 0.2441406 0.7905273 0.3300781 0.8330078 0.3662109 0.859375 0.3686523 0.9619141 0.826416 0.8706055 0.7390137 0.9619141 0.7390137 0.9570313 0.7338867 0.8735352 0.7338867 0.1033936 0.02246094 0.05331421 0.015625 0.1033936 0.015625 0.05331421 0.02246094 0.1033936 0.02978516 0.04302979 0.015625 0.05331421 0.02978516 0.08251953 0.1245117 0.04302979 0.02246094 0.05328369 0.1245117 0.07598877 0.1362305 0.04302979 0.02978516 0.04296875 0.1362305 0.05999756 0.1533203 0.02464294 0.1577148 0.01612854 0.1591797 0.01618958 0.02978516 0.008834839 0.1591797 0.01618958 0.02246094 0.01620483 0.01513672 0.008888245 0.02978516 0 0.1586914 0 0.02978516 0 0.02246094 0.008895874 0.02246094 0.008895874 0.01513672 0 0.01513672 0.9995117 0.1586914 0.9916992 0.1538086 1 0.02929688 0.9916992 0.02929688 0.984375 0.1455078 1 0.02246094 0.984375 0.02929688 0.9594727 0.1362305 0.9916992 0.02246094 1 0.01513672 0.9916992 0.01513672 0.984375 0.01513672 0.984375 0.02246094 0.9594727 0.01513672 0.9594727 0.02246094 0.9594727 0.02929688 0.9482422 0.1074219 0.9482422 0.02246094 0.9482422 0.01513672 0.9003906 0.01513672 0.8989258 0.02246094 0.9482422 0.02929688 0.8989258 0.02929688 0.8105469 0.4458008 0.8603516 0.4458008 0.7744141 0.5383301 0.7744141 0.4824219 0.765625 0.472168 0.765625 0.4506836 0.7670898 0.4462891 0.7705078 0.4414063 0.7758789 0.4379883 0.7802734 0.4360352 0.7993164 0.4360352</float_array>
+          <technique_common>
+            <accessor source="#Obj_Break01__M_Obj_CoopSakepuncherBox-texcoord-array" count="108" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_Break01__M_Obj_CoopSakepuncherBox-vertex">
+          <input semantic="POSITION" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-position" />
+        </vertices>
+        <triangles material="M_Obj_CoopSakepuncherBox" count="106">
+          <input semantic="VERTEX" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 3 3 3 7 7 7 8 8 8 6 6 6 7 7 7 9 9 9 6 6 6 8 8 8 9 9 9 8 8 8 10 10 10 8 8 8 11 11 11 10 10 10 10 10 10 11 11 11 12 12 12 11 11 11 13 13 13 12 12 12 11 11 11 14 14 14 13 13 13 11 11 11 15 15 15 14 14 14 15 15 15 16 16 16 14 14 14 14 14 14 16 16 16 17 17 17 16 16 16 18 18 18 17 17 17 16 16 16 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 23 23 23 26 26 26 25 25 25 23 23 23 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 27 27 27 30 30 30 29 29 29 27 27 27 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39 38 38 38 40 40 40 39 39 39 38 38 38 41 41 41 40 40 40 42 42 42 43 43 43 44 44 44 43 43 43 45 45 45 44 44 44 43 43 43 46 46 46 45 45 45 47 47 47 48 48 48 49 49 49 50 50 50 48 48 48 47 47 47 51 51 51 50 50 50 47 47 47 50 50 50 52 52 52 48 48 48 53 53 53 50 50 50 51 51 51 54 54 54 53 53 53 51 51 51 55 55 55 52 52 52 50 50 50 53 53 53 55 55 55 50 50 50 54 54 54 56 56 56 53 53 53 54 54 54 57 57 57 56 56 56 53 53 53 58 58 58 55 55 55 56 56 56 58 58 58 53 53 53 57 57 57 59 59 59 56 56 56 56 56 56 59 59 59 58 58 58 57 57 57 60 60 60 59 59 59 60 60 60 61 61 61 59 59 59 59 59 59 61 61 61 62 62 62 59 59 59 63 63 63 58 58 58 59 59 59 62 62 62 63 63 63 58 58 58 63 63 63 55 55 55 62 62 62 64 64 64 63 63 63 55 55 55 65 65 65 52 52 52 55 55 55 63 63 63 65 65 65 65 65 65 66 66 66 52 52 52 63 63 63 64 64 64 67 67 67 63 63 63 67 67 67 65 65 65 64 64 64 68 68 68 67 67 67 67 67 67 68 68 68 69 69 69 67 67 67 69 69 69 70 70 70 65 65 65 71 71 71 66 66 66 65 65 65 67 67 67 71 71 71 67 67 67 70 70 70 71 71 71 66 66 66 71 71 71 72 72 72 71 71 71 70 70 70 73 73 73 71 71 71 73 73 73 72 72 72 74 74 74 75 75 75 76 76 76 75 75 75 77 77 77 76 76 76 75 75 75 78 78 78 77 77 77 76 76 76 77 77 77 79 79 79 78 78 78 80 80 80 77 77 77 78 78 78 81 81 81 80 80 80 77 77 77 82 82 82 79 79 79 79 79 79 82 82 82 83 83 83 82 82 82 84 84 84 83 83 83 82 82 82 85 85 85 84 84 84 77 77 77 86 86 86 82 82 82 86 86 86 85 85 85 82 82 82 77 77 77 80 80 80 86 86 86 86 86 86 87 87 87 85 85 85 80 80 80 88 88 88 86 86 86 86 86 86 88 88 88 87 87 87 81 81 81 89 89 89 80 80 80 80 80 80 89 89 89 88 88 88 81 81 81 90 90 90 89 89 89 88 88 88 91 91 91 87 87 87 87 87 87 91 91 91 92 92 92 91 91 91 93 93 93 92 92 92 91 91 91 94 94 94 93 93 93 89 89 89 95 95 95 88 88 88 88 88 88 95 95 95 91 91 91 90 90 90 95 95 95 89 89 89 95 95 95 94 94 94 91 91 91 90 90 90 96 96 96 95 95 95 96 96 96 94 94 94 95 95 95 97 97 97 98 98 98 99 99 99 97 97 97 99 99 99 100 100 100 97 97 97 100 100 100 101 101 101 97 97 97 101 101 101 102 102 102 97 97 97 102 102 102 103 103 103 104 104 104 97 97 97 103 103 103 105 105 105 97 97 97 104 104 104 105 105 105 106 106 106 97 97 97 97 97 97 106 106 106 107 107 107 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Obj_Break01__M_Obj_CoopSakepuncherBox-mesh">
+      <skin source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-joint">
+          <Name_array id="Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-joint-array" count="1">Obj_Break01</Name_array>
+          <technique_common>
+            <accessor source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-inv_bind_matrix">
+          <float_array id="Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-weight">
+          <float_array id="Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="108">
+          <input semantic="JOINT" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_Break01__M_Obj_CoopSakepuncherBox-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_Break01" name="Obj_Break01" sid="Obj_Break01" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Obj_Break01__M_Obj_CoopSakepuncherBox" name="Obj_Break01__M_Obj_CoopSakepuncherBox" type="NODE">
+        <instance_controller url="#Armature_Obj_Break01__M_Obj_CoopSakepuncherBox-mesh">
+          <skeleton>#Armature_Obj_Break01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Obj_CoopSakepuncherBox" target="#M_Obj_CoopSakepuncherBox" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

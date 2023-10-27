@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="SlopeWoodBrown_Alb">
+      <init_from>SlopeWoodBrown_Alb.png</init_from>
+    </image>
+    <image id="SlopeWoodBrown_Nrm">
+      <init_from>SlopeWoodBrown_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="SlopeWoodBrown">
+      <instance_effect url="#Effect_SlopeWoodBrown" />
+    </material>
+    <material id="SlopeWoodBrown_np">
+      <instance_effect url="#Effect_SlopeWoodBrown_np" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_SlopeWoodBrown">
+      <profile_COMMON>
+        <newparam sid="surface_SlopeWoodBrown-diffuse">
+          <surface type="2D">
+            <init_from>SlopeWoodBrown_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SlopeWoodBrown-diffuse">
+          <sampler2D>
+            <source>surface_SlopeWoodBrown-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_SlopeWoodBrown-bump">
+          <surface type="2D">
+            <init_from>SlopeWoodBrown_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SlopeWoodBrown-bump">
+          <sampler2D>
+            <source>surface_SlopeWoodBrown-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SlopeWoodBrown-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_SlopeWoodBrown-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_SlopeWoodBrown_np">
+      <profile_COMMON>
+        <newparam sid="surface_SlopeWoodBrown_np-diffuse">
+          <surface type="2D">
+            <init_from>SlopeWoodBrown_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SlopeWoodBrown_np-diffuse">
+          <sampler2D>
+            <source>surface_SlopeWoodBrown_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_SlopeWoodBrown_np-bump">
+          <surface type="2D">
+            <init_from>SlopeWoodBrown_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SlopeWoodBrown_np-bump">
+          <sampler2D>
+            <source>surface_SlopeWoodBrown_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SlopeWoodBrown_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_SlopeWoodBrown_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Obj_WoodSlope__SlopeWoodBrown-mesh" name="Obj_WoodSlope__SlopeWoodBrown">
+      <mesh>
+        <source id="Obj_WoodSlope__SlopeWoodBrown-position">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown-position-array" count="204">10 0.3803077 4.713815 -10 0.3803077 4.713815 10 0 4.236983 -10 0 4.236983 -10 0.3803077 4.713815 10 0.3803077 4.713815 -10 6.497741 1.575274 10 6.497741 1.575274 -10 13.4581 -0.06652212 10 13.4581 -0.06652212 -10 20.06853 -0.29124 10 20.06853 -0.29124 10 0.3803077 4.713815 10 0 4.236983 10 6.184119 1.058011 10 6.497741 1.575274 10 13.21296 -0.6147213 10 13.4581 -0.06652212 -10 13.4581 -0.06652212 -10 13.21296 -0.6147213 -10 6.497741 1.575274 -10 6.184119 1.058011 -10 0.3803077 4.713815 -10 0 4.236983 -10 34.76205 0.7082398 10 34.76205 0.7082398 -10 34.89362 0.1797529 10 34.89362 0.1797529 -10 27.68187 0.1918907 10 27.68187 0.1918902 -10 34.76205 0.7082398 10 34.76205 0.7082398 -10 34.76205 0.7082398 -10 34.89362 0.1797529 -10 27.77737 -0.3716805 -10 27.68187 0.1918907 -10 20.04223 -0.8961473 -10 20.06853 -0.29124 10 27.77737 -0.3716805 10 34.89362 0.1797529 10 34.76205 0.7082398 10 27.68187 0.1918902 10 20.04223 -0.8961473 10 20.06853 -0.29124 10 13.4581 -0.06652212 10 6.184119 1.058011 10 13.21296 -0.6147213 -10 13.4581 -0.06652212 -10 13.21296 -0.6147213 -10 6.184119 1.058011 -10 0 4.236983 10 0 4.236983 -10 6.184119 1.058011 10 6.184119 1.058011 -10 13.4581 -0.06652212 10 13.4581 -0.06652212 -10 20.06853 -0.29124 10 20.06853 -0.29124 10 34.89362 0.1797529 -10 34.89362 0.1797529 -10 20.04223 -0.8961473 -10 20.06853 -0.29124 -10 27.77737 -0.3716805 -10 34.89362 0.1797529 10 20.04223 -0.8961473 10 20.06853 -0.29124 10 34.89362 0.1797529 10 27.77737 -0.3716805</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown-position-array" count="68" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown-normal">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown-normal-array" count="204">0 -0.7808219 0.6242661 0 -0.7808219 0.6242661 0 -0.7808219 0.6242661 0 -0.7808219 0.6242661 0 0.6614481 0.7495108 0 0.6614481 0.7495108 0 0.6614481 0.7495108 0 0.6614481 0.7495108 0 0.4911937 0.8708415 0 0.4911937 0.8708415 0 0.2054795 0.9784736 0 0.2054795 0.9784736 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0.9804305 -0.1976517 0 0.9804305 -0.1976517 0 0.9804305 -0.1976517 0 0.9804305 -0.1976517 0 0.2054795 0.9784736 0 0.2054795 0.9784736 0 0.1428571 0.9902152 0 0.1428571 0.9902152 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.02935421 0.1037182 0.9941292 1 0 0 1 0 0 -0.02935421 0.1682975 0.9843444 -1 0 0 -1 0 0 0 0.6614481 0.7495108 0 0.6614481 0.7495108 0 0.6614481 0.7495108 0 0.6614481 0.7495108 0 0.4911937 0.8708415 0 0.4911937 0.8708415 0 0.2054795 0.9784736 0.01956947 -0.0332681 1 0 0.1428571 0.9902152 0 0.1428571 0.9902152 -1 0 0 -0.02152642 -0.001956947 1 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown-normal-array" count="68" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown-texcoord">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown-texcoord-array" count="136">1.97168 -0.08105469 1.97168 -0.5126953 2 -0.08105469 2 -0.5126953 0 0 0.9750977 0 0 0.2001953 0.9750977 0.2001953 0 0.4003906 0.9750977 0.4003906 0 0.6000977 0.9750977 0.6000977 1.97168 -0.08105469 2 -0.08105469 2 0.1347656 1.97168 0.1347656 2 0.3369141 1.97168 0.3369141 1.97168 -0.9648438 2 -0.9648438 1.97168 -0.7324219 2 -0.7324219 1.97168 -0.5126953 2 -0.5126953 1.97168 1.427002 1.97168 0.9885254 2 1.427002 2 0.9885254 0 0.8000488 0.9750977 0.8000488 0 1 0.9750977 1 1.97168 -1.583984 1.999023 -1.583984 1.999023 -1.380859 1.97168 -1.380859 2 -1.169922 1.97168 -1.169922 2 0.7515869 2 0.9885254 1.97168 0.9885254 1.97168 0.7515869 2 0.5422363 1.97168 0.5422363 1.97168 0.3369141 2 0.1347656 2 0.3369141 1.97168 -0.9648438 2 -0.9648438 2 -0.7324219 0 0 0.9750977 0 0 0.2001953 0.9750977 0.2001953 0 0.4003906 0.9750977 0.4003906 0 0.6000977 0.9750977 0.6000977 0.9750977 1 0 1 2 -1.169922 1.97168 -1.169922 1.999023 -1.380859 1.999023 -1.583984 2 0.5422363 1.97168 0.5422363 2 0.9885254 2 0.7515869</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown-texcoord-array" count="68" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_WoodSlope__SlopeWoodBrown-vertex">
+          <input semantic="POSITION" source="#Obj_WoodSlope__SlopeWoodBrown-position" />
+        </vertices>
+        <triangles material="SlopeWoodBrown" count="34">
+          <input semantic="VERTEX" source="#Obj_WoodSlope__SlopeWoodBrown-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_WoodSlope__SlopeWoodBrown-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_WoodSlope__SlopeWoodBrown-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 6 6 6 7 7 7 9 9 9 8 8 8 7 7 7 10 10 10 8 8 8 9 9 9 11 11 11 10 10 10 9 9 9 12 12 12 13 13 13 14 14 14 15 15 15 12 12 12 14 14 14 15 15 15 14 14 14 16 16 16 17 17 17 15 15 15 16 16 16 18 18 18 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 10 10 10 11 11 11 28 28 28 11 11 11 29 29 29 28 28 28 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 35 35 35 32 32 32 34 34 34 35 35 35 34 34 34 36 36 36 37 37 37 35 35 35 36 36 36 18 18 18 37 37 37 36 36 36 19 19 19 18 18 18 36 36 36 38 38 38 39 39 39 40 40 40 41 41 41 38 38 38 40 40 40 38 38 38 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 43 43 43 17 17 17 42 42 42 17 17 17 16 16 16 42 42 42 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Obj_WoodSlope__SlopeWoodBrown_np-mesh" name="Obj_WoodSlope__SlopeWoodBrown_np">
+      <mesh>
+        <source id="Obj_WoodSlope__SlopeWoodBrown_np-position">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown_np-position-array" count="72">10 0 4.236983 -10 0 4.236983 10 6.184119 1.058011 -10 6.184119 1.058011 10 13.21296 -0.6147213 -10 13.21296 -0.6147213 10 20.04223 -0.8961473 -10 20.04223 -0.8961473 10 27.77737 -0.3716805 -10 27.77737 -0.3716805 10 34.89362 0.1797529 -10 34.89362 0.1797529 10 0 4.236983 -10 0 4.236983 10 6.184119 1.058011 -10 6.184119 1.058011 10 13.21296 -0.6147213 -10 13.21296 -0.6147213 10 20.04223 -0.8961473 -10 20.04223 -0.8961473 10 27.77737 -0.3716805 -10 27.77737 -0.3716805 10 34.89362 0.1797529 -10 34.89362 0.1797529</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown_np-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown_np-normal">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown_np-normal-array" count="72">0 -0.6594912 -0.7514677 0 -0.6594912 -0.7514677 0 -0.6594912 -0.7514677 0 -0.6594912 -0.7514677 0 -0.4911937 -0.8708415 0 -0.4911937 -0.8708415 0 -0.2015656 -0.9784736 0 -0.2015656 -0.9784736 0 -0.2015656 -0.9784736 0 -0.2015656 -0.9784736 0 -0.1389433 -0.9902152 0 -0.1389433 -0.9902152 0 -0.4579256 -0.888454 0 -0.4579256 -0.888454 0 -0.3816047 -0.9236791 0 -0.3072407 -0.9510763 0 -0.1702544 -0.9843444 0 -0.1076321 -0.9941292 0 -0.001956947 -1 0 0.03522505 -1 0 0.0704501 -0.9980431 0 0.07436399 -0.9980431 0 0.07632094 -0.9960861 0 0.07632094 -0.9960861</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown_np-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown_np-texcoord">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown_np-texcoord-array" count="48">0.9764706 0 0 0 0.9764706 0.2 0 0.2 0.9764706 0.4 0 0.4 0.9764706 0.6 0 0.6 0.9764706 0.8 0 0.8 0.9764706 1 0 1 0.9764706 0 0 0 0.9764706 0.2 0 0.2 0.9764706 0.4 0 0.4 0.9764706 0.6 0 0.6 0.9764706 0.8 0 0.8 0.9764706 1 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown_np-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_WoodSlope__SlopeWoodBrown_np-vertex">
+          <input semantic="POSITION" source="#Obj_WoodSlope__SlopeWoodBrown_np-position" />
+        </vertices>
+        <triangles material="SlopeWoodBrown_np" count="10">
+          <input semantic="VERTEX" source="#Obj_WoodSlope__SlopeWoodBrown_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_WoodSlope__SlopeWoodBrown_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_WoodSlope__SlopeWoodBrown_np-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 2 2 2 3 3 3 4 4 4 3 3 3 5 5 5 4 4 4 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 6 6 6 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Obj_WoodSlope__SlopeWoodBrown-mesh">
+      <skin source="#Obj_WoodSlope__SlopeWoodBrown-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_WoodSlope__SlopeWoodBrown-mesh-joint">
+          <Name_array id="Obj_WoodSlope__SlopeWoodBrown-mesh-joint-array" count="1">Obj_WoodSlope</Name_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown-mesh-inv_bind_matrix">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown-mesh-weight">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_WoodSlope__SlopeWoodBrown-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_WoodSlope__SlopeWoodBrown-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="68">
+          <input semantic="JOINT" source="#Obj_WoodSlope__SlopeWoodBrown-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_WoodSlope__SlopeWoodBrown-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Obj_WoodSlope__SlopeWoodBrown_np-mesh">
+      <skin source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_WoodSlope__SlopeWoodBrown_np-mesh-joint">
+          <Name_array id="Obj_WoodSlope__SlopeWoodBrown_np-mesh-joint-array" count="1">Obj_WoodSlope</Name_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown_np-mesh-inv_bind_matrix">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_WoodSlope__SlopeWoodBrown_np-mesh-weight">
+          <float_array id="Obj_WoodSlope__SlopeWoodBrown_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_WoodSlope__SlopeWoodBrown_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_WoodSlope" name="Obj_WoodSlope" sid="Obj_WoodSlope" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Obj_WoodSlope__SlopeWoodBrown" name="Obj_WoodSlope__SlopeWoodBrown" type="NODE">
+        <instance_controller url="#Armature_Obj_WoodSlope__SlopeWoodBrown-mesh">
+          <skeleton>#Armature_Obj_WoodSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SlopeWoodBrown" target="#SlopeWoodBrown" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Obj_WoodSlope__SlopeWoodBrown_np" name="Obj_WoodSlope__SlopeWoodBrown_np" type="NODE">
+        <instance_controller url="#Armature_Obj_WoodSlope__SlopeWoodBrown_np-mesh">
+          <skeleton>#Armature_Obj_WoodSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SlopeWoodBrown_np" target="#SlopeWoodBrown_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

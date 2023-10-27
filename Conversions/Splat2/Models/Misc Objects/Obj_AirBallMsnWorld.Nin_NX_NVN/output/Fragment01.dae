@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_Body00_2cl">
+      <init_from>M_Body00_2cl.png</init_from>
+    </image>
+    <image id="M_Body00_Alb">
+      <init_from>M_Body00_Alb.png</init_from>
+    </image>
+    <image id="M_Body00_Nrm">
+      <init_from>M_Body00_Nrm.png</init_from>
+    </image>
+    <image id="M_Body00_Rgh">
+      <init_from>M_Body00_Rgh.png</init_from>
+    </image>
+    <image id="M_Body00_Tcl">
+      <init_from>M_Body00_Tcl.png</init_from>
+    </image>
+    <image id="M_Fragment00_Alb">
+      <init_from>M_Fragment00_Alb.png</init_from>
+    </image>
+    <image id="M_Fragment00_Rgh">
+      <init_from>M_Fragment00_Rgh.png</init_from>
+    </image>
+    <image id="M_Rope00_Alb">
+      <init_from>M_Rope00_Alb.png</init_from>
+    </image>
+    <image id="M_Rope00_Nrm">
+      <init_from>M_Rope00_Nrm.png</init_from>
+    </image>
+    <image id="M_Rope00_Rgh">
+      <init_from>M_Rope00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Fragment00">
+      <instance_effect url="#Effect_M_Fragment00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Fragment00">
+      <profile_COMMON>
+        <newparam sid="surface_M_Fragment00-diffuse">
+          <surface type="2D">
+            <init_from>M_Fragment00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Fragment00-diffuse">
+          <sampler2D>
+            <source>surface_M_Fragment00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Fragment00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Inside__M_Fragment00-mesh" name="Inside__M_Fragment00">
+      <mesh>
+        <source id="Inside__M_Fragment00-position">
+          <float_array id="Inside__M_Fragment00-position-array" count="150">2.265625 4.492188 -1.043159 2.447916 2.447917 0.1938198 3.819444 3.819444 -1.715902 4.492188 2.265625 -1.043159 0 2.630208 0.610487 0 4.824219 -0.7111278 -2.265625 4.492188 -1.043159 2.630208 0 0.6104867 4.824218 0 -0.7111278 4.492188 -2.265625 -1.043159 -2.447916 2.447917 0.1938198 -3.819444 3.819444 -1.715902 -4.492188 2.265625 -1.043159 0 0 1.053195 -2.630208 0 0.6104867 -4.824218 0 -0.7111278 -4.492188 -2.265625 -1.043159 -2.447916 -2.447917 0.1938198 -3.819444 -3.819444 -1.715902 -2.265625 -4.492188 -1.043159 0 -2.630208 0.6104867 0 -4.824219 -0.7111278 2.265625 -4.492188 -1.043159 2.447916 -2.447917 0.1938198 3.819444 -3.819444 -1.715902 2.265625 4.492188 -1.043159 0 2.630208 0.610487 0 4.824219 -0.7111278 -2.265625 4.492188 -1.043159 2.447917 2.447917 0.1938198 3.819444 3.819444 -1.715903 4.492188 2.265625 -1.043159 -2.447917 2.447917 0.1938198 -3.819444 3.819444 -1.715903 -4.492188 2.265625 -1.043159 2.630208 0 0.6104867 4.824219 0 -0.7111278 4.492188 -2.265625 -1.043159 0 0 1.053195 2.447917 -2.447917 0.1938198 3.819444 -3.819444 -1.715902 2.265625 -4.492188 -1.043159 0 -2.630208 0.6104867 0 -4.824219 -0.7111278 -2.265625 -4.492188 -1.043159 -2.447917 -2.447917 0.1938198 -3.819444 -3.819444 -1.715902 -4.492188 -2.265625 -1.043159 -2.630208 0 0.6104867 -4.824219 0 -0.7111278</float_array>
+          <technique_common>
+            <accessor source="#Inside__M_Fragment00-position-array" count="50" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Inside__M_Fragment00-normal">
+          <float_array id="Inside__M_Fragment00-normal-array" count="150">0.3072407 0.5127202 0.8003914 0.3287671 0.3287671 0.8845401 0.4970646 0.4970646 0.7123288 0.5127202 0.3072407 0.8003914 0 0.3444227 0.9393346 0 0.5225049 0.853229 -0.3072407 0.5127202 0.8003914 0.3444227 0 0.9393346 0.5225049 0 0.853229 0.5127202 -0.3072407 0.8003914 -0.3287671 0.3287671 0.8845401 -0.4970646 0.4970646 0.7123288 -0.5127202 0.3072407 0.8003914 0 0 1 -0.3444227 0 0.9393346 -0.5225049 0 0.853229 -0.5127202 -0.3072407 0.8003914 -0.3287671 -0.3287671 0.8845401 -0.4970646 -0.4970646 0.7123288 -0.3072407 -0.5127202 0.8003914 0 -0.3444227 0.9393346 0 -0.5225049 0.853229 0.3072407 -0.5127202 0.8003914 0.3287671 -0.3287671 0.8845401 0.4970646 -0.4970646 0.7123288 -0.3072407 -0.5127202 -0.8003914 0 -0.3444227 -0.9393346 0 -0.5225049 -0.853229 0.3072407 -0.5127202 -0.8003914 -0.3287671 -0.3287671 -0.8845401 -0.4970646 -0.4970646 -0.7123288 -0.5127202 -0.3072407 -0.8003914 0.3287671 -0.3287671 -0.8845401 0.4970646 -0.4970646 -0.7123288 0.5127202 -0.3072407 -0.8003914 -0.3444227 0 -0.9393346 -0.5225049 0 -0.853229 -0.5127202 0.3072407 -0.8003914 0 0 -1 -0.3287671 0.3287671 -0.8845401 -0.4970646 0.4970646 -0.7123288 -0.3072407 0.5127202 -0.8003914 0 0.3444227 -0.9393346 0 0.5225049 -0.853229 0.3072407 0.5127202 -0.8003914 0.3287671 0.3287671 -0.8845401 0.4970646 0.4970646 -0.7123288 0.5127202 0.3072407 -0.8003914 0.3444227 0 -0.9393346 0.5225049 0 -0.853229</float_array>
+          <technique_common>
+            <accessor source="#Inside__M_Fragment00-normal-array" count="50" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Inside__M_Fragment00-texcoord">
+          <float_array id="Inside__M_Fragment00-texcoord-array" count="100">0.2509804 0 0.2509804 0.2509804 0 0 0 0.2509804 0.5019608 0.2509804 0.5019608 0 0.7490196 0 0.2509804 0.4980392 0 0.4980392 0 0.7490196 0.7490196 0.2509804 1 0 1 0.2509804 0.5019608 0.4980392 0.7490196 0.4980392 1 0.4980392 1 0.7490196 0.7490196 0.7490196 1 1 0.7490196 1 0.5019608 0.7490196 0.5019608 1 0.2509804 1 0.2509804 0.7490196 0 1 0.2509804 0 0.5019608 0.2509804 0.5019608 0 0.7490196 0 0.2509804 0.2509804 0 0 0 0.2509804 0.7490196 0.2509804 1 0 1 0.2509804 0.2509804 0.4980392 0 0.4980392 0 0.7490196 0.5019608 0.4980392 0.2509804 0.7490196 0 1 0.2509804 1 0.5019608 0.7490196 0.5019608 1 0.7490196 1 0.7490196 0.7490196 1 1 1 0.7490196 0.7490196 0.4980392 1 0.4980392</float_array>
+          <technique_common>
+            <accessor source="#Inside__M_Fragment00-texcoord-array" count="50" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Inside__M_Fragment00-vertex">
+          <input semantic="POSITION" source="#Inside__M_Fragment00-position" />
+        </vertices>
+        <triangles material="M_Fragment00" count="64">
+          <input semantic="VERTEX" source="#Inside__M_Fragment00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Inside__M_Fragment00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Inside__M_Fragment00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 1 1 1 3 3 3 0 0 0 4 4 4 1 1 1 0 0 0 5 5 5 4 4 4 5 5 5 6 6 6 4 4 4 3 3 3 1 1 1 7 7 7 3 3 3 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 4 4 4 6 6 6 10 10 10 6 6 6 11 11 11 10 10 10 10 10 10 11 11 11 12 12 12 4 4 4 13 13 13 1 1 1 4 4 4 10 10 10 13 13 13 1 1 1 13 13 13 7 7 7 10 10 10 12 12 12 14 14 14 10 10 10 14 14 14 13 13 13 12 12 12 15 15 15 14 14 14 14 14 14 15 15 15 16 16 16 14 14 14 16 16 16 17 17 17 13 13 13 14 14 14 17 17 17 17 17 17 16 16 16 18 18 18 17 17 17 18 18 18 19 19 19 17 17 17 19 19 19 20 20 20 13 13 13 17 17 17 20 20 20 20 20 20 19 19 19 21 21 21 20 20 20 21 21 21 22 22 22 13 13 13 20 20 20 23 23 23 20 20 20 22 22 22 23 23 23 13 13 13 23 23 23 7 7 7 7 7 7 23 23 23 9 9 9 23 23 23 22 22 22 24 24 24 23 23 23 24 24 24 9 9 9 25 25 25 26 26 26 27 27 27 26 26 26 28 28 28 27 27 27 25 25 25 29 29 29 26 26 26 25 25 25 30 30 30 29 29 29 30 30 30 31 31 31 29 29 29 26 26 26 32 32 32 28 28 28 32 32 32 33 33 33 28 28 28 32 32 32 34 34 34 33 33 33 29 29 29 31 31 31 35 35 35 31 31 31 36 36 36 35 35 35 35 35 35 36 36 36 37 37 37 29 29 29 38 38 38 26 26 26 29 29 29 35 35 35 38 38 38 26 26 26 38 38 38 32 32 32 35 35 35 37 37 37 39 39 39 38 38 38 35 35 35 39 39 39 39 39 39 37 37 37 40 40 40 39 39 39 40 40 40 41 41 41 42 42 42 39 39 39 41 41 41 38 38 38 39 39 39 42 42 42 42 42 42 41 41 41 43 43 43 42 42 42 43 43 43 44 44 44 42 42 42 44 44 44 45 45 45 38 38 38 42 42 42 45 45 45 45 45 45 44 44 44 46 46 46 45 45 45 46 46 46 47 47 47 38 38 38 45 45 45 48 48 48 48 48 48 45 45 45 47 47 47 38 38 38 48 48 48 32 32 32 32 32 32 48 48 48 34 34 34 48 48 48 47 47 47 49 49 49 48 48 48 49 49 49 34 34 34 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Inside__M_Fragment00-mesh">
+      <skin source="#Inside__M_Fragment00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Inside__M_Fragment00-mesh-joint">
+          <Name_array id="Inside__M_Fragment00-mesh-joint-array" count="1">Fragment00</Name_array>
+          <technique_common>
+            <accessor source="#Inside__M_Fragment00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Inside__M_Fragment00-mesh-inv_bind_matrix">
+          <float_array id="Inside__M_Fragment00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Inside__M_Fragment00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Inside__M_Fragment00-mesh-weight">
+          <float_array id="Inside__M_Fragment00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Inside__M_Fragment00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Inside__M_Fragment00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Inside__M_Fragment00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="50">
+          <input semantic="JOINT" source="#Inside__M_Fragment00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Inside__M_Fragment00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fragment00" name="Fragment00" sid="Fragment00" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Inside__M_Fragment00" name="Inside__M_Fragment00" type="NODE">
+        <instance_controller url="#Armature_Inside__M_Fragment00-mesh">
+          <skeleton>#Armature_Fragment00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Fragment00" target="#M_Fragment00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

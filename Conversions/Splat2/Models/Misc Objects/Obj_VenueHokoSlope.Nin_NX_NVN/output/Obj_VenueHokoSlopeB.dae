@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="GroundCarpet_Alb">
+      <init_from>GroundCarpet_Alb.png</init_from>
+    </image>
+    <image id="GroundCarpet_Nrm">
+      <init_from>GroundCarpet_Nrm.png</init_from>
+    </image>
+    <image id="GroundCarpet_Rgh">
+      <init_from>GroundCarpet_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="SheetVinyl_Alb">
+      <init_from>SheetVinyl_Alb.png</init_from>
+    </image>
+    <image id="SheetVinyl_Mtl">
+      <init_from>SheetVinyl_Mtl.png</init_from>
+    </image>
+    <image id="SheetVinyl_Nrm">
+      <init_from>SheetVinyl_Nrm.png</init_from>
+    </image>
+    <image id="SheetVinyl_Rgh">
+      <init_from>SheetVinyl_Rgh.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Alb">
+      <init_from>SlopeMetalPlate_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Nrm">
+      <init_from>SlopeMetalPlate_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Rgh">
+      <init_from>SlopeMetalPlate_Rgh.png</init_from>
+    </image>
+    <image id="StickerSeal_Alb">
+      <init_from>StickerSeal_Alb.png</init_from>
+    </image>
+    <image id="StickerSeal_Nrm">
+      <init_from>StickerSeal_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Alb">
+      <init_from>WallRepeatParts_Alb.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Mtl">
+      <init_from>WallRepeatParts_Mtl.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Nrm">
+      <init_from>WallRepeatParts_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Rgh">
+      <init_from>WallRepeatParts_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GroundCarpet">
+      <instance_effect url="#Effect_GroundCarpet" />
+    </material>
+    <material id="SheetVinyl">
+      <instance_effect url="#Effect_SheetVinyl" />
+    </material>
+    <material id="SlopeMetalPlate_gp">
+      <instance_effect url="#Effect_SlopeMetalPlate_gp" />
+    </material>
+    <material id="StickerSeal_wp">
+      <instance_effect url="#Effect_StickerSeal_wp" />
+    </material>
+    <material id="WallRepeatParts_gp">
+      <instance_effect url="#Effect_WallRepeatParts_gp" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GroundCarpet">
+      <profile_COMMON>
+        <newparam sid="surface_GroundCarpet-diffuse">
+          <surface type="2D">
+            <init_from>GroundCarpet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundCarpet-diffuse">
+          <sampler2D>
+            <source>surface_GroundCarpet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundCarpet-bump">
+          <surface type="2D">
+            <init_from>GroundCarpet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundCarpet-bump">
+          <sampler2D>
+            <source>surface_GroundCarpet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundCarpet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundCarpet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_SheetVinyl">
+      <profile_COMMON>
+        <newparam sid="surface_SheetVinyl-diffuse">
+          <surface type="2D">
+            <init_from>SheetVinyl_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SheetVinyl-diffuse">
+          <sampler2D>
+            <source>surface_SheetVinyl-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_SheetVinyl-bump">
+          <surface type="2D">
+            <init_from>SheetVinyl_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SheetVinyl-bump">
+          <sampler2D>
+            <source>surface_SheetVinyl-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SheetVinyl-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_SheetVinyl-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_SlopeMetalPlate_gp">
+      <profile_COMMON>
+        <newparam sid="surface_SlopeMetalPlate_gp-diffuse">
+          <surface type="2D">
+            <init_from>SlopeMetalPlate_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SlopeMetalPlate_gp-diffuse">
+          <sampler2D>
+            <source>surface_SlopeMetalPlate_gp-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_SlopeMetalPlate_gp-bump">
+          <surface type="2D">
+            <init_from>SlopeMetalPlate_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SlopeMetalPlate_gp-bump">
+          <sampler2D>
+            <source>surface_SlopeMetalPlate_gp-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SlopeMetalPlate_gp-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_SlopeMetalPlate_gp-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_StickerSeal_wp">
+      <profile_COMMON>
+        <newparam sid="surface_StickerSeal_wp-diffuse">
+          <surface type="2D">
+            <init_from>StickerSeal_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_StickerSeal_wp-diffuse">
+          <sampler2D>
+            <source>surface_StickerSeal_wp-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_StickerSeal_wp-bump">
+          <surface type="2D">
+            <init_from>StickerSeal_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_StickerSeal_wp-bump">
+          <sampler2D>
+            <source>surface_StickerSeal_wp-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_StickerSeal_wp-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_StickerSeal_wp-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallRepeatParts_gp">
+      <profile_COMMON>
+        <newparam sid="surface_WallRepeatParts_gp-diffuse">
+          <surface type="2D">
+            <init_from>WallRepeatParts_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallRepeatParts_gp-diffuse">
+          <sampler2D>
+            <source>surface_WallRepeatParts_gp-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallRepeatParts_gp-bump">
+          <surface type="2D">
+            <init_from>WallRepeatParts_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallRepeatParts_gp-bump">
+          <sampler2D>
+            <source>surface_WallRepeatParts_gp-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallRepeatParts_gp-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallRepeatParts_gp-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="StickerSeal_gp42__WallRepeatParts_gp-mesh" name="StickerSeal_gp42__WallRepeatParts_gp">
+      <mesh>
+        <source id="StickerSeal_gp42__WallRepeatParts_gp-position">
+          <float_array id="StickerSeal_gp42__WallRepeatParts_gp-position-array" count="96">-280.0057 60 129.9551 -249.8022 60 129.9551 -280.0057 57 129.9551 -249.8022 57 129.9551 -280.0057 60 160.0046 -280.0057 60 129.9551 -280.0057 57 160.0046 -280.0057 57 129.9551 -280.0057 32.97009 129.9551 -249.8022 32.97009 129.9551 -280.0057 29.97009 129.9551 -249.8022 29.97009 129.9551 -280.0057 32.97009 160.0046 -280.0057 32.97009 129.9551 -280.0057 29.97009 160.0046 -280.0057 29.97009 129.9551 -249.8022 60 160.0046 -252.8022 60 157.0046 -280.0057 60 160.0046 -277.0057 60 157.0046 -249.8022 60 129.9551 -252.8022 60 132.9551 -249.8022 60 160.0046 -252.8022 60 157.0046 -280.0057 60 129.9551 -277.0057 60 132.9551 -249.8022 60 129.9551 -252.8022 60 132.9551 -280.0057 60 160.0046 -277.0057 60 157.0046 -280.0057 60 129.9551 -277.0057 60 132.9551</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp42__WallRepeatParts_gp-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp42__WallRepeatParts_gp-normal">
+          <float_array id="StickerSeal_gp42__WallRepeatParts_gp-normal-array" count="96">0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp42__WallRepeatParts_gp-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp42__WallRepeatParts_gp-texcoord">
+          <float_array id="StickerSeal_gp42__WallRepeatParts_gp-texcoord-array" count="64">1.086667 0 0.08666658 0 1.086667 0.07499999 0.08666658 0.07499999 2.336666 0 1.086667 0 2.336666 0.07499999 1.086667 0.07499999 1.086667 0 0.08666658 0 1.086667 0.07499999 0.08666658 0.07499999 2.336666 0 1.086667 0 2.336666 0.07499999 1.086667 0.07499999 2.148638 -1.996368 2.0037 -1.898895 0.3143191 -1.996368 0.4602876 -1.898895 4.69258 -1.996368 4.563156 -1.898895 2.430638 -1.996368 2.559113 -1.898895 6.646783 -1.996368 6.518722 -1.898895 5.03666 -1.996368 5.133263 -1.898895 9.170358 -1.996368 8.967433 -1.898895 7.151919 -1.996368 7.215477 -1.898895</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp42__WallRepeatParts_gp-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp42__WallRepeatParts_gp-texcoord_1">
+          <float_array id="StickerSeal_gp42__WallRepeatParts_gp-texcoord-array_1" count="64">0.3315633 0.5198138 0.3315633 0.930724 0.3007553 0.5198138 0.3007553 0.930724 0.3315633 0.006179929 0.3315633 0.5198138 0.3007553 0.006179929 0.3007553 0.5198138 0.3727321 0.5198138 0.3727321 0.930724 0.3419242 0.5198138 0.3419242 0.930724 0.3727321 0.006179929 0.3727321 0.5198138 0.3419242 0.006179929 0.3419242 0.5198138 0.4332036 0.00616467 0.4732586 0.06572062 0.4332036 0.7598993 0.4732586 0.6999161 0.2506294 0.005996823 0.2906844 0.05918974 0.2506294 0.9354544 0.2906844 0.8826734 0.4833295 0.005676329 0.5233845 0.05830473 0.4833295 0.6672923 0.5233845 0.6276035 0.383093 0.005920529 0.4231479 0.0892958 0.383093 0.8353094 0.4231479 0.8092012</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp42__WallRepeatParts_gp-texcoord-array_1" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="StickerSeal_gp42__WallRepeatParts_gp-vertex">
+          <input semantic="POSITION" source="#StickerSeal_gp42__WallRepeatParts_gp-position" />
+        </vertices>
+        <triangles material="WallRepeatParts_gp" count="16">
+          <input semantic="VERTEX" source="#StickerSeal_gp42__WallRepeatParts_gp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#StickerSeal_gp42__WallRepeatParts_gp-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp42__WallRepeatParts_gp-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp42__WallRepeatParts_gp-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="StickerSeal_gp43__SlopeMetalPlate_gp-mesh" name="StickerSeal_gp43__SlopeMetalPlate_gp">
+      <mesh>
+        <source id="StickerSeal_gp43__SlopeMetalPlate_gp-position">
+          <float_array id="StickerSeal_gp43__SlopeMetalPlate_gp-position-array" count="12">-191.8987 31.046 130.5035 -246.5168 58.95522 130.5035 -191.8987 31.046 159.3325 -246.5168 58.95522 159.3325</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp43__SlopeMetalPlate_gp-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp43__SlopeMetalPlate_gp-normal">
+          <float_array id="StickerSeal_gp43__SlopeMetalPlate_gp-normal-array" count="12">0.4559687 0.890411 0 0.4559687 0.890411 0 0.4559687 0.890411 0 0.4559687 0.890411 0</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp43__SlopeMetalPlate_gp-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp43__SlopeMetalPlate_gp-texcoord">
+          <float_array id="StickerSeal_gp43__SlopeMetalPlate_gp-texcoord-array" count="8">3.337891 0 3.337891 2.893555 1.810547 0 1.810547 2.893555</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp43__SlopeMetalPlate_gp-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp43__SlopeMetalPlate_gp-texcoord_1">
+          <float_array id="StickerSeal_gp43__SlopeMetalPlate_gp-texcoord-array_1" count="8">0.5257344 0.003967345 0.5257344 0.9960327 0.002090486 0.003967345 0.002090486 0.9960327</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp43__SlopeMetalPlate_gp-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="StickerSeal_gp43__SlopeMetalPlate_gp-vertex">
+          <input semantic="POSITION" source="#StickerSeal_gp43__SlopeMetalPlate_gp-position" />
+        </vertices>
+        <triangles material="SlopeMetalPlate_gp" count="2">
+          <input semantic="VERTEX" source="#StickerSeal_gp43__SlopeMetalPlate_gp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#StickerSeal_gp43__SlopeMetalPlate_gp-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp43__SlopeMetalPlate_gp-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp43__SlopeMetalPlate_gp-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="StickerSeal_gp45__WallRepeatParts_gp-mesh" name="StickerSeal_gp45__WallRepeatParts_gp">
+      <mesh>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-position">
+          <float_array id="StickerSeal_gp45__WallRepeatParts_gp-position-array" count="1002">-250.8848 59.18009 159.2458 -194.2013 29.93362 159.2458 -250.8848 59.18009 159.8708 -194.2013 29.93362 159.8708 -194.2013 29.93362 159.8708 -249.6348 61.13197 159.8708 -250.8848 59.18009 159.8708 -189.5627 30.22533 159.8708 -189.5627 30.22536 156.1208 -249.6348 61.132 156.1208 -189.5627 30.22533 159.8708 -249.6348 61.13197 159.8708 -190.1877 30.22533 156.1208 -249.6348 60.50697 156.1208 -189.5627 30.22536 156.1208 -249.6348 61.132 156.1208 -250.8848 58.67764 129.945 -194.8672 29.83085 129.9449 -250.8848 58.67764 130.57 -194.8672 30.22533 130.5699 -250.8848 58.67764 129.945 -249.6348 61.13197 129.9449 -194.8672 29.83085 129.9449 -189.5627 30.22533 129.9449 -189.5627 30.22536 133.6949 -189.5627 30.22533 129.9449 -249.6348 61.132 133.695 -249.6348 61.13197 129.9449 -190.086 30.09056 133.6949 -189.5627 30.22536 133.6949 -249.6348 59.9851 133.695 -249.6348 61.132 133.695 -255.1478 61.132 129.9449 -255.1478 58.67764 133.6949 -255.1478 60.50697 133.6949 -255.1478 60.50697 156.1208 -255.1478 59.18009 156.1208 -255.1478 61.13197 159.8708 -255.1478 60.50697 133.6949 -255.1478 61.132 133.6949 -255.1478 61.132 129.9449 -255.1478 58.67764 129.9449 -255.1478 58.67764 133.6949 -255.1478 60.50697 156.1208 -255.1478 61.13197 159.8708 -255.1478 61.13198 156.1208 -255.1478 59.18009 156.1208 -255.1478 59.18009 159.8708 -250.8532 61.47815 158.6721 -250.8532 62.41565 158.6721 -252.0848 61.47815 159.3832 -252.0849 62.41565 159.3832 -252.0848 61.47815 159.3832 -252.0849 62.41565 159.3832 -253.3165 61.47815 158.6721 -253.3165 62.41565 158.6721 -253.3165 61.47815 158.6721 -253.3165 62.41565 158.6721 -253.3165 61.47815 157.2499 -253.3165 62.41565 157.2499 -253.3165 61.47815 157.2499 -253.3165 62.41565 157.2499 -252.0848 61.47815 156.5388 -252.0848 62.41565 156.5388 -252.0848 61.47815 156.5388 -252.0848 62.41565 156.5388 -250.8532 61.47815 157.2499 -250.8532 62.41565 157.2498 -250.8532 62.41565 157.2498 -250.8532 62.41565 158.6721 -250.8532 61.47815 157.2499 -250.8532 61.47815 158.6721 -253.8349 61.6969 156.211 -253.8349 60.6969 156.211 -253.8349 61.6969 159.711 -253.8349 60.6969 159.711 -253.8349 61.6969 159.711 -253.8349 60.6969 159.711 -250.3349 61.6969 159.711 -250.3349 60.6969 159.711 -250.3349 61.6969 159.711 -250.3349 60.6969 159.711 -250.3349 61.6969 156.211 -250.3349 60.6969 156.211 -250.3349 61.6969 156.211 -250.3349 60.6969 156.211 -253.8349 61.6969 156.211 -253.8349 60.6969 156.211 -250.8532 61.25631 132.5477 -250.8532 62.19381 132.5477 -252.0848 61.25631 133.2589 -252.0849 62.19381 133.2589 -252.0848 61.25631 133.2589 -252.0849 62.19381 133.2589 -253.3165 61.25631 132.5477 -253.3165 62.19381 132.5477 -253.3165 61.25631 132.5477 -253.3165 62.19381 132.5477 -253.3165 61.25631 131.1255 -253.3165 62.19381 131.1255 -253.3165 61.25631 131.1255 -253.3165 62.19381 131.1255 -252.0848 61.25631 130.4145 -252.0848 62.19381 130.4144 -252.0848 61.25631 130.4145 -252.0848 62.19381 130.4144 -250.8532 61.25631 131.1255 -250.8532 62.19381 131.1254 -250.8532 62.19381 131.1254 -250.8532 62.19381 132.5477 -250.8532 61.25631 131.1255 -250.8532 61.25631 132.5477 -253.8348 61.51242 130.0439 -253.8348 60.51242 130.0439 -253.8348 61.51242 133.5439 -253.8348 60.51242 133.5439 -253.8348 61.51242 133.5439 -253.8348 60.51242 133.5439 -250.3348 61.51242 133.5439 -250.3348 60.51242 133.5439 -250.3348 61.51242 133.5439 -250.3348 60.51242 133.5439 -250.3348 61.51242 130.0439 -250.3348 60.51242 130.0439 -250.3348 61.51242 130.0439 -250.3348 60.51242 130.0439 -253.8348 61.51242 130.0439 -253.8348 60.51242 130.0439 -249.5168 60.01725 159.3325 -246.5168 58.95522 159.3325 -249.5168 60.01725 130.5035 -246.5168 58.95522 130.5035 -254.6462 59.44343 130.1165 -254.919 59.44343 158.7542 -254.6462 60.44346 130.1165 -254.919 60.44346 158.7542 -249.5812 59.44343 130.0665 -254.6462 59.44343 130.1165 -249.5812 60.44346 130.0665 -254.6462 60.44346 130.1165 -249.5812 59.44343 158.7541 -249.5812 59.44343 130.0665 -249.5812 60.44346 158.7541 -249.5812 60.44346 130.0665 -254.919 59.44343 158.7542 -249.5812 59.44343 158.7541 -254.919 60.44346 158.7542 -249.5812 60.44346 158.7541 -254.5228 58.67764 133.6949 -255.1478 58.67764 133.6949 -254.5228 58.67764 130.5699 -255.1478 58.67764 129.9449 -255.1478 58.67764 129.9449 -250.8848 58.67764 129.945 -254.5228 58.67764 130.5699 -250.8848 58.67764 130.57 -249.6348 61.13197 129.9449 -250.8848 58.67764 129.945 -255.1478 61.132 129.9449 -255.1478 58.67764 129.9449 -255.1478 59.18009 159.8708 -255.1478 59.18009 156.1208 -254.5228 59.18009 159.2458 -254.5228 59.18009 156.1208 -250.8848 59.18009 159.2458 -250.8848 59.18009 159.8708 -254.5228 59.18009 159.2458 -255.1478 59.18009 159.8708 -255.1478 59.18009 159.8708 -250.8848 59.18009 159.8708 -255.1478 61.13197 159.8708 -249.6348 61.13197 159.8708 -249.6348 61.132 156.1208 -249.6348 60.50697 156.1208 -255.1478 61.13198 156.1208 -255.1478 60.50697 156.1208 -249.6348 61.132 133.695 -255.1478 61.132 133.6949 -249.6348 59.9851 133.695 -255.1478 59.9851 133.6949 -249.6854 57.01722 130.0897 -249.6854 60.01722 130.0897 -249.6854 57.01722 159.8585 -249.6854 60.01722 159.8585 -250.3349 61.6969 159.711 -250.3349 61.6969 156.211 -253.8349 61.6969 159.711 -253.8349 61.6969 156.211 -250.3348 61.51242 133.5439 -250.3348 61.51242 130.0439 -253.8348 61.51242 133.5439 -253.8348 61.51242 130.0439 -255.1478 61.13197 159.8708 -249.6348 61.13197 159.8708 -255.1478 61.13198 156.1208 -249.6348 61.132 156.1208 -255.1478 61.132 129.9449 -255.1478 61.132 133.6949 -249.6348 61.13197 129.9449 -249.6348 61.132 133.695 -254.919 60.44346 158.7542 -249.5812 60.44346 158.7541 -254.6462 60.44346 130.1165 -249.5812 60.44346 130.0665 -252.0849 62.41565 159.3832 -252.0848 62.41565 157.961 -253.3165 62.41565 158.6721 -250.8532 62.41565 158.6721 -253.3165 62.41565 157.2499 -250.8532 62.41565 157.2498 -252.0848 62.41565 156.5388 -252.0849 62.19381 133.2589 -252.0848 62.19381 131.8367 -253.3165 62.19381 132.5477 -250.8532 62.19381 132.5477 -253.3165 62.19381 131.1255 -250.8532 62.19381 131.1254 -252.0848 62.19381 130.4144 -189.8176 29.85428 129.9449 -190.1175 29.90096 159.8708 -185.8593 30.48779 132.7719 -185.8593 31.4253 132.7719 -187.0909 30.48778 133.4831 -187.091 31.4253 133.4831 -187.0909 30.48778 133.4831 -187.091 31.4253 133.4831 -188.3226 30.48778 132.772 -188.3226 31.4253 132.772 -188.3226 30.48778 131.3498 -188.3226 31.4253 131.3498 -187.0909 30.48778 130.6387 -187.0909 31.4253 130.6386 -187.0909 30.48778 130.6387 -187.0909 31.4253 130.6386 -185.8593 30.48779 131.3498 -185.8593 31.4253 131.3497 -185.8593 31.4253 131.3497 -185.8593 31.4253 132.7719 -185.8593 30.48779 131.3498 -185.8593 30.48779 132.7719 -188.841 30.70655 133.8109 -188.841 29.70655 133.8109 -185.341 30.70655 133.8109 -185.341 29.70655 133.8109 -185.341 30.70655 133.8109 -185.341 29.70655 133.8109 -185.341 30.70655 130.3109 -185.341 29.70655 130.3109 -185.341 30.70655 130.3109 -185.341 29.70655 130.3109 -188.841 30.70655 130.3109 -188.841 29.70655 130.3109 -185.8593 30.4878 158.591 -185.8593 31.4253 158.591 -187.0909 30.4878 159.3022 -187.091 31.4253 159.3022 -187.0909 30.4878 159.3022 -187.091 31.4253 159.3022 -188.3226 30.4878 158.5911 -188.3226 31.4253 158.5911 -188.3226 30.4878 158.5911 -188.3226 31.4253 158.5911 -188.3226 30.4878 157.1689 -188.3226 31.4253 157.1689 -188.3226 30.4878 157.1689 -188.3226 31.4253 157.1689 -187.0909 30.4878 156.4578 -187.0909 31.4253 156.4577 -187.0909 30.4878 156.4578 -187.0909 31.4253 156.4577 -185.8593 30.4878 157.1689 -185.8593 31.4253 157.1688 -185.8593 31.4253 157.1688 -185.8593 31.4253 158.591 -185.8593 30.4878 157.1689 -185.8593 30.4878 158.591 -188.841 30.70655 156.13 -188.841 29.70655 156.13 -188.841 30.70655 159.63 -188.841 29.70655 159.63 -188.841 30.70655 159.63 -188.841 29.70655 159.63 -185.341 30.70655 159.63 -185.341 29.70655 159.63 -185.341 30.70655 159.63 -185.341 29.70655 159.63 -185.341 30.70655 156.13 -185.341 29.70655 156.13 -185.341 30.70655 156.13 -185.341 29.70655 156.13 -188.841 30.70655 156.13 -188.841 29.70655 156.13 -191.8988 31.046 159.3325 -189.5618 30.00002 159.3325 -191.8988 31.046 130.5035 -189.5618 30.00002 130.5034 -184.4953 29.7433 159.8802 -184.4953 29.7433 129.8873 -184.4953 30.41573 159.8802 -184.4953 30.4157 129.8873 -184.4953 29.7433 129.8873 -189.9559 29.7433 129.9373 -184.4953 30.4157 129.8873 -189.9559 30.4157 129.9373 -190.2287 30.4157 159.8802 -184.4953 30.41573 159.8802 -190.2287 29.7433 159.8802 -184.4953 29.7433 159.8802 -185.341 30.70655 133.8109 -185.341 30.70655 130.3109 -188.841 30.70655 133.8109 -188.841 30.70655 130.3109 -185.341 30.70655 159.63 -185.341 30.70655 156.13 -188.841 30.70655 159.63 -188.841 30.70655 156.13 -190.2287 30.4157 159.8802 -184.4953 30.41573 159.8802 -189.9559 30.4157 129.9373 -184.4953 30.4157 129.8873 -187.091 31.4253 133.4831 -187.0909 31.42528 132.0609 -188.3226 31.4253 132.772 -185.8593 31.4253 132.7719 -188.3226 31.4253 131.3498 -185.8593 31.4253 131.3497 -187.0909 31.4253 130.6386 -187.091 31.4253 159.3022 -187.0909 31.4253 157.88 -188.3226 31.4253 158.5911 -185.8593 31.4253 158.591 -188.3226 31.4253 157.1689 -185.8593 31.4253 157.1688 -187.0909 31.4253 156.4577</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-position-array" count="334" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-normal">
+          <float_array id="StickerSeal_gp45__WallRepeatParts_gp-normal-array" count="1002">-0.4579256 -0.888454 0 -0.4579256 -0.888454 0 -0.4579256 -0.888454 0 -0.4579256 -0.888454 0 0 0 1 0 0 1 0 0 1 0 0 1 0.4579256 0.888454 0 0.4579256 0.888454 0 0.4579256 0.888454 0 0.4579256 0.888454 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.4383562 -0.8571429 0.2700587 -0.4383562 -0.8571429 0.2700587 -0.4383562 -0.8571429 0.2700587 -0.4383562 -0.8571429 0.2700587 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.4579256 0.888454 0 0.4579256 0.888454 0 0.4579256 0.888454 0 0.4579256 0.888454 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.334638 0.9432485 0 0.334638 0.9432485 0 0.334638 0.9432485 0 0.334638 0.9432485 0 -1 0 -0.009784736 -1 0 -0.009784736 -1 0 -0.009784736 -1 0 -0.009784736 -0.009784736 0 -1 -0.009784736 0 -1 -0.009784736 0 -1 -0.009784736 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 1 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.4090019 0.9119374 0 0.4090019 0.9119374 0 0.4090019 0.9119374 0 0.4090019 0.9119374 0 1 0 0 1 0 0 1 0 0 1 0 0 -0.009784736 0 -1 -0.009784736 0 -1 -0.009784736 0 -1 -0.009784736 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-normal-array" count="334" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-color">
+          <float_array id="StickerSeal_gp45__WallRepeatParts_gp-color-array" count="1336">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-color-array" count="334" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-texcoord">
+          <float_array id="StickerSeal_gp45__WallRepeatParts_gp-texcoord-array" count="668">-0.991105 -0.319299 0.9724884 -0.319299 -0.991105 -0.3072934 0.9724884 -0.3072934 0.9724884 -0.3072934 -0.991105 -0.1815021 -0.991105 -0.3072934 1.051853 -0.1815021 1.051853 -0.06045532 -0.991105 -0.06045532 1.051853 -0.1804307 -0.991105 -0.1804307 0.6592571 -0.2629793 -0.25 -0.2629794 0.6652192 -0.2708685 -0.25 -0.2708685 4.060358 -0.3120544 2.088092 -0.3120544 4.060358 -0.32406 2.088074 -0.32406 4.060358 -0.3120544 4.060358 -0.1815021 2.088092 -0.3120544 1.975646 -0.1815021 1.975646 -0.06045532 1.975646 -0.1804307 4.060358 -0.06045532 4.060358 -0.1804307 0.8401036 -0.2629795 0.8341393 -0.2708685 1.75 -0.2629795 1.75 -0.2708687 4.822148 -0.1815019 4.896153 -0.3120544 4.896153 -0.2116592 1.166323 -0.2193902 1.166323 -0.3072934 1.241048 -0.1815021 4.896153 -0.2116592 4.896153 -0.1815019 4.822148 -0.1815019 4.822148 -0.3120544 4.896153 -0.3120544 1.166323 -0.2193902 1.241048 -0.1815021 1.166323 -0.1815021 1.166323 -0.3072934 1.241048 -0.3072934 3.793735 -0.06535029 3.793735 -0.09587002 3.8303 -0.06534863 3.8303 -0.0958674 3.8303 -0.06534863 3.8303 -0.0958674 3.866865 -0.06534958 3.866865 -0.0958674 3.866865 -0.06534958 3.866865 -0.0958674 3.903428 -0.06535149 3.903428 -0.09587002 3.903428 -0.06535149 3.903428 -0.09587002 3.939993 -0.06534934 3.939993 -0.09587693 3.939993 -0.06534934 3.939993 -0.09587693 3.976556 -0.06529605 3.976556 -0.09592426 3.976556 -0.09592426 4.01346 -0.09596765 3.976556 -0.06529605 4.01346 -0.06524754 3.418135 -0.151328 3.418135 -0.1804307 3.585446 -0.151328 3.585446 -0.1804307 3.585446 -0.151328 3.638242 -0.151328 3.585446 -0.08893788 3.638242 -0.08893788 3.585446 -0.08893788 3.585446 -0.06045532 3.418135 -0.08893788 3.418135 -0.06045532 3.418135 -0.08893788 3.364148 -0.08893788 3.418135 -0.151328 3.364148 -0.151328 3.793735 -0.06535029 3.793735 -0.09587002 3.8303 -0.06534863 3.8303 -0.0958674 3.8303 -0.06534863 3.8303 -0.0958674 3.866865 -0.06534958 3.866865 -0.0958674 3.866865 -0.06534958 3.866865 -0.0958674 3.903428 -0.06535149 3.903428 -0.09587002 3.903428 -0.06535149 3.903428 -0.09587002 3.939993 -0.06534934 3.939993 -0.09587693 3.939993 -0.06534934 3.939993 -0.09587693 3.976556 -0.06529605 3.976556 -0.09592426 3.976556 -0.09592426 4.01346 -0.09596765 3.976556 -0.06529605 4.01346 -0.06524754 3.418135 -0.151328 3.418135 -0.1804307 3.585446 -0.151328 3.585446 -0.1804307 3.585446 -0.151328 3.638242 -0.151328 3.585446 -0.08893788 3.638242 -0.08893788 3.585446 -0.08893788 3.585446 -0.06045532 3.418135 -0.08893788 3.418135 -0.06045532 3.418135 -0.08893788 3.364148 -0.08893788 3.418135 -0.151328 3.364148 -0.151328 4.177338 2 4.177338 1.942088 4.799077 2 4.799077 1.942088 -16.99527 -0.1880848 -16.5516 -0.1880848 -16.99527 -0.3143646 -16.5516 -0.3143646 -17.05191 -0.1880848 -16.99527 -0.1880848 -17.05191 -0.3143646 -16.99527 -0.3143646 -17.17205 -0.1880848 -17.05191 -0.1880848 -17.17205 -0.3143646 -17.05191 -0.3143646 -16.5516 -0.1880848 -16.50899 -0.1880848 -16.5516 -0.3143646 -16.50899 -0.3143646 4.896153 -0.32406 4.896153 -0.3120544 4.834195 -0.32406 4.822148 -0.3120544 4.383528 -0.3120551 4.060358 -0.3120544 4.383527 -0.3240573 4.060358 -0.32406 4.060358 -0.1815021 4.060358 -0.3120544 4.383527 -0.1815021 4.383528 -0.3120551 1.241048 -0.3072934 1.166323 -0.3072934 1.228636 -0.319299 1.166323 -0.319299 -0.991105 -0.319299 -0.991105 -0.3072934 -1.247961 -0.3192964 -1.247961 -0.3072942 -1.247961 -0.3072942 -0.991105 -0.3072934 -1.247961 -0.181502 -0.991105 -0.1815021 -0.25 -0.2708685 -0.25 -0.2629794 -0.6039754 -0.2708681 -0.6039471 -0.2629814 1.75 -0.2708687 2.10273 -0.2708679 1.75 -0.2629795 2.102708 -0.2629809 2.235914 1.198104 2.235914 1.198104 1.480458 1.198104 1.480458 1.198104 3.585446 -0.08893788 3.418135 -0.08893788 3.585446 -0.151328 3.418135 -0.151328 3.585446 -0.08893788 3.418135 -0.08893788 3.585446 -0.151328 3.418135 -0.151328 -1.247961 -0.1804307 -0.991105 -0.1804307 -1.247961 -0.06045532 -0.991105 -0.06045532 4.383527 -0.1804307 4.383527 -0.06045532 4.060358 -0.1804307 4.060358 -0.06045532 4.601196 -0.1804309 4.601196 -0.06045532 3.460068 -0.1804307 3.460068 -0.06045532 3.918065 -0.147001 3.955969 -0.147001 3.937342 -0.1145017 3.937458 -0.179548 3.974686 -0.1145017 3.974791 -0.179548 3.993096 -0.147001 3.918065 -0.147001 3.955969 -0.147001 3.937342 -0.1145017 3.937458 -0.179548 3.974686 -0.1145017 3.974791 -0.179548 3.993096 -0.147001 1.975646 -0.2669282 1.045665 -0.2275 3.793735 -0.06535029 3.793735 -0.09587002 3.8303 -0.06534863 3.8303 -0.0958674 3.8303 -0.06534863 3.8303 -0.0958674 3.866865 -0.06534958 3.866865 -0.0958674 3.903428 -0.06535149 3.903428 -0.09587002 3.939993 -0.06534934 3.939993 -0.09587693 3.939993 -0.06534934 3.939993 -0.09587693 3.976556 -0.06529605 3.976556 -0.09592426 3.976556 -0.09592426 4.01346 -0.09596765 3.976556 -0.06529605 4.01346 -0.06524754 3.585446 -0.151328 3.638242 -0.151328 3.585446 -0.08893788 3.638242 -0.08893788 3.585446 -0.08893788 3.585446 -0.06045532 3.418135 -0.08893788 3.418135 -0.06045532 3.418135 -0.08893788 3.364148 -0.08893788 3.418135 -0.151328 3.364148 -0.151328 3.793735 -0.06535029 3.793735 -0.09587002 3.8303 -0.06534863 3.8303 -0.0958674 3.8303 -0.06534863 3.8303 -0.0958674 3.866865 -0.06534958 3.866865 -0.0958674 3.866865 -0.06534958 3.866865 -0.0958674 3.903428 -0.06535149 3.903428 -0.09587002 3.903428 -0.06535149 3.903428 -0.09587002 3.939993 -0.06534934 3.939993 -0.09587693 3.939993 -0.06534934 3.939993 -0.09587693 3.976556 -0.06529605 3.976556 -0.09592426 3.976556 -0.09592426 4.01346 -0.09596765 3.976556 -0.06529605 4.01346 -0.06524754 3.418135 -0.151328 3.418135 -0.1804307 3.585446 -0.151328 3.585446 -0.1804307 3.585446 -0.151328 3.638242 -0.151328 3.585446 -0.08893788 3.638242 -0.08893788 3.585446 -0.08893788 3.585446 -0.06045532 3.418135 -0.08893788 3.418135 -0.06045532 3.418135 -0.08893788 3.364148 -0.08893788 3.418135 -0.151328 3.364148 -0.151328 8.221322 1.999728 8.221322 1.937516 8.843061 1.999063 8.843061 1.937516 1.901749 -0.1753099 1.45918 -0.1753099 1.90177 -0.181502 1.459202 -0.181502 1.452952 -0.1753099 1.453795 -0.3110318 1.459202 -0.181502 1.460044 -0.3109496 1.901996 -0.3109503 1.90177 -0.181502 1.895746 -0.3109715 1.89552 -0.1753099 3.585446 -0.08893788 3.418135 -0.08893788 3.585446 -0.151328 3.418135 -0.151328 3.585446 -0.08893788 3.418135 -0.08893788 3.585446 -0.151328 3.418135 -0.151328 2.89093 -0.1804307 2.89035 -0.06045532 2.34946 -0.1733282 2.354117 -0.05892611 3.918065 -0.147001 3.955969 -0.147001 3.937342 -0.1145017 3.937458 -0.179548 3.974686 -0.1145017 3.974791 -0.179548 3.993096 -0.147001 3.918065 -0.147001 3.955969 -0.147001 3.937342 -0.1145017 3.937458 -0.179548 3.974686 -0.1145017 3.974791 -0.179548 3.993096 -0.147001</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-texcoord-array" count="334" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-texcoord_1">
+          <float_array id="StickerSeal_gp45__WallRepeatParts_gp-texcoord-array_1" count="668">0.1289235 0.8459907 0.1289235 0.03912413 0.1338521 0.8459907 0.1338521 0.03912413 0.1338521 0.03912413 0.1855344 0.8459907 0.1338521 0.8459907 0.1855344 0.006515622 0.242649 0.008010983 0.242649 0.8474861 0.1933623 0.008010983 0.1933623 0.8474861 0.5348898 0.009872615 0.5348898 0.3834897 0.5316548 0.007415891 0.5316548 0.3834897 0.008560311 0.1394064 0.008560311 0.9498283 0.003631647 0.1394064 0.003631647 0.9498283 0.008560311 0.1394064 0.06221103 0.1394064 0.008560311 0.9498283 0.06221103 0.9960327 0.120943 0.9949188 0.07164111 0.9949188 0.120943 0.1382925 0.07164111 0.1382925 0.5456321 0.5227894 0.5423972 0.525246 0.5456321 0.1489128 0.5423972 0.1489128 0.8699474 0.07060349 0.9003586 0.01695275 0.9003586 0.05821317 0.8269932 0.4165866 0.8269932 0.3804684 0.8576944 0.432166 0.9003586 0.05821317 0.9003586 0.07060349 0.8699474 0.07060349 0.8699474 0.01695275 0.9003586 0.01695275 0.8269932 0.4165866 0.8576944 0.432166 0.8269932 0.432166 0.8269932 0.3804684 0.8576944 0.3804684 0.9075913 0.1715267 0.8950484 0.1715267 0.9075913 0.1564965 0.8950484 0.1564965 0.9075913 0.1564965 0.8950484 0.1564965 0.9075913 0.1414664 0.8950484 0.1414664 0.9075913 0.1414664 0.8950484 0.1414664 0.9075913 0.1264515 0.8950484 0.1264515 0.9075913 0.1264515 0.8950484 0.1264515 0.9075913 0.1114214 0.8950484 0.1114214 0.9075913 0.1114214 0.8950484 0.1114214 0.9076066 0.09639126 0.8950332 0.09639126 0.8950332 0.09639126 0.8950027 0.08123904 0.9076066 0.09639126 0.9076371 0.08123904 0.8049439 0.3070268 0.7929808 0.3070268 0.8049439 0.2382696 0.7929808 0.2382696 0.8049439 0.2382696 0.8049439 0.2165713 0.8305791 0.2382696 0.8305791 0.2165713 0.8305791 0.2382696 0.8422828 0.2382696 0.8305791 0.3070268 0.8422828 0.3070268 0.8305791 0.3070268 0.8305791 0.3291981 0.8049439 0.3070268 0.8049439 0.3291981 0.8843213 0.1715267 0.8717784 0.1715267 0.8843213 0.1564965 0.8717784 0.1564965 0.8843213 0.1564965 0.8717784 0.1564965 0.8843213 0.1414664 0.8717784 0.1414664 0.8843213 0.1414664 0.8717784 0.1414664 0.8843213 0.1264515 0.8717784 0.1264515 0.8843213 0.1264515 0.8717784 0.1264515 0.8843213 0.1114214 0.8717784 0.1114214 0.8843213 0.1114214 0.8717784 0.1114214 0.8843366 0.09639126 0.8717632 0.09639126 0.8717632 0.09639126 0.8717327 0.08123904 0.8843366 0.09639126 0.8843671 0.08123904 0.8711681 0.2694286 0.859205 0.2694286 0.8711681 0.2006866 0.859205 0.2006866 0.8711681 0.2006866 0.8711681 0.1789883 0.8968033 0.2006866 0.8968033 0.1789883 0.8968033 0.2006866 0.9085069 0.2006866 0.8968033 0.2694286 0.9085069 0.2694286 0.8968033 0.2694286 0.8968033 0.2916152 0.8711681 0.2694286 0.8711681 0.2916152 0.7040207 0.2630503 0.6802167 0.2630503 0.7040207 0.007583737 0.6802167 0.007583737 0.6193637 0.2057679 0.6193637 0.02346838 0.6712444 0.2057679 0.6712444 0.02346838 0.6193637 0.2290532 0.6193637 0.2057679 0.6712444 0.2290532 0.6712444 0.2057679 0.6193637 0.2784161 0.6193637 0.2290532 0.6712444 0.2784161 0.6712444 0.2290532 0.6193637 0.02346838 0.6193637 0.005951047 0.6712444 0.02346838 0.6712444 0.005951047 0.9003586 0.0120241 0.9003586 0.01695275 0.8749065 0.0120241 0.8699474 0.01695275 0.008560311 0.006607175 0.008560311 0.1394064 0.003631647 0.006607175 0.003631647 0.1394064 0.06221103 0.1394064 0.008560311 0.1394064 0.06221103 0.006607175 0.008560311 0.006607175 0.8576944 0.3804684 0.8269932 0.3804684 0.8525978 0.3755398 0.8269932 0.3755398 0.1289235 0.8459907 0.1338521 0.8459907 0.1289235 0.9515374 0.1338521 0.9515374 0.1338521 0.9515374 0.1338521 0.8459907 0.1855344 0.9515374 0.1855344 0.8459907 0.5316548 0.3834897 0.5348898 0.3834897 0.5316548 0.528954 0.5348898 0.5289388 0.5423972 0.1489128 0.5423972 0.003967345 0.5456321 0.1489128 0.5456321 0.003982604 0.6104066 0.007949948 0.6104066 0.007949948 0.6104066 0.3183795 0.6104066 0.3183795 0.9099107 0.2995041 0.9099107 0.368246 0.8842756 0.2995041 0.8842756 0.368246 0.8758984 0.2977035 0.8758984 0.3664607 0.8502632 0.2977035 0.8502632 0.3664607 0.1933623 0.9530327 0.1933623 0.8474861 0.242649 0.9530327 0.242649 0.8474861 0.07164111 0.005493224 0.120943 0.005493224 0.07164111 0.1382925 0.120943 0.1382925 0.5531243 0.006225705 0.6024262 0.006225705 0.5531243 0.4751202 0.6024262 0.4751202 0.6398871 0.4152132 0.6398871 0.3996338 0.653254 0.4072785 0.6265202 0.4072328 0.653254 0.3919432 0.6265202 0.3918974 0.6398871 0.3843747 0.8797436 0.4080415 0.8797436 0.3924773 0.8930953 0.400122 0.8663768 0.4000763 0.8930953 0.3847868 0.8663768 0.3847409 0.8797436 0.3772183 0.02710002 0.9960327 0.1666438 0.00906384 0.6534218 0.3773556 0.6408789 0.3773556 0.6534218 0.3623407 0.6408789 0.3623407 0.6534218 0.3623407 0.6408789 0.3623407 0.6534218 0.3473106 0.6408789 0.3473106 0.6534218 0.3322805 0.6408789 0.3322805 0.6534218 0.3172656 0.6408789 0.3172656 0.6534218 0.3172656 0.6408789 0.3172656 0.6534371 0.3022354 0.6408637 0.3022354 0.6408637 0.3022354 0.6408331 0.2870679 0.6534371 0.3022354 0.6534676 0.2870679 0.6814374 0.2919661 0.6814374 0.2702678 0.7070726 0.2919661 0.7070726 0.2702678 0.7070726 0.2919661 0.7187762 0.2919661 0.7070726 0.3607233 0.7187762 0.3607233 0.7070726 0.3607233 0.7070726 0.3828946 0.6814374 0.3607233 0.6814374 0.3828946 0.6319371 0.3773556 0.6193942 0.3773556 0.6319371 0.3623407 0.6193942 0.3623407 0.6319371 0.3623407 0.6193942 0.3623407 0.6319371 0.3473106 0.6193942 0.3473106 0.6319371 0.3473106 0.6193942 0.3473106 0.6319371 0.3322805 0.6193942 0.3322805 0.6319371 0.3322805 0.6193942 0.3322805 0.6319371 0.3172656 0.6193942 0.3172656 0.6319371 0.3172656 0.6193942 0.3172656 0.6319677 0.3022354 0.619379 0.3022354 0.619379 0.3022354 0.6193637 0.2870679 0.6319677 0.3022354 0.6319829 0.2870679 0.7476615 0.3392386 0.7356985 0.3392386 0.7476615 0.2704814 0.7356985 0.2704814 0.7476615 0.2704814 0.7476615 0.2487984 0.7732967 0.2704814 0.7732967 0.2487984 0.7732967 0.2704814 0.7850004 0.2704814 0.7732967 0.3392386 0.7850004 0.3392386 0.7732967 0.3392386 0.7732967 0.3614252 0.7476615 0.3392386 0.7476615 0.3614252 0.7380026 0.2620584 0.7124285 0.2620584 0.7377279 0.006576657 0.7124285 0.006576657 0.8620279 0.007324338 0.8620279 0.1891813 0.8594797 0.007309079 0.8594797 0.1891661 0.8620279 0.1917296 0.8062562 0.1913939 0.8594797 0.1891661 0.8062867 0.1888151 0.8062867 0.007217526 0.8594797 0.007309079 0.8062867 0.009781063 0.8620279 0.009872615 0.7523919 0.3675135 0.7523919 0.4362707 0.7267567 0.3675135 0.7267567 0.4362707 0.818616 0.3353018 0.818616 0.4040436 0.7929808 0.3353018 0.7929808 0.4040436 0.7464408 0.008026242 0.7957428 0.008255124 0.7493706 0.230518 0.7963684 0.2286107 0.7741359 0.4366827 0.7741359 0.4211032 0.7874876 0.4287633 0.7607691 0.4287175 0.7874876 0.4134127 0.7607691 0.4133822 0.7741359 0.4058595 0.6756848 0.4205692 0.6756848 0.405005 0.6890516 0.4126498 0.6623179 0.412604 0.6890516 0.3973144 0.6623179 0.3972687 0.6756848 0.389746</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-texcoord-array_1" count="334" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="StickerSeal_gp45__WallRepeatParts_gp-vertex">
+          <input semantic="POSITION" source="#StickerSeal_gp45__WallRepeatParts_gp-position" />
+        </vertices>
+        <triangles material="WallRepeatParts_gp" count="176">
+          <input semantic="VERTEX" source="#StickerSeal_gp45__WallRepeatParts_gp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#StickerSeal_gp45__WallRepeatParts_gp-normal" offset="1" />
+          <input semantic="COLOR" source="#StickerSeal_gp45__WallRepeatParts_gp-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp45__WallRepeatParts_gp-texcoord" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp45__WallRepeatParts_gp-texcoord_1" offset="4" set="1" />
+          <p>0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 1 1 1 1 1 3 3 3 3 3 2 2 2 2 2 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 7 7 7 7 7 5 5 5 5 5 4 4 4 4 4 8 8 8 8 8 9 9 9 9 9 10 10 10 10 10 9 9 9 9 9 11 11 11 11 11 10 10 10 10 10 12 12 12 12 12 13 13 13 13 13 14 14 14 14 14 13 13 13 13 13 15 15 15 15 15 14 14 14 14 14 16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 17 17 17 17 17 19 19 19 19 19 18 18 18 18 18 20 20 20 20 20 21 21 21 21 21 22 22 22 22 22 21 21 21 21 21 23 23 23 23 23 22 22 22 22 22 24 24 24 24 24 25 25 25 25 25 26 26 26 26 26 25 25 25 25 25 27 27 27 27 27 26 26 26 26 26 28 28 28 28 28 29 29 29 29 29 30 30 30 30 30 29 29 29 29 29 31 31 31 31 31 30 30 30 30 30 32 32 32 32 32 33 33 33 33 33 34 34 34 34 34 35 35 35 35 35 36 36 36 36 36 37 37 37 37 37 38 38 38 38 38 39 39 39 39 39 40 40 40 40 40 40 40 40 40 40 41 41 41 41 41 42 42 42 42 42 43 43 43 43 43 44 44 44 44 44 45 45 45 45 45 44 44 44 44 44 46 46 46 46 46 47 47 47 47 47 48 48 48 48 48 49 49 49 49 49 50 50 50 50 50 49 49 49 49 49 51 51 51 51 51 50 50 50 50 50 52 52 52 52 52 53 53 53 53 53 54 54 54 54 54 53 53 53 53 53 55 55 55 55 55 54 54 54 54 54 56 56 56 56 56 57 57 57 57 57 58 58 58 58 58 57 57 57 57 57 59 59 59 59 59 58 58 58 58 58 60 60 60 60 60 61 61 61 61 61 62 62 62 62 62 61 61 61 61 61 63 63 63 63 63 62 62 62 62 62 64 64 64 64 64 65 65 65 65 65 66 66 66 66 66 65 65 65 65 65 67 67 67 67 67 66 66 66 66 66 68 68 68 68 68 69 69 69 69 69 70 70 70 70 70 69 69 69 69 69 71 71 71 71 71 70 70 70 70 70 72 72 72 72 72 73 73 73 73 73 74 74 74 74 74 73 73 73 73 73 75 75 75 75 75 74 74 74 74 74 76 76 76 76 76 77 77 77 77 77 78 78 78 78 78 77 77 77 77 77 79 79 79 79 79 78 78 78 78 78 80 80 80 80 80 81 81 81 81 81 82 82 82 82 82 81 81 81 81 81 83 83 83 83 83 82 82 82 82 82 84 84 84 84 84 85 85 85 85 85 86 86 86 86 86 85 85 85 85 85 87 87 87 87 87 86 86 86 86 86 88 88 88 88 88 89 89 89 89 89 90 90 90 90 90 89 89 89 89 89 91 91 91 91 91 90 90 90 90 90 92 92 92 92 92 93 93 93 93 93 94 94 94 94 94 93 93 93 93 93 95 95 95 95 95 94 94 94 94 94 96 96 96 96 96 97 97 97 97 97 98 98 98 98 98 97 97 97 97 97 99 99 99 99 99 98 98 98 98 98 100 100 100 100 100 101 101 101 101 101 102 102 102 102 102 101 101 101 101 101 103 103 103 103 103 102 102 102 102 102 104 104 104 104 104 105 105 105 105 105 106 106 106 106 106 105 105 105 105 105 107 107 107 107 107 106 106 106 106 106 108 108 108 108 108 109 109 109 109 109 110 110 110 110 110 109 109 109 109 109 111 111 111 111 111 110 110 110 110 110 112 112 112 112 112 113 113 113 113 113 114 114 114 114 114 113 113 113 113 113 115 115 115 115 115 114 114 114 114 114 116 116 116 116 116 117 117 117 117 117 118 118 118 118 118 117 117 117 117 117 119 119 119 119 119 118 118 118 118 118 120 120 120 120 120 121 121 121 121 121 122 122 122 122 122 121 121 121 121 121 123 123 123 123 123 122 122 122 122 122 124 124 124 124 124 125 125 125 125 125 126 126 126 126 126 125 125 125 125 125 127 127 127 127 127 126 126 126 126 126 128 128 128 128 128 129 129 129 129 129 130 130 130 130 130 129 129 129 129 129 131 131 131 131 131 130 130 130 130 130 132 132 132 132 132 133 133 133 133 133 134 134 134 134 134 133 133 133 133 133 135 135 135 135 135 134 134 134 134 134 136 136 136 136 136 137 137 137 137 137 138 138 138 138 138 137 137 137 137 137 139 139 139 139 139 138 138 138 138 138 140 140 140 140 140 141 141 141 141 141 142 142 142 142 142 141 141 141 141 141 143 143 143 143 143 142 142 142 142 142 144 144 144 144 144 145 145 145 145 145 146 146 146 146 146 145 145 145 145 145 147 147 147 147 147 146 146 146 146 146 148 148 148 148 148 149 149 149 149 149 150 150 150 150 150 149 149 149 149 149 151 151 151 151 151 150 150 150 150 150 152 152 152 152 152 153 153 153 153 153 154 154 154 154 154 153 153 153 153 153 155 155 155 155 155 154 154 154 154 154 156 156 156 156 156 157 157 157 157 157 158 158 158 158 158 157 157 157 157 157 159 159 159 159 159 158 158 158 158 158 160 160 160 160 160 161 161 161 161 161 162 162 162 162 162 161 161 161 161 161 163 163 163 163 163 162 162 162 162 162 164 164 164 164 164 165 165 165 165 165 166 166 166 166 166 165 165 165 165 165 167 167 167 167 167 166 166 166 166 166 168 168 168 168 168 169 169 169 169 169 170 170 170 170 170 169 169 169 169 169 171 171 171 171 171 170 170 170 170 170 172 172 172 172 172 173 173 173 173 173 174 174 174 174 174 173 173 173 173 173 175 175 175 175 175 174 174 174 174 174 176 176 176 176 176 177 177 177 177 177 178 178 178 178 178 177 177 177 177 177 179 179 179 179 179 178 178 178 178 178 180 180 180 180 180 181 181 181 181 181 182 182 182 182 182 181 181 181 181 181 183 183 183 183 183 182 182 182 182 182 184 184 184 184 184 185 185 185 185 185 186 186 186 186 186 185 185 185 185 185 187 187 187 187 187 186 186 186 186 186 188 188 188 188 188 189 189 189 189 189 190 190 190 190 190 189 189 189 189 189 191 191 191 191 191 190 190 190 190 190 192 192 192 192 192 193 193 193 193 193 194 194 194 194 194 193 193 193 193 193 195 195 195 195 195 194 194 194 194 194 196 196 196 196 196 197 197 197 197 197 198 198 198 198 198 197 197 197 197 197 199 199 199 199 199 198 198 198 198 198 200 200 200 200 200 201 201 201 201 201 202 202 202 202 202 201 201 201 201 201 203 203 203 203 203 202 202 202 202 202 204 204 204 204 204 205 205 205 205 205 206 206 206 206 206 204 204 204 204 204 207 207 207 207 207 205 205 205 205 205 205 205 205 205 205 208 208 208 208 208 206 206 206 206 206 205 205 205 205 205 207 207 207 207 207 209 209 209 209 209 205 205 205 205 205 210 210 210 210 210 208 208 208 208 208 205 205 205 205 205 209 209 209 209 209 210 210 210 210 210 211 211 211 211 211 212 212 212 212 212 213 213 213 213 213 211 211 211 211 211 214 214 214 214 214 212 212 212 212 212 212 212 212 212 212 215 215 215 215 215 213 213 213 213 213 212 212 212 212 212 214 214 214 214 214 216 216 216 216 216 212 212 212 212 212 217 217 217 217 217 215 215 215 215 215 212 212 212 212 212 216 216 216 216 216 217 217 217 217 217 218 218 218 218 218 22 22 22 22 22 23 23 23 23 23 4 4 4 4 4 219 219 219 219 219 7 7 7 7 7 220 220 220 220 220 221 221 221 221 221 222 222 222 222 222 221 221 221 221 221 223 223 223 223 223 222 222 222 222 222 224 224 224 224 224 225 225 225 225 225 226 226 226 226 226 225 225 225 225 225 227 227 227 227 227 226 226 226 226 226 228 228 228 228 228 229 229 229 229 229 230 230 230 230 230 229 229 229 229 229 231 231 231 231 231 230 230 230 230 230 232 232 232 232 232 233 233 233 233 233 234 234 234 234 234 233 233 233 233 233 235 235 235 235 235 234 234 234 234 234 236 236 236 236 236 237 237 237 237 237 238 238 238 238 238 237 237 237 237 237 239 239 239 239 239 238 238 238 238 238 240 240 240 240 240 241 241 241 241 241 242 242 242 242 242 241 241 241 241 241 243 243 243 243 243 242 242 242 242 242 244 244 244 244 244 245 245 245 245 245 246 246 246 246 246 245 245 245 245 245 247 247 247 247 247 246 246 246 246 246 248 248 248 248 248 249 249 249 249 249 250 250 250 250 250 249 249 249 249 249 251 251 251 251 251 250 250 250 250 250 252 252 252 252 252 253 253 253 253 253 254 254 254 254 254 253 253 253 253 253 255 255 255 255 255 254 254 254 254 254 256 256 256 256 256 257 257 257 257 257 258 258 258 258 258 257 257 257 257 257 259 259 259 259 259 258 258 258 258 258 260 260 260 260 260 261 261 261 261 261 262 262 262 262 262 261 261 261 261 261 263 263 263 263 263 262 262 262 262 262 264 264 264 264 264 265 265 265 265 265 266 266 266 266 266 265 265 265 265 265 267 267 267 267 267 266 266 266 266 266 268 268 268 268 268 269 269 269 269 269 270 270 270 270 270 269 269 269 269 269 271 271 271 271 271 270 270 270 270 270 272 272 272 272 272 273 273 273 273 273 274 274 274 274 274 273 273 273 273 273 275 275 275 275 275 274 274 274 274 274 276 276 276 276 276 277 277 277 277 277 278 278 278 278 278 277 277 277 277 277 279 279 279 279 279 278 278 278 278 278 280 280 280 280 280 281 281 281 281 281 282 282 282 282 282 281 281 281 281 281 283 283 283 283 283 282 282 282 282 282 284 284 284 284 284 285 285 285 285 285 286 286 286 286 286 285 285 285 285 285 287 287 287 287 287 286 286 286 286 286 288 288 288 288 288 289 289 289 289 289 290 290 290 290 290 289 289 289 289 289 291 291 291 291 291 290 290 290 290 290 292 292 292 292 292 293 293 293 293 293 294 294 294 294 294 293 293 293 293 293 295 295 295 295 295 294 294 294 294 294 296 296 296 296 296 297 297 297 297 297 298 298 298 298 298 297 297 297 297 297 299 299 299 299 299 298 298 298 298 298 300 300 300 300 300 301 301 301 301 301 302 302 302 302 302 301 301 301 301 301 303 303 303 303 303 302 302 302 302 302 304 304 304 304 304 305 305 305 305 305 306 306 306 306 306 305 305 305 305 305 307 307 307 307 307 306 306 306 306 306 308 308 308 308 308 309 309 309 309 309 310 310 310 310 310 309 309 309 309 309 311 311 311 311 311 310 310 310 310 310 312 312 312 312 312 313 313 313 313 313 314 314 314 314 314 313 313 313 313 313 315 315 315 315 315 314 314 314 314 314 316 316 316 316 316 317 317 317 317 317 318 318 318 318 318 317 317 317 317 317 319 319 319 319 319 318 318 318 318 318 320 320 320 320 320 321 321 321 321 321 322 322 322 322 322 320 320 320 320 320 323 323 323 323 323 321 321 321 321 321 321 321 321 321 321 324 324 324 324 324 322 322 322 322 322 321 321 321 321 321 323 323 323 323 323 325 325 325 325 325 321 321 321 321 321 326 326 326 326 326 324 324 324 324 324 321 321 321 321 321 325 325 325 325 325 326 326 326 326 326 327 327 327 327 327 328 328 328 328 328 329 329 329 329 329 327 327 327 327 327 330 330 330 330 330 328 328 328 328 328 328 328 328 328 328 331 331 331 331 331 329 329 329 329 329 328 328 328 328 328 330 330 330 330 330 332 332 332 332 332 328 328 328 328 328 333 333 333 333 333 331 331 331 331 331 328 328 328 328 328 332 332 332 332 332 333 333 333 333 333 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="StickerSeal_wp37__StickerSeal_wp-mesh" name="StickerSeal_wp37__StickerSeal_wp">
+      <mesh>
+        <source id="StickerSeal_wp37__StickerSeal_wp-position">
+          <float_array id="StickerSeal_wp37__StickerSeal_wp-position-array" count="24">-250.9383 41.94032 129.8861 -260.3604 43.6237 129.8861 -249.9101 48.92281 129.8861 -259.1019 50.49897 129.8861 -280.0449 33.41844 149.217 -280.0449 35.10182 158.6391 -280.0449 40.40093 148.1888 -280.0449 41.97709 157.3806</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_wp37__StickerSeal_wp-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_wp37__StickerSeal_wp-normal">
+          <float_array id="StickerSeal_wp37__StickerSeal_wp-normal-array" count="24">0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_wp37__StickerSeal_wp-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_wp37__StickerSeal_wp-texcoord">
+          <float_array id="StickerSeal_wp37__StickerSeal_wp-texcoord-array" count="16">2.214844 0.6811523 2.316406 0.6811523 2.214844 0.7506104 2.316406 0.7504883 2.007813 0.4296875 2.107422 0.4296875 2.007813 0.4995117 2.107422 0.4995117</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_wp37__StickerSeal_wp-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_wp37__StickerSeal_wp-texcoord_1">
+          <float_array id="StickerSeal_wp37__StickerSeal_wp-texcoord-array_1" count="16">0.003967346 0.7128404 0.004089418 0.002838194 0.4936751 0.7128404 0.4924697 0.002838194 0.5063249 0.7140307 0.506447 0.00402838 0.9960327 0.7140307 0.9948272 0.00402838</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_wp37__StickerSeal_wp-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="StickerSeal_wp37__StickerSeal_wp-vertex">
+          <input semantic="POSITION" source="#StickerSeal_wp37__StickerSeal_wp-position" />
+        </vertices>
+        <triangles material="StickerSeal_wp" count="4">
+          <input semantic="VERTEX" source="#StickerSeal_wp37__StickerSeal_wp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#StickerSeal_wp37__StickerSeal_wp-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#StickerSeal_wp37__StickerSeal_wp-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#StickerSeal_wp37__StickerSeal_wp-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube19828__SheetVinyl-mesh" name="pCube19828__SheetVinyl">
+      <mesh>
+        <source id="pCube19828__SheetVinyl-position">
+          <float_array id="pCube19828__SheetVinyl-position-array" count="180">-249.7879 30.97286 130.0021 -193.7633 30.97286 130.0021 -249.7879 29.97286 130.0021 -193.7633 29.97286 130.0021 -249.7879 30.97286 130.5021 -193.7633 30.97286 130.5021 -249.7879 30.97286 130.0021 -193.7633 30.97286 130.0021 -250.0374 57.43539 131.0536 -250.0379 57.43419 130.0413 -194.8503 29.51968 131.0536 -194.9297 29.5584 130.0413 -249.6369 58.35024 130.0413 -249.6369 58.35024 131.0387 -192.8956 29.6484 130.0413 -192.82 29.61013 131.0387 -250.0379 57.43419 130.0413 -249.6369 58.35024 130.0413 -194.9297 29.5584 130.0413 -192.8956 29.6484 130.0413 -249.5388 30 130.5035 -249.5168 58.01722 130.5035 -189.5617 30 130.5035 -249.5168 60.01722 130.5035 -280.0057 32.97009 160.0046 -280.0057 57 160.0046 -280.0057 32.97009 129.9551 -280.0057 57 129.9551 -249.8022 57 129.9551 -249.8022 32.97009 129.9551 -280.0057 57 129.9551 -280.0057 32.97009 129.9551 -248.8352 57.44785 130.0021 -248.8084 29.90872 130.0021 -249.8084 29.90872 130.0021 -249.8352 57.44785 130.0021 -248.8352 57.44785 130.5021 -248.8084 29.90872 130.5021 -248.8084 29.90872 130.0021 -248.8352 57.44785 130.0021 -248.8084 29.90872 130.5021 -249.8084 29.90872 130.5021 -248.8084 29.90872 130.0021 -249.8084 29.90872 130.0021 -226.4057 46.23685 130.1928 -225.4057 46.23685 130.1928 -226.4057 30.92977 130.1928 -225.4057 30.92977 130.1928 -226.4044 46.23685 131.205 -226.4057 46.23685 130.1928 -226.4044 30.92977 131.205 -226.4057 30.92977 130.1928 -225.4057 46.23685 130.1928 -225.4057 46.23685 131.1902 -225.4057 30.92977 130.1928 -225.4057 30.92977 131.1902 -193.7633 29.97286 130.5021 -193.7633 29.97286 130.0021 -193.7633 30.97286 130.0021 -193.7633 30.97286 130.5021</float_array>
+          <technique_common>
+            <accessor source="#pCube19828__SheetVinyl-position-array" count="60" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19828__SheetVinyl-normal">
+          <float_array id="pCube19828__SheetVinyl-normal-array" count="180">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 -0.4520548 -0.8923679 0.001956947 -0.4520548 -0.8923679 0.001956947 -0.4520548 -0.8923679 0.001956947 -0.4520548 -0.8923679 0.001956947 0.4520548 0.8923679 0 0.4520548 0.8923679 0 0.4520548 0.8923679 0 0.4520548 0.8923679 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0.001956947 -1 0 0.001956947 -1 0 0.001956947 -1 0 0.001956947 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#pCube19828__SheetVinyl-normal-array" count="60" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19828__SheetVinyl-texcoord">
+          <float_array id="pCube19828__SheetVinyl-texcoord-array" count="120">1.007039 -0.03308177 0.007039275 -0.03308177 1.007039 -0.04500186 0.007039275 -0.04500186 1.007039 -0.03308177 0.007039275 -0.03308177 1.007039 -0.03308177 0.007039275 -0.03308177 0.5070393 -0.04500186 0.5070393 -0.03308177 0.0351417 -0.04500186 0.03581676 -0.03308177 0.5070393 -0.03308177 0.5070393 -0.01855505 0.02185273 -0.03308177 0.02120575 -0.01855505 0.5070393 -0.04500186 0.5070393 -0.03308177 0.03581676 -0.04500186 0.02185273 -0.03308177 11.42929 2.489483 11.42929 2.979143 10.34308 2.489483 11.42929 3.007337 9.502622 -1.498632 9.502621 -1.004279 8.996338 -1.498632 8.996337 -0.9983416 8.498774 -0.9983439 8.498774 -1.498632 8.996337 -0.9983416 8.996338 -1.498632 0.5070393 -0.03308177 0.007039275 -0.03308177 0.007039275 -0.04500186 0.5070393 -0.04500186 0.5070393 -0.03308177 0.007039275 -0.03308177 0.007039275 -0.03308177 0.5070393 -0.03308177 0.007039275 -0.03308177 0.007039275 -0.04500186 0.007039275 -0.03308177 0.007039275 -0.04500186 0.5070393 -0.04500186 0.5070393 -0.03308177 0.007039275 -0.04500186 0.007039275 -0.03308177 0.5070393 -0.04500186 0.5070393 -0.03308177 0.007039275 -0.04500186 0.007039275 -0.03308177 0.5070393 -0.03308177 0.5070393 -0.03308177 0.007039275 -0.03308177 0.007039275 -0.03308177 0.007039275 -0.04500186 0.007039275 -0.04500186 0.007039275 -0.03308177 0.007039275 -0.03308177</float_array>
+          <technique_common>
+            <accessor source="#pCube19828__SheetVinyl-texcoord-array" count="60" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19828__SheetVinyl-texcoord_1">
+          <float_array id="pCube19828__SheetVinyl-texcoord-array_1" count="120">0.4771954 0.04849315 0.4771954 0.9602808 0.466331 0.04849315 0.466331 0.9602808 0.4771954 0.04849315 0.4771954 0.9602808 0.4771954 0.04849315 0.4771954 0.9602808 0.3726864 0.2424201 0.383566 0.2424201 0.3726864 0.672694 0.383566 0.6720836 0.4022889 0.2061036 0.4022889 0.2061036 0.4022889 0.6484932 0.4022889 0.6490883 0.3914244 0.2061036 0.4022889 0.2061036 0.3914244 0.6357672 0.4022889 0.6484932 0.003753719 0.005630553 0.4502175 0.005630553 0.003753719 0.9960327 0.4759289 0.005630553 0.4850538 0.003967345 0.9358053 0.003967345 0.4850538 0.4655985 0.9412223 0.4655985 0.9412223 0.9192645 0.4850538 0.9192645 0.9412223 0.4655985 0.4850538 0.4655985 0.4584726 0.08540475 0.4584726 0.5412985 0.4476081 0.5412985 0.4476081 0.08540475 0.4584726 0.08540475 0.4584726 0.5412985 0.4584726 0.5412985 0.4584726 0.08540475 0.4584726 0.5412985 0.4476081 0.5412985 0.4584726 0.5412985 0.4476081 0.5412985 0.4101472 0.164065 0.4210117 0.164065 0.4101472 0.6199588 0.4210117 0.6199588 0.4288701 0.1247425 0.4397497 0.1247425 0.4288701 0.5806363 0.4397497 0.5806363 0.4210117 0.164065 0.4210117 0.164065 0.4210117 0.6199588 0.4210117 0.6199588 0.466331 0.9602808 0.466331 0.9602808 0.4771954 0.9602808 0.4771954 0.9602808</float_array>
+          <technique_common>
+            <accessor source="#pCube19828__SheetVinyl-texcoord-array_1" count="60" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube19828__SheetVinyl-vertex">
+          <input semantic="POSITION" source="#pCube19828__SheetVinyl-position" />
+        </vertices>
+        <triangles material="SheetVinyl" count="30">
+          <input semantic="VERTEX" source="#pCube19828__SheetVinyl-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube19828__SheetVinyl-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube19828__SheetVinyl-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube19828__SheetVinyl-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 35 35 35 35 32 32 32 32 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 39 39 39 39 36 36 36 36 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 59 59 59 59 56 56 56 56 58 58 58 58 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube19829__GroundCarpet-mesh" name="pCube19829__GroundCarpet">
+      <mesh>
+        <source id="pCube19829__GroundCarpet-position">
+          <float_array id="pCube19829__GroundCarpet-position-array" count="12">-277.0057 60 157.0046 -252.8022 60 157.0046 -277.0057 60 132.9551 -252.8022 60 132.9551</float_array>
+          <technique_common>
+            <accessor source="#pCube19829__GroundCarpet-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19829__GroundCarpet-normal">
+          <float_array id="pCube19829__GroundCarpet-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube19829__GroundCarpet-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19829__GroundCarpet-texcoord">
+          <float_array id="pCube19829__GroundCarpet-texcoord-array" count="8">1.995117 0.5029297 1.995117 1.005581 1.496094 0.5029297 1.496094 1.005581</float_array>
+          <technique_common>
+            <accessor source="#pCube19829__GroundCarpet-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19829__GroundCarpet-texcoord_1">
+          <float_array id="pCube19829__GroundCarpet-texcoord-array_1" count="8">0.9882353 0.003921568 0.9882353 0.9960784 0.003921569 0.003921568 0.003921569 0.9960784</float_array>
+          <technique_common>
+            <accessor source="#pCube19829__GroundCarpet-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube19829__GroundCarpet-vertex">
+          <input semantic="POSITION" source="#pCube19829__GroundCarpet-position" />
+        </vertices>
+        <triangles material="GroundCarpet" count="2">
+          <input semantic="VERTEX" source="#pCube19829__GroundCarpet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube19829__GroundCarpet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube19829__GroundCarpet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube19829__GroundCarpet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_StickerSeal_gp42__WallRepeatParts_gp-mesh">
+      <skin source="#StickerSeal_gp42__WallRepeatParts_gp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="StickerSeal_gp42__WallRepeatParts_gp-mesh-joint">
+          <Name_array id="StickerSeal_gp42__WallRepeatParts_gp-mesh-joint-array" count="1">Obj_VenueHokoSlopeB</Name_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp42__WallRepeatParts_gp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp42__WallRepeatParts_gp-mesh-inv_bind_matrix">
+          <float_array id="StickerSeal_gp42__WallRepeatParts_gp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp42__WallRepeatParts_gp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp42__WallRepeatParts_gp-mesh-weight">
+          <float_array id="StickerSeal_gp42__WallRepeatParts_gp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp42__WallRepeatParts_gp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#StickerSeal_gp42__WallRepeatParts_gp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#StickerSeal_gp42__WallRepeatParts_gp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#StickerSeal_gp42__WallRepeatParts_gp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#StickerSeal_gp42__WallRepeatParts_gp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_StickerSeal_gp43__SlopeMetalPlate_gp-mesh">
+      <skin source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="StickerSeal_gp43__SlopeMetalPlate_gp-mesh-joint">
+          <Name_array id="StickerSeal_gp43__SlopeMetalPlate_gp-mesh-joint-array" count="1">Obj_VenueHokoSlopeB</Name_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp43__SlopeMetalPlate_gp-mesh-inv_bind_matrix">
+          <float_array id="StickerSeal_gp43__SlopeMetalPlate_gp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp43__SlopeMetalPlate_gp-mesh-weight">
+          <float_array id="StickerSeal_gp43__SlopeMetalPlate_gp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#StickerSeal_gp43__SlopeMetalPlate_gp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_StickerSeal_gp45__WallRepeatParts_gp-mesh">
+      <skin source="#StickerSeal_gp45__WallRepeatParts_gp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-mesh-joint">
+          <Name_array id="StickerSeal_gp45__WallRepeatParts_gp-mesh-joint-array" count="1">Obj_VenueHokoSlopeB</Name_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-mesh-inv_bind_matrix">
+          <float_array id="StickerSeal_gp45__WallRepeatParts_gp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp45__WallRepeatParts_gp-mesh-weight">
+          <float_array id="StickerSeal_gp45__WallRepeatParts_gp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp45__WallRepeatParts_gp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#StickerSeal_gp45__WallRepeatParts_gp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#StickerSeal_gp45__WallRepeatParts_gp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="334">
+          <input semantic="JOINT" source="#StickerSeal_gp45__WallRepeatParts_gp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#StickerSeal_gp45__WallRepeatParts_gp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_StickerSeal_wp37__StickerSeal_wp-mesh">
+      <skin source="#StickerSeal_wp37__StickerSeal_wp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="StickerSeal_wp37__StickerSeal_wp-mesh-joint">
+          <Name_array id="StickerSeal_wp37__StickerSeal_wp-mesh-joint-array" count="1">Obj_VenueHokoSlopeB</Name_array>
+          <technique_common>
+            <accessor source="#StickerSeal_wp37__StickerSeal_wp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_wp37__StickerSeal_wp-mesh-inv_bind_matrix">
+          <float_array id="StickerSeal_wp37__StickerSeal_wp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_wp37__StickerSeal_wp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_wp37__StickerSeal_wp-mesh-weight">
+          <float_array id="StickerSeal_wp37__StickerSeal_wp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_wp37__StickerSeal_wp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#StickerSeal_wp37__StickerSeal_wp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#StickerSeal_wp37__StickerSeal_wp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#StickerSeal_wp37__StickerSeal_wp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#StickerSeal_wp37__StickerSeal_wp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube19828__SheetVinyl-mesh">
+      <skin source="#pCube19828__SheetVinyl-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube19828__SheetVinyl-mesh-joint">
+          <Name_array id="pCube19828__SheetVinyl-mesh-joint-array" count="1">Obj_VenueHokoSlopeB</Name_array>
+          <technique_common>
+            <accessor source="#pCube19828__SheetVinyl-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19828__SheetVinyl-mesh-inv_bind_matrix">
+          <float_array id="pCube19828__SheetVinyl-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube19828__SheetVinyl-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19828__SheetVinyl-mesh-weight">
+          <float_array id="pCube19828__SheetVinyl-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube19828__SheetVinyl-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube19828__SheetVinyl-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube19828__SheetVinyl-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="60">
+          <input semantic="JOINT" source="#pCube19828__SheetVinyl-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube19828__SheetVinyl-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube19829__GroundCarpet-mesh">
+      <skin source="#pCube19829__GroundCarpet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube19829__GroundCarpet-mesh-joint">
+          <Name_array id="pCube19829__GroundCarpet-mesh-joint-array" count="1">Obj_VenueHokoSlopeB</Name_array>
+          <technique_common>
+            <accessor source="#pCube19829__GroundCarpet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19829__GroundCarpet-mesh-inv_bind_matrix">
+          <float_array id="pCube19829__GroundCarpet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube19829__GroundCarpet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube19829__GroundCarpet-mesh-weight">
+          <float_array id="pCube19829__GroundCarpet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube19829__GroundCarpet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube19829__GroundCarpet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube19829__GroundCarpet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#pCube19829__GroundCarpet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube19829__GroundCarpet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_VenueHokoSlopeB" name="Obj_VenueHokoSlopeB" sid="Obj_VenueHokoSlopeB" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="StickerSeal_gp42__WallRepeatParts_gp" name="StickerSeal_gp42__WallRepeatParts_gp" type="NODE">
+        <instance_controller url="#Armature_StickerSeal_gp42__WallRepeatParts_gp-mesh">
+          <skeleton>#Armature_Obj_VenueHokoSlopeB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallRepeatParts_gp" target="#WallRepeatParts_gp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="StickerSeal_gp43__SlopeMetalPlate_gp" name="StickerSeal_gp43__SlopeMetalPlate_gp" type="NODE">
+        <instance_controller url="#Armature_StickerSeal_gp43__SlopeMetalPlate_gp-mesh">
+          <skeleton>#Armature_Obj_VenueHokoSlopeB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SlopeMetalPlate_gp" target="#SlopeMetalPlate_gp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="StickerSeal_gp45__WallRepeatParts_gp" name="StickerSeal_gp45__WallRepeatParts_gp" type="NODE">
+        <instance_controller url="#Armature_StickerSeal_gp45__WallRepeatParts_gp-mesh">
+          <skeleton>#Armature_Obj_VenueHokoSlopeB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallRepeatParts_gp" target="#WallRepeatParts_gp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="StickerSeal_wp37__StickerSeal_wp" name="StickerSeal_wp37__StickerSeal_wp" type="NODE">
+        <instance_controller url="#Armature_StickerSeal_wp37__StickerSeal_wp-mesh">
+          <skeleton>#Armature_Obj_VenueHokoSlopeB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="StickerSeal_wp" target="#StickerSeal_wp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube19828__SheetVinyl" name="pCube19828__SheetVinyl" type="NODE">
+        <instance_controller url="#Armature_pCube19828__SheetVinyl-mesh">
+          <skeleton>#Armature_Obj_VenueHokoSlopeB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SheetVinyl" target="#SheetVinyl" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube19829__GroundCarpet" name="pCube19829__GroundCarpet" type="NODE">
+        <instance_controller url="#Armature_pCube19829__GroundCarpet-mesh">
+          <skeleton>#Armature_Obj_VenueHokoSlopeB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundCarpet" target="#GroundCarpet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="GlassLightingTile_Alb">
+      <init_from>GlassLightingTile_Alb.png</init_from>
+    </image>
+    <image id="GlassLightingTile_Mtl">
+      <init_from>GlassLightingTile_Mtl.png</init_from>
+    </image>
+    <image id="GlassLightingTile_Nrm">
+      <init_from>GlassLightingTile_Nrm.png</init_from>
+    </image>
+    <image id="GlassLightingTile_Rgh">
+      <init_from>GlassLightingTile_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Alb">
+      <init_from>MetalBridgeLight_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Nrm">
+      <init_from>MetalBridgeLight_Nrm.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Rgh">
+      <init_from>MetalBridgeLight_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface25__MapWall-mesh" name="polySurface25__MapWall">
+      <mesh>
+        <source id="polySurface25__MapWall-position">
+          <float_array id="polySurface25__MapWall-position-array" count="102">-90.74821 51.01321 -297.7623 -90.34383 51.54284 -297.5465 91.1679 51.01321 -297.7623 90.76352 51.54284 -297.5465 -90.34383 57.7656 -282.7674 -90.74821 57.54982 -282.2379 90.76352 57.7656 -282.7674 91.1679 57.54982 -282.2379 91.1679 57.54982 -282.2379 91.1679 51.01321 -297.7623 90.76352 57.7656 -282.7674 90.76352 51.54284 -297.5465 90.76352 57.7656 -282.7674 90.76352 51.54284 -297.5465 -90.34383 57.7656 -282.7674 -90.34383 51.54284 -297.5465 -90.34383 57.7656 -282.7674 -90.34383 51.54284 -297.5465 -90.74821 57.54982 -282.2379 -90.74821 51.01321 -297.7623 -90.74821 57.54982 -282.2379 -90.74821 51.01321 -297.7623 -90.74821 51.01321 -297.7623 91.1679 51.01321 -297.7623 91.1679 51.01321 -297.7623 90.76352 51.54284 -297.5465 90.76352 51.54284 -297.5465 90.76352 51.54284 -297.5465 91.1679 57.54982 -282.2379 91.1679 57.54982 -282.2379 -90.74821 51.01321 -297.7623 91.1679 51.01321 -297.7623 -90.74821 57.54982 -282.2379 91.1679 57.54982 -282.2379</float_array>
+          <technique_common>
+            <accessor source="#polySurface25__MapWall-position-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface25__MapWall-normal">
+          <float_array id="polySurface25__MapWall-normal-array" count="102">0 0.3776908 -0.925636 0 0.3776908 -0.925636 0 0.3776908 -0.925636 0 0.3776908 -0.925636 0 0.925636 0.3776908 0 0.925636 0.3776908 0 0.925636 0.3776908 0 0.925636 0.3776908 0.7064579 0.6516634 -0.2739726 0.7064579 0.6516634 -0.2739726 0.7064579 0.6516634 -0.2739726 0.7064579 0.6516634 -0.2739726 0 0.9217221 -0.3874756 0 0.9217221 -0.3874756 0 0.9217221 -0.3874756 0 0.9217221 -0.3874756 -0.7064579 0.6516634 -0.2739726 -0.7064579 0.6516634 -0.2739726 -0.7064579 0.6516634 -0.2739726 -0.7064579 0.6516634 -0.2739726 -0.001956947 0.9217221 -0.3874756 0 0.3776908 -0.925636 -0.001956947 0.9217221 -0.3874756 0 0.3776908 -0.925636 0.7064579 0.6516634 -0.2739726 0 0.3776908 -0.925636 0.7064579 0.6516634 -0.2739726 0 0.9295499 -0.3659491 0.7064579 0.6516634 -0.2739726 0 0.9315069 -0.3659491 0 0.9217221 -0.3874756 0 0.9217221 -0.3874756 0 0.9217221 -0.3874756 0 0.9217221 -0.3874756</float_array>
+          <technique_common>
+            <accessor source="#polySurface25__MapWall-normal-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface25__MapWall-texcoord">
+          <float_array id="polySurface25__MapWall-texcoord-array" count="68">-0.6376953 0.09765625 -0.6328125 0.09082031 1.636719 0.09765625 1.631836 0.09082031 -0.6313477 -0.0234375 -0.6367188 -0.03027344 1.631836 -0.0234375 1.636719 -0.03027344 0.002313614 0.2485352 0.002313614 0.03808594 0.009460449 0.2436523 0.009460449 0.04296875 1.631836 -0.0234375 1.631836 0.1772461 -0.6313477 -0.0234375 -0.6313477 0.1772461 -0.001610756 0.2426758 -0.001610756 0.04199219 0.005535126 0.2475586 0.005535126 0.03710938 -0.6367188 -0.03027344 -0.6376953 0.09765625 -0.6313477 0.1772461 1.636719 0.09765625 0.002313614 0.03808594 1.631836 0.09082031 0.009460449 0.04296875 1.631836 0.1772461 0.002313614 0.2485352 1.636719 -0.03027344 -0.6313477 0.1772461 1.631836 0.1772461 -0.6367188 -0.03027344 1.636719 -0.03027344</float_array>
+          <technique_common>
+            <accessor source="#polySurface25__MapWall-texcoord-array" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface25__MapWall-texcoord_1">
+          <float_array id="polySurface25__MapWall-texcoord-array_1" count="68">0 1 0.002304112 0.8651561 1 1 0.9976959 0.8651408 0.9976959 0.8649272 1 1 0.002304112 0.8651408 0 1 0 1 1 1 0.002304112 0.8651408 0.9976959 0.8651408 0.002304112 0.8651408 0.9976959 0.8651408 0.9976959 0.8649272 0.002304112 0.8651561 0.9976959 0.8649272 0.002304112 0.8651561 1 1 0 1 1 1 0 1 0 1 1 1 1 1 0.9976959 0.8651408 0.9976959 0.8651408 0.9976959 0.8651408 0 1 0 1 0 1 1 1 1 1 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface25__MapWall-texcoord-array_1" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface25__MapWall-vertex">
+          <input semantic="POSITION" source="#polySurface25__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="10">
+          <input semantic="VERTEX" source="#polySurface25__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface25__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface25__MapWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface25__MapWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface25__MapWall-mesh">
+      <skin source="#polySurface25__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface25__MapWall-mesh-joint">
+          <Name_array id="polySurface25__MapWall-mesh-joint-array" count="1">map</Name_array>
+          <technique_common>
+            <accessor source="#polySurface25__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface25__MapWall-mesh-inv_bind_matrix">
+          <float_array id="polySurface25__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface25__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface25__MapWall-mesh-weight">
+          <float_array id="polySurface25__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface25__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface25__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface25__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="34">
+          <input semantic="JOINT" source="#polySurface25__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface25__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_map" name="map" sid="map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface25__MapWall" name="polySurface25__MapWall" type="NODE">
+        <instance_controller url="#Armature_polySurface25__MapWall-mesh">
+          <skeleton>#Armature_map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

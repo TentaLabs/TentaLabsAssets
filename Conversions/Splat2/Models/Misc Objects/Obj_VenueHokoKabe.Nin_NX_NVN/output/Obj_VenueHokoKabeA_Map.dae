@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Obj_VenueHokoKabeA_g00_b00_f00">
+      <init_from>Bake_Obj_VenueHokoKabeA_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_VenueHokoKabeB_g00_b00_f00">
+      <init_from>Bake_Obj_VenueHokoKabeB_g00_b00_f00.png</init_from>
+    </image>
+    <image id="FenceVinylGray_Alb">
+      <init_from>FenceVinylGray_Alb.png</init_from>
+    </image>
+    <image id="FenceVinylGray_Mtl">
+      <init_from>FenceVinylGray_Mtl.png</init_from>
+    </image>
+    <image id="FenceVinylGray_Nrm">
+      <init_from>FenceVinylGray_Nrm.png</init_from>
+    </image>
+    <image id="FenceVinylGray_Rgh">
+      <init_from>FenceVinylGray_Rgh.png</init_from>
+    </image>
+    <image id="GroundCarpet_Alb">
+      <init_from>GroundCarpet_Alb.png</init_from>
+    </image>
+    <image id="GroundCarpet_Nrm">
+      <init_from>GroundCarpet_Nrm.png</init_from>
+    </image>
+    <image id="GroundCarpet_Rgh">
+      <init_from>GroundCarpet_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Alb">
+      <init_from>SlopeMetalPlate_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Nrm">
+      <init_from>SlopeMetalPlate_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Rgh">
+      <init_from>SlopeMetalPlate_Rgh.png</init_from>
+    </image>
+    <image id="StickerSeal_Alb">
+      <init_from>StickerSeal_Alb.png</init_from>
+    </image>
+    <image id="StickerSeal_Mtl">
+      <init_from>StickerSeal_Mtl.png</init_from>
+    </image>
+    <image id="StickerSeal_Nrm">
+      <init_from>StickerSeal_Nrm.png</init_from>
+    </image>
+    <image id="StickerSeal_Rgh">
+      <init_from>StickerSeal_Rgh.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Alb">
+      <init_from>WallRepeatParts_Alb.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Mtl">
+      <init_from>WallRepeatParts_Mtl.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Nrm">
+      <init_from>WallRepeatParts_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeatParts_Rgh">
+      <init_from>WallRepeatParts_Rgh.png</init_from>
+    </image>
+    <image id="WoodPlane_Alb">
+      <init_from>WoodPlane_Alb.png</init_from>
+    </image>
+    <image id="WoodPlane_Nrm">
+      <init_from>WoodPlane_Nrm.png</init_from>
+    </image>
+    <image id="WoodPlane_Rgh">
+      <init_from>WoodPlane_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapSlope">
+      <instance_effect url="#Effect_MapSlope" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_MapSlope-diffuse">
+          <surface type="2D">
+            <init_from>MapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapSlope-diffuse">
+          <sampler2D>
+            <source>surface_MapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Edge365__MapWall-mesh" name="Edge365__MapWall">
+      <mesh>
+        <source id="Edge365__MapWall-position">
+          <float_array id="Edge365__MapWall-position-array" count="264">0 60 200 0 60 203 60 30 200 60 30 203 50 30 280 49.99527 75.13187 280 -30 30 280 -30.00473 75.13187 280 -0.004727364 60.13187 200 59.99527 30.13187 200 0 30 200 60 30 200 15 30 200 14.99527 75.13187 200 -30 30 200 -30.00473 75.13187 200 -30.00473 75.13187 200 14.99527 75.13187 200 -30.00473 75.13187 190 14.99527 75.13187 190 -30.00473 75.13187 190 14.99527 75.13187 190 -30 30 190 15 30 190 15 30 200 15 30 190 14.99527 75.13187 200 14.99527 75.13187 190 -30 30 190 -30 30 200 -30.00473 75.13187 190 -30.00473 75.13187 200 50 30 280 80 30 280 49.99527 110.1319 280 79.99527 110.1319 280 49.99527 110.1319 280 79.99527 110.1319 280 49.99527 110.1319 270 79.99527 110.1319 270 49.99527 110.1319 270 79.99527 110.1319 270 50 30 270 80 30 270 80 30 280 80 30 270 79.99527 110.1319 280 79.99527 110.1319 270 50 30 270 50 30 280 49.99527 110.1319 270 49.99527 110.1319 280 50 70 350 60 70 350 49.99527 110.1319 350 59.99527 110.1319 350 49.99527 110.1319 350 59.99527 110.1319 350 49.99527 110.1319 280 59.99527 110.1319 280 49.99527 110.1319 280 59.99527 110.1319 280 50 70 280 60 70 280 60 70 350 60 70 280 59.99527 110.1319 350 59.99527 110.1319 280 50 70 280 50 70 350 49.99527 110.1319 280 49.99527 110.1319 350 -30.00473 75.13187 280 49.99527 75.13187 280 -30.00473 75.13187 270 49.99527 75.13187 270 -30.00473 75.13187 270 49.99527 75.13187 270 -30 30 270 50 30 270 50 30 280 50 30 270 49.99527 75.13187 280 49.99527 75.13187 270 -30 30 270 -30 30 280 -30.00473 75.13187 270 -30.00473 75.13187 280</float_array>
+          <technique_common>
+            <accessor source="#Edge365__MapWall-position-array" count="88" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge365__MapWall-normal">
+          <float_array id="Edge365__MapWall-normal-array" count="264">0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Edge365__MapWall-normal-array" count="88" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge365__MapWall-texcoord">
+          <float_array id="Edge365__MapWall-texcoord-array" count="176">0.1585693 3.171875 0 3.171875 0.1585693 0 0 0 0 0 1.12793 0.0004882813 0 1.999512 1.12793 2 0 1.5 0.75 0.0004882813 0.7529297 1.5 0.7529297 0 2.25 0 2.248047 2.255859 0.0002362728 0 0 2.255859 3.234375 4.505859 3.234375 2.255859 3.734375 4.505859 3.734375 2.255859 2.261719 0 4.511719 0 2.261719 2.255859 4.511719 2.255859 4.253906 2.255859 4.753906 2.255859 4.253906 4.511719 4.753906 4.511719 3.744141 2.255859 4.242188 2.255859 3.744141 4.511719 4.242188 4.511719 0.0002362728 0 1.5 0 0 4.005859 1.499023 4.005859 4.0625 1.499756 4.0625 0 4.5625 1.499756 4.5625 0 1.512695 0 3.011719 0 1.512695 4.005859 3.011719 4.005859 3.023438 0 3.523438 0 3.023438 4.005859 3.523438 4.005859 3.542969 0 4.042969 0 3.542969 4.005859 4.042969 4.005859 4.179688 3.498047 4.679688 3.498047 4.179688 5.503906 4.679688 5.503906 0 0 0.4997559 0 0 3.5 0.4997559 3.5 3.667969 3.5 4.167969 3.5 3.669922 5.503906 4.167969 5.503906 0.5112305 3.498047 0.5112305 0 2.517578 3.498047 2.517578 0 2.535156 3.498047 2.535156 0 4.542969 3.498047 4.542969 0 2.265625 4 2.265625 0 2.765625 4 2.765625 0 0 4 0 0.0004882813 2.255859 3.998047 2.255859 0 2.779297 0 3.279297 0 2.779297 2.255859 3.279297 2.255859 3.294922 0 3.794922 0 3.294922 2.255859 3.794922 2.255859</float_array>
+          <technique_common>
+            <accessor source="#Edge365__MapWall-texcoord-array" count="88" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge365__MapWall-vertex">
+          <input semantic="POSITION" source="#Edge365__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="44">
+          <input semantic="VERTEX" source="#Edge365__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge365__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge365__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 76 76 76 77 77 77 78 78 78 77 77 77 79 79 79 78 78 78 80 80 80 81 81 81 82 82 82 81 81 81 83 83 83 82 82 82 84 84 84 85 85 85 86 86 86 85 85 85 87 87 87 86 86 86 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube2658__MapGround-mesh" name="pCube2658__MapGround">
+      <mesh>
+        <source id="pCube2658__MapGround-position">
+          <float_array id="pCube2658__MapGround-position-array" count="15">-0.004730225 60 270 0 60 203 -30.00473 60 270 -30.00473 60 200 -0.00472641 60.13187 200</float_array>
+          <technique_common>
+            <accessor source="#pCube2658__MapGround-position-array" count="5" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2658__MapGround-normal">
+          <float_array id="pCube2658__MapGround-normal-array" count="15">0 1 0 0 1 0 0 1 0 0 1 0 -0.003913894 1 0.04305284</float_array>
+          <technique_common>
+            <accessor source="#pCube2658__MapGround-normal-array" count="5" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube2658__MapGround-vertex">
+          <input semantic="POSITION" source="#pCube2658__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="3">
+          <input semantic="VERTEX" source="#pCube2658__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube2658__MapGround-normal" offset="1" />
+          <p>0 0 1 1 2 2 1 1 3 3 2 2 3 3 1 1 4 4 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube2659__MapSlope-mesh" name="pCube2659__MapSlope">
+      <mesh>
+        <source id="pCube2659__MapSlope-position">
+          <float_array id="pCube2659__MapSlope-position-array" count="12">-0.004730225 60 270 60 30 270 0 60 203 60 30 203</float_array>
+          <technique_common>
+            <accessor source="#pCube2659__MapSlope-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2659__MapSlope-normal">
+          <float_array id="pCube2659__MapSlope-normal-array" count="12">0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0</float_array>
+          <technique_common>
+            <accessor source="#pCube2659__MapSlope-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2659__MapSlope-texcoord">
+          <float_array id="pCube2659__MapSlope-texcoord-array" count="8">-0.09240723 1.63916 -0.09240723 0.05371094 1.677734 1.63916 1.677734 0.05371094</float_array>
+          <technique_common>
+            <accessor source="#pCube2659__MapSlope-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube2659__MapSlope-vertex">
+          <input semantic="POSITION" source="#pCube2659__MapSlope-position" />
+        </vertices>
+        <triangles material="MapSlope" count="2">
+          <input semantic="VERTEX" source="#pCube2659__MapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube2659__MapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube2659__MapSlope-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Edge365__MapWall-mesh">
+      <skin source="#Edge365__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge365__MapWall-mesh-joint">
+          <Name_array id="Edge365__MapWall-mesh-joint-array" count="1">Obj_VenueHokoKabeA_Map</Name_array>
+          <technique_common>
+            <accessor source="#Edge365__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge365__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Edge365__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge365__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge365__MapWall-mesh-weight">
+          <float_array id="Edge365__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge365__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge365__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge365__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="88">
+          <input semantic="JOINT" source="#Edge365__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge365__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube2658__MapGround-mesh">
+      <skin source="#pCube2658__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube2658__MapGround-mesh-joint">
+          <Name_array id="pCube2658__MapGround-mesh-joint-array" count="1">Obj_VenueHokoKabeA_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCube2658__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2658__MapGround-mesh-inv_bind_matrix">
+          <float_array id="pCube2658__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube2658__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2658__MapGround-mesh-weight">
+          <float_array id="pCube2658__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube2658__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube2658__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube2658__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="5">
+          <input semantic="JOINT" source="#pCube2658__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube2658__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube2659__MapSlope-mesh">
+      <skin source="#pCube2659__MapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube2659__MapSlope-mesh-joint">
+          <Name_array id="pCube2659__MapSlope-mesh-joint-array" count="1">Obj_VenueHokoKabeA_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCube2659__MapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2659__MapSlope-mesh-inv_bind_matrix">
+          <float_array id="pCube2659__MapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube2659__MapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2659__MapSlope-mesh-weight">
+          <float_array id="pCube2659__MapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube2659__MapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube2659__MapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube2659__MapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#pCube2659__MapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube2659__MapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_VenueHokoKabeA_Map" name="Obj_VenueHokoKabeA_Map" sid="Obj_VenueHokoKabeA_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Edge365__MapWall" name="Edge365__MapWall" type="NODE">
+        <instance_controller url="#Armature_Edge365__MapWall-mesh">
+          <skeleton>#Armature_Obj_VenueHokoKabeA_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube2658__MapGround" name="pCube2658__MapGround" type="NODE">
+        <instance_controller url="#Armature_pCube2658__MapGround-mesh">
+          <skeleton>#Armature_Obj_VenueHokoKabeA_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube2659__MapSlope" name="pCube2659__MapSlope" type="NODE">
+        <instance_controller url="#Armature_pCube2659__MapSlope-mesh">
+          <skeleton>#Armature_Obj_VenueHokoKabeA_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapSlope" target="#MapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

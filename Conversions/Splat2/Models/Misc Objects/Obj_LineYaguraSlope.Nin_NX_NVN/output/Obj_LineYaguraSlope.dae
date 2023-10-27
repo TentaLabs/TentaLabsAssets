@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Obj_LineYaguraSlope_g00_b00_f00">
+      <init_from>Bake_Obj_LineYaguraSlope_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Floor00_Alb">
+      <init_from>Floor00_Alb.png</init_from>
+    </image>
+    <image id="Floor00_Nrm">
+      <init_from>Floor00_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiSet_Alb">
+      <init_from>GrafittiSet_Alb.png</init_from>
+    </image>
+    <image id="GrafittiSet_Nrm">
+      <init_from>GrafittiSet_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiSet_Rgh">
+      <init_from>GrafittiSet_Rgh.png</init_from>
+    </image>
+    <image id="KomonoRepeatParts_Alb">
+      <init_from>KomonoRepeatParts_Alb.png</init_from>
+    </image>
+    <image id="KomonoRepeatParts_Mtl">
+      <init_from>KomonoRepeatParts_Mtl.png</init_from>
+    </image>
+    <image id="KomonoRepeatParts_Nrm">
+      <init_from>KomonoRepeatParts_Nrm.png</init_from>
+    </image>
+    <image id="KomonoRepeatParts_Rgh">
+      <init_from>KomonoRepeatParts_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="Vinyl_Alb">
+      <init_from>Vinyl_Alb.png</init_from>
+    </image>
+    <image id="Vinyl_Mtl">
+      <init_from>Vinyl_Mtl.png</init_from>
+    </image>
+    <image id="Vinyl_Nrm">
+      <init_from>Vinyl_Nrm.png</init_from>
+    </image>
+    <image id="Vinyl_Rgh">
+      <init_from>Vinyl_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GrafittiSet">
+      <instance_effect url="#Effect_GrafittiSet" />
+    </material>
+    <material id="KomonoRepeatParts">
+      <instance_effect url="#Effect_KomonoRepeatParts" />
+    </material>
+    <material id="Vinyl">
+      <instance_effect url="#Effect_Vinyl" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GrafittiSet">
+      <profile_COMMON>
+        <newparam sid="surface_GrafittiSet-diffuse">
+          <surface type="2D">
+            <init_from>GrafittiSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GrafittiSet-diffuse">
+          <sampler2D>
+            <source>surface_GrafittiSet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GrafittiSet-bump">
+          <surface type="2D">
+            <init_from>GrafittiSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GrafittiSet-bump">
+          <sampler2D>
+            <source>surface_GrafittiSet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GrafittiSet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GrafittiSet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_KomonoRepeatParts">
+      <profile_COMMON>
+        <newparam sid="surface_KomonoRepeatParts-diffuse">
+          <surface type="2D">
+            <init_from>KomonoRepeatParts_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_KomonoRepeatParts-diffuse">
+          <sampler2D>
+            <source>surface_KomonoRepeatParts-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_KomonoRepeatParts-bump">
+          <surface type="2D">
+            <init_from>KomonoRepeatParts_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_KomonoRepeatParts-bump">
+          <sampler2D>
+            <source>surface_KomonoRepeatParts-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_KomonoRepeatParts-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_KomonoRepeatParts-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Vinyl">
+      <profile_COMMON>
+        <newparam sid="surface_Vinyl-diffuse">
+          <surface type="2D">
+            <init_from>Vinyl_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Vinyl-diffuse">
+          <sampler2D>
+            <source>surface_Vinyl-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Vinyl-bump">
+          <surface type="2D">
+            <init_from>Vinyl_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Vinyl-bump">
+          <sampler2D>
+            <source>surface_Vinyl-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Vinyl-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Vinyl-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="StickerSeal_113_1__GrafittiSet-mesh" name="StickerSeal_113_1__GrafittiSet">
+      <mesh>
+        <source id="StickerSeal_113_1__GrafittiSet-position">
+          <float_array id="StickerSeal_113_1__GrafittiSet-position-array" count="72">180.9781 113.1319 179.8088 169.9923 114.2747 179.8116 182.4909 127.6751 179.8088 171.5051 128.8179 179.8116 166.2695 114.1666 179.6614 156.7689 113.0059 179.6613 165.1997 121.1429 179.6614 155.9507 119.9473 179.6613 -180.9781 113.1319 -179.8088 -169.9923 114.2747 -179.8116 -182.4909 127.6751 -179.8088 -171.5051 128.8179 -179.8116 -166.2694 114.1666 -179.6614 -156.7689 113.0059 -179.6614 -165.1997 121.1429 -179.6614 -155.9507 119.9473 -179.6614 187.2516 112.5137 179.8963 175.9758 111.1361 179.8963 185.9819 120.7934 179.8963 175.0048 119.3746 179.8963 -187.2516 112.5137 -179.8963 -175.9758 111.1361 -179.8963 -185.9819 120.7934 -179.8963 -175.0048 119.3746 -179.8963</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_113_1__GrafittiSet-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_113_1__GrafittiSet-normal">
+          <float_array id="StickerSeal_113_1__GrafittiSet-normal-array" count="72">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_113_1__GrafittiSet-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_113_1__GrafittiSet-texcoord">
+          <float_array id="StickerSeal_113_1__GrafittiSet-texcoord-array" count="48">0.2627451 0.827451 0.3882353 0.827451 0.2627451 1 0.3882353 1 0.9098039 0.745098 1 0.745098 0.9098039 0.8039216 1 0.8039216 0.2627451 0.827451 0.3882353 0.827451 0.2627451 1 0.3882353 1 0.9098039 0.745098 1 0.745098 0.9098039 0.8039216 1 0.8039216 0.3568628 0.7294117 0.4588235 0.7294117 0.3568628 0.7960784 0.4588235 0.7960784 0.3568628 0.7294117 0.4588235 0.7294117 0.3568628 0.7960784 0.4588235 0.7960784</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_113_1__GrafittiSet-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_113_1__GrafittiSet-texcoord_1">
+          <float_array id="StickerSeal_113_1__GrafittiSet-texcoord-array_1" count="48">0.4689097 0.003967345 0.9254292 0.003967345 0.4689097 0.6216373 0.9254292 0.6216373 0.7069657 0.9448844 0.7070268 0.6310979 0.9110399 0.9448844 0.9104295 0.6310979 0.003692683 0.003967345 0.4602121 0.003967345 0.003692683 0.6216373 0.4602121 0.6216373 0.4943465 0.9448844 0.4944076 0.6310979 0.6984207 0.9448844 0.6978104 0.6310979 0.249012 0.9960327 0.2490883 0.6305944 0.4866712 0.9960327 0.4859693 0.6305944 0.003692683 0.9960327 0.003753719 0.6305944 0.2413367 0.9960327 0.2406348 0.6305944</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_113_1__GrafittiSet-texcoord-array_1" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="StickerSeal_113_1__GrafittiSet-vertex">
+          <input semantic="POSITION" source="#StickerSeal_113_1__GrafittiSet-position" />
+        </vertices>
+        <triangles material="GrafittiSet" count="12">
+          <input semantic="VERTEX" source="#StickerSeal_113_1__GrafittiSet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#StickerSeal_113_1__GrafittiSet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#StickerSeal_113_1__GrafittiSet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#StickerSeal_113_1__GrafittiSet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 2 2 2 2 1 1 1 1 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 6 6 6 6 5 5 5 5 7 7 7 7 8 8 8 8 9 9 9 9 10 10 10 10 10 10 10 10 9 9 9 9 11 11 11 11 12 12 12 12 13 13 13 13 14 14 14 14 14 14 14 14 13 13 13 13 15 15 15 15 16 16 16 16 17 17 17 17 18 18 18 18 18 18 18 18 17 17 17 17 19 19 19 19 20 20 20 20 21 21 21 21 22 22 22 22 22 22 22 22 21 21 21 21 23 23 23 23 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="StickerSeal_gp52_1__KomonoRepeatParts-mesh" name="StickerSeal_gp52_1__KomonoRepeatParts">
+      <mesh>
+        <source id="StickerSeal_gp52_1__KomonoRepeatParts-position">
+          <float_array id="StickerSeal_gp52_1__KomonoRepeatParts-position-array" count="48">189.146 139.6857 180.3551 166.9741 128.6538 180.3279 187.5286 138.9168 182.8498 166.9762 128.691 182.8451 130.9526 110.7545 181.9276 130.1485 110.3675 182.8406 131.1835 110.846 180.3037 130.2727 110.4027 180.9887 -189.146 139.6857 -180.3551 -166.9741 128.6538 -180.3279 -187.5286 138.9168 -182.8498 -166.9762 128.691 -182.8451 -130.9526 110.7545 -181.9276 -130.1485 110.3675 -182.8406 -131.1835 110.846 -180.3037 -130.2727 110.4027 -180.9887</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp52_1__KomonoRepeatParts-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp52_1__KomonoRepeatParts-normal">
+          <float_array id="StickerSeal_gp52_1__KomonoRepeatParts-normal-array" count="48">-0.4461839 0.8943248 -0.01369863 -0.4461839 0.8943248 -0.01369863 -0.4461839 0.8943248 -0.01369863 -0.4461839 0.8943248 -0.01369863 -0.4461839 0.8943248 -0.01369863 -0.4461839 0.8943248 -0.01369863 -0.4461839 0.8943248 -0.01369863 -0.4461839 0.8943248 -0.01369863 0.4461839 0.8943248 0.01369863 0.4461839 0.8943248 0.01369863 0.4461839 0.8943248 0.01369863 0.4461839 0.8943248 0.01369863 0.4461839 0.8943248 0.01369863 0.4461839 0.8943248 0.01369863 0.4461839 0.8943248 0.01369863 0.4461839 0.8943248 0.01369863</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp52_1__KomonoRepeatParts-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp52_1__KomonoRepeatParts-texcoord">
+          <float_array id="StickerSeal_gp52_1__KomonoRepeatParts-texcoord-array" count="32">4.898438 -0.9589844 4.214844 -0.9589844 4.839844 -0.9980469 4.214844 -0.9980469 3.027344 -0.9833984 3.001953 -0.9980469 3.03125 -0.9589844 3.001953 -0.9697266 4.898438 -0.9589844 4.214844 -0.9589844 4.839844 -0.9980469 4.214844 -0.9980469 3.027344 -0.9833984 3.001953 -0.9980469 3.03125 -0.9589844 3.001953 -0.9697266</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp52_1__KomonoRepeatParts-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp52_1__KomonoRepeatParts-texcoord_1">
+          <float_array id="StickerSeal_gp52_1__KomonoRepeatParts-texcoord-array_1" count="32">0.08943313 0.003967345 0.08943313 0.3612573 0.04905776 0.0347448 0.04905776 0.3610742 0.06346227 0.9831693 0.04905776 0.9960327 0.08943313 0.9810483 0.07855345 0.9960327 0.04072633 0.003967345 0.04072633 0.3612573 0.0003509575 0.0347448 0.0003509575 0.3610742 0.01475547 0.9831693 0.0003509575 0.9960327 0.04072633 0.9810483 0.02986191 0.9960327</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp52_1__KomonoRepeatParts-texcoord-array_1" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="StickerSeal_gp52_1__KomonoRepeatParts-vertex">
+          <input semantic="POSITION" source="#StickerSeal_gp52_1__KomonoRepeatParts-position" />
+        </vertices>
+        <triangles material="KomonoRepeatParts" count="12">
+          <input semantic="VERTEX" source="#StickerSeal_gp52_1__KomonoRepeatParts-vertex" offset="0" />
+          <input semantic="NORMAL" source="#StickerSeal_gp52_1__KomonoRepeatParts-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp52_1__KomonoRepeatParts-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#StickerSeal_gp52_1__KomonoRepeatParts-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 1 1 1 1 4 4 4 4 3 3 3 3 4 4 4 4 5 5 5 5 3 3 3 3 4 4 4 4 1 1 1 1 6 6 6 6 4 4 4 4 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 9 9 9 9 12 12 12 12 11 11 11 11 12 12 12 12 13 13 13 13 11 11 11 11 12 12 12 12 9 9 9 9 14 14 14 14 12 12 12 12 14 14 14 14 15 15 15 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Vinil1_1__Vinyl-mesh" name="Vinil1_1__Vinyl">
+      <mesh>
+        <source id="Vinil1_1__Vinyl-position">
+          <float_array id="Vinil1_1__Vinyl-position-array" count="114">130 110 180 190 140 180 190 110 180 -130 110 -180 -190 140 -180 -190 110 -180 168.6966 129.3483 180 172.646 131.323 220 190 140 180 190 140 220 -168.6966 129.3483 -180 -172.646 131.323 -220 -190 140 -180 -190 140 -220 130 110 220 152.5536 121.2768 220 130 110 180 157.7071 123.8536 180 -130 110 -220 -152.5536 121.2768 -220 -130 110 -180 -157.7071 123.8536 -180 152.5536 121.2768 220 172.646 131.323 220 157.7071 123.8536 180 168.6966 129.3483 180 -152.5536 121.2768 -220 -172.646 131.323 -220 -157.7071 123.8536 -180 -168.6966 129.3483 -180 190 110 180 190 140 180 190 110 220 190 140 220 -190 110 -180 -190 140 -180 -190 110 -220 -190 140 -220</float_array>
+          <technique_common>
+            <accessor source="#Vinil1_1__Vinyl-position-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinil1_1__Vinyl-normal">
+          <float_array id="Vinil1_1__Vinyl-normal-array" count="114">0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 0.4481409 0.8943248 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Vinil1_1__Vinyl-normal-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinil1_1__Vinyl-texcoord">
+          <float_array id="Vinil1_1__Vinyl-texcoord-array" count="76">2.751953 0.002441406 2.001953 0.3774414 2.001953 0.002441406 2.751953 0.002441406 2.001953 0.3774414 2.001953 0.002441406 1.273438 1.719238 1.801758 1.771484 1.273438 2 1.801758 2 1.273438 1.719238 1.801758 1.771484 1.273438 2 1.801758 2 1.681641 1.001032 1.681641 1.299072 1.152344 1.001033 1.152344 1.367188 1.681641 1.001032 1.681641 1.299072 1.152344 1.001033 1.152344 1.367188 1.679688 1.735352 1.679688 2.000977 1.150391 1.856445 1.150391 2.000977 1.679688 1.735352 1.679688 2.000977 1.150391 1.856445 1.150391 2.000977 1.999023 1.625 1.999023 2 1.499023 1.625 1.499023 2 1.999023 1.625 1.999023 2 1.499023 1.625 1.499023 2</float_array>
+          <technique_common>
+            <accessor source="#Vinil1_1__Vinyl-texcoord-array" count="38" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinil1_1__Vinyl-texcoord_1">
+          <float_array id="Vinil1_1__Vinyl-texcoord-array_1" count="76">0.2348211 0.004074156 0.4555581 0.4455329 0.2348211 0.4455329 0.003967346 0.004074156 0.2247044 0.4455329 0.003967346 0.4455329 0.446128 0.6377509 0.4768444 0.3265584 0.6118563 0.6377509 0.6118563 0.3265584 0.4656901 0.3149462 0.4964065 0.003753722 0.6314183 0.3149462 0.6314183 0.003753722 0.6222019 0.3277791 0.7976654 0.3277791 0.6222019 0.6389716 0.8377508 0.6389716 0.6417639 0.004974425 0.8172274 0.004974425 0.6417639 0.3161669 0.8573129 0.3161669 0.003967346 0.4568704 0.1602808 0.4568704 0.07513542 0.7680628 0.1606317 0.7680628 0.8393683 0.08319217 0.9956817 0.08319217 0.9105363 0.3943847 0.9960327 0.3943847 0.4030823 0.6474251 0.6238041 0.6474251 0.4030823 0.9417258 0.6238041 0.9417258 0.1722286 0.4556955 0.3929503 0.4556955 0.1722286 0.7499962 0.3929503 0.7499962</float_array>
+          <technique_common>
+            <accessor source="#Vinil1_1__Vinyl-texcoord-array_1" count="38" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Vinil1_1__Vinyl-vertex">
+          <input semantic="POSITION" source="#Vinil1_1__Vinyl-position" />
+        </vertices>
+        <triangles material="Vinyl" count="18">
+          <input semantic="VERTEX" source="#Vinil1_1__Vinyl-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Vinil1_1__Vinyl-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Vinil1_1__Vinyl-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Vinil1_1__Vinyl-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 7 7 7 7 9 9 9 9 8 8 8 8 10 10 10 10 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 14 14 14 14 15 15 15 15 16 16 16 16 15 15 15 15 17 17 17 17 16 16 16 16 18 18 18 18 19 19 19 19 20 20 20 20 19 19 19 19 21 21 21 21 20 20 20 20 22 22 22 22 23 23 23 23 24 24 24 24 23 23 23 23 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 28 28 28 28 27 27 27 27 29 29 29 29 28 28 28 28 30 30 30 30 31 31 31 31 32 32 32 32 31 31 31 31 33 33 33 33 32 32 32 32 34 34 34 34 35 35 35 35 36 36 36 36 35 35 35 35 37 37 37 37 36 36 36 36 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_StickerSeal_113_1__GrafittiSet-mesh">
+      <skin source="#StickerSeal_113_1__GrafittiSet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="StickerSeal_113_1__GrafittiSet-mesh-joint">
+          <Name_array id="StickerSeal_113_1__GrafittiSet-mesh-joint-array" count="1">Obj_LineYaguraSlope</Name_array>
+          <technique_common>
+            <accessor source="#StickerSeal_113_1__GrafittiSet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_113_1__GrafittiSet-mesh-inv_bind_matrix">
+          <float_array id="StickerSeal_113_1__GrafittiSet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_113_1__GrafittiSet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_113_1__GrafittiSet-mesh-weight">
+          <float_array id="StickerSeal_113_1__GrafittiSet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_113_1__GrafittiSet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#StickerSeal_113_1__GrafittiSet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#StickerSeal_113_1__GrafittiSet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#StickerSeal_113_1__GrafittiSet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#StickerSeal_113_1__GrafittiSet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_StickerSeal_gp52_1__KomonoRepeatParts-mesh">
+      <skin source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="StickerSeal_gp52_1__KomonoRepeatParts-mesh-joint">
+          <Name_array id="StickerSeal_gp52_1__KomonoRepeatParts-mesh-joint-array" count="1">Obj_LineYaguraSlope</Name_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp52_1__KomonoRepeatParts-mesh-inv_bind_matrix">
+          <float_array id="StickerSeal_gp52_1__KomonoRepeatParts-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="StickerSeal_gp52_1__KomonoRepeatParts-mesh-weight">
+          <float_array id="StickerSeal_gp52_1__KomonoRepeatParts-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#StickerSeal_gp52_1__KomonoRepeatParts-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Vinil1_1__Vinyl-mesh">
+      <skin source="#Vinil1_1__Vinyl-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Vinil1_1__Vinyl-mesh-joint">
+          <Name_array id="Vinil1_1__Vinyl-mesh-joint-array" count="1">Obj_LineYaguraSlope</Name_array>
+          <technique_common>
+            <accessor source="#Vinil1_1__Vinyl-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinil1_1__Vinyl-mesh-inv_bind_matrix">
+          <float_array id="Vinil1_1__Vinyl-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Vinil1_1__Vinyl-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinil1_1__Vinyl-mesh-weight">
+          <float_array id="Vinil1_1__Vinyl-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Vinil1_1__Vinyl-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Vinil1_1__Vinyl-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Vinil1_1__Vinyl-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="38">
+          <input semantic="JOINT" source="#Vinil1_1__Vinyl-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Vinil1_1__Vinyl-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_LineYaguraSlope" name="Obj_LineYaguraSlope" sid="Obj_LineYaguraSlope" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="StickerSeal_113_1__GrafittiSet" name="StickerSeal_113_1__GrafittiSet" type="NODE">
+        <instance_controller url="#Armature_StickerSeal_113_1__GrafittiSet-mesh">
+          <skeleton>#Armature_Obj_LineYaguraSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GrafittiSet" target="#GrafittiSet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="StickerSeal_gp52_1__KomonoRepeatParts" name="StickerSeal_gp52_1__KomonoRepeatParts" type="NODE">
+        <instance_controller url="#Armature_StickerSeal_gp52_1__KomonoRepeatParts-mesh">
+          <skeleton>#Armature_Obj_LineYaguraSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="KomonoRepeatParts" target="#KomonoRepeatParts" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Vinil1_1__Vinyl" name="Vinil1_1__Vinyl" type="NODE">
+        <instance_controller url="#Armature_Vinil1_1__Vinyl-mesh">
+          <skeleton>#Armature_Obj_LineYaguraSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Vinyl" target="#Vinyl" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

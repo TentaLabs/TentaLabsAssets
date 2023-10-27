@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="EventAEmm_Col">
+      <init_from>EventAEmm_Col.png</init_from>
+    </image>
+    <image id="EventAEmm_Emm">
+      <init_from>EventAEmm_Emm.png</init_from>
+    </image>
+    <image id="MiiverseA00Neon_Alb">
+      <init_from>MiiverseA00Neon_Alb.png</init_from>
+    </image>
+    <image id="MVNeonDot00_Mlt">
+      <init_from>MVNeonDot00_Mlt.png</init_from>
+    </image>
+    <image id="VenueMonitor_Alb">
+      <init_from>VenueMonitor_Alb.png</init_from>
+    </image>
+    <image id="VenueMonitor_Nrm">
+      <init_from>VenueMonitor_Nrm.png</init_from>
+    </image>
+    <image id="VenueMonitor_Rgh">
+      <init_from>VenueMonitor_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="EventAEmm">
+      <instance_effect url="#Effect_EventAEmm" />
+    </material>
+    <material id="MiiverseA02Neon">
+      <instance_effect url="#Effect_MiiverseA02Neon" />
+    </material>
+    <material id="VenueMonitor">
+      <instance_effect url="#Effect_VenueMonitor" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_EventAEmm">
+      <profile_COMMON>
+        <newparam sid="surface_EventAEmm-emission">
+          <surface type="2D">
+            <init_from>EventAEmm_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_EventAEmm-emission">
+          <sampler2D>
+            <source>surface_EventAEmm-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <texture texture="sampler_EventAEmm-emission" texcoord="CHANNEL0" />
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MiiverseA02Neon">
+      <profile_COMMON>
+        <newparam sid="surface_MiiverseA02Neon-diffuse">
+          <surface type="2D">
+            <init_from>MiiverseA00Neon_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MiiverseA02Neon-diffuse">
+          <sampler2D>
+            <source>surface_MiiverseA02Neon-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MiiverseA02Neon-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_VenueMonitor">
+      <profile_COMMON>
+        <newparam sid="surface_VenueMonitor-diffuse">
+          <surface type="2D">
+            <init_from>VenueMonitor_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_VenueMonitor-diffuse">
+          <sampler2D>
+            <source>surface_VenueMonitor-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_VenueMonitor-bump">
+          <surface type="2D">
+            <init_from>VenueMonitor_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_VenueMonitor-bump">
+          <sampler2D>
+            <source>surface_VenueMonitor-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_VenueMonitor-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_VenueMonitor-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="ANeon02Miiverse4__VenueMonitor-mesh" name="ANeon02Miiverse4__VenueMonitor">
+      <mesh>
+        <source id="ANeon02Miiverse4__VenueMonitor-position">
+          <float_array id="ANeon02Miiverse4__VenueMonitor-position-array" count="24">-0.4586487 65.67619 355.0979 -94.95863 65.67619 355.0979 -0.4586487 102.1783 352.1825 -94.95863 102.1783 352.1825 -0.4586487 65.67619 355.0979 -94.95863 65.67619 355.0979 -0.4586487 102.1783 352.1825 -94.95863 102.1783 352.1825</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse4__VenueMonitor-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse4__VenueMonitor-normal">
+          <float_array id="ANeon02Miiverse4__VenueMonitor-normal-array" count="24">0 -0.08023483 -0.9960861 0 -0.08023483 -0.9960861 0 -0.08023483 -0.9960861 0 -0.08023483 -0.9960861 0 -0.08023483 -0.9960861 0 -0.08023483 -0.9960861 0 -0.08023483 -0.9960861 0 -0.08023483 -0.9960861</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse4__VenueMonitor-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse4__VenueMonitor-texcoord">
+          <float_array id="ANeon02Miiverse4__VenueMonitor-texcoord-array" count="16">0.8046845 0 0.9963073 0 0.8046845 0.6083009 0.9963073 0.6083009 0.805005 0 0.9960021 0 0.805005 0.6079957 0.9960021 0.6079957</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse4__VenueMonitor-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse4__VenueMonitor-texcoord_1">
+          <float_array id="ANeon02Miiverse4__VenueMonitor-texcoord-array_1" count="16">0.1921569 0.9960784 0.1921569 0.572549 0.3607843 0.9960784 0.3607843 0.572549 0.1921569 0.9960784 0.1921569 0.572549 0.3607843 0.9960784 0.3607843 0.572549</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse4__VenueMonitor-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ANeon02Miiverse4__VenueMonitor-vertex">
+          <input semantic="POSITION" source="#ANeon02Miiverse4__VenueMonitor-position" />
+        </vertices>
+        <triangles material="VenueMonitor" count="2">
+          <input semantic="VERTEX" source="#ANeon02Miiverse4__VenueMonitor-vertex" offset="0" />
+          <input semantic="NORMAL" source="#ANeon02Miiverse4__VenueMonitor-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#ANeon02Miiverse4__VenueMonitor-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#ANeon02Miiverse4__VenueMonitor-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="ANeon02Miiverse5__MiiverseA02Neon-mesh" name="ANeon02Miiverse5__MiiverseA02Neon">
+      <mesh>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-position">
+          <float_array id="ANeon02Miiverse5__MiiverseA02Neon-position-array" count="24">-94.95864 65.67619 360.0697 -0.4586411 65.67619 360.0697 -94.95864 102.1783 362.9856 -0.4588318 102.1784 362.9855 -94.95864 65.67619 360.0697 -0.4586411 65.67619 360.0697 -94.95864 102.1783 362.9856 -0.4588318 102.1784 362.9855</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-normal">
+          <float_array id="ANeon02Miiverse5__MiiverseA02Neon-normal-array" count="24">0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-texcoord">
+          <float_array id="ANeon02Miiverse5__MiiverseA02Neon-texcoord-array" count="16">0.4 0 0.6 0 0.4 1 0.6 1 0.4 0 0.6 0 0.4 1 0.6 1</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-texcoord_1">
+          <float_array id="ANeon02Miiverse5__MiiverseA02Neon-texcoord-array_1" count="16">0.003021286 0.9960327 0.003021286 0.003967345 0.3750362 0.9960327 0.3750362 0.003967345 0.003021286 0.9960021 0.003021286 0.003997862 0.3750057 0.9960021 0.3750057 0.003997862</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-texcoord_2">
+          <float_array id="ANeon02Miiverse5__MiiverseA02Neon-texcoord-array_2" count="16">0 0 1 0 0 1 1 1 0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-texcoord-array_2" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ANeon02Miiverse5__MiiverseA02Neon-vertex">
+          <input semantic="POSITION" source="#ANeon02Miiverse5__MiiverseA02Neon-position" />
+        </vertices>
+        <triangles material="MiiverseA02Neon" count="2">
+          <input semantic="VERTEX" source="#ANeon02Miiverse5__MiiverseA02Neon-vertex" offset="0" />
+          <input semantic="NORMAL" source="#ANeon02Miiverse5__MiiverseA02Neon-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#ANeon02Miiverse5__MiiverseA02Neon-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#ANeon02Miiverse5__MiiverseA02Neon-texcoord_1" offset="3" set="1" />
+          <input semantic="TEXCOORD" source="#ANeon02Miiverse5__MiiverseA02Neon-texcoord_2" offset="4" set="2" />
+          <p>0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 3 3 3 3 3 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Edge138__VenueMonitor-mesh" name="Edge138__VenueMonitor">
+      <mesh>
+        <source id="Edge138__VenueMonitor-position">
+          <float_array id="Edge138__VenueMonitor-position-array" count="834">-0.4586563 65.67619 354.4768 -94.95863 65.67619 354.4768 -0.4586563 65.67619 355.0983 -94.95863 65.67619 355.0983 -94.95863 102.1783 350.8319 -0.4586563 102.1783 350.8319 -94.95864 102.1783 352.1823 -0.4586563 102.1783 352.1823 -0.4586563 102.1783 350.8319 -0.4586563 65.67619 354.4768 -0.4586563 102.1783 352.1823 -0.4586563 65.67619 355.0983 -94.95863 65.67619 354.4768 -94.95863 102.1783 350.8319 -94.95863 65.67619 355.0983 -94.95864 102.1783 352.1823 -0.4586563 65.67619 360.6912 -0.4586563 65.67619 360.0697 -94.95864 65.67619 360.6912 -94.95864 65.67619 360.0697 -94.95864 102.1783 364.336 -94.95864 102.1783 362.9856 -0.4586563 102.1783 364.336 -0.4586563 102.1783 362.9856 -0.4586563 102.1783 364.336 -0.4586563 102.1783 362.9856 -0.4586563 65.67619 360.6912 -0.4586563 65.67619 360.0697 -94.95864 65.67619 360.6912 -94.95864 65.67619 360.0697 -94.95864 102.1783 364.336 -94.95864 102.1783 362.9856 0.766571 184.1129 350.6761 -98.03035 184.1129 350.6761 0.766571 184.1129 364.4918 -98.03035 184.1129 364.4918 0.7665863 180.1609 350.6761 0.7665863 180.1609 364.4918 -98.03035 180.1609 350.6761 -98.03035 180.1609 364.4918 0.766571 184.1129 364.4918 -98.03035 184.1129 364.4918 0.7665863 180.1609 364.4918 -98.03035 180.1609 364.4918 -98.03035 184.1129 350.6761 0.766571 184.1129 350.6761 -98.03035 180.1609 350.6761 0.7665863 180.1609 350.6761 1.041344 64.17619 354.4768 1.041344 64.17619 360.6911 -96.45864 64.17619 354.4768 -96.45864 64.17619 360.6911 -96.45864 64.17619 354.4768 -96.45864 64.17619 360.6911 -96.45864 103.6783 350.8319 -96.45864 103.6783 364.336 -96.45864 103.6783 350.8319 -96.45864 103.6783 364.336 1.041344 103.6783 350.8319 1.041344 103.6783 364.336 1.041344 103.6783 350.8319 1.041344 103.6783 364.336 1.041344 64.17619 354.4768 1.041344 64.17619 360.6911 1.041344 64.17619 354.4768 -0.4586563 65.67619 354.4768 1.041344 103.6783 350.8319 -0.4586563 102.1783 350.8319 -96.45863 103.6783 350.8319 -94.95863 102.1783 350.8319 -96.45863 64.17619 354.4768 -94.95863 65.67619 354.4768 1.041344 64.17619 354.4768 -0.4586563 65.67619 354.4768 1.041344 64.17619 360.6912 -0.4586563 65.67619 360.6912 -94.95864 65.67619 360.6912 -96.45864 64.17619 360.6912 -94.95864 102.1783 364.336 -96.45864 103.6783 364.336 -0.4586563 102.1783 364.336 1.041344 103.6783 364.336 -0.4586563 65.67619 360.6912 1.041344 64.17619 360.6912 -1.715811 103.6784 360.2941 -1.715811 180.8367 360.2941 -4.715811 180.8367 360.2941 -4.715811 103.6784 360.2941 -6.215811 180.8367 357.696 -6.215811 103.6784 357.696 -4.715811 180.8367 355.0979 -4.715811 103.6784 355.0979 -1.715811 180.8367 355.0979 -1.715811 103.6784 355.0979 -0.2158108 180.8367 357.696 -0.2158108 103.6784 357.696 -1.715811 180.8367 360.2941 -1.715811 103.6784 360.2941 -89.53312 103.6783 360.2941 -89.53312 180.8366 360.2941 -92.53312 180.8366 360.2941 -92.53312 103.6783 360.2941 -94.03312 180.8366 357.696 -94.03312 103.6783 357.696 -92.53312 180.8366 355.0979 -92.53312 103.6783 355.0979 -89.53312 180.8366 355.0979 -89.53312 103.6783 355.0979 -88.03312 180.8366 357.696 -88.03312 103.6783 357.696 -89.53312 180.8366 360.2941 -89.53312 103.6783 360.2941 -98.03035 184.1129 364.4918 -98.03035 184.1129 350.6761 -98.03035 180.1609 364.4918 -98.03035 180.1609 350.6761 0.766571 184.1129 364.4918 0.7665863 180.1609 364.4918 0.7665863 180.1609 350.6761 0.766571 184.1129 350.6761 -95.24432 103.6783 353.4744 -95.24432 103.6783 361.6936 -95.24432 106.0294 353.4744 -95.24432 106.0294 361.6936 -95.24432 106.0294 353.4744 -95.24432 106.0294 361.6936 -86.89615 106.0294 353.4744 -86.89615 106.0294 361.6936 -95.24432 103.6783 361.6936 -86.89615 103.6783 361.6936 -95.24432 106.0294 361.6936 -86.89615 106.0294 361.6936 -86.89615 103.6783 353.4744 -95.24432 103.6783 353.4744 -86.89615 106.0294 353.4744 -95.24432 106.0294 353.4744 -86.89615 103.6783 361.6936 -86.89615 103.6783 353.4744 -86.89615 106.0294 361.6936 -86.89615 106.0294 353.4744 -7.427048 103.6783 361.6936 -7.427048 106.0294 361.6936 -7.427048 106.0294 353.4744 -7.427048 103.6783 353.4744 0.9211884 103.6783 361.6936 0.9211884 106.0294 361.6936 -7.427048 106.0294 361.6936 -7.427048 103.6783 361.6936 -7.427048 103.6783 353.4744 -7.427048 106.0294 353.4744 0.9211884 106.0294 353.4744 0.9211884 103.6783 353.4744 -7.427048 106.0294 353.4744 -7.427048 106.0294 361.6936 0.9211884 106.0294 353.4744 0.9211884 106.0294 361.6936 0.9211884 103.6783 361.6936 0.9211884 103.6783 353.4744 0.9211884 106.0294 361.6936 0.9211884 106.0294 353.4744 -94.95863 102.1783 350.8319 -0.4586563 102.1783 352.1823 -94.95864 102.1783 352.1823 1.041344 64.17619 354.4768 -0.4586563 65.67619 355.0983 -0.4586563 102.1783 352.1823 -94.95864 102.1783 364.336 -94.95864 102.1783 362.9856 -0.4586563 102.1783 362.9856 -0.4586563 102.1783 362.9856 -0.4586411 65.67619 360.0697 1.041344 64.17619 354.4768 -96.45864 64.17619 354.4768 -96.45864 103.6783 364.336 -96.45863 103.6783 350.8319 1.041344 103.6783 350.8319 1.041344 103.6783 364.336 1.041344 64.17619 354.4768 1.041344 64.17619 354.4768 -94.95863 65.67619 354.4768 -0.4586563 65.67619 355.0983 -94.95863 65.67619 355.0983 -94.95863 65.67619 354.4768 -94.95863 102.1783 350.8319 -94.95863 65.67619 355.0983 -94.95864 102.1783 352.1823 1.041344 64.17619 354.4768 -0.4586411 65.67619 360.0697 -94.95864 65.67619 360.6912 -94.95864 65.67619 360.0697 -94.95864 65.67619 360.6912 -94.95864 65.67619 360.0697 -94.95864 102.1783 364.336 -94.95864 102.1783 362.9856 0.766571 184.1129 350.6761 -98.03035 184.1129 350.6761 0.766571 184.1129 364.4918 -98.03035 184.1129 364.4918 0.7665863 180.1609 350.6761 0.7665863 180.1609 364.4918 -98.03035 180.1609 350.6761 -98.03035 180.1609 364.4918 0.766571 184.1129 364.4918 -98.03035 184.1129 364.4918 0.7665863 180.1609 364.4918 -98.03035 180.1609 364.4918 -98.03035 184.1129 350.6761 0.766571 184.1129 350.6761 -98.03035 180.1609 350.6761 0.7665863 180.1609 350.6761 -96.45863 103.6783 350.8319 -96.45864 103.6783 364.336 1.041344 103.6783 350.8319 1.041344 103.6783 364.336 -1.715811 103.6784 360.2941 -1.715811 180.8367 360.2941 -4.715811 180.8367 360.2941 -4.715811 103.6784 360.2941 -6.215811 180.8367 357.696 -6.215811 103.6784 357.696 -4.715811 180.8367 355.0979 -4.715811 103.6784 355.0979 -1.715811 180.8367 355.0979 -1.715811 103.6784 355.0979 -0.2158108 180.8367 357.696 -0.2158108 103.6784 357.696 -1.715811 180.8367 360.2941 -1.715811 103.6784 360.2941 -89.53312 103.6783 360.2941 -89.53312 180.8366 360.2941 -92.53312 180.8366 360.2941 -92.53312 103.6783 360.2941 -94.03312 180.8366 357.696 -94.03312 103.6783 357.696 -92.53312 180.8366 355.0979 -92.53312 103.6783 355.0979 -89.53312 180.8366 355.0979 -89.53312 103.6783 355.0979 -88.03312 180.8366 357.696 -88.03312 103.6783 357.696 -89.53312 180.8366 360.2941 -89.53312 103.6783 360.2941 -96.45863 64.17619 354.4768 -94.95863 65.67619 354.4768 1.041344 64.17619 354.4768 -94.95863 102.1783 350.8319 -96.45863 103.6783 350.8319 -0.4586563 102.1783 352.1823 1.041344 103.6783 350.8319 1.041344 64.17619 354.4768 -96.45864 64.17619 354.4768 1.041344 64.17619 354.4768 -94.95864 65.67619 360.6912 -94.95864 102.1783 364.336 -96.45864 103.6783 364.336 -0.4586563 102.1783 362.9856 1.041344 103.6783 364.336 1.041344 64.17619 354.4768 -98.03035 184.1129 364.4918 -98.03035 184.1129 350.6761 -98.03035 180.1609 364.4918 -98.03035 180.1609 350.6761 0.766571 184.1129 364.4918 0.7665863 180.1609 364.4918 0.7665863 180.1609 350.6761 0.766571 184.1129 350.6761 -95.24432 103.6783 361.6936 -86.89615 103.6783 361.6936 -95.24432 103.6783 353.4744 -86.89615 103.6783 353.4744 -95.24432 103.6783 353.4744 -86.89615 103.6783 361.6936 -7.427048 103.6783 361.6936 0.9211884 103.6783 361.6936 -7.427048 103.6783 353.4744 0.9211884 103.6783 353.4744 -7.427048 103.6783 353.4744 0.9211884 103.6783 361.6936</float_array>
+          <technique_common>
+            <accessor source="#Edge138__VenueMonitor-position-array" count="278" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge138__VenueMonitor-normal">
+          <float_array id="Edge138__VenueMonitor-normal-array" count="834">0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 -1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0 -0.02739726 1 0.5009785 0 0.8669276 0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -1 0 0 -1 0 0 -0.4990215 0 -0.8669276 -0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 1 0 0 1 0 0 0.5009785 0 0.8669276 0.5009785 0 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0.8669276 -0.4990215 0 0.8669276 -0.4990215 0 0.8669276 -1 0 0 -1 0 0 -0.5009785 0 -0.8669276 -0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 1 0 0 1 0 0 0.4990215 0 0.8669276 0.4990215 0 0.8669276 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 -0.4422701 -0.07240704 -0.8943248 -0.4422701 -0.07240704 -0.8943248 -0.4422701 -0.07240704 -0.8943248 0 -1 0 0 -1 0 0 -1 0 0.964775 -0.02152642 0.2641879 0.964775 -0.02152642 0.2641879 0.964775 -0.02152642 0.2641879 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 0.005870841 0.3874756 -0.9217221 0 1 -0.02544031 0.005870841 0.3894325 -0.9217221 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0.001956947 -0.964775 0.260274 0.001956947 -0.964775 0.260274 0 0.9902152 0.1409002 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -1 0 0 -1 0 0 -0.5009785 0 -0.8669276 -0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 1 0 0 1 0 0 0.8669276 0 0.4990215 0.8669276 0 0.4990215 0 0 1 0 0 1 -0.5009785 0 0.8669276 -0.5009785 0 0.8669276 -1 0 0 -1 0 0 -0.5009785 0 -0.8669276 -0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 0.5009785 0 -0.8669276 1 0 0 1 0 0 0.8669276 0 0.4990215 0.8669276 0 0.4990215 0.02544031 -0.02739726 -1 0.02739726 -0.02739726 -1 0 0 -1 -0.01565558 -0.01761252 -1 -0.01761252 -0.03522505 -1 -0.1917808 -0.5420744 -0.8180039 -0.1800391 -0.5518591 -0.81409 -0.6262231 -0.07240704 -0.7749511 -0.2700587 -0.9178082 0.2896282 0 -0.9726027 0.2348337 -0.3502935 -0.8864971 0.2994129 -0.1330724 -0.06262231 0.9882583 -0.06457926 -0.08219178 0.9941292 -0.1565558 -0.5675147 0.8082192 -0.1311155 -0.5870842 0.7984344 -0.5342466 -0.2054795 0.8199608 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Edge138__VenueMonitor-normal-array" count="278" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge138__VenueMonitor-texcoord">
+          <float_array id="Edge138__VenueMonitor-texcoord-array" count="556">-1.188477 0.8398438 -1.188477 -0.6064453 -1.142578 0.8398438 -1.142578 -0.6064453 -1.188477 -1.167969 -1.188477 -2.615234 -1.142578 -1.167969 -1.142578 -2.615234 -1.188477 1.402344 -1.188477 0.8398438 -1.142578 1.402344 -1.142578 0.8398438 -1.188477 -0.6064453 -1.188477 -1.167969 -1.142578 -0.6064453 -1.142578 -1.167969 -1.188477 0.8398438 -1.142578 0.8398438 -1.188477 -0.6064453 -1.142578 -0.6064453 -1.188477 -1.167969 -1.142578 -1.167969 -1.188477 -2.615234 -1.142578 -2.615234 -1.188477 1.402344 -1.142578 1.402344 -1.188477 0.8398438 -1.142578 0.8398438 -1.188477 -0.6064453 -1.142578 -0.6064453 -1.188477 -1.167969 -1.142578 -1.167969 0.7998047 2.118164 0.7998047 0.8839722 0.9956055 2.118164 0.9956055 0.8839722 0.7998047 2.118164 0.9956055 2.118164 0.7998047 0.921875 0.9956055 0.921875 1.105469 1.949707 1.105469 0.7526855 1.064453 1.949707 1.064453 0.7526855 1.105469 0.7526855 1.105469 1.949707 1.064453 0.7526855 1.064453 1.949707 1.063477 1.136597 1.104492 1.136597 1.063477 -0.08203125 1.104492 -0.08203125 0.5859375 0.01171875 0.6635742 0.01171875 0.5405273 0.5053711 0.7094727 0.5053711 0.8022461 -0.08789063 0.9946289 -0.08789063 0.8022461 1.130615 0.9946289 1.130615 0.5405273 0.5053711 0.7094727 0.5053711 0.5859375 0.01171875 0.6635742 0.01171875 -1.117188 -1.066406 -1.070313 -1.050781 -1.117188 -0.7060547 -1.070313 -0.6962891 -1.117188 0.40625 -1.070313 0.3950195 -1.117188 0.5649414 -1.070313 0.5791016 -1.117188 1.94043 -1.070313 1.91748 -1.117188 1.94043 -1.070313 1.91748 -1.070313 0.5791016 -1.117188 0.5649414 -1.070313 0.3950195 -1.117188 0.40625 -1.070313 -0.6962891 -1.117188 -0.7060547 -1.070313 -1.050781 -1.117188 -1.066406 0.9833984 0.5529785 0.9833984 1.259521 0.9555664 1.259521 0.9555664 0.5529785 0.9272461 1.259521 0.9272461 0.5529785 0.8994141 1.259521 0.8994141 0.5529785 0.8710938 1.259521 0.8710938 0.5529785 0.8432617 1.259521 0.8432617 0.5529785 0.8149414 1.259521 0.8149414 0.5529785 0.9833984 0.5529785 0.9833984 1.259521 0.9555664 1.259521 0.9555664 0.5529785 0.9272461 1.259521 0.9272461 0.5529785 0.8994141 1.259521 0.8994141 0.5529785 0.8710938 1.259521 0.8710938 0.5529785 0.8432617 1.259521 0.8432617 0.5529785 0.8149414 1.259521 0.8149414 0.5529785 1.105469 0.5187988 1.105469 0.6914063 1.064453 0.5187988 1.064453 0.6914063 1.105469 0.5187988 1.064453 0.5187988 1.064453 0.6914063 1.105469 0.6914063 0.06219482 0.862793 0.06219482 0.7434082 0.1082764 0.862793 0.1082764 0.7434082 -0.02134705 0.4858398 -0.02134705 0.6416016 -0.1795654 0.4858398 -0.1795654 0.6416016 0.06219482 0.7434082 0.06219482 0.862793 0.1082764 0.7434082 0.1082764 0.862793 0.06219482 0.862793 0.06219482 0.7434082 0.1082764 0.862793 0.1082764 0.7434082 0.06219482 0.7434082 0.06219482 0.862793 0.1082764 0.7434082 0.1082764 0.862793 0.06219482 0.7434082 0.1082764 0.7434082 0.1082764 0.862793 0.06219482 0.862793 0.06219482 0.862793 0.1082764 0.862793 0.1082764 0.7434082 0.06219482 0.7434082 0.06219482 0.7434082 0.1082764 0.7434082 0.1082764 0.862793 0.06219482 0.862793 -0.02134705 0.4858398 -0.02134705 0.6416016 -0.1795654 0.4858398 -0.1795654 0.6416016 0.06219482 0.7434082 0.06219482 0.862793 0.1082764 0.7434082 0.1082764 0.862793 -1.188477 -1.167969 -1.142578 -2.615234 -1.142578 -1.167969 -1.188477 0.8398438 -1.142578 0.8398438 -1.142578 1.402344 -1.188477 -1.167969 -1.142578 -1.167969 -1.142578 -2.615234 -1.142578 1.402344 -1.142578 0.8398438 -1.188477 0.8398438 0.5859375 0.01171875 0.7094727 0.5053711 0.5405273 0.5053711 0.5405273 0.5053711 0.7094727 0.5053711 0.5859375 0.01171875 -1.188477 0.8398438 -1.188477 -0.6064453 -1.142578 0.8398438 -1.142578 -0.6064453 -1.188477 -0.6064453 -1.188477 -1.167969 -1.142578 -0.6064453 -1.142578 -1.167969 -1.188477 0.8398438 -1.142578 0.8398438 -1.188477 -0.6064453 -1.142578 -0.6064453 -1.188477 -0.6064453 -1.142578 -0.6064453 -1.188477 -1.167969 -1.142578 -1.167969 0.7998047 2.118164 0.7998047 0.8839722 0.9956055 2.118164 0.9956055 0.8839722 0.7998047 2.118164 0.9956055 2.118164 0.7998047 0.921875 0.9956055 0.921875 1.105469 1.949707 1.105469 0.7526855 1.064453 1.949707 1.064453 0.7526855 1.105469 0.7526855 1.105469 1.949707 1.064453 0.7526855 1.064453 1.949707 0.8022461 -0.08789063 0.9946289 -0.08789063 0.8022461 1.130615 0.9946289 1.130615 0.9833984 0.5529785 0.9833984 1.259521 0.9555664 1.259521 0.9555664 0.5529785 0.9272461 1.259521 0.9272461 0.5529785 0.8994141 1.259521 0.8994141 0.5529785 0.8710938 1.259521 0.8710938 0.5529785 0.8432617 1.259521 0.8432617 0.5529785 0.8149414 1.259521 0.8149414 0.5529785 0.9833984 0.5529785 0.9833984 1.259521 0.9555664 1.259521 0.9555664 0.5529785 0.9272461 1.259521 0.9272461 0.5529785 0.8994141 1.259521 0.8994141 0.5529785 0.8710938 1.259521 0.8710938 0.5529785 0.8432617 1.259521 0.8432617 0.5529785 0.8149414 1.259521 0.8149414 0.5529785 -1.117188 0.5649414 -1.070313 0.5791016 -1.117188 1.94043 -1.070313 0.3950195 -1.117188 0.40625 -1.070313 -0.6962891 -1.117188 -0.7060547 -1.117188 -1.066406 -1.117188 0.5649414 -1.09375 1.928711 -1.070313 0.5791016 -1.070313 0.3950195 -1.117188 0.40625 -1.070313 -0.6962891 -1.117188 -0.7060547 -1.09375 -1.058594 1.105469 0.5187988 1.105469 0.6914063 1.064453 0.5187988 1.064453 0.6914063 1.105469 0.5187988 1.064453 0.5187988 1.064453 0.6914063 1.105469 0.6914063 0.06219482 0.7434082 0.06219482 0.862793 0.06219482 0.862793 0.06219482 0.862793 0.06219482 0.7434082 0.06219482 0.7434082 0.06219482 0.7434082 0.06219482 0.862793 0.06219482 0.862793 0.06219482 0.862793 0.06219482 0.7434082 0.06219482 0.7434082</float_array>
+          <technique_common>
+            <accessor source="#Edge138__VenueMonitor-texcoord-array" count="278" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge138__VenueMonitor-vertex">
+          <input semantic="POSITION" source="#Edge138__VenueMonitor-position" />
+        </vertices>
+        <triangles material="VenueMonitor" count="96">
+          <input semantic="VERTEX" source="#Edge138__VenueMonitor-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge138__VenueMonitor-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge138__VenueMonitor-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 66 66 66 67 67 67 68 68 68 67 67 67 69 69 69 68 68 68 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 70 70 70 71 71 71 72 72 72 71 71 71 73 73 73 72 72 72 74 74 74 75 75 75 76 76 76 77 77 77 74 74 74 76 76 76 77 77 77 76 76 76 78 78 78 79 79 79 77 77 77 78 78 78 79 79 79 78 78 78 80 80 80 81 81 81 79 79 79 80 80 80 81 81 81 80 80 80 82 82 82 83 83 83 81 81 81 82 82 82 84 84 84 85 85 85 86 86 86 87 87 87 84 84 84 86 86 86 87 87 87 86 86 86 88 88 88 89 89 89 87 87 87 88 88 88 89 89 89 88 88 88 90 90 90 91 91 91 89 89 89 90 90 90 91 91 91 90 90 90 92 92 92 93 93 93 91 91 91 92 92 92 93 93 93 92 92 92 94 94 94 95 95 95 93 93 93 94 94 94 95 95 95 94 94 94 96 96 96 97 97 97 95 95 95 96 96 96 98 98 98 99 99 99 100 100 100 101 101 101 98 98 98 100 100 100 101 101 101 100 100 100 102 102 102 103 103 103 101 101 101 102 102 102 103 103 103 102 102 102 104 104 104 105 105 105 103 103 103 104 104 104 105 105 105 104 104 104 106 106 106 107 107 107 105 105 105 106 106 106 107 107 107 106 106 106 108 108 108 109 109 109 107 107 107 108 108 108 109 109 109 108 108 108 110 110 110 111 111 111 109 109 109 110 110 110 112 112 112 113 113 113 114 114 114 113 113 113 115 115 115 114 114 114 116 116 116 117 117 117 118 118 118 119 119 119 116 116 116 118 118 118 120 120 120 121 121 121 122 122 122 121 121 121 123 123 123 122 122 122 124 124 124 125 125 125 126 126 126 125 125 125 127 127 127 126 126 126 128 128 128 129 129 129 130 130 130 129 129 129 131 131 131 130 130 130 132 132 132 133 133 133 134 134 134 133 133 133 135 135 135 134 134 134 136 136 136 137 137 137 138 138 138 137 137 137 139 139 139 138 138 138 140 140 140 141 141 141 142 142 142 143 143 143 140 140 140 142 142 142 144 144 144 145 145 145 146 146 146 147 147 147 144 144 144 146 146 146 148 148 148 149 149 149 150 150 150 151 151 151 148 148 148 150 150 150 152 152 152 153 153 153 154 154 154 153 153 153 155 155 155 154 154 154 156 156 156 157 157 157 158 158 158 157 157 157 159 159 159 158 158 158 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="em14__EventAEmm-mesh" name="em14__EventAEmm">
+      <mesh>
+        <source id="em14__EventAEmm-position">
+          <float_array id="em14__EventAEmm-position-array" count="24">-94.95864 65.67619 360.0697 -0.4586411 65.67619 360.0697 -94.95864 102.1783 362.9856 -0.4586411 102.1783 362.9856 -94.95864 65.67619 360.0697 -0.4586411 65.67619 360.0697 -94.95864 102.1783 362.9856 -0.4586563 102.1783 362.9856</float_array>
+          <technique_common>
+            <accessor source="#em14__EventAEmm-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="em14__EventAEmm-normal">
+          <float_array id="em14__EventAEmm-normal-array" count="24">0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861 0 -0.08023483 0.9960861</float_array>
+          <technique_common>
+            <accessor source="#em14__EventAEmm-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="em14__EventAEmm-texcoord">
+          <float_array id="em14__EventAEmm-texcoord-array" count="16">0.4 0 0.6 0 0.4 1 0.6 1 0.4 0 0.6 0 0.4 1 0.6 1</float_array>
+          <technique_common>
+            <accessor source="#em14__EventAEmm-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="em14__EventAEmm-texcoord_1">
+          <float_array id="em14__EventAEmm-texcoord-array_1" count="16">0.001632715 0.003967345 0.2000458 0.003967345 0.001632715 0.9960327 0.2000458 0.9960327 0.001998932 0.003997862 0.2 0.003997862 0.001998932 0.9960021 0.2 0.9960021</float_array>
+          <technique_common>
+            <accessor source="#em14__EventAEmm-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="em14__EventAEmm-vertex">
+          <input semantic="POSITION" source="#em14__EventAEmm-position" />
+        </vertices>
+        <triangles material="EventAEmm" count="2">
+          <input semantic="VERTEX" source="#em14__EventAEmm-vertex" offset="0" />
+          <input semantic="NORMAL" source="#em14__EventAEmm-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#em14__EventAEmm-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#em14__EventAEmm-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_ANeon02Miiverse4__VenueMonitor-mesh">
+      <skin source="#ANeon02Miiverse4__VenueMonitor-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="ANeon02Miiverse4__VenueMonitor-mesh-joint">
+          <Name_array id="ANeon02Miiverse4__VenueMonitor-mesh-joint-array" count="1">Obj_VenueKanban01</Name_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse4__VenueMonitor-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse4__VenueMonitor-mesh-inv_bind_matrix">
+          <float_array id="ANeon02Miiverse4__VenueMonitor-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse4__VenueMonitor-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse4__VenueMonitor-mesh-weight">
+          <float_array id="ANeon02Miiverse4__VenueMonitor-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse4__VenueMonitor-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#ANeon02Miiverse4__VenueMonitor-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#ANeon02Miiverse4__VenueMonitor-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#ANeon02Miiverse4__VenueMonitor-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#ANeon02Miiverse4__VenueMonitor-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_ANeon02Miiverse5__MiiverseA02Neon-mesh">
+      <skin source="#ANeon02Miiverse5__MiiverseA02Neon-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-mesh-joint">
+          <Name_array id="ANeon02Miiverse5__MiiverseA02Neon-mesh-joint-array" count="1">Obj_VenueKanban01</Name_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-mesh-inv_bind_matrix">
+          <float_array id="ANeon02Miiverse5__MiiverseA02Neon-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ANeon02Miiverse5__MiiverseA02Neon-mesh-weight">
+          <float_array id="ANeon02Miiverse5__MiiverseA02Neon-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#ANeon02Miiverse5__MiiverseA02Neon-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#ANeon02Miiverse5__MiiverseA02Neon-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#ANeon02Miiverse5__MiiverseA02Neon-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#ANeon02Miiverse5__MiiverseA02Neon-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#ANeon02Miiverse5__MiiverseA02Neon-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Edge138__VenueMonitor-mesh">
+      <skin source="#Edge138__VenueMonitor-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge138__VenueMonitor-mesh-joint">
+          <Name_array id="Edge138__VenueMonitor-mesh-joint-array" count="1">Obj_VenueKanban01</Name_array>
+          <technique_common>
+            <accessor source="#Edge138__VenueMonitor-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge138__VenueMonitor-mesh-inv_bind_matrix">
+          <float_array id="Edge138__VenueMonitor-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge138__VenueMonitor-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge138__VenueMonitor-mesh-weight">
+          <float_array id="Edge138__VenueMonitor-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge138__VenueMonitor-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge138__VenueMonitor-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge138__VenueMonitor-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="278">
+          <input semantic="JOINT" source="#Edge138__VenueMonitor-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge138__VenueMonitor-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_em14__EventAEmm-mesh">
+      <skin source="#em14__EventAEmm-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="em14__EventAEmm-mesh-joint">
+          <Name_array id="em14__EventAEmm-mesh-joint-array" count="1">Obj_VenueKanban01</Name_array>
+          <technique_common>
+            <accessor source="#em14__EventAEmm-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="em14__EventAEmm-mesh-inv_bind_matrix">
+          <float_array id="em14__EventAEmm-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#em14__EventAEmm-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="em14__EventAEmm-mesh-weight">
+          <float_array id="em14__EventAEmm-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#em14__EventAEmm-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#em14__EventAEmm-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#em14__EventAEmm-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#em14__EventAEmm-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#em14__EventAEmm-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_VenueKanban01" name="Obj_VenueKanban01" sid="Obj_VenueKanban01" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="ANeon02Miiverse4__VenueMonitor" name="ANeon02Miiverse4__VenueMonitor" type="NODE">
+        <instance_controller url="#Armature_ANeon02Miiverse4__VenueMonitor-mesh">
+          <skeleton>#Armature_Obj_VenueKanban01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="VenueMonitor" target="#VenueMonitor" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="ANeon02Miiverse5__MiiverseA02Neon" name="ANeon02Miiverse5__MiiverseA02Neon" type="NODE">
+        <instance_controller url="#Armature_ANeon02Miiverse5__MiiverseA02Neon-mesh">
+          <skeleton>#Armature_Obj_VenueKanban01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MiiverseA02Neon" target="#MiiverseA02Neon" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Edge138__VenueMonitor" name="Edge138__VenueMonitor" type="NODE">
+        <instance_controller url="#Armature_Edge138__VenueMonitor-mesh">
+          <skeleton>#Armature_Obj_VenueKanban01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="VenueMonitor" target="#VenueMonitor" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="em14__EventAEmm" name="em14__EventAEmm" type="NODE">
+        <instance_controller url="#Armature_em14__EventAEmm-mesh">
+          <skeleton>#Armature_Obj_VenueKanban01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="EventAEmm" target="#EventAEmm" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

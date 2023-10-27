@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BridgeSeaPlant00SideBack_np_Alb">
+      <init_from>BridgeSeaPlant00SideBack_np_Alb.png</init_from>
+    </image>
+    <image id="BridgeSeaPlant00SideBack_np_Nrm">
+      <init_from>BridgeSeaPlant00SideBack_np_Nrm.png</init_from>
+    </image>
+    <image id="BridgeSeaPlant00_Alb">
+      <init_from>BridgeSeaPlant00_Alb.png</init_from>
+    </image>
+    <image id="BridgeSeaPlant00_Nrm">
+      <init_from>BridgeSeaPlant00_Nrm.png</init_from>
+    </image>
+    <image id="DrcmapSlope_Alb">
+      <init_from>DrcmapSlope_Alb.png</init_from>
+    </image>
+    <image id="DrcmapWall_Alb">
+      <init_from>DrcmapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="DrcmapSlope">
+      <instance_effect url="#Effect_DrcmapSlope" />
+    </material>
+    <material id="DrcmapWall">
+      <instance_effect url="#Effect_DrcmapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_DrcmapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_DrcmapSlope-diffuse">
+          <surface type="2D">
+            <init_from>DrcmapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_DrcmapSlope-diffuse">
+          <sampler2D>
+            <source>surface_DrcmapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_DrcmapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_DrcmapWall">
+      <profile_COMMON>
+        <newparam sid="surface_DrcmapWall-diffuse">
+          <surface type="2D">
+            <init_from>DrcmapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_DrcmapWall-diffuse">
+          <sampler2D>
+            <source>surface_DrcmapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_DrcmapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface77__DrcmapSlope-mesh" name="polySurface77__DrcmapSlope">
+      <mesh>
+        <source id="polySurface77__DrcmapSlope-position">
+          <float_array id="polySurface77__DrcmapSlope-position-array" count="30">-22.00001 0 13.00002 21.99999 0 13.00002 21.99999 50.05038 12.99998 -22.00001 50.05038 13.00002 21.99999 53.42282 12.31359 -22.00001 53.42284 12.31363 21.99999 55.49999 10.2049 -22.00001 55.5 10.20491 21.99999 55.5 1.525879E-05 -22.00001 55.5 1.525879E-05</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapSlope-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapSlope-normal">
+          <float_array id="polySurface77__DrcmapSlope-normal-array" count="30">0 0 1 0 0 1 0 0.01369863 1 0 0.01369863 1 0 0.4559687 0.890411 0 0.4559687 0.890411 0 0.9863014 0.1663405 0 0.9863014 0.1663405 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapSlope-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapSlope-texcoord">
+          <float_array id="polySurface77__DrcmapSlope-texcoord-array" count="20">0 -0.008789063 0.5537109 -0.008789063 0.5537109 0.6213379 0 0.6213379 0.5537109 0.6638184 0 0.6638184 0.5537109 0.6904297 0 0.6904297 0.5537109 0.8187256 0 0.8187256</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapSlope-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface77__DrcmapSlope-vertex">
+          <input semantic="POSITION" source="#polySurface77__DrcmapSlope-position" />
+        </vertices>
+        <triangles material="DrcmapSlope" count="8">
+          <input semantic="VERTEX" source="#polySurface77__DrcmapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface77__DrcmapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface77__DrcmapSlope-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 3 3 3 2 2 2 4 4 4 5 5 5 3 3 3 4 4 4 5 5 5 4 4 4 6 6 6 7 7 7 5 5 5 6 6 6 7 7 7 6 6 6 8 8 8 9 9 9 7 7 7 8 8 8 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface77__DrcmapWall-mesh" name="polySurface77__DrcmapWall">
+      <mesh>
+        <source id="polySurface77__DrcmapWall-position">
+          <float_array id="polySurface77__DrcmapWall-position-array" count="96">-22.00001 55.5 1.525879E-05 -25.00001 55.5 1.525879E-05 -25.00001 55.5 10.20491 -22.00001 55.5 10.20491 -25.00001 53.42283 12.31364 -22.00001 53.42284 12.31363 -25.00001 50.05042 13.00002 -22.00001 50.05038 13.00002 -25.00001 0 13.00002 -22.00001 0 13.00002 21.99999 0 13.00002 24.99999 0 13.00002 21.99999 50.05038 12.99998 24.99999 50.05042 13.00002 21.99999 53.42282 12.31359 24.99999 53.42283 12.31364 21.99999 55.49999 10.2049 24.99999 55.5 10.20491 21.99999 55.5 1.525879E-05 24.99999 55.5 1.525879E-05 -25.00001 0 1.525879E-05 -25.00001 0 13.00002 -25.00001 50.05042 13.00002 -25.00001 55.5 1.525879E-05 -25.00001 55.5 10.20491 -25.00001 53.42283 12.31364 24.99999 0 13.00002 24.99999 0 1.525879E-05 24.99999 50.05042 13.00002 24.99999 55.5 1.525879E-05 24.99999 55.5 10.20491 24.99999 53.42283 12.31364</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapWall-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapWall-normal">
+          <float_array id="polySurface77__DrcmapWall-normal-array" count="96">0 1 0 0 1 0 0 0.9863014 0.1663405 0 0.9863014 0.1663405 0 0.4559687 0.890411 0 0.4559687 0.890411 0 0.01369863 1 0 0.01369863 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.01369863 1 0 0.01369863 1 0 0.4559687 0.890411 0 0.4559687 0.890411 0 0.9863014 0.1663405 0 0.9863014 0.1663405 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapWall-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapWall-color">
+          <float_array id="polySurface77__DrcmapWall-color-array" count="128">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.5019608 0.5019608 0.5019608 1 0.654902 0.654902 0.654902 1 1 1 1 1 0.9372549 0.9372549 0.9372549 1 1 1 1 1 1 1 1 1 0.6862745 0.6862745 0.6862745 1 0.5294118 0.5294118 0.5294118 1 1 1 1 1 0.9058824 0.9058824 0.9058824 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapWall-color-array" count="32" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapWall-texcoord">
+          <float_array id="polySurface77__DrcmapWall-texcoord-array" count="64">0.6210938 0.7888184 0.5874023 0.7888184 0.5874023 0.6748047 0.6210938 0.6748047 0.5874023 0.5942383 0.6210938 0.5942383 0.5874023 0.5561523 0.6210938 0.5561523 0.5874023 -0.0078125 0.6210938 -0.0078125 0.5537109 -0.0078125 0.5874023 -0.0078125 0.5537109 0.5561523 0.5874023 0.5561523 0.5537109 0.5942383 0.5874023 0.5942383 0.5537109 0.6748047 0.5874023 0.6748047 0.5537109 0.7888184 0.5874023 0.7888184 0.6210938 -0.0078125 0.7675781 -0.0078125 0.7675781 0.5561523 0.6210938 0.6176758 0.7363281 0.6176758 0.7597656 0.5942383 0.7675781 -0.0078125 0.9140625 -0.0078125 0.7675781 0.5561523 0.9140625 0.6176758 0.7993164 0.6176758 0.7753906 0.5942383</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapWall-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface77__DrcmapWall-vertex">
+          <input semantic="POSITION" source="#polySurface77__DrcmapWall-position" />
+        </vertices>
+        <triangles material="DrcmapWall" count="24">
+          <input semantic="VERTEX" source="#polySurface77__DrcmapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface77__DrcmapWall-normal" offset="1" />
+          <input semantic="COLOR" source="#polySurface77__DrcmapWall-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface77__DrcmapWall-texcoord" offset="3" set="0" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 3 3 3 3 4 4 4 4 5 5 5 5 4 4 4 4 6 6 6 6 7 7 7 7 5 5 5 5 6 6 6 6 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 7 7 7 7 8 8 8 8 10 10 10 10 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 14 14 14 14 15 15 15 15 16 16 16 16 15 15 15 15 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 23 23 23 23 20 20 20 20 22 22 22 22 23 23 23 23 22 22 22 22 24 24 24 24 22 22 22 22 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 28 28 28 28 27 27 27 27 29 29 29 29 28 28 28 28 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface77__DrcmapSlope-mesh">
+      <skin source="#polySurface77__DrcmapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface77__DrcmapSlope-mesh-joint">
+          <Name_array id="polySurface77__DrcmapSlope-mesh-joint-array" count="1">Obj_BridgeSeaPlant00_up_drcmap</Name_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapSlope-mesh-inv_bind_matrix">
+          <float_array id="polySurface77__DrcmapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapSlope-mesh-weight">
+          <float_array id="polySurface77__DrcmapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface77__DrcmapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface77__DrcmapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="10">
+          <input semantic="JOINT" source="#polySurface77__DrcmapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface77__DrcmapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface77__DrcmapWall-mesh">
+      <skin source="#polySurface77__DrcmapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface77__DrcmapWall-mesh-joint">
+          <Name_array id="polySurface77__DrcmapWall-mesh-joint-array" count="1">Obj_BridgeSeaPlant00_up_drcmap</Name_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapWall-mesh-inv_bind_matrix">
+          <float_array id="polySurface77__DrcmapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface77__DrcmapWall-mesh-weight">
+          <float_array id="polySurface77__DrcmapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface77__DrcmapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface77__DrcmapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface77__DrcmapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#polySurface77__DrcmapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface77__DrcmapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_BridgeSeaPlant00_up_drcmap" name="Obj_BridgeSeaPlant00_up_drcmap" sid="Obj_BridgeSeaPlant00_up_drcmap" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface77__DrcmapSlope" name="polySurface77__DrcmapSlope" type="NODE">
+        <instance_controller url="#Armature_polySurface77__DrcmapSlope-mesh">
+          <skeleton>#Armature_Obj_BridgeSeaPlant00_up_drcmap</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="DrcmapSlope" target="#DrcmapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface77__DrcmapWall" name="polySurface77__DrcmapWall" type="NODE">
+        <instance_controller url="#Armature_polySurface77__DrcmapWall-mesh">
+          <skeleton>#Armature_Obj_BridgeSeaPlant00_up_drcmap</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="DrcmapWall" target="#DrcmapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="IkaPatternMsk">
+      <init_from>IkaPatternMsk.png</init_from>
+    </image>
+    <image id="testTV.000">
+      <init_from>testTV.000.png</init_from>
+    </image>
+    <image id="TV_namazu00">
+      <init_from>TV_namazu00.png</init_from>
+    </image>
+    <image id="TV_namazu01">
+      <init_from>TV_namazu01.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_TV">
+      <instance_effect url="#Effect_M_TV" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_TV">
+      <profile_COMMON>
+        <newparam sid="surface_M_TV-diffuse">
+          <surface type="2D">
+            <init_from>testTV.000</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_TV-diffuse">
+          <sampler2D>
+            <source>surface_M_TV-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_TV-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Obj_PlazaTVD__M_TV-mesh" name="Obj_PlazaTVD__M_TV">
+      <mesh>
+        <source id="Obj_PlazaTVD__M_TV-position">
+          <float_array id="Obj_PlazaTVD__M_TV-position-array" count="36">86.13404 81.67438 -443.6976 79.40717 81.67438 -451.4793 79.40716 60.09655 -451.4793 86.13404 60.09655 -443.6976 94.89534 81.67441 -436.2122 94.89534 60.09651 -436.2122 104.7101 81.67441 -430.1976 104.7101 60.09651 -430.1976 115.2359 60.09655 -425.5619 115.3573 81.67442 -425.7894 125.3449 81.67442 -423.3286 125.7506 59.6785 -423.2279</float_array>
+          <technique_common>
+            <accessor source="#Obj_PlazaTVD__M_TV-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_PlazaTVD__M_TV-normal">
+          <float_array id="Obj_PlazaTVD__M_TV-normal-array" count="36">-0.702544 0 0.7123288 -0.7573385 0 0.6536204 -0.7573385 0 0.6536204 -0.702544 0 0.7123288 -0.5870842 0 0.8082192 -0.5870842 0 0.8082192 -0.4579256 0.003913894 0.888454 -0.4579256 0.003913894 0.888454 -0.3131115 0.005870841 0.9491194 -0.3150685 0.005870841 0.9491194 -0.2270059 0.005870841 0.9745597 -0.2270059 0.005870841 0.9745597</float_array>
+          <technique_common>
+            <accessor source="#Obj_PlazaTVD__M_TV-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_PlazaTVD__M_TV-texcoord">
+          <float_array id="Obj_PlazaTVD__M_TV-texcoord-array" count="24">0.1417323 0.7401575 0 0.7401575 0 0.2755905 0.1417323 0.2755905 0.3307087 0.7401575 0.3307087 0.2755905 0.5511811 0.7401575 0.5511811 0.2755905 0.7795275 0.2755905 0.7795275 0.7401575 1 0.7401575 1 0.2755905</float_array>
+          <technique_common>
+            <accessor source="#Obj_PlazaTVD__M_TV-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_PlazaTVD__M_TV-vertex">
+          <input semantic="POSITION" source="#Obj_PlazaTVD__M_TV-position" />
+        </vertices>
+        <triangles material="M_TV" count="10">
+          <input semantic="VERTEX" source="#Obj_PlazaTVD__M_TV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_PlazaTVD__M_TV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_PlazaTVD__M_TV-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 4 4 4 0 0 0 3 3 3 5 5 5 4 4 4 3 3 3 6 6 6 4 4 4 5 5 5 7 7 7 6 6 6 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 6 6 6 8 8 8 10 10 10 9 9 9 8 8 8 11 11 11 10 10 10 8 8 8 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Obj_PlazaTVD__M_TV-mesh">
+      <skin source="#Obj_PlazaTVD__M_TV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_PlazaTVD__M_TV-mesh-joint">
+          <Name_array id="Obj_PlazaTVD__M_TV-mesh-joint-array" count="1">Obj_PlazaTVD</Name_array>
+          <technique_common>
+            <accessor source="#Obj_PlazaTVD__M_TV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_PlazaTVD__M_TV-mesh-inv_bind_matrix">
+          <float_array id="Obj_PlazaTVD__M_TV-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_PlazaTVD__M_TV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_PlazaTVD__M_TV-mesh-weight">
+          <float_array id="Obj_PlazaTVD__M_TV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_PlazaTVD__M_TV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_PlazaTVD__M_TV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_PlazaTVD__M_TV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#Obj_PlazaTVD__M_TV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_PlazaTVD__M_TV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_PlazaTVD" name="Obj_PlazaTVD" sid="Obj_PlazaTVD" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Obj_PlazaTVD__M_TV" name="Obj_PlazaTVD__M_TV" type="NODE">
+        <instance_controller url="#Armature_Obj_PlazaTVD__M_TV-mesh">
+          <skeleton>#Armature_Obj_PlazaTVD</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_TV" target="#M_TV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

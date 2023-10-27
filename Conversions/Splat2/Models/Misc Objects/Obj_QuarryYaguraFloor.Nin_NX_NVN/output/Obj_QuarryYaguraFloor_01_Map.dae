@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="DrcmapGround_Alb">
+      <init_from>DrcmapGround_Alb.png</init_from>
+    </image>
+    <image id="DrcmapWall_Alb">
+      <init_from>DrcmapWall_Alb.png</init_from>
+    </image>
+    <image id="GraphtySealPartsNew_Alb">
+      <init_from>GraphtySealPartsNew_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Alb">
+      <init_from>M_GeneralBoxBody_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Nrm">
+      <init_from>M_GeneralBoxBody_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Rgh">
+      <init_from>M_GeneralBoxBody_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Alb">
+      <init_from>M_GeneralBoxTopEdge_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Nrm">
+      <init_from>M_GeneralBoxTopEdge_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Rgh">
+      <init_from>M_GeneralBoxTopEdge_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Ground__MapGround-mesh" name="Ground__MapGround">
+      <mesh>
+        <source id="Ground__MapGround-position">
+          <float_array id="Ground__MapGround-position-array" count="39">-271.0222 149.9978 -50 -271.0223 150 -59.94283 -327 150 -50 -268.0054 150 -59.94283 -267.8038 150 -210 -271.0223 150 -59.94283 -327 150 -210 -327 150 -50 -233 180 -63.00002 -233 180 -157 -252.3658 180 -157 -265 180 -63.00002 -265 180 -157</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-position-array" count="13" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-normal">
+          <float_array id="Ground__MapGround-normal-array" count="39">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-normal-array" count="13" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-texcoord">
+          <float_array id="Ground__MapGround-texcoord-array" count="26">0.04467773 1.344727 0.04467773 0.0004882813 1 1.344727 2.216797 0.0004882813 1 1 2.142578 0.0004882813 0.737793 3.75 0.7431641 -0.2490234 3.087891 0.07666016 3.087891 2.425781 2.607422 2.425781 2.287109 0.07666016 2.287109 2.425781</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-texcoord-array" count="13" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ground__MapGround-vertex">
+          <input semantic="POSITION" source="#Ground__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="7">
+          <input semantic="VERTEX" source="#Ground__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ground__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ground__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 4 4 4 6 6 6 5 5 5 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 11 11 11 10 10 10 12 12 12 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Ground__MapWall-mesh" name="Ground__MapWall">
+      <mesh>
+        <source id="Ground__MapWall-position">
+          <float_array id="Ground__MapWall-position-array" count="306">-265 180 -157 -252.3658 180 -157 -265 180 -210 -252.3658 180 -210 -268 150 -213 -268.0027 90 -213 -330 150 -213 -330 90 -213 -230 90 -60 -230 90 -160 -230 180 -60 -230 180 -160 -329.9979 89.99782 -50 -329.9979 149.9978 -50 -330 90 -213 -330 150 -213 -268.0032 149.9978 -50 -268.0032 89.99782 -50 -268.0054 150 -60 -268.0054 90 -60 -271.0222 149.9978 -50 -268.0032 149.9978 -50 -271.0223 150 -59.94283 -268.0054 150 -60 -249.7717 180 -160 -249.7717 146.1299 -160 -249.7717 180 -213 -249.7717 146.1299 -213 -249.7717 146.1299 -160 -268.0006 146.1299 -160 -249.7717 146.1299 -213 -268.0006 146.1299 -213 -268.0006 146.1299 -160 -268 150 -160 -268.0006 146.1299 -213 -268 150 -213 -330 150 -50 -327 150 -50 -330 150 -213 -327 150 -210 -268 150 -213 -268 150 -210 -252.3658 180 -157 -249.7205 180 -157 -249.7717 180 -160 -233 180 -157 -230 180 -160 -230 180 -60 -233 180 -63.00002 -268 180 -60 -265 180 -63.00002 -265 180 -157 -268 180 -213 -265 180 -210 -249.7717 90 -160 -230 90 -160 -230 90 -60 -268.0027 90 -160 -268.0054 90 -60 -330 90 -213 -268.0027 90 -213 -329.9979 89.99782 -50 -268.0032 89.99782 -50 -268.0027 90 -160 -268.0027 90 -213 -268.0006 146.1299 -160 -268 150 -213 -268 150 -160 -268.0006 146.1299 -213 -268 150 -213 -249.7717 146.1299 -213 -268 180 -213 -249.7717 180 -213 -268.0054 150 -60 -268 180 -60 -268 150 -160 -268 180 -213 -268 150 -213 -252.3658 180 -157 -249.7717 180 -160 -252.3658 180 -210 -249.7717 180 -213 -265 180 -210 -268 180 -213 -268.0054 150 -60 -230 180 -60 -268 180 -60 -230 90 -60 -268.0054 90 -60 -268.0032 149.9978 -50 -271.0222 149.9978 -50 -268.0032 89.99782 -50 -329.9979 89.99782 -50 -327 149.9978 -50 -329.9979 149.9978 -50 -249.7717 146.1299 -160 -268.0027 90 -160 -268.0006 146.1299 -160 -249.7717 90 -160 -230 90 -160 -230 180 -160 -249.7717 180 -160</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapWall-position-array" count="102" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapWall-normal">
+          <float_array id="Ground__MapWall-normal-array" count="306">0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapWall-normal-array" count="102" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapWall-texcoord">
+          <float_array id="Ground__MapWall-texcoord-array" count="204">0.0005054474 0.002441406 0.2531738 0.002441406 0.0005054474 1.062103 0.2531738 1.062103 3.183594 3.294922 4.382813 3.294922 3.183594 4.533203 4.382813 4.533203 3.933594 2.010742 3.933594 0.01123047 5.734375 2.010742 5.734375 0.01123047 2.054688 0.01123047 3.255859 0.01123047 2.054688 3.269531 3.255859 3.269531 1.709961 4.494141 1.709961 3.294922 1.910156 4.494141 1.910156 3.294922 1.669922 4.517578 1.730469 4.517578 1.669922 4.716797 1.730469 4.71875 0.6889648 5.578125 0.01192474 5.578125 0.6889648 4.517578 0.01192474 4.517578 1.100586 5.578125 0.7368164 5.578125 1.100586 4.517578 0.7368164 4.517578 1.144531 4.517578 1.222656 4.517578 1.144531 5.578125 1.222656 5.578125 0.005393982 0.008789063 0.08538818 0.008789063 0.005393982 4.353516 0.08538818 4.273438 1.658203 4.353516 1.658203 4.273438 2.107422 2.594727 2.177734 2.594727 2.175781 2.674805 2.623047 2.594727 2.703125 2.674805 2.703125 0.008789063 2.623047 0.08886719 1.69043 0.008789063 1.770508 0.08886719 1.770508 2.594727 1.69043 4.087891 1.770508 4.007813 1.616211 1.071106 2.011719 1.071106 2.011719 3.070313 1.250977 1.071106 1.250977 3.070313 0.01192474 0.01123047 1.250977 0.01123047 0.01197052 3.269531 1.250977 3.269531 0.6132813 3.294922 1.672852 3.294922 0.6132813 4.416016 1.672852 4.494141 0.6132813 4.494141 1.261719 5.195313 1.261719 5.117188 1.625977 5.195313 1.261719 4.517578 1.625977 4.517578 3.292969 0.01123047 3.892578 0.01123047 3.292969 2.010742 3.892578 3.070313 3.292969 3.070313 0.5249023 3.294922 0.5766602 3.353516 0.5249023 4.353516 0.5766602 4.414063 0.2722168 4.353516 0.2121582 4.414063 5.214844 3.234375 5.976563 3.833984 5.214844 3.833984 5.976563 2.03418 5.214844 2.03418 3.146484 3.294922 3.146484 3.353516 1.946289 3.294922 1.946289 4.533203 3.146484 4.474609 3.146484 4.533203 4.785156 2.711914 4.417969 3.833984 4.417969 2.711914 4.785156 3.833984 5.179688 3.833984 5.179688 2.03418 4.785156 2.03418</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapWall-texcoord-array" count="102" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ground__MapWall-vertex">
+          <input semantic="POSITION" source="#Ground__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="64">
+          <input semantic="VERTEX" source="#Ground__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ground__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ground__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 38 38 38 39 39 39 40 40 40 39 39 39 41 41 41 40 40 40 42 42 42 43 43 43 44 44 44 43 43 43 45 45 45 44 44 44 44 44 44 45 45 45 46 46 46 46 46 46 45 45 45 47 47 47 45 45 45 48 48 48 47 47 47 47 47 47 48 48 48 49 49 49 48 48 48 50 50 50 49 49 49 51 51 51 49 49 49 50 50 50 52 52 52 49 49 49 51 51 51 53 53 53 52 52 52 51 51 51 54 54 54 55 55 55 56 56 56 57 57 57 54 54 54 56 56 56 57 57 57 56 56 56 58 58 58 59 59 59 60 60 60 57 57 57 59 59 59 57 57 57 61 61 61 57 57 57 58 58 58 61 61 61 62 62 62 61 61 61 58 58 58 63 63 63 64 64 64 65 65 65 64 64 64 66 66 66 65 65 65 65 65 65 66 66 66 67 67 67 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 70 70 70 71 71 71 72 72 72 73 73 73 74 74 74 75 75 75 74 74 74 76 76 76 75 75 75 75 75 75 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 79 79 79 81 81 81 80 80 80 80 80 80 81 81 81 82 82 82 81 81 81 83 83 83 82 82 82 84 84 84 85 85 85 86 86 86 84 84 84 87 87 87 85 85 85 84 84 84 88 88 88 87 87 87 89 89 89 90 90 90 91 91 91 91 91 91 90 90 90 92 92 92 90 90 90 93 93 93 92 92 92 92 92 92 93 93 93 94 94 94 95 95 95 96 96 96 97 97 97 96 96 96 95 95 95 98 98 98 95 95 95 99 99 99 98 98 98 99 99 99 95 95 95 100 100 100 100 100 100 95 95 95 101 101 101 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Ground__MapGround-mesh">
+      <skin source="#Ground__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ground__MapGround-mesh-joint">
+          <Name_array id="Ground__MapGround-mesh-joint-array" count="1">Obj_QuarryYaguraFloor_01_Map</Name_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Ground__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-mesh-weight">
+          <float_array id="Ground__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ground__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ground__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="13">
+          <input semantic="JOINT" source="#Ground__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ground__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Ground__MapWall-mesh">
+      <skin source="#Ground__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ground__MapWall-mesh-joint">
+          <Name_array id="Ground__MapWall-mesh-joint-array" count="1">Obj_QuarryYaguraFloor_01_Map</Name_array>
+          <technique_common>
+            <accessor source="#Ground__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Ground__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapWall-mesh-weight">
+          <float_array id="Ground__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ground__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ground__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="102">
+          <input semantic="JOINT" source="#Ground__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ground__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_QuarryYaguraFloor_01_Map" name="Obj_QuarryYaguraFloor_01_Map" sid="Obj_QuarryYaguraFloor_01_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Ground__MapGround" name="Ground__MapGround" type="NODE">
+        <instance_controller url="#Armature_Ground__MapGround-mesh">
+          <skeleton>#Armature_Obj_QuarryYaguraFloor_01_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Ground__MapWall" name="Ground__MapWall" type="NODE">
+        <instance_controller url="#Armature_Ground__MapWall-mesh">
+          <skeleton>#Armature_Obj_QuarryYaguraFloor_01_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

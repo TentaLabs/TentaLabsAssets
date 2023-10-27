@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Aircon_Alb">
+      <init_from>Aircon_Alb.png</init_from>
+    </image>
+    <image id="Aircon_Mtl">
+      <init_from>Aircon_Mtl.png</init_from>
+    </image>
+    <image id="Aircon_Nrm">
+      <init_from>Aircon_Nrm.png</init_from>
+    </image>
+    <image id="Aircon_Rgh">
+      <init_from>Aircon_Rgh.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_00_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_00_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_01_g01_b00_f00">
+      <init_from>Bake_Obj_Maze02_01_g01_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_02_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_02_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_03_g01_b00_f00">
+      <init_from>Bake_Obj_Maze02_03_g01_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_03_g01_b01_f00">
+      <init_from>Bake_Obj_Maze02_03_g01_b01_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_04_g01_b00_f00">
+      <init_from>Bake_Obj_Maze02_04_g01_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_05_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_05_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_06_g01_b00_f00">
+      <init_from>Bake_Obj_Maze02_06_g01_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_07_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_07_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_08_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_08_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_09_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_09_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_10_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_10_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_11_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_11_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_12_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_12_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_13_g00_b00_f00">
+      <init_from>Bake_Obj_Maze02_13_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_14_g01_b00_f00">
+      <init_from>Bake_Obj_Maze02_14_g01_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_14_g01_b01_f00">
+      <init_from>Bake_Obj_Maze02_14_g01_b01_f00.png</init_from>
+    </image>
+    <image id="Bake_Obj_Maze02_15_g01_b00_f00">
+      <init_from>Bake_Obj_Maze02_15_g01_b00_f00.png</init_from>
+    </image>
+    <image id="CoverEdge_Alb">
+      <init_from>CoverEdge_Alb.png</init_from>
+    </image>
+    <image id="CoverEdge_Nrm">
+      <init_from>CoverEdge_Nrm.png</init_from>
+    </image>
+    <image id="CoverEdge_Rgh">
+      <init_from>CoverEdge_Rgh.png</init_from>
+    </image>
+    <image id="DVFloorConcrete_Alb">
+      <init_from>DVFloorConcrete_Alb.png</init_from>
+    </image>
+    <image id="DVFloorConcrete_Nrm">
+      <init_from>DVFloorConcrete_Nrm.png</init_from>
+    </image>
+    <image id="DVFloorConcrete_Rgh">
+      <init_from>DVFloorConcrete_Rgh.png</init_from>
+    </image>
+    <image id="DVGreenHouseWoll_Alb">
+      <init_from>DVGreenHouseWoll_Alb.png</init_from>
+    </image>
+    <image id="DVGreenHouseWoll_Mtl">
+      <init_from>DVGreenHouseWoll_Mtl.png</init_from>
+    </image>
+    <image id="DVGreenHouseWoll_Nrm">
+      <init_from>DVGreenHouseWoll_Nrm.png</init_from>
+    </image>
+    <image id="DVGreenHouseWoll_Rgh">
+      <init_from>DVGreenHouseWoll_Rgh.png</init_from>
+    </image>
+    <image id="DVSetIronFrameAndPipe_Alb">
+      <init_from>DVSetIronFrameAndPipe_Alb.png</init_from>
+    </image>
+    <image id="DVSetIronFrameAndPipe_Mtl">
+      <init_from>DVSetIronFrameAndPipe_Mtl.png</init_from>
+    </image>
+    <image id="DVSetIronFrameAndPipe_Nrm">
+      <init_from>DVSetIronFrameAndPipe_Nrm.png</init_from>
+    </image>
+    <image id="DVSetIronFrameAndPipe_Rgh">
+      <init_from>DVSetIronFrameAndPipe_Rgh.png</init_from>
+    </image>
+    <image id="FenceFrame_Alb">
+      <init_from>FenceFrame_Alb.png</init_from>
+    </image>
+    <image id="FenceFrame_Mtl">
+      <init_from>FenceFrame_Mtl.png</init_from>
+    </image>
+    <image id="FenceFrame_Nrm">
+      <init_from>FenceFrame_Nrm.png</init_from>
+    </image>
+    <image id="FenceFrame_Rgh">
+      <init_from>FenceFrame_Rgh.png</init_from>
+    </image>
+    <image id="FencePlateN_Alb">
+      <init_from>FencePlateN_Alb.png</init_from>
+    </image>
+    <image id="FencePlateN_Mtl">
+      <init_from>FencePlateN_Mtl.png</init_from>
+    </image>
+    <image id="FencePlateN_Nrm">
+      <init_from>FencePlateN_Nrm.png</init_from>
+    </image>
+    <image id="FencePlateN_Rgh">
+      <init_from>FencePlateN_Rgh.png</init_from>
+    </image>
+    <image id="FenceWireN_Alb">
+      <init_from>FenceWireN_Alb.png</init_from>
+    </image>
+    <image id="FenceWireN_Mtl">
+      <init_from>FenceWireN_Mtl.png</init_from>
+    </image>
+    <image id="FenceWireN_Nrm">
+      <init_from>FenceWireN_Nrm.png</init_from>
+    </image>
+    <image id="FenceWireN_Rgh">
+      <init_from>FenceWireN_Rgh.png</init_from>
+    </image>
+    <image id="FertilizerSet_Alb">
+      <init_from>FertilizerSet_Alb.png</init_from>
+    </image>
+    <image id="FertilizerSet_Nrm">
+      <init_from>FertilizerSet_Nrm.png</init_from>
+    </image>
+    <image id="FertilizerSet_Rgh">
+      <init_from>FertilizerSet_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcreteBlockEdge_Alb">
+      <init_from>FloorConcreteBlockEdge_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteBlockEdge_Nrm">
+      <init_from>FloorConcreteBlockEdge_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcreteBlockEdge_Rgh">
+      <init_from>FloorConcreteBlockEdge_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiMark_Alb">
+      <init_from>GrafittiMark_Alb.png</init_from>
+    </image>
+    <image id="GrafittiMark_Nrm">
+      <init_from>GrafittiMark_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiMark_Rgh">
+      <init_from>GrafittiMark_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiSlope_Alb">
+      <init_from>GrafittiSlope_Alb.png</init_from>
+    </image>
+    <image id="GrafittiSlope_Nrm">
+      <init_from>GrafittiSlope_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiSlope_Rgh">
+      <init_from>GrafittiSlope_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiStickerNew_Alb">
+      <init_from>GrafittiStickerNew_Alb.png</init_from>
+    </image>
+    <image id="GrafittiStickerNew_Nrm">
+      <init_from>GrafittiStickerNew_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiStickerNew_Rgh">
+      <init_from>GrafittiStickerNew_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiSticker_Alb">
+      <init_from>GrafittiSticker_Alb.png</init_from>
+    </image>
+    <image id="GrafittiSticker_Nrm">
+      <init_from>GrafittiSticker_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiSticker_Rgh">
+      <init_from>GrafittiSticker_Rgh.png</init_from>
+    </image>
+    <image id="GreenTomatReaf_Alb">
+      <init_from>GreenTomatReaf_Alb.png</init_from>
+    </image>
+    <image id="GreenTomatReaf_Nrm">
+      <init_from>GreenTomatReaf_Nrm.png</init_from>
+    </image>
+    <image id="GreenTomatReaf_Rgh">
+      <init_from>GreenTomatReaf_Rgh.png</init_from>
+    </image>
+    <image id="GreenTreeTomat_Alb">
+      <init_from>GreenTreeTomat_Alb.png</init_from>
+    </image>
+    <image id="GreenTreeTomat_Col">
+      <init_from>GreenTreeTomat_Col.png</init_from>
+    </image>
+    <image id="GreenTreeTomat_Rgh">
+      <init_from>GreenTreeTomat_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Alb">
+      <init_from>GroundConcreteGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Mtl">
+      <init_from>GroundConcreteGrey_Mtl.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Nrm">
+      <init_from>GroundConcreteGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Rgh">
+      <init_from>GroundConcreteGrey_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="GroundSoilBrown_Alb">
+      <init_from>GroundSoilBrown_Alb.png</init_from>
+    </image>
+    <image id="GroundSoilBrown_Mtl">
+      <init_from>GroundSoilBrown_Mtl.png</init_from>
+    </image>
+    <image id="GroundSoilBrown_Nrm">
+      <init_from>GroundSoilBrown_Nrm.png</init_from>
+    </image>
+    <image id="GroundSoilBrown_Rgh">
+      <init_from>GroundSoilBrown_Rgh.png</init_from>
+    </image>
+    <image id="GroundStoneW_Alb">
+      <init_from>GroundStoneW_Alb.png</init_from>
+    </image>
+    <image id="GroundStoneW_Mtl">
+      <init_from>GroundStoneW_Mtl.png</init_from>
+    </image>
+    <image id="GroundStoneW_Nrm">
+      <init_from>GroundStoneW_Nrm.png</init_from>
+    </image>
+    <image id="GroundStoneW_Rgh">
+      <init_from>GroundStoneW_Rgh.png</init_from>
+    </image>
+    <image id="MachineLamp_Alb">
+      <init_from>MachineLamp_Alb.png</init_from>
+    </image>
+    <image id="MachineLamp_Emm">
+      <init_from>MachineLamp_Emm.png</init_from>
+    </image>
+    <image id="MachineLamp_Nrm">
+      <init_from>MachineLamp_Nrm.png</init_from>
+    </image>
+    <image id="MachineLamp_Rgh">
+      <init_from>MachineLamp_Rgh.png</init_from>
+    </image>
+    <image id="MapFence_Alb">
+      <init_from>MapFence_Alb.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Alb">
+      <init_from>M_GeneralBoxBody_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Nrm">
+      <init_from>M_GeneralBoxBody_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Rgh">
+      <init_from>M_GeneralBoxBody_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Alb">
+      <init_from>M_GeneralBoxTopEdge_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Nrm">
+      <init_from>M_GeneralBoxTopEdge_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Rgh">
+      <init_from>M_GeneralBoxTopEdge_Rgh.png</init_from>
+    </image>
+    <image id="NoPaintMetaiSet_Alb">
+      <init_from>NoPaintMetaiSet_Alb.png</init_from>
+    </image>
+    <image id="NoPaintMetaiSet_Emm">
+      <init_from>NoPaintMetaiSet_Emm.png</init_from>
+    </image>
+    <image id="NoPaintMetaiSet_Mtl">
+      <init_from>NoPaintMetaiSet_Mtl.png</init_from>
+    </image>
+    <image id="NoPaintMetaiSet_Nrm">
+      <init_from>NoPaintMetaiSet_Nrm.png</init_from>
+    </image>
+    <image id="NoPaintMetaiSet_Rgh">
+      <init_from>NoPaintMetaiSet_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="PartitionWhite_Alb">
+      <init_from>PartitionWhite_Alb.png</init_from>
+    </image>
+    <image id="PartitionWhite_Mtl">
+      <init_from>PartitionWhite_Mtl.png</init_from>
+    </image>
+    <image id="PartitionWhite_Nrm">
+      <init_from>PartitionWhite_Nrm.png</init_from>
+    </image>
+    <image id="PartitionWhite_Rgh">
+      <init_from>PartitionWhite_Rgh.png</init_from>
+    </image>
+    <image id="PumpkinReaf_Alb">
+      <init_from>PumpkinReaf_Alb.png</init_from>
+    </image>
+    <image id="PumpkinReaf_Nrm">
+      <init_from>PumpkinReaf_Nrm.png</init_from>
+    </image>
+    <image id="PumpkinReaf_Rgh">
+      <init_from>PumpkinReaf_Rgh.png</init_from>
+    </image>
+    <image id="RubberCovers_Alb">
+      <init_from>RubberCovers_Alb.png</init_from>
+    </image>
+    <image id="RubberCovers_Nrm">
+      <init_from>RubberCovers_Nrm.png</init_from>
+    </image>
+    <image id="RubberCovers_Rgh">
+      <init_from>RubberCovers_Rgh.png</init_from>
+    </image>
+    <image id="SealTextures_Alb">
+      <init_from>SealTextures_Alb.png</init_from>
+    </image>
+    <image id="SealTextures_Nrm">
+      <init_from>SealTextures_Nrm.png</init_from>
+    </image>
+    <image id="SealTextures_Rgh">
+      <init_from>SealTextures_Rgh.png</init_from>
+    </image>
+    <image id="SignBoadGlass_Alb">
+      <init_from>SignBoadGlass_Alb.png</init_from>
+    </image>
+    <image id="SignBoadGlass_Emm">
+      <init_from>SignBoadGlass_Emm.png</init_from>
+    </image>
+    <image id="SignBoadGlass_Mtl">
+      <init_from>SignBoadGlass_Mtl.png</init_from>
+    </image>
+    <image id="SignBoadGlass_Nrm">
+      <init_from>SignBoadGlass_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalParts_Alb">
+      <init_from>SlopeMetalParts_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalParts_Mtl">
+      <init_from>SlopeMetalParts_Mtl.png</init_from>
+    </image>
+    <image id="SlopeMetalParts_Nrm">
+      <init_from>SlopeMetalParts_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalParts_Rgh">
+      <init_from>SlopeMetalParts_Rgh.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Alb">
+      <init_from>SlopeMetalPlate_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Mtl">
+      <init_from>SlopeMetalPlate_Mtl.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Nrm">
+      <init_from>SlopeMetalPlate_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalPlate_Rgh">
+      <init_from>SlopeMetalPlate_Rgh.png</init_from>
+    </image>
+    <image id="VinylHouseFrame_Alb">
+      <init_from>VinylHouseFrame_Alb.png</init_from>
+    </image>
+    <image id="VinylHouseFrame_Mtl">
+      <init_from>VinylHouseFrame_Mtl.png</init_from>
+    </image>
+    <image id="VinylHouseFrame_Nrm">
+      <init_from>VinylHouseFrame_Nrm.png</init_from>
+    </image>
+    <image id="VinylHouseFrame_Rgh">
+      <init_from>VinylHouseFrame_Rgh.png</init_from>
+    </image>
+    <image id="VinylHouseInvisible_Alb">
+      <init_from>VinylHouseInvisible_Alb.png</init_from>
+    </image>
+    <image id="VinylHouseInvisible_Mtl">
+      <init_from>VinylHouseInvisible_Mtl.png</init_from>
+    </image>
+    <image id="VinylHouseInvisible_Nrm">
+      <init_from>VinylHouseInvisible_Nrm.png</init_from>
+    </image>
+    <image id="VinylHouseInvisible_Rgh">
+      <init_from>VinylHouseInvisible_Rgh.png</init_from>
+    </image>
+    <image id="VinylHouseSoil_Alb">
+      <init_from>VinylHouseSoil_Alb.png</init_from>
+    </image>
+    <image id="VinylHouseSoil_Nrm">
+      <init_from>VinylHouseSoil_Nrm.png</init_from>
+    </image>
+    <image id="VinylHouseSoil_Rgh">
+      <init_from>VinylHouseSoil_Rgh.png</init_from>
+    </image>
+    <image id="VinylHouseStand_Alb">
+      <init_from>VinylHouseStand_Alb.png</init_from>
+    </image>
+    <image id="VinylHouseStand_Nrm">
+      <init_from>VinylHouseStand_Nrm.png</init_from>
+    </image>
+    <image id="VinylHouseStand_Rgh">
+      <init_from>VinylHouseStand_Rgh.png</init_from>
+    </image>
+    <image id="VinylHouseVisible_Alb">
+      <init_from>VinylHouseVisible_Alb.png</init_from>
+    </image>
+    <image id="VinylHouseVisible_Mtl">
+      <init_from>VinylHouseVisible_Mtl.png</init_from>
+    </image>
+    <image id="VinylHouseVisible_Nrm">
+      <init_from>VinylHouseVisible_Nrm.png</init_from>
+    </image>
+    <image id="VinylHouseVisible_Rgh">
+      <init_from>VinylHouseVisible_Rgh.png</init_from>
+    </image>
+    <image id="WaterStorageTankFloorSet_Alb">
+      <init_from>WaterStorageTankFloorSet_Alb.png</init_from>
+    </image>
+    <image id="WaterStorageTankFloorSet_Mtl">
+      <init_from>WaterStorageTankFloorSet_Mtl.png</init_from>
+    </image>
+    <image id="WaterStorageTankFloorSet_Nrm">
+      <init_from>WaterStorageTankFloorSet_Nrm.png</init_from>
+    </image>
+    <image id="WaterStorageTankFloorSet_Rgh">
+      <init_from>WaterStorageTankFloorSet_Rgh.png</init_from>
+    </image>
+    <image id="WoodPlane_Alb">
+      <init_from>WoodPlane_Alb.png</init_from>
+    </image>
+    <image id="WoodPlane_Nrm">
+      <init_from>WoodPlane_Nrm.png</init_from>
+    </image>
+    <image id="WoodPlane_Rgh">
+      <init_from>WoodPlane_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapSlope">
+      <instance_effect url="#Effect_MapSlope" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_MapSlope-diffuse">
+          <surface type="2D">
+            <init_from>MapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapSlope-diffuse">
+          <sampler2D>
+            <source>surface_MapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh" name="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround">
+      <mesh>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-position">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-position-array" count="141">89.5 45 406.9999 41.06665 45 406.9999 89.5 45 417.9998 41.06665 44.99998 417.9998 89.5 45 455 41.06665 45 455 92.5 45 417.9998 92.5 45 455 128.9505 30.00001 328 95.5 30.00002 328 128.9505 30.00001 331.897 95.5 30.00002 331.897 128.9505 30.00001 360 95.5 30.00002 360 128.9505 30.00001 363 95.5 30.00002 363 128.9505 30.00001 404 95.5 30.00002 404 128.9505 30.00001 414.9998 95.5 30.00002 414.9998 130.5 30.00001 363 130.5 30.00001 404 133.5 30.00001 404 133.5 30.00001 363 130.5 30.00001 414.9998 128.9505 30.00001 455 130.5 30.00001 455 133.5 30.00001 455 133.5 30.00001 414.9998 150 30 363 150 30 404 150 30 414.9998 150 30 455 133 25 440 165.9 25 440 165.9 25 391.2501 133 25 391.2501 133 25 455 179.1046 25 455 130.5 30.00001 360 130.5 30.00001 331.897 130.5 30.00001 328 133.5 30.00001 331.897 133.5 30.00001 360 150 30 360 92.5 30.00002 404 92.5 30.00002 414.9998</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-position-array" count="47" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-normal">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-normal-array" count="141">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-normal-array" count="47" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-texcoord">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-texcoord-array" count="94">19.8139 30.59093 21.06486 30.59092 19.8139 30.87503 21.06485 30.87503 19.8139 31.83069 21.06474 31.8307 19.73641 30.87503 19.73642 31.83069 4.611975 -8.3472 4.021276 -8.3472 4.611974 -8.415936 4.021277 -8.416088 4.611973 -8.91228 4.021276 -8.912277 4.611972 -8.965257 4.021275 -8.965254 4.61197 -9.689267 4.021267 -9.689264 4.61197 -9.883517 4.021271 -9.883513 4.639334 -8.965258 4.639332 -9.68927 4.692309 -9.689276 4.692311 -8.965257 4.639335 -9.883516 4.61197 -10.58988 4.639332 -10.58988 4.692309 -10.58988 4.692308 -9.883516 4.983682 -8.965257 4.98368 -9.68927 4.983679 -9.883515 4.98368 -10.58988 20.68668 31.61294 19.76167 31.61294 19.76167 30.39418 20.68667 30.39418 20.68668 31.98794 19.54292 31.98794 4.639335 -8.91228 4.639337 -8.415908 4.639337 -8.347201 4.692312 -8.415886 4.692311 -8.91228 4.983682 -8.91228 3.968298 -9.689278 3.968294 -9.883513</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-texcoord-array" count="47" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-vertex">
+          <input semantic="POSITION" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="52">
+          <input semantic="VERTEX" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 2 2 2 3 3 3 5 5 5 4 4 4 3 3 3 2 2 2 4 4 4 6 6 6 4 4 4 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 10 10 10 11 11 11 12 12 12 11 11 11 13 13 13 12 12 12 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 14 14 14 15 15 15 16 16 16 15 15 15 17 17 17 16 16 16 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 14 14 14 16 16 16 21 21 21 20 20 20 16 16 16 20 20 20 21 21 21 22 22 22 23 23 23 20 20 20 22 22 22 24 24 24 18 18 18 25 25 25 26 26 26 24 24 24 25 25 25 24 24 24 26 26 26 27 27 27 28 28 28 24 24 24 27 27 27 29 29 29 23 23 23 30 30 30 23 23 23 22 22 22 30 30 30 31 31 31 28 28 28 32 32 32 28 28 28 27 27 27 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 33 33 33 35 35 35 37 37 37 38 38 38 34 34 34 33 33 33 37 37 37 34 34 34 20 20 20 39 39 39 14 14 14 39 39 39 12 12 12 14 14 14 39 39 39 40 40 40 12 12 12 40 40 40 10 10 10 12 12 12 10 10 10 40 40 40 8 8 8 40 40 40 41 41 41 8 8 8 42 42 42 40 40 40 43 43 43 40 40 40 39 39 39 43 43 43 43 43 43 39 39 39 23 23 23 39 39 39 20 20 20 23 23 23 21 21 21 16 16 16 18 18 18 24 24 24 21 21 21 18 18 18 21 21 21 24 24 24 28 28 28 22 22 22 21 21 21 28 28 28 44 44 44 43 43 43 29 29 29 43 43 43 23 23 23 29 29 29 22 22 22 28 28 28 31 31 31 30 30 30 22 22 22 31 31 31 17 17 17 45 45 45 19 19 19 45 45 45 46 46 46 19 19 19 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh" name="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall">
+      <mesh>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-position">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-position-array" count="450">92.5 45 414.9998 128.9505 30.00001 414.9998 92.5 30.00001 414.9998 29.13016 30 414.1375 -414 30 414.1375 29.13016 0 414.1375 -414 0 414.1375 -404.1 30 404.1 -414 30 414.1375 29.13016 30 414.1375 38.06665 30 404.1 38.06665 30 404.1 38.06665 7.629395E-06 404.1 -404.1 7.629395E-06 404.1 -404.1 30 404.1 89.5 45 406.9999 89.5 45 404 41.06665 45 406.9999 41.06665 45 404 92.5 0 404 38.06665 0 404 38.06665 45 404 92.5 45 404 128.9505 30.00001 414.9998 92.5 45 414.9998 128.9505 30.00001 417.9998 92.5 45 417.9998 92.5 30.00001 325 92.5 0 325 92.5 30.00001 404 92.5 0 404 95.5 30.00002 363 92.5 30.00002 363 95.5 30.00002 404 92.5 30.00002 404 128.9505 30.00001 325 95.5 30.00002 325 128.9505 30.00001 328 95.5 30.00002 328 133.5 30.00001 325 133.5 0 325 92.5 30.00001 325 92.5 0 325 150 30 360 193.66 25 360 150 25 360 193.66 25 360 150 30 360 193.66 25 363 150 30 363 130 25 391.2501 130 25 440 133 25 391.2501 133 25 440 38.06665 7.629395E-06 404.1 38.06665 30 404.1 38.06665 7.629395E-06 455 38.06665 30 455 38.06665 45 404 38.06665 0 404 38.06665 45 455 38.06665 0 455 38.06665 30 404.1 29.13016 30 414.1375 38.06665 30 455 29.13016 30 455 29.13016 30 414.1375 29.13016 0 414.1375 29.13016 0 455 29.13016 30 455 41.06665 44.99998 417.9998 38.06665 45 417.9998 38.06665 45 455 41.06665 45 455 38.06665 30 420 28.06671 30 420 28.06671 72.49999 420 38.06665 72.49999 420 38.06665 72.49999 455 38.06665 30 455 38.06665 72.49999 420 38.06665 30 420 28.06671 30 455 28.06671 72.49999 455 28.06671 30 420 28.06671 72.49999 420 28.06671 72.49999 455 38.06665 72.49999 455 28.06671 72.49999 420 38.06665 72.49999 420 230 7.629395E-06 464.9999 230 55 464.9999 230 7.629395E-06 506.0001 230 55 506.0001 219.9595 7.629395E-06 464.9999 219.9595 7.629395E-06 516 219.9595 55 516 219.9595 55 464.9999 230 55 464.9999 219.9595 55 464.9999 230 55 506.0001 219.9595 55 516 29.13016 75 464.9999 29.13014 75 455 29.13016 7.629395E-06 464.9999 29.13014 7.629395E-06 455 29.13014 7.629395E-06 455 29.13014 75 455 230 7.629395E-06 455 230 75 455 29.13016 7.629395E-06 464.9999 230 7.629395E-06 464.9999 230 75 464.9999 29.13016 75 464.9999 230 75 464.9999 230 7.629395E-06 464.9999 230 75 455 230 7.629395E-06 455 29.13014 75 455 29.13016 75 464.9999 230 75 455 230 75 464.9999 133.5 30.00001 331.897 133.5 0 331.897 133.5 0 325 133.5 30.00001 325 133.5 30.00001 325 130.5 30.00001 325 133.5 30.00001 328 130.5 30.00001 328 133.5 30.00001 331.897 130.5 30.00001 331.897 130 25 455 133 25 455 92.5 30.00002 325 92.5 30.00002 328 95.5 30.00002 331.897 92.5 30.00002 331.897 95.5 30.00002 360 92.5 30.00002 360 92.5 45 414.9998 92.5 30.00002 414.9998 92.5 30.00002 404 92.5 45 404 38.06665 45 404 38.06665 45 406.9999 92.5 45 404 92.5 45 406.9999 89.5 45 417.9998 92.5 45 417.9998</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-position-array" count="150" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-normal">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-normal-array" count="450">0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-normal-array" count="150" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-texcoord">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-texcoord-array" count="300">4.144785 4.449502 4.540066 3.48936 4.539924 4.449561 5.59684 0.8623172 -4.596841 0.8623172 5.59684 0.137683 -4.596841 0.137683 20.1619 0.3223686 19.91689 0.07736778 30.80719 0.07736778 31.02851 0.3223686 29.42471 21.86303 30.17469 21.86304 30.17474 32.91734 29.42474 32.91734 19.8139 30.59093 19.8139 30.51344 21.06486 30.59092 21.06486 30.51344 19.76168 32.10176 19.76175 30.74104 20.8866 30.74088 20.88667 32.10175 -3.97456 9.969419 -3.054767 9.969423 -3.974561 10.04442 -3.054767 10.04442 20.51167 31.07675 19.76167 31.07676 20.51165 29.10175 19.76165 29.10177 4.021275 -8.965254 3.968298 -8.965253 4.021267 -9.689264 3.968298 -9.689278 4.611975 -8.294225 4.021276 -8.294224 4.611975 -8.3472 4.021276 -8.3472 20.51168 32.10175 19.76168 32.10176 20.51167 31.07675 19.76167 31.07676 4.406149 4.657464 4.540066 3.48936 4.539924 4.65748 -3.97456 9.969419 -2.786076 9.970572 -3.974561 10.04442 -2.786076 10.04442 20.76664 30.39418 20.76664 31.61294 20.69164 30.39418 20.69164 31.61294 30.17469 21.86304 29.42471 21.86303 30.17467 20.59073 29.42488 20.59092 20.8866 30.74088 19.76175 30.74104 20.88662 29.46591 19.76171 29.46586 27.28682 0.07552838 27.00954 0.3223683 25.88088 0.07553023 25.88088 0.3223686 1 0 1 1 0 1 0 0 21.06485 30.87503 21.14234 30.87503 21.14223 31.83071 21.06474 31.8307 -1.672157 6.71941 -1.963649 6.719409 -1.963643 5.480562 -1.672154 5.480564 3.377977 7.521 3.37797 6.282154 4.398205 7.520997 4.398198 6.282148 -2.983874 6.719405 -2.983868 5.480559 -1.963649 6.719409 -1.963643 5.480562 9.934712 8.737347 9.934712 9.032552 8.901485 8.737348 8.901488 9.032553 2.579859 5.990693 2.579857 7.593905 1.384733 5.990692 1.384731 7.593904 8.940516 5.99069 10.42713 5.990689 10.42713 7.593902 8.940516 7.593903 4.004895 9.032552 4.296491 9.032552 4.004895 10.23281 4.296491 10.52489 0.3221188 1.704201 0.6778812 1.704201 0.3221188 -0.7042011 0.6778812 -0.7042011 -2.983872 7.593885 -2.983869 5.407685 2.871346 7.593905 2.871354 5.407706 3.377963 5.407673 9.233191 5.407643 9.233202 7.593844 3.377977 7.593874 3.162844 5.407707 3.16284 7.593905 2.871354 5.407706 2.871346 7.593905 9.934712 8.737347 9.934712 9.032552 4.004895 8.737347 4.004895 9.032552 20.51168 32.27418 19.76168 32.27418 19.76168 32.10176 20.51168 32.10175 4.692314 -8.294225 4.639337 -8.294225 4.692313 -8.347201 4.639337 -8.347201 4.692312 -8.415886 4.639337 -8.415908 20.76664 31.98794 20.69164 31.98794 3.9683 -8.294224 3.9683 -8.3472 4.021277 -8.416088 3.968301 -8.416132 4.021276 -8.912277 3.968299 -8.912277 20.13668 32.27418 19.76168 32.27418 19.76168 31.99919 20.13667 31.99919 21.14234 30.51344 21.14234 30.59093 19.73641 30.51344 19.73641 30.59092 19.8139 30.87503 19.73641 30.87503</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-texcoord-array" count="150" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-vertex">
+          <input semantic="POSITION" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="88">
+          <input semantic="VERTEX" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 4 4 4 6 6 6 5 5 5 7 7 7 8 8 8 9 9 9 10 10 10 7 7 7 9 9 9 11 11 11 12 12 12 13 13 13 14 14 14 11 11 11 13 13 13 15 15 15 16 16 16 17 17 17 16 16 16 18 18 18 17 17 17 19 19 19 20 20 20 21 21 21 22 22 22 19 19 19 21 21 21 23 23 23 24 24 24 25 25 25 24 24 24 26 26 26 25 25 25 27 27 27 28 28 28 29 29 29 28 28 28 30 30 30 29 29 29 31 31 31 32 32 32 33 33 33 32 32 32 34 34 34 33 33 33 35 35 35 36 36 36 37 37 37 36 36 36 38 38 38 37 37 37 39 39 39 40 40 40 41 41 41 40 40 40 42 42 42 41 41 41 43 43 43 44 44 44 45 45 45 46 46 46 47 47 47 48 48 48 47 47 47 49 49 49 48 48 48 50 50 50 51 51 51 52 52 52 51 51 51 53 53 53 52 52 52 54 54 54 55 55 55 56 56 56 55 55 55 57 57 57 56 56 56 58 58 58 59 59 59 60 60 60 59 59 59 61 61 61 60 60 60 62 62 62 63 63 63 64 64 64 63 63 63 65 65 65 64 64 64 66 66 66 67 67 67 68 68 68 69 69 69 66 66 66 68 68 68 70 70 70 71 71 71 72 72 72 73 73 73 70 70 70 72 72 72 74 74 74 75 75 75 76 76 76 77 77 77 74 74 74 76 76 76 78 78 78 79 79 79 80 80 80 79 79 79 81 81 81 80 80 80 82 82 82 83 83 83 84 84 84 83 83 83 85 85 85 84 84 84 86 86 86 87 87 87 88 88 88 87 87 87 89 89 89 88 88 88 90 90 90 91 91 91 92 92 92 91 91 91 93 93 93 92 92 92 94 94 94 95 95 95 96 96 96 97 97 97 94 94 94 96 96 96 98 98 98 99 99 99 100 100 100 99 99 99 101 101 101 100 100 100 102 102 102 103 103 103 104 104 104 103 103 103 105 105 105 104 104 104 106 106 106 107 107 107 108 108 108 107 107 107 109 109 109 108 108 108 110 110 110 111 111 111 112 112 112 113 113 113 110 110 110 112 112 112 114 114 114 115 115 115 116 116 116 115 115 115 117 117 117 116 116 116 118 118 118 119 119 119 120 120 120 119 119 119 121 121 121 120 120 120 122 122 122 123 123 123 124 124 124 125 125 125 122 122 122 124 124 124 126 126 126 127 127 127 128 128 128 127 127 127 129 129 129 128 128 128 127 127 127 35 35 35 129 129 129 35 35 35 37 37 37 129 129 129 128 128 128 129 129 129 130 130 130 129 129 129 131 131 131 130 130 130 53 53 53 51 51 51 132 132 132 133 133 133 53 53 53 132 132 132 36 36 36 134 134 134 38 38 38 134 134 134 135 135 135 38 38 38 38 38 38 135 135 135 136 136 136 135 135 135 137 137 137 136 136 136 136 136 136 137 137 137 138 138 138 137 137 137 139 139 139 138 138 138 138 138 138 139 139 139 31 31 31 139 139 139 32 32 32 31 31 31 140 140 140 141 141 141 142 142 142 143 143 143 140 140 140 142 142 142 144 144 144 145 145 145 18 18 18 145 145 145 17 17 17 18 18 18 17 17 17 145 145 145 70 70 70 145 145 145 71 71 71 70 70 70 16 16 16 15 15 15 146 146 146 15 15 15 147 147 147 146 146 146 147 147 147 15 15 15 148 148 148 149 149 149 147 147 147 148 148 148 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pasted__pasted__pasted__polySurface2575__MapSlope-mesh" name="pasted__pasted__pasted__polySurface2575__MapSlope">
+      <mesh>
+        <source id="pasted__pasted__pasted__polySurface2575__MapSlope-position">
+          <float_array id="pasted__pasted__pasted__polySurface2575__MapSlope-position-array" count="24">193.66 25 363 150 30 363 193.66 25 455 150 30 455 128.9505 30.00001 417.9998 92.5 45 417.9998 128.9505 30.00001 455 92.5 45 455</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__polySurface2575__MapSlope-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__polySurface2575__MapSlope-normal">
+          <float_array id="pasted__pasted__pasted__polySurface2575__MapSlope-normal-array" count="24">0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0 0.3913894 0.9197652 0</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__polySurface2575__MapSlope-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__polySurface2575__MapSlope-texcoord">
+          <float_array id="pasted__pasted__pasted__polySurface2575__MapSlope-texcoord-array" count="16">-4.011719 11.6875 -4.011719 10.97656 -2.599609 11.6875 -2.599609 10.97656 -4.011719 11.6875 -4.011719 11.09375 -3.416016 11.6875 -3.416016 11.09375</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__polySurface2575__MapSlope-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pasted__pasted__pasted__polySurface2575__MapSlope-vertex">
+          <input semantic="POSITION" source="#pasted__pasted__pasted__polySurface2575__MapSlope-position" />
+        </vertices>
+        <triangles material="MapSlope" count="4">
+          <input semantic="VERTEX" source="#pasted__pasted__pasted__polySurface2575__MapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pasted__pasted__pasted__polySurface2575__MapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pasted__pasted__pasted__polySurface2575__MapSlope-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh">
+      <skin source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-joint">
+          <Name_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-joint-array" count="1">Obj_Maze02_12_Map</Name_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-inv_bind_matrix">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-weight">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="47">
+          <input semantic="JOINT" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh">
+      <skin source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-joint">
+          <Name_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-joint-array" count="1">Obj_Maze02_12_Map</Name_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-inv_bind_matrix">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-weight">
+          <float_array id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="150">
+          <input semantic="JOINT" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pasted__pasted__pasted__polySurface2575__MapSlope-mesh">
+      <skin source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pasted__pasted__pasted__polySurface2575__MapSlope-mesh-joint">
+          <Name_array id="pasted__pasted__pasted__polySurface2575__MapSlope-mesh-joint-array" count="1">Obj_Maze02_12_Map</Name_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__polySurface2575__MapSlope-mesh-inv_bind_matrix">
+          <float_array id="pasted__pasted__pasted__polySurface2575__MapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pasted__pasted__pasted__polySurface2575__MapSlope-mesh-weight">
+          <float_array id="pasted__pasted__pasted__polySurface2575__MapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pasted__pasted__pasted__polySurface2575__MapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_Maze02_12_Map" name="Obj_Maze02_12_Map" sid="Obj_Maze02_12_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround" name="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround" type="NODE">
+        <instance_controller url="#Armature_pasted__pasted__pasted__pasted__pasted__polySurface2742__MapGround-mesh">
+          <skeleton>#Armature_Obj_Maze02_12_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall" name="pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall" type="NODE">
+        <instance_controller url="#Armature_pasted__pasted__pasted__pasted__pasted__polySurface2742__MapWall-mesh">
+          <skeleton>#Armature_Obj_Maze02_12_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pasted__pasted__pasted__polySurface2575__MapSlope" name="pasted__pasted__pasted__polySurface2575__MapSlope" type="NODE">
+        <instance_controller url="#Armature_pasted__pasted__pasted__polySurface2575__MapSlope-mesh">
+          <skeleton>#Armature_Obj_Maze02_12_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapSlope" target="#MapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

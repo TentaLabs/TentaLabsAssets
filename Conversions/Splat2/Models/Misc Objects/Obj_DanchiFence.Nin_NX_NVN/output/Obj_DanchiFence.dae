@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="IronEgeGray_Alb">
+      <init_from>IronEgeGray_Alb.png</init_from>
+    </image>
+    <image id="IronEgeGray_Nrm">
+      <init_from>IronEgeGray_Nrm.png</init_from>
+    </image>
+    <image id="Whs_Fence01_Alb">
+      <init_from>Whs_Fence01_Alb.png</init_from>
+    </image>
+    <image id="Whs_Fence01_Nrm">
+      <init_from>Whs_Fence01_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="IronEgeGray_np">
+      <instance_effect url="#Effect_IronEgeGray_np" />
+    </material>
+    <material id="Whs_Fence01">
+      <instance_effect url="#Effect_Whs_Fence01" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_IronEgeGray_np">
+      <profile_COMMON>
+        <newparam sid="surface_IronEgeGray_np-diffuse">
+          <surface type="2D">
+            <init_from>IronEgeGray_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_IronEgeGray_np-diffuse">
+          <sampler2D>
+            <source>surface_IronEgeGray_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_IronEgeGray_np-bump">
+          <surface type="2D">
+            <init_from>IronEgeGray_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_IronEgeGray_np-bump">
+          <sampler2D>
+            <source>surface_IronEgeGray_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_IronEgeGray_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_IronEgeGray_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Whs_Fence01">
+      <profile_COMMON>
+        <newparam sid="surface_Whs_Fence01-diffuse">
+          <surface type="2D">
+            <init_from>Whs_Fence01_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Whs_Fence01-diffuse">
+          <sampler2D>
+            <source>surface_Whs_Fence01-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Whs_Fence01-bump">
+          <surface type="2D">
+            <init_from>Whs_Fence01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Whs_Fence01-bump">
+          <sampler2D>
+            <source>surface_Whs_Fence01-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Whs_Fence01-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Whs_Fence01-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube1746_1__IronEgeGray_np-mesh" name="pCube1746_1__IronEgeGray_np">
+      <mesh>
+        <source id="pCube1746_1__IronEgeGray_np-position">
+          <float_array id="pCube1746_1__IronEgeGray_np-position-array" count="378">-17.70345 82.5 -250.1674 21.14718 82.5 -237.9314 -16.07006 82.5 -247.0314 18.01166 82.5 -236.2979 -17.70345 85 -250.1674 21.14718 85 -237.9314 21.14718 82.5 -237.9314 -17.70345 82.5 -250.1674 21.14718 85 -237.9314 -17.70345 85 -250.1674 -16.07006 85 -247.0314 18.01166 85 -236.2979 -16.07006 85 -247.0314 -16.07006 82.5 -247.0314 18.01166 82.5 -236.2979 18.01166 85 -236.2979 -20.69606 85 -232.3426 13.29408 85 -221.6379 -20.69606 82.5 -232.3426 13.29408 82.5 -221.6379 -23.83157 85 -230.709 -23.83157 82.5 -230.709 14.98876 85 -218.4832 14.98876 82.5 -218.4832 -23.83157 85 -230.709 14.98876 85 -218.4832 -20.69606 85 -232.3426 13.29408 85 -221.6379 14.98876 82.5 -218.4832 -23.83157 82.5 -230.709 -20.69606 82.5 -232.3426 13.29408 82.5 -221.6379 -13.29408 82.5 221.6379 -14.98876 82.5 218.4832 20.69606 82.5 232.3426 23.83158 82.5 230.709 -14.98876 85 218.4832 -13.29408 85 221.6379 20.69606 85 232.3426 23.83158 85 230.709 23.83158 82.5 230.709 -14.98876 82.5 218.4832 -14.98876 85 218.4832 23.83158 85 230.709 20.69606 85 232.3426 -13.29408 85 221.6379 20.69606 82.5 232.3426 -13.29408 82.5 221.6379 -18.01166 85 236.2979 -21.14718 85 237.9314 16.07006 85 247.0314 17.70346 85 250.1674 -21.14718 82.5 237.9314 -18.01166 82.5 236.2979 16.07006 82.5 247.0314 17.70346 82.5 250.1674 -18.01166 85 236.2979 16.07006 85 247.0314 -18.01166 82.5 236.2979 16.07006 82.5 247.0314 17.70346 82.5 250.1674 17.70346 85 250.1674 -21.14718 82.5 237.9314 -21.14718 85 237.9314 -20.69606 82.5 -232.3426 -23.83157 82.5 -230.709 -17.70345 82.5 -250.1674 -16.07006 82.5 -247.0314 -23.83157 82.5 -230.709 -23.83157 85 -230.709 -17.70345 82.5 -250.1674 -17.70345 85 -250.1674 -20.69606 85 -232.3426 -17.70345 85 -250.1674 -16.07006 85 -247.0314 -16.07006 85 -247.0314 -20.69606 85 -232.3426 -16.07006 82.5 -247.0314 -20.69606 82.5 -232.3426 17.98119 85 -236.3074 13.29408 85 -221.6379 14.98876 85 -218.4832 21.1167 85 -237.941 13.29408 82.5 -221.6379 17.98119 82.5 -236.3074 14.98876 82.5 -218.4832 21.1167 82.5 -237.941 13.29408 85 -221.6379 17.98119 85 -236.3074 13.29408 82.5 -221.6379 17.98119 82.5 -236.3074 21.1167 82.5 -237.941 21.1167 85 -237.941 14.98876 82.5 -218.4832 14.98876 85 -218.4832 -21.1167 85 237.941 -17.98119 85 236.3074 -14.98876 85 218.4832 -13.29408 85 221.6379 -21.1167 85 237.941 -14.98876 85 218.4832 -14.98876 82.5 218.4832 -21.1167 82.5 237.941 -17.98119 82.5 236.3074 -21.1167 82.5 237.941 -14.98876 82.5 218.4832 -13.29408 82.5 221.6379 -13.29408 85 221.6379 -17.98119 85 236.3074 -13.29408 82.5 221.6379 -17.98119 82.5 236.3074 20.69606 85 232.3426 20.69606 82.5 232.3426 16.07006 82.5 247.0314 16.07006 85 247.0314 20.69606 85 232.3426 16.07006 85 247.0314 17.70346 85 250.1674 16.07006 82.5 247.0314 20.69606 82.5 232.3426 17.70346 82.5 250.1674 23.83158 82.5 230.709 23.83158 85 230.709 17.70346 85 250.1674 17.70346 82.5 250.1674 23.83158 82.5 230.709</float_array>
+          <technique_common>
+            <accessor source="#pCube1746_1__IronEgeGray_np-position-array" count="126" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube1746_1__IronEgeGray_np-normal">
+          <float_array id="pCube1746_1__IronEgeGray_np-normal-array" count="378">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0 1 0 0 1 0 0 1 0 0 1 0 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 0.2994129 0 -0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 -0.2994129 0 0.9530333 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 0 1 0 0 1 0 0 1 0 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.9530333 0 -0.3052838 -0.9530333 0 -0.3052838 -0.9530333 0 -0.3052838 -0.9530333 0 -0.3052838 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0 1 0 0 1 0 0 1 0 0 1 0 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.9530333 0 0.3052838 0.9530333 0 0.3052838 0.9530333 0 0.3052838 0.9530333 0 0.3052838 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 -0.9530333 0 -0.2994129 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0.9530333 0 0.2994129 0.9530333 0 0.2994129</float_array>
+          <technique_common>
+            <accessor source="#pCube1746_1__IronEgeGray_np-normal-array" count="126" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube1746_1__IronEgeGray_np-texcoord">
+          <float_array id="pCube1746_1__IronEgeGray_np-texcoord-array" count="252">0.1868896 2.645508 0.1868896 1.619629 0.2493896 2.583008 0.2493896 1.682617 0.1244507 2.645508 0.1244507 1.619629 0.1868896 1.619629 0.1868896 2.645508 0.1244507 1.619629 0.1244507 2.645508 0.06195068 2.583008 0.06195068 1.682617 -0.0003347397 1.013138 0.06149292 1.013123 0.06225586 1.896484 0.0005478859 1.896973 0 0.6313477 9.75132E-05 -0.2539063 0.06219482 0.6313477 0.06231689 -0.2539063 0.1251221 4.632813 0.1872559 4.632813 0.1245117 5.652344 0.1873779 5.652344 0.1251221 4.632813 0.1245117 5.652344 0.06240845 4.695313 0.06103516 5.589844 0.1873779 5.652344 0.1872559 4.632813 0.25 4.695313 0.2495117 5.589844 0.2495117 5.589844 0.1873779 5.652344 0.25 4.695313 0.1872559 4.632813 0.1245117 5.652344 0.06103516 5.589844 0.06240845 4.695313 0.1251221 4.632813 0.1872559 4.632813 0.1873779 5.652344 0.1245117 5.652344 0.1251221 4.632813 0 0.6313477 9.75132E-05 -0.2539063 0.06219482 0.6313477 0.06231689 -0.2539063 0.06195068 1.682617 0.1244507 1.619629 0.06195068 2.583008 0.1244507 2.645508 0.1868896 1.619629 0.2493896 1.682617 0.2493896 2.583008 0.1868896 2.645508 0.0005478859 1.896973 -0.0003347397 1.013138 0.06225586 1.896484 0.06149292 1.013123 0.1868896 2.645508 0.1244507 2.645508 0.1868896 1.619629 0.1244507 1.619629 0.2498779 4.568359 0.1872559 4.632813 0.1868896 4.113281 0.2502441 4.177734 0.1872559 4.632813 0.1251221 4.632813 0.1868896 4.113281 0.1254883 4.113281 0.05838013 4.568359 0.1254883 4.113281 0.05944824 4.175781 -0.0003347397 1.013138 0 0.6313477 0.06149292 1.013123 0.06219482 0.6313477 0.05865479 0.5795898 0.05838013 0.1894531 0.124939 0.1264648 0.1244507 0.6428223 0.2498779 0.1899414 0.2496338 0.5788574 0.1873779 0.1269531 0.1878662 0.642334 0.0006804466 3.708984 0.001227379 3.332031 0.0617981 3.708984 0.0625 3.332031 0.1878662 0.642334 0.1244507 0.6428223 0.1873779 0.1269531 0.124939 0.1264648 0.1244507 0.6428223 0.05865479 0.5795898 0.124939 0.1264648 0.05838013 0.1894531 0.1244507 0.6428223 0.124939 0.1264648 0.1873779 0.1269531 0.1878662 0.642334 0.2496338 0.5788574 0.1878662 0.642334 0.1873779 0.1269531 0.2498779 0.1899414 0.0006804466 3.708984 0.001227379 3.332031 0.0617981 3.708984 0.0625 3.332031 0 0.6313477 0.06219482 0.6313477 0.06149292 1.013123 -0.0003347397 1.013138 0.05838013 4.568359 0.05944824 4.175781 0.1254883 4.113281 0.2502441 4.177734 0.2498779 4.568359 0.1868896 4.113281 0.1872559 4.632813 0.1251221 4.632813 0.1254883 4.113281 0.1868896 4.113281 0.1872559 4.632813</float_array>
+          <technique_common>
+            <accessor source="#pCube1746_1__IronEgeGray_np-texcoord-array" count="126" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube1746_1__IronEgeGray_np-texcoord_1">
+          <float_array id="pCube1746_1__IronEgeGray_np-texcoord-array_1" count="252">0.1836576 0.4724804 0.1836576 0.3453116 0.1913939 0.464683 0.1913939 0.3531243 0.175906 0.4724804 0.175906 0.3453116 0.1836576 0.3453116 0.1836576 0.4724804 0.175906 0.3453116 0.175906 0.4724804 0.1681697 0.464683 0.1681697 0.3531243 0.1857481 0.2239414 0.1934234 0.2239414 0.1935149 0.3330739 0.1858701 0.3330892 0.1858091 0.1166247 0.1858091 0.006958127 0.1934997 0.1166247 0.1935302 0.006958127 0.9602808 0.1305714 0.9679713 0.1305562 0.9602045 0.2570382 0.9679866 0.2570382 0.9602808 0.1305714 0.9602045 0.2570382 0.9524987 0.138323 0.9523308 0.249073 0.9679866 0.2570382 0.9679713 0.1305562 0.9757534 0.1383383 0.9756924 0.249073 0.9756924 0.249073 0.9679866 0.2570382 0.9757534 0.1383383 0.9679713 0.1305562 0.9602045 0.2570382 0.9523308 0.249073 0.9524987 0.138323 0.9602808 0.1305714 0.9679713 0.1305562 0.9679866 0.2570382 0.9602045 0.2570382 0.9602808 0.1305714 0.1858091 0.1166247 0.1858091 0.006958127 0.1934997 0.1166247 0.1935302 0.006958127 0.1681697 0.3531243 0.175906 0.3453116 0.1681697 0.464683 0.175906 0.4724804 0.1836576 0.3453116 0.1913939 0.3531243 0.1913939 0.464683 0.1836576 0.4724804 0.1858701 0.3330892 0.1857481 0.2239414 0.1935149 0.3330739 0.1934234 0.2239414 0.1836576 0.4724804 0.175906 0.4724804 0.1836576 0.3453116 0.175906 0.3453116 0.9757534 0.122652 0.9679713 0.1305562 0.9679408 0.004211485 0.9757992 0.0121004 0.9679713 0.1305562 0.9602808 0.1305714 0.9679408 0.004211485 0.9603266 0.004180968 0.9519951 0.1226825 0.9603266 0.004180968 0.9521325 0.01205462 0.1857481 0.2239414 0.1858091 0.1166247 0.1934234 0.2239414 0.1934997 0.1166247 0.2346532 0.5989014 0.2346227 0.4891279 0.2428779 0.4813153 0.2428168 0.6067293 0.2583658 0.489189 0.2583352 0.5988556 0.2506294 0.4813458 0.2506752 0.606714 0.8953078 0.7064775 0.8953841 0.6002594 0.9028916 0.7064927 0.9029831 0.6002594 0.2506752 0.606714 0.2428168 0.6067293 0.2506294 0.4813458 0.2428779 0.4813153 0.2428168 0.6067293 0.2346532 0.5989014 0.2428779 0.4813153 0.2346227 0.4891279 0.2428168 0.6067293 0.2428779 0.4813153 0.2506294 0.4813458 0.2506752 0.606714 0.2583352 0.5988556 0.2506752 0.606714 0.2506294 0.4813458 0.2583658 0.489189 0.8953078 0.7064775 0.8953841 0.6002594 0.9028916 0.7064927 0.9029831 0.6002594 0.1858091 0.1166247 0.1934997 0.1166247 0.1934234 0.2239414 0.1857481 0.2239414 0.9519951 0.1226825 0.9521325 0.01205462 0.9603266 0.004180968 0.9757992 0.0121004 0.9757534 0.122652 0.9679408 0.004211485 0.9679713 0.1305562 0.9602808 0.1305714 0.9603266 0.004180968 0.9679408 0.004211485 0.9679713 0.1305562</float_array>
+          <technique_common>
+            <accessor source="#pCube1746_1__IronEgeGray_np-texcoord-array_1" count="126" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube1746_1__IronEgeGray_np-vertex">
+          <input semantic="POSITION" source="#pCube1746_1__IronEgeGray_np-position" />
+        </vertices>
+        <triangles material="IronEgeGray_np" count="64">
+          <input semantic="VERTEX" source="#pCube1746_1__IronEgeGray_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube1746_1__IronEgeGray_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube1746_1__IronEgeGray_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube1746_1__IronEgeGray_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 4 4 4 4 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 8 8 8 8 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 15 15 15 15 12 12 12 12 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 39 39 39 39 36 36 36 36 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 43 43 43 43 40 40 40 40 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 55 55 55 55 52 52 52 52 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 67 67 67 67 64 64 64 64 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 24 24 24 24 72 72 72 72 73 73 73 73 72 72 72 72 74 74 74 74 73 73 73 73 75 75 75 75 76 76 76 76 77 77 77 77 76 76 76 76 78 78 78 78 77 77 77 77 79 79 79 79 80 80 80 80 81 81 81 81 82 82 82 82 79 79 79 79 81 81 81 81 83 83 83 83 84 84 84 84 85 85 85 85 84 84 84 84 86 86 86 86 85 85 85 85 87 87 87 87 88 88 88 88 89 89 89 89 88 88 88 88 90 90 90 90 89 89 89 89 91 91 91 91 92 92 92 92 93 93 93 93 92 92 92 92 94 94 94 94 93 93 93 93 95 95 95 95 96 96 96 96 97 97 97 97 96 96 96 96 98 98 98 98 97 97 97 97 99 99 99 99 100 100 100 100 101 101 101 101 102 102 102 102 99 99 99 99 101 101 101 101 103 103 103 103 104 104 104 104 105 105 105 105 106 106 106 106 103 103 103 103 105 105 105 105 107 107 107 107 108 108 108 108 109 109 109 109 108 108 108 108 110 110 110 110 109 109 109 109 111 111 111 111 112 112 112 112 113 113 113 113 114 114 114 114 111 111 111 111 113 113 113 113 115 115 115 115 116 116 116 116 117 117 117 117 39 39 39 39 115 115 115 115 117 117 117 117 118 118 118 118 119 119 119 119 120 120 120 120 119 119 119 119 121 121 121 121 120 120 120 120 122 122 122 122 123 123 123 123 124 124 124 124 125 125 125 125 122 122 122 122 124 124 124 124 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube523_1__Whs_Fence01-mesh" name="pCube523_1__Whs_Fence01">
+      <mesh>
+        <source id="pCube523_1__Whs_Fence01-position">
+          <float_array id="pCube523_1__Whs_Fence01-position-array" count="24">-21.36375 84.75 -232.5529 13.38945 84.75 -221.6079 -16.58738 84.75 -247.7191 18.22675 84.75 -236.7543 21.36375 84.75 232.5529 -13.38945 84.75 221.6079 16.58738 84.75 247.7191 -18.22675 84.75 236.7543</float_array>
+          <technique_common>
+            <accessor source="#pCube523_1__Whs_Fence01-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube523_1__Whs_Fence01-normal">
+          <float_array id="pCube523_1__Whs_Fence01-normal-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube523_1__Whs_Fence01-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube523_1__Whs_Fence01-texcoord">
+          <float_array id="pCube523_1__Whs_Fence01-texcoord-array" count="16">0.8232422 0.4086914 2.685547 -1.458984 1.638672 1.221313 3.503906 -0.6494141 0.8232422 0.4086914 2.685547 -1.458984 1.638672 1.221313 3.503906 -0.6494141</float_array>
+          <technique_common>
+            <accessor source="#pCube523_1__Whs_Fence01-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube523_1__Whs_Fence01-texcoord_1">
+          <float_array id="pCube523_1__Whs_Fence01-texcoord-array_1" count="16">0.5568628 0.6235294 0.4392157 0.5058824 0.6078432 0.572549 0.4901961 0.4549019 0.5568628 0.6235294 0.4392157 0.5058824 0.6078432 0.572549 0.4901961 0.4549019</float_array>
+          <technique_common>
+            <accessor source="#pCube523_1__Whs_Fence01-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube523_1__Whs_Fence01-vertex">
+          <input semantic="POSITION" source="#pCube523_1__Whs_Fence01-position" />
+        </vertices>
+        <triangles material="Whs_Fence01" count="4">
+          <input semantic="VERTEX" source="#pCube523_1__Whs_Fence01-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube523_1__Whs_Fence01-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube523_1__Whs_Fence01-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube523_1__Whs_Fence01-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCube1746_1__IronEgeGray_np-mesh">
+      <skin source="#pCube1746_1__IronEgeGray_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube1746_1__IronEgeGray_np-mesh-joint">
+          <Name_array id="pCube1746_1__IronEgeGray_np-mesh-joint-array" count="1">Obj_DanchiFence</Name_array>
+          <technique_common>
+            <accessor source="#pCube1746_1__IronEgeGray_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube1746_1__IronEgeGray_np-mesh-inv_bind_matrix">
+          <float_array id="pCube1746_1__IronEgeGray_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube1746_1__IronEgeGray_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube1746_1__IronEgeGray_np-mesh-weight">
+          <float_array id="pCube1746_1__IronEgeGray_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube1746_1__IronEgeGray_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube1746_1__IronEgeGray_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube1746_1__IronEgeGray_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="126">
+          <input semantic="JOINT" source="#pCube1746_1__IronEgeGray_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube1746_1__IronEgeGray_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube523_1__Whs_Fence01-mesh">
+      <skin source="#pCube523_1__Whs_Fence01-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube523_1__Whs_Fence01-mesh-joint">
+          <Name_array id="pCube523_1__Whs_Fence01-mesh-joint-array" count="1">Obj_DanchiFence</Name_array>
+          <technique_common>
+            <accessor source="#pCube523_1__Whs_Fence01-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube523_1__Whs_Fence01-mesh-inv_bind_matrix">
+          <float_array id="pCube523_1__Whs_Fence01-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube523_1__Whs_Fence01-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube523_1__Whs_Fence01-mesh-weight">
+          <float_array id="pCube523_1__Whs_Fence01-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube523_1__Whs_Fence01-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube523_1__Whs_Fence01-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube523_1__Whs_Fence01-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#pCube523_1__Whs_Fence01-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube523_1__Whs_Fence01-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_DanchiFence" name="Obj_DanchiFence" sid="Obj_DanchiFence" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCube1746_1__IronEgeGray_np" name="pCube1746_1__IronEgeGray_np" type="NODE">
+        <instance_controller url="#Armature_pCube1746_1__IronEgeGray_np-mesh">
+          <skeleton>#Armature_Obj_DanchiFence</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="IronEgeGray_np" target="#IronEgeGray_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube523_1__Whs_Fence01" name="pCube523_1__Whs_Fence01" type="NODE">
+        <instance_controller url="#Armature_pCube523_1__Whs_Fence01-mesh">
+          <skeleton>#Armature_Obj_DanchiFence</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Whs_Fence01" target="#Whs_Fence01" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

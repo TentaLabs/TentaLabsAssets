@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_base_Alb">
+      <init_from>M_base_Alb.png</init_from>
+    </image>
+    <image id="M_base_Nrm">
+      <init_from>M_base_Nrm.png</init_from>
+    </image>
+    <image id="M_base_Res">
+      <init_from>M_base_Res.png</init_from>
+    </image>
+    <image id="M_base_Res1">
+      <init_from>M_base_Res1.png</init_from>
+    </image>
+    <image id="M_base_Rgh">
+      <init_from>M_base_Rgh.png</init_from>
+    </image>
+    <image id="M_end_Nrm">
+      <init_from>M_end_Nrm.png</init_from>
+    </image>
+    <image id="M_roll_Alb">
+      <init_from>M_roll_Alb.png</init_from>
+    </image>
+    <image id="M_roll_Nrm">
+      <init_from>M_roll_Nrm.png</init_from>
+    </image>
+    <image id="M_roll_Res">
+      <init_from>M_roll_Res.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_base">
+      <instance_effect url="#Effect_M_base" />
+    </material>
+    <material id="M_base_nopaint">
+      <instance_effect url="#Effect_M_base_nopaint" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_base">
+      <profile_COMMON>
+        <newparam sid="surface_M_base-diffuse">
+          <surface type="2D">
+            <init_from>M_base_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_base-diffuse">
+          <sampler2D>
+            <source>surface_M_base-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_base-bump">
+          <surface type="2D">
+            <init_from>M_base_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_base-bump">
+          <sampler2D>
+            <source>surface_M_base-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_base-emission">
+          <surface type="2D">
+            <init_from>M_base_Res1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_base-emission">
+          <sampler2D>
+            <source>surface_M_base-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_base-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_base-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_M_base-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_M_base_nopaint">
+      <profile_COMMON>
+        <newparam sid="surface_M_base_nopaint-diffuse">
+          <surface type="2D">
+            <init_from>M_base_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_base_nopaint-diffuse">
+          <sampler2D>
+            <source>surface_M_base_nopaint-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_base_nopaint-bump">
+          <surface type="2D">
+            <init_from>M_base_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_base_nopaint-bump">
+          <sampler2D>
+            <source>surface_M_base_nopaint-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_base_nopaint-emission">
+          <surface type="2D">
+            <init_from>M_base_Res1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_base_nopaint-emission">
+          <sampler2D>
+            <source>surface_M_base_nopaint-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_base_nopaint-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_base_nopaint-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_M_base_nopaint-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Obj_Blowout_base1__M_base-mesh" name="Obj_Blowout_base1__M_base">
+      <mesh>
+        <source id="Obj_Blowout_base1__M_base-position">
+          <float_array id="Obj_Blowout_base1__M_base-position-array" count="126">17.64255 -0.2499813 0 17.64255 -0.2499811 512 19.5202 -0.4769936 0 19.5144 -0.555495 511.9 12 0.1500176 512 17.64255 -0.2499813 0 11.95294 0.1500176 0 3.33786E-06 0.2500171 512 1.907349E-06 0.250015 -2.861023E-06 -12 0.1500128 512 -12.01397 0.1500128 0 -17.51323 -0.2499845 512 -17.51323 -0.2499881 0 -19.38474 -0.5600477 511.9 -19.39088 -0.4792788 0.1329883 -17.51323 -0.2499881 0 -17.51323 -2.499987 0 -19.5 1.144409E-05 0 -20 -2.499988 0 -19.49999 -4.749987 0 -17.51323 -4.499987 0 17.64255 -2.499982 0 17.64255 -0.2499813 0 19.49999 1.907349E-05 0 19.99999 -2.499982 0 19.5 -4.749983 0 17.64255 -4.499983 0 -17.51323 -2.499987 0 -17.51323 -0.2499881 0 -12.01398 -2.499987 0 -17.51323 -4.499987 0 -12.01397 0.1500128 0 -12.01398 -4.899987 0 1.907349E-06 -2.499984 -2.861023E-06 1.907349E-06 0.250015 -2.861023E-06 1.907349E-06 -4.999985 -2.861023E-06 11.95294 0.1500176 0 11.95294 -4.899984 0 11.95294 -2.499983 0 17.64255 -0.2499813 0 17.64255 -4.499983 0 17.64255 -2.499982 0</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base-position-array" count="42" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base-normal">
+          <float_array id="Obj_Blowout_base1__M_base-normal-array" count="126">0.08806262 0.9960861 -0.003913894 0.08806262 0.9960861 0 0.1409002 0.9902152 0 0.1409002 0.9902152 0 0.02739726 1 0 0.08806262 0.9960861 -0.003913894 0.02739726 1 -0.005870841 0 1 0 0 1 -0.005870841 -0.02935421 1 0 -0.02935421 1 -0.005870841 -0.09001957 0.9960861 0 -0.09001957 0.9960861 -0.003913894 -0.1428571 0.9902152 0 -0.1428571 0.9902152 0 0.1252446 0.9921722 -0.005870841 0 0 -1 -0.6536204 0.7573385 -0.003913894 -1 0 -0.003913894 -0.6086106 -0.7945206 -0.003913894 0.1252446 -0.9921722 -0.005870841 0 0 -1 -0.1330724 0.9902152 -0.005870841 0.6712329 0.7416829 -0.003913894 1 0 -0.003913894 0.62818 -0.778865 -0.003913894 -0.1330724 -0.9902152 -0.005870841 0 0 -1 -0.09001957 0.9960861 -0.003913894 0 0 -1 -0.07240704 -0.9980431 -0.003913894 -0.02935421 1 -0.005870841 -0.02935421 -1 -0.003913894 0 0 -1 0 1 -0.005870841 0 -1 -0.003913894 0.02739726 1 -0.005870841 0.02739726 -1 -0.003913894 0 0 -1 0.08806262 0.9960861 -0.003913894 0.0704501 -0.9980431 -0.003913894 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base-normal-array" count="42" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base-texcoord">
+          <float_array id="Obj_Blowout_base1__M_base-texcoord-array" count="84">0.9535631 11.39879 0.9535631 -0.2674221 0.9964212 11.39805 0.9961895 -0.2635574 0.8113235 -0.2674221 0.9535631 11.39879 0.8113235 11.39879 0.5000001 -0.2674221 0.5000001 11.39879 0.1871505 -0.2674221 0.1871505 11.39879 0.04966992 -0.2674221 0.04966992 11.39879 0.006852686 -0.2643075 0.007433027 11.39569 0.04966992 -0.2674229 0.04966992 -0.2049229 0 -0.2674229 0 -0.2049229 0 -0.1424229 0.04966992 -0.1424229 0.9535631 -0.2049232 0.9535631 -0.2674232 1 -0.2674232 1 -0.2049232 1 -0.142423 0.9535631 -0.142423 0.04966992 -0.2049229 0.04966992 -0.2674221 0.1871505 -0.2049229 0.04966992 -0.1424229 0.1871505 -0.2674229 0.1871505 -0.1424229 0.5 -0.204923 0.5 -0.267423 0.5 -0.142423 0.8113235 -0.2674232 0.8113234 -0.142423 0.8113234 -0.204923 0.9535631 -0.2674232 0.9535631 -0.142423 0.9535631 -0.2049232</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base-texcoord-array" count="42" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base-texcoord_1">
+          <float_array id="Obj_Blowout_base1__M_base-texcoord-array_1" count="84">0.953125 1 0.953125 0 0.9770508 1 0.9770508 0 0.8110352 0 0.953125 1 0.8110352 1 0.4997559 0 0.4997559 1 0.1871338 0 0.1871338 1 0.0496521 0 0.0496521 1 0.02586365 0 0.02586365 1 0.0496521 1 0.0496521 1 0 1 0 1 0 1 0.0496521 1 0.953125 1 0.953125 1 0.9995117 1 0.9995117 1 0.9995117 1 0.953125 1 0.0496521 1 0.0496521 1 0.1871338 1 0.0496521 1 0.1871338 1 0.1871338 1 0.4997559 1 0.4997559 1 0.4997559 1 0.8110352 1 0.8110352 1 0.8110352 1 0.953125 1 0.953125 1 0.953125 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base-texcoord-array_1" count="42" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_Blowout_base1__M_base-vertex">
+          <input semantic="POSITION" source="#Obj_Blowout_base1__M_base-position" />
+        </vertices>
+        <triangles material="M_base" count="36">
+          <input semantic="VERTEX" source="#Obj_Blowout_base1__M_base-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_Blowout_base1__M_base-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_Blowout_base1__M_base-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Obj_Blowout_base1__M_base-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 1 1 1 1 5 5 5 5 6 6 6 6 4 4 4 4 5 5 5 5 7 7 7 7 4 4 4 4 6 6 6 6 8 8 8 8 7 7 7 7 6 6 6 6 9 9 9 9 7 7 7 7 8 8 8 8 10 10 10 10 9 9 9 9 8 8 8 8 11 11 11 11 9 9 9 9 10 10 10 10 12 12 12 12 11 11 11 11 10 10 10 10 11 11 11 11 12 12 12 12 13 13 13 13 12 12 12 12 14 14 14 14 13 13 13 13 15 15 15 15 16 16 16 16 17 17 17 17 16 16 16 16 18 18 18 18 17 17 17 17 18 18 18 18 16 16 16 16 19 19 19 19 16 16 16 16 20 20 20 20 19 19 19 19 21 21 21 21 22 22 22 22 23 23 23 23 24 24 24 24 21 21 21 21 23 23 23 23 21 21 21 21 24 24 24 24 25 25 25 25 26 26 26 26 21 21 21 21 25 25 25 25 27 27 27 27 28 28 28 28 29 29 29 29 27 27 27 27 29 29 29 29 30 30 30 30 28 28 28 28 31 31 31 31 29 29 29 29 29 29 29 29 32 32 32 32 30 30 30 30 29 29 29 29 31 31 31 31 33 33 33 33 29 29 29 29 33 33 33 33 32 32 32 32 31 31 31 31 34 34 34 34 33 33 33 33 33 33 33 33 35 35 35 35 32 32 32 32 33 33 33 33 34 34 34 34 36 36 36 36 35 35 35 35 33 33 33 33 37 37 37 37 38 38 38 38 33 33 33 33 36 36 36 36 33 33 33 33 38 38 38 38 37 37 37 37 38 38 38 38 36 36 36 36 39 39 39 39 37 37 37 37 38 38 38 38 40 40 40 40 41 41 41 41 38 38 38 38 39 39 39 39 38 38 38 38 41 41 41 41 40 40 40 40 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Obj_Blowout_base1__M_base_nopaint-mesh" name="Obj_Blowout_base1__M_base_nopaint">
+      <mesh>
+        <source id="Obj_Blowout_base1__M_base_nopaint-position">
+          <float_array id="Obj_Blowout_base1__M_base_nopaint-position-array" count="102">17.64255 -0.2499813 0 17.64255 -0.2499811 512 19.49999 1.907349E-05 0 19.49999 1.907349E-05 512 -17.51323 -4.499987 0 -17.51323 -4.499987 512 -19.49999 -4.749987 0 -19.49999 -4.749987 512 -19.49999 -4.749987 0 -19.49999 -4.749987 512 -20 -2.499988 0 -20.24999 -2.499986 512 -19.5 1.144409E-05 0 -19.5 1.525879E-05 512 -17.51323 -0.2499845 512 -17.51323 -0.2499881 0 17.64255 -4.499983 0 17.64255 -4.499983 512 11.95294 -4.899984 0 11.95294 -4.899984 512 1.907349E-06 -4.999985 -2.861023E-06 1.907349E-06 -4.999985 512 -12.01398 -4.899987 0 -12 -4.899987 512 -17.51323 -4.499987 0 -17.51323 -4.499987 512 19.5 -4.749983 512 17.64255 -4.499983 512 17.64255 -4.499983 0 19.5 -4.749983 0 19.99999 -2.499982 0 20.25 -2.499982 512 19.49999 1.907349E-05 512 19.49999 1.907349E-05 0</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base_nopaint-position-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base_nopaint-normal">
+          <float_array id="Obj_Blowout_base1__M_base_nopaint-normal-array" count="102">-0.1330724 0.9902152 -0.005870841 -0.1330724 0.9902152 0 0.6712329 0.7416829 -0.003913894 0.6712329 0.7416829 0 0.1252446 -0.9921722 -0.005870841 0.1252446 -0.9921722 0 -0.6086106 -0.7945206 -0.003913894 -0.6086106 -0.7945206 0 -0.6086106 -0.7945206 -0.003913894 -0.6086106 -0.7945206 0 -1 0 -0.003913894 -1 0 0 -0.6536204 0.7573385 -0.003913894 -0.6536204 0.7573385 0 0.1252446 0.9921722 0 0.1252446 0.9921722 -0.005870841 0.0704501 -0.9980431 -0.003913894 0.0704501 -0.9980431 0 0.02739726 -1 -0.003913894 0.02739726 -1 0 0 -1 -0.003913894 0 -1 0 -0.02935421 -1 -0.003913894 -0.02935421 -1 0 -0.07240704 -0.9980431 -0.003913894 -0.07240704 -0.9980431 0 0.62818 -0.778865 0 -0.1330724 -0.9902152 0 -0.1330724 -0.9902152 -0.005870841 0.62818 -0.778865 -0.003913894 1 0 -0.003913894 1 0 0 0.6712329 0.7416829 0 0.6712329 0.7416829 -0.003913894</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base_nopaint-normal-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base_nopaint-texcoord">
+          <float_array id="Obj_Blowout_base1__M_base_nopaint-texcoord-array" count="68">0.953125 11.39844 0.953125 -0.2666016 1 11.39844 1 -0.2666016 0.953125 11.39844 0.953125 -0.2666016 1 11.39844 1 -0.2666016 0 11.39844 0 -0.2666016 0 11.39844 0 -0.2666016 0 11.39844 0 -0.2666016 0.0496521 -0.2666016 0.0496521 11.39844 0.0496521 11.39844 0.0496521 -0.2666016 0.1871338 11.39844 0.1871338 -0.2666016 0.5 11.39844 0.5 -0.2666016 0.8110352 11.39844 0.8110352 -0.2666016 0.953125 11.39844 0.953125 -0.2666016 0 -0.2666016 0.0496521 -0.2666016 0.0496521 11.39844 0 11.39844 0 11.39844 0 -0.2666016 0 -0.2666016 0 11.39844</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base_nopaint-texcoord-array" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base_nopaint-texcoord_1">
+          <float_array id="Obj_Blowout_base1__M_base_nopaint-texcoord-array_1" count="68">0.9529412 1 0.9529412 0 1 1 1 0 0.05098039 1 0.05098039 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0.05098039 0 0.05098039 1 0.9529412 1 0.9529412 0 0.8117647 1 0.8117647 0 0.4980392 1 0.4980392 0 0.1882353 1 0.1882353 0 0.05098039 1 0.05098039 0 1 0 0.9529412 0 0.9529412 1 1 1 1 1 1 0 1 0 1 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base_nopaint-texcoord-array_1" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_Blowout_base1__M_base_nopaint-vertex">
+          <input semantic="POSITION" source="#Obj_Blowout_base1__M_base_nopaint-position" />
+        </vertices>
+        <triangles material="M_base_nopaint" count="24">
+          <input semantic="VERTEX" source="#Obj_Blowout_base1__M_base_nopaint-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_Blowout_base1__M_base_nopaint-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_Blowout_base1__M_base_nopaint-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Obj_Blowout_base1__M_base_nopaint-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 10 10 10 10 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 13 13 13 13 14 14 14 14 12 12 12 12 14 14 14 14 15 15 15 15 12 12 12 12 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 18 18 18 18 19 19 19 19 20 20 20 20 19 19 19 19 21 21 21 21 20 20 20 20 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 22 22 22 22 23 23 23 23 24 24 24 24 23 23 23 23 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 28 28 28 28 29 29 29 29 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 26 26 26 26 30 30 30 30 31 31 31 31 26 26 26 26 31 31 31 31 30 30 30 30 32 32 32 32 30 30 30 30 33 33 33 33 32 32 32 32 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Obj_Blowout_base1__M_base-mesh">
+      <skin source="#Obj_Blowout_base1__M_base-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_Blowout_base1__M_base-mesh-joint">
+          <Name_array id="Obj_Blowout_base1__M_base-mesh-joint-array" count="1">Obj_Blowout_base</Name_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base-mesh-inv_bind_matrix">
+          <float_array id="Obj_Blowout_base1__M_base-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base-mesh-weight">
+          <float_array id="Obj_Blowout_base1__M_base-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_Blowout_base1__M_base-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_Blowout_base1__M_base-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="42">
+          <input semantic="JOINT" source="#Obj_Blowout_base1__M_base-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_Blowout_base1__M_base-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Obj_Blowout_base1__M_base_nopaint-mesh">
+      <skin source="#Obj_Blowout_base1__M_base_nopaint-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_Blowout_base1__M_base_nopaint-mesh-joint">
+          <Name_array id="Obj_Blowout_base1__M_base_nopaint-mesh-joint-array" count="1">Obj_Blowout_base</Name_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base_nopaint-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base_nopaint-mesh-inv_bind_matrix">
+          <float_array id="Obj_Blowout_base1__M_base_nopaint-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base_nopaint-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_Blowout_base1__M_base_nopaint-mesh-weight">
+          <float_array id="Obj_Blowout_base1__M_base_nopaint-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_Blowout_base1__M_base_nopaint-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_Blowout_base1__M_base_nopaint-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_Blowout_base1__M_base_nopaint-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="34">
+          <input semantic="JOINT" source="#Obj_Blowout_base1__M_base_nopaint-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_Blowout_base1__M_base_nopaint-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_Blowout_base" name="Obj_Blowout_base" sid="Obj_Blowout_base" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Obj_Blowout_base1__M_base" name="Obj_Blowout_base1__M_base" type="NODE">
+        <instance_controller url="#Armature_Obj_Blowout_base1__M_base-mesh">
+          <skeleton>#Armature_Obj_Blowout_base</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_base" target="#M_base" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Obj_Blowout_base1__M_base_nopaint" name="Obj_Blowout_base1__M_base_nopaint" type="NODE">
+        <instance_controller url="#Armature_Obj_Blowout_base1__M_base_nopaint-mesh">
+          <skeleton>#Armature_Obj_Blowout_base</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_base_nopaint" target="#M_base_nopaint" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
