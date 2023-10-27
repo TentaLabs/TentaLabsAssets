@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BlueSheet_Alb">
+      <init_from>BlueSheet_Alb.png</init_from>
+    </image>
+    <image id="BlueSheet_Nrm">
+      <init_from>BlueSheet_Nrm.png</init_from>
+    </image>
+    <image id="BlueSheet_Rgh">
+      <init_from>BlueSheet_Rgh.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Nrm">
+      <init_from>CanolaA_Nrm.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Nrm">
+      <init_from>CanolaB_Nrm.png</init_from>
+    </image>
+    <image id="Canola_Fxm">
+      <init_from>Canola_Fxm.png</init_from>
+    </image>
+    <image id="Canola_Opa">
+      <init_from>Canola_Opa.png</init_from>
+    </image>
+    <image id="DV_GroundRepeat_Alb">
+      <init_from>DV_GroundRepeat_Alb.png</init_from>
+    </image>
+    <image id="DV_GroundRepeat_Nrm">
+      <init_from>DV_GroundRepeat_Nrm.png</init_from>
+    </image>
+    <image id="DV_GroundRepeat_Rgh">
+      <init_from>DV_GroundRepeat_Rgh.png</init_from>
+    </image>
+    <image id="GlassMirror_Alb">
+      <init_from>GlassMirror_Alb.png</init_from>
+    </image>
+    <image id="GlassMirror_Nrm">
+      <init_from>GlassMirror_Nrm.png</init_from>
+    </image>
+    <image id="GlassMirror_Rgh">
+      <init_from>GlassMirror_Rgh.png</init_from>
+    </image>
+    <image id="GroundBrickt_Alb">
+      <init_from>GroundBrickt_Alb.png</init_from>
+    </image>
+    <image id="GroundBrickt_Nrm">
+      <init_from>GroundBrickt_Nrm.png</init_from>
+    </image>
+    <image id="GroundBrickt_Rgh">
+      <init_from>GroundBrickt_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="GroundRepeat_Alb">
+      <init_from>GroundRepeat_Alb.png</init_from>
+    </image>
+    <image id="GroundRepeat_Mtl">
+      <init_from>GroundRepeat_Mtl.png</init_from>
+    </image>
+    <image id="GroundRepeat_Nrm">
+      <init_from>GroundRepeat_Nrm.png</init_from>
+    </image>
+    <image id="GroundRepeat_Rgh">
+      <init_from>GroundRepeat_Rgh.png</init_from>
+    </image>
+    <image id="GroundSealNukiSet_Alb">
+      <init_from>GroundSealNukiSet_Alb.png</init_from>
+    </image>
+    <image id="GroundSealNukiSet_Emm">
+      <init_from>GroundSealNukiSet_Emm.png</init_from>
+    </image>
+    <image id="GroundSealNukiSet_Mtl">
+      <init_from>GroundSealNukiSet_Mtl.png</init_from>
+    </image>
+    <image id="GroundSealNukiSet_Nrm">
+      <init_from>GroundSealNukiSet_Nrm.png</init_from>
+    </image>
+    <image id="GroundSealNukiSet_Opa">
+      <init_from>GroundSealNukiSet_Opa.png</init_from>
+    </image>
+    <image id="GroundSealNukiSet_Rgh">
+      <init_from>GroundSealNukiSet_Rgh.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Alb">
+      <init_from>GroundSoilLittleGrass_Alb.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Nrm">
+      <init_from>GroundSoilLittleGrass_Nrm.png</init_from>
+    </image>
+    <image id="KomonoMatome00_NP_Alb">
+      <init_from>KomonoMatome00_NP_Alb.png</init_from>
+    </image>
+    <image id="KomonoMatome00_NP_Mtl">
+      <init_from>KomonoMatome00_NP_Mtl.png</init_from>
+    </image>
+    <image id="KomonoMatome00_NP_Nrm">
+      <init_from>KomonoMatome00_NP_Nrm.png</init_from>
+    </image>
+    <image id="KomonoMatome00_NP_Rgh">
+      <init_from>KomonoMatome00_NP_Rgh.png</init_from>
+    </image>
+    <image id="KomonoMatome01_NP_Alb">
+      <init_from>KomonoMatome01_NP_Alb.png</init_from>
+    </image>
+    <image id="KomonoMatome01_NP_Mtl">
+      <init_from>KomonoMatome01_NP_Mtl.png</init_from>
+    </image>
+    <image id="KomonoMatome01_NP_Nrm">
+      <init_from>KomonoMatome01_NP_Nrm.png</init_from>
+    </image>
+    <image id="KomonoMatome01_NP_Rgh">
+      <init_from>KomonoMatome01_NP_Rgh.png</init_from>
+    </image>
+    <image id="KomonoMatome02_NP_Alb">
+      <init_from>KomonoMatome02_NP_Alb.png</init_from>
+    </image>
+    <image id="KomonoMatome02_NP_Emm">
+      <init_from>KomonoMatome02_NP_Emm.png</init_from>
+    </image>
+    <image id="KomonoMatome02_NP_Nrm">
+      <init_from>KomonoMatome02_NP_Nrm.png</init_from>
+    </image>
+    <image id="KomonoMatome02_NP_Rgh">
+      <init_from>KomonoMatome02_NP_Rgh.png</init_from>
+    </image>
+    <image id="KomonoMatome_Alb">
+      <init_from>KomonoMatome_Alb.png</init_from>
+    </image>
+    <image id="KomonoMatome_Emm">
+      <init_from>KomonoMatome_Emm.png</init_from>
+    </image>
+    <image id="KomonoMatome_Mtl">
+      <init_from>KomonoMatome_Mtl.png</init_from>
+    </image>
+    <image id="KomonoMatome_Nrm">
+      <init_from>KomonoMatome_Nrm.png</init_from>
+    </image>
+    <image id="KomonoMatome_Rgh">
+      <init_from>KomonoMatome_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="NukiFlier_np_Alb">
+      <init_from>NukiFlier_np_Alb.png</init_from>
+    </image>
+    <image id="NukiFlier_np_Nrm">
+      <init_from>NukiFlier_np_Nrm.png</init_from>
+    </image>
+    <image id="NukiFlier_np_Opa">
+      <init_from>NukiFlier_np_Opa.png</init_from>
+    </image>
+    <image id="NukiFlier_Rgh">
+      <init_from>NukiFlier_Rgh.png</init_from>
+    </image>
+    <image id="NukiSet02_Alb">
+      <init_from>NukiSet02_Alb.png</init_from>
+    </image>
+    <image id="NukiSet02_Emi">
+      <init_from>NukiSet02_Emi.png</init_from>
+    </image>
+    <image id="NukiSet02_Mtl">
+      <init_from>NukiSet02_Mtl.png</init_from>
+    </image>
+    <image id="NukiSet02_Nrm">
+      <init_from>NukiSet02_Nrm.png</init_from>
+    </image>
+    <image id="NukiSet02_Opa">
+      <init_from>NukiSet02_Opa.png</init_from>
+    </image>
+    <image id="NukiSet02_Rgh">
+      <init_from>NukiSet02_Rgh.png</init_from>
+    </image>
+    <image id="PlantLeaf00_Alb">
+      <init_from>PlantLeaf00_Alb.png</init_from>
+    </image>
+    <image id="PlantLeaf00_Nrm">
+      <init_from>PlantLeaf00_Nrm.png</init_from>
+    </image>
+    <image id="PlantLeaf00_Opa">
+      <init_from>PlantLeaf00_Opa.png</init_from>
+    </image>
+    <image id="PlantLeaf01_Alb">
+      <init_from>PlantLeaf01_Alb.png</init_from>
+    </image>
+    <image id="PlantLeaf01_Nrm">
+      <init_from>PlantLeaf01_Nrm.png</init_from>
+    </image>
+    <image id="Posters_Alb">
+      <init_from>Posters_Alb.png</init_from>
+    </image>
+    <image id="SealTranslucentSet_Alb">
+      <init_from>SealTranslucentSet_Alb.png</init_from>
+    </image>
+    <image id="SealTranslucentSet_Nrm">
+      <init_from>SealTranslucentSet_Nrm.png</init_from>
+    </image>
+    <image id="SealTranslucentSet_Opa">
+      <init_from>SealTranslucentSet_Opa.png</init_from>
+    </image>
+    <image id="SealTranslucentSet_Rgh">
+      <init_from>SealTranslucentSet_Rgh.png</init_from>
+    </image>
+    <image id="SheetVinyl_Alb">
+      <init_from>SheetVinyl_Alb.png</init_from>
+    </image>
+    <image id="SheetVinyl_Mtl">
+      <init_from>SheetVinyl_Mtl.png</init_from>
+    </image>
+    <image id="SheetVinyl_Nrm">
+      <init_from>SheetVinyl_Nrm.png</init_from>
+    </image>
+    <image id="SheetVinyl_Rgh">
+      <init_from>SheetVinyl_Rgh.png</init_from>
+    </image>
+    <image id="VinylClear_Nrm">
+      <init_from>VinylClear_Nrm.png</init_from>
+    </image>
+    <image id="WallBrick_Alb">
+      <init_from>WallBrick_Alb.png</init_from>
+    </image>
+    <image id="WallBrick_Mult">
+      <init_from>WallBrick_Mult.png</init_from>
+    </image>
+    <image id="WallBrick_Nrm">
+      <init_from>WallBrick_Nrm.png</init_from>
+    </image>
+    <image id="WallBrick_Rgh">
+      <init_from>WallBrick_Rgh.png</init_from>
+    </image>
+    <image id="WallBulleten_Alb">
+      <init_from>WallBulleten_Alb.png</init_from>
+    </image>
+    <image id="WallBulleten_Nrm">
+      <init_from>WallBulleten_Nrm.png</init_from>
+    </image>
+    <image id="WallBulleten_Rgh">
+      <init_from>WallBulleten_Rgh.png</init_from>
+    </image>
+    <image id="WallConcreteLightGray_Alb">
+      <init_from>WallConcreteLightGray_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteLightGray_Nrm">
+      <init_from>WallConcreteLightGray_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteLightGray_Rgh">
+      <init_from>WallConcreteLightGray_Rgh.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Alb">
+      <init_from>WallConcreteWhite_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Nrm">
+      <init_from>WallConcreteWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeat00_np_Alb">
+      <init_from>WallRepeat00_np_Alb.png</init_from>
+    </image>
+    <image id="WallRepeat00_np_Emm">
+      <init_from>WallRepeat00_np_Emm.png</init_from>
+    </image>
+    <image id="WallRepeat00_np_Nrm">
+      <init_from>WallRepeat00_np_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeat01_np_Alb">
+      <init_from>WallRepeat01_np_Alb.png</init_from>
+    </image>
+    <image id="WallRepeat01_np_Nrm">
+      <init_from>WallRepeat01_np_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeat02_np_Alb">
+      <init_from>WallRepeat02_np_Alb.png</init_from>
+    </image>
+    <image id="WallRepeat02_np_Emm">
+      <init_from>WallRepeat02_np_Emm.png</init_from>
+    </image>
+    <image id="WallRepeat02_np_Nrm">
+      <init_from>WallRepeat02_np_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeat_Alb">
+      <init_from>WallRepeat_Alb.png</init_from>
+    </image>
+    <image id="WallRepeat_Nrm">
+      <init_from>WallRepeat_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeat_Rgh">
+      <init_from>WallRepeat_Rgh.png</init_from>
+    </image>
+    <image id="WallRoughConcrete_Alb">
+      <init_from>WallRoughConcrete_Alb.png</init_from>
+    </image>
+    <image id="WallRoughConcrete_Nrm">
+      <init_from>WallRoughConcrete_Nrm.png</init_from>
+    </image>
+    <image id="WallWindow_Alb">
+      <init_from>WallWindow_Alb.png</init_from>
+    </image>
+    <image id="WallWindow_Nrm">
+      <init_from>WallWindow_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GroundRepeat">
+      <instance_effect url="#Effect_GroundRepeat" />
+    </material>
+    <material id="WallRepeat02_np">
+      <instance_effect url="#Effect_WallRepeat02_np" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GroundRepeat">
+      <profile_COMMON>
+        <newparam sid="surface_GroundRepeat-diffuse">
+          <surface type="2D">
+            <init_from>GroundRepeat_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundRepeat-diffuse">
+          <sampler2D>
+            <source>surface_GroundRepeat-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundRepeat-bump">
+          <surface type="2D">
+            <init_from>GroundRepeat_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundRepeat-bump">
+          <sampler2D>
+            <source>surface_GroundRepeat-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundRepeat-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundRepeat-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallRepeat02_np">
+      <profile_COMMON>
+        <newparam sid="surface_WallRepeat02_np-diffuse">
+          <surface type="2D">
+            <init_from>WallRepeat02_np_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallRepeat02_np-diffuse">
+          <sampler2D>
+            <source>surface_WallRepeat02_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallRepeat02_np-emission">
+          <surface type="2D">
+            <init_from>WallRepeat02_np_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallRepeat02_np-emission">
+          <sampler2D>
+            <source>surface_WallRepeat02_np-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallRepeat02_np-bump">
+          <surface type="2D">
+            <init_from>WallRepeat02_np_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallRepeat02_np-bump">
+          <sampler2D>
+            <source>surface_WallRepeat02_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallRepeat02_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <texture texture="sampler_WallRepeat02_np-emission" texcoord="CHANNEL0" />
+            </emission>
+            <bump>
+              <texture texture="sampler_WallRepeat02_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube191634_1__WallRepeat02_np-mesh" name="pCube191634_1__WallRepeat02_np">
+      <mesh>
+        <source id="pCube191634_1__WallRepeat02_np-position">
+          <float_array id="pCube191634_1__WallRepeat02_np-position-array" count="48">6.999784 6.75 -17 14 6.75 -17 14 6.75 -16.75 6.999784 6.75 -16.75 14 7 -16.75 6.999784 7 -16.75 14 7 -17 6.999784 7 -17 -6.999784 6.75 17 -14 6.75 17 -14 6.75 16.75 -6.999784 6.75 16.75 -14 7 16.75 -6.999784 7 16.75 -14 7 17 -6.999784 7 17</float_array>
+          <technique_common>
+            <accessor source="#pCube191634_1__WallRepeat02_np-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191634_1__WallRepeat02_np-normal">
+          <float_array id="pCube191634_1__WallRepeat02_np-normal-array" count="48">0 -1 0 0 -1 0 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube191634_1__WallRepeat02_np-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191634_1__WallRepeat02_np-texcoord">
+          <float_array id="pCube191634_1__WallRepeat02_np-texcoord-array" count="32">1.993164 0.8435059 2.867188 0.8435059 2.867188 0.8809814 1.993164 0.8809814 2.867188 0.9185181 1.993164 0.9185181 2.867188 0.9559631 1.993164 0.9559631 1.993164 0.8435059 2.867188 0.8435059 2.867188 0.8809814 1.993164 0.8809814 2.867188 0.9185181 1.993164 0.9185181 2.867188 0.9559631 1.993164 0.9559631</float_array>
+          <technique_common>
+            <accessor source="#pCube191634_1__WallRepeat02_np-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191634_1__WallRepeat02_np-texcoord_1">
+          <float_array id="pCube191634_1__WallRepeat02_np-texcoord-array_1" count="32">0.007843138 0.9921569 0.007843138 0.007843137 0.05098039 0.007843137 0.05098039 0.9921569 0.09411765 0.007843137 0.09411765 0.9921569 0.1333333 0.007843137 0.1333333 0.9921569 0.1411765 0.9921569 0.1411765 0.007843137 0.1803922 0.007843137 0.1803922 0.9921569 0.2235294 0.007843137 0.2235294 0.9921569 0.2666667 0.007843137 0.2666667 0.9921569</float_array>
+          <technique_common>
+            <accessor source="#pCube191634_1__WallRepeat02_np-texcoord-array_1" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube191634_1__WallRepeat02_np-vertex">
+          <input semantic="POSITION" source="#pCube191634_1__WallRepeat02_np-position" />
+        </vertices>
+        <triangles material="WallRepeat02_np" count="12">
+          <input semantic="VERTEX" source="#pCube191634_1__WallRepeat02_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube191634_1__WallRepeat02_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube191634_1__WallRepeat02_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube191634_1__WallRepeat02_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 3 3 3 3 4 4 4 4 4 4 4 4 6 6 6 6 5 5 5 5 6 6 6 6 7 7 7 7 5 5 5 5 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 8 8 8 8 10 10 10 10 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 11 11 11 11 12 12 12 12 12 12 12 12 14 14 14 14 13 13 13 13 14 14 14 14 15 15 15 15 13 13 13 13 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube191638_1__GroundRepeat-mesh" name="pCube191638_1__GroundRepeat">
+      <mesh>
+        <source id="pCube191638_1__GroundRepeat-position">
+          <float_array id="pCube191638_1__GroundRepeat-position-array" count="48">6.999783 7 -16.75 14 7 -16.75 14 7.049999 -16.80029 6.999783 7.049999 -16.80029 14 7.049999 -17.18545 6.999783 7.049999 -17.18545 14 7 -17.23574 6.999783 7 -17.23574 -6.999784 7 16.75 -14 7 16.75 -14 7.049999 16.80029 -6.999784 7.049999 16.80029 -14 7.049999 17.18545 -6.999784 7.049999 17.18545 -14 7 17.23574 -6.999784 7 17.23574</float_array>
+          <technique_common>
+            <accessor source="#pCube191638_1__GroundRepeat-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191638_1__GroundRepeat-normal">
+          <float_array id="pCube191638_1__GroundRepeat-normal-array" count="48">0 0.7084149 0.704501 0 0.7084149 0.704501 0 0.9941292 0.1135029 0 0.9941292 0.1135029 0 0.9941292 -0.1135029 0 0.9941292 -0.1135029 0 0.7084149 -0.704501 0 0.7084149 -0.704501 0 0.7084149 -0.704501 0 0.7084149 -0.704501 0 0.9941292 -0.1135029 0 0.9941292 -0.1135029 0 0.9941292 0.1135029 0 0.9941292 0.1135029 0 0.7084149 0.704501 0 0.7084149 0.704501</float_array>
+          <technique_common>
+            <accessor source="#pCube191638_1__GroundRepeat-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191638_1__GroundRepeat-texcoord">
+          <float_array id="pCube191638_1__GroundRepeat-texcoord-array" count="32">1.819336 0.9974575 0.9282227 0.9974403 0.9282227 0.9887848 1.819336 0.9887924 0.9282227 0.9406128 1.819336 0.9406128 0.9282227 0.9320068 1.819336 0.9319458 1.819336 0.9974575 0.9282227 0.9974403 0.9282227 0.9887848 1.819336 0.9887924 0.9282227 0.9406128 1.819336 0.9406128 0.9282227 0.9320068 1.819336 0.9319458</float_array>
+          <technique_common>
+            <accessor source="#pCube191638_1__GroundRepeat-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191638_1__GroundRepeat-texcoord_1">
+          <float_array id="pCube191638_1__GroundRepeat-texcoord-array_1" count="32">0.0815137 0.007812619 0.08149844 0.9921874 0.07176318 0.9921874 0.07176318 0.007812619 0.01757839 0.9921874 0.01756313 0.007812619 0.007827878 0.9921874 0.007812619 0.007812619 0.1589075 0.007812619 0.1588769 0.9921874 0.1491417 0.9921874 0.1491569 0.007812619 0.09495689 0.9921874 0.09494163 0.007812619 0.08522164 0.9921874 0.08519112 0.007812619</float_array>
+          <technique_common>
+            <accessor source="#pCube191638_1__GroundRepeat-texcoord-array_1" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube191638_1__GroundRepeat-vertex">
+          <input semantic="POSITION" source="#pCube191638_1__GroundRepeat-position" />
+        </vertices>
+        <triangles material="GroundRepeat" count="12">
+          <input semantic="VERTEX" source="#pCube191638_1__GroundRepeat-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube191638_1__GroundRepeat-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube191638_1__GroundRepeat-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube191638_1__GroundRepeat-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 3 3 3 3 4 4 4 4 5 5 5 5 4 4 4 4 6 6 6 6 7 7 7 7 5 5 5 5 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 8 8 8 8 10 10 10 10 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 11 11 11 11 12 12 12 12 13 13 13 13 12 12 12 12 14 14 14 14 15 15 15 15 13 13 13 13 14 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCube191634_1__WallRepeat02_np-mesh">
+      <skin source="#pCube191634_1__WallRepeat02_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube191634_1__WallRepeat02_np-mesh-joint">
+          <Name_array id="pCube191634_1__WallRepeat02_np-mesh-joint-array" count="1">FldObj_UplandIkagaeshi</Name_array>
+          <technique_common>
+            <accessor source="#pCube191634_1__WallRepeat02_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191634_1__WallRepeat02_np-mesh-inv_bind_matrix">
+          <float_array id="pCube191634_1__WallRepeat02_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube191634_1__WallRepeat02_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191634_1__WallRepeat02_np-mesh-weight">
+          <float_array id="pCube191634_1__WallRepeat02_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube191634_1__WallRepeat02_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube191634_1__WallRepeat02_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube191634_1__WallRepeat02_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#pCube191634_1__WallRepeat02_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube191634_1__WallRepeat02_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube191638_1__GroundRepeat-mesh">
+      <skin source="#pCube191638_1__GroundRepeat-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube191638_1__GroundRepeat-mesh-joint">
+          <Name_array id="pCube191638_1__GroundRepeat-mesh-joint-array" count="1">FldObj_UplandIkagaeshi</Name_array>
+          <technique_common>
+            <accessor source="#pCube191638_1__GroundRepeat-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191638_1__GroundRepeat-mesh-inv_bind_matrix">
+          <float_array id="pCube191638_1__GroundRepeat-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube191638_1__GroundRepeat-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube191638_1__GroundRepeat-mesh-weight">
+          <float_array id="pCube191638_1__GroundRepeat-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube191638_1__GroundRepeat-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube191638_1__GroundRepeat-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube191638_1__GroundRepeat-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#pCube191638_1__GroundRepeat-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube191638_1__GroundRepeat-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_UplandIkagaeshi" name="FldObj_UplandIkagaeshi" sid="FldObj_UplandIkagaeshi" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCube191634_1__WallRepeat02_np" name="pCube191634_1__WallRepeat02_np" type="NODE">
+        <instance_controller url="#Armature_pCube191634_1__WallRepeat02_np-mesh">
+          <skeleton>#Armature_FldObj_UplandIkagaeshi</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallRepeat02_np" target="#WallRepeat02_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube191638_1__GroundRepeat" name="pCube191638_1__GroundRepeat" type="NODE">
+        <instance_controller url="#Armature_pCube191638_1__GroundRepeat-mesh">
+          <skeleton>#Armature_FldObj_UplandIkagaeshi</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundRepeat" target="#GroundRepeat" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

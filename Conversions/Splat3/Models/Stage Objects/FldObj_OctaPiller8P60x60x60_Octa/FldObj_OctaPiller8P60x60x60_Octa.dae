@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="WallConcreteGrey_Alb">
+      <init_from>WallConcreteGrey_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteGrey_Mtl">
+      <init_from>WallConcreteGrey_Mtl.png</init_from>
+    </image>
+    <image id="WallConcreteGrey_Nrm">
+      <init_from>WallConcreteGrey_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteGrey_Rgh">
+      <init_from>WallConcreteGrey_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="WallConcreteGrey">
+      <instance_effect url="#Effect_WallConcreteGrey" />
+    </material>
+    <material id="WallConcreteGrey_Metal">
+      <instance_effect url="#Effect_WallConcreteGrey_Metal" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_WallConcreteGrey">
+      <profile_COMMON>
+        <newparam sid="surface_WallConcreteGrey-diffuse">
+          <surface type="2D">
+            <init_from>WallConcreteGrey_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallConcreteGrey-diffuse">
+          <sampler2D>
+            <source>surface_WallConcreteGrey-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallConcreteGrey-bump">
+          <surface type="2D">
+            <init_from>WallConcreteGrey_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallConcreteGrey-bump">
+          <sampler2D>
+            <source>surface_WallConcreteGrey-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallConcreteGrey-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallConcreteGrey-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallConcreteGrey_Metal">
+      <profile_COMMON>
+        <newparam sid="surface_WallConcreteGrey_Metal-diffuse">
+          <surface type="2D">
+            <init_from>WallConcreteGrey_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallConcreteGrey_Metal-diffuse">
+          <sampler2D>
+            <source>surface_WallConcreteGrey_Metal-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallConcreteGrey_Metal-bump">
+          <surface type="2D">
+            <init_from>WallConcreteGrey_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallConcreteGrey_Metal-bump">
+          <sampler2D>
+            <source>surface_WallConcreteGrey_Metal-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallConcreteGrey_Metal-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallConcreteGrey_Metal-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCylinder5__WallConcreteGrey_Metal-mesh" name="pCylinder5__WallConcreteGrey_Metal">
+      <mesh>
+        <source id="pCylinder5__WallConcreteGrey_Metal-position">
+          <float_array id="pCylinder5__WallConcreteGrey_Metal-position-array" count="294">1.5 0 -3 -1.5 0 -3 1.5 0.75 -3 -1.5 0.75 -3 -1.5 0 -3 -3 0 -1.5 -1.5 0.75 -3 -3 0.75 -1.5 -3 0 -1.5 -3 0 1.5 -3 0.75 -1.5 -3 0.75 1.5 -3 0 1.5 -1.5 0 3 -3 0.75 1.5 -1.5 0.75 3 -1.5 0 3 1.5 0 3 -1.5 0.75 3 1.5 0.75 3 1.5 0 3 3 0 1.5 1.5 0.75 3 3 0.75 1.5 3 0 1.5 3 0 -1.5 3 0.75 1.5 3 0.75 -1.5 3 0 -1.5 1.5 0 -3 3 0.75 -1.5 1.5 0.75 -3 3 5.2 -1.5 1.5 5.2 -3 3 6 -1.5 1.5 6 -3 1.5 5.2 -3 -1.5 5.2 -3 1.5 6 -3 -1.5 6 -3 -1.5 5.2 -3 -3 5.2 -1.5 -1.5 6 -3 -3 6 -1.5 -3 5.2 -1.5 -3 5.2 1.5 -3 6 -1.5 -3 6 1.5 -3 5.2 1.5 -1.5 5.2 3 -3 6 1.5 -1.5 6 3 -1.5 5.2 3 1.5 5.2 3 -1.5 6 3 1.5 6 3 1.5 5.2 3 3 5.2 1.5 1.5 6 3 3 6 1.5 3 5.2 1.5 3 5.2 -1.5 3 6 1.5 3 6 -1.5 -1.43446 0 2.868921 -2.875306 0 1.437653 -1.433449 0 2.866899 -3 0 1.5 -3 0 -1.5 -1.5 0 3 -2.897093 0 -1.448546 1.439394 0 2.878788 -1.5 0 -3 1.5 0 3 -1.458612 0 -2.917223 2.870388 0 1.435194 1.5 0 -3 3 0 1.5 1.446942 0 -2.893883 2.893463 0 -1.446731 3 0 -1.5 -2.896077 6 -1.448038 -2.8958 6 1.4479 -2.892398 6 -1.446199 -3 6 1.5 -3 6 -1.5 -1.5 6 3 -1.444688 6 -2.889377 -1.446741 6 2.893482 -1.5 6 -3 1.5 6 3 1.441206 6 -2.882412 1.4528 6 2.905601 1.5 6 -3 3 6 1.5 2.866605 6 -1.433303 2.911974 6 1.455987 3 6 -1.5</float_array>
+          <technique_common>
+            <accessor source="#pCylinder5__WallConcreteGrey_Metal-position-array" count="98" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder5__WallConcreteGrey_Metal-normal">
+          <float_array id="pCylinder5__WallConcreteGrey_Metal-normal-array" count="294">0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 1 0 0 1 0 0 1 0 0 1 0 0 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCylinder5__WallConcreteGrey_Metal-normal-array" count="98" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder5__WallConcreteGrey_Metal-texcoord">
+          <float_array id="pCylinder5__WallConcreteGrey_Metal-texcoord-array" count="196">1.107422 0.5019531 0.8852539 0.5019531 1.107422 0.4399414 0.8852539 0.4399414 0.8852539 0.5019531 0.7392578 0.5019531 0.8852539 0.4399414 0.7392578 0.4399414 0.7392578 0.5019531 0.5229492 0.5019531 0.7392578 0.4399414 0.5229492 0.4399414 0.5229492 0.5019531 0.3742676 0.5019531 0.5229492 0.4399414 0.3742676 0.4399414 0.3742676 0.5019531 0.1639404 0.5019531 0.3742676 0.4399414 0.1639404 0.4399414 0.1639404 0.5019531 0.01792908 0.5019531 0.1639404 0.4399414 0.01792908 0.4399414 1.481445 0.5019531 1.264648 0.5019531 1.481445 0.4399414 1.264648 0.4399414 1.264648 0.5019531 1.107422 0.5019531 1.264648 0.4399414 1.107422 0.4399414 1.264648 0.07324219 1.107422 0.07324219 1.264648 0.01123047 1.107422 0.01123047 1.107422 0.07324219 0.8852539 0.07324219 1.107422 0.01123047 0.8852539 0.01123047 0.8852539 0.07324219 0.7392578 0.07324219 0.8852539 0.01123047 0.7392578 0.01123047 0.7392578 0.07324219 0.5229492 0.07324219 0.7392578 0.01123047 0.5229492 0.01123047 0.5229492 0.07324219 0.3742676 0.07324219 0.5229492 0.01123047 0.3742676 0.01123047 0.3742676 0.07324219 0.1639404 0.07324219 0.3742676 0.01123047 0.1639404 0.01123047 0.1639404 0.07324219 0.01792908 0.07324219 0.1639404 0.01123047 0.01792908 0.01123047 1.481445 0.07324219 1.264648 0.07324219 1.481445 0.01123047 1.264648 0.01123047 1.244141 0.9750977 1.136719 0.8660889 1.244141 0.9749451 1.126953 0.8708496 1.126953 0.645752 1.239258 0.9851532 1.134766 0.6499023 1.464844 0.9758606 1.239258 0.5322266 1.46875 0.9851532 1.242188 0.5385742 1.574219 0.864502 1.46875 0.5322266 1.583984 0.8695068 1.464844 0.5402832 1.575195 0.6499023 1.583008 0.645752 0.135376 0.8619385 0.135376 0.6469727 0.1356201 0.8618164 0.1273193 0.6430664 0.1273193 0.8659668 0.2424316 0.5317383 0.246582 0.9763031 0.24646 0.5400391 0.2424316 0.984787 0.4724121 0.5324707 0.4641113 0.975769 0.46875 0.5397949 0.4685059 0.984787 0.5849609 0.6430664 0.574707 0.8608398 0.5751953 0.6462402 0.5849609 0.8659668</float_array>
+          <technique_common>
+            <accessor source="#pCylinder5__WallConcreteGrey_Metal-texcoord-array" count="98" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder5__WallConcreteGrey_Metal-texcoord_1">
+          <float_array id="pCylinder5__WallConcreteGrey_Metal-texcoord-array_1" count="196">0.04484627 0.2572519 0.04484627 0.407599 0.002899214 0.2572519 0.002899214 0.407599 0.04484627 0.407599 0.04484627 0.5065843 0.002899214 0.407599 0.002899214 0.5065843 0.04484627 0.5065843 0.04484627 0.6529641 0.002899214 0.5065843 0.002899214 0.6529641 0.04484627 0.6529641 0.04484627 0.7539178 0.002899214 0.6529641 0.002899214 0.7539178 0.04484627 0.7539178 0.04484627 0.8963302 0.002899214 0.7539178 0.002899214 0.8963302 0.04484627 0.8963302 0.04484627 0.9953002 0.002899214 0.8963302 0.002899214 0.9953002 0.04484627 0.003967345 0.04484627 0.1503471 0.002899214 0.003967345 0.002899214 0.1503471 0.04484627 0.1503471 0.04484627 0.2572519 0.002899214 0.1503471 0.002899214 0.2572519 0.09510949 0.1510796 0.09510949 0.2579843 0.05323873 0.1510796 0.05323873 0.2579843 0.09510949 0.2579843 0.09510949 0.4083315 0.05323873 0.2579843 0.05323873 0.4083315 0.09510949 0.4083315 0.09510949 0.5073014 0.05323873 0.4083315 0.05323873 0.5073014 0.09510949 0.5073014 0.09510949 0.6536813 0.05323873 0.5073014 0.05323873 0.6536813 0.09510949 0.6536813 0.09510949 0.7546349 0.05323873 0.6536813 0.05323873 0.7546349 0.09510949 0.7546349 0.09510949 0.8970627 0.05323873 0.7546349 0.05323873 0.8970627 0.09510949 0.8970627 0.09510949 0.9960327 0.05323873 0.8970627 0.05323873 0.9960327 0.09510949 0.004699767 0.09510949 0.1510796 0.05323873 0.004699767 0.05323873 0.1510796 0.7200274 0.2378729 0.6461738 0.310811 0.7199206 0.2378271 0.6494087 0.3172808 0.4969253 0.3172808 0.726833 0.2412757 0.4996109 0.3119402 0.7205462 0.08862442 0.4199741 0.2412757 0.726833 0.08548105 0.4242771 0.2391241 0.6450904 0.01429772 0.4199741 0.08548105 0.6484627 0.007568479 0.4254978 0.08822769 0.4997025 0.0135805 0.4969253 0.008041501 0.3272755 0.3117723 0.1815671 0.3117571 0.327184 0.311574 0.1788663 0.317174 0.3299764 0.317174 0.1035782 0.2392614 0.4047455 0.2363928 0.109102 0.2364996 0.4104829 0.2392614 0.104097 0.08346683 0.4043793 0.08912796 0.1089952 0.08590829 0.4104829 0.08606088 0.1788663 0.007125974 0.3265125 0.01405358 0.1811551 0.01377892 0.3299764 0.007125974</float_array>
+          <technique_common>
+            <accessor source="#pCylinder5__WallConcreteGrey_Metal-texcoord-array_1" count="98" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder5__WallConcreteGrey_Metal-vertex">
+          <input semantic="POSITION" source="#pCylinder5__WallConcreteGrey_Metal-position" />
+        </vertices>
+        <triangles material="WallConcreteGrey_Metal" count="66">
+          <input semantic="VERTEX" source="#pCylinder5__WallConcreteGrey_Metal-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder5__WallConcreteGrey_Metal-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCylinder5__WallConcreteGrey_Metal-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCylinder5__WallConcreteGrey_Metal-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 67 67 67 67 65 65 65 65 64 64 64 64 67 67 67 67 68 68 68 68 65 65 65 65 69 69 69 69 67 67 67 67 64 64 64 64 68 68 68 68 70 70 70 70 65 65 65 65 69 69 69 69 64 64 64 64 71 71 71 71 68 68 68 68 72 72 72 72 70 70 70 70 73 73 73 73 69 69 69 69 71 71 71 71 72 72 72 72 74 74 74 74 70 70 70 70 73 73 73 73 71 71 71 71 75 75 75 75 72 72 72 72 76 76 76 76 74 74 74 74 77 77 77 77 73 73 73 73 75 75 75 75 76 76 76 76 78 78 78 78 74 74 74 74 77 77 77 77 75 75 75 75 79 79 79 79 76 76 76 76 80 80 80 80 78 78 78 78 80 80 80 80 77 77 77 77 79 79 79 79 80 80 80 80 79 79 79 79 78 78 78 78 81 81 81 81 82 82 82 82 83 83 83 83 84 84 84 84 82 82 82 82 81 81 81 81 85 85 85 85 84 84 84 84 81 81 81 81 84 84 84 84 86 86 86 86 82 82 82 82 85 85 85 85 81 81 81 81 87 87 87 87 86 86 86 86 88 88 88 88 82 82 82 82 89 89 89 89 85 85 85 85 87 87 87 87 86 86 86 86 90 90 90 90 88 88 88 88 89 89 89 89 87 87 87 87 91 91 91 91 90 90 90 90 92 92 92 92 88 88 88 88 93 93 93 93 89 89 89 89 91 91 91 91 90 90 90 90 94 94 94 94 92 92 92 92 93 93 93 93 91 91 91 91 95 95 95 95 94 94 94 94 96 96 96 96 92 92 92 92 97 97 97 97 93 93 93 93 95 95 95 95 94 94 94 94 97 97 97 97 96 96 96 96 97 97 97 97 95 95 95 95 96 96 96 96 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCylinder6__WallConcreteGrey-mesh" name="pCylinder6__WallConcreteGrey">
+      <mesh>
+        <source id="pCylinder6__WallConcreteGrey-position">
+          <float_array id="pCylinder6__WallConcreteGrey-position-array" count="162">3 0.75 -1.5 1.5 0.75 -3 3 5.2 -1.5 1.5 5.2 -3 1.5 0.75 -3 -1.5 0.75 -3 1.5 5.2 -3 -1.5 5.2 -3 -1.5 0.75 -3 -3 0.75 -1.5 -1.5 5.2 -3 -3 5.2 -1.5 -3 0.75 -1.5 -3 0.75 1.5 -3 5.2 -1.5 -3 5.2 1.5 -3 0.75 1.5 -1.5 0.75 3 -3 5.2 1.5 -1.5 5.2 3 -1.5 0.75 3 1.5 0.75 3 -1.5 5.2 3 1.5 5.2 3 1.5 0.75 3 3 0.75 1.5 1.5 5.2 3 3 5.2 1.5 3 0.75 1.5 3 0.75 -1.5 3 5.2 1.5 3 5.2 -1.5 -1.444688 6 -2.889377 -2.896077 6 -1.448038 0 6 0 -2.892398 6 -1.446199 -2.892398 6 -1.446199 -2.8958 6 1.4479 -1.446741 6 2.893482 1.4528 6 2.905601 2.911974 6 1.455987 2.866605 6 -1.433303 1.441206 6 -2.882412 -1.444688 6 -2.889377 1.439394 0 2.878788 -1.43446 0 2.868921 0 0 0 2.870388 0 1.435194 -1.433449 0 2.866899 2.893463 0 -1.446731 -2.875306 0 1.437653 1.446942 0 -2.893883 -2.897093 0 -1.448546 -1.458612 0 -2.917223</float_array>
+          <technique_common>
+            <accessor source="#pCylinder6__WallConcreteGrey-position-array" count="54" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder6__WallConcreteGrey-normal">
+          <float_array id="pCylinder6__WallConcreteGrey-normal-array" count="162">0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#pCylinder6__WallConcreteGrey-normal-array" count="54" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder6__WallConcreteGrey-texcoord">
+          <float_array id="pCylinder6__WallConcreteGrey-texcoord-array" count="108">1.264648 0.4399414 1.107422 0.4399414 1.264648 0.07324219 1.107422 0.07324219 1.107422 0.4399414 0.8852539 0.4399414 1.107422 0.07324219 0.8852539 0.07324219 0.8852539 0.4399414 0.7392578 0.4399414 0.8852539 0.07324219 0.7392578 0.07324219 0.7392578 0.4399414 0.5229492 0.4399414 0.7392578 0.07324219 0.5229492 0.07324219 0.5229492 0.4399414 0.3742676 0.4399414 0.5229492 0.07324219 0.3742676 0.07324219 0.3742676 0.4399414 0.1639404 0.4399414 0.3742676 0.07324219 0.1639404 0.07324219 0.1639404 0.4399414 0.01792908 0.4399414 0.1639404 0.07324219 0.01792908 0.07324219 1.481445 0.4399414 1.264648 0.4399414 1.481445 0.07324219 1.264648 0.07324219 0.246582 0.9763031 0.1358643 0.8616943 0.3442383 0.7508545 0.135376 0.8619385 0.135376 0.8619385 0.135376 0.6469727 0.24646 0.5400391 0.46875 0.5397949 0.5751953 0.6462402 0.574707 0.8608398 0.4641113 0.975769 0.246582 0.9763031 1.464844 0.9758606 1.244141 0.974823 1.354492 0.7507324 1.574219 0.864502 1.244141 0.9747009 1.575195 0.6499023 1.136719 0.8660889 1.464844 0.5402832 1.134766 0.6499023 1.242188 0.5385742</float_array>
+          <technique_common>
+            <accessor source="#pCylinder6__WallConcreteGrey-texcoord-array" count="54" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder6__WallConcreteGrey-texcoord_1">
+          <float_array id="pCylinder6__WallConcreteGrey-texcoord-array_1" count="108">0.2522316 0.150454 0.2522316 0.257435 0.003448539 0.150454 0.003448539 0.257435 0.2522316 0.257435 0.2522316 0.4079041 0.003448539 0.257435 0.003448539 0.4079041 0.2522316 0.4079041 0.2522316 0.5069505 0.003448539 0.4079041 0.003448539 0.5069505 0.2522316 0.5069505 0.2522316 0.6534371 0.003448539 0.5069505 0.003448539 0.6534371 0.2522316 0.6534371 0.2522316 0.7544671 0.003448539 0.6534371 0.003448539 0.7544671 0.2522316 0.7544671 0.2522316 0.8969864 0.003448539 0.7544671 0.003448539 0.8969864 0.2522316 0.8969864 0.2522316 0.9960327 0.003448539 0.8969864 0.003448539 0.9960327 0.2522316 0.003967345 0.2522316 0.150454 0.003448539 0.003967345 0.003448539 0.150454 0.8639963 0.2269169 0.7862974 0.3019913 0.711162 0.160647 0.7864805 0.3023575 0.7864805 0.3023575 0.6406653 0.3023422 0.5681391 0.2270237 0.5680323 0.07632565 0.640238 0.004135191 0.7857175 0.00440985 0.8636454 0.07954526 0.8639963 0.2269169 0.557229 0.08220035 0.556527 0.2314641 0.4045624 0.1570306 0.4817273 0.007827878 0.5564355 0.2314336 0.3362173 0.007110715 0.4827954 0.3045396 0.2619669 0.08180362 0.3361257 0.305684 0.2607462 0.2328222</float_array>
+          <technique_common>
+            <accessor source="#pCylinder6__WallConcreteGrey-texcoord-array_1" count="54" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder6__WallConcreteGrey-vertex">
+          <input semantic="POSITION" source="#pCylinder6__WallConcreteGrey-position" />
+        </vertices>
+        <triangles material="WallConcreteGrey" count="34">
+          <input semantic="VERTEX" source="#pCylinder6__WallConcreteGrey-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder6__WallConcreteGrey-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCylinder6__WallConcreteGrey-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCylinder6__WallConcreteGrey-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 34 34 34 34 37 37 37 37 38 38 38 38 34 34 34 34 38 38 38 38 39 39 39 39 34 34 34 34 39 39 39 39 40 40 40 40 34 34 34 34 40 40 40 40 41 41 41 41 34 34 34 34 41 41 41 41 42 42 42 42 34 34 34 34 42 42 42 42 43 43 43 43 34 34 34 34 44 44 44 44 45 45 45 45 46 46 46 46 47 47 47 47 44 44 44 44 46 46 46 46 45 45 45 45 48 48 48 48 46 46 46 46 49 49 49 49 47 47 47 47 46 46 46 46 48 48 48 48 50 50 50 50 46 46 46 46 51 51 51 51 49 49 49 49 46 46 46 46 50 50 50 50 52 52 52 52 46 46 46 46 53 53 53 53 51 51 51 51 46 46 46 46 52 52 52 52 53 53 53 53 46 46 46 46 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCylinder5__WallConcreteGrey_Metal-mesh">
+      <skin source="#pCylinder5__WallConcreteGrey_Metal-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder5__WallConcreteGrey_Metal-mesh-joint">
+          <Name_array id="pCylinder5__WallConcreteGrey_Metal-mesh-joint-array" count="1">FldObj_OctaPiller8P60x60x60_Octa</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder5__WallConcreteGrey_Metal-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder5__WallConcreteGrey_Metal-mesh-inv_bind_matrix">
+          <float_array id="pCylinder5__WallConcreteGrey_Metal-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder5__WallConcreteGrey_Metal-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder5__WallConcreteGrey_Metal-mesh-weight">
+          <float_array id="pCylinder5__WallConcreteGrey_Metal-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder5__WallConcreteGrey_Metal-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder5__WallConcreteGrey_Metal-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder5__WallConcreteGrey_Metal-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="98">
+          <input semantic="JOINT" source="#pCylinder5__WallConcreteGrey_Metal-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder5__WallConcreteGrey_Metal-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCylinder6__WallConcreteGrey-mesh">
+      <skin source="#pCylinder6__WallConcreteGrey-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder6__WallConcreteGrey-mesh-joint">
+          <Name_array id="pCylinder6__WallConcreteGrey-mesh-joint-array" count="1">FldObj_OctaPiller8P60x60x60_Octa</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder6__WallConcreteGrey-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder6__WallConcreteGrey-mesh-inv_bind_matrix">
+          <float_array id="pCylinder6__WallConcreteGrey-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder6__WallConcreteGrey-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder6__WallConcreteGrey-mesh-weight">
+          <float_array id="pCylinder6__WallConcreteGrey-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder6__WallConcreteGrey-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder6__WallConcreteGrey-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder6__WallConcreteGrey-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="54">
+          <input semantic="JOINT" source="#pCylinder6__WallConcreteGrey-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder6__WallConcreteGrey-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_OctaPiller8P60x60x60_Octa" name="FldObj_OctaPiller8P60x60x60_Octa" sid="FldObj_OctaPiller8P60x60x60_Octa" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCylinder5__WallConcreteGrey_Metal" name="pCylinder5__WallConcreteGrey_Metal" type="NODE">
+        <instance_controller url="#Armature_pCylinder5__WallConcreteGrey_Metal-mesh">
+          <skeleton>#Armature_FldObj_OctaPiller8P60x60x60_Octa</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallConcreteGrey_Metal" target="#WallConcreteGrey_Metal" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCylinder6__WallConcreteGrey" name="pCylinder6__WallConcreteGrey" type="NODE">
+        <instance_controller url="#Armature_pCylinder6__WallConcreteGrey-mesh">
+          <skeleton>#Armature_FldObj_OctaPiller8P60x60x60_Octa</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallConcreteGrey" target="#WallConcreteGrey" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

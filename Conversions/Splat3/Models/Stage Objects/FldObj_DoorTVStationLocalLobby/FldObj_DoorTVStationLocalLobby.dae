@@ -1,0 +1,769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="AutomaticDoorSeal00_Alb">
+      <init_from>AutomaticDoorSeal00_Alb.png</init_from>
+    </image>
+    <image id="AutomaticDoorSeal00_Opa">
+      <init_from>AutomaticDoorSeal00_Opa.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="LocalLobbyObject00_Alb">
+      <init_from>LocalLobbyObject00_Alb.png</init_from>
+    </image>
+    <image id="LocalLobbyObject00_Mtl">
+      <init_from>LocalLobbyObject00_Mtl.png</init_from>
+    </image>
+    <image id="LocalLobbyObject00_Nrm">
+      <init_from>LocalLobbyObject00_Nrm.png</init_from>
+    </image>
+    <image id="LocalLobbyObject00_Rgh">
+      <init_from>LocalLobbyObject00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="AutomaticDoorSeal00">
+      <instance_effect url="#Effect_AutomaticDoorSeal00" />
+    </material>
+    <material id="GlassStore00">
+      <instance_effect url="#Effect_GlassStore00" />
+    </material>
+    <material id="LocalLobbyObject00">
+      <instance_effect url="#Effect_LocalLobbyObject00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_AutomaticDoorSeal00">
+      <profile_COMMON>
+        <newparam sid="surface_AutomaticDoorSeal00-diffuse">
+          <surface type="2D">
+            <init_from>AutomaticDoorSeal00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_AutomaticDoorSeal00-diffuse">
+          <sampler2D>
+            <source>surface_AutomaticDoorSeal00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_AutomaticDoorSeal00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GlassStore00">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_LocalLobbyObject00">
+      <profile_COMMON>
+        <newparam sid="surface_LocalLobbyObject00-diffuse">
+          <surface type="2D">
+            <init_from>LocalLobbyObject00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_LocalLobbyObject00-diffuse">
+          <sampler2D>
+            <source>surface_LocalLobbyObject00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_LocalLobbyObject00-bump">
+          <surface type="2D">
+            <init_from>LocalLobbyObject00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_LocalLobbyObject00-bump">
+          <sampler2D>
+            <source>surface_LocalLobbyObject00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_LocalLobbyObject00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_LocalLobbyObject00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="DoorL__AutomaticDoorSeal00-mesh" name="DoorL__AutomaticDoorSeal00">
+      <mesh>
+        <source id="DoorL__AutomaticDoorSeal00-position">
+          <float_array id="DoorL__AutomaticDoorSeal00-position-array" count="12">-2.45 2 -0.1 -2.45 3 -0.1 -0.45 2 -0.1 -0.45 3 -0.1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__AutomaticDoorSeal00-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__AutomaticDoorSeal00-normal">
+          <float_array id="DoorL__AutomaticDoorSeal00-normal-array" count="12">0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__AutomaticDoorSeal00-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__AutomaticDoorSeal00-texcoord">
+          <float_array id="DoorL__AutomaticDoorSeal00-texcoord-array" count="8">1 0.0004882813 1 0.5 0 0.0004882813 0 0.5</float_array>
+          <technique_common>
+            <accessor source="#DoorL__AutomaticDoorSeal00-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__AutomaticDoorSeal00-texcoord_1">
+          <float_array id="DoorL__AutomaticDoorSeal00-texcoord-array_1" count="8">0.003921569 0.003921568 0.4941176 0.003921568 0.003921569 0.9843137 0.4941176 0.9843137</float_array>
+          <technique_common>
+            <accessor source="#DoorL__AutomaticDoorSeal00-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorL__AutomaticDoorSeal00-vertex">
+          <input semantic="POSITION" source="#DoorL__AutomaticDoorSeal00-position" />
+        </vertices>
+        <triangles material="AutomaticDoorSeal00" count="2">
+          <input semantic="VERTEX" source="#DoorL__AutomaticDoorSeal00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorL__AutomaticDoorSeal00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorL__AutomaticDoorSeal00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#DoorL__AutomaticDoorSeal00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DoorL__GlassStore00-mesh" name="DoorL__GlassStore00">
+      <mesh>
+        <source id="DoorL__GlassStore00-position">
+          <float_array id="DoorL__GlassStore00-position-array" count="60">-0.4500001 0.4500002 -0.1 -2.45 0.4500002 -0.1 -0.4500001 5.15 -0.1 -2.45 5.15 -0.1 -0.4000001 0.4000002 -0.05 -2.5 0.4000002 -0.05 -0.4500001 0.4500002 -0.1 -2.45 0.4500002 -0.1 -2.5 0.4000002 -0.05 -2.5 5.2 -0.05 -2.45 0.4500002 -0.1 -2.45 5.15 -0.1 -2.5 5.2 -0.05 -0.4000001 5.2 -0.05 -2.45 5.15 -0.1 -0.4500001 5.15 -0.1 -0.4000001 5.2 -0.05 -0.4000001 0.4000002 -0.05 -0.4500001 5.15 -0.1 -0.4500001 0.4500002 -0.1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__GlassStore00-position-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__GlassStore00-normal">
+          <float_array id="DoorL__GlassStore00-normal-array" count="60">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579</float_array>
+          <technique_common>
+            <accessor source="#DoorL__GlassStore00-normal-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__GlassStore00-texcoord">
+          <float_array id="DoorL__GlassStore00-texcoord-array" count="40">0.01532006 0.01425195 0.483772 0.01445031 0.01545739 0.9210346 0.48365 0.9210651 0.004150454 0.003982604 0.4945144 0.003707945 0.01532006 0.01425195 0.483772 0.01445031 0.4945144 0.003707945 0.4946975 0.931197 0.483772 0.01445031 0.48365 0.9210651 0.4946975 0.931197 0.003967346 0.9311665 0.48365 0.9210651 0.01545739 0.9210346 0.003967346 0.9311665 0.004150454 0.003982604 0.01545739 0.9210346 0.01532006 0.01425195</float_array>
+          <technique_common>
+            <accessor source="#DoorL__GlassStore00-texcoord-array" count="20" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorL__GlassStore00-vertex">
+          <input semantic="POSITION" source="#DoorL__GlassStore00-position" />
+        </vertices>
+        <triangles material="GlassStore00" count="10">
+          <input semantic="VERTEX" source="#DoorL__GlassStore00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorL__GlassStore00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorL__GlassStore00-texcoord" offset="2" set="1" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DoorL__LocalLobbyObject00-mesh" name="DoorL__LocalLobbyObject00">
+      <mesh>
+        <source id="DoorL__LocalLobbyObject00-position">
+          <float_array id="DoorL__LocalLobbyObject00-position-array" count="228">-2.5 0.4000001 -0.1 -2.5 0.4000001 0.1 -0.4000001 0.4000001 -0.1 -0.4000001 0.4000001 0.1 -2.5 0.4000001 0.1 -2.5 0 0.1 -0.4000001 0.4000001 0.1 -0.4000001 0 0.1 -2.5 0 -0.1 -2.5 0.4000001 -0.1 -0.4000001 0 -0.1 -0.4000001 0.4000001 -0.1 -2.9 0 -0.1 -2.9 0 0.1 -2.9 5.6 -0.1 -2.9 5.6 0.1 -2.5 5.6 -0.1 -2.5 5.6 0.1 -2.5 0 -0.1 -2.5 0 0.1 -2.9 0 0.1 -2.5 0 0.1 -2.9 5.6 0.1 -2.5 5.6 0.1 -2.5 0 -0.1 -2.9 0 -0.1 -2.5 5.6 -0.1 -2.9 5.6 -0.1 -0.4000001 0 -0.1 -0.4000001 0 0.1 -0.4000001 5.6 -0.1 -0.4000001 5.6 0.1 0 5.6 -0.1 0 5.6 0.1 0 0 -0.1 0 0 0.1 -0.4000001 0 0.1 0 0 0.1 -0.4000001 5.6 0.1 0 5.6 0.1 0 0 -0.1 -0.4000001 0 -0.1 0 5.6 -0.1 -0.4000001 5.6 -0.1 -0.4 5.199999 -0.1 -0.4 5.199999 0.1 -2.5 5.199999 -0.1 -2.5 5.199999 0.1 -0.4 5.199999 0.1 -0.4 5.599999 0.1 -2.5 5.199999 0.1 -2.5 5.599999 0.1 -0.4 5.599999 -0.1 -0.4 5.199999 -0.1 -2.5 5.599999 -0.1 -2.5 5.199999 -0.1 -0.3000001 2.15 -0.2 -0.3000001 2.15 -0.1 -0.3000001 2.8 -0.2 -0.3000001 2.8 -0.1 -0.3000001 2.8 -0.2 -0.3000001 2.8 -0.1 -0.1000001 2.8 -0.2 -0.1000001 2.8 -0.1 -0.1000001 2.8 -0.2 -0.1000001 2.8 -0.1 -0.1000001 2.15 -0.2 -0.1000001 2.15 -0.1 -0.1000001 2.15 -0.2 -0.1000001 2.15 -0.1 -0.3000001 2.15 -0.2 -0.3000001 2.15 -0.1 -0.1000001 2.15 -0.2 -0.3000001 2.15 -0.2 -0.1000001 2.8 -0.2 -0.3000001 2.8 -0.2</float_array>
+          <technique_common>
+            <accessor source="#DoorL__LocalLobbyObject00-position-array" count="76" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__LocalLobbyObject00-normal">
+          <float_array id="DoorL__LocalLobbyObject00-normal-array" count="228">0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__LocalLobbyObject00-normal-array" count="76" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__LocalLobbyObject00-texcoord">
+          <float_array id="DoorL__LocalLobbyObject00-texcoord-array" count="152">0.7742733 0.5093309 0.7629053 0.5093309 0.7742733 0.3647059 0.7629053 0.3647059 0.7629053 0.5093309 0.7402915 0.5093309 0.7629053 0.3647059 0.7402915 0.3647059 0.7970092 0.5093309 0.7742733 0.5093309 0.7970092 0.3647059 0.7742733 0.3647059 0.9553369 0.3562371 0.9428397 0.3562371 0.9553369 0.006240964 0.9428397 0.006240964 0.9803311 0.006240964 0.9928435 0.006240964 0.9803311 0.3562371 0.9928435 0.3562371 0.9428397 0.3562371 0.9178302 0.3562371 0.9428397 0.006240964 0.9178302 0.006240964 0.9803311 0.3562371 0.9553369 0.3562371 0.9803311 0.006240964 0.9553369 0.006240964 0.8741131 0.3562371 0.861616 0.3562371 0.8741131 0.006240964 0.861616 0.006240964 0.8991073 0.006240964 0.9116045 0.006240964 0.8991073 0.3562371 0.9116045 0.3562371 0.861616 0.3562371 0.8366064 0.3562371 0.861616 0.006240964 0.8366064 0.006240964 0.8991073 0.3562371 0.8741131 0.3562371 0.8991073 0.006240964 0.8741131 0.006240964 0.8385596 0.5093309 0.8271916 0.5093309 0.8385596 0.3647059 0.8271916 0.3647059 0.8271916 0.5093309 0.8045777 0.5093309 0.8271916 0.3647059 0.8045777 0.3647059 0.8612955 0.5093309 0.8385596 0.5093309 0.8612955 0.3647059 0.8385596 0.3647059 0.2205539 0.1701229 0.2267948 0.1701229 0.2205539 0.2107576 0.2267948 0.2107576 0.2205539 0.2107576 0.2205539 0.2169986 0.2080415 0.2107576 0.2080415 0.2169986 0.2080415 0.2107576 0.2018006 0.2107576 0.2080415 0.1701229 0.2018006 0.1701229 0.2080415 0.1701229 0.2080415 0.1638819 0.2205539 0.1701229 0.2205539 0.1638819 0.2080415 0.1701229 0.2205539 0.1701229 0.2080415 0.2107576 0.2205539 0.2107576</float_array>
+          <technique_common>
+            <accessor source="#DoorL__LocalLobbyObject00-texcoord-array" count="76" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__LocalLobbyObject00-texcoord_1">
+          <float_array id="DoorL__LocalLobbyObject00-texcoord-array_1" count="152">0.6970779 0.2923781 0.6745251 0.2923781 0.6970779 0.005249083 0.6745251 0.005249083 0.6745251 0.2923781 0.629633 0.2923781 0.6745251 0.005249083 0.629633 0.005249083 0.7422293 0.2923781 0.6970779 0.2923781 0.7422293 0.005249083 0.6970779 0.005249083 0.07785153 0.6988174 0.05304036 0.6988174 0.07785153 0.003967345 0.05304036 0.003967345 0.1274891 0.003967345 0.1523003 0.003967345 0.1274891 0.6988174 0.1523003 0.6988174 0.05304036 0.6988174 0.003418021 0.6988174 0.05304036 0.003967345 0.003418021 0.003967345 0.1274891 0.6988174 0.07785153 0.6988174 0.1274891 0.003967345 0.07785153 0.003967345 0.2344091 0.6988174 0.2095979 0.6988174 0.2344091 0.003967345 0.2095979 0.003967345 0.2840467 0.003967345 0.3088579 0.003967345 0.2840467 0.6988174 0.3088579 0.6988174 0.2095979 0.6988174 0.1599603 0.6988174 0.2095979 0.003967345 0.1599603 0.003967345 0.2840467 0.6988174 0.2344091 0.6988174 0.2840467 0.003967345 0.2344091 0.003967345 0.6970779 0.5886472 0.6745251 0.5886472 0.6970779 0.3015183 0.6745251 0.3015183 0.6745251 0.5886472 0.629633 0.5886472 0.6745251 0.3015183 0.629633 0.3015183 0.7422293 0.5886472 0.6970779 0.5886472 0.7422293 0.3015183 0.6970779 0.3015183 0.7863737 0.01789886 0.7987792 0.01789886 0.7863737 0.09855801 0.7987792 0.09855801 0.7863737 0.09855801 0.7863737 0.1109636 0.7615625 0.09855801 0.7615625 0.1109636 0.7615625 0.09855801 0.749157 0.09855801 0.7615625 0.01789886 0.749157 0.01789886 0.7615625 0.01789886 0.7615625 0.005493224 0.7863737 0.01789886 0.7863737 0.005493224 0.7615625 0.01789886 0.7863737 0.01789886 0.7615625 0.09855801 0.7863737 0.09855801</float_array>
+          <technique_common>
+            <accessor source="#DoorL__LocalLobbyObject00-texcoord-array_1" count="76" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorL__LocalLobbyObject00-vertex">
+          <input semantic="POSITION" source="#DoorL__LocalLobbyObject00-position" />
+        </vertices>
+        <triangles material="LocalLobbyObject00" count="38">
+          <input semantic="VERTEX" source="#DoorL__LocalLobbyObject00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorL__LocalLobbyObject00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorL__LocalLobbyObject00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#DoorL__LocalLobbyObject00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DoorR__AutomaticDoorSeal00-mesh" name="DoorR__AutomaticDoorSeal00">
+      <mesh>
+        <source id="DoorR__AutomaticDoorSeal00-position">
+          <float_array id="DoorR__AutomaticDoorSeal00-position-array" count="12">0.45 2 -0.1 0.45 3 -0.1 2.45 2 -0.1 2.45 3 -0.1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__AutomaticDoorSeal00-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__AutomaticDoorSeal00-normal">
+          <float_array id="DoorR__AutomaticDoorSeal00-normal-array" count="12">0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__AutomaticDoorSeal00-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__AutomaticDoorSeal00-texcoord">
+          <float_array id="DoorR__AutomaticDoorSeal00-texcoord-array" count="8">1 0.5002441 1 1 0 0.5002441 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__AutomaticDoorSeal00-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__AutomaticDoorSeal00-texcoord_1">
+          <float_array id="DoorR__AutomaticDoorSeal00-texcoord-array_1" count="8">0.5058824 0.003921568 0.9960784 0.003921568 0.5058824 0.9843137 0.9960784 0.9843137</float_array>
+          <technique_common>
+            <accessor source="#DoorR__AutomaticDoorSeal00-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorR__AutomaticDoorSeal00-vertex">
+          <input semantic="POSITION" source="#DoorR__AutomaticDoorSeal00-position" />
+        </vertices>
+        <triangles material="AutomaticDoorSeal00" count="2">
+          <input semantic="VERTEX" source="#DoorR__AutomaticDoorSeal00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorR__AutomaticDoorSeal00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorR__AutomaticDoorSeal00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#DoorR__AutomaticDoorSeal00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DoorR__GlassStore00-mesh" name="DoorR__GlassStore00">
+      <mesh>
+        <source id="DoorR__GlassStore00-position">
+          <float_array id="DoorR__GlassStore00-position-array" count="60">2.45 0.4500002 -0.1 0.45 0.4500002 -0.1 2.45 5.15 -0.1 0.45 5.15 -0.1 2.5 0.4000002 -0.05 0.4 0.4000002 -0.05 2.45 0.4500002 -0.1 0.45 0.4500002 -0.1 0.4 0.4000002 -0.05 0.4 5.2 -0.05 0.45 0.4500002 -0.1 0.45 5.15 -0.1 0.4 5.2 -0.05 2.5 5.2 -0.05 0.45 5.15 -0.1 2.45 5.15 -0.1 2.5 5.2 -0.05 2.5 0.4000002 -0.05 2.45 5.15 -0.1 2.45 0.4500002 -0.1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__GlassStore00-position-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__GlassStore00-normal">
+          <float_array id="DoorR__GlassStore00-normal-array" count="60">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579</float_array>
+          <technique_common>
+            <accessor source="#DoorR__GlassStore00-normal-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__GlassStore00-texcoord">
+          <float_array id="DoorR__GlassStore00-texcoord-array" count="40">0.5166552 0.01425195 0.9851224 0.01445031 0.5167925 0.9210346 0.9849851 0.9210651 0.5054856 0.003982604 0.9958495 0.003707945 0.5166552 0.01425195 0.9851224 0.01445031 0.9958495 0.003707945 0.9960327 0.931197 0.9851224 0.01445031 0.9849851 0.9210651 0.9960327 0.931197 0.5053025 0.9311665 0.9849851 0.9210651 0.5167925 0.9210346 0.5053025 0.9311665 0.5054856 0.003982604 0.5167925 0.9210346 0.5166552 0.01425195</float_array>
+          <technique_common>
+            <accessor source="#DoorR__GlassStore00-texcoord-array" count="20" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorR__GlassStore00-vertex">
+          <input semantic="POSITION" source="#DoorR__GlassStore00-position" />
+        </vertices>
+        <triangles material="GlassStore00" count="10">
+          <input semantic="VERTEX" source="#DoorR__GlassStore00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorR__GlassStore00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorR__GlassStore00-texcoord" offset="2" set="1" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DoorR__LocalLobbyObject00-mesh" name="DoorR__LocalLobbyObject00">
+      <mesh>
+        <source id="DoorR__LocalLobbyObject00-position">
+          <float_array id="DoorR__LocalLobbyObject00-position-array" count="228">0.4 0.4000001 -0.1 0.4 0.4000001 0.1 2.5 0.4000001 -0.1 2.5 0.4000001 0.1 0.4 0.4000001 0.1 0.4 0 0.1 2.5 0.4000001 0.1 2.5 0 0.1 0.4 0 -0.1 0.4 0.4000001 -0.1 2.5 0 -0.1 2.5 0.4000001 -0.1 0 0 -0.1 0 0 0.1 0 5.6 -0.1 0 5.6 0.1 0.4 5.6 -0.1 0.4 5.6 0.1 0.4 0 -0.1 0.4 0 0.1 0 0 0.1 0.4 0 0.1 0 5.6 0.1 0.4 5.6 0.1 0.4 0 -0.1 0 0 -0.1 0.4 5.6 -0.1 0 5.6 -0.1 2.5 0 -0.1 2.5 0 0.1 2.5 5.6 -0.1 2.5 5.6 0.1 2.9 5.6 -0.1 2.9 5.6 0.1 2.9 0 -0.1 2.9 0 0.1 2.5 0 0.1 2.9 0 0.1 2.5 5.6 0.1 2.9 5.6 0.1 2.9 0 -0.1 2.5 0 -0.1 2.9 5.6 -0.1 2.5 5.6 -0.1 2.5 5.199999 -0.1 2.5 5.199999 0.1 0.4 5.199999 -0.1 0.4 5.199999 0.1 2.5 5.199999 0.1 2.5 5.599999 0.1 0.4 5.199999 0.1 0.4 5.599999 0.1 2.5 5.599999 -0.1 2.5 5.199999 -0.1 0.4 5.599999 -0.1 0.4 5.199999 -0.1 0.1 2.15 -0.2 0.1 2.15 -0.1 0.1 2.8 -0.2 0.1 2.8 -0.1 0.1 2.8 -0.2 0.1 2.8 -0.1 0.3 2.8 -0.2 0.3 2.8 -0.1 0.3 2.8 -0.2 0.3 2.8 -0.1 0.3 2.15 -0.2 0.3 2.15 -0.1 0.3 2.15 -0.2 0.3 2.15 -0.1 0.1 2.15 -0.2 0.1 2.15 -0.1 0.3 2.15 -0.2 0.1 2.15 -0.2 0.3 2.8 -0.2 0.1 2.8 -0.2</float_array>
+          <technique_common>
+            <accessor source="#DoorR__LocalLobbyObject00-position-array" count="76" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__LocalLobbyObject00-normal">
+          <float_array id="DoorR__LocalLobbyObject00-normal-array" count="228">0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__LocalLobbyObject00-normal-array" count="76" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__LocalLobbyObject00-texcoord">
+          <float_array id="DoorR__LocalLobbyObject00-texcoord-array" count="152">0.9036087 0.5093309 0.8922408 0.5093309 0.9036087 0.3647059 0.8922408 0.3647059 0.8922408 0.5093309 0.8696269 0.5093309 0.8922408 0.3647059 0.8696269 0.3647059 0.9263447 0.5093309 0.9036087 0.5093309 0.9263447 0.3647059 0.9036087 0.3647059 0.7931792 0.3562371 0.7806821 0.3562371 0.7931792 0.006240964 0.7806821 0.006240964 0.8181735 0.006240964 0.8306707 0.006240964 0.8181735 0.3562371 0.8306707 0.3562371 0.7806821 0.3562371 0.7556725 0.3562371 0.7806821 0.006240964 0.7556725 0.006240964 0.8181735 0.3562371 0.7931792 0.3562371 0.8181735 0.006240964 0.7931792 0.006240964 0.7119554 0.3562371 0.699443 0.3562371 0.7119554 0.006240964 0.699443 0.006240964 0.7369497 0.006240964 0.7494469 0.006240964 0.7369497 0.3562371 0.7494469 0.3562371 0.699443 0.3562371 0.6744488 0.3562371 0.699443 0.006240964 0.6744488 0.006240964 0.7369497 0.3562371 0.7119554 0.3562371 0.7369497 0.006240964 0.7119554 0.006240964 0.967895 0.5093309 0.9565271 0.5093309 0.967895 0.3647059 0.9565271 0.3647059 0.9565271 0.5093309 0.9339132 0.5093309 0.9565271 0.3647059 0.9339132 0.3647059 0.990631 0.5093309 0.967895 0.5093309 0.990631 0.3647059 0.967895 0.3647059 0.1891966 0.1701229 0.1954528 0.1701229 0.1891966 0.2107576 0.1954528 0.2107576 0.1891966 0.2107576 0.1891966 0.2169986 0.1766995 0.2107576 0.1766995 0.2169986 0.1766995 0.2107576 0.1704433 0.2107576 0.1766995 0.1701229 0.1704433 0.1701229 0.1766995 0.1701229 0.1766995 0.1638819 0.1891966 0.1701229 0.1891966 0.1638819 0.1766995 0.1701229 0.1891966 0.1701229 0.1766995 0.2107576 0.1891966 0.2107576</float_array>
+          <technique_common>
+            <accessor source="#DoorR__LocalLobbyObject00-texcoord-array" count="76" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__LocalLobbyObject00-texcoord_1">
+          <float_array id="DoorR__LocalLobbyObject00-texcoord-array_1" count="152">0.6970779 0.8849317 0.6745251 0.8849317 0.6970779 0.5978027 0.6745251 0.5978027 0.6745251 0.8849317 0.629633 0.8849317 0.6745251 0.5978027 0.629633 0.5978027 0.7422293 0.8849317 0.6970779 0.8849317 0.7422293 0.5978027 0.6970779 0.5978027 0.3909667 0.6988174 0.3661555 0.6988174 0.3909667 0.003967345 0.3661555 0.003967345 0.4406043 0.003967345 0.4654154 0.003967345 0.4406043 0.6988174 0.4654154 0.6988174 0.3661555 0.6988174 0.3165179 0.6988174 0.3661555 0.003967345 0.3165179 0.003967345 0.4406043 0.6988174 0.3909667 0.6988174 0.4406043 0.003967345 0.3909667 0.003967345 0.5475242 0.6988174 0.5227131 0.6988174 0.5475242 0.003967345 0.5227131 0.003967345 0.5971618 0.003967345 0.621973 0.003967345 0.5971618 0.6988174 0.621973 0.6988174 0.5227131 0.6988174 0.4730754 0.6988174 0.5227131 0.003967345 0.4730754 0.003967345 0.5971618 0.6988174 0.5475242 0.6988174 0.5971618 0.003967345 0.5475242 0.003967345 0.07084764 0.9960327 0.0482948 0.9960327 0.07084764 0.7089037 0.0482948 0.7089037 0.0482948 0.9960327 0.003418021 0.9960327 0.0482948 0.7089037 0.003418021 0.7089037 0.1160143 0.9960327 0.07084764 0.9960327 0.1160143 0.7089037 0.07084764 0.7089037 0.8436103 0.01789886 0.8560159 0.01789886 0.8436103 0.09855801 0.8560159 0.09855801 0.8436103 0.09855801 0.8436103 0.1109636 0.8187991 0.09855801 0.8187991 0.1109636 0.8187991 0.09855801 0.8063935 0.09855801 0.8187991 0.01789886 0.8063935 0.01789886 0.8187991 0.01789886 0.8187991 0.005493224 0.8436103 0.01789886 0.8436103 0.005493224 0.8187991 0.01789886 0.8436103 0.01789886 0.8187991 0.09855801 0.8436103 0.09855801</float_array>
+          <technique_common>
+            <accessor source="#DoorR__LocalLobbyObject00-texcoord-array_1" count="76" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorR__LocalLobbyObject00-vertex">
+          <input semantic="POSITION" source="#DoorR__LocalLobbyObject00-position" />
+        </vertices>
+        <triangles material="LocalLobbyObject00" count="38">
+          <input semantic="VERTEX" source="#DoorR__LocalLobbyObject00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorR__LocalLobbyObject00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorR__LocalLobbyObject00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#DoorR__LocalLobbyObject00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_DoorL__AutomaticDoorSeal00-mesh">
+      <skin source="#DoorL__AutomaticDoorSeal00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorL__AutomaticDoorSeal00-mesh-joint">
+          <Name_array id="DoorL__AutomaticDoorSeal00-mesh-joint-array" count="1">DoorL</Name_array>
+          <technique_common>
+            <accessor source="#DoorL__AutomaticDoorSeal00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__AutomaticDoorSeal00-mesh-inv_bind_matrix">
+          <float_array id="DoorL__AutomaticDoorSeal00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__AutomaticDoorSeal00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__AutomaticDoorSeal00-mesh-weight">
+          <float_array id="DoorL__AutomaticDoorSeal00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__AutomaticDoorSeal00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorL__AutomaticDoorSeal00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorL__AutomaticDoorSeal00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#DoorL__AutomaticDoorSeal00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorL__AutomaticDoorSeal00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_DoorL__GlassStore00-mesh">
+      <skin source="#DoorL__GlassStore00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorL__GlassStore00-mesh-joint">
+          <Name_array id="DoorL__GlassStore00-mesh-joint-array" count="1">DoorL</Name_array>
+          <technique_common>
+            <accessor source="#DoorL__GlassStore00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__GlassStore00-mesh-inv_bind_matrix">
+          <float_array id="DoorL__GlassStore00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__GlassStore00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__GlassStore00-mesh-weight">
+          <float_array id="DoorL__GlassStore00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__GlassStore00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorL__GlassStore00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorL__GlassStore00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="20">
+          <input semantic="JOINT" source="#DoorL__GlassStore00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorL__GlassStore00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_DoorL__LocalLobbyObject00-mesh">
+      <skin source="#DoorL__LocalLobbyObject00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorL__LocalLobbyObject00-mesh-joint">
+          <Name_array id="DoorL__LocalLobbyObject00-mesh-joint-array" count="1">DoorL</Name_array>
+          <technique_common>
+            <accessor source="#DoorL__LocalLobbyObject00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__LocalLobbyObject00-mesh-inv_bind_matrix">
+          <float_array id="DoorL__LocalLobbyObject00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__LocalLobbyObject00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorL__LocalLobbyObject00-mesh-weight">
+          <float_array id="DoorL__LocalLobbyObject00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorL__LocalLobbyObject00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorL__LocalLobbyObject00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorL__LocalLobbyObject00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="76">
+          <input semantic="JOINT" source="#DoorL__LocalLobbyObject00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorL__LocalLobbyObject00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_DoorR__AutomaticDoorSeal00-mesh">
+      <skin source="#DoorR__AutomaticDoorSeal00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorR__AutomaticDoorSeal00-mesh-joint">
+          <Name_array id="DoorR__AutomaticDoorSeal00-mesh-joint-array" count="1">DoorR</Name_array>
+          <technique_common>
+            <accessor source="#DoorR__AutomaticDoorSeal00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__AutomaticDoorSeal00-mesh-inv_bind_matrix">
+          <float_array id="DoorR__AutomaticDoorSeal00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__AutomaticDoorSeal00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__AutomaticDoorSeal00-mesh-weight">
+          <float_array id="DoorR__AutomaticDoorSeal00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__AutomaticDoorSeal00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorR__AutomaticDoorSeal00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorR__AutomaticDoorSeal00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#DoorR__AutomaticDoorSeal00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorR__AutomaticDoorSeal00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_DoorR__GlassStore00-mesh">
+      <skin source="#DoorR__GlassStore00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorR__GlassStore00-mesh-joint">
+          <Name_array id="DoorR__GlassStore00-mesh-joint-array" count="1">DoorR</Name_array>
+          <technique_common>
+            <accessor source="#DoorR__GlassStore00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__GlassStore00-mesh-inv_bind_matrix">
+          <float_array id="DoorR__GlassStore00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__GlassStore00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__GlassStore00-mesh-weight">
+          <float_array id="DoorR__GlassStore00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__GlassStore00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorR__GlassStore00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorR__GlassStore00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="20">
+          <input semantic="JOINT" source="#DoorR__GlassStore00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorR__GlassStore00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_DoorR__LocalLobbyObject00-mesh">
+      <skin source="#DoorR__LocalLobbyObject00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorR__LocalLobbyObject00-mesh-joint">
+          <Name_array id="DoorR__LocalLobbyObject00-mesh-joint-array" count="1">DoorR</Name_array>
+          <technique_common>
+            <accessor source="#DoorR__LocalLobbyObject00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__LocalLobbyObject00-mesh-inv_bind_matrix">
+          <float_array id="DoorR__LocalLobbyObject00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__LocalLobbyObject00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorR__LocalLobbyObject00-mesh-weight">
+          <float_array id="DoorR__LocalLobbyObject00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorR__LocalLobbyObject00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorR__LocalLobbyObject00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorR__LocalLobbyObject00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="76">
+          <input semantic="JOINT" source="#DoorR__LocalLobbyObject00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorR__LocalLobbyObject00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_DoorTVStationLocalLobby" name="FldObj_DoorTVStationLocalLobby" sid="FldObj_DoorTVStationLocalLobby" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_DoorL" name="DoorL" sid="DoorL" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <node id="Armature_Col_0" name="Col_0" sid="Col_0" type="JOINT">
+              <matrix sid="transform">1 0 0 -1.5 0 1 0 3 0 0 1 -0.05 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="Armature_DoorR" name="DoorR" sid="DoorR" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <node id="Armature_Col_1" name="Col_1" sid="Col_1" type="JOINT">
+              <matrix sid="transform">1 0 0 1.5 0 1 0 3 0 0 1 -0.05 0 0 0 1</matrix>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="DoorL__AutomaticDoorSeal00" name="DoorL__AutomaticDoorSeal00" type="NODE">
+        <instance_controller url="#Armature_DoorL__AutomaticDoorSeal00-mesh">
+          <skeleton>#Armature_FldObj_DoorTVStationLocalLobby</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="AutomaticDoorSeal00" target="#AutomaticDoorSeal00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="DoorL__GlassStore00" name="DoorL__GlassStore00" type="NODE">
+        <instance_controller url="#Armature_DoorL__GlassStore00-mesh">
+          <skeleton>#Armature_FldObj_DoorTVStationLocalLobby</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GlassStore00" target="#GlassStore00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="DoorL__LocalLobbyObject00" name="DoorL__LocalLobbyObject00" type="NODE">
+        <instance_controller url="#Armature_DoorL__LocalLobbyObject00-mesh">
+          <skeleton>#Armature_FldObj_DoorTVStationLocalLobby</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="LocalLobbyObject00" target="#LocalLobbyObject00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="DoorR__AutomaticDoorSeal00" name="DoorR__AutomaticDoorSeal00" type="NODE">
+        <instance_controller url="#Armature_DoorR__AutomaticDoorSeal00-mesh">
+          <skeleton>#Armature_FldObj_DoorTVStationLocalLobby</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="AutomaticDoorSeal00" target="#AutomaticDoorSeal00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="DoorR__GlassStore00" name="DoorR__GlassStore00" type="NODE">
+        <instance_controller url="#Armature_DoorR__GlassStore00-mesh">
+          <skeleton>#Armature_FldObj_DoorTVStationLocalLobby</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GlassStore00" target="#GlassStore00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="DoorR__LocalLobbyObject00" name="DoorR__LocalLobbyObject00" type="NODE">
+        <instance_controller url="#Armature_DoorR__LocalLobbyObject00-mesh">
+          <skeleton>#Armature_FldObj_DoorTVStationLocalLobby</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="LocalLobbyObject00" target="#LocalLobbyObject00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

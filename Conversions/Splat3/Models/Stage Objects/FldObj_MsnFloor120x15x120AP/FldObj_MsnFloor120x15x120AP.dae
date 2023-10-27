@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BtlFloor180x90x15_Alb">
+      <init_from>BtlFloor180x90x15_Alb.png</init_from>
+    </image>
+    <image id="BtlFloor180x90x15_Nrm">
+      <init_from>BtlFloor180x90x15_Nrm.png</init_from>
+    </image>
+    <image id="Concrete_Alb">
+      <init_from>Concrete_Alb.png</init_from>
+    </image>
+    <image id="Concrete_Nrm">
+      <init_from>Concrete_Nrm.png</init_from>
+    </image>
+    <image id="Concrete_Rgh">
+      <init_from>Concrete_Rgh.png</init_from>
+    </image>
+    <image id="GroundBrickt_Alb">
+      <init_from>GroundBrickt_Alb.png</init_from>
+    </image>
+    <image id="GroundBrickt_Nrm">
+      <init_from>GroundBrickt_Nrm.png</init_from>
+    </image>
+    <image id="GroundBrickt_Rgh">
+      <init_from>GroundBrickt_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="BtlFloor180x90x15">
+      <instance_effect url="#Effect_BtlFloor180x90x15" />
+    </material>
+    <material id="Concrete">
+      <instance_effect url="#Effect_Concrete" />
+    </material>
+    <material id="GroundBrickt">
+      <instance_effect url="#Effect_GroundBrickt" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_BtlFloor180x90x15">
+      <profile_COMMON>
+        <newparam sid="surface_BtlFloor180x90x15-diffuse">
+          <surface type="2D">
+            <init_from>BtlFloor180x90x15_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BtlFloor180x90x15-diffuse">
+          <sampler2D>
+            <source>surface_BtlFloor180x90x15-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_BtlFloor180x90x15-bump">
+          <surface type="2D">
+            <init_from>BtlFloor180x90x15_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BtlFloor180x90x15-bump">
+          <sampler2D>
+            <source>surface_BtlFloor180x90x15-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_BtlFloor180x90x15-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_BtlFloor180x90x15-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Concrete">
+      <profile_COMMON>
+        <newparam sid="surface_Concrete-diffuse">
+          <surface type="2D">
+            <init_from>Concrete_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Concrete-diffuse">
+          <sampler2D>
+            <source>surface_Concrete-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Concrete-bump">
+          <surface type="2D">
+            <init_from>Concrete_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Concrete-bump">
+          <sampler2D>
+            <source>surface_Concrete-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Concrete-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Concrete-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundBrickt">
+      <profile_COMMON>
+        <newparam sid="surface_GroundBrickt-diffuse">
+          <surface type="2D">
+            <init_from>GroundBrickt_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundBrickt-diffuse">
+          <sampler2D>
+            <source>surface_GroundBrickt-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundBrickt-bump">
+          <surface type="2D">
+            <init_from>GroundBrickt_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundBrickt-bump">
+          <sampler2D>
+            <source>surface_GroundBrickt-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundBrickt-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundBrickt-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface1__BtlFloor180x90x15-mesh" name="polySurface1__BtlFloor180x90x15">
+      <mesh>
+        <source id="polySurface1__BtlFloor180x90x15-position">
+          <float_array id="polySurface1__BtlFloor180x90x15-position-array" count="96">5.5 1.676381E-08 5.5 -5.5 1.676381E-08 5.5 5.582326 0.01535068 5.583363 -5.571453 0.01535068 5.583363 5.928777 0.01535068 5.940681 -5.93173 0.01535068 5.940681 -6 -0.006298649 6 6 -0.006298649 6 6 -0.006298649 -6 5.928777 0.01535068 -5.939037 6 -0.006298649 6 5.928777 0.01535068 5.940681 5.582326 0.01535068 -5.551239 5.582326 0.01535068 5.583363 5.5 1.676381E-08 5.5 5.5 1.676381E-08 -5.5 6 -0.006298649 -6 -6 -0.006298649 -6 5.928777 0.01535068 -5.939037 -5.93173 0.01535068 -5.939037 -5.579011 0.01535068 -5.551072 5.582326 0.01535068 -5.551239 5.5 1.676381E-08 -5.5 -5.5 1.676381E-08 -5.5 -6 -0.006298649 -6 -6 -0.006298649 6 -5.93173 0.01535068 -5.939037 -5.93173 0.01535068 5.940681 -5.571453 0.01535068 5.583363 -5.579011 0.01535068 -5.551072 -5.5 1.676381E-08 -5.5 -5.5 1.676381E-08 5.5</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__BtlFloor180x90x15-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__BtlFloor180x90x15-normal">
+          <float_array id="polySurface1__BtlFloor180x90x15-normal-array" count="96">-0.09197652 0.9921722 -0.09197652 0.0998043 0.9902152 -0.09393346 -0.005870841 1 -0.005870841 0.005870841 1 -0.007827789 0.05870841 0.9960861 0.06262231 -0.05870841 0.9960861 0.06262231 -0.1780822 0.9726027 0.1506849 0.1761252 0.9745597 0.1428571 0.1722113 0.9745597 -0.1448141 0.05675147 0.9960861 -0.06066536 0.1761252 0.9745597 0.1428571 0.05870841 0.9960861 0.06262231 -0.007827789 1 0.003913894 -0.005870841 1 -0.005870841 -0.09197652 0.9921722 -0.09197652 -0.1056751 0.9863014 0.1272016 0.1722113 0.9745597 -0.1448141 -0.1741683 0.9726027 -0.1506849 0.05675147 0.9960861 -0.06066536 -0.05675147 0.9960861 -0.05870841 0.007827789 1 0.003913894 -0.007827789 1 0.003913894 -0.1056751 0.9863014 0.1272016 0.111546 0.9843444 0.1330724 -0.1741683 0.9726027 -0.1506849 -0.1780822 0.9726027 0.1506849 -0.05675147 0.9960861 -0.05870841 -0.05870841 0.9960861 0.06262231 0.005870841 1 -0.007827789 0.007827789 1 0.003913894 0.111546 0.9843444 0.1330724 0.0998043 0.9902152 -0.09393346</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__BtlFloor180x90x15-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__BtlFloor180x90x15-texcoord">
+          <float_array id="polySurface1__BtlFloor180x90x15-texcoord-array" count="64">1.786133 0.3320313 -1.154297 0.3320313 1.808594 0.3188477 -1.172852 0.3188477 1.901367 0.2641602 -1.269531 0.2641602 -1.288086 0.2543945 1.919922 0.2543945 1.926758 0.2543945 1.910156 0.265625 -1.294922 0.2543945 -1.27832 0.265625 1.806641 0.3193359 -1.182617 0.3193359 -1.160156 0.3320313 1.792969 0.3320313 -1.297852 0.2539063 1.930664 0.2539063 -1.279297 0.2641602 1.912109 0.2641602 1.81543 0.3242188 -1.185547 0.3242188 -1.163086 0.3325195 1.795898 0.3325195 -1.294922 0.2539063 1.926758 0.2539063 -1.27832 0.2651367 1.911133 0.2651367 1.81543 0.3208008 -1.173828 0.3208008 -1.160156 0.3320313 1.792969 0.3320313</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__BtlFloor180x90x15-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__BtlFloor180x90x15-texcoord_1">
+          <float_array id="polySurface1__BtlFloor180x90x15-texcoord-array_1" count="64">0.2652628 0.0471046 0.2652628 0.9500877 0.2552987 0.04034483 0.2552987 0.9559472 0.2133059 0.01190203 0.2133059 0.9855192 0.20589 0.9911345 0.20589 0.006057858 0.0705272 0.003967345 0.07930113 0.008987546 0.0705272 0.993225 0.07930113 0.9883268 0.1201953 0.04097044 0.1201953 0.958877 0.1300832 0.9520104 0.1300832 0.04518199 0.001052873 0.9960327 0.001052873 0.004715025 0.008712902 0.9901426 0.008712902 0.0103609 0.05456626 0.04011595 0.05456626 0.961532 0.06089875 0.9547265 0.06089875 0.04602122 0.138201 0.993225 0.138201 0.003967345 0.1466545 0.9881895 0.1466545 0.008865476 0.1891814 0.03831542 0.1891814 0.9562219 0.1978027 0.9519951 0.1978027 0.04518199</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__BtlFloor180x90x15-texcoord-array_1" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface1__BtlFloor180x90x15-vertex">
+          <input semantic="POSITION" source="#polySurface1__BtlFloor180x90x15-position" />
+        </vertices>
+        <triangles material="BtlFloor180x90x15" count="24">
+          <input semantic="VERTEX" source="#polySurface1__BtlFloor180x90x15-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface1__BtlFloor180x90x15-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface1__BtlFloor180x90x15-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface1__BtlFloor180x90x15-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 3 3 3 3 5 5 5 5 4 4 4 4 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 4 4 4 4 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 9 9 9 9 12 12 12 12 11 11 11 11 12 12 12 12 13 13 13 13 11 11 11 11 14 14 14 14 13 13 13 13 12 12 12 12 15 15 15 15 14 14 14 14 12 12 12 12 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 19 19 19 19 20 20 20 20 18 18 18 18 20 20 20 20 21 21 21 21 18 18 18 18 22 22 22 22 21 21 21 21 20 20 20 20 23 23 23 23 22 22 22 22 20 20 20 20 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 27 27 27 27 28 28 28 28 26 26 26 26 28 28 28 28 29 29 29 29 26 26 26 26 30 30 30 30 29 29 29 29 28 28 28 28 31 31 31 31 30 30 30 30 28 28 28 28 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface4__Concrete-mesh" name="polySurface4__Concrete">
+      <mesh>
+        <source id="polySurface4__Concrete-position">
+          <float_array id="polySurface4__Concrete-position-array" count="24">5.5 0 -5.5 -5.5 0 -5.5 5.5 0 5.5 -5.5 0 5.5 5.466411 -1.501708 -5.508549 5.466411 -1.501708 5.504463 -5.507559 -1.5 -5.508549 -5.509923 -1.5 5.503638</float_array>
+          <technique_common>
+            <accessor source="#polySurface4__Concrete-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4__Concrete-normal">
+          <float_array id="polySurface4__Concrete-normal-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface4__Concrete-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4__Concrete-texcoord">
+          <float_array id="polySurface4__Concrete-texcoord-array" count="16">1.166992 1.164185 -0.1672363 1.164185 1.166992 -0.171875 -0.1672363 -0.171875 0.0009651184 0.9965191 0.0009651184 -0.3388672 1.332031 0.9965191 1.332031 -0.3388672</float_array>
+          <technique_common>
+            <accessor source="#polySurface4__Concrete-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4__Concrete-texcoord_1">
+          <float_array id="polySurface4__Concrete-texcoord-array_1" count="16">0.4855268 0.9960327 0.001998932 0.9960327 0.4855268 0.5115892 0.001998932 0.5115892 0.001998932 0.5021744 0.001998932 0.003967345 0.500206 0.5021744 0.500206 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#polySurface4__Concrete-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface4__Concrete-vertex">
+          <input semantic="POSITION" source="#polySurface4__Concrete-position" />
+        </vertices>
+        <triangles material="Concrete" count="4">
+          <input semantic="VERTEX" source="#polySurface4__Concrete-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface4__Concrete-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface4__Concrete-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface4__Concrete-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface7__GroundBrickt-mesh" name="polySurface7__GroundBrickt">
+      <mesh>
+        <source id="polySurface7__GroundBrickt-position">
+          <float_array id="polySurface7__GroundBrickt-position-array" count="168">6 -1.546312 -6 -6 -1.546312 -6 6 -1.008283 -6 -6 -1.008283 -6 6 -1.546312 6 6 -1.546312 -6 6 -1.046289 6 6 -1.008283 -6 6 -0.005725145 6 -6 -0.005725145 6 6 -1.046289 6 -6 -1.046289 6 6 -1.008283 -6 -6 -1.008283 -6 6 -0.005725145 -6 -6 -0.005725145 -6 6 -0.005725145 -6 6 -0.005725145 6 6 -1.008283 -6 6 -1.046289 6 -6 -1.046289 6 -6 -0.005725145 6 -6 -1.008283 -6 -6 -0.005725145 -6 -6 -1.546312 6 -6 -1.046289 6 -6 -1.546312 -6 -6 -1.008283 -6 6 -1.546312 6 6 -1.046289 6 -6 -1.546312 6 -6 -1.046289 6 6 -1.546312 -6 6 -1.546312 6 5.535245 -1.547893 -5.540931 5.548717 -1.546175 5.549981 5.466411 -1.501708 -5.508548 5.466411 -1.501708 5.504463 -5.472057 -1.502379 -5.508548 -5.474421 -1.501304 5.503638 -5.539941 -1.547791 -5.540931 -5.541695 -1.546175 5.549981 -6 -1.546312 -6 -6 -1.546312 6 6 -1.546312 -6 5.535245 -1.547893 -5.540931 -6 -1.546312 -6 -5.539941 -1.547791 -5.540931 -5.472057 -1.502379 -5.508548 5.466411 -1.501708 -5.508548 6 -1.546312 6 -6 -1.546312 6 -5.541695 -1.546175 5.549981 5.548717 -1.546175 5.549981 5.466411 -1.501708 5.504463 -5.474421 -1.501304 5.503638</float_array>
+          <technique_common>
+            <accessor source="#polySurface7__GroundBrickt-position-array" count="56" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface7__GroundBrickt-normal">
+          <float_array id="polySurface7__GroundBrickt-normal-array" count="168">0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 -0.001956947 0 -1 0 -0.02152642 -1 0.01174168 -0.02152642 -1 -0.01174168 -0.5146771 -0.8571429 0 -0.5146771 -0.8571429 0 0.555773 -0.8317025 0 0.555773 -0.8317025 0 0.02152642 -1 0.01174168 0.01956947 -1 -0.01369863 0 -1 -0.001956947 0 -1 0 0 -1 -0.001956947 -0.02152642 -1 0.01174168 0 -1 -0.001956947 0.02152642 -1 0.01174168 0 -0.5772994 0.816047 0 -0.5772994 0.816047 0 -1 0 0 -1 0 0.01956947 -1 -0.01369863 -0.02152642 -1 -0.01174168 0 -0.7162427 -0.6966732 0 -0.7162427 -0.6966732</float_array>
+          <technique_common>
+            <accessor source="#polySurface7__GroundBrickt-normal-array" count="56" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface7__GroundBrickt-texcoord">
+          <float_array id="polySurface7__GroundBrickt-texcoord-array" count="112">1.326172 0.5966797 -0.2043457 0.5966797 1.326172 0.4199219 -0.2043457 0.4199219 1.326172 0.5966797 -0.2049561 0.5966797 1.326172 0.4199219 -0.2049561 0.4199219 -0.376709 0.046875 1.227539 0.046875 -0.376709 0.3969727 1.227539 0.3969727 1.231445 0.3969727 -0.3811035 0.3969727 1.231445 0.046875 -0.3811035 0.046875 -0.3808594 0.046875 1.231445 0.046875 -0.3808594 0.3969727 1.231445 0.3969727 -0.3789063 0.3969727 -0.3789063 0.046875 1.229492 0.3969727 1.229492 0.046875 -0.2044678 0.5966797 -0.2044678 0.4199219 1.326172 0.5966797 1.326172 0.4199219 -0.2047119 0.5966797 -0.2047119 0.4199219 1.326172 0.5966797 1.326172 0.4199219 -0.2043457 0.4204102 1.326172 0.4204102 -0.1478271 0.5737305 1.267578 0.5737305 -0.1478271 0.5961914 1.267578 0.5961914 1.267578 0.595459 -0.1477051 0.595459 1.267578 0.572998 -0.1477051 0.572998 1.326172 0.4208984 -0.2042236 0.4208984 1.326172 0.4208984 1.267578 0.5732422 -0.2044678 0.4208984 -0.1479492 0.5732422 -0.1479492 0.595459 1.267578 0.595459 -0.2044678 0.4208984 1.326172 0.4208984 1.267578 0.5732422 -0.1479492 0.5732422 -0.1479492 0.595459 1.267578 0.595459</float_array>
+          <technique_common>
+            <accessor source="#polySurface7__GroundBrickt-texcoord-array" count="56" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface7__GroundBrickt-texcoord_1">
+          <float_array id="polySurface7__GroundBrickt-texcoord-array_1" count="112">0.5966735 0.004089415 0.5966735 0.7829404 0.5668116 0.004089415 0.5668116 0.7829404 0.3116808 0.005615294 0.3116808 0.7851072 0.2818189 0.005615294 0.2818189 0.7851072 0.21149 0.9897001 0.21149 0.003997862 0.2706493 0.9897001 0.2706493 0.003997862 0.06152438 0.005065978 0.06152438 0.9960327 0.002380407 0.005065978 0.002380407 0.9960327 0.07084764 0.9959411 0.07084764 0.00515753 0.1300069 0.9959411 0.1300069 0.00515753 0.2003204 0.9929656 0.1411765 0.9929656 0.2003204 0.004425108 0.1411765 0.004425108 0.3931029 0.7849699 0.363241 0.7849699 0.3931029 0.005752623 0.363241 0.005752623 0.3523918 0.7850004 0.3225299 0.7850004 0.3523918 0.005722106 0.3225299 0.005722106 0.4853742 0.7830625 0.4853742 0.003967345 0.5112993 0.754284 0.5112993 0.03398186 0.5151141 0.754284 0.5151141 0.03398186 0.555581 0.03382927 0.555581 0.7542077 0.5517967 0.03382927 0.5517967 0.7542077 0.5260853 0.004074156 0.5260853 0.7829556 0.4039521 0.005783141 0.4296788 0.03555351 0.4039521 0.7849546 0.4296788 0.7561914 0.4334478 0.7561914 0.4334478 0.03555351 0.4446632 0.7849546 0.4446632 0.005783141 0.4703899 0.03556877 0.4703899 0.7561914 0.4741589 0.7561914 0.4741589 0.03556877</float_array>
+          <technique_common>
+            <accessor source="#polySurface7__GroundBrickt-texcoord-array_1" count="56" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface7__GroundBrickt-vertex">
+          <input semantic="POSITION" source="#polySurface7__GroundBrickt-position" />
+        </vertices>
+        <triangles material="GroundBrickt" count="32">
+          <input semantic="VERTEX" source="#polySurface7__GroundBrickt-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface7__GroundBrickt-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface7__GroundBrickt-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface7__GroundBrickt-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 34 34 34 34 35 35 35 35 37 37 37 37 36 36 36 36 35 35 35 35 38 38 38 38 39 39 39 39 40 40 40 40 39 39 39 39 41 41 41 41 40 40 40 40 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 47 47 47 47 45 45 45 45 49 49 49 49 48 48 48 48 45 45 45 45 50 50 50 50 51 51 51 51 52 52 52 52 53 53 53 53 50 50 50 50 52 52 52 52 54 54 54 54 53 53 53 53 52 52 52 52 55 55 55 55 54 54 54 54 52 52 52 52 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface1__BtlFloor180x90x15-mesh">
+      <skin source="#polySurface1__BtlFloor180x90x15-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface1__BtlFloor180x90x15-mesh-joint">
+          <Name_array id="polySurface1__BtlFloor180x90x15-mesh-joint-array" count="1">FldObj_MsnFloor120x15x120AP</Name_array>
+          <technique_common>
+            <accessor source="#polySurface1__BtlFloor180x90x15-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__BtlFloor180x90x15-mesh-inv_bind_matrix">
+          <float_array id="polySurface1__BtlFloor180x90x15-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__BtlFloor180x90x15-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__BtlFloor180x90x15-mesh-weight">
+          <float_array id="polySurface1__BtlFloor180x90x15-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__BtlFloor180x90x15-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface1__BtlFloor180x90x15-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface1__BtlFloor180x90x15-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#polySurface1__BtlFloor180x90x15-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface1__BtlFloor180x90x15-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface4__Concrete-mesh">
+      <skin source="#polySurface4__Concrete-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface4__Concrete-mesh-joint">
+          <Name_array id="polySurface4__Concrete-mesh-joint-array" count="1">FldObj_MsnFloor120x15x120AP</Name_array>
+          <technique_common>
+            <accessor source="#polySurface4__Concrete-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4__Concrete-mesh-inv_bind_matrix">
+          <float_array id="polySurface4__Concrete-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface4__Concrete-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface4__Concrete-mesh-weight">
+          <float_array id="polySurface4__Concrete-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface4__Concrete-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface4__Concrete-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface4__Concrete-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#polySurface4__Concrete-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface4__Concrete-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface7__GroundBrickt-mesh">
+      <skin source="#polySurface7__GroundBrickt-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface7__GroundBrickt-mesh-joint">
+          <Name_array id="polySurface7__GroundBrickt-mesh-joint-array" count="1">FldObj_MsnFloor120x15x120AP</Name_array>
+          <technique_common>
+            <accessor source="#polySurface7__GroundBrickt-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface7__GroundBrickt-mesh-inv_bind_matrix">
+          <float_array id="polySurface7__GroundBrickt-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface7__GroundBrickt-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface7__GroundBrickt-mesh-weight">
+          <float_array id="polySurface7__GroundBrickt-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface7__GroundBrickt-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface7__GroundBrickt-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface7__GroundBrickt-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="56">
+          <input semantic="JOINT" source="#polySurface7__GroundBrickt-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface7__GroundBrickt-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_MsnFloor120x15x120AP" name="FldObj_MsnFloor120x15x120AP" sid="FldObj_MsnFloor120x15x120AP" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface1__BtlFloor180x90x15" name="polySurface1__BtlFloor180x90x15" type="NODE">
+        <instance_controller url="#Armature_polySurface1__BtlFloor180x90x15-mesh">
+          <skeleton>#Armature_FldObj_MsnFloor120x15x120AP</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BtlFloor180x90x15" target="#BtlFloor180x90x15" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface4__Concrete" name="polySurface4__Concrete" type="NODE">
+        <instance_controller url="#Armature_polySurface4__Concrete-mesh">
+          <skeleton>#Armature_FldObj_MsnFloor120x15x120AP</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Concrete" target="#Concrete" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface7__GroundBrickt" name="polySurface7__GroundBrickt" type="NODE">
+        <instance_controller url="#Armature_polySurface7__GroundBrickt-mesh">
+          <skeleton>#Armature_FldObj_MsnFloor120x15x120AP</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundBrickt" target="#GroundBrickt" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

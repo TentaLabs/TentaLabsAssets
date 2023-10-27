@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="RocketBigLid00_Alb">
+      <init_from>RocketBigLid00_Alb.png</init_from>
+    </image>
+    <image id="RocketBigLid00_Mtl">
+      <init_from>RocketBigLid00_Mtl.png</init_from>
+    </image>
+    <image id="RocketBigLid00_Nrm">
+      <init_from>RocketBigLid00_Nrm.png</init_from>
+    </image>
+    <image id="RocketBigLid00_Rgh">
+      <init_from>RocketBigLid00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="RocketBigLid00">
+      <instance_effect url="#Effect_RocketBigLid00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_RocketBigLid00">
+      <profile_COMMON>
+        <newparam sid="surface_RocketBigLid00-diffuse">
+          <surface type="2D">
+            <init_from>RocketBigLid00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RocketBigLid00-diffuse">
+          <sampler2D>
+            <source>surface_RocketBigLid00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_RocketBigLid00-bump">
+          <surface type="2D">
+            <init_from>RocketBigLid00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RocketBigLid00-bump">
+          <sampler2D>
+            <source>surface_RocketBigLid00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_RocketBigLid00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_RocketBigLid00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="BigLid10__RocketBigLid00-mesh" name="BigLid10__RocketBigLid00">
+      <mesh>
+        <source id="BigLid10__RocketBigLid00-position">
+          <float_array id="BigLid10__RocketBigLid00-position-array" count="372">-15 -0.9990036 -20.24929 -15 -0.998999 -1.499959 -15 9.715557E-06 -20.24929 -15 4.827976E-06 -1.499959 -15 -0.9990036 20.24934 -15 9.715557E-06 20.24934 -15 -0.998999 1.500007 -15 4.827976E-06 1.500007 -15 -3.576279E-07 -20.24929 -15 4.529953E-06 -1.499959 -14.25 4.529953E-06 -1.499967 -6.513108 4.529953E-06 -20.24931 -13.5 4.529953E-06 -0.7499759 5.349327 4.529953E-06 -8.386872 5.349327 4.529953E-06 1.418591E-05 -13.5 4.529953E-06 2.408028E-05 -15 -0.9990036 20.24934 -15 -0.998999 1.500007 -14.25 -0.998999 1.500015 -6.513108 -0.998999 20.24936 -13.5 -0.998999 0.7500241 5.349327 -0.998999 8.386919 5.349327 -0.998999 3.397465E-05 -13.5 -0.998999 2.408028E-05 -14.25 4.529953E-06 1.500015 -15 4.529953E-06 1.500007 -15 -3.576279E-07 20.24934 -6.513108 4.529953E-06 20.24936 -13.5 4.529953E-06 0.7500241 5.349327 4.529953E-06 8.386919 5.349327 4.529953E-06 3.397465E-05 -13.5 4.529953E-06 2.408028E-05 -14.25 -0.998999 -1.499967 -15 -0.998999 -1.499959 -15 -0.9990036 -20.24929 -6.513108 -0.998999 -20.24931 -13.5 -0.998999 -0.7499759 5.349327 -0.998999 -8.386872 5.349327 -0.998999 1.418591E-05 -13.5 -0.998999 2.408028E-05 -13.5 4.827976E-06 -0.7499759 -13.5 -0.998999 -0.7499759 -13.5 4.827976E-06 2.408028E-05 -13.5 -0.998999 2.408028E-05 -14.25 4.827976E-06 -1.499967 -14.25 -0.998999 -1.499967 -13.5 4.827976E-06 -0.7499759 -13.5 -0.998999 -0.7499759 -15 4.827976E-06 -1.499959 -15 -0.998999 -1.499959 -14.25 4.827976E-06 -1.499967 -14.25 -0.998999 -1.499967 -13.5 4.827976E-06 0.7500241 -13.5 4.827976E-06 2.408028E-05 -13.5 -0.998999 0.7500241 -13.5 -0.998999 2.408028E-05 -14.25 4.827976E-06 1.500015 -13.5 4.827976E-06 0.7500241 -14.25 -0.998999 1.500015 -13.5 -0.998999 0.7500241 -15 4.827976E-06 1.500007 -14.25 4.827976E-06 1.500015 -15 -0.998999 1.500007 -14.25 -0.998999 1.500015 -15 -0.9990036 -20.24929 -14.11424 -1.041754 -1.498935 -15.00216 -0.001574854 -20.24729 -15.00012 -0.05511612 -1.654238 -15 -0.9990036 20.24934 -15 9.715557E-06 20.24934 -14.98168 -1.001366 1.617099 -14.90798 -0.00665751 1.736322 -6.512614 0.0002126671 -20.25069 -15.00216 -0.001574854 -20.24729 -15.00012 -0.05511612 -1.654238 -13.18419 0.01182688 -0.006259329 5.349327 4.529953E-06 -8.386872 5.349327 4.529953E-06 1.418591E-05 -6.513067 -0.9990057 20.24962 -15 -0.9990036 20.24934 -14.98168 -1.001366 1.617099 -13.41274 -0.9905617 0.7326312 5.349327 -0.998999 8.386919 5.349327 -0.998999 3.397465E-05 -6.512787 -7.488698E-05 20.25049 -14.90798 -0.00665751 1.736322 -15 9.715557E-06 20.24934 -13.18419 0.01182688 -0.006259329 5.349327 4.529953E-06 8.386919 5.349327 4.529953E-06 1.418591E-05 -6.510882 -0.9987696 -20.25011 -14.11424 -1.041754 -1.498935 -15 -0.9990036 -20.24929 -13.41274 -0.9905617 0.7326312 5.349327 -0.998999 -8.386872 5.349327 -0.998999 3.397465E-05 -15.00012 -0.05511612 -1.654238 -14.11424 -1.041754 -1.498935 -13.18419 0.01182688 -0.006259329 -13.41274 -0.9905617 0.7326312 -14.90798 -0.00665751 1.736322 -13.18419 0.01182688 -0.006259329 -14.98168 -1.001366 1.617099 -13.41274 -0.9905617 0.7326312 -6.513108 4.529953E-06 -20.24931 -15.23562 -0.2826813 -20.24929 -14.32367 -0.4774509 -2.239125 5.349327 4.529953E-06 -8.386872 5.349327 4.529953E-06 1.418591E-05 -6.517822 -1.055145 20.22241 -15.14342 -0.6890568 20.20626 -14.32367 -0.4774509 -2.239125 5.320553 -1.023919 8.378993 5.336326 -1.004579 0.0008936345 5.349307 0.0004204352 8.387015 5.349327 4.529953E-06 1.418591E-05 -14.32367 -0.4774509 -2.239125 -6.520492 0.03315054 20.24856 -15.14342 -0.6890568 20.20626 5.345541 -1.000614 -8.384789 5.336326 -1.004579 0.0008936345 -14.32367 -0.4774509 -2.239125 -6.533492 -1.023455 -20.24931 -15.23562 -0.2826813 -20.24929</float_array>
+          <technique_common>
+            <accessor source="#BigLid10__RocketBigLid00-position-array" count="124" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigLid10__RocketBigLid00-normal">
+          <float_array id="BigLid10__RocketBigLid00-normal-array" count="372">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#BigLid10__RocketBigLid00-normal-array" count="124" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigLid10__RocketBigLid00-texcoord">
+          <float_array id="BigLid10__RocketBigLid00-texcoord-array" count="248">0.9957427 0.004104674 0.1226978 0.004104674 0.9957427 0.05062944 0.1226978 0.05062944 0.9957427 0.004104674 0.9957427 0.05062944 0.1226978 0.004104674 0.1226978 0.05062944 0.007354849 0.9962463 0.00733959 0.1290913 0.0420386 0.1290913 0.3998627 0.9962615 0.07672236 0.09440756 0.9485161 0.4476082 0.9485161 0.05972379 0.07672236 0.05972379 0.007354849 0.9962463 0.00733959 0.1290913 0.0420386 0.1290913 0.3998627 0.9962615 0.07672236 0.09440756 0.9485161 0.4476082 0.9485161 0.05972379 0.07672236 0.05972379 0.0420386 0.1290913 0.00733959 0.1290913 0.007354849 0.9962463 0.3998627 0.9962615 0.07672236 0.09440756 0.9485161 0.4476082 0.9485161 0.05972379 0.07672236 0.05972379 0.0420386 0.1290913 0.00733959 0.1290913 0.007354849 0.9962463 0.3998627 0.9962615 0.07672236 0.09440756 0.9485161 0.4476082 0.9485161 0.05972379 0.07672236 0.05972379 0.0383917 0.05062944 0.0383917 0.004104674 0.003463798 0.05062944 0.003463798 0.004104674 0.08778515 0.05062944 0.08778515 0.004104674 0.0383917 0.05062944 0.0383917 0.004104674 0.1226978 0.05062944 0.1226978 0.004104674 0.08778515 0.05062944 0.08778515 0.004104674 0.0383917 0.05062944 0.003463798 0.05062944 0.0383917 0.004104674 0.003463798 0.004104674 0.08778515 0.05062944 0.0383917 0.05062944 0.08778515 0.004104674 0.0383917 0.004104674 0.1226978 0.05062944 0.08778515 0.05062944 0.1226978 0.004104674 0.08778515 0.004104674 0.9957427 0.004104674 0.08778515 0.004104674 0.9957427 0.05062944 0.1226978 0.05062944 0.9957427 0.004104674 0.9957427 0.05062944 0.1226978 0.004104674 0.1226978 0.05062944 0.3998627 0.9962615 0.007354849 0.9962463 0.00733959 0.1290913 0.07672236 0.05972379 0.9485161 0.4476082 0.9485161 0.05972379 0.3998627 0.9962615 0.007354849 0.9962463 0.00733959 0.1290913 0.07672236 0.09440756 0.9485161 0.4476082 0.9485161 0.05972379 0.3998627 0.9962615 0.00733959 0.1290913 0.007354849 0.9962463 0.07672236 0.05972379 0.9485161 0.4476082 0.9485161 0.05972379 0.3998627 0.9962615 0.0420386 0.1290913 0.007354849 0.9962463 0.07672236 0.09440756 0.9485161 0.4476082 0.9485161 0.05972379 0.1226978 0.05062944 0.08778515 0.004104674 0.003463798 0.05062944 0.0383917 0.004104674 0.1226978 0.05062944 0.003463798 0.05062944 0.1226978 0.004104674 0.0383917 0.004104674 0.3998627 0.9962615 0.007354849 0.9962463 0.00733959 0.1290913 0.9485161 0.4476082 0.9485161 0.05972379 0.3998627 0.9962615 0.007354849 0.9962463 0.0420386 0.1290913 0.9485161 0.4476082 0.9485161 0.05972379 0.9485161 0.4476082 0.9485161 0.05972379 0.00733959 0.1290913 0.3998627 0.9962615 0.007354849 0.9962463 0.9485161 0.4476082 0.9485161 0.05972379 0.0420386 0.1290913 0.3998627 0.9962615 0.007354849 0.9962463</float_array>
+          <technique_common>
+            <accessor source="#BigLid10__RocketBigLid00-texcoord-array" count="124" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BigLid10__RocketBigLid00-vertex">
+          <input semantic="POSITION" source="#BigLid10__RocketBigLid00-position" />
+        </vertices>
+        <triangles material="RocketBigLid00" count="40">
+          <input semantic="VERTEX" source="#BigLid10__RocketBigLid00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#BigLid10__RocketBigLid00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#BigLid10__RocketBigLid00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 11 11 11 10 10 10 12 12 12 13 13 13 11 11 11 12 12 12 14 14 14 13 13 13 12 12 12 15 15 15 14 14 14 12 12 12 16 16 16 17 17 17 18 18 18 19 19 19 16 16 16 18 18 18 19 19 19 18 18 18 20 20 20 21 21 21 19 19 19 20 20 20 22 22 22 21 21 21 20 20 20 23 23 23 22 22 22 20 20 20 24 24 24 25 25 25 26 26 26 27 27 27 24 24 24 26 26 26 24 24 24 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 29 29 29 30 30 30 28 28 28 30 30 30 31 31 31 28 28 28 32 32 32 33 33 33 34 34 34 35 35 35 32 32 32 34 34 34 32 32 32 35 35 35 36 36 36 35 35 35 37 37 37 36 36 36 37 37 37 38 38 38 36 36 36 38 38 38 39 39 39 36 36 36 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_BigLid10__RocketBigLid00-mesh">
+      <skin source="#BigLid10__RocketBigLid00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="BigLid10__RocketBigLid00-mesh-joint">
+          <Name_array id="BigLid10__RocketBigLid00-mesh-joint-array" count="1">FldObj_RocketBigLid00</Name_array>
+          <technique_common>
+            <accessor source="#BigLid10__RocketBigLid00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigLid10__RocketBigLid00-mesh-inv_bind_matrix">
+          <float_array id="BigLid10__RocketBigLid00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#BigLid10__RocketBigLid00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigLid10__RocketBigLid00-mesh-weight">
+          <float_array id="BigLid10__RocketBigLid00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#BigLid10__RocketBigLid00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#BigLid10__RocketBigLid00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#BigLid10__RocketBigLid00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="124">
+          <input semantic="JOINT" source="#BigLid10__RocketBigLid00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#BigLid10__RocketBigLid00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_RocketBigLid00" name="FldObj_RocketBigLid00" sid="FldObj_RocketBigLid00" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="BigLid10__RocketBigLid00" name="BigLid10__RocketBigLid00" type="NODE">
+        <instance_controller url="#Armature_BigLid10__RocketBigLid00-mesh">
+          <skeleton>#Armature_FldObj_RocketBigLid00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RocketBigLid00" target="#RocketBigLid00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

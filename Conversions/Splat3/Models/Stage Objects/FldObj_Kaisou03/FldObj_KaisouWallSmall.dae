@@ -1,0 +1,1584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BackWall_Alb">
+      <init_from>BackWall_Alb.png</init_from>
+    </image>
+    <image id="BackWall_Mtl">
+      <init_from>BackWall_Mtl.png</init_from>
+    </image>
+    <image id="BackWall_Nrm">
+      <init_from>BackWall_Nrm.png</init_from>
+    </image>
+    <image id="BackWall_Rgh">
+      <init_from>BackWall_Rgh.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="Barricade00_Alb">
+      <init_from>Barricade00_Alb.png</init_from>
+    </image>
+    <image id="Barricade00_Nrm">
+      <init_from>Barricade00_Nrm.png</init_from>
+    </image>
+    <image id="Barricade00_Rgh">
+      <init_from>Barricade00_Rgh.png</init_from>
+    </image>
+    <image id="Column00_Alb">
+      <init_from>Column00_Alb.png</init_from>
+    </image>
+    <image id="Column00_Mtl">
+      <init_from>Column00_Mtl.png</init_from>
+    </image>
+    <image id="Column00_Nrm">
+      <init_from>Column00_Nrm.png</init_from>
+    </image>
+    <image id="Column00_Rgh">
+      <init_from>Column00_Rgh.png</init_from>
+    </image>
+    <image id="ColumnWalls_Alb">
+      <init_from>ColumnWalls_Alb.png</init_from>
+    </image>
+    <image id="ColumnWalls_Nrm">
+      <init_from>ColumnWalls_Nrm.png</init_from>
+    </image>
+    <image id="ColumnWalls_Rgh">
+      <init_from>ColumnWalls_Rgh.png</init_from>
+    </image>
+    <image id="ConcreteWall_Alb">
+      <init_from>ConcreteWall_Alb.png</init_from>
+    </image>
+    <image id="ConcreteWall_Nrm">
+      <init_from>ConcreteWall_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteWall_Rgh">
+      <init_from>ConcreteWall_Rgh.png</init_from>
+    </image>
+    <image id="FloorAcc_Alb">
+      <init_from>FloorAcc_Alb.png</init_from>
+    </image>
+    <image id="FloorAcc_Mtl">
+      <init_from>FloorAcc_Mtl.png</init_from>
+    </image>
+    <image id="FloorAcc_Nrm">
+      <init_from>FloorAcc_Nrm.png</init_from>
+    </image>
+    <image id="FloorAcc_Rgh">
+      <init_from>FloorAcc_Rgh.png</init_from>
+    </image>
+    <image id="FloorA_Alb">
+      <init_from>FloorA_Alb.png</init_from>
+    </image>
+    <image id="FloorA_Nrm">
+      <init_from>FloorA_Nrm.png</init_from>
+    </image>
+    <image id="FloorA_Rgh">
+      <init_from>FloorA_Rgh.png</init_from>
+    </image>
+    <image id="FloorBarrier01_Alb">
+      <init_from>FloorBarrier01_Alb.png</init_from>
+    </image>
+    <image id="FloorBarrier01_Mtl">
+      <init_from>FloorBarrier01_Mtl.png</init_from>
+    </image>
+    <image id="FloorBarrier01_Nrm">
+      <init_from>FloorBarrier01_Nrm.png</init_from>
+    </image>
+    <image id="FloorBarrier01_Rgh">
+      <init_from>FloorBarrier01_Rgh.png</init_from>
+    </image>
+    <image id="FloorBarrier02_Alb">
+      <init_from>FloorBarrier02_Alb.png</init_from>
+    </image>
+    <image id="FloorBarrier02_Mtl">
+      <init_from>FloorBarrier02_Mtl.png</init_from>
+    </image>
+    <image id="FloorBarrier02_Nrm">
+      <init_from>FloorBarrier02_Nrm.png</init_from>
+    </image>
+    <image id="FloorBarrier02_Rgh">
+      <init_from>FloorBarrier02_Rgh.png</init_from>
+    </image>
+    <image id="FloorB_Alb">
+      <init_from>FloorB_Alb.png</init_from>
+    </image>
+    <image id="FloorB_Nrm">
+      <init_from>FloorB_Nrm.png</init_from>
+    </image>
+    <image id="FloorB_Rgh">
+      <init_from>FloorB_Rgh.png</init_from>
+    </image>
+    <image id="FloorDeco_Alb">
+      <init_from>FloorDeco_Alb.png</init_from>
+    </image>
+    <image id="FloorDeco_Mtl">
+      <init_from>FloorDeco_Mtl.png</init_from>
+    </image>
+    <image id="FloorDeco_Nrm">
+      <init_from>FloorDeco_Nrm.png</init_from>
+    </image>
+    <image id="FloorDeco_Rgh">
+      <init_from>FloorDeco_Rgh.png</init_from>
+    </image>
+    <image id="FloorPanel_Alb">
+      <init_from>FloorPanel_Alb.png</init_from>
+    </image>
+    <image id="FloorPanel_Nrm">
+      <init_from>FloorPanel_Nrm.png</init_from>
+    </image>
+    <image id="FloorPanel_Rgh">
+      <init_from>FloorPanel_Rgh.png</init_from>
+    </image>
+    <image id="FloorTrim_Alb">
+      <init_from>FloorTrim_Alb.png</init_from>
+    </image>
+    <image id="FloorTrim_Mtl">
+      <init_from>FloorTrim_Mtl.png</init_from>
+    </image>
+    <image id="FloorTrim_Nrm">
+      <init_from>FloorTrim_Nrm.png</init_from>
+    </image>
+    <image id="FloorTrim_Rgh">
+      <init_from>FloorTrim_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="LightDeco00_Alb">
+      <init_from>LightDeco00_Alb.png</init_from>
+    </image>
+    <image id="LightDeco00_Emi">
+      <init_from>LightDeco00_Emi.png</init_from>
+    </image>
+    <image id="LightDeco00_Mtl">
+      <init_from>LightDeco00_Mtl.png</init_from>
+    </image>
+    <image id="LightDeco00_Nrm">
+      <init_from>LightDeco00_Nrm.png</init_from>
+    </image>
+    <image id="LightDeco00_Rgh">
+      <init_from>LightDeco00_Rgh.png</init_from>
+    </image>
+    <image id="MetalWall_Alb">
+      <init_from>MetalWall_Alb.png</init_from>
+    </image>
+    <image id="MetalWall_Mtl">
+      <init_from>MetalWall_Mtl.png</init_from>
+    </image>
+    <image id="MetalWall_Nrm">
+      <init_from>MetalWall_Nrm.png</init_from>
+    </image>
+    <image id="MetalWall_Rgh">
+      <init_from>MetalWall_Rgh.png</init_from>
+    </image>
+    <image id="PipeWall_Alb">
+      <init_from>PipeWall_Alb.png</init_from>
+    </image>
+    <image id="PipeWall_Mtl">
+      <init_from>PipeWall_Mtl.png</init_from>
+    </image>
+    <image id="PipeWall_Nrm">
+      <init_from>PipeWall_Nrm.png</init_from>
+    </image>
+    <image id="PipeWall_Rgh">
+      <init_from>PipeWall_Rgh.png</init_from>
+    </image>
+    <image id="RedFrames_Alb">
+      <init_from>RedFrames_Alb.png</init_from>
+    </image>
+    <image id="RedFrames_Nrm">
+      <init_from>RedFrames_Nrm.png</init_from>
+    </image>
+    <image id="RedFrames_Rgh">
+      <init_from>RedFrames_Rgh.png</init_from>
+    </image>
+    <image id="RedGrating00_Alb">
+      <init_from>RedGrating00_Alb.png</init_from>
+    </image>
+    <image id="RedGrating00_Nrm">
+      <init_from>RedGrating00_Nrm.png</init_from>
+    </image>
+    <image id="RedGrating00_Opa">
+      <init_from>RedGrating00_Opa.png</init_from>
+    </image>
+    <image id="RedGrating00_Rgh">
+      <init_from>RedGrating00_Rgh.png</init_from>
+    </image>
+    <image id="RedGrating01_Alb">
+      <init_from>RedGrating01_Alb.png</init_from>
+    </image>
+    <image id="RedGrating01_Nrm">
+      <init_from>RedGrating01_Nrm.png</init_from>
+    </image>
+    <image id="RedGrating01_Rgh">
+      <init_from>RedGrating01_Rgh.png</init_from>
+    </image>
+    <image id="RedGrating02_Alb">
+      <init_from>RedGrating02_Alb.png</init_from>
+    </image>
+    <image id="RedGrating02_Nrm">
+      <init_from>RedGrating02_Nrm.png</init_from>
+    </image>
+    <image id="RedGrating02_Rgh">
+      <init_from>RedGrating02_Rgh.png</init_from>
+    </image>
+    <image id="SideWall_Alb">
+      <init_from>SideWall_Alb.png</init_from>
+    </image>
+    <image id="SideWall_Mtl">
+      <init_from>SideWall_Mtl.png</init_from>
+    </image>
+    <image id="SideWall_Nrm">
+      <init_from>SideWall_Nrm.png</init_from>
+    </image>
+    <image id="SideWall_Rgh">
+      <init_from>SideWall_Rgh.png</init_from>
+    </image>
+    <image id="Tarps00_Alb">
+      <init_from>Tarps00_Alb.png</init_from>
+    </image>
+    <image id="Tarps00_Mtl">
+      <init_from>Tarps00_Mtl.png</init_from>
+    </image>
+    <image id="Tarps00_Nrm">
+      <init_from>Tarps00_Nrm.png</init_from>
+    </image>
+    <image id="Tarps00_Rgh">
+      <init_from>Tarps00_Rgh.png</init_from>
+    </image>
+    <image id="TarpSheet_Alb">
+      <init_from>TarpSheet_Alb.png</init_from>
+    </image>
+    <image id="TarpSheet_Mtl">
+      <init_from>TarpSheet_Mtl.png</init_from>
+    </image>
+    <image id="TarpSheet_Nrm">
+      <init_from>TarpSheet_Nrm.png</init_from>
+    </image>
+    <image id="TarpSheet_Rgh">
+      <init_from>TarpSheet_Rgh.png</init_from>
+    </image>
+    <image id="TarpTintedGlass_Alb">
+      <init_from>TarpTintedGlass_Alb.png</init_from>
+    </image>
+    <image id="TarpTintedGlass_Emi">
+      <init_from>TarpTintedGlass_Emi.png</init_from>
+    </image>
+    <image id="TarpTintedGlass_Nrm">
+      <init_from>TarpTintedGlass_Nrm.png</init_from>
+    </image>
+    <image id="TarpTintedGlass_Rgh">
+      <init_from>TarpTintedGlass_Rgh.png</init_from>
+    </image>
+    <image id="TintedGlass_Alb">
+      <init_from>TintedGlass_Alb.png</init_from>
+    </image>
+    <image id="TintedGlass_Rgh">
+      <init_from>TintedGlass_Rgh.png</init_from>
+    </image>
+    <image id="Vinyl_Alb">
+      <init_from>Vinyl_Alb.png</init_from>
+    </image>
+    <image id="Vinyl_Mtl">
+      <init_from>Vinyl_Mtl.png</init_from>
+    </image>
+    <image id="Vinyl_Nrm">
+      <init_from>Vinyl_Nrm.png</init_from>
+    </image>
+    <image id="Vinyl_Rgh">
+      <init_from>Vinyl_Rgh.png</init_from>
+    </image>
+    <image id="WallBarriers00_Alb">
+      <init_from>WallBarriers00_Alb.png</init_from>
+    </image>
+    <image id="WallBarriers00_Mtl">
+      <init_from>WallBarriers00_Mtl.png</init_from>
+    </image>
+    <image id="WallBarriers00_Nrm">
+      <init_from>WallBarriers00_Nrm.png</init_from>
+    </image>
+    <image id="WallBarriers00_Rgh">
+      <init_from>WallBarriers00_Rgh.png</init_from>
+    </image>
+    <image id="WallBarriersFence_Alb">
+      <init_from>WallBarriersFence_Alb.png</init_from>
+    </image>
+    <image id="WallBarriersFence_Nrm">
+      <init_from>WallBarriersFence_Nrm.png</init_from>
+    </image>
+    <image id="WallBarriersFence_Opa">
+      <init_from>WallBarriersFence_Opa.png</init_from>
+    </image>
+    <image id="WallBarriersFence_Rgh">
+      <init_from>WallBarriersFence_Rgh.png</init_from>
+    </image>
+    <image id="WallDeco00_Alb">
+      <init_from>WallDeco00_Alb.png</init_from>
+    </image>
+    <image id="WallDeco00_Mtl">
+      <init_from>WallDeco00_Mtl.png</init_from>
+    </image>
+    <image id="WallDeco00_Nrm">
+      <init_from>WallDeco00_Nrm.png</init_from>
+    </image>
+    <image id="WallDeco00_Rgh">
+      <init_from>WallDeco00_Rgh.png</init_from>
+    </image>
+    <image id="Walls01_Alb">
+      <init_from>Walls01_Alb.png</init_from>
+    </image>
+    <image id="Walls01_Nrm">
+      <init_from>Walls01_Nrm.png</init_from>
+    </image>
+    <image id="Walls01_Rgh">
+      <init_from>Walls01_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="BackWall">
+      <instance_effect url="#Effect_BackWall" />
+    </material>
+    <material id="BackWall_np">
+      <instance_effect url="#Effect_BackWall_np" />
+    </material>
+    <material id="ConcreteWall">
+      <instance_effect url="#Effect_ConcreteWall" />
+    </material>
+    <material id="ConcreteWall_np">
+      <instance_effect url="#Effect_ConcreteWall_np" />
+    </material>
+    <material id="MetalWall">
+      <instance_effect url="#Effect_MetalWall" />
+    </material>
+    <material id="TarpSheet">
+      <instance_effect url="#Effect_TarpSheet" />
+    </material>
+    <material id="Tarps00">
+      <instance_effect url="#Effect_Tarps00" />
+    </material>
+    <material id="Tarps00_np">
+      <instance_effect url="#Effect_Tarps00_np" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_BackWall">
+      <profile_COMMON>
+        <newparam sid="surface_BackWall-diffuse">
+          <surface type="2D">
+            <init_from>BackWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BackWall-diffuse">
+          <sampler2D>
+            <source>surface_BackWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_BackWall-bump">
+          <surface type="2D">
+            <init_from>BackWall_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BackWall-bump">
+          <sampler2D>
+            <source>surface_BackWall-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_BackWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_BackWall-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_BackWall_np">
+      <profile_COMMON>
+        <newparam sid="surface_BackWall_np-diffuse">
+          <surface type="2D">
+            <init_from>BackWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BackWall_np-diffuse">
+          <sampler2D>
+            <source>surface_BackWall_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_BackWall_np-bump">
+          <surface type="2D">
+            <init_from>BackWall_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BackWall_np-bump">
+          <sampler2D>
+            <source>surface_BackWall_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_BackWall_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_BackWall_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_ConcreteWall">
+      <profile_COMMON>
+        <newparam sid="surface_ConcreteWall-diffuse">
+          <surface type="2D">
+            <init_from>ConcreteWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ConcreteWall-diffuse">
+          <sampler2D>
+            <source>surface_ConcreteWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ConcreteWall-bump">
+          <surface type="2D">
+            <init_from>ConcreteWall_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ConcreteWall-bump">
+          <sampler2D>
+            <source>surface_ConcreteWall-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_ConcreteWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_ConcreteWall-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_ConcreteWall_np">
+      <profile_COMMON>
+        <newparam sid="surface_ConcreteWall_np-diffuse">
+          <surface type="2D">
+            <init_from>ConcreteWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ConcreteWall_np-diffuse">
+          <sampler2D>
+            <source>surface_ConcreteWall_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ConcreteWall_np-bump">
+          <surface type="2D">
+            <init_from>ConcreteWall_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ConcreteWall_np-bump">
+          <sampler2D>
+            <source>surface_ConcreteWall_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_ConcreteWall_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_ConcreteWall_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MetalWall">
+      <profile_COMMON>
+        <newparam sid="surface_MetalWall-diffuse">
+          <surface type="2D">
+            <init_from>MetalWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalWall-diffuse">
+          <sampler2D>
+            <source>surface_MetalWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_MetalWall-bump">
+          <surface type="2D">
+            <init_from>MetalWall_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalWall-bump">
+          <sampler2D>
+            <source>surface_MetalWall-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MetalWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_MetalWall-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_TarpSheet">
+      <profile_COMMON>
+        <newparam sid="surface_TarpSheet-diffuse">
+          <surface type="2D">
+            <init_from>TarpSheet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_TarpSheet-diffuse">
+          <sampler2D>
+            <source>surface_TarpSheet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_TarpSheet-bump">
+          <surface type="2D">
+            <init_from>TarpSheet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_TarpSheet-bump">
+          <sampler2D>
+            <source>surface_TarpSheet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_TarpSheet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_TarpSheet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Tarps00">
+      <profile_COMMON>
+        <newparam sid="surface_Tarps00-diffuse">
+          <surface type="2D">
+            <init_from>Tarps00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Tarps00-diffuse">
+          <sampler2D>
+            <source>surface_Tarps00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Tarps00-bump">
+          <surface type="2D">
+            <init_from>Tarps00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Tarps00-bump">
+          <sampler2D>
+            <source>surface_Tarps00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Tarps00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Tarps00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Tarps00_np">
+      <profile_COMMON>
+        <newparam sid="surface_Tarps00_np-diffuse">
+          <surface type="2D">
+            <init_from>Tarps00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Tarps00_np-diffuse">
+          <sampler2D>
+            <source>surface_Tarps00_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Tarps00_np-bump">
+          <surface type="2D">
+            <init_from>Tarps00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Tarps00_np-bump">
+          <sampler2D>
+            <source>surface_Tarps00_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Tarps00_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Tarps00_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="RedFrameBars_low1_1__MetalWall-mesh" name="RedFrameBars_low1_1__MetalWall">
+      <mesh>
+        <source id="RedFrameBars_low1_1__MetalWall-position">
+          <float_array id="RedFrameBars_low1_1__MetalWall-position-array" count="822">18.16737 14.49792 -8.648167 18.01737 14.49792 -8.648167 18.16737 14.49792 -8.498167 18.01737 14.49792 -8.498167 -18.16737 14.49792 8.648168 -18.01737 14.49792 8.648168 -18.16737 14.49792 8.498168 -18.01737 14.49792 8.498168 21.01968 14.49792 -8.648167 20.86968 14.49792 -8.648167 21.01968 14.49792 -8.498167 20.86968 14.49792 -8.498167 -21.01968 14.49792 8.648168 -20.86968 14.49792 8.648168 -21.01968 14.49792 8.498168 -20.86968 14.49792 8.498168 18.01737 11.5 -8.648167 18.01737 14.49792 -8.648167 18.16737 14.49792 -8.648167 18.16737 11.5 -8.648167 18.16737 14.49792 -8.498167 18.16737 11.5 -8.498167 18.16737 11.5 -8.498167 18.16737 14.49792 -8.498167 18.01737 14.49792 -8.498167 18.01737 11.5 -8.498167 18.01737 14.49792 -8.648167 18.01737 11.5 -8.648167 -18.01737 11.5 8.648168 -18.01737 14.49792 8.648168 -18.16737 14.49792 8.648168 -18.16737 11.5 8.648168 -18.16737 14.49792 8.498168 -18.16737 11.5 8.498168 -18.16737 11.5 8.498168 -18.16737 14.49792 8.498168 -18.01737 14.49792 8.498168 -18.01737 11.5 8.498168 -18.01737 14.49792 8.648168 -18.01737 11.5 8.648168 18.16351 14.47944 -8.624596 20.86968 14.47944 -8.624596 20.86968 14.35944 -8.624596 18.16351 14.35944 -8.624596 20.86968 14.35944 -8.504596 18.16351 14.35944 -8.504596 20.86968 14.47944 -8.504596 18.16351 14.47944 -8.504596 20.86968 14.47944 -8.624596 18.16351 14.47944 -8.624596 -18.16351 14.47944 8.624597 -20.86968 14.47944 8.624597 -20.86968 14.35944 8.624597 -18.16351 14.35944 8.624597 -20.86968 14.35944 8.504597 -18.16351 14.35944 8.504597 -20.86968 14.47944 8.504597 -18.16351 14.47944 8.504597 -20.86968 14.47944 8.624597 -18.16351 14.47944 8.624597 20.86968 11.5 -8.648167 20.86968 14.49792 -8.648167 21.01968 14.49792 -8.648167 21.01968 11.5 -8.648167 21.01968 14.49792 -8.498167 21.01968 11.5 -8.498167 21.01968 11.5 -8.498167 21.01968 14.49792 -8.498167 20.86968 14.49792 -8.498167 20.86968 11.5 -8.498167 20.86968 14.49792 -8.648167 20.86968 11.5 -8.648167 -20.86968 11.5 8.648168 -20.86968 14.49792 8.648168 -21.01968 14.49792 8.648168 -21.01968 11.5 8.648168 -21.01968 14.49792 8.498168 -21.01968 11.5 8.498168 -21.01968 11.5 8.498168 -21.01968 14.49792 8.498168 -20.86968 14.49792 8.498168 -20.86968 11.5 8.498168 -20.86968 14.49792 8.648168 -20.86968 11.5 8.648168 21.00325 14.35944 -8.634571 21.00325 14.35944 -9.391314 21.00325 14.47944 -9.391314 21.00325 14.47944 -8.634571 20.8866 14.47944 -9.391314 20.8866 14.47944 -8.634571 20.8866 14.35944 -9.391314 20.8866 14.35944 -8.634571 21.00325 14.35944 -9.391314 21.00325 14.35944 -8.634571 18.14852 14.35944 -8.634571 18.14852 14.35944 -9.391315 18.14852 14.47944 -9.391315 18.14852 14.47944 -8.634571 18.03187 14.47944 -9.391315 18.03187 14.47944 -8.634571 18.03187 14.35944 -9.391315 18.03187 14.35944 -8.634571 18.14852 14.35944 -9.391315 18.14852 14.35944 -8.634571 19.42849 14.38005 -9.391314 19.42849 14.38005 -8.62332 19.42849 14.45205 -8.62332 19.42849 14.45205 -9.391314 19.54514 14.45205 -8.62332 19.54514 14.45205 -9.391314 19.54514 14.38005 -8.62332 19.54514 14.38005 -9.391314 -21.00325 14.35944 8.634572 -21.00325 14.35944 9.391315 -21.00325 14.47944 9.391315 -21.00325 14.47944 8.634572 -20.8866 14.47944 9.391315 -20.8866 14.47944 8.634572 -20.8866 14.35944 9.391315 -20.8866 14.35944 8.634572 -21.00325 14.35944 9.391315 -21.00325 14.35944 8.634572 -18.14852 14.35944 8.634572 -18.14852 14.35944 9.391315 -18.14852 14.47944 9.391315 -18.14852 14.47944 8.634572 -18.03187 14.47944 9.391315 -18.03187 14.47944 8.634572 -18.03187 14.35944 9.391315 -18.03187 14.35944 8.634572 -18.14852 14.35944 9.391315 -18.14852 14.35944 8.634572 -19.42849 14.38005 9.391315 -19.42849 14.38005 8.623321 -19.42849 14.45205 8.623321 -19.42849 14.45205 9.391315 -19.54514 14.45205 8.623321 -19.54514 14.45205 9.391315 -19.54514 14.38005 8.623321 -19.54514 14.38005 9.391315 18.17411 11.50032 -8.504891 18.02378 11.49999 -8.654572 18.02415 14.50454 -8.654722 18.1736 14.504 -8.504189 -18.01096 11.5 8.641756 -18.16096 11.5 8.491756 -18.17362 14.50417 8.504415 -18.02362 14.50417 8.654414 21.02643 11.5003 -8.504905 20.87609 11.49999 -8.654572 20.87021 14.51025 -8.648484 21.01963 14.51083 -8.497908 -20.86293 11.5003 8.64143 -21.01328 11.49999 8.491763 -21.01911 14.51139 8.497824 -20.86973 14.50973 8.648409 18.03187 14.47944 -9.391315 18.14852 14.35944 -9.391315 18.14852 14.35944 -8.634571 18.03187 14.47944 -8.634571 18.03187 14.47944 -9.391315 18.14852 14.47944 -8.634571 18.14852 14.35944 -9.391315 18.14852 14.35944 -8.634571 19.54514 14.45205 -9.391314 19.42849 14.38005 -9.391314 19.42849 14.38005 -8.62332 19.54514 14.45205 -8.62332 -20.8866 14.47944 8.634572 -21.00325 14.35944 8.634572 -21.00325 14.35944 9.391315 -20.8866 14.47944 9.391315 -18.03187 14.47944 9.391315 -18.14852 14.35944 9.391315 -18.14852 14.35944 8.634572 -18.03187 14.47944 8.634572 -18.03187 14.47944 9.391315 -18.14852 14.47944 8.634572 -18.14852 14.35944 9.391315 -18.14852 14.35944 8.634572 -19.42849 14.45205 9.391315 -19.42849 14.38005 8.623321 -19.54514 14.45205 8.623321 -19.54514 14.38005 9.391315 21.00325 14.35944 -9.391314 21.00325 14.35944 -8.634571 20.8866 14.35944 -8.634571 20.8866 14.47944 -9.391314 21.00325 14.47944 -8.634571 21.00325 14.35944 -9.391314 21.00325 14.35944 -8.634571 18.01737 11.5 -8.498167 18.17411 11.50032 -8.504891 18.1736 14.504 -8.504189 18.02415 14.50454 -8.654722 18.02378 11.49999 -8.654572 -18.16769 11.50031 8.64848 -18.01096 11.5 8.641756 -18.02362 14.50417 8.654414 -18.17362 14.50417 8.504415 -18.16096 11.5 8.491756 18.16351 14.35944 -8.624596 18.16351 14.47944 -8.624596 20.86968 14.47944 -8.624596 20.86968 14.35944 -8.504596 18.16351 14.35944 -8.504596 20.86968 14.47944 -8.504596 18.16351 14.47944 -8.624596 20.86968 14.47944 -8.624596 -18.16351 14.35944 8.624597 -18.16351 14.47944 8.624597 -20.86968 14.47944 8.624597 -20.86968 14.35944 8.504597 -18.16351 14.35944 8.504597 -20.86968 14.47944 8.504597 -18.16351 14.47944 8.624597 -20.86968 14.47944 8.624597 20.86936 11.5003 -8.497841 21.02643 11.5003 -8.504905 21.01963 14.51083 -8.497908 20.87021 14.51025 -8.648484 20.87609 11.49999 -8.654572 -21.02001 11.5003 8.648494 -20.86293 11.5003 8.64143 -20.86973 14.50973 8.648409 -21.01911 14.51139 8.497824 -21.01328 11.49999 8.491763 -20.8866 14.47944 9.391315 -20.8866 14.35944 9.391315 -20.8866 14.47944 8.634572 -21.00325 14.35944 8.634572 -21.00325 14.35944 9.391315 18.18771 11.50572 -8.511845 18.03295 11.49953 -8.664284 18.0997 14.6042 -8.609687 18.018 11.50085 -8.49768 18.18771 11.50572 -8.511845 18.0997 14.6042 -8.609687 18.03295 11.49953 -8.664284 18.018 11.50085 -8.49768 18.0997 14.6042 -8.609687 -18.00116 11.49963 8.632435 -18.15487 11.50467 8.479581 -18.09969 14.6051 8.608636 -20.86968 14.47944 8.624597 -20.86968 14.35944 8.504597 -18.16351 14.35944 8.504597 21.03799 11.5038 -8.513414 20.88544 11.4997 -8.664171 20.90974 14.59612 -8.60909 -21.02138 11.50153 8.648618 -20.85335 11.50082 8.63119 -20.90966 14.59848 8.607569 -21.00471 11.50313 8.480689 -21.02138 11.50153 8.648618 -20.90966 14.59848 8.607569 -20.85335 11.50082 8.63119 -21.00471 11.50313 8.480689 -20.90966 14.59848 8.607569 -18.16909 11.50209 8.648045 -18.00116 11.49963 8.632435 -18.09969 14.6051 8.608636 -18.15487 11.50467 8.479581 -18.09969 14.6051 8.608636 -20.86968 14.35944 8.504597 -20.86968 14.47944 8.504597 -18.16351 14.35944 8.504597 -20.86968 14.47944 8.624597 -18.16351 14.35944 8.504597 20.8695 11.50179 -8.49654 21.03799 11.5038 -8.513414 20.90974 14.59612 -8.60909 20.88544 11.4997 -8.664171 20.90974 14.59612 -8.60909</float_array>
+          <technique_common>
+            <accessor source="#RedFrameBars_low1_1__MetalWall-position-array" count="274" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RedFrameBars_low1_1__MetalWall-normal">
+          <float_array id="RedFrameBars_low1_1__MetalWall-normal-array" count="822">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 1 0 0 1 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 -1 0 0 -1 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0 0 -1 0 0 -1 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 1 0 0 1 0 0 0 1 0 0 1 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 1 0 0 1 0 0 0 -1 0 0 -1 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 1 0 0 1 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 -1 0 0 -1 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 1 0 0 1 0 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0 -1 0 0 -1 0 1 0 0 1 0 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -0.5146771 0.8571429 0 -0.5146771 0.8571429 0 0.5146771 0.8571429 0 0.5146771 0.8571429 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0 -1 0 0 -1 0 1 0 0 1 0 0 0.5146771 0.8571429 0 0.5146771 0.8571429 0 -0.5146771 0.8571429 0 -0.5146771 0.8571429 0 -1 0 0 -1 0 0 1 0 0 0 0 -1 0 0 -1 0.7064579 0 0.7064579 1 0 0 0 0 -1 0 0 -1 0.7064579 0 0.7064579 1 0 0 0 0 -1 0 0 -1 0.7064579 0 0.7064579 1 0 0 0 0 -1 0 0 -1 0.7064579 0 0.7064579 -0.7162427 -0.6966732 0 0 -1 0 0 -1 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 1 0 0 1 0 0 0.5146771 0.8571429 0 -1 0 0 -0.5244619 0.851272 0 0.5146771 0.8571429 0 -0.7064579 0.7064579 0 -1 0 0 -1 0 0 0.7064579 0.7064579 0 0.7162427 -0.6966732 0 0 -1 0 0 -1 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -1 0 0 -1 0 0 0.5146771 0.8571429 0 1 0 0 -0.5146771 0.8571429 0 -1 0 0 0 -1 0 0 -1 0 -0.7064579 -0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7475538 0.6555773 -0.1037182 1 0 0 -0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 -0.7064579 -0.7064579 0 0 -1 0 0 -1 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 1 0 0 1 0 0 -0.7064579 0.7064579 0 0 1 0 0 1 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 1 0 0 1 0 -0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0.7064579 0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0.7064579 0 0 -1 0 0 -1 0 1 0 0 0 0 -1 0 0 -1 -0.7064579 0 0.7064579 0 0 1 0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 1 0 0 0 0 -1 0 0 -1 0 0 1 0 -0.7064579 -0.7064579 0 -0.7064579 0.7064579 1 0 0 0 0 -1 0 0 -1 -0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 -0.9980431 0.05088063 0 1 0 0 0 0 -1 0 0 -1 -0.7064579 0 0.7064579 0 0 1 0 0 1 -0.7064579 0 -0.7064579 -0.9980431 0.05088063 0 0 -0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 1 0 0 1 0 -0.7064579 0 0.7064579 0 0 1 0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579</float_array>
+          <technique_common>
+            <accessor source="#RedFrameBars_low1_1__MetalWall-normal-array" count="274" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RedFrameBars_low1_1__MetalWall-texcoord">
+          <float_array id="RedFrameBars_low1_1__MetalWall-texcoord-array" count="548">0.7768555 0.1787109 0.7954102 0.1787109 0.7768555 0.1972656 0.7954102 0.1972656 0.7768555 0.1787109 0.7954102 0.1787109 0.7768555 0.1972656 0.7954102 0.1972656 0.7768555 0.1787109 0.7954102 0.1787109 0.7768555 0.1972656 0.7954102 0.1972656 0.7768555 0.1787109 0.7954102 0.1787109 0.7768555 0.1972656 0.7954102 0.1972656 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 0.934082 0.3535156 0.934082 0.009277344 0.9472656 0.009277344 0.9472656 0.3535156 0.9624023 0.009277344 0.9624023 0.3535156 0.980957 0.009277344 0.980957 0.3535156 0.9960938 0.009277344 0.9960938 0.3535156 0.934082 0.3535156 0.934082 0.009277344 0.9472656 0.009277344 0.9472656 0.3535156 0.9624023 0.009277344 0.9624023 0.3535156 0.980957 0.009277344 0.980957 0.3535156 0.9960938 0.009277344 0.9960938 0.3535156 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.7355957 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 0.8647461 0.3374023 0.8647461 0.2504883 0.8798828 0.2504883 0.8798828 0.3374023 0.8950195 0.2504883 0.8950195 0.3374023 0.909668 0.2504883 0.909668 0.3374023 0.9248047 0.2504883 0.9248047 0.3374023 0.8652344 0.1689453 0.8652344 0.08203125 0.8798828 0.08203125 0.8798828 0.1689453 0.8950195 0.08203125 0.8950195 0.1689453 0.9101563 0.08203125 0.9101563 0.1689453 0.925293 0.08203125 0.925293 0.1689453 0.7451172 0.08056641 0.7451172 0.1704102 0.7363281 0.1704102 0.7363281 0.08056641 0.7211914 0.1704102 0.7211914 0.08056641 0.7124023 0.1704102 0.7124023 0.08056641 0.8647461 0.3374023 0.8647461 0.2504883 0.8798828 0.2504883 0.8798828 0.3374023 0.8950195 0.2504883 0.8950195 0.3374023 0.909668 0.2504883 0.909668 0.3374023 0.9248047 0.2504883 0.9248047 0.3374023 0.8652344 0.1689453 0.8652344 0.08203125 0.8798828 0.08203125 0.8798828 0.1689453 0.8950195 0.08203125 0.8950195 0.1689453 0.9101563 0.08203125 0.9101563 0.1689453 0.925293 0.08203125 0.925293 0.1689453 0.7451172 0.08056641 0.7451172 0.1704102 0.7363281 0.1704102 0.7363281 0.08056641 0.7211914 0.1704102 0.7211914 0.08056641 0.7124023 0.1704102 0.7124023 0.08056641 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 0.8950195 0.08203125 0.925293 0.08203125 0.925293 0.1689453 0.8950195 0.1689453 0.8950195 0.08203125 0.8798828 0.1689453 0.8652344 0.08203125 0.8652344 0.1689453 0.7211914 0.08056641 0.7451172 0.08056641 0.7451172 0.1704102 0.7211914 0.1704102 0.8950195 0.3374023 0.8647461 0.3374023 0.8647461 0.2504883 0.8950195 0.2504883 0.8950195 0.08203125 0.925293 0.08203125 0.925293 0.1689453 0.8950195 0.1689453 0.8950195 0.08203125 0.8798828 0.1689453 0.8652344 0.08203125 0.8652344 0.1689453 0.7363281 0.08056641 0.7451172 0.1704102 0.7211914 0.1704102 0.7124023 0.08056641 0.9248047 0.2504883 0.9248047 0.3374023 0.909668 0.3374023 0.8950195 0.2504883 0.8798828 0.3374023 0.8647461 0.2504883 0.8647461 0.3374023 1.978516 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 1.963867 0.3540039 1.978516 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 1.963867 0.3540039 0.9472656 0.3535156 0.934082 0.3535156 0.934082 0.009277344 0.9624023 0.009277344 0.9624023 0.3535156 0.980957 0.009277344 0.9960938 0.3535156 0.9960938 0.009277344 0.9472656 0.3535156 0.934082 0.3535156 0.934082 0.009277344 0.9624023 0.009277344 0.9624023 0.3535156 0.980957 0.009277344 0.9960938 0.3535156 0.9960938 0.009277344 1.978516 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 1.963867 0.3540039 1.978516 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.7355957 1.963867 0.3540039 0.8950195 0.2504883 0.909668 0.2504883 0.8950195 0.3374023 0.9248047 0.3374023 0.9248047 0.2504883 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.3540039 1.994141 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.978516 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.963867 0.7355957 0.934082 0.009277344 0.9624023 0.009277344 0.9624023 0.3535156 1.963867 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.978516 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.3540039 1.978516 0.3540039 1.994141 0.7355957 1.963867 0.3540039 1.994141 0.3540039 1.963867 0.7355957 1.978516 0.3540039 1.994141 0.3540039 1.994141 0.7355957 1.963867 0.3540039 1.994141 0.7355957 0.9624023 0.009277344 0.980957 0.009277344 0.9624023 0.3535156 0.9960938 0.009277344 0.9624023 0.3535156 1.978516 0.3540039 1.994141 0.3540039 1.963867 0.7355957 1.963867 0.3540039 1.963867 0.7355957</float_array>
+          <technique_common>
+            <accessor source="#RedFrameBars_low1_1__MetalWall-texcoord-array" count="274" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RedFrameBars_low1_1__MetalWall-texcoord_1">
+          <float_array id="RedFrameBars_low1_1__MetalWall-texcoord-array_1" count="548">0.8509804 0.518822 0.8869764 0.518822 0.8509804 0.554818 0.8869764 0.554818 0.8509804 0.471809 0.8869764 0.471809 0.8509804 0.507805 0.8869764 0.507805 0.8509804 0.4266422 0.8869764 0.4266422 0.8509804 0.4626383 0.8869764 0.4626383 0.8509804 0.3796292 0.8869764 0.3796292 0.8509804 0.4156405 0.8869764 0.4156405 0.505333 0.003982604 0.5053025 0.8154116 0.4733959 0.8154116 0.4733959 0.003982604 0.4414893 0.8154116 0.441474 0.003967345 0.1418784 0.003982604 0.1418784 0.8156863 0.1100023 0.8157015 0.109987 0.003982604 0.07808042 0.8156863 0.0780499 0.003967345 0.3599603 0.003982604 0.3599451 0.8154116 0.3280385 0.8154269 0.3280385 0.003982604 0.2961318 0.8154116 0.2961013 0.003967345 0.2872358 0.003982604 0.2872511 0.8156863 0.2553597 0.8157015 0.2553597 0.003982604 0.2234379 0.8156863 0.2234226 0.003967345 0.7127031 0.6496376 0.7127031 0.004303038 0.7372854 0.004303038 0.7372854 0.6496528 0.7653773 0.004303038 0.7653773 0.6496528 0.8005188 0.004303038 0.8005188 0.6496528 0.8286259 0.004303038 0.8286259 0.6496528 0.5868467 0.6496376 0.5868467 0.004303038 0.6114138 0.004303038 0.6114138 0.6496528 0.6395056 0.004303038 0.6395056 0.6496528 0.6746472 0.004303038 0.6746472 0.6496528 0.7027695 0.004303038 0.7027695 0.6496528 0.5780118 0.003982604 0.5779812 0.8154116 0.5460746 0.8154116 0.5460746 0.003982604 0.5141833 0.8154116 0.5141528 0.003967345 0.06741436 0.003982604 0.06742962 0.8156863 0.03553826 0.8157015 0.03553826 0.003982604 0.003616388 0.8156863 0.003601129 0.003967345 0.4326391 0.003982604 0.4326238 0.8154116 0.4007172 0.8154116 0.4007172 0.003982604 0.3688106 0.8154116 0.3687953 0.003967345 0.2145571 0.003982604 0.2145724 0.8156863 0.182681 0.8157015 0.1826658 0.003982604 0.1507591 0.8156863 0.1507439 0.003967345 0.2961013 0.9954833 0.2961013 0.8225986 0.3259327 0.8225986 0.3259327 0.9954833 0.3557641 0.8225986 0.3557641 0.9954833 0.3855955 0.8225986 0.3855955 0.9954833 0.4154269 0.8225986 0.4154269 0.9954833 0.7215686 0.8320897 0.7215839 0.659205 0.7514 0.659205 0.7514 0.8320897 0.7812314 0.659205 0.7812314 0.8320897 0.8110628 0.659205 0.8110628 0.8320897 0.8408942 0.659205 0.8408942 0.8320897 0.9018998 0.1917143 0.9018998 0.3687953 0.8841535 0.3687953 0.8841535 0.1917143 0.854551 0.3687953 0.854551 0.1917143 0.8367895 0.3687953 0.8367895 0.1917143 0.4379339 0.9960327 0.4379339 0.823148 0.46775 0.823148 0.46775 0.9960327 0.4975815 0.823148 0.4975815 0.9960327 0.5274128 0.823148 0.5274128 0.9960327 0.5572442 0.823148 0.5572442 0.9960327 0.5921569 0.8308995 0.5921721 0.6580148 0.6219882 0.6580148 0.6219882 0.8308995 0.6518196 0.6580148 0.6518196 0.8308995 0.6816511 0.6580148 0.6816511 0.8308995 0.7114824 0.6580148 0.7114824 0.8308995 0.9036698 0.003997862 0.9036698 0.1810788 0.8859236 0.1810788 0.8859236 0.003997862 0.856321 0.1810788 0.856321 0.003997862 0.8385596 0.1810788 0.8385748 0.003997862 0.441474 0.003967345 0.505333 0.003982604 0.5053025 0.8154116 0.4414893 0.8154116 0.2234226 0.003967345 0.2872358 0.003982604 0.2872511 0.8156863 0.2234379 0.8156863 0.5141528 0.003967345 0.5780118 0.003982604 0.5779812 0.8154116 0.5141833 0.8154116 0.1507439 0.003967345 0.2145571 0.003982604 0.2145724 0.8156863 0.1507591 0.8156863 0.7812314 0.659205 0.8408942 0.659205 0.8408942 0.8320897 0.7812314 0.8320897 0.7812314 0.659205 0.7514 0.8320897 0.7215839 0.659205 0.7215686 0.8320897 0.854551 0.1917143 0.9018998 0.1917143 0.9018998 0.3687953 0.854551 0.3687953 0.4975815 0.9960327 0.4379339 0.9960327 0.4379339 0.823148 0.4975815 0.823148 0.6518196 0.6580148 0.7114824 0.6580148 0.7114824 0.8308995 0.6518196 0.8308995 0.6518196 0.6580148 0.6219882 0.8308995 0.5921721 0.6580148 0.5921569 0.8308995 0.8859236 0.003997862 0.9036698 0.1810788 0.856321 0.1810788 0.8385748 0.003997862 0.4154269 0.8225986 0.4154269 0.9954833 0.3855955 0.9954833 0.3557641 0.8225986 0.3259327 0.9954833 0.2961013 0.8225986 0.2961013 0.9954833 0.109987 0.003982604 0.1418784 0.003982604 0.1418784 0.8156863 0.07808042 0.8156863 0.0780499 0.003967345 0.3280385 0.003982604 0.3599603 0.003982604 0.3599451 0.8154116 0.2961318 0.8154116 0.2961013 0.003967345 0.7372854 0.6496528 0.7127031 0.6496376 0.7127031 0.004303038 0.7653773 0.004303038 0.7653773 0.6496528 0.8005188 0.004303038 0.8286259 0.6496528 0.8286259 0.004303038 0.6114138 0.6496528 0.5868467 0.6496376 0.5868467 0.004303038 0.6395056 0.004303038 0.6395056 0.6496528 0.6746472 0.004303038 0.7027695 0.6496528 0.7027695 0.004303038 0.03553826 0.003982604 0.06741436 0.003982604 0.06742962 0.8156863 0.003616388 0.8156863 0.003601129 0.003967345 0.4007172 0.003982604 0.4326391 0.003982604 0.4326238 0.8154116 0.3688106 0.8154116 0.3687953 0.003967345 0.4975815 0.823148 0.5274128 0.823148 0.4975815 0.9960327 0.5572442 0.9960327 0.5572442 0.823148 0.441474 0.003967345 0.505333 0.003982604 0.5053025 0.8154116 0.109987 0.003982604 0.1418784 0.003982604 0.07808042 0.8156863 0.0780499 0.003967345 0.109987 0.003982604 0.07808042 0.8156863 0.2234226 0.003967345 0.2872358 0.003982604 0.2234379 0.8156863 0.5868467 0.004303038 0.6395056 0.004303038 0.6395056 0.6496528 0.5141528 0.003967345 0.5780118 0.003982604 0.5779812 0.8154116 0.4007172 0.003982604 0.4326391 0.003982604 0.4326238 0.8154116 0.3687953 0.003967345 0.4007172 0.003982604 0.4326238 0.8154116 0.1507439 0.003967345 0.2145571 0.003982604 0.1507591 0.8156863 0.3280385 0.003982604 0.3599603 0.003982604 0.3599451 0.8154116 0.2961013 0.003967345 0.3599451 0.8154116 0.6395056 0.004303038 0.6746472 0.004303038 0.6395056 0.6496528 0.7027695 0.004303038 0.6395056 0.6496528 0.03553826 0.003982604 0.06741436 0.003982604 0.003616388 0.8156863 0.003601129 0.003967345 0.003616388 0.8156863</float_array>
+          <technique_common>
+            <accessor source="#RedFrameBars_low1_1__MetalWall-texcoord-array_1" count="274" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="RedFrameBars_low1_1__MetalWall-vertex">
+          <input semantic="POSITION" source="#RedFrameBars_low1_1__MetalWall-position" />
+        </vertices>
+        <triangles material="MetalWall" count="100">
+          <input semantic="VERTEX" source="#RedFrameBars_low1_1__MetalWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#RedFrameBars_low1_1__MetalWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#RedFrameBars_low1_1__MetalWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#RedFrameBars_low1_1__MetalWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19 16 16 16 16 18 18 18 18 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 19 19 19 19 20 20 20 20 22 22 22 22 23 23 23 23 24 24 24 24 25 25 25 25 22 22 22 22 24 24 24 24 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 25 25 25 25 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 31 31 31 31 32 32 32 32 34 34 34 34 35 35 35 35 36 36 36 36 37 37 37 37 34 34 34 34 36 36 36 36 37 37 37 37 36 36 36 36 38 38 38 38 39 39 39 39 37 37 37 37 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 43 43 43 43 40 40 40 40 42 42 42 42 42 42 42 42 44 44 44 44 43 43 43 43 44 44 44 44 45 45 45 45 43 43 43 43 44 44 44 44 46 46 46 46 45 45 45 45 46 46 46 46 47 47 47 47 45 45 45 45 46 46 46 46 48 48 48 48 47 47 47 47 48 48 48 48 49 49 49 49 47 47 47 47 50 50 50 50 51 51 51 51 52 52 52 52 53 53 53 53 50 50 50 50 52 52 52 52 52 52 52 52 54 54 54 54 53 53 53 53 54 54 54 54 55 55 55 55 53 53 53 53 54 54 54 54 56 56 56 56 55 55 55 55 56 56 56 56 57 57 57 57 55 55 55 55 56 56 56 56 58 58 58 58 57 57 57 57 58 58 58 58 59 59 59 59 57 57 57 57 60 60 60 60 61 61 61 61 62 62 62 62 63 63 63 63 60 60 60 60 62 62 62 62 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 63 63 63 63 64 64 64 64 66 66 66 66 67 67 67 67 68 68 68 68 69 69 69 69 66 66 66 66 68 68 68 68 69 69 69 69 68 68 68 68 70 70 70 70 71 71 71 71 69 69 69 69 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 75 75 75 75 72 72 72 72 74 74 74 74 75 75 75 75 74 74 74 74 76 76 76 76 77 77 77 77 75 75 75 75 76 76 76 76 78 78 78 78 79 79 79 79 80 80 80 80 81 81 81 81 78 78 78 78 80 80 80 80 81 81 81 81 80 80 80 80 82 82 82 82 83 83 83 83 81 81 81 81 82 82 82 82 84 84 84 84 85 85 85 85 86 86 86 86 87 87 87 87 84 84 84 84 86 86 86 86 86 86 86 86 88 88 88 88 87 87 87 87 88 88 88 88 89 89 89 89 87 87 87 87 88 88 88 88 90 90 90 90 89 89 89 89 90 90 90 90 91 91 91 91 89 89 89 89 90 90 90 90 92 92 92 92 91 91 91 91 92 92 92 92 93 93 93 93 91 91 91 91 94 94 94 94 95 95 95 95 96 96 96 96 97 97 97 97 94 94 94 94 96 96 96 96 96 96 96 96 98 98 98 98 97 97 97 97 98 98 98 98 99 99 99 99 97 97 97 97 98 98 98 98 100 100 100 100 99 99 99 99 100 100 100 100 101 101 101 101 99 99 99 99 100 100 100 100 102 102 102 102 101 101 101 101 102 102 102 102 103 103 103 103 101 101 101 101 104 104 104 104 105 105 105 105 106 106 106 106 107 107 107 107 104 104 104 104 106 106 106 106 107 107 107 107 106 106 106 106 108 108 108 108 109 109 109 109 107 107 107 107 108 108 108 108 108 108 108 108 110 110 110 110 109 109 109 109 110 110 110 110 111 111 111 111 109 109 109 109 112 112 112 112 113 113 113 113 114 114 114 114 115 115 115 115 112 112 112 112 114 114 114 114 114 114 114 114 116 116 116 116 115 115 115 115 116 116 116 116 117 117 117 117 115 115 115 115 116 116 116 116 118 118 118 118 117 117 117 117 118 118 118 118 119 119 119 119 117 117 117 117 118 118 118 118 120 120 120 120 119 119 119 119 120 120 120 120 121 121 121 121 119 119 119 119 122 122 122 122 123 123 123 123 124 124 124 124 125 125 125 125 122 122 122 122 124 124 124 124 124 124 124 124 126 126 126 126 125 125 125 125 126 126 126 126 127 127 127 127 125 125 125 125 126 126 126 126 128 128 128 128 127 127 127 127 128 128 128 128 129 129 129 129 127 127 127 127 128 128 128 128 130 130 130 130 129 129 129 129 130 130 130 130 131 131 131 131 129 129 129 129 132 132 132 132 133 133 133 133 134 134 134 134 135 135 135 135 132 132 132 132 134 134 134 134 135 135 135 135 134 134 134 134 136 136 136 136 137 137 137 137 135 135 135 135 136 136 136 136 136 136 136 136 138 138 138 138 137 137 137 137 138 138 138 138 139 139 139 139 137 137 137 137 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TapesPaint_01_1__Tarps00-mesh" name="TapesPaint_01_1__Tarps00">
+      <mesh>
+        <source id="TapesPaint_01_1__Tarps00-position">
+          <float_array id="TapesPaint_01_1__Tarps00-position-array" count="48">18.09457 11.74118 -9.506411 18.00996 11.76406 -9.506411 18.09196 12.61325 -9.506411 18.00996 12.59769 -9.506411 -18.09457 11.74118 9.506413 -18.00996 11.76406 9.506413 -18.09196 12.61325 9.506413 -18.00996 12.59769 9.506413 21.02237 14.42413 -9.502072 21.02237 12.69719 -9.502072 20.93626 14.43065 -9.502072 20.93887 12.67255 -9.502072 -21.02237 14.42413 9.502074 -21.02237 12.69719 9.502074 -20.93626 14.43065 9.502074 -20.93887 12.67255 9.502074</float_array>
+          <technique_common>
+            <accessor source="#TapesPaint_01_1__Tarps00-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TapesPaint_01_1__Tarps00-normal">
+          <float_array id="TapesPaint_01_1__Tarps00-normal-array" count="48">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TapesPaint_01_1__Tarps00-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TapesPaint_01_1__Tarps00-texcoord">
+          <float_array id="TapesPaint_01_1__Tarps00-texcoord-array" count="32">0.9758297 0.805127 0.9822385 0.8071412 0.9760281 0.8829328 0.9823148 0.8815442 0.9758297 0.805127 0.9822385 0.8071412 0.9760281 0.8829328 0.9823148 0.8815442 0.9821317 0.7233387 0.9822232 0.8774548 0.9756924 0.7227741 0.9759823 0.8796673 0.9821317 0.7233387 0.9822232 0.8774548 0.9756924 0.7227741 0.9759823 0.8796673</float_array>
+          <technique_common>
+            <accessor source="#TapesPaint_01_1__Tarps00-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TapesPaint_01_1__Tarps00-texcoord_1">
+          <float_array id="TapesPaint_01_1__Tarps00-texcoord-array_1" count="32">0.7781491 0.004455626 0.9932708 0.01733422 0.785275 0.4965591 0.9960327 0.4877394 0.5200885 0.004455626 0.7352102 0.01733422 0.5272145 0.4965591 0.7379721 0.4877394 0.4818952 0.007614255 0.4852674 0.9820859 0.2620279 0.003967345 0.2717021 0.9960327 0.2238346 0.007614255 0.2272068 0.9820859 0.003967346 0.003967345 0.01364157 0.9960327</float_array>
+          <technique_common>
+            <accessor source="#TapesPaint_01_1__Tarps00-texcoord-array_1" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TapesPaint_01_1__Tarps00-vertex">
+          <input semantic="POSITION" source="#TapesPaint_01_1__Tarps00-position" />
+        </vertices>
+        <triangles material="Tarps00" count="8">
+          <input semantic="VERTEX" source="#TapesPaint_01_1__Tarps00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TapesPaint_01_1__Tarps00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#TapesPaint_01_1__Tarps00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#TapesPaint_01_1__Tarps00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Tapes_117_1__Tarps00_np-mesh" name="Tapes_117_1__Tarps00_np">
+      <mesh>
+        <source id="Tapes_117_1__Tarps00_np-position">
+          <float_array id="Tapes_117_1__Tarps00_np-position-array" count="417">18.19358 14.51972 -8.587276 18.191 14.51972 -8.484182 20.92926 14.51972 -8.587276 20.92668 14.51972 -8.484182 20.92668 14.51972 -8.484182 18.191 14.51972 -8.484182 20.9241 14.43812 -8.484182 18.18842 14.43812 -8.484182 -18.19358 14.51972 8.587277 -18.191 14.51972 8.484184 -20.92926 14.51972 8.587277 -20.92668 14.51972 8.484184 -20.92668 14.51972 8.484184 -18.191 14.51972 8.484184 -20.9241 14.43812 8.484184 -18.18842 14.43812 8.484184 18.00996 12.59769 -9.506411 18.00996 11.76406 -9.50641 18.00996 12.61123 -9.428427 18.00996 11.74781 -9.422618 -18.00996 12.59769 9.506413 -18.00996 11.76406 9.506412 -18.00996 12.61123 9.428429 -18.00996 11.74781 9.42262 21.02737 11.65736 -8.484216 21.02737 13.3843 -8.484214 20.93627 11.65084 -8.479216 20.93888 13.40894 -8.479214 21.02737 11.65736 -8.484216 21.03237 11.65273 -8.573007 21.02737 13.3843 -8.484214 21.03237 13.40574 -8.567198 -21.02737 11.65736 8.484218 -21.02737 13.3843 8.484216 -20.93627 11.65084 8.479218 -20.93888 13.40894 8.479216 -21.02737 11.65736 8.484218 -21.03237 11.65273 8.573009 -21.02737 13.3843 8.484216 -21.03237 13.40574 8.5672 18.35945 14.50319 -9.473556 18.35945 14.50319 -9.393006 20.79523 14.50319 -9.473478 20.81356 14.50319 -9.393084 -18.35945 14.50319 9.473557 -18.35945 14.50319 9.393008 -20.79523 14.50319 9.47348 -20.81356 14.50319 9.393085 17.99433 12.75637 -8.573829 17.99933 12.77936 -8.484215 17.99433 14.19372 -8.571218 17.99933 14.1794 -8.484215 17.99933 14.1794 -8.484215 17.99933 12.77936 -8.484215 18.08232 14.19186 -8.479215 18.08813 12.76303 -8.479215 -17.99433 12.75637 8.573831 -17.99933 12.77936 8.484217 -17.99433 14.19372 8.57122 -17.99933 14.1794 8.484217 -17.99933 14.1794 8.484217 -17.99933 12.77936 8.484217 -18.08232 14.19186 8.479217 -18.08813 12.76303 8.479217 21.02237 14.42413 -9.502072 21.02237 14.42876 -9.416205 21.02237 12.69719 -9.502072 21.02237 12.67575 -9.422014 -21.02237 14.42413 9.502075 -21.02237 14.42876 9.416208 -21.02237 12.69719 9.502075 -21.02237 12.67575 9.422017 18.30386 11.77852 -8.479214 18.30386 11.92187 -8.479214 18.00506 11.92217 -8.484214 18.00506 11.77823 -8.484214 18.00006 11.77852 -8.832329 18.00006 11.92187 -8.858519 -18.30386 11.77852 8.479216 -18.30386 11.92187 8.479216 -18.00506 11.92217 8.484216 -18.00506 11.77823 8.484216 -18.00006 11.77852 8.832331 -18.00006 11.92187 8.858521 21.03464 14.13607 -8.611103 21.03464 14.27941 -8.611103 21.02964 14.27971 -8.484215 21.02964 14.13577 -8.484215 20.57338 14.13607 -8.479215 20.54719 14.27941 -8.479215 -21.03464 14.13607 8.611105 -21.03464 14.27941 8.611105 -21.02964 14.27971 8.484217 -21.02964 14.13577 8.484217 -20.57338 14.13607 8.479217 -20.54719 14.27941 8.479217 18.19073 14.51793 -8.48986 20.92413 14.44022 -8.482138 20.92926 14.52135 -8.585703 -18.19073 14.51793 8.489861 -20.92413 14.44022 8.48214 -20.92926 14.52135 8.585705 21.0337 11.65158 -8.571686 21.03443 13.40701 -8.565146 20.93775 11.64973 -8.477747 20.94065 13.41012 -8.477452 -21.0337 11.65158 8.571688 -21.03443 13.40701 8.565148 -20.93775 11.64973 8.477749 -20.94065 13.41012 8.477454 17.9928 12.75527 -8.572229 18.08646 12.76193 -8.477487 17.99323 14.19438 -8.570115 18.08135 14.19258 -8.47825 -17.9928 12.75527 8.572231 -18.08646 12.76193 8.477489 -17.99323 14.19438 8.570117 -18.08135 14.19258 8.478251 18.30386 11.77852 -8.479214 18.30386 11.92187 -8.479214 18.00506 11.92217 -8.484214 18.00506 11.77793 -8.484324 18.00006 11.92059 -8.859012 21.02964 14.13563 -8.484367 21.03464 14.2793 -8.611228 21.02964 14.27971 -8.484215 20.57338 14.13607 -8.479215 20.54719 14.27941 -8.479215 -21.02964 14.13563 8.484369 -21.03464 14.2793 8.61123 -21.02964 14.27971 8.484217 -20.57338 14.13607 8.479217 -20.54719 14.27941 8.479217 -18.30386 11.77852 8.479216 -18.30386 11.92187 8.479216 -18.00506 11.92217 8.484216 -18.00506 11.77823 8.484216 -18.00006 11.77852 8.832331 -18.00006 11.92187 8.858521</float_array>
+          <technique_common>
+            <accessor source="#Tapes_117_1__Tarps00_np-position-array" count="139" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Tapes_117_1__Tarps00_np-normal">
+          <float_array id="Tapes_117_1__Tarps00_np-normal-array" count="417">0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.05479452 0 0.9980431 0.05479452 0 0.9980431 0.05479452 0 0.9980431 0.05479452 0 0.9980431 0.9980431 0 0.05870841 0.9980431 0 0.05870841 0.9980431 0 0.05870841 0.9980431 0 0.05870841 -0.05479452 0 -0.9980431 -0.05479452 0 -0.9980431 -0.05479452 0 -0.9980431 -0.05479452 0 -0.9980431 -0.9980431 0 -0.05870841 -0.9980431 0 -0.05870841 -0.9980431 0 -0.05870841 -0.9980431 0 -0.05870841 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.9980431 0 0.05675147 -0.9980431 0 0.05675147 -0.9980431 0 0.05675147 -0.9980431 0 0.05675147 -0.05870841 0 0.9980431 -0.05870841 0 0.9980431 -0.05870841 0 0.9980431 -0.05870841 0 0.9980431 0.9980431 0 -0.05675147 0.9980431 0 -0.05675147 0.9980431 0 -0.05675147 0.9980431 0 -0.05675147 0.05870841 0 -0.9980431 0.05870841 0 -0.9980431 0.05870841 0 -0.9980431 0.05870841 0 -0.9980431 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.01761252 0 1 -0.01761252 0 1 -0.7690802 0 0.6379648 -0.7690802 0 0.6379648 -1 0.001956947 0.01369863 -1 0.001956947 0.01369863 0.01761252 0 -1 0.01761252 0 -1 0.7690802 0 -0.6379648 0.7690802 0 -0.6379648 1 0.001956947 -0.01369863 1 0.001956947 -0.01369863 1 0 0.03913894 1 0 0.03913894 0.2681018 0 0.962818 0.2681018 0 0.962818 0.009784736 0 1 0.009784736 0 1 -1 0 -0.03913894 -1 0 -0.03913894 -0.2681018 0 -0.962818 -0.2681018 0 -0.962818 -0.009784736 0 -1 -0.009784736 0 -1 0 0.7710372 0.6360078 0.02348337 0.7827789 0.6203523 0 1 0 0 0.7710372 -0.6360078 0 1 0 0 1 0 0.9980431 0 0.05870841 0.9980431 0 0.05870841 0.05479452 0 0.9980431 0.05675147 0 0.9980431 -0.9980431 0 -0.05870841 -0.9980431 0 -0.06066536 -0.05479452 0 -0.9980431 -0.05675147 0 -0.9980431 -0.9980431 0 0.05479452 -0.05870841 0 0.9980431 -0.9980431 0 0.05675147 -0.06066536 0 0.9980431 0.9980431 0 -0.05479452 0.05870841 0 -0.9980431 0.9980431 0 -0.05675147 0.06066536 0 -0.9980431 -0.01761252 0 1 -0.01761252 0 1 -0.7690802 0 0.6379648 -0.7690802 0 0.6379648 -1 0.001956947 0.01369863 0.2681018 0 0.962818 1 0 0.03913894 0.2681018 0 0.962818 0.009784736 0.001956947 1 0.009784736 0.001956947 1 -0.2681018 0 -0.962818 -1 0 -0.03913894 -0.2681018 0 -0.962818 -0.009784736 0.001956947 -1 -0.009784736 0.001956947 -1 0.01761252 0 -1 0.01761252 0 -1 0.7690802 0 -0.6379648 0.7690802 0 -0.6379648 1 0.001956947 -0.01369863 1 0.001956947 -0.01369863</float_array>
+          <technique_common>
+            <accessor source="#Tapes_117_1__Tarps00_np-normal-array" count="139" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Tapes_117_1__Tarps00_np-texcoord">
+          <float_array id="Tapes_117_1__Tarps00_np-texcoord-array" count="278">0.9764858 0.6612955 0.9823605 0.6610361 0.9757534 0.8749218 0.9820706 0.874815 0.9820706 0.874815 0.9823605 0.6610361 0.9904479 0.8746777 0.9905852 0.6607767 0.9764858 0.6612955 0.9823605 0.6610361 0.9757534 0.8749218 0.9820706 0.874815 0.9820706 0.874815 0.9823605 0.6610361 0.9904479 0.8746777 0.9905852 0.6607767 0.9823148 0.8815442 0.9822385 0.8071412 0.9901732 0.8827649 0.9905699 0.8057069 0.9823148 0.8815442 0.9822385 0.8071412 0.9901732 0.8827649 0.9905699 0.8057069 0.98233 0.7233387 0.9824369 0.8774548 0.9757077 0.7227741 0.9759365 0.8796673 0.98233 0.7233387 0.9906615 0.7228962 0.9824369 0.8774548 0.9902189 0.8793469 0.98233 0.7233387 0.9824369 0.8774548 0.9757077 0.7227741 0.9759365 0.8796673 0.98233 0.7233387 0.9906615 0.7228962 0.9824369 0.8774548 0.9902189 0.8793469 0.9748989 0.5738766 0.9909056 0.5738766 0.9751278 0.9644465 0.991104 0.9673762 0.9748989 0.5738766 0.9909056 0.5738766 0.9751278 0.9644465 0.991104 0.9673762 0.9757687 0.794461 0.9822385 0.7964752 0.9758602 0.9226978 0.9823758 0.9214466 0.9823758 0.9214466 0.9822385 0.7964752 0.9904021 0.922652 0.990631 0.7950256 0.9757687 0.794461 0.9822385 0.7964752 0.9758602 0.9226978 0.9823758 0.9214466 0.9823758 0.9214466 0.9822385 0.7964752 0.9904021 0.922652 0.990631 0.7950256 0.9821317 0.7233387 0.9906615 0.7228962 0.9822232 0.8774548 0.9902189 0.8793469 0.9821317 0.7233387 0.9906615 0.7228962 0.9822232 0.8774548 0.9902189 0.8793469 0.9745021 0.8073091 0.9904631 0.8073091 0.9910582 0.8415351 0.975021 0.8415351 0.9750668 0.8796521 0.991043 0.8825513 0.9745021 0.8073091 0.9904631 0.8073091 0.9910582 0.8415351 0.975021 0.8415351 0.9750668 0.8796521 0.991043 0.8825513 0.9748226 0.8273442 0.9907836 0.8273442 0.9910582 0.8415351 0.975021 0.8415351 0.975082 0.8916762 0.9910582 0.8945754 0.9748226 0.8273442 0.9907836 0.8273442 0.9910582 0.8415351 0.975021 0.8415351 0.975082 0.8916762 0.9910582 0.8945754 0.9823605 0.6610361 0.9904479 0.8746777 0.9757534 0.8749218 0.9823605 0.6610361 0.9904479 0.8746777 0.9757534 0.8749218 0.9906615 0.7228962 0.9902189 0.8793469 0.9757077 0.7227741 0.9759365 0.8796673 0.9906615 0.7228962 0.9902189 0.8793469 0.9757077 0.7227741 0.9759365 0.8796673 0.9757687 0.794461 0.990631 0.7950256 0.9758602 0.9226978 0.9904021 0.922652 0.9757687 0.794461 0.990631 0.7950256 0.9758602 0.9226978 0.9904021 0.922652 0.9745021 0.8073091 0.9904631 0.8073091 0.9910582 0.8415351 0.975021 0.8415351 0.991043 0.8825513 0.975021 0.8415351 0.9907836 0.8273442 0.9910582 0.8415351 0.975082 0.8916762 0.9910582 0.8945754 0.975021 0.8415351 0.9907836 0.8273442 0.9910582 0.8415351 0.975082 0.8916762 0.9910582 0.8945754 0.9745021 0.8073091 0.9904631 0.8073091 0.9910582 0.8415351 0.975021 0.8415351 0.9750668 0.8796521 0.991043 0.8825513</float_array>
+          <technique_common>
+            <accessor source="#Tapes_117_1__Tarps00_np-texcoord-array" count="139" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Tapes_117_1__Tarps00_np-texcoord_1">
+          <float_array id="Tapes_117_1__Tarps00_np-texcoord-array_1" count="278">0.1926451 0.006210446 0.2349126 0.005279601 0.1873655 0.7761807 0.2328069 0.7757839 0.2328069 0.7757839 0.2349126 0.005279601 0.2930343 0.7752804 0.2939803 0.004348814 0.3070268 0.006210446 0.3492943 0.005279601 0.3017471 0.7761807 0.3471885 0.7757839 0.3471885 0.7757839 0.3492943 0.005279601 0.4074159 0.7752804 0.4083619 0.004348814 0.9470817 0.6509193 0.9465934 0.4294194 0.9937285 0.6545358 0.9960327 0.4251316 0.769604 0.6509193 0.7691157 0.4294194 0.8162509 0.6545358 0.818555 0.4251316 0.4632639 0.006744504 0.4639506 0.5103227 0.4200656 0.004928648 0.421561 0.517525 0.4632639 0.006744504 0.5174944 0.005310118 0.4639506 0.5103227 0.5146563 0.5165179 0.571725 0.006744504 0.5724117 0.5103227 0.5285267 0.004928648 0.5300221 0.517525 0.571725 0.006744504 0.6259556 0.005310118 0.5724117 0.5103227 0.6231174 0.5165179 0.09665065 0.006149411 0.1769436 0.006149411 0.09777981 0.9886473 0.1779355 0.9960327 0.003967346 0.006149411 0.08424506 0.006149411 0.005096513 0.9886473 0.0852369 0.9960327 0.7592431 0.003967345 0.8010834 0.01052874 0.7598535 0.4202182 0.8019837 0.4161593 0.8019837 0.4161593 0.8010834 0.01052874 0.8538949 0.4200504 0.8553445 0.005798399 0.8657359 0.003967345 0.9075761 0.01052874 0.8663462 0.4202182 0.9084764 0.4161593 0.9084764 0.4161593 0.9075761 0.01052874 0.9603876 0.4200504 0.9618372 0.005798399 0.6981155 0.006179929 0.748867 0.004867613 0.6986954 0.4662241 0.746273 0.47187 0.6369879 0.006179929 0.6877394 0.004867613 0.6375677 0.4662241 0.6851301 0.47187 0.8302434 0.4304875 0.9104906 0.4304723 0.9134966 0.5167773 0.8328984 0.5167925 0.8330968 0.6128939 0.9133745 0.6202182 0.6310674 0.4812543 0.7113146 0.481239 0.7143206 0.5675441 0.6337224 0.5675594 0.6339208 0.6636606 0.7141985 0.6710002 0.5087968 0.5250934 0.5896086 0.5250782 0.5909666 0.5610895 0.5098345 0.5611048 0.5101244 0.6883802 0.5909361 0.6957504 0.4161135 0.5253223 0.4969253 0.5253071 0.4982834 0.5613184 0.4171359 0.5613337 0.4174258 0.6886091 0.4982528 0.6959792 0.2349126 0.005279601 0.2930343 0.7752804 0.1873655 0.7761807 0.3492943 0.005279601 0.4074159 0.7752804 0.3017471 0.7761807 0.5174944 0.005310118 0.5146563 0.5165179 0.4200656 0.004928648 0.421561 0.517525 0.6259556 0.005310118 0.6231174 0.5165179 0.5285267 0.004928648 0.5300221 0.517525 0.7592431 0.003967345 0.8553445 0.005798399 0.7598535 0.4202182 0.8538949 0.4200504 0.8657359 0.003967345 0.9618372 0.005798399 0.8663462 0.4202182 0.9603876 0.4200504 0.8302434 0.4304875 0.9104906 0.4304723 0.9134966 0.5167773 0.8328984 0.5167925 0.9133745 0.6202182 0.5098345 0.5611048 0.5896086 0.5250782 0.5909666 0.5610895 0.5101244 0.6883802 0.5909361 0.6957504 0.4171359 0.5613337 0.4969253 0.5253071 0.4982834 0.5613184 0.4174258 0.6886091 0.4982528 0.6959792 0.6310674 0.4812543 0.7113146 0.481239 0.7143206 0.5675441 0.6337224 0.5675594 0.6339208 0.6636606 0.7141985 0.6710002</float_array>
+          <technique_common>
+            <accessor source="#Tapes_117_1__Tarps00_np-texcoord-array_1" count="139" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Tapes_117_1__Tarps00_np-vertex">
+          <input semantic="POSITION" source="#Tapes_117_1__Tarps00_np-position" />
+        </vertices>
+        <triangles material="Tarps00_np" count="52">
+          <input semantic="VERTEX" source="#Tapes_117_1__Tarps00_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Tapes_117_1__Tarps00_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Tapes_117_1__Tarps00_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Tapes_117_1__Tarps00_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 75 75 75 75 72 72 72 72 74 74 74 74 75 75 75 75 74 74 74 74 76 76 76 76 74 74 74 74 77 77 77 77 76 76 76 76 78 78 78 78 79 79 79 79 80 80 80 80 81 81 81 81 78 78 78 78 80 80 80 80 81 81 81 81 80 80 80 80 82 82 82 82 80 80 80 80 83 83 83 83 82 82 82 82 84 84 84 84 85 85 85 85 86 86 86 86 87 87 87 87 84 84 84 84 86 86 86 86 87 87 87 87 86 86 86 86 88 88 88 88 86 86 86 86 89 89 89 89 88 88 88 88 90 90 90 90 91 91 91 91 92 92 92 92 93 93 93 93 90 90 90 90 92 92 92 92 93 93 93 93 92 92 92 92 94 94 94 94 92 92 92 92 95 95 95 95 94 94 94 94 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TarpSheet_01_1__TarpSheet-mesh" name="TarpSheet_01_1__TarpSheet">
+      <mesh>
+        <source id="TarpSheet_01_1__TarpSheet-position">
+          <float_array id="TarpSheet_01_1__TarpSheet-position-array" count="252">18.0116 14.5 -8.489214 21.02464 14.5 -8.489214 18.0116 14.5 -9.444239 21.02464 14.5 -9.444239 21.02464 14.5 -8.489214 21.02464 11.5 -8.489216 21.02464 14.5 -9.444236 21.02464 11.5 -9.444239 -18.0116 14.5 8.489216 -21.02464 14.5 8.489216 -18.0116 14.5 9.444241 -21.02464 14.5 9.444241 -21.02464 14.5 8.489216 -21.02464 11.5 8.489219 -21.02464 14.5 9.444238 -21.02464 11.5 9.444241 21.02464 11.5 -8.489216 21.02464 14.5 -8.489214 18.0116 14.5 -8.489214 18.0116 11.5 -8.489217 18.0116 11.5 -9.444239 18.0116 14.5 -9.444239 -21.02464 11.5 8.489219 -21.02464 14.5 8.489216 -18.0116 14.5 8.489216 -18.0116 11.5 8.489219 -18.0116 11.5 9.444241 -18.0116 14.5 9.444241 18.0116 14.5 -8.489214 21.02464 14.5 -8.489214 18.0116 14.5 -9.444239 21.02464 14.5 -9.444239 21.02464 14.5 -8.489214 21.02464 11.5 -8.489216 21.02464 14.5 -9.444239 21.02464 11.5 -9.444239 -18.0116 14.5 8.489216 -21.02464 14.5 8.489216 -18.0116 14.5 9.444241 -21.02464 14.5 9.444241 -21.02464 14.5 8.489216 -21.02464 11.5 8.489219 -21.02464 14.5 9.444241 -21.02464 11.5 9.444241 21.02464 11.5 -8.489216 21.02464 14.5 -8.489214 18.0116 14.5 -8.489214 18.0116 11.5 -8.489217 18.0116 11.5 -9.444239 18.0116 14.5 -9.444239 -21.02464 11.5 8.489219 -21.02464 14.5 8.489216 -18.0116 14.5 8.489216 -18.0116 11.5 8.489219 -18.0116 11.5 9.444241 -18.0116 14.5 9.444241 18.0116 14.5 -8.489214 21.02464 14.5 -8.489214 18.0116 14.5 -9.444239 21.02464 14.5 -9.444239 21.02464 14.5 -8.489214 21.02464 11.5 -8.489216 21.02464 14.5 -9.444239 21.02464 11.5 -9.444239 -18.0116 14.5 8.489216 -21.02464 14.5 8.489216 -18.0116 14.5 9.444241 -21.02464 14.5 9.444241 -21.02464 14.5 8.489216 -21.02464 11.5 8.489219 -21.02464 14.5 9.444241 -21.02464 11.5 9.444241 21.02464 11.5 -8.489216 21.02464 14.5 -8.489214 18.0116 14.5 -8.489214 18.0116 11.5 -8.489217 18.0116 11.5 -9.444239 18.0116 14.5 -9.444239 -21.02464 11.5 8.489219 -21.02464 14.5 8.489216 -18.0116 14.5 8.489216 -18.0116 11.5 8.489219 -18.0116 11.5 9.444241 -18.0116 14.5 9.444241</float_array>
+          <technique_common>
+            <accessor source="#TarpSheet_01_1__TarpSheet-position-array" count="84" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TarpSheet_01_1__TarpSheet-normal">
+          <float_array id="TarpSheet_01_1__TarpSheet-normal-array" count="252">0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 -0.3013699 0 0.9530333 -0.3013699 0 0.9530333 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0.3013699 0 -0.9530333 0.3013699 0 -0.9530333 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 -0.3013699 0 0.9530333 -0.3013699 0 0.9530333 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0.3013699 0 -0.9530333 0.3013699 0 -0.9530333 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 -0.3013699 0 0.9530333 -0.3013699 0 0.9530333 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0.3013699 0 -0.9530333 0.3013699 0 -0.9530333 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#TarpSheet_01_1__TarpSheet-normal-array" count="84" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TarpSheet_01_1__TarpSheet-texcoord">
+          <float_array id="TarpSheet_01_1__TarpSheet-texcoord-array" count="168">0.00248909 1.000085 1 1 0.002456665 1.316162 1 1.316162 1 1 1 0.0004882813 1.317383 1 1.317383 0.0004882813 0.00248909 1.000085 1 1 0.002456665 1.316162 1 1.316162 1 1 1 0.0004882813 1.317383 1 1.317383 0.0004882813 1 0.0004882813 1 1 0.00248909 1.000085 0.002450943 0.0004882813 -0.3183594 0 -0.3181152 1.000063 1 0.0004882813 1 1 0.00248909 1.000085 0.002450943 0.0004882813 -0.3183594 0 -0.3181152 1.000063 0.00248909 1.000085 1 1 0.002456665 1.316162 1 1.316162 1 1 1 0.0004882813 1.317383 1 1.317383 0.0004882813 0.00248909 1.000085 1 1 0.002456665 1.316162 1 1.316162 1 1 1 0.0004882813 1.317383 1 1.317383 0.0004882813 1 0.0004882813 1 1 0.00248909 1.000085 0.002450943 0.0004882813 -0.3183594 0 -0.3181152 1.000063 1 0.0004882813 1 1 0.00248909 1.000085 0.002450943 0.0004882813 -0.3183594 0 -0.3181152 1.000063 0.00248909 1.000085 1 1 0.002456665 1.316162 1 1.316162 1 1 1 0.0004882813 1.317383 1 1.317383 0.0004882813 0.00248909 1.000085 1 1 0.002456665 1.316162 1 1.316162 1 1 1 0.0004882813 1.317383 1 1.317383 0.0004882813 1 0.0004882813 1 1 0.00248909 1.000085 0.002450943 0.0004882813 -0.3183594 0 -0.3181152 1.000063 1 0.0004882813 1 1 0.00248909 1.000085 0.002450943 0.0004882813 -0.3183594 0 -0.3181152 1.000063</float_array>
+          <technique_common>
+            <accessor source="#TarpSheet_01_1__TarpSheet-texcoord-array" count="84" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TarpSheet_01_1__TarpSheet-texcoord_1">
+          <float_array id="TarpSheet_01_1__TarpSheet-texcoord-array_1" count="168">0.6095064 0.5087053 0.6095369 0.878584 0.4922713 0.50869 0.4922866 0.878584 0.6095369 0.878584 0.9803464 0.878584 0.6095369 0.9966277 0.9803464 0.9966277 0.3739681 0.4918898 0.3739376 0.1220111 0.4912032 0.4919051 0.4911879 0.1220111 0.3739376 0.1220111 0.003128099 0.1220111 0.3739376 0.003967345 0.003128099 0.003967345 0.9803464 0.878584 0.6095369 0.878584 0.6095064 0.5087053 0.9803159 0.50869 0.9803464 0.3897307 0.6095216 0.3897612 0.003128099 0.1220111 0.3739376 0.1220111 0.3739681 0.4918898 0.003143359 0.4919051 0.003128099 0.6108644 0.3739528 0.6108339 0.6095064 0.5087053 0.6095369 0.878584 0.4922713 0.50869 0.4922866 0.878584 0.6095369 0.878584 0.9803464 0.878584 0.6095369 0.9966277 0.9803464 0.9966277 0.3739681 0.4918898 0.3739376 0.1220111 0.4912032 0.4919051 0.4911879 0.1220111 0.3739376 0.1220111 0.003128099 0.1220111 0.3739376 0.003967345 0.003128099 0.003967345 0.9803464 0.878584 0.6095369 0.878584 0.6095064 0.5087053 0.9803159 0.50869 0.9803464 0.3897307 0.6095216 0.3897612 0.003128099 0.1220111 0.3739376 0.1220111 0.3739681 0.4918898 0.003143359 0.4919051 0.003128099 0.6108644 0.3739528 0.6108339 0.6095064 0.5087053 0.6095369 0.878584 0.4922713 0.50869 0.4922866 0.878584 0.6095369 0.878584 0.9803464 0.878584 0.6095369 0.9966277 0.9803464 0.9966277 0.3739681 0.4918898 0.3739376 0.1220111 0.4912032 0.4919051 0.4911879 0.1220111 0.3739376 0.1220111 0.003128099 0.1220111 0.3739376 0.003967345 0.003128099 0.003967345 0.9803464 0.878584 0.6095369 0.878584 0.6095064 0.5087053 0.9803159 0.50869 0.9803464 0.3897307 0.6095216 0.3897612 0.003128099 0.1220111 0.3739376 0.1220111 0.3739681 0.4918898 0.003143359 0.4919051 0.003128099 0.6108644 0.3739528 0.6108339</float_array>
+          <technique_common>
+            <accessor source="#TarpSheet_01_1__TarpSheet-texcoord-array_1" count="84" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TarpSheet_01_1__TarpSheet-vertex">
+          <input semantic="POSITION" source="#TarpSheet_01_1__TarpSheet-position" />
+        </vertices>
+        <triangles material="TarpSheet" count="16">
+          <input semantic="VERTEX" source="#TarpSheet_01_1__TarpSheet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TarpSheet_01_1__TarpSheet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#TarpSheet_01_1__TarpSheet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#TarpSheet_01_1__TarpSheet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19 16 16 16 16 18 18 18 18 19 19 19 19 18 18 18 18 20 20 20 20 18 18 18 18 21 21 21 21 20 20 20 20 22 22 22 22 23 23 23 23 24 24 24 24 25 25 25 25 22 22 22 22 24 24 24 24 25 25 25 25 24 24 24 24 26 26 26 26 24 24 24 24 27 27 27 27 26 26 26 26 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WallTrim_47_1__BackWall_np-mesh" name="WallTrim_47_1__BackWall_np">
+      <mesh>
+        <source id="WallTrim_47_1__BackWall_np-position">
+          <float_array id="WallTrim_47_1__BackWall_np-position-array" count="570">18.16737 11.5 -9.499999 18.16737 14.49792 -9.499999 18.16737 11.5 -9.349998 18.16737 14.49792 -9.349998 18.16737 11.5 -9.349998 18.16737 14.49792 -9.349998 18.01737 11.5 -9.349998 18.01737 14.49792 -9.349998 18.01737 11.5 -9.349998 18.01737 14.49792 -9.349998 18.01737 11.5 -9.499999 18.01737 14.49792 -9.499999 18.16737 14.49792 -9.349998 18.16737 14.49792 -9.499999 18.01737 14.49792 -9.349998 18.01737 14.49792 -9.499999 -18.16737 11.5 9.5 -18.16737 14.49792 9.5 -18.16737 11.5 9.349999 -18.16737 14.49792 9.349999 -18.16737 11.5 9.349999 -18.16737 14.49792 9.349999 -18.01737 11.5 9.349999 -18.01737 14.49792 9.349999 -18.01737 11.5 9.349999 -18.01737 14.49792 9.349999 -18.01737 11.5 9.5 -18.01737 14.49792 9.5 -18.16737 14.49792 9.349999 -18.16737 14.49792 9.5 -18.01737 14.49792 9.349999 -18.01737 14.49792 9.5 21.01794 11.5 -9.499998 21.01794 14.49792 -9.499998 21.01794 11.5 -9.349998 21.01794 14.49792 -9.349998 21.01794 11.5 -9.349998 21.01794 14.49792 -9.349998 20.86794 11.5 -9.349998 20.86794 14.49792 -9.349998 20.86794 11.5 -9.349998 20.86794 14.49792 -9.349998 20.86794 11.5 -9.499998 20.86794 14.49792 -9.499998 21.01794 14.49792 -9.349998 21.01794 14.49792 -9.499998 20.86794 14.49792 -9.349998 20.86794 14.49792 -9.499998 -21.01794 11.5 9.5 -21.01794 14.49792 9.5 -21.01794 11.5 9.349999 -21.01794 14.49792 9.349999 -21.01794 11.5 9.349999 -21.01794 14.49792 9.349999 -20.86794 11.5 9.349999 -20.86794 14.49792 9.349999 -20.86794 11.5 9.349999 -20.86794 14.49792 9.349999 -20.86794 11.5 9.5 -20.86794 14.49792 9.5 -21.01794 14.49792 9.349999 -21.01794 14.49792 9.5 -20.86794 14.49792 9.349999 -20.86794 14.49792 9.5 18.16351 14.35944 -9.486814 20.86968 14.35943 -9.486814 18.16351 14.35944 -9.366815 20.86968 14.35944 -9.366814 18.16351 14.35944 -9.366815 20.86968 14.35944 -9.366814 18.16351 14.47944 -9.366815 20.86968 14.47944 -9.366814 18.16351 14.47944 -9.366815 20.86968 14.47944 -9.366814 18.16351 14.47944 -9.486814 20.86968 14.47944 -9.486814 -18.16351 14.35944 9.486815 -20.86968 14.35943 9.486815 -18.16351 14.35944 9.366816 -20.86968 14.35944 9.366816 -18.16351 14.35944 9.366816 -20.86968 14.35944 9.366816 -18.16351 14.47944 9.366816 -20.86968 14.47944 9.366816 -18.16351 14.47944 9.366816 -20.86968 14.47944 9.366816 -18.16351 14.47944 9.486815 -20.86968 14.47944 9.486815 18.1677 11.5003 -9.349672 18.01737 14.50992 -9.349998 18.01737 11.5 -9.349998 -18.1677 11.5003 9.349673 -18.01737 14.50992 9.349999 -18.01737 11.5 9.349999 21.01826 11.5003 -9.500324 21.01794 14.50993 -9.349998 21.01794 11.5 -9.349998 20.86761 11.5003 -9.349671 20.86794 14.50993 -9.499998 20.86794 11.5 -9.499998 -21.01826 11.5003 9.500326 -21.01794 14.50993 9.349999 -21.01794 11.5 9.349999 -20.86761 11.5003 9.349673 -20.86794 14.50993 9.5 -20.86794 11.5 9.5 18.16737 11.5 -9.499999 18.16737 14.50992 -9.499999 18.1677 11.5003 -9.349672 18.01737 14.50992 -9.349998 18.01737 11.5 -9.349998 18.01737 14.50992 -9.349998 18.01705 11.5003 -9.500325 18.16737 14.50992 -9.499999 -18.16737 11.5 9.5 -18.16737 14.50992 9.5 -18.1677 11.5003 9.349673 -18.01737 14.50992 9.349999 -18.01737 11.5 9.349999 -18.01737 14.50992 9.349999 -18.01705 11.5003 9.500326 -18.16737 14.50992 9.5 21.01794 11.5 -9.349998 21.01794 14.50993 -9.349998 20.86761 11.5003 -9.349671 20.86794 14.50993 -9.499998 -21.01794 11.5 9.349999 -21.01794 14.50993 9.349999 -20.86761 11.5003 9.349673 -20.86794 14.50993 9.5 18.16351 14.3556 -9.370649 20.86968 14.3556 -9.370648 18.16351 14.47944 -9.366815 20.86968 14.47944 -9.366814 18.16351 14.47944 -9.366815 20.86968 14.47944 -9.366814 18.16351 14.4756 -9.490649 20.86968 14.4756 -9.490648 -18.15993 14.35577 9.483258 -20.86952 14.35543 9.482819 -18.15964 14.47549 9.36298 -20.86968 14.4756 9.362982 -18.15964 14.47549 9.36298 -20.86968 14.4756 9.362982 -18.16351 14.47944 9.486815 -20.86968 14.47944 9.486815 18.18353 11.4995 -9.4844 18.102 14.62537 -9.433835 18.03082 11.50582 -9.329913 18.03082 11.50582 -9.329913 18.102 14.62537 -9.433835 18.01561 11.50192 -9.500045 -18.18353 11.4995 9.484402 -18.102 14.62537 9.433837 -18.03082 11.50582 9.329914 -18.03082 11.50582 9.329914 -18.102 14.62537 9.433837 -18.01561 11.50192 9.500046 21.01981 11.50172 -9.50027 20.93409 14.62736 -9.43335 21.00489 11.5053 -9.330598 21.00489 11.5053 -9.330598 20.93409 14.62736 -9.43335 20.85125 11.50039 -9.483381 -21.01981 11.50172 9.500272 -20.93409 14.62736 9.433352 -21.00489 11.5053 9.3306 -21.00489 11.5053 9.3306 -20.93409 14.62736 9.433352 -20.85125 11.50039 9.483383 18.15356 14.34951 -9.476846 20.86927 14.34867 -9.376742 18.15356 14.46951 -9.356846 20.86927 14.34867 -9.376742 20.86968 14.47944 -9.366814 18.15356 14.46951 -9.356846 -20.86968 14.35943 9.486815 -20.87923 14.36898 9.35647 -18.15352 14.34944 9.476914 -18.15397 14.46989 9.35647 -20.87967 14.48943 9.476913 -18.16351 14.47944 9.486815 18.15356 14.46951 -9.356846 20.86968 14.47944 -9.366814 18.16351 14.47944 -9.486814 20.86969 14.46911 -9.497182 -18.15352 14.34944 9.476914 -20.87923 14.36898 9.35647 -18.15397 14.46989 9.35647 -20.87967 14.48943 9.476913</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_47_1__BackWall_np-position-array" count="190" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_47_1__BackWall_np-normal">
+          <float_array id="WallTrim_47_1__BackWall_np-normal-array" count="570">1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 -0.2818004 0.0332681 0.9589041 0 0 1 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0.2818004 0.0332681 -0.9589041 0 0 -1 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_47_1__BackWall_np-normal-array" count="190" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_47_1__BackWall_np-texcoord">
+          <float_array id="WallTrim_47_1__BackWall_np-texcoord-array" count="380">1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 0.2670898 0.1264648 0.2670898 0.07275391 0.3205566 0.1264648 0.3205566 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 0.2670898 0.1264648 0.2670898 0.07275391 0.3205566 0.1264648 0.3205566 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 0.2675781 0.1264648 0.2675781 0.07324219 0.3208008 0.1264648 0.3208008 0.07324219 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 0.2675781 0.1264648 0.2675781 0.07324219 0.3208008 0.1264648 0.3208008 0.07324219 -0.2092285 0.1264648 -1.501953 0.1264648 -0.2092285 0.07275391 -1.501953 0.07275391 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 -0.2092285 0.1264648 -1.501953 0.1264648 -0.2092285 0.07275391 -1.501953 0.07275391 -0.2092285 0.1264648 -1.501953 0.1264648 -0.2092285 0.07275391 -1.501953 0.07275391 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 -0.2092285 0.1264648 -1.501953 0.1264648 -0.2092285 0.07275391 -1.501953 0.07275391 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 -0.2178955 0.07275391 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 -0.2092285 0.1264648 -1.501953 0.1264648 -0.2092285 0.07275391 -1.501953 0.07275391 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 -0.2092285 0.1264648 -1.501953 0.1264648 -0.2092285 0.07275391 -1.501953 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.1264648 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 1.213867 0.1264648 -0.2178955 0.07275391 1.213867 0.07275391 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 -0.2092285 0.1264648 -1.501953 0.07275391 -0.2092285 0.07275391 -1.501953 0.06298828 -1.501953 0.009277344 -0.2092285 0.009277344 -1.501953 0.1264648 -1.501953 0.07275391 -0.2092285 0.1264648 -0.2092285 0.1264648 -1.501953 0.07275391 -0.2092285 0.07275391 -0.2092285 0.1264648 -1.501953 0.1264648 -0.2092285 0.07275391 -1.501953 0.07275391 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_47_1__BackWall_np-texcoord-array" count="190" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_47_1__BackWall_np-texcoord_1">
+          <float_array id="WallTrim_47_1__BackWall_np-texcoord-array_1" count="380">0.4009766 0.004455626 0.4009766 0.9958038 0.3600214 0.004455626 0.3600214 0.9958038 0.0449073 0.004669249 0.0449073 0.9960327 0.003967346 0.004684508 0.003967346 0.9960327 0.1480888 0.004455626 0.1480888 0.9958038 0.1071488 0.004455626 0.1071488 0.9958038 0.9393911 0.154345 0.8920882 0.154345 0.9393911 0.1114061 0.8920882 0.1114061 0.2998245 0.004455626 0.2998245 0.9958038 0.2588693 0.004455626 0.2588693 0.9958038 0.09752041 0.004669249 0.09752041 0.9960327 0.0565652 0.004684508 0.0565652 0.9960327 0.5021287 0.004455626 0.5021287 0.9958038 0.4611734 0.004455626 0.4611734 0.9958038 0.9940032 0.05745023 0.9940032 0.1004044 0.9467155 0.05745023 0.9467155 0.1004044 0.1986725 0.004455626 0.1986725 0.9958038 0.1577173 0.004455626 0.1577173 0.9958038 0.6032807 0.004669249 0.6032807 0.9960327 0.5623255 0.004684508 0.5623255 0.9960174 0.451545 0.004455626 0.451545 0.9958038 0.410605 0.004455626 0.410605 0.9958038 0.9487297 0.04786754 0.9487297 0.004928648 0.9960327 0.04786754 0.9960327 0.004928648 0.2492409 0.004455626 0.2492409 0.9958038 0.2083009 0.004455626 0.2083009 0.9958038 0.552697 0.004669249 0.552697 0.9960327 0.5117571 0.004684508 0.5117571 0.9960327 0.3503929 0.004455626 0.3503929 0.9958038 0.309453 0.004455626 0.309453 0.9958038 0.8920882 0.04713511 0.8920882 0.004196227 0.9393911 0.04713511 0.9393911 0.004196227 0.8356603 0.003982604 0.8356603 0.8043793 0.7990234 0.003982604 0.7990387 0.8043793 0.7425956 0.004180968 0.7425956 0.8045777 0.7059739 0.004180968 0.7059739 0.8045777 0.6495308 0.003967345 0.6495308 0.8043793 0.6129091 0.003967345 0.6129091 0.8043793 0.8821851 0.003982604 0.8821851 0.8043793 0.8455634 0.003982604 0.8455634 0.8043793 0.7891203 0.004180968 0.7891203 0.8045777 0.7524987 0.004180968 0.7524987 0.8045777 0.6960555 0.003967345 0.6960708 0.8043793 0.6594339 0.003967345 0.6594492 0.8043793 0.0449073 0.004669249 0.003967346 0.9960327 0.003967346 0.004684508 0.09752041 0.004669249 0.0565652 0.9960327 0.0565652 0.004684508 0.1986725 0.004455626 0.1577173 0.9958038 0.1577173 0.004455626 0.451545 0.004455626 0.410605 0.9958038 0.410605 0.004455626 0.2492409 0.004455626 0.2083009 0.9958038 0.2083009 0.004455626 0.3503929 0.004455626 0.309453 0.9958038 0.309453 0.004455626 0.4009766 0.004455626 0.4009766 0.9958038 0.3600214 0.004455626 0.3600214 0.9958038 0.1480888 0.004455626 0.1480888 0.9958038 0.1071488 0.004455626 0.1071488 0.9958038 0.2998245 0.004455626 0.2998245 0.9958038 0.2588693 0.004455626 0.2588693 0.9958038 0.5021287 0.004455626 0.5021287 0.9958038 0.4611734 0.004455626 0.4611734 0.9958038 0.6032807 0.004669249 0.6032807 0.9960327 0.5623255 0.004684508 0.5623255 0.9960174 0.552697 0.004669249 0.552697 0.9960327 0.5117571 0.004684508 0.5117571 0.9960327 0.7425956 0.004180968 0.7425956 0.8045777 0.7059739 0.004180968 0.7059739 0.8045777 0.6495308 0.003967345 0.6495308 0.8043793 0.6129091 0.003967345 0.6129091 0.8043793 0.7891203 0.004180968 0.7891203 0.8045777 0.7524987 0.004180968 0.7524987 0.8045777 0.6960555 0.003967345 0.6960708 0.8043793 0.6594339 0.003967345 0.6594492 0.8043793 0.4009766 0.004455626 0.4009766 0.9958038 0.3600214 0.004455626 0.1480888 0.004455626 0.1071488 0.9958038 0.1071488 0.004455626 0.2998245 0.004455626 0.2998245 0.9958038 0.2588693 0.004455626 0.5021287 0.004455626 0.4611734 0.9958038 0.4611734 0.004455626 0.1986725 0.004455626 0.1577173 0.9958038 0.1577173 0.004455626 0.6032807 0.004669249 0.5623255 0.9960174 0.5623255 0.004684508 0.2492409 0.004455626 0.2083009 0.9958038 0.2083009 0.004455626 0.552697 0.004669249 0.5117571 0.9960327 0.5117571 0.004684508 0.8356603 0.003982604 0.7990387 0.8043793 0.7990234 0.003982604 0.7425956 0.8045777 0.7059739 0.8045777 0.7059739 0.004180968 0.8821851 0.8043793 0.8455634 0.8043793 0.8821851 0.003982604 0.6960555 0.003967345 0.6594492 0.8043793 0.6594339 0.003967345 0.6495308 0.003967345 0.6495308 0.8043793 0.6129091 0.003967345 0.6129091 0.8043793 0.7891203 0.004180968 0.7891203 0.8045777 0.7524987 0.004180968 0.7524987 0.8045777</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_47_1__BackWall_np-texcoord-array_1" count="190" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WallTrim_47_1__BackWall_np-vertex">
+          <input semantic="POSITION" source="#WallTrim_47_1__BackWall_np-position" />
+        </vertices>
+        <triangles material="BackWall_np" count="44">
+          <input semantic="VERTEX" source="#WallTrim_47_1__BackWall_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#WallTrim_47_1__BackWall_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#WallTrim_47_1__BackWall_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#WallTrim_47_1__BackWall_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 76 76 76 76 77 77 77 77 78 78 78 78 77 77 77 77 79 79 79 79 78 78 78 78 80 80 80 80 81 81 81 81 82 82 82 82 81 81 81 81 83 83 83 83 82 82 82 82 84 84 84 84 85 85 85 85 86 86 86 86 85 85 85 85 87 87 87 87 86 86 86 86 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WallTrim_Paintable_01_1__BackWall-mesh" name="WallTrim_Paintable_01_1__BackWall">
+      <mesh>
+        <source id="WallTrim_Paintable_01_1__BackWall-position">
+          <float_array id="WallTrim_Paintable_01_1__BackWall-position-array" count="198">18.01737 11.5 -9.499999 18.01737 14.49792 -9.499999 18.16737 11.5 -9.499999 18.16737 14.49792 -9.499999 -18.01737 11.5 9.5 -18.01737 14.49792 9.5 -18.16737 11.5 9.5 -18.16737 14.49792 9.5 18.16351 14.47944 -9.486815 20.86968 14.47944 -9.486815 18.16351 14.35944 -9.486815 20.86968 14.35944 -9.486815 -18.16351 14.47944 9.486816 -20.86968 14.47944 9.486816 -18.16351 14.35944 9.486816 -20.86968 14.35944 9.486816 20.86794 11.5 -9.499999 20.86794 14.49792 -9.499999 21.01794 11.5 -9.499999 21.01794 14.49792 -9.499999 -20.86794 11.5 9.5 -20.86794 14.49792 9.5 -21.01794 11.5 9.5 -21.01794 14.49792 9.5 18.01705 11.5003 -9.500325 18.16737 14.50992 -9.499999 18.16737 11.5 -9.499999 -18.01705 11.5003 9.500326 -18.16737 14.50992 9.5 -18.16737 11.5 9.5 18.16351 14.4756 -9.490649 20.86968 14.4756 -9.490648 18.16351 14.3556 -9.370649 20.86968 14.3556 -9.370648 -18.16351 14.47944 9.486815 -20.86968 14.47944 9.486815 -18.15993 14.35577 9.483258 -20.86952 14.35543 9.482819 20.86794 11.5 -9.499998 20.86794 14.50993 -9.499998 21.01826 11.5003 -9.500324 21.01794 14.50993 -9.349998 -20.86794 11.5 9.5 -20.86794 14.50993 9.5 -21.01826 11.5003 9.500326 -21.01794 14.50993 9.349999 18.01561 11.50192 -9.500045 18.102 14.62537 -9.433835 18.18353 11.4995 -9.4844 -18.01561 11.50192 9.500046 -18.102 14.62537 9.433837 -18.18353 11.4995 9.484402 20.85125 11.50039 -9.483381 20.93409 14.62736 -9.43335 21.01981 11.50172 -9.50027 -20.85125 11.50039 9.483383 -20.93409 14.62736 9.433352 -21.01981 11.50172 9.500272 18.16351 14.47944 -9.486814 20.86969 14.46911 -9.497182 18.15356 14.34951 -9.476846 20.86927 14.34867 -9.376742 -18.16351 14.47944 9.486815 -20.87967 14.48943 9.476913 -18.15352 14.34944 9.476914 -20.86968 14.35943 9.486815</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_Paintable_01_1__BackWall-position-array" count="66" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_Paintable_01_1__BackWall-normal">
+          <float_array id="WallTrim_Paintable_01_1__BackWall-normal-array" count="198">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_Paintable_01_1__BackWall-normal-array" count="66" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_Paintable_01_1__BackWall-texcoord">
+          <float_array id="WallTrim_Paintable_01_1__BackWall-texcoord-array" count="132">1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2178955 0.009277344 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 1.213867 0.06298828 -0.2178955 0.009277344 1.213867 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 1.213867 0.06298828 -0.2178955 0.06298828 1.213867 0.009277344 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344 -0.2092285 0.06298828 -1.501953 0.06298828 -0.2092285 0.009277344 -1.501953 0.009277344</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_Paintable_01_1__BackWall-texcoord-array" count="66" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_Paintable_01_1__BackWall-texcoord_1">
+          <float_array id="WallTrim_Paintable_01_1__BackWall-texcoord-array_1" count="132">0.3215686 0.003921568 0.3215686 0.9960784 0.1843137 0.003921568 0.1843137 0.9960784 0.1411765 0.003921568 0.1411765 0.9960784 0.003921569 0.003921568 0.003921569 0.9960784 0.9960784 0.003921568 0.9960784 0.8039216 0.8745098 0.003921568 0.8745098 0.8039216 0.8431373 0.003921568 0.8431373 0.8039216 0.7215686 0.003921568 0.7215686 0.8039216 0.6784314 0.003921568 0.6784314 0.9960784 0.5411765 0.003921568 0.5411765 0.9960784 0.5019608 0.003921568 0.5019608 0.9960784 0.3607843 0.003921568 0.3607843 0.9960784 0.3215686 0.003921568 0.1843137 0.9960784 0.1843137 0.003921568 0.1411765 0.003921568 0.003921569 0.9960784 0.003921569 0.003921568 0.9960784 0.003921568 0.9960784 0.8039216 0.8745098 0.003921568 0.8745098 0.8039216 0.8431373 0.003921568 0.8431373 0.8039216 0.7215686 0.003921568 0.7215686 0.8039216 0.6784314 0.003921568 0.6784314 0.9960784 0.5411765 0.003921568 0.5411765 0.9960784 0.5019608 0.003921568 0.5019608 0.9960784 0.3607843 0.003921568 0.3607843 0.9960784 0.3215686 0.003921568 0.1843137 0.9960784 0.1843137 0.003921568 0.1411765 0.003921568 0.003921569 0.9960784 0.003921569 0.003921568 0.6784314 0.003921568 0.6784314 0.9960784 0.5411765 0.003921568 0.5019608 0.003921568 0.5019608 0.9960784 0.3607843 0.003921568 0.9960784 0.003921568 0.9960784 0.8039216 0.8745098 0.003921568 0.8745098 0.8039216 0.8431373 0.003921568 0.8431373 0.8039216 0.7215686 0.003921568 0.7215686 0.8039216</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_Paintable_01_1__BackWall-texcoord-array_1" count="66" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WallTrim_Paintable_01_1__BackWall-vertex">
+          <input semantic="POSITION" source="#WallTrim_Paintable_01_1__BackWall-position" />
+        </vertices>
+        <triangles material="BackWall" count="12">
+          <input semantic="VERTEX" source="#WallTrim_Paintable_01_1__BackWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#WallTrim_Paintable_01_1__BackWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#WallTrim_Paintable_01_1__BackWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#WallTrim_Paintable_01_1__BackWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube70_1__ConcreteWall-mesh" name="pCube70_1__ConcreteWall">
+      <mesh>
+        <source id="pCube70_1__ConcreteWall-position">
+          <float_array id="pCube70_1__ConcreteWall-position-array" count="72">20.86827 11.5 -9.467046 18.14852 11.5 -9.467046 20.86827 14.44354 -9.467046 18.14852 14.44354 -9.467046 -20.86827 11.5 9.467047 -18.14852 11.5 9.467047 -20.86827 14.44354 9.467047 -18.14852 14.44354 9.467047 20.86827 11.5 -9.467046 18.14852 11.5 -9.467046 20.86827 14.44354 -9.467046 18.14852 14.44354 -9.467046 -20.86827 11.5 9.467047 -18.14852 11.5 9.467047 -20.86827 14.44354 9.467047 -18.14852 14.44354 9.467047 20.86827 11.5 -9.467046 18.14852 11.5 -9.467046 20.86827 14.44354 -9.467046 18.14852 14.44354 -9.467046 -20.86827 11.5 9.467047 -18.14852 11.5 9.467047 -20.86827 14.44354 9.467047 -18.14852 14.44354 9.467047</float_array>
+          <technique_common>
+            <accessor source="#pCube70_1__ConcreteWall-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube70_1__ConcreteWall-normal">
+          <float_array id="pCube70_1__ConcreteWall-normal-array" count="72">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube70_1__ConcreteWall-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube70_1__ConcreteWall-texcoord">
+          <float_array id="pCube70_1__ConcreteWall-texcoord-array" count="48">-0.4173228 1.181102 -0.4173228 0.503937 0.3149606 1.181102 0.3149606 0.503937 -0.4173228 1.181102 -0.4173228 0.503937 0.3149606 1.181102 0.3149606 0.503937 -0.4173228 1.181102 -0.4173228 0.503937 0.3149606 1.181102 0.3149606 0.503937 -0.4173228 1.181102 -0.4173228 0.503937 0.3149606 1.181102 0.3149606 0.503937 -0.4173228 1.181102 -0.4173228 0.503937 0.3149606 1.181102 0.3149606 0.503937 -0.4173228 1.181102 -0.4173228 0.503937 0.3149606 1.181102 0.3149606 0.503937</float_array>
+          <technique_common>
+            <accessor source="#pCube70_1__ConcreteWall-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube70_1__ConcreteWall-texcoord_1">
+          <float_array id="pCube70_1__ConcreteWall-texcoord-array_1" count="48">0.9960784 0.4941176 0.003921569 0.4941176 0.9960784 0.003921568 0.003921569 0.003921568 0.9960784 0.9960784 0.003921569 0.9960784 0.9960784 0.5058824 0.003921569 0.5058824 0.9960784 0.4941176 0.003921569 0.4941176 0.9960784 0.003921568 0.003921569 0.003921568 0.9960784 0.9960784 0.003921569 0.9960784 0.9960784 0.5058824 0.003921569 0.5058824 0.9960784 0.4941176 0.003921569 0.4941176 0.9960784 0.003921568 0.003921569 0.003921568 0.9960784 0.9960784 0.003921569 0.9960784 0.9960784 0.5058824 0.003921569 0.5058824</float_array>
+          <technique_common>
+            <accessor source="#pCube70_1__ConcreteWall-texcoord-array_1" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube70_1__ConcreteWall-vertex">
+          <input semantic="POSITION" source="#pCube70_1__ConcreteWall-position" />
+        </vertices>
+        <triangles material="ConcreteWall" count="4">
+          <input semantic="VERTEX" source="#pCube70_1__ConcreteWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube70_1__ConcreteWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube70_1__ConcreteWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube70_1__ConcreteWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface90_1__ConcreteWall_np-mesh" name="polySurface90_1__ConcreteWall_np">
+      <mesh>
+        <source id="polySurface90_1__ConcreteWall_np-position">
+          <float_array id="polySurface90_1__ConcreteWall_np-position-array" count="288">20.86827 14.44354 -9.467045 18.14852 14.44354 -9.467046 20.86827 14.44354 -8.559569 18.14852 14.44354 -8.55957 20.86827 14.44354 -8.559569 18.14852 14.44354 -8.55957 20.86827 11.5 -8.559569 18.14852 11.5 -8.55957 18.14852 11.5 -9.467046 18.14852 11.5 -8.55957 18.14852 14.44354 -9.467046 18.14852 14.44354 -8.55957 20.86827 11.5 -9.467045 20.86827 14.44354 -9.467045 20.86827 11.5 -8.559569 20.86827 14.44354 -8.559569 -20.86827 14.44354 9.467048 -18.14852 14.44354 9.467048 -20.86827 14.44354 8.559571 -18.14852 14.44354 8.559571 -20.86827 14.44354 8.559571 -18.14852 14.44354 8.559571 -20.86827 11.5 8.559571 -18.14852 11.5 8.559571 -18.14852 11.5 9.467048 -18.14852 11.5 8.559571 -18.14852 14.44354 9.467048 -18.14852 14.44354 8.559571 -20.86827 11.5 9.467048 -20.86827 14.44354 9.467048 -20.86827 11.5 8.559571 -20.86827 14.44354 8.559571 20.86827 14.44354 -9.467046 18.14852 14.44354 -9.467046 20.86827 14.44354 -8.559569 18.14852 14.44354 -8.55957 20.86827 14.44354 -8.559569 18.14852 14.44354 -8.55957 20.86827 11.5 -8.559569 18.14852 11.5 -8.55957 18.14852 11.5 -9.467046 18.14852 11.5 -8.55957 18.14852 14.44354 -9.467046 18.14852 14.44354 -8.55957 20.86827 11.5 -9.467046 20.86827 14.44354 -9.467046 20.86827 11.5 -8.559569 20.86827 14.44354 -8.559569 -20.86827 14.44354 9.467047 -18.14852 14.44354 9.467047 -20.86827 14.44354 8.559571 -18.14852 14.44354 8.559571 -20.86827 14.44354 8.559571 -18.14852 14.44354 8.559571 -20.86827 11.5 8.559571 -18.14852 11.5 8.559571 -18.14852 11.5 9.467047 -18.14852 11.5 8.559571 -18.14852 14.44354 9.467047 -18.14852 14.44354 8.559571 -20.86827 11.5 9.467047 -20.86827 14.44354 9.467047 -20.86827 11.5 8.559571 -20.86827 14.44354 8.559571 20.86827 14.44354 -9.467046 18.14852 14.44354 -9.467046 20.86827 14.44354 -8.559569 18.14852 14.44354 -8.55957 20.86827 14.44354 -8.559569 18.14852 14.44354 -8.55957 20.86827 11.5 -8.559569 18.14852 11.5 -8.55957 18.14852 11.5 -9.467046 18.14852 11.5 -8.55957 18.14852 14.44354 -9.467046 18.14852 14.44354 -8.55957 20.86827 11.5 -9.467046 20.86827 14.44354 -9.467046 20.86827 11.5 -8.559569 20.86827 14.44354 -8.559569 -20.86827 14.44354 9.467047 -18.14852 14.44354 9.467047 -20.86827 14.44354 8.559571 -18.14852 14.44354 8.559571 -20.86827 14.44354 8.559571 -18.14852 14.44354 8.559571 -20.86827 11.5 8.559571 -18.14852 11.5 8.559571 -18.14852 11.5 9.467047 -18.14852 11.5 8.559571 -18.14852 14.44354 9.467047 -18.14852 14.44354 8.559571 -20.86827 11.5 9.467047 -20.86827 14.44354 9.467047 -20.86827 11.5 8.559571 -20.86827 14.44354 8.559571</float_array>
+          <technique_common>
+            <accessor source="#polySurface90_1__ConcreteWall_np-position-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface90_1__ConcreteWall_np-normal">
+          <float_array id="polySurface90_1__ConcreteWall_np-normal-array" count="288">0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface90_1__ConcreteWall_np-normal-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface90_1__ConcreteWall_np-texcoord">
+          <float_array id="polySurface90_1__ConcreteWall_np-texcoord-array" count="192">0.3864746 0.8381348 0.3864746 0.1621094 0.6132813 0.8381348 0.6132813 0.1621094 0.7001953 1.183228 0.7001953 0.5070801 1.435547 1.183228 1.435547 0.5070801 0.4311523 0.1323242 0.6582031 0.1323242 0.4311523 0.868042 0.6582031 0.868042 0.6865234 0.868042 0.6865234 0.1323242 0.9135742 0.868042 0.9135742 0.1323242 0.3864746 0.8381348 0.3864746 0.1621094 0.6132813 0.8381348 0.6132813 0.1621094 0.7001953 1.183228 0.7001953 0.5070801 1.435547 1.183228 1.435547 0.5070801 0.4311523 0.1323242 0.6582031 0.1323242 0.4311523 0.868042 0.6582031 0.868042 0.6865234 0.868042 0.6865234 0.1323242 0.9135742 0.868042 0.9135742 0.1323242 0.3864746 0.8381348 0.3864746 0.1621094 0.6132813 0.8381348 0.6132813 0.1621094 0.7001953 1.183228 0.7001953 0.5070801 1.435547 1.183228 1.435547 0.5070801 0.4311523 0.1323242 0.6582031 0.1323242 0.4311523 0.868042 0.6582031 0.868042 0.6865234 0.868042 0.6865234 0.1323242 0.9135742 0.868042 0.9135742 0.1323242 0.3864746 0.8381348 0.3864746 0.1621094 0.6132813 0.8381348 0.6132813 0.1621094 0.7001953 1.183228 0.7001953 0.5070801 1.435547 1.183228 1.435547 0.5070801 0.4311523 0.1323242 0.6582031 0.1323242 0.4311523 0.868042 0.6582031 0.868042 0.6865234 0.868042 0.6865234 0.1323242 0.9135742 0.868042 0.9135742 0.1323242 0.3864746 0.8381348 0.3864746 0.1621094 0.6132813 0.8381348 0.6132813 0.1621094 0.7001953 1.183228 0.7001953 0.5070801 1.435547 1.183228 1.435547 0.5070801 0.4311523 0.1323242 0.6582031 0.1323242 0.4311523 0.868042 0.6582031 0.868042 0.6865234 0.868042 0.6865234 0.1323242 0.9135742 0.868042 0.9135742 0.1323242 0.3864746 0.8381348 0.3864746 0.1621094 0.6132813 0.8381348 0.6132813 0.1621094 0.7001953 1.183228 0.7001953 0.5070801 1.435547 1.183228 1.435547 0.5070801 0.4311523 0.1323242 0.6582031 0.1323242 0.4311523 0.868042 0.6582031 0.868042 0.6865234 0.868042 0.6865234 0.1323242 0.9135742 0.868042 0.9135742 0.1323242</float_array>
+          <technique_common>
+            <accessor source="#polySurface90_1__ConcreteWall_np-texcoord-array" count="96" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface90_1__ConcreteWall_np-texcoord_1">
+          <float_array id="polySurface90_1__ConcreteWall_np-texcoord-array_1" count="192">0.841062 0.9576104 0.841062 0.5063859 0.9960327 0.9576104 0.9960327 0.5063859 0.4658732 0.4950179 0.003967346 0.4950179 0.4658732 0.003967345 0.003967346 0.003967345 0.1714046 0.5063249 0.325948 0.5063249 0.1713893 0.9960327 0.3259327 0.9960327 0.5062181 0.9960327 0.5062181 0.5063249 0.6607614 0.9960327 0.6607614 0.5063249 0.67364 0.9576104 0.67364 0.5063859 0.8286107 0.9576104 0.8286107 0.5063859 0.9405814 0.4951705 0.4786755 0.4951705 0.9405814 0.004119933 0.4786755 0.004119933 0.003982605 0.5063249 0.1585412 0.5063249 0.003967346 0.9960327 0.1585107 0.9960327 0.3388113 0.9960327 0.3388113 0.5063249 0.4933547 0.9960327 0.4933547 0.5063249 0.841062 0.9576104 0.841062 0.5063859 0.9960327 0.9576104 0.9960327 0.5063859 0.4658732 0.4950179 0.003967346 0.4950179 0.4658732 0.003967345 0.003967346 0.003967345 0.1714046 0.5063249 0.325948 0.5063249 0.1713893 0.9960327 0.3259327 0.9960327 0.5062181 0.9960327 0.5062181 0.5063249 0.6607614 0.9960327 0.6607614 0.5063249 0.67364 0.9576104 0.67364 0.5063859 0.8286107 0.9576104 0.8286107 0.5063859 0.9405814 0.4951705 0.4786755 0.4951705 0.9405814 0.004119933 0.4786755 0.004119933 0.003982605 0.5063249 0.1585412 0.5063249 0.003967346 0.9960327 0.1585107 0.9960327 0.3388113 0.9960327 0.3388113 0.5063249 0.4933547 0.9960327 0.4933547 0.5063249 0.841062 0.9576104 0.841062 0.5063859 0.9960327 0.9576104 0.9960327 0.5063859 0.4658732 0.4950179 0.003967346 0.4950179 0.4658732 0.003967345 0.003967346 0.003967345 0.1714046 0.5063249 0.325948 0.5063249 0.1713893 0.9960327 0.3259327 0.9960327 0.5062181 0.9960327 0.5062181 0.5063249 0.6607614 0.9960327 0.6607614 0.5063249 0.67364 0.9576104 0.67364 0.5063859 0.8286107 0.9576104 0.8286107 0.5063859 0.9405814 0.4951705 0.4786755 0.4951705 0.9405814 0.004119933 0.4786755 0.004119933 0.003982605 0.5063249 0.1585412 0.5063249 0.003967346 0.9960327 0.1585107 0.9960327 0.3388113 0.9960327 0.3388113 0.5063249 0.4933547 0.9960327 0.4933547 0.5063249</float_array>
+          <technique_common>
+            <accessor source="#polySurface90_1__ConcreteWall_np-texcoord-array_1" count="96" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface90_1__ConcreteWall_np-vertex">
+          <input semantic="POSITION" source="#polySurface90_1__ConcreteWall_np-position" />
+        </vertices>
+        <triangles material="ConcreteWall_np" count="16">
+          <input semantic="VERTEX" source="#polySurface90_1__ConcreteWall_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface90_1__ConcreteWall_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface90_1__ConcreteWall_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface90_1__ConcreteWall_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_RedFrameBars_low1_1__MetalWall-mesh">
+      <skin source="#RedFrameBars_low1_1__MetalWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="RedFrameBars_low1_1__MetalWall-mesh-joint">
+          <Name_array id="RedFrameBars_low1_1__MetalWall-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#RedFrameBars_low1_1__MetalWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RedFrameBars_low1_1__MetalWall-mesh-inv_bind_matrix">
+          <float_array id="RedFrameBars_low1_1__MetalWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#RedFrameBars_low1_1__MetalWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RedFrameBars_low1_1__MetalWall-mesh-weight">
+          <float_array id="RedFrameBars_low1_1__MetalWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#RedFrameBars_low1_1__MetalWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#RedFrameBars_low1_1__MetalWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#RedFrameBars_low1_1__MetalWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="274">
+          <input semantic="JOINT" source="#RedFrameBars_low1_1__MetalWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#RedFrameBars_low1_1__MetalWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_TapesPaint_01_1__Tarps00-mesh">
+      <skin source="#TapesPaint_01_1__Tarps00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TapesPaint_01_1__Tarps00-mesh-joint">
+          <Name_array id="TapesPaint_01_1__Tarps00-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#TapesPaint_01_1__Tarps00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TapesPaint_01_1__Tarps00-mesh-inv_bind_matrix">
+          <float_array id="TapesPaint_01_1__Tarps00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TapesPaint_01_1__Tarps00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TapesPaint_01_1__Tarps00-mesh-weight">
+          <float_array id="TapesPaint_01_1__Tarps00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TapesPaint_01_1__Tarps00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TapesPaint_01_1__Tarps00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TapesPaint_01_1__Tarps00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#TapesPaint_01_1__Tarps00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TapesPaint_01_1__Tarps00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Tapes_117_1__Tarps00_np-mesh">
+      <skin source="#Tapes_117_1__Tarps00_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Tapes_117_1__Tarps00_np-mesh-joint">
+          <Name_array id="Tapes_117_1__Tarps00_np-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#Tapes_117_1__Tarps00_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Tapes_117_1__Tarps00_np-mesh-inv_bind_matrix">
+          <float_array id="Tapes_117_1__Tarps00_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Tapes_117_1__Tarps00_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Tapes_117_1__Tarps00_np-mesh-weight">
+          <float_array id="Tapes_117_1__Tarps00_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Tapes_117_1__Tarps00_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Tapes_117_1__Tarps00_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Tapes_117_1__Tarps00_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="139">
+          <input semantic="JOINT" source="#Tapes_117_1__Tarps00_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Tapes_117_1__Tarps00_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_TarpSheet_01_1__TarpSheet-mesh">
+      <skin source="#TarpSheet_01_1__TarpSheet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TarpSheet_01_1__TarpSheet-mesh-joint">
+          <Name_array id="TarpSheet_01_1__TarpSheet-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#TarpSheet_01_1__TarpSheet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TarpSheet_01_1__TarpSheet-mesh-inv_bind_matrix">
+          <float_array id="TarpSheet_01_1__TarpSheet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TarpSheet_01_1__TarpSheet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TarpSheet_01_1__TarpSheet-mesh-weight">
+          <float_array id="TarpSheet_01_1__TarpSheet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TarpSheet_01_1__TarpSheet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TarpSheet_01_1__TarpSheet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TarpSheet_01_1__TarpSheet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="84">
+          <input semantic="JOINT" source="#TarpSheet_01_1__TarpSheet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TarpSheet_01_1__TarpSheet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_WallTrim_47_1__BackWall_np-mesh">
+      <skin source="#WallTrim_47_1__BackWall_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="WallTrim_47_1__BackWall_np-mesh-joint">
+          <Name_array id="WallTrim_47_1__BackWall_np-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#WallTrim_47_1__BackWall_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_47_1__BackWall_np-mesh-inv_bind_matrix">
+          <float_array id="WallTrim_47_1__BackWall_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_47_1__BackWall_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_47_1__BackWall_np-mesh-weight">
+          <float_array id="WallTrim_47_1__BackWall_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_47_1__BackWall_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#WallTrim_47_1__BackWall_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#WallTrim_47_1__BackWall_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="190">
+          <input semantic="JOINT" source="#WallTrim_47_1__BackWall_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#WallTrim_47_1__BackWall_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_WallTrim_Paintable_01_1__BackWall-mesh">
+      <skin source="#WallTrim_Paintable_01_1__BackWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="WallTrim_Paintable_01_1__BackWall-mesh-joint">
+          <Name_array id="WallTrim_Paintable_01_1__BackWall-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#WallTrim_Paintable_01_1__BackWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_Paintable_01_1__BackWall-mesh-inv_bind_matrix">
+          <float_array id="WallTrim_Paintable_01_1__BackWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_Paintable_01_1__BackWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WallTrim_Paintable_01_1__BackWall-mesh-weight">
+          <float_array id="WallTrim_Paintable_01_1__BackWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#WallTrim_Paintable_01_1__BackWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#WallTrim_Paintable_01_1__BackWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#WallTrim_Paintable_01_1__BackWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="66">
+          <input semantic="JOINT" source="#WallTrim_Paintable_01_1__BackWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#WallTrim_Paintable_01_1__BackWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube70_1__ConcreteWall-mesh">
+      <skin source="#pCube70_1__ConcreteWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube70_1__ConcreteWall-mesh-joint">
+          <Name_array id="pCube70_1__ConcreteWall-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#pCube70_1__ConcreteWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube70_1__ConcreteWall-mesh-inv_bind_matrix">
+          <float_array id="pCube70_1__ConcreteWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube70_1__ConcreteWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube70_1__ConcreteWall-mesh-weight">
+          <float_array id="pCube70_1__ConcreteWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube70_1__ConcreteWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube70_1__ConcreteWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube70_1__ConcreteWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#pCube70_1__ConcreteWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube70_1__ConcreteWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface90_1__ConcreteWall_np-mesh">
+      <skin source="#polySurface90_1__ConcreteWall_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface90_1__ConcreteWall_np-mesh-joint">
+          <Name_array id="polySurface90_1__ConcreteWall_np-mesh-joint-array" count="1">FldObj_KaisouWallSmall</Name_array>
+          <technique_common>
+            <accessor source="#polySurface90_1__ConcreteWall_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface90_1__ConcreteWall_np-mesh-inv_bind_matrix">
+          <float_array id="polySurface90_1__ConcreteWall_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface90_1__ConcreteWall_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface90_1__ConcreteWall_np-mesh-weight">
+          <float_array id="polySurface90_1__ConcreteWall_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface90_1__ConcreteWall_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface90_1__ConcreteWall_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface90_1__ConcreteWall_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="96">
+          <input semantic="JOINT" source="#polySurface90_1__ConcreteWall_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface90_1__ConcreteWall_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_KaisouWallSmall" name="FldObj_KaisouWallSmall" sid="FldObj_KaisouWallSmall" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="RedFrameBars_low1_1__MetalWall" name="RedFrameBars_low1_1__MetalWall" type="NODE">
+        <instance_controller url="#Armature_RedFrameBars_low1_1__MetalWall-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MetalWall" target="#MetalWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="TapesPaint_01_1__Tarps00" name="TapesPaint_01_1__Tarps00" type="NODE">
+        <instance_controller url="#Armature_TapesPaint_01_1__Tarps00-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Tarps00" target="#Tarps00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Tapes_117_1__Tarps00_np" name="Tapes_117_1__Tarps00_np" type="NODE">
+        <instance_controller url="#Armature_Tapes_117_1__Tarps00_np-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Tarps00_np" target="#Tarps00_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="TarpSheet_01_1__TarpSheet" name="TarpSheet_01_1__TarpSheet" type="NODE">
+        <instance_controller url="#Armature_TarpSheet_01_1__TarpSheet-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="TarpSheet" target="#TarpSheet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="WallTrim_47_1__BackWall_np" name="WallTrim_47_1__BackWall_np" type="NODE">
+        <instance_controller url="#Armature_WallTrim_47_1__BackWall_np-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BackWall_np" target="#BackWall_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="WallTrim_Paintable_01_1__BackWall" name="WallTrim_Paintable_01_1__BackWall" type="NODE">
+        <instance_controller url="#Armature_WallTrim_Paintable_01_1__BackWall-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BackWall" target="#BackWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube70_1__ConcreteWall" name="pCube70_1__ConcreteWall" type="NODE">
+        <instance_controller url="#Armature_pCube70_1__ConcreteWall-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ConcreteWall" target="#ConcreteWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface90_1__ConcreteWall_np" name="polySurface90_1__ConcreteWall_np" type="NODE">
+        <instance_controller url="#Armature_polySurface90_1__ConcreteWall_np-mesh">
+          <skeleton>#Armature_FldObj_KaisouWallSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ConcreteWall_np" target="#ConcreteWall_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
