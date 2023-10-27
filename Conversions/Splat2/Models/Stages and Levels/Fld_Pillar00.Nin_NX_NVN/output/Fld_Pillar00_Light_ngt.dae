@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images />
+  <library_geometries />
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_Pillar00_Light_ngt" name="Fld_Pillar00_Light_ngt" sid="Fld_Pillar00_Light_ngt" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_PointLightB010" name="PointLightB010" sid="PointLightB010" type="JOINT">
+            <matrix sid="transform">-1 -8.742279E-08 -1.509958E-07 -12.73843 -8.742278E-08 1 -8.742279E-08 175.5764 1.509958E-07 -8.742278E-08 -1 -1029.734 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB04" name="PointLightB04" sid="PointLightB04" type="JOINT">
+            <matrix sid="transform">-1 -8.742279E-08 -1.509958E-07 58.48098 -8.742278E-08 1 -8.742279E-08 64.15929 1.509958E-07 -8.742278E-08 -1 -588.049 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB04_1" name="PointLightB04_1" sid="PointLightB04_1" type="JOINT">
+            <matrix sid="transform">1 0 0 -58.48103 0 1 0 64.15929 0 0 1 588.049 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB05" name="PointLightB05" sid="PointLightB05" type="JOINT">
+            <matrix sid="transform">-1 -8.742279E-08 -1.509958E-07 -181.4025 -8.742278E-08 1 -8.742279E-08 111.4341 1.509958E-07 -8.742278E-08 -1 -296.2886 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB05_1" name="PointLightB05_1" sid="PointLightB05_1" type="JOINT">
+            <matrix sid="transform">1 0 0 181.4024 0 1 0 111.4341 0 0 1 296.2886 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB06" name="PointLightB06" sid="PointLightB06" type="JOINT">
+            <matrix sid="transform">-1 -8.742279E-08 -1.509958E-07 -323.0031 -8.742278E-08 1 -8.742279E-08 182.9317 1.509958E-07 -8.742278E-08 -1 -146.201 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB06_1" name="PointLightB06_1" sid="PointLightB06_1" type="JOINT">
+            <matrix sid="transform">1 0 0 323.0031 0 1 0 182.9317 0 0 1 146.2011 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB07" name="PointLightB07" sid="PointLightB07" type="JOINT">
+            <matrix sid="transform">-1 -8.742279E-08 -1.509958E-07 -160.1042 -8.742278E-08 1 -8.742279E-08 134.8187 1.509958E-07 -8.742278E-08 -1 -672.2293 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB07_1" name="PointLightB07_1" sid="PointLightB07_1" type="JOINT">
+            <matrix sid="transform">1 0 0 160.1041 0 1 0 134.8187 0 0 1 672.2293 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB08" name="PointLightB08" sid="PointLightB08" type="JOINT">
+            <matrix sid="transform">-1 -8.742279E-08 -1.509958E-07 133.1558 -8.742278E-08 1 -8.742279E-08 139.4211 1.509958E-07 -8.742278E-08 -1 -732.4317 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB08_1" name="PointLightB08_1" sid="PointLightB08_1" type="JOINT">
+            <matrix sid="transform">1 0 0 -133.1558 0 1 0 139.4211 0 0 1 732.4317 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLightB09" name="PointLightB09" sid="PointLightB09" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.392319 0 1 0 98.0164 0 0 1 1025.252 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_SpotLightA00" name="SpotLightA00" sid="SpotLightA00" type="JOINT">
+            <matrix sid="transform">0.3802158 0.6748179 -0.6325006 -180 -0.6986436 0.6576781 0.2817034 200 0.6060802 0.3347843 0.7215167 -120 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_SpotLightA00_1" name="SpotLightA00_1" sid="SpotLightA00_1" type="JOINT">
+            <matrix sid="transform">-0.3802156 -0.6748178 0.6325006 180 -0.6986436 0.6576779 0.2817033 200 -0.6060801 -0.3347846 -0.7215165 120 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
