@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Dummy">
+      <init_from>Dummy.png</init_from>
+    </image>
+    <image id="M_cam1_Opa">
+      <init_from>M_cam1_Opa.png</init_from>
+    </image>
+    <image id="M_cam2_Opa">
+      <init_from>M_cam2_Opa.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_cam1">
+      <instance_effect url="#Effect_M_cam1" />
+    </material>
+    <material id="M_cam2">
+      <instance_effect url="#Effect_M_cam2" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_cam1">
+      <profile_COMMON>
+        <newparam sid="surface_M_cam1-diffuse">
+          <surface type="2D">
+            <init_from>Dummy</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_cam1-diffuse">
+          <sampler2D>
+            <source>surface_M_cam1-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_cam1-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_M_cam2">
+      <profile_COMMON>
+        <newparam sid="surface_M_cam2-diffuse">
+          <surface type="2D">
+            <init_from>Dummy</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_cam2-diffuse">
+          <sampler2D>
+            <source>surface_M_cam2-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_cam2-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Camera1__M_cam1-mesh" name="Camera1__M_cam1">
+      <mesh>
+        <source id="Camera1__M_cam1-position">
+          <float_array id="Camera1__M_cam1-position-array" count="33">-1.999512 -1.124878 0.05 1.999512 -1.124878 0.05 -1.999512 1.124878 0.05 1.999512 1.124878 0.05 -1.999512 -1.124878 0.05 1.999512 1.124878 0.05 -1.999512 1.124878 0.05 -1.999512 -1.124878 0.05 1.999512 -1.124878 0.05 -1.999512 1.124878 0.05 1.999512 1.124878 0.05</float_array>
+          <technique_common>
+            <accessor source="#Camera1__M_cam1-position-array" count="11" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera1__M_cam1-normal">
+          <float_array id="Camera1__M_cam1-normal-array" count="33">0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2</float_array>
+          <technique_common>
+            <accessor source="#Camera1__M_cam1-normal-array" count="11" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera1__M_cam1-texcoord">
+          <float_array id="Camera1__M_cam1-texcoord-array" count="22">0 0 1 0 0 1 1 1 0 0 1 1 0 1 0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Camera1__M_cam1-texcoord-array" count="11" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Camera1__M_cam1-vertex">
+          <input semantic="POSITION" source="#Camera1__M_cam1-position" />
+        </vertices>
+        <triangles material="M_cam1" count="2">
+          <input semantic="VERTEX" source="#Camera1__M_cam1-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Camera1__M_cam1-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Camera1__M_cam1-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Camera2__M_cam2-mesh" name="Camera2__M_cam2">
+      <mesh>
+        <source id="Camera2__M_cam2-position">
+          <float_array id="Camera2__M_cam2-position-array" count="30">-1.999512 -1.124878 -0.05 1.999512 -1.124878 -0.05 -1.999512 1.124878 -0.05 1.999512 1.124878 -0.05 -1.999512 -1.124878 -0.05 1.999512 1.124878 -0.05 -1.999512 1.124878 -0.05 -1.999512 -1.124878 -0.05 1.999512 1.124878 -0.05 -1.999512 1.124878 -0.05</float_array>
+          <technique_common>
+            <accessor source="#Camera2__M_cam2-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera2__M_cam2-normal">
+          <float_array id="Camera2__M_cam2-normal-array" count="30">0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2 0 0 0.2</float_array>
+          <technique_common>
+            <accessor source="#Camera2__M_cam2-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera2__M_cam2-texcoord">
+          <float_array id="Camera2__M_cam2-texcoord-array" count="20">0 0 1 0 0 1 1 1 0 0 1 1 0 1 0 0 1 1 0 1</float_array>
+          <technique_common>
+            <accessor source="#Camera2__M_cam2-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Camera2__M_cam2-vertex">
+          <input semantic="POSITION" source="#Camera2__M_cam2-position" />
+        </vertices>
+        <triangles material="M_cam2" count="2">
+          <input semantic="VERTEX" source="#Camera2__M_cam2-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Camera2__M_cam2-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Camera2__M_cam2-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Camera1__M_cam1-mesh">
+      <skin source="#Camera1__M_cam1-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Camera1__M_cam1-mesh-joint">
+          <Name_array id="Camera1__M_cam1-mesh-joint-array" count="1">Camera1</Name_array>
+          <technique_common>
+            <accessor source="#Camera1__M_cam1-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera1__M_cam1-mesh-inv_bind_matrix">
+          <float_array id="Camera1__M_cam1-mesh-inv_bind_matrix-array" count="16">0.2 0 0 0 0 0.2 0 0 0 0 0.2 -0.01 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Camera1__M_cam1-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera1__M_cam1-mesh-weight">
+          <float_array id="Camera1__M_cam1-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Camera1__M_cam1-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Camera1__M_cam1-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Camera1__M_cam1-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="11">
+          <input semantic="JOINT" source="#Camera1__M_cam1-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Camera1__M_cam1-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Camera2__M_cam2-mesh">
+      <skin source="#Camera2__M_cam2-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Camera2__M_cam2-mesh-joint">
+          <Name_array id="Camera2__M_cam2-mesh-joint-array" count="1">Camera2</Name_array>
+          <technique_common>
+            <accessor source="#Camera2__M_cam2-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera2__M_cam2-mesh-inv_bind_matrix">
+          <float_array id="Camera2__M_cam2-mesh-inv_bind_matrix-array" count="16">0.2 0 0 0 0 0.2 0 0 0 0 0.2 0.01 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Camera2__M_cam2-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Camera2__M_cam2-mesh-weight">
+          <float_array id="Camera2__M_cam2-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Camera2__M_cam2-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Camera2__M_cam2-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Camera2__M_cam2-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="10">
+          <input semantic="JOINT" source="#Camera2__M_cam2-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Camera2__M_cam2-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Root_Model" name="Root_Model" sid="Root_Model" type="JOINT">
+          <matrix sid="transform">5 0 0 0 0 5 0 0 0 0 5 0 0 0 0 1</matrix>
+          <node id="Armature_Camera1" name="Camera1" sid="Camera1" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0.01 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_Camera2" name="Camera2" sid="Camera2" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 -0.01 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="Camera1__M_cam1" name="Camera1__M_cam1" type="NODE">
+        <instance_controller url="#Armature_Camera1__M_cam1-mesh">
+          <skeleton>#Armature_Root_Model</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_cam1" target="#M_cam1" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Camera2__M_cam2" name="Camera2__M_cam2" type="NODE">
+        <instance_controller url="#Armature_Camera2__M_cam2-mesh">
+          <skeleton>#Armature_Root_Model</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_cam2" target="#M_cam2" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
