@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Antenna00_Alb">
+      <init_from>Antenna00_Alb.png</init_from>
+    </image>
+    <image id="Antenna00_Mtl">
+      <init_from>Antenna00_Mtl.png</init_from>
+    </image>
+    <image id="Antenna00_Nrm">
+      <init_from>Antenna00_Nrm.png</init_from>
+    </image>
+    <image id="Antenna00_Rgh">
+      <init_from>Antenna00_Rgh.png</init_from>
+    </image>
+    <image id="AnttenaBig00_Alb">
+      <init_from>AnttenaBig00_Alb.png</init_from>
+    </image>
+    <image id="AnttenaBig00_Mtl">
+      <init_from>AnttenaBig00_Mtl.png</init_from>
+    </image>
+    <image id="AnttenaBig00_Nrm">
+      <init_from>AnttenaBig00_Nrm.png</init_from>
+    </image>
+    <image id="AnttenaBig00_Rgh">
+      <init_from>AnttenaBig00_Rgh.png</init_from>
+    </image>
+    <image id="AreaGateConcent_Alb">
+      <init_from>AreaGateConcent_Alb.png</init_from>
+    </image>
+    <image id="AreaGateConcent_Mtl">
+      <init_from>AreaGateConcent_Mtl.png</init_from>
+    </image>
+    <image id="AreaGateConcent_Nrm">
+      <init_from>AreaGateConcent_Nrm.png</init_from>
+    </image>
+    <image id="AreaGateConcent_Rgh">
+      <init_from>AreaGateConcent_Rgh.png</init_from>
+    </image>
+    <image id="Bake_Fld_World01_g00_b00_f00">
+      <init_from>Bake_Fld_World01_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bonboli_Alb">
+      <init_from>Bonboli_Alb.png</init_from>
+    </image>
+    <image id="Bonboli_Mtl">
+      <init_from>Bonboli_Mtl.png</init_from>
+    </image>
+    <image id="Bonboli_Nrm">
+      <init_from>Bonboli_Nrm.png</init_from>
+    </image>
+    <image id="Bonboli_Rgh">
+      <init_from>Bonboli_Rgh.png</init_from>
+    </image>
+    <image id="CmnPlantationSet_Alb">
+      <init_from>CmnPlantationSet_Alb.png</init_from>
+    </image>
+    <image id="CmnPlantationSet_Nrm">
+      <init_from>CmnPlantationSet_Nrm.png</init_from>
+    </image>
+    <image id="CmnPlantationSet_Rgh">
+      <init_from>CmnPlantationSet_Rgh.png</init_from>
+    </image>
+    <image id="ConstructionObject_Alb">
+      <init_from>ConstructionObject_Alb.png</init_from>
+    </image>
+    <image id="ConstructionObject_Mtl">
+      <init_from>ConstructionObject_Mtl.png</init_from>
+    </image>
+    <image id="ConstructionObject_Nrm">
+      <init_from>ConstructionObject_Nrm.png</init_from>
+    </image>
+    <image id="ConstructionObject_Rgh">
+      <init_from>ConstructionObject_Rgh.png</init_from>
+    </image>
+    <image id="Cover00_Alb">
+      <init_from>Cover00_Alb.png</init_from>
+    </image>
+    <image id="Cover00_Nrm">
+      <init_from>Cover00_Nrm.png</init_from>
+    </image>
+    <image id="Cover00_Rgh">
+      <init_from>Cover00_Rgh.png</init_from>
+    </image>
+    <image id="Cover01_Alb">
+      <init_from>Cover01_Alb.png</init_from>
+    </image>
+    <image id="Cover01_Mtl">
+      <init_from>Cover01_Mtl.png</init_from>
+    </image>
+    <image id="Cover01_Nrm">
+      <init_from>Cover01_Nrm.png</init_from>
+    </image>
+    <image id="Cover01_Rgh">
+      <init_from>Cover01_Rgh.png</init_from>
+    </image>
+    <image id="Drainage00_Alb">
+      <init_from>Drainage00_Alb.png</init_from>
+    </image>
+    <image id="Drainage00_Nrm">
+      <init_from>Drainage00_Nrm.png</init_from>
+    </image>
+    <image id="Drainage00_Rgh">
+      <init_from>Drainage00_Rgh.png</init_from>
+    </image>
+    <image id="FenceGray_Alb">
+      <init_from>FenceGray_Alb.png</init_from>
+    </image>
+    <image id="FenceGray_Nrm">
+      <init_from>FenceGray_Nrm.png</init_from>
+    </image>
+    <image id="FenceGray_Rgh">
+      <init_from>FenceGray_Rgh.png</init_from>
+    </image>
+    <image id="FencePipe00_Alb">
+      <init_from>FencePipe00_Alb.png</init_from>
+    </image>
+    <image id="FencePipe00_Mtl">
+      <init_from>FencePipe00_Mtl.png</init_from>
+    </image>
+    <image id="FencePipe00_Nrm">
+      <init_from>FencePipe00_Nrm.png</init_from>
+    </image>
+    <image id="FencePipe00_Rgh">
+      <init_from>FencePipe00_Rgh.png</init_from>
+    </image>
+    <image id="FencePipe01_Alb">
+      <init_from>FencePipe01_Alb.png</init_from>
+    </image>
+    <image id="FencePipe01_Mtl">
+      <init_from>FencePipe01_Mtl.png</init_from>
+    </image>
+    <image id="FencePipe01_Nrm">
+      <init_from>FencePipe01_Nrm.png</init_from>
+    </image>
+    <image id="FencePipe01_Rgh">
+      <init_from>FencePipe01_Rgh.png</init_from>
+    </image>
+    <image id="FenceVinylA_Alb">
+      <init_from>FenceVinylA_Alb.png</init_from>
+    </image>
+    <image id="FenceVinylA_Nrm">
+      <init_from>FenceVinylA_Nrm.png</init_from>
+    </image>
+    <image id="FenceVinylA_Rgh">
+      <init_from>FenceVinylA_Rgh.png</init_from>
+    </image>
+    <image id="FenceVinylB_Alb">
+      <init_from>FenceVinylB_Alb.png</init_from>
+    </image>
+    <image id="FenceVinylB_Nrm">
+      <init_from>FenceVinylB_Nrm.png</init_from>
+    </image>
+    <image id="FenceVinylB_Rgh">
+      <init_from>FenceVinylB_Rgh.png</init_from>
+    </image>
+    <image id="Flag00_Alb">
+      <init_from>Flag00_Alb.png</init_from>
+    </image>
+    <image id="Flag00_Nrm">
+      <init_from>Flag00_Nrm.png</init_from>
+    </image>
+    <image id="Flag00_Rgh">
+      <init_from>Flag00_Rgh.png</init_from>
+    </image>
+    <image id="FlagRope00_Nrm">
+      <init_from>FlagRope00_Nrm.png</init_from>
+    </image>
+    <image id="FlagRope00_Rgh">
+      <init_from>FlagRope00_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock00_Alb">
+      <init_from>FloorConcreteBlock00_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock00_Nrm">
+      <init_from>FloorConcreteBlock00_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock00_Rgh">
+      <init_from>FloorConcreteBlock00_Rgh.png</init_from>
+    </image>
+    <image id="GlassStandard_Alb">
+      <init_from>GlassStandard_Alb.png</init_from>
+    </image>
+    <image id="GlassStandard_Nrm">
+      <init_from>GlassStandard_Nrm.png</init_from>
+    </image>
+    <image id="GlassStandard_Rgh">
+      <init_from>GlassStandard_Rgh.png</init_from>
+    </image>
+    <image id="Graffiti00_Alb">
+      <init_from>Graffiti00_Alb.png</init_from>
+    </image>
+    <image id="Graffiti00_Rgh">
+      <init_from>Graffiti00_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackHi_Alb">
+      <init_from>GroundAsphaltCrackHi_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackHi_Nrm">
+      <init_from>GroundAsphaltCrackHi_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackHi_Rgh">
+      <init_from>GroundAsphaltCrackHi_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcrete00_Alb">
+      <init_from>GroundConcrete00_Alb.png</init_from>
+    </image>
+    <image id="GroundConcrete00_Nrm">
+      <init_from>GroundConcrete00_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcrete00_Rgh">
+      <init_from>GroundConcrete00_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcrete01_Alb">
+      <init_from>GroundConcrete01_Alb.png</init_from>
+    </image>
+    <image id="GroundConcrete01_Nrm">
+      <init_from>GroundConcrete01_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcrete01_Rgh">
+      <init_from>GroundConcrete01_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcrete02_Alb">
+      <init_from>GroundConcrete02_Alb.png</init_from>
+    </image>
+    <image id="GroundConcrete02_Nrm">
+      <init_from>GroundConcrete02_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcrete02_Rgh">
+      <init_from>GroundConcrete02_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcreteEdge00_Alb">
+      <init_from>GroundConcreteEdge00_Alb.png</init_from>
+    </image>
+    <image id="GroundConcreteEdge00_Nrm">
+      <init_from>GroundConcreteEdge00_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteEdge00_Rgh">
+      <init_from>GroundConcreteEdge00_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_joint_Alb">
+      <init_from>GroundGrassBase_joint_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_joint_Nrm">
+      <init_from>GroundGrassBase_joint_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_joint_Rgh">
+      <init_from>GroundGrassBase_joint_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="GroundSeal_Alb">
+      <init_from>GroundSeal_Alb.png</init_from>
+    </image>
+    <image id="GroundSeal_Mtl">
+      <init_from>GroundSeal_Mtl.png</init_from>
+    </image>
+    <image id="GroundSeal_Nrm">
+      <init_from>GroundSeal_Nrm.png</init_from>
+    </image>
+    <image id="GroundSeal_Rgh">
+      <init_from>GroundSeal_Rgh.png</init_from>
+    </image>
+    <image id="GroundSideDitch_Alb">
+      <init_from>GroundSideDitch_Alb.png</init_from>
+    </image>
+    <image id="GroundSideDitch_Nrm">
+      <init_from>GroundSideDitch_Nrm.png</init_from>
+    </image>
+    <image id="GroundSideDitch_Rgh">
+      <init_from>GroundSideDitch_Rgh.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Alb">
+      <init_from>GroundSoilLittleGrass_Alb.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_joint_Alb">
+      <init_from>GroundSoilLittleGrass_joint_Alb.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_joint_Mtl">
+      <init_from>GroundSoilLittleGrass_joint_Mtl.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_joint_Nrm">
+      <init_from>GroundSoilLittleGrass_joint_Nrm.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_joint_Rgh">
+      <init_from>GroundSoilLittleGrass_joint_Rgh.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Mtl">
+      <init_from>GroundSoilLittleGrass_Mtl.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Nrm">
+      <init_from>GroundSoilLittleGrass_Nrm.png</init_from>
+    </image>
+    <image id="GroundSoilLittleGrass_Rgh">
+      <init_from>GroundSoilLittleGrass_Rgh.png</init_from>
+    </image>
+    <image id="GroundSteelPlate00_Alb">
+      <init_from>GroundSteelPlate00_Alb.png</init_from>
+    </image>
+    <image id="GroundSteelPlate00_Mtl">
+      <init_from>GroundSteelPlate00_Mtl.png</init_from>
+    </image>
+    <image id="GroundSteelPlate00_Nrm">
+      <init_from>GroundSteelPlate00_Nrm.png</init_from>
+    </image>
+    <image id="GroundSteelPlate00_Rgh">
+      <init_from>GroundSteelPlate00_Rgh.png</init_from>
+    </image>
+    <image id="InfoBoard00_Alb">
+      <init_from>InfoBoard00_Alb.png</init_from>
+    </image>
+    <image id="InfoBoard00_Nrm">
+      <init_from>InfoBoard00_Nrm.png</init_from>
+    </image>
+    <image id="InfoBoard00_Rgh">
+      <init_from>InfoBoard00_Rgh.png</init_from>
+    </image>
+    <image id="JointGrCon00GrAspCraHi_Alb">
+      <init_from>JointGrCon00GrAspCraHi_Alb.png</init_from>
+    </image>
+    <image id="JointGrCon00GrAspCraHi_Nrm">
+      <init_from>JointGrCon00GrAspCraHi_Nrm.png</init_from>
+    </image>
+    <image id="JointGrCon00GrAspCraHi_Rgh">
+      <init_from>JointGrCon00GrAspCraHi_Rgh.png</init_from>
+    </image>
+    <image id="JointGrCon02GrAspCraHi_Alb">
+      <init_from>JointGrCon02GrAspCraHi_Alb.png</init_from>
+    </image>
+    <image id="JointGrCon02GrAspCraHi_Nrm">
+      <init_from>JointGrCon02GrAspCraHi_Nrm.png</init_from>
+    </image>
+    <image id="JointGrCon02GrAspCraHi_Rgh">
+      <init_from>JointGrCon02GrAspCraHi_Rgh.png</init_from>
+    </image>
+    <image id="ManholeStandA00_Alb">
+      <init_from>ManholeStandA00_Alb.png</init_from>
+    </image>
+    <image id="ManholeStandA00_Mtl">
+      <init_from>ManholeStandA00_Mtl.png</init_from>
+    </image>
+    <image id="ManholeStandA00_Nrm">
+      <init_from>ManholeStandA00_Nrm.png</init_from>
+    </image>
+    <image id="ManholeStandA00_Rgh">
+      <init_from>ManholeStandA00_Rgh.png</init_from>
+    </image>
+    <image id="ManholeStandSet00_Alb">
+      <init_from>ManholeStandSet00_Alb.png</init_from>
+    </image>
+    <image id="ManholeStandSet00_Mtl">
+      <init_from>ManholeStandSet00_Mtl.png</init_from>
+    </image>
+    <image id="ManholeStandSet00_Nrm">
+      <init_from>ManholeStandSet00_Nrm.png</init_from>
+    </image>
+    <image id="ManholeStandSet00_Rgh">
+      <init_from>ManholeStandSet00_Rgh.png</init_from>
+    </image>
+    <image id="ManholeStandSet01_Alb">
+      <init_from>ManholeStandSet01_Alb.png</init_from>
+    </image>
+    <image id="ManholeStandSet01_Mtl">
+      <init_from>ManholeStandSet01_Mtl.png</init_from>
+    </image>
+    <image id="ManholeStandSet01_Nrm">
+      <init_from>ManholeStandSet01_Nrm.png</init_from>
+    </image>
+    <image id="ManholeStandSet01_Rgh">
+      <init_from>ManholeStandSet01_Rgh.png</init_from>
+    </image>
+    <image id="MetalFrameSet_Alb">
+      <init_from>MetalFrameSet_Alb.png</init_from>
+    </image>
+    <image id="MetalFrameSet_Mtl">
+      <init_from>MetalFrameSet_Mtl.png</init_from>
+    </image>
+    <image id="MetalFrameSet_Nrm">
+      <init_from>MetalFrameSet_Nrm.png</init_from>
+    </image>
+    <image id="MetalFrameSet_Rgh">
+      <init_from>MetalFrameSet_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlate00_Alb">
+      <init_from>MetalPlate00_Alb.png</init_from>
+    </image>
+    <image id="MetalPlate00_Mtl">
+      <init_from>MetalPlate00_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlate00_Nrm">
+      <init_from>MetalPlate00_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlate00_Rgh">
+      <init_from>MetalPlate00_Rgh.png</init_from>
+    </image>
+    <image id="Moss01_Alb">
+      <init_from>Moss01_Alb.png</init_from>
+    </image>
+    <image id="Moss01_Nrm">
+      <init_from>Moss01_Nrm.png</init_from>
+    </image>
+    <image id="Moss01_Rgh">
+      <init_from>Moss01_Rgh.png</init_from>
+    </image>
+    <image id="Mt_TunnelFence_Alb">
+      <init_from>Mt_TunnelFence_Alb.png</init_from>
+    </image>
+    <image id="Mt_TunnelFence_Mtl">
+      <init_from>Mt_TunnelFence_Mtl.png</init_from>
+    </image>
+    <image id="Mt_TunnelFence_Nrm">
+      <init_from>Mt_TunnelFence_Nrm.png</init_from>
+    </image>
+    <image id="Mt_TunnelFence_Rgh">
+      <init_from>Mt_TunnelFence_Rgh.png</init_from>
+    </image>
+    <image id="ObjMatomeA_Alb">
+      <init_from>ObjMatomeA_Alb.png</init_from>
+    </image>
+    <image id="ObjMatomeA_Nrm">
+      <init_from>ObjMatomeA_Nrm.png</init_from>
+    </image>
+    <image id="ObjMatomeA_Rgh">
+      <init_from>ObjMatomeA_Rgh.png</init_from>
+    </image>
+    <image id="OctRockBese_Alb">
+      <init_from>OctRockBese_Alb.png</init_from>
+    </image>
+    <image id="OctRockBese_Nrm">
+      <init_from>OctRockBese_Nrm.png</init_from>
+    </image>
+    <image id="OctRockBese_Rgh">
+      <init_from>OctRockBese_Rgh.png</init_from>
+    </image>
+    <image id="PlateSteelGrey00_Alb">
+      <init_from>PlateSteelGrey00_Alb.png</init_from>
+    </image>
+    <image id="PlateSteelGrey00_Mtl">
+      <init_from>PlateSteelGrey00_Mtl.png</init_from>
+    </image>
+    <image id="PlateSteelGrey00_Nrm">
+      <init_from>PlateSteelGrey00_Nrm.png</init_from>
+    </image>
+    <image id="PlateSteelGrey00_Rgh">
+      <init_from>PlateSteelGrey00_Rgh.png</init_from>
+    </image>
+    <image id="Puddle_Alb">
+      <init_from>Puddle_Alb.png</init_from>
+    </image>
+    <image id="Puddle_Nrm">
+      <init_from>Puddle_Nrm.png</init_from>
+    </image>
+    <image id="Rock00_Alb">
+      <init_from>Rock00_Alb.png</init_from>
+    </image>
+    <image id="Rock00_np_Alb">
+      <init_from>Rock00_np_Alb.png</init_from>
+    </image>
+    <image id="Rock00_np_Nrm">
+      <init_from>Rock00_np_Nrm.png</init_from>
+    </image>
+    <image id="Rock00_np_Rgh">
+      <init_from>Rock00_np_Rgh.png</init_from>
+    </image>
+    <image id="Rock00_Nrm">
+      <init_from>Rock00_Nrm.png</init_from>
+    </image>
+    <image id="Rock00_Rgh">
+      <init_from>Rock00_Rgh.png</init_from>
+    </image>
+    <image id="Rock01_Alb">
+      <init_from>Rock01_Alb.png</init_from>
+    </image>
+    <image id="Rock01_Nrm">
+      <init_from>Rock01_Nrm.png</init_from>
+    </image>
+    <image id="Rock01_Rgh">
+      <init_from>Rock01_Rgh.png</init_from>
+    </image>
+    <image id="Rope00_Nrm">
+      <init_from>Rope00_Nrm.png</init_from>
+    </image>
+    <image id="Rope00_Rgh">
+      <init_from>Rope00_Rgh.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Alb">
+      <init_from>ScaffoldSet_Alb.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Mtl">
+      <init_from>ScaffoldSet_Mtl.png</init_from>
+    </image>
+    <image id="ScaffoldSet_np_Alb">
+      <init_from>ScaffoldSet_np_Alb.png</init_from>
+    </image>
+    <image id="ScaffoldSet_np_Mtl">
+      <init_from>ScaffoldSet_np_Mtl.png</init_from>
+    </image>
+    <image id="ScaffoldSet_np_Nrm">
+      <init_from>ScaffoldSet_np_Nrm.png</init_from>
+    </image>
+    <image id="ScaffoldSet_np_Rgh">
+      <init_from>ScaffoldSet_np_Rgh.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Nrm">
+      <init_from>ScaffoldSet_Nrm.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Rgh">
+      <init_from>ScaffoldSet_Rgh.png</init_from>
+    </image>
+    <image id="ScoopHoseSet_Alb">
+      <init_from>ScoopHoseSet_Alb.png</init_from>
+    </image>
+    <image id="ScoopHoseSet_Mtl">
+      <init_from>ScoopHoseSet_Mtl.png</init_from>
+    </image>
+    <image id="ScoopHoseSet_Nrm">
+      <init_from>ScoopHoseSet_Nrm.png</init_from>
+    </image>
+    <image id="ScoopHoseSet_Rgh">
+      <init_from>ScoopHoseSet_Rgh.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Alb">
+      <init_from>ShipVinylSheet_Alb.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Nrm">
+      <init_from>ShipVinylSheet_Nrm.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Rgh">
+      <init_from>ShipVinylSheet_Rgh.png</init_from>
+    </image>
+    <image id="StartStand00_Alb">
+      <init_from>StartStand00_Alb.png</init_from>
+    </image>
+    <image id="StartStand00_Mtl">
+      <init_from>StartStand00_Mtl.png</init_from>
+    </image>
+    <image id="StartStand00_Nrm">
+      <init_from>StartStand00_Nrm.png</init_from>
+    </image>
+    <image id="StartStand00_Rgh">
+      <init_from>StartStand00_Rgh.png</init_from>
+    </image>
+    <image id="TestMesh_Alb">
+      <init_from>TestMesh_Alb.png</init_from>
+    </image>
+    <image id="TestMesh_Nrm">
+      <init_from>TestMesh_Nrm.png</init_from>
+    </image>
+    <image id="Text00_Alb">
+      <init_from>Text00_Alb.png</init_from>
+    </image>
+    <image id="Text00_Nrm">
+      <init_from>Text00_Nrm.png</init_from>
+    </image>
+    <image id="Text00_Rgh">
+      <init_from>Text00_Rgh.png</init_from>
+    </image>
+    <image id="WallBrokenGreen_Alb">
+      <init_from>WallBrokenGreen_Alb.png</init_from>
+    </image>
+    <image id="WallBrokenGreen_Nrm">
+      <init_from>WallBrokenGreen_Nrm.png</init_from>
+    </image>
+    <image id="WallBrokenGreen_Rgh">
+      <init_from>WallBrokenGreen_Rgh.png</init_from>
+    </image>
+    <image id="WallConcrete00_Alb">
+      <init_from>WallConcrete00_Alb.png</init_from>
+    </image>
+    <image id="WallConcrete00_Nrm">
+      <init_from>WallConcrete00_Nrm.png</init_from>
+    </image>
+    <image id="WallConcrete00_Rgh">
+      <init_from>WallConcrete00_Rgh.png</init_from>
+    </image>
+    <image id="Wallshipmetal01_Alb">
+      <init_from>Wallshipmetal01_Alb.png</init_from>
+    </image>
+    <image id="Wallshipmetal01_Mtl">
+      <init_from>Wallshipmetal01_Mtl.png</init_from>
+    </image>
+    <image id="Wallshipmetal01_Nrm">
+      <init_from>Wallshipmetal01_Nrm.png</init_from>
+    </image>
+    <image id="Wallshipmetal01_Rgh">
+      <init_from>Wallshipmetal01_Rgh.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_Alb">
+      <init_from>Wallshipmetal03_Alb.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_Mtl">
+      <init_from>Wallshipmetal03_Mtl.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_np_Alb">
+      <init_from>Wallshipmetal03_np_Alb.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_np_Mtl">
+      <init_from>Wallshipmetal03_np_Mtl.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_np_Nrm">
+      <init_from>Wallshipmetal03_np_Nrm.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_np_Rgh">
+      <init_from>Wallshipmetal03_np_Rgh.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_Nrm">
+      <init_from>Wallshipmetal03_Nrm.png</init_from>
+    </image>
+    <image id="Wallshipmetal03_Rgh">
+      <init_from>Wallshipmetal03_Rgh.png</init_from>
+    </image>
+    <image id="Wallshipmetal04_Alb">
+      <init_from>Wallshipmetal04_Alb.png</init_from>
+    </image>
+    <image id="Wallshipmetal04_Mtl">
+      <init_from>Wallshipmetal04_Mtl.png</init_from>
+    </image>
+    <image id="Wallshipmetal04_Nrm">
+      <init_from>Wallshipmetal04_Nrm.png</init_from>
+    </image>
+    <image id="Wallshipmetal04_Rgh">
+      <init_from>Wallshipmetal04_Rgh.png</init_from>
+    </image>
+    <image id="WallSlopeWhite00_Alb">
+      <init_from>WallSlopeWhite00_Alb.png</init_from>
+    </image>
+    <image id="WallSlopeWhite00_Nrm">
+      <init_from>WallSlopeWhite00_Nrm.png</init_from>
+    </image>
+    <image id="WallSlopeWhite00_Rgh">
+      <init_from>WallSlopeWhite00_Rgh.png</init_from>
+    </image>
+    <image id="WoodBoard_Alb">
+      <init_from>WoodBoard_Alb.png</init_from>
+    </image>
+    <image id="WoodBoard_Nrm">
+      <init_from>WoodBoard_Nrm.png</init_from>
+    </image>
+    <image id="WoodBoard_Rgh">
+      <init_from>WoodBoard_Rgh.png</init_from>
+    </image>
+    <image id="WoodStick00_Alb">
+      <init_from>WoodStick00_Alb.png</init_from>
+    </image>
+    <image id="WoodStick00_Nrm">
+      <init_from>WoodStick00_Nrm.png</init_from>
+    </image>
+    <image id="WoodStick00_Rgh">
+      <init_from>WoodStick00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Graffiti00">
+      <instance_effect url="#Effect_Graffiti00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Graffiti00">
+      <profile_COMMON>
+        <newparam sid="surface_Graffiti00-diffuse">
+          <surface type="2D">
+            <init_from>Graffiti00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Graffiti00-diffuse">
+          <sampler2D>
+            <source>surface_Graffiti00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Graffiti00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pPlane1668__Graffiti00-mesh" name="pPlane1668__Graffiti00">
+      <mesh>
+        <source id="pPlane1668__Graffiti00-position">
+          <float_array id="pPlane1668__Graffiti00-position-array" count="648">320.5382 242.2815 501.4895 319.7139 238.2298 501.5933 323.7263 241.5681 498.9572 322.9021 237.5163 499.061 329.5559 238.3643 494.2326 328.4183 234.6224 495.0628 332.2975 236.2108 491.8066 330.9871 232.445 492.9058 323.7263 241.5681 498.9572 322.9021 237.5163 499.061 326.77 240.4704 496.5409 325.8755 236.5855 496.8735 326.77 240.4704 496.5409 325.8755 236.5855 496.8735 329.5559 238.3643 494.2326 328.4183 234.6224 495.0628 332.2975 236.2108 491.8066 330.9871 232.445 492.9058 334.9583 234.2959 489.4449 333.6994 230.6877 490.828 334.9583 234.2959 489.4449 333.6994 230.6877 490.828 337.1589 231.6533 487.2513 335.978 228.3208 489.2512 366.6116 204.5304 441.2567 366.1003 200.3167 441.051 366.1542 204.5767 441.1369 366.5552 200.2912 441.2807 366.6532 200.3669 441.7676 366.7124 204.615 441.7942 367.6987 204.7562 444.0962 367.7616 200.7738 444.9726 366.7795 202.0451 446.0892 367.9458 205.9307 446.8944 365.3104 205.6908 450.5838 365.2063 201.8472 451.7259 363.4548 205.8703 453.3933 363.4637 202.3029 455.2221 361.6945 207.1971 455.9602 361.7487 203.7031 458.1729 359.9804 208.4755 458.9394 360.0329 205.1809 461.2229 358.2422 209.7233 461.6375 358.2582 206.6557 464.2169 356.5584 211.6432 463.9544 356.5395 208.6033 466.7589 354.9897 210.8607 469.1882 355.0084 213.8964 466.4308 353.4003 216.0577 468.8863 353.3853 212.9797 471.5964 351.4956 218.0477 471.1845 351.484 214.9233 473.8946 349.4334 216.9275 476.1512 349.6152 220.1204 473.6034 347.3284 218.7765 478.3664 347.8277 222.1459 476.1017 345.7515 223.9706 478.4067 345.1047 220.4932 480.5506 343.4525 225.5182 480.952 342.7124 222.187 483.0887 341.2689 227.0584 483.3245 340.2748 223.8588 485.5557 339.1816 229.0779 485.3148 338.0271 225.8636 487.6476 335.978 228.3208 489.2512 337.1589 231.6533 487.2513 366.6467 208.9686 441.2599 366.1355 204.7549 441.0542 366.1894 209.0149 441.14 366.5904 204.7294 441.2839 366.6884 204.8051 441.7708 366.7476 209.0532 441.7974 367.6174 205.7023 444.5205 367.379 209.7307 443.9555 367.3009 206.2307 447.7286 367.1448 210.3563 447.4809 365.7843 210.3449 450.7969 366.1522 206.2711 451.1725 364.4091 210.4053 454.0548 365.2184 206.4294 454.6899 363.4457 210.7935 457.4268 364.4841 206.8645 458.1958 362.4879 210.6363 460.8747 363.7047 206.8831 461.8806 361.4503 210.6024 464.1437 363.0453 207.1782 465.6575 360.6371 211.637 467.2933 362.4319 208.3659 469.078 360.0856 212.8167 470.6591 361.8006 209.61 472.4867 359.4994 213.9525 473.8433 361.0788 210.7793 475.8414 358.785 215.4764 476.8694 360.3087 212.2723 478.9952 358.1077 217.0356 480.1254 359.5136 213.8712 482.248 357.4749 218.5083 483.2171 358.6554 215.3136 485.4277 356.768 220.2358 486.1604 357.8409 216.9713 488.4622 355.8705 221.9894 489.2186 357.1401 218.8731 491.4422 354.8401 223.6271 492.2809 356.5445 220.6875 494.4558 354.161 225.4547 495.2662 356.1035 222.5437 497.4706 355.6247 224.4711 500.4377 353.6822 227.382 498.2332 320.5382 242.2815 501.4895 319.7139 238.2298 501.5933 366.6116 204.5304 441.2567 366.1005 200.3167 441.0511 366.1543 204.5767 441.1369 366.5553 200.2912 441.2807 366.6532 200.3669 441.7677 366.7124 204.615 441.7942 367.6987 204.7562 444.0962 367.7616 200.7738 444.9726 366.7795 202.0451 446.0891 367.9459 205.9307 446.8944 365.3105 205.6908 450.5838 365.2064 201.8472 451.7259 363.4548 205.8703 453.3933 363.4637 202.3029 455.2221 361.6946 207.1971 455.9602 361.7487 203.7031 458.1729 359.9805 208.4755 458.9394 360.033 205.1809 461.223 358.2422 209.7233 461.6375 358.2582 206.6557 464.2169 356.5584 211.6432 463.9545 356.5395 208.6032 466.7589 354.9898 210.8607 469.1883 355.0084 213.8964 466.4309 353.4004 216.0577 468.8863 353.3854 212.9797 471.5963 351.4957 218.0477 471.1845 351.484 214.9233 473.8946 349.4334 216.9275 476.1512 349.6152 220.1204 473.6034 347.3284 218.7765 478.3665 347.8277 222.1459 476.1018 345.7515 223.9705 478.4066 345.1047 220.4932 480.5506 343.4526 225.5182 480.9519 342.7123 222.187 483.0886 341.269 227.0584 483.3246 340.2748 223.8588 485.5557 339.1816 229.0779 485.3148 338.0271 225.8636 487.6476 366.6468 208.9686 441.26 366.1355 204.7549 441.0541 366.1894 209.0148 441.14 366.5904 204.7294 441.2839 366.6884 204.8051 441.7708 366.7476 209.0532 441.7974 367.6174 205.7023 444.5205 367.379 209.7307 443.9555 367.301 206.2306 447.7286 367.1448 210.3563 447.4809 365.7844 210.3449 450.797 366.1522 206.2712 451.1724 364.4091 210.4053 454.0548 365.2184 206.4294 454.6898 363.4457 210.7935 457.4268 364.4841 206.8645 458.1958 362.4879 210.6363 460.8747 363.7048 206.8831 461.8806 361.4503 210.6024 464.1438 363.0454 207.1782 465.6575 360.6371 211.637 467.2933 362.4319 208.3659 469.078 360.0856 212.8167 470.659 361.8006 209.61 472.4867 359.4995 213.9525 473.8434 361.0789 210.7794 475.8414 358.7851 215.4764 476.8695 360.3088 212.2723 478.9951 358.1077 217.0356 480.1255 359.5136 213.8712 482.2481 357.475 218.5083 483.2171 358.6555 215.3136 485.4278 356.7681 220.2358 486.1604 357.8409 216.9713 488.4622 355.8706 221.9894 489.2187 357.1402 218.8731 491.4422 354.8401 223.6271 492.2809 356.5445 220.6875 494.4558 354.1611 225.4547 495.2662 356.1036 222.5437 497.4706 355.6248 224.4711 500.4377 353.6823 227.382 498.2332 323.7263 241.5681 498.9572 323.7263 241.5681 498.9572 322.9021 237.5164 499.0611 322.9021 237.5164 499.0611 329.556 238.3643 494.2325 329.556 238.3643 494.2325 328.4183 234.6224 495.0628 328.4183 234.6224 495.0628 332.2975 236.2108 491.8066 332.2975 236.2108 491.8066 330.9871 232.4451 492.9058 330.9871 232.4451 492.9058 326.77 240.4704 496.5409 326.77 240.4704 496.5409 325.8755 236.5855 496.8735 325.8755 236.5855 496.8735 334.9584 234.2959 489.4448 334.9584 234.2959 489.4448 333.6994 230.6877 490.828 333.6994 230.6877 490.828 337.1589 231.6533 487.2513 337.1589 231.6533 487.2513 335.978 228.3208 489.2511 335.978 228.3208 489.2511</float_array>
+          <technique_common>
+            <accessor source="#pPlane1668__Graffiti00-position-array" count="216" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1668__Graffiti00-normal">
+          <float_array id="pPlane1668__Graffiti00-normal-array" count="648">0.6046967 -0.1017613 0.7906067 0.6046967 -0.1017613 0.7906067 0.6046967 -0.1017613 0.7906067 0.6046967 -0.1017613 0.7906067 0.6457925 -0.01565558 0.7632094 0.6457925 -0.01565558 0.7632094 0.6457925 -0.01565558 0.7632094 0.6457925 -0.01565558 0.7632094 0.5870842 -0.08219178 0.8043053 0.5870842 -0.08219178 0.8043053 0.5870842 -0.08219178 0.8043053 0.5870842 -0.08219178 0.8043053 0.5949119 -0.03522505 0.8043053 0.5949119 -0.03522505 0.8043053 0.5949119 -0.03522505 0.8043053 0.5949119 -0.03522505 0.8043053 0.6497065 0.02935421 0.7612525 0.6497065 0.02935421 0.7612525 0.6497065 0.02935421 0.7612525 0.6497065 0.02935421 0.7612525 0.702544 0.09784736 0.704501 0.702544 0.09784736 0.704501 0.702544 0.09784736 0.704501 0.702544 0.09784736 0.704501 0.7847358 -0.005870841 -0.6203523 0.3581213 0.001956947 -0.9334638 0.3581213 0.001956947 -0.9334638 0.7651663 -0.005870841 -0.6438356 0.9452055 -0.03131115 -0.3228963 0.9432485 -0.0332681 -0.3307241 0.9902152 -0.07827789 -0.109589 0.9843444 -0.06849315 -0.1663405 0.9275929 -0.1311155 0.3502935 0.9178082 -0.1311155 0.3737769 0.9021527 -0.02544031 0.4324853 0.8962818 0.02152642 0.444227 0.8669276 0.2113503 0.4520548 0.8669276 0.2191781 0.4461839 0.8767123 0.258317 0.4031311 0.8786693 0.260274 0.4011742 0.8786693 0.2837573 0.3855186 0.8767123 0.2876712 0.3855186 0.8727984 0.3111546 0.3757339 0.8727984 0.3131115 0.3737769 0.8923679 0.2994129 0.3365949 0.8923679 0.2994129 0.3365949 0.9021527 0.2876712 0.3228963 0.9021527 0.2876712 0.3228963 0.8727984 0.3209393 0.3679061 0.8727984 0.3209393 0.3679061 0.8454012 0.3385518 0.4129159 0.8454012 0.3385518 0.4129159 0.8414873 0.295499 0.4500979 0.8414873 0.295499 0.4500979 0.81409 0.2485323 0.5244619 0.81409 0.2485323 0.5244619 0.7847358 0.223092 0.5792564 0.7847358 0.221135 0.5792564 0.776908 0.2054795 0.5949119 0.776908 0.2035225 0.5968689 0.7671233 0.1937378 0.6125244 0.7651663 0.1937378 0.6144814 0.7553816 0.1722113 0.6320939 0.7553816 0.1722113 0.6320939 0.7514677 0.1565558 0.6418787 0.7514677 0.1565558 0.6418787 0.7847358 -0.005870841 -0.6203523 0.3581213 0.001956947 -0.9334638 0.3581213 0.001956947 -0.9334638 0.7651663 -0.005870841 -0.6438356 0.960861 -0.001956947 -0.2778865 0.9569471 -0.001956947 -0.2876712 0.9941292 0.03131115 -0.1037182 0.9960861 0.0332681 -0.08219178 0.9745597 0.07240704 0.2113503 0.9726027 0.07240704 0.2191781 0.9354208 0.1291585 0.3307241 0.9354208 0.1311155 0.3287671 0.9412916 0.2172211 0.258317 0.9412916 0.2172211 0.2563601 0.9334638 0.2876712 0.2152642 0.9315069 0.2915851 0.2172211 0.9060665 0.3639922 0.2172211 0.9021527 0.3737769 0.2133072 0.888454 0.4403131 0.1232877 0.888454 0.444227 0.109589 0.8845401 0.4677104 0.01174168 0.8845401 0.4677104 0.009784736 0.8845401 0.4677104 -0.001956947 0.8845401 0.4677104 0 0.8923679 0.4520548 0.007827789 0.8923679 0.4520548 0.007827789 0.9041096 0.4285714 0.001956947 0.9041096 0.4285714 0.001956947 0.9119374 0.4090019 0.01761252 0.9138943 0.407045 0.01761252 0.925636 0.3757339 0.03522505 0.9275929 0.3737769 0.03522505 0.9334638 0.3581213 0.0332681 0.9334638 0.3581213 0.0332681 0.9178082 0.3992172 0.009784736 0.9158513 0.3992172 0.009784736 0.890411 0.4481409 -0.06262231 0.890411 0.4500979 -0.06457926 0.8767123 0.4618395 -0.1389433 0.8767123 0.4618395 -0.1389433 0.8727984 0.4618395 -0.1585127 0.8727984 0.4618395 -0.1585127 0.7964775 0.09784736 0.5968689 0.7964775 0.09784736 0.5968689 -0.62818 0.2328767 0.7416829 -0.888454 0.2172211 0.4050881 -0.9589041 0.1702544 0.2270059 -0.6144814 0.2465753 0.7495108 -0.3091977 0.2544031 0.9158513 -0.3561644 0.2328767 0.9060665 -0.1174168 0.3170255 0.9412916 -0.1017613 0.2035225 0.9726027 0.4090019 0.223092 0.8845401 0.4579256 0.4246575 0.7808219 0.4266145 0.1193738 0.8962818 0.3444227 0.003913894 0.9393346 0.4344423 -0.109589 0.8943248 0.3776908 -0.1272016 0.9178082 0.369863 -0.148728 0.9178082 0.3424658 -0.1506849 0.9275929 0.3502935 -0.1702544 0.9217221 0.332681 -0.1761252 0.9275929 0.332681 -0.1976517 0.9217221 0.3131115 -0.1976517 0.9295499 0.2896282 -0.1761252 0.9412916 0.2857143 -0.1761252 0.9412916 0.2778865 -0.1604697 0.9471624 0.2759295 -0.1604697 0.9471624 0.3170255 -0.2054795 0.925636 0.3209393 -0.2054795 0.9236791 0.3600783 -0.2309198 0.9041096 0.3600783 -0.2544031 0.8982387 0.3992172 -0.2407045 0.8845401 0.4050881 -0.1741683 0.8982387 0.483366 -0.1702544 0.8590998 0.4657534 -0.1272016 0.8747554 0.5342466 -0.1565558 0.8297456 0.555773 -0.1565558 0.816047 0.5518591 -0.1428571 0.8219178 0.5636008 -0.1428571 0.81409 0.5733855 -0.1350294 0.8082192 0.5870842 -0.1369863 0.7984344 0.6007828 -0.1174168 0.7906067 0.6007828 -0.1428571 0.7866927 -0.62818 0.2328767 0.7416829 -0.888454 0.2172211 0.4050881 -0.9589041 0.1702544 0.2270059 -0.6144814 0.2465753 0.7495108 -0.2896282 0.2289628 0.9295499 -0.2798434 0.2133072 0.9354208 -0.1135029 0.1624266 0.9804305 -0.06849315 0.1526419 0.9863014 0.1996086 0.07632094 0.9765166 0.2172211 0.09589041 0.9706458 0.3483366 0.01956947 0.9373777 0.2837573 -0.01761252 0.9589041 0.2485323 -0.06457926 0.9667319 0.1819961 -0.09784736 0.9784736 0.1937378 -0.1291585 0.9726027 0.1506849 -0.1545988 0.9765166 0.2035225 -0.2015656 0.9589041 0.1330724 -0.2407045 0.960861 0.08414873 -0.2778865 0.9569471 0.001956947 -0.3013699 0.9530333 -0.05870841 -0.295499 0.9530333 -0.08023483 -0.297456 0.9510763 -0.07827789 -0.2935421 0.9530333 -0.06457926 -0.2915851 0.9549902 -0.06457926 -0.2778865 0.9589041 -0.04892368 -0.2759295 0.960861 -0.06849315 -0.2524462 0.964775 -0.05479452 -0.2504892 0.9667319 -0.06262231 -0.2328767 0.9706458 -0.03131115 -0.2309198 0.9726027 -0.03131115 -0.2015656 0.9784736 0.001956947 -0.1976517 0.9804305 0 -0.1819961 0.9843444 -0.009784736 -0.1819961 0.9823875 -0.003913894 -0.221135 0.9745597 -0.07240704 -0.223092 0.9726027 -0.1037182 -0.2641879 0.9589041 -0.1722113 -0.2641879 0.9491194 -0.2035225 -0.2681018 0.9412916 -0.223092 -0.2681018 0.9373777 -0.2250489 -0.2661448 0.9373777 -0.2250489 -0.2661448 0.9373777 0.8023483 0.09393346 0.5890411 0.8023483 0.09393346 0.5890411 0.7964775 0.09784736 0.5968689 0.8082192 0.07240704 0.5851272 0.7553816 0.037182 0.6536204 0.8003914 0.02935421 0.5988258 0.7573385 0.02348337 0.6536204 0.8043053 -0.01369863 0.5949119 0.7573385 0.02348337 0.6536204 0.7455969 0.02348337 0.667319 0.7573385 0.007827789 0.6516634 0.7475538 -0.01956947 0.6634051 0.8082192 0.07436399 0.5851272 0.7964775 0.0665362 0.6027398 0.81409 0.05088063 0.5792564 0.8003914 0.02935421 0.5988258 0.7475538 -0.01761252 0.6634051 0.6868885 0.01369863 0.7260274 0.7495108 -0.06457926 0.6594912 0.6829746 -0.06849315 0.7260274 0.6849315 -0.06262231 0.7260274 0.6164383 -0.06457926 0.7847358 0.6751468 -0.1565558 0.7221135 0.6105675 -0.109589 0.7827789</float_array>
+          <technique_common>
+            <accessor source="#pPlane1668__Graffiti00-normal-array" count="216" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1668__Graffiti00-texcoord">
+          <float_array id="pPlane1668__Graffiti00-texcoord-array" count="432">1.019531 0.04980469 1.019531 0.003417969 0.9746094 0.04980469 0.9741211 0.003417969 0.8847656 0.04980469 0.8842773 0.003417969 0.8398438 0.04980469 0.8393555 0.003417969 0.9746094 0.04980469 0.9741211 0.003417969 0.9296875 0.04980469 0.9291992 0.003417969 0.9296875 0.04980469 0.9291992 0.003417969 0.8847656 0.04980469 0.8842773 0.003417969 0.8398438 0.04980469 0.8393555 0.003417969 0.7944336 0.04980469 0.7944336 0.003417969 0.7944336 0.04980469 0.7944336 0.003417969 0.7495117 0.04980469 0.7495117 0.003417969 0.01274109 0.04980469 0.002557755 0.003417969 0.002986908 0.04980469 0.005386353 0.003417969 0.0116806 0.003417969 0.02033997 0.04980469 0.04437256 0.04980469 0.04394531 0.003417969 0.08532715 0.003417969 0.08575439 0.04980469 0.1270752 0.04980469 0.126709 0.003417969 0.168457 0.04980469 0.1680908 0.003417969 0.2098389 0.04980469 0.2095947 0.003417969 0.2512207 0.04980469 0.2509766 0.003417969 0.2924805 0.04980469 0.2922363 0.003417969 0.3339844 0.04980469 0.3337402 0.003417969 0.3752441 0.003417969 0.3754883 0.04980469 0.416748 0.04980469 0.4165039 0.003417969 0.458252 0.04980469 0.4580078 0.003417969 0.4995117 0.003417969 0.4995117 0.04980469 0.5405273 0.003417969 0.5410156 0.04980469 0.5820313 0.04980469 0.5820313 0.003417969 0.6235352 0.04980469 0.6235352 0.003417969 0.6650391 0.04980469 0.6650391 0.003417969 0.706543 0.04980469 0.706543 0.003417969 0.7495117 0.003417969 0.7495117 0.04980469 0.01274109 0.04980469 0.002557755 0.003417969 0.002986908 0.04980469 0.005386353 0.003417969 0.0116806 0.003417969 0.02033997 0.04980469 0.04394531 0.003417969 0.04437256 0.04980469 0.08532715 0.003417969 0.08575439 0.04980469 0.1270752 0.04980469 0.126709 0.003417969 0.168457 0.04980469 0.1680908 0.003417969 0.2098389 0.04980469 0.2095947 0.003417969 0.2512207 0.04980469 0.2509766 0.003417969 0.2924805 0.04980469 0.2922363 0.003417969 0.3339844 0.04980469 0.3337402 0.003417969 0.3754883 0.04980469 0.3752441 0.003417969 0.416748 0.04980469 0.4165039 0.003417969 0.458252 0.04980469 0.4580078 0.003417969 0.4995117 0.04980469 0.4995117 0.003417969 0.5410156 0.04980469 0.5405273 0.003417969 0.5820313 0.04980469 0.5820313 0.003417969 0.6235352 0.04980469 0.6235352 0.003417969 0.6650391 0.04980469 0.6650391 0.003417969 0.706543 0.04980469 0.706543 0.003417969 0.7475586 0.003417969 0.7475586 0.04980469 1.019531 0.04980469 1.019531 0.003417969 0.01274109 0.04980469 0.002557755 0.003417969 0.002986908 0.04980469 0.005386353 0.003417969 0.0116806 0.003417969 0.02033997 0.04980469 0.04437256 0.04980469 0.04394531 0.003417969 0.08532715 0.003417969 0.08575439 0.04980469 0.1270752 0.04980469 0.126709 0.003417969 0.168457 0.04980469 0.1680908 0.003417969 0.2098389 0.04980469 0.2095947 0.003417969 0.2512207 0.04980469 0.2509766 0.003417969 0.2924805 0.04980469 0.2922363 0.003417969 0.3339844 0.04980469 0.3337402 0.003417969 0.3752441 0.003417969 0.3754883 0.04980469 0.416748 0.04980469 0.4165039 0.003417969 0.458252 0.04980469 0.4580078 0.003417969 0.4995117 0.003417969 0.4995117 0.04980469 0.5405273 0.003417969 0.5410156 0.04980469 0.5820313 0.04980469 0.5820313 0.003417969 0.6235352 0.04980469 0.6235352 0.003417969 0.6650391 0.04980469 0.6650391 0.003417969 0.706543 0.04980469 0.706543 0.003417969 0.01274109 0.04980469 0.002557755 0.003417969 0.002986908 0.04980469 0.005386353 0.003417969 0.0116806 0.003417969 0.02033997 0.04980469 0.04394531 0.003417969 0.04437256 0.04980469 0.08532715 0.003417969 0.08575439 0.04980469 0.1270752 0.04980469 0.126709 0.003417969 0.168457 0.04980469 0.1680908 0.003417969 0.2098389 0.04980469 0.2095947 0.003417969 0.2512207 0.04980469 0.2509766 0.003417969 0.2924805 0.04980469 0.2922363 0.003417969 0.3339844 0.04980469 0.3337402 0.003417969 0.3754883 0.04980469 0.3752441 0.003417969 0.416748 0.04980469 0.4165039 0.003417969 0.458252 0.04980469 0.4580078 0.003417969 0.4995117 0.04980469 0.4995117 0.003417969 0.5410156 0.04980469 0.5405273 0.003417969 0.5820313 0.04980469 0.5820313 0.003417969 0.6235352 0.04980469 0.6235352 0.003417969 0.6650391 0.04980469 0.6650391 0.003417969 0.706543 0.04980469 0.706543 0.003417969 0.7475586 0.003417969 0.7475586 0.04980469 0.9746094 0.04980469 0.9746094 0.04980469 0.9741211 0.003417969 0.9741211 0.003417969 0.8847656 0.04980469 0.8847656 0.04980469 0.8842773 0.003417969 0.8842773 0.003417969 0.8398438 0.04980469 0.8398438 0.04980469 0.8393555 0.003417969 0.8393555 0.003417969 0.9296875 0.04980469 0.9296875 0.04980469 0.9291992 0.003417969 0.9291992 0.003417969 0.7944336 0.04980469 0.7944336 0.04980469 0.7944336 0.003417969 0.7944336 0.003417969 0.7495117 0.04980469 0.7495117 0.04980469 0.7495117 0.003417969 0.7495117 0.003417969</float_array>
+          <technique_common>
+            <accessor source="#pPlane1668__Graffiti00-texcoord-array" count="216" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1668__Graffiti00-texcoord_1">
+          <float_array id="pPlane1668__Graffiti00-texcoord-array_1" count="432">0.1795377 0.03883421 0.1930419 0.04034483 0.1795377 0.03865111 0.1930419 0.04013121 0.1795377 0.03826964 0.1930419 0.03971922 0.1795377 0.03807127 0.1930419 0.0395056 0.1795377 0.03865111 0.1930419 0.04013121 0.1795377 0.03845274 0.1930419 0.03991759 0.1795377 0.03845274 0.1930419 0.03991759 0.1795377 0.03826964 0.1930419 0.03971922 0.1795377 0.03807127 0.1930419 0.0395056 0.1795377 0.03788817 0.1930419 0.03929198 0.1795377 0.03788817 0.1930419 0.03929198 0.1795377 0.03768981 0.1930419 0.03909361 0.1795377 0.008667111 0.1930419 0.007034421 0.1795377 0.008255124 0.1930419 0.007156491 0.1930419 0.007446408 0.1795377 0.008987546 0.1795377 0.009979427 0.1930419 0.008895993 0.1930419 0.01077288 0.1795377 0.01170367 0.1795377 0.01342791 0.1930419 0.01264971 0.1795377 0.01513696 0.1930419 0.01452661 0.1795377 0.0168612 0.1930419 0.01640344 0.1795377 0.0185855 0.1930419 0.01826507 0.1795377 0.02030975 0.1930419 0.0201419 0.1795377 0.02201879 0.1930419 0.02201879 0.1930419 0.02389562 0.1795377 0.02374303 0.1795377 0.02546734 0.1930419 0.02577251 0.1795377 0.02717632 0.1930419 0.02763408 0.1930419 0.02951097 0.1795377 0.02890056 0.1930419 0.03138781 0.1795377 0.03062487 0.1795377 0.03234911 0.1930419 0.0332647 0.1795377 0.03405815 0.1930419 0.03514153 0.1795377 0.0357824 0.1930419 0.0370031 0.1795377 0.0375067 0.1930419 0.03887999 0.1930419 0.03909361 0.1795377 0.03768981 0.1795377 0.008667111 0.1930419 0.007034421 0.1795377 0.008255124 0.1930419 0.007156491 0.1930419 0.007446408 0.1795377 0.008987546 0.1930419 0.008895993 0.1795377 0.009979427 0.1930419 0.01077288 0.1795377 0.01170367 0.1795377 0.01342791 0.1930419 0.01264971 0.1795377 0.01513696 0.1930419 0.01452661 0.1795377 0.0168612 0.1930419 0.01640344 0.1795377 0.0185855 0.1930419 0.01826507 0.1795377 0.02030975 0.1930419 0.0201419 0.1795377 0.02201879 0.1930419 0.02201879 0.1795377 0.02374303 0.1930419 0.02389562 0.1795377 0.02546734 0.1930419 0.02577251 0.1795377 0.02717632 0.1930419 0.02763408 0.1795377 0.02890056 0.1930419 0.02951097 0.1795377 0.03062487 0.1930419 0.03138781 0.1795377 0.03234911 0.1930419 0.0332647 0.1795377 0.03405815 0.1930419 0.03514153 0.1795377 0.0357824 0.1930419 0.0370031 0.1795377 0.0375067 0.1930419 0.03887999 0.1930419 0.04075682 0.1795377 0.03923094 0.1795377 0.03883421 0.1930419 0.04034483 0.1795377 0.008667111 0.1930419 0.007034421 0.1795377 0.008255124 0.1930419 0.007156491 0.1930419 0.007446408 0.1795377 0.008987546 0.1795377 0.009979427 0.1930419 0.008895993 0.1930419 0.01077288 0.1795377 0.01170367 0.1795377 0.01342791 0.1930419 0.01264971 0.1795377 0.01513696 0.1930419 0.01452661 0.1795377 0.0168612 0.1930419 0.01640344 0.1795377 0.0185855 0.1930419 0.01826507 0.1795377 0.02030975 0.1930419 0.0201419 0.1795377 0.02201879 0.1930419 0.02201879 0.1930419 0.02389562 0.1795377 0.02374303 0.1795377 0.02546734 0.1930419 0.02577251 0.1795377 0.02717632 0.1930419 0.02763408 0.1930419 0.02951097 0.1795377 0.02890056 0.1930419 0.03138781 0.1795377 0.03062487 0.1795377 0.03234911 0.1930419 0.0332647 0.1795377 0.03405815 0.1930419 0.03514153 0.1795377 0.0357824 0.1930419 0.0370031 0.1795377 0.0375067 0.1930419 0.03887999 0.1795377 0.008667111 0.1930419 0.007034421 0.1795377 0.008255124 0.1930419 0.007156491 0.1930419 0.007446408 0.1795377 0.008987546 0.1930419 0.008895993 0.1795377 0.009979427 0.1930419 0.01077288 0.1795377 0.01170367 0.1795377 0.01342791 0.1930419 0.01264971 0.1795377 0.01513696 0.1930419 0.01452661 0.1795377 0.0168612 0.1930419 0.01640344 0.1795377 0.0185855 0.1930419 0.01826507 0.1795377 0.02030975 0.1930419 0.0201419 0.1795377 0.02201879 0.1930419 0.02201879 0.1795377 0.02374303 0.1930419 0.02389562 0.1795377 0.02546734 0.1930419 0.02577251 0.1795377 0.02717632 0.1930419 0.02763408 0.1795377 0.02890056 0.1930419 0.02951097 0.1795377 0.03062487 0.1930419 0.03138781 0.1795377 0.03234911 0.1930419 0.0332647 0.1795377 0.03405815 0.1930419 0.03514153 0.1795377 0.0357824 0.1930419 0.0370031 0.1795377 0.0375067 0.1930419 0.03887999 0.1930419 0.04075682 0.1795377 0.03923094 0.1795377 0.03865111 0.1795377 0.03865111 0.1930419 0.04013121 0.1930419 0.04013121 0.1795377 0.03826964 0.1795377 0.03826964 0.1930419 0.03971922 0.1930419 0.03971922 0.1795377 0.03807127 0.1795377 0.03807127 0.1930419 0.0395056 0.1930419 0.0395056 0.1795377 0.03845274 0.1795377 0.03845274 0.1930419 0.03991759 0.1930419 0.03991759 0.1795377 0.03788817 0.1795377 0.03788817 0.1930419 0.03929198 0.1930419 0.03929198 0.1795377 0.03768981 0.1795377 0.03768981 0.1930419 0.03909361 0.1930419 0.03909361</float_array>
+          <technique_common>
+            <accessor source="#pPlane1668__Graffiti00-texcoord-array_1" count="216" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane1668__Graffiti00-vertex">
+          <input semantic="POSITION" source="#pPlane1668__Graffiti00-position" />
+        </vertices>
+        <triangles material="Graffiti00" count="92">
+          <input semantic="VERTEX" source="#pPlane1668__Graffiti00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pPlane1668__Graffiti00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pPlane1668__Graffiti00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pPlane1668__Graffiti00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 27 27 27 27 25 25 25 25 24 24 24 24 28 28 28 28 27 27 27 27 24 24 24 24 28 28 28 28 24 24 24 24 29 29 29 29 28 28 28 28 29 29 29 29 30 30 30 30 28 28 28 28 30 30 30 30 31 31 31 31 30 30 30 30 32 32 32 32 31 31 31 31 30 30 30 30 33 33 33 33 32 32 32 32 32 32 32 32 33 33 33 33 34 34 34 34 32 32 32 32 34 34 34 34 35 35 35 35 34 34 34 34 36 36 36 36 35 35 35 35 35 35 35 35 36 36 36 36 37 37 37 37 36 36 36 36 38 38 38 38 37 37 37 37 37 37 37 37 38 38 38 38 39 39 39 39 38 38 38 38 40 40 40 40 39 39 39 39 39 39 39 39 40 40 40 40 41 41 41 41 40 40 40 40 42 42 42 42 41 41 41 41 41 41 41 41 42 42 42 42 43 43 43 43 42 42 42 42 44 44 44 44 43 43 43 43 43 43 43 43 44 44 44 44 45 45 45 45 44 44 44 44 46 46 46 46 45 45 45 45 44 44 44 44 47 47 47 47 46 46 46 46 46 46 46 46 47 47 47 47 48 48 48 48 46 46 46 46 48 48 48 48 49 49 49 49 48 48 48 48 50 50 50 50 49 49 49 49 49 49 49 49 50 50 50 50 51 51 51 51 50 50 50 50 52 52 52 52 51 51 51 51 50 50 50 50 53 53 53 53 52 52 52 52 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 54 54 54 54 55 55 55 55 56 56 56 56 54 54 54 54 56 56 56 56 57 57 57 57 56 56 56 56 58 58 58 58 57 57 57 57 57 57 57 57 58 58 58 58 59 59 59 59 58 58 58 58 60 60 60 60 59 59 59 59 59 59 59 59 60 60 60 60 61 61 61 61 60 60 60 60 62 62 62 62 61 61 61 61 61 61 61 61 62 62 62 62 63 63 63 63 62 62 62 62 64 64 64 64 63 63 63 63 62 62 62 62 65 65 65 65 64 64 64 64 66 66 66 66 67 67 67 67 68 68 68 68 66 66 66 66 69 69 69 69 67 67 67 67 70 70 70 70 69 69 69 69 66 66 66 66 71 71 71 71 70 70 70 70 66 66 66 66 71 71 71 71 72 72 72 72 70 70 70 70 71 71 71 71 73 73 73 73 72 72 72 72 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 74 74 74 74 75 75 75 75 76 76 76 76 74 74 74 74 76 76 76 76 77 77 77 77 76 76 76 76 78 78 78 78 77 77 77 77 77 77 77 77 78 78 78 78 79 79 79 79 78 78 78 78 80 80 80 80 79 79 79 79 79 79 79 79 80 80 80 80 81 81 81 81 80 80 80 80 82 82 82 82 81 81 81 81 81 81 81 81 82 82 82 82 83 83 83 83 82 82 82 82 84 84 84 84 83 83 83 83 83 83 83 83 84 84 84 84 85 85 85 85 84 84 84 84 86 86 86 86 85 85 85 85 85 85 85 85 86 86 86 86 87 87 87 87 86 86 86 86 88 88 88 88 87 87 87 87 87 87 87 87 88 88 88 88 89 89 89 89 88 88 88 88 90 90 90 90 89 89 89 89 89 89 89 89 90 90 90 90 91 91 91 91 90 90 90 90 92 92 92 92 91 91 91 91 91 91 91 91 92 92 92 92 93 93 93 93 92 92 92 92 94 94 94 94 93 93 93 93 93 93 93 93 94 94 94 94 95 95 95 95 94 94 94 94 96 96 96 96 95 95 95 95 95 95 95 95 96 96 96 96 97 97 97 97 96 96 96 96 98 98 98 98 97 97 97 97 97 97 97 97 98 98 98 98 99 99 99 99 98 98 98 98 100 100 100 100 99 99 99 99 99 99 99 99 100 100 100 100 101 101 101 101 100 100 100 100 102 102 102 102 101 101 101 101 101 101 101 101 102 102 102 102 103 103 103 103 102 102 102 102 104 104 104 104 103 103 103 103 103 103 103 103 104 104 104 104 105 105 105 105 104 104 104 104 106 106 106 106 105 105 105 105 104 104 104 104 107 107 107 107 106 106 106 106 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pPlane1668__Graffiti00-mesh">
+      <skin source="#pPlane1668__Graffiti00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pPlane1668__Graffiti00-mesh-joint">
+          <Name_array id="pPlane1668__Graffiti00-mesh-joint-array" count="15">sita_8 sita_7 sita_6 root_TapeFlag02 sita_1 sita_2 sita_3 sita_4 sita_5 ue_1 ue_2 ue_3 ue_4 ue_5 ue_6</Name_array>
+          <technique_common>
+            <accessor source="#pPlane1668__Graffiti00-mesh-joint-array" count="15" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1668__Graffiti00-mesh-inv_bind_matrix">
+          <float_array id="pPlane1668__Graffiti00-mesh-inv_bind_matrix-array" count="240">-0.771309 0.1725475 0.6126255 -97.65939 -0.1992389 -0.9796302 0.02506924 287.4257 0.604472 -0.1027227 0.7899757 -564.0876 0 0 0 0.9999999 -0.6973817 0.4134994 0.5853862 -153.6806 -0.3167974 -0.9105043 0.2657465 188.8492 0.6428827 -0.0001222044 0.7659647 -589.2009 0 0 0 1 -0.5923462 0.6016223 0.5358886 -196.9321 -0.2791001 -0.7771766 0.5640034 -1.502758 0.7557969 0.1845186 0.6282703 -602.4744 0 0 0 1 7.460825E-05 0.1829748 0.9831175 -469.2597 -0.1457597 -0.972616 0.1810314 175.0636 0.9893199 -0.1433125 0.02659772 -344.9773 0 0 0 0.9999999 -0.4861071 0.1977473 0.8512319 -243.2709 -0.04181817 -0.9782097 0.2033643 123.6713 0.872898 0.06325986 0.483784 -549.0648 0 0 0 1 -0.4780429 0.465207 0.7450218 -263.5302 0.01275249 -0.8444537 0.535477 -75.25951 0.8782439 0.2654818 0.3977524 -553.348 0 0 0 1 -0.4672319 0.6015648 0.6479306 -261.6668 -0.004879624 -0.7345849 0.6784994 -158.6136 0.8841213 0.3138548 0.3461567 -541.6668 0 0 0 1 -0.554049 0.546617 0.6278851 -220.514 -0.002775922 -0.7554396 0.6552125 -143.8482 0.8324794 0.3612768 0.4200677 -568.7106 0 0 0 1 -0.6195846 0.4921598 0.6114687 -188.647 -0.1563421 -0.8407801 0.5183111 -6.346059 0.7692024 0.2255391 0.5978794 -601.645 0 0 0 1 -0.2921207 0.04696579 0.9552277 -330.2068 0.03756385 -0.9974595 0.06052974 166.928 0.9556435 0.05356405 0.2896143 -491.3722 0 0 0 1 -0.2135049 0.1336948 0.9677507 -393.2932 0.2509124 -0.9498587 0.1865792 21.67959 0.9441708 0.2826562 0.1692537 -479.9402 0 0 0 1 -0.1854121 0.3902508 0.9018465 -437.239 0.4339541 -0.7909023 0.4314598 -192.556 0.8816497 0.4713579 -0.02270815 -407.1485 0 0 0 1 -0.2101183 0.469107 0.8577815 -434.957 0.3684062 -0.7747045 0.5139165 -211.8693 0.9056087 0.4239953 -0.01004252 -411.6563 0 0 0 1 -0.2138176 0.5149629 0.8301179 -440.9365 0.2594193 -0.7893257 0.5564772 -190.4524 0.941798 0.3343333 0.03518027 -426.93 0 0 0 1 -0.1340875 0.5397912 0.8310515 -486.0404 0.4696635 -0.7038393 0.5329418 -272.6328 0.8726036 0.4617753 -0.1591443 -334.6711 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane1668__Graffiti00-mesh-inv_bind_matrix-array" count="15" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane1668__Graffiti00-mesh-weight">
+          <float_array id="pPlane1668__Graffiti00-mesh-weight-array" count="5">1 0.7490196 0.2509804 0.4980392 0.5019608</float_array>
+          <technique_common>
+            <accessor source="#pPlane1668__Graffiti00-mesh-weight-array" count="5" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pPlane1668__Graffiti00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pPlane1668__Graffiti00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="216">
+          <input semantic="JOINT" source="#pPlane1668__Graffiti00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pPlane1668__Graffiti00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 2 2 1 1 1 1 2 2 2 2 2 2 1 1 2 2 2 2 2 2 1 1 1 1 1 1 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 1 1 1 1 1 1 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 1 1 1 1 1 1 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 2 2 2 2 1 1 1 1 1 1 1 1 2 2 2 2 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 </vcount>
+          <v>0 0 0 0 0 0 0 0 1 1 0 2 1 1 0 2 1 0 1 0 0 0 0 0 1 2 0 1 1 2 0 1 1 2 0 1 1 2 0 1 1 1 0 2 1 1 0 2 1 0 1 0 2 2 1 1 2 2 1 1 2 2 1 1 2 2 1 1 2 1 1 2 2 1 1 2 3 0 3 0 3 0 3 0 3 0 3 0 3 3 4 4 3 3 4 4 4 0 4 0 4 1 5 2 4 1 5 2 4 2 5 1 4 2 5 1 5 0 5 0 5 1 6 2 5 1 6 2 5 2 6 1 5 2 6 1 6 0 6 0 6 1 7 2 6 1 7 2 6 2 7 1 6 2 7 1 7 0 7 0 7 1 8 2 7 1 8 2 7 2 8 1 7 2 8 1 8 0 8 0 8 1 2 2 8 1 2 2 8 2 2 1 8 2 2 1 2 0 2 0 2 1 1 2 2 1 1 2 3 0 3 0 3 0 3 0 3 0 3 0 3 3 9 4 3 3 9 4 9 0 9 0 9 1 10 2 9 1 10 2 9 2 10 1 9 2 10 1 10 0 10 0 10 1 11 2 10 1 11 2 10 2 11 1 10 2 11 1 11 0 11 0 11 1 12 2 11 1 12 2 11 2 12 1 11 2 12 1 12 0 12 0 12 1 13 2 12 1 13 2 12 2 13 1 12 2 13 1 13 0 13 0 13 1 14 2 13 1 14 2 13 2 14 1 13 2 14 1 14 0 14 0 14 0 14 0 0 0 0 0 3 0 3 0 3 0 3 0 3 0 3 0 3 3 4 4 3 3 4 4 4 0 4 0 4 1 5 2 4 1 5 2 4 2 5 1 4 2 5 1 5 0 5 0 5 1 6 2 5 1 6 2 5 2 6 1 5 2 6 1 6 0 6 0 6 1 7 2 6 1 7 2 6 2 7 1 6 2 7 1 7 0 7 0 7 1 8 2 7 1 8 2 7 2 8 1 7 2 8 1 8 0 8 0 8 1 2 2 8 1 2 2 8 2 2 1 8 2 2 1 2 0 2 0 3 0 3 0 3 0 3 0 3 0 3 0 3 3 9 4 3 3 9 4 9 0 9 0 9 1 10 2 9 1 10 2 9 2 10 1 9 2 10 1 10 0 10 0 10 1 11 2 10 1 11 2 10 2 11 1 10 2 11 1 11 0 11 0 11 1 12 2 11 1 12 2 11 2 12 1 11 2 12 1 12 0 12 0 12 1 13 2 12 1 13 2 12 2 13 1 12 2 13 1 13 0 13 0 13 1 14 2 13 1 14 2 13 2 14 1 13 2 14 1 14 0 14 0 14 0 14 0 0 0 0 0 0 0 0 0 1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 2 1 0 1 0 1 0 1 0 1 2 0 1 1 2 0 1 1 2 0 1 1 2 0 1 2 2 1 1 2 2 1 1 2 2 1 1 2 2 1 1 2 1 1 2 2 1 1 2 2 1 1 2 2 1 1 2 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_root_TapeFlag02" name="root_TapeFlag02" sid="root_TapeFlag02" type="JOINT">
+          <matrix sid="transform">7.468462E-05 -0.1457597 0.98932 366.8452 0.1829748 -0.9726158 -0.1433125 206.6928 0.9831176 0.1810313 0.0265978 438.8211 0 0 0 1</matrix>
+          <node id="Armature_sita_1" name="sita_1" sid="sita_1" type="JOINT">
+            <matrix sid="transform">0.8730077 0.02094018 0.4872568 8.063519 0.03262235 0.9943331 -0.1011809 4.47436 -0.4866143 0.1042271 0.8673773 -5.968222E-06 0 0 0 1</matrix>
+            <node id="Armature_sita_2" name="sita_2" sid="sita_2" type="JOINT">
+              <matrix sid="transform">0.9585598 0.2826276 -0.03584264 10.77555 -0.2835683 0.9344162 -0.2155348 0.0004498032 -0.02742414 0.2167668 0.9758381 0 0 0 0 1</matrix>
+              <node id="Armature_sita_3" name="sita_3" sid="sita_3" type="JOINT">
+                <matrix sid="transform">0.9859315 0.1660954 -0.0187461 10.64616 -0.1670001 0.9835812 -0.06840211 0.0003564569 0.007077056 0.07057039 0.9974817 0 0 0 0 1</matrix>
+                <node id="Armature_sita_4" name="sita_4" sid="sita_4" type="JOINT">
+                  <matrix sid="transform">0.9945208 -0.02861672 0.1005454 10.70368 0.02718663 0.9995092 0.01556511 0.01101837 -0.1009414 -0.01274633 0.9948107 0 0 0 0 1</matrix>
+                  <node id="Armature_sita_5" name="sita_5" sid="sita_5" type="JOINT">
+                    <matrix sid="transform">0.996235 -0.04752364 0.07250737 10.74487 0.03056479 0.9751962 0.2192217 5.061765E-06 -0.08112713 -0.2161801 0.9729772 0 0 0 0 1</matrix>
+                    <node id="Armature_sita_6" name="sita_6" sid="sita_6" type="JOINT">
+                      <matrix sid="transform">0.9907818 0.1353014 0.00670023 10.70974 -0.1354664 0.9893987 0.05233702 -0.005249192 0.0004520542 -0.05276222 0.998607 0 0 0 0 1</matrix>
+                      <node id="Armature_sita_7" name="sita_7" sid="sita_7" type="JOINT">
+                        <matrix sid="transform">0.9755636 -0.2177156 0.02958906 11.5425 0.203437 0.9459227 0.2526729 -7.68198E-05 -0.0829998 -0.2404789 0.9670991 0 0 0 0 1</matrix>
+                        <node id="Armature_sita_8" name="sita_8" sid="sita_8" type="JOINT">
+                          <matrix sid="transform">0.9678674 -0.2514558 -0.001582713 12.22277 0.2500465 0.961738 0.1119675 -0.0001167912 -0.02663272 -0.1087654 0.9937106 0 0 0 0 1</matrix>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node id="Armature_ue_1" name="ue_1" sid="ue_1" type="JOINT">
+            <matrix sid="transform">0.9476728 -0.1229993 0.2945971 8.957102 0.1698259 0.9756273 -0.1389623 -0.0004823538 -0.2703247 0.181721 0.945464 -6.081899E-06 0 0 0 1</matrix>
+            <node id="Armature_ue_2" name="ue_2" sid="ue_2" type="JOINT">
+              <matrix sid="transform">0.9930704 0.060318 -0.1008608 10.64616 -0.08279747 0.968164 -0.2362265 0.0003565188 0.08340111 0.2429405 0.9664493 0 0 0 0 1</matrix>
+              <node id="Armature_ue_3" name="ue_3" sid="ue_3" type="JOINT">
+                <matrix sid="transform">0.9645233 0.2191547 -0.1471942 10.70368 -0.2489394 0.940631 -0.2307433 0.01101848 0.08788697 0.2591997 0.9618167 0 0 0 0 1</matrix>
+                <node id="Armature_ue_4" name="ue_4" sid="ue_4" type="JOINT">
+                  <matrix sid="transform">0.9956148 0.09283784 -0.0115031 10.74487 -0.09210114 0.994321 0.05332099 5.061898E-06 0.01638799 -0.05202772 0.9985111 0 0 0 0 1</matrix>
+                  <node id="Armature_ue_5" name="ue_5" sid="ue_5" type="JOINT">
+                    <matrix sid="transform">0.9985591 0.05254898 -0.01087387 10.70973 -0.0511043 0.9930483 0.1060347 -0.005249233 0.0163703 -0.1053262 0.994303 0 0 0 0 1</matrix>
+                    <node id="Armature_ue_6" name="ue_6" sid="ue_6" type="JOINT">
+                      <matrix sid="transform">0.9965129 -0.0204687 -0.08088932 10.75726 0.001605384 0.9739678 -0.2266807 -3.716302E-05 0.08342347 0.2257604 0.9706042 0 0 0 0 1</matrix>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="pPlane1668__Graffiti00" name="pPlane1668__Graffiti00" type="NODE">
+        <instance_controller url="#Armature_pPlane1668__Graffiti00-mesh">
+          <skeleton>#Armature_root_TapeFlag02</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Graffiti00" target="#Graffiti00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

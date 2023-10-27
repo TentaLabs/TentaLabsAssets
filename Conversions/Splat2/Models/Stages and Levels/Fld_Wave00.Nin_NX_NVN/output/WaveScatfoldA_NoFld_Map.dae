@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Accessory_Alb">
+      <init_from>Accessory_Alb.png</init_from>
+    </image>
+    <image id="Accessory_Nrm">
+      <init_from>Accessory_Nrm.png</init_from>
+    </image>
+    <image id="Accessory_Rgh">
+      <init_from>Accessory_Rgh.png</init_from>
+    </image>
+    <image id="Bake_Fld_Wave00_DV_g00_b00_f00">
+      <init_from>Bake_Fld_Wave00_DV_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Wave00_g00_b00_f00">
+      <init_from>Bake_Fld_Wave00_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Wave00_g00_b01_f00">
+      <init_from>Bake_Fld_Wave00_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Bake_WaveScatfoldA_NoFld_g00_b00_f00">
+      <init_from>Bake_WaveScatfoldA_NoFld_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_WaveScatfoldA_NoFld_g00_b01_f00">
+      <init_from>Bake_WaveScatfoldA_NoFld_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Bake_WaveScatfoldB_NoFld_g00_b00_f00">
+      <init_from>Bake_WaveScatfoldB_NoFld_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_WaveScatfoldB_NoFld_g00_b01_f00">
+      <init_from>Bake_WaveScatfoldB_NoFld_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Bike00_Alb">
+      <init_from>Bike00_Alb.png</init_from>
+    </image>
+    <image id="Bike00_Mtl">
+      <init_from>Bike00_Mtl.png</init_from>
+    </image>
+    <image id="Bike00_Nrm">
+      <init_from>Bike00_Nrm.png</init_from>
+    </image>
+    <image id="Bike00_Rgh">
+      <init_from>Bike00_Rgh.png</init_from>
+    </image>
+    <image id="BikeShopObj_Alb">
+      <init_from>BikeShopObj_Alb.png</init_from>
+    </image>
+    <image id="BikeShopObj_Mtl">
+      <init_from>BikeShopObj_Mtl.png</init_from>
+    </image>
+    <image id="BikeShopObj_Nrm">
+      <init_from>BikeShopObj_Nrm.png</init_from>
+    </image>
+    <image id="BikeShopObj_Rgh">
+      <init_from>BikeShopObj_Rgh.png</init_from>
+    </image>
+    <image id="Bolt_Alb">
+      <init_from>Bolt_Alb.png</init_from>
+    </image>
+    <image id="Bolt_Nrm">
+      <init_from>Bolt_Nrm.png</init_from>
+    </image>
+    <image id="Bolt_Rgh">
+      <init_from>Bolt_Rgh.png</init_from>
+    </image>
+    <image id="Cloth_Alb">
+      <init_from>Cloth_Alb.png</init_from>
+    </image>
+    <image id="Cloth_Nrm">
+      <init_from>Cloth_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingSet2_Alb">
+      <init_from>DVBuildingSet2_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingSet2_Emm">
+      <init_from>DVBuildingSet2_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingSet2_Nrm">
+      <init_from>DVBuildingSet2_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingSet2_Rgh">
+      <init_from>DVBuildingSet2_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingSet3_Alb">
+      <init_from>DVBuildingSet3_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingSet3_Emm">
+      <init_from>DVBuildingSet3_Emm.png</init_from>
+    </image>
+    <image id="DVContainer_Alb">
+      <init_from>DVContainer_Alb.png</init_from>
+    </image>
+    <image id="DVContainer_Nrm">
+      <init_from>DVContainer_Nrm.png</init_from>
+    </image>
+    <image id="DVduct_Alb">
+      <init_from>DVduct_Alb.png</init_from>
+    </image>
+    <image id="DVduct_Mtl">
+      <init_from>DVduct_Mtl.png</init_from>
+    </image>
+    <image id="DVduct_Nrm">
+      <init_from>DVduct_Nrm.png</init_from>
+    </image>
+    <image id="DVduct_Rgh">
+      <init_from>DVduct_Rgh.png</init_from>
+    </image>
+    <image id="DVglassroof_Alb">
+      <init_from>DVglassroof_Alb.png</init_from>
+    </image>
+    <image id="DVglassroof_Emm">
+      <init_from>DVglassroof_Emm.png</init_from>
+    </image>
+    <image id="DVglassroof_Nrm">
+      <init_from>DVglassroof_Nrm.png</init_from>
+    </image>
+    <image id="DVmetalbeamsset_Alb">
+      <init_from>DVmetalbeamsset_Alb.png</init_from>
+    </image>
+    <image id="DVmetalbeamsset_Nrm">
+      <init_from>DVmetalbeamsset_Nrm.png</init_from>
+    </image>
+    <image id="DVmetalbeamsset_Rgh">
+      <init_from>DVmetalbeamsset_Rgh.png</init_from>
+    </image>
+    <image id="DVSet_Alb">
+      <init_from>DVSet_Alb.png</init_from>
+    </image>
+    <image id="DVvent_Alb">
+      <init_from>DVvent_Alb.png</init_from>
+    </image>
+    <image id="DVvent_Mtl">
+      <init_from>DVvent_Mtl.png</init_from>
+    </image>
+    <image id="DVvent_Nrm">
+      <init_from>DVvent_Nrm.png</init_from>
+    </image>
+    <image id="DVvent_Rgh">
+      <init_from>DVvent_Rgh.png</init_from>
+    </image>
+    <image id="DVwallbrick_Alb">
+      <init_from>DVwallbrick_Alb.png</init_from>
+    </image>
+    <image id="DVwallbrick_Nrm">
+      <init_from>DVwallbrick_Nrm.png</init_from>
+    </image>
+    <image id="DVwallbrick_Rgh">
+      <init_from>DVwallbrick_Rgh.png</init_from>
+    </image>
+    <image id="DVwoodpanel_Alb">
+      <init_from>DVwoodpanel_Alb.png</init_from>
+    </image>
+    <image id="DVwoodpanel_Nrm">
+      <init_from>DVwoodpanel_Nrm.png</init_from>
+    </image>
+    <image id="DVwoodpanel_Rgh">
+      <init_from>DVwoodpanel_Rgh.png</init_from>
+    </image>
+    <image id="DV_GroundAsphalt_Alb">
+      <init_from>DV_GroundAsphalt_Alb.png</init_from>
+    </image>
+    <image id="DV_Soil_Alb">
+      <init_from>DV_Soil_Alb.png</init_from>
+    </image>
+    <image id="DV_VehicleColor_Alb">
+      <init_from>DV_VehicleColor_Alb.png</init_from>
+    </image>
+    <image id="DV_VehicleColor_Nrm">
+      <init_from>DV_VehicleColor_Nrm.png</init_from>
+    </image>
+    <image id="FabricCover_Alb">
+      <init_from>FabricCover_Alb.png</init_from>
+    </image>
+    <image id="FabricCover_Nrm">
+      <init_from>FabricCover_Nrm.png</init_from>
+    </image>
+    <image id="Fence00_Alb">
+      <init_from>Fence00_Alb.png</init_from>
+    </image>
+    <image id="Fence00_Nrm">
+      <init_from>Fence00_Nrm.png</init_from>
+    </image>
+    <image id="FenceIronNet_Alb">
+      <init_from>FenceIronNet_Alb.png</init_from>
+    </image>
+    <image id="FenceIronNet_Mtl">
+      <init_from>FenceIronNet_Mtl.png</init_from>
+    </image>
+    <image id="FenceIronNet_Nrm">
+      <init_from>FenceIronNet_Nrm.png</init_from>
+    </image>
+    <image id="FenceIronNet_Rgh">
+      <init_from>FenceIronNet_Rgh.png</init_from>
+    </image>
+    <image id="Flag_Alb">
+      <init_from>Flag_Alb.png</init_from>
+    </image>
+    <image id="Flag_Mtl">
+      <init_from>Flag_Mtl.png</init_from>
+    </image>
+    <image id="Flag_Nrm">
+      <init_from>Flag_Nrm.png</init_from>
+    </image>
+    <image id="Flag_Rgh">
+      <init_from>Flag_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Alb">
+      <init_from>FloorConcreteHigh_Alb.png</init_from>
+    </image>
+    <image id="FoamBlock_Alb">
+      <init_from>FoamBlock_Alb.png</init_from>
+    </image>
+    <image id="FoamBlock_Nrm">
+      <init_from>FoamBlock_Nrm.png</init_from>
+    </image>
+    <image id="FoamBlock_Rgh">
+      <init_from>FoamBlock_Rgh.png</init_from>
+    </image>
+    <image id="FoamMat_Alb">
+      <init_from>FoamMat_Alb.png</init_from>
+    </image>
+    <image id="FoamMat_Nrm">
+      <init_from>FoamMat_Nrm.png</init_from>
+    </image>
+    <image id="FoamMat_Rgh">
+      <init_from>FoamMat_Rgh.png</init_from>
+    </image>
+    <image id="Graffitiset_Alb">
+      <init_from>Graffitiset_Alb.png</init_from>
+    </image>
+    <image id="Graffitiset_Nrm">
+      <init_from>Graffitiset_Nrm.png</init_from>
+    </image>
+    <image id="Graffitiset_Rgh">
+      <init_from>Graffitiset_Rgh.png</init_from>
+    </image>
+    <image id="GroundCementGrey_Alb">
+      <init_from>GroundCementGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundCementGrey_Nrm">
+      <init_from>GroundCementGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundCementGrey_Rgh">
+      <init_from>GroundCementGrey_Rgh.png</init_from>
+    </image>
+    <image id="GroundCementLightGrey_Alb">
+      <init_from>GroundCementLightGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundCementLightGrey_Nrm">
+      <init_from>GroundCementLightGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Alb">
+      <init_from>GroundConcreteGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Nrm">
+      <init_from>GroundConcreteGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcreteGrey_Rgh">
+      <init_from>GroundConcreteGrey_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Alb">
+      <init_from>GroundPlywood_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Black_Alb">
+      <init_from>GroundPlywood_Black_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Brown_Alb">
+      <init_from>GroundPlywood_Brown_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Logo_Alb">
+      <init_from>GroundPlywood_Logo_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Multi_Alb">
+      <init_from>GroundPlywood_Multi_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Nrm">
+      <init_from>GroundPlywood_Nrm.png</init_from>
+    </image>
+    <image id="GroundPlywood_Rgh">
+      <init_from>GroundPlywood_Rgh.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Alb">
+      <init_from>GroundRoughWood_Alb.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Nrm">
+      <init_from>GroundRoughWood_Nrm.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Rgh">
+      <init_from>GroundRoughWood_Rgh.png</init_from>
+    </image>
+    <image id="Light_Alb">
+      <init_from>Light_Alb.png</init_from>
+    </image>
+    <image id="Light_Emm">
+      <init_from>Light_Emm.png</init_from>
+    </image>
+    <image id="Light_Mtl">
+      <init_from>Light_Mtl.png</init_from>
+    </image>
+    <image id="Light_Nrm">
+      <init_from>Light_Nrm.png</init_from>
+    </image>
+    <image id="Light_Rgh">
+      <init_from>Light_Rgh.png</init_from>
+    </image>
+    <image id="MapFence_Alb">
+      <init_from>MapFence_Alb.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MiiverseA00VSWall_Alb">
+      <init_from>MiiverseA00VSWall_Alb.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlA">
+      <init_from>MiiverseVSWall_MlA.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlB">
+      <init_from>MiiverseVSWall_MlB.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_A_Alb">
+      <init_from>Mt_Wave_Bike_A_Alb.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_A_Mtl">
+      <init_from>Mt_Wave_Bike_A_Mtl.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_A_Nrm">
+      <init_from>Mt_Wave_Bike_A_Nrm.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_A_Rgh">
+      <init_from>Mt_Wave_Bike_A_Rgh.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Alb">
+      <init_from>Mt_Wave_Bike_B_Alb.png</init_from>
+    </image>
+    <image id="ObjSet01_Alb">
+      <init_from>ObjSet01_Alb.png</init_from>
+    </image>
+    <image id="ObjSet01_Mtl">
+      <init_from>ObjSet01_Mtl.png</init_from>
+    </image>
+    <image id="ObjSet01_Nrm">
+      <init_from>ObjSet01_Nrm.png</init_from>
+    </image>
+    <image id="ObjSet01_Rgh">
+      <init_from>ObjSet01_Rgh.png</init_from>
+    </image>
+    <image id="Plywood_Alb">
+      <init_from>Plywood_Alb.png</init_from>
+    </image>
+    <image id="Plywood_Nrm">
+      <init_from>Plywood_Nrm.png</init_from>
+    </image>
+    <image id="Plywood_Rgh">
+      <init_from>Plywood_Rgh.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Alb">
+      <init_from>ShipVinylSheet_Alb.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Nrm">
+      <init_from>ShipVinylSheet_Nrm.png</init_from>
+    </image>
+    <image id="ShipVinylSheet_Rgh">
+      <init_from>ShipVinylSheet_Rgh.png</init_from>
+    </image>
+    <image id="ShopIronWood_Alb">
+      <init_from>ShopIronWood_Alb.png</init_from>
+    </image>
+    <image id="ShopIronWood_Mtl">
+      <init_from>ShopIronWood_Mtl.png</init_from>
+    </image>
+    <image id="ShopIronWood_Nrm">
+      <init_from>ShopIronWood_Nrm.png</init_from>
+    </image>
+    <image id="ShopIronWood_Rgh">
+      <init_from>ShopIronWood_Rgh.png</init_from>
+    </image>
+    <image id="Sign_Alb">
+      <init_from>Sign_Alb.png</init_from>
+    </image>
+    <image id="Sign_Emm">
+      <init_from>Sign_Emm.png</init_from>
+    </image>
+    <image id="Sign_Nrm">
+      <init_from>Sign_Nrm.png</init_from>
+    </image>
+    <image id="Sign_Rgh">
+      <init_from>Sign_Rgh.png</init_from>
+    </image>
+    <image id="StoneWoodSet_Alb">
+      <init_from>StoneWoodSet_Alb.png</init_from>
+    </image>
+    <image id="StoneWoodSet_Nrm">
+      <init_from>StoneWoodSet_Nrm.png</init_from>
+    </image>
+    <image id="StoneWoodSet_Rgh">
+      <init_from>StoneWoodSet_Rgh.png</init_from>
+    </image>
+    <image id="TreeSiluet_Alb">
+      <init_from>TreeSiluet_Alb.png</init_from>
+    </image>
+    <image id="Wallbricks_Alb">
+      <init_from>Wallbricks_Alb.png</init_from>
+    </image>
+    <image id="Wallbricks_Nrm">
+      <init_from>Wallbricks_Nrm.png</init_from>
+    </image>
+    <image id="Wallbricks_Rgh">
+      <init_from>Wallbricks_Rgh.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Alb">
+      <init_from>WallMetalFenceSet_Alb.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Mtl">
+      <init_from>WallMetalFenceSet_Mtl.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Nrm">
+      <init_from>WallMetalFenceSet_Nrm.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Rgh">
+      <init_from>WallMetalFenceSet_Rgh.png</init_from>
+    </image>
+    <image id="WallVinylCover_Black_Alb">
+      <init_from>WallVinylCover_Black_Alb.png</init_from>
+    </image>
+    <image id="WallVinylCover_Nrm">
+      <init_from>WallVinylCover_Nrm.png</init_from>
+    </image>
+    <image id="Window_Alb">
+      <init_from>Window_Alb.png</init_from>
+    </image>
+    <image id="Window_Emm">
+      <init_from>Window_Emm.png</init_from>
+    </image>
+    <image id="Window_Rgh">
+      <init_from>Window_Rgh.png</init_from>
+    </image>
+    <image id="WoodenBox_Alb">
+      <init_from>WoodenBox_Alb.png</init_from>
+    </image>
+    <image id="WoodenBox_Mtl">
+      <init_from>WoodenBox_Mtl.png</init_from>
+    </image>
+    <image id="WoodenBox_Nrm">
+      <init_from>WoodenBox_Nrm.png</init_from>
+    </image>
+    <image id="WoodenBox_Rgh">
+      <init_from>WoodenBox_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapFence">
+      <instance_effect url="#Effect_MapFence" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapFence">
+      <profile_COMMON>
+        <newparam sid="surface_MapFence-diffuse">
+          <surface type="2D">
+            <init_from>MapFence_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapFence-diffuse">
+          <sampler2D>
+            <source>surface_MapFence-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapFence-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Edge345__MapWall-mesh" name="Edge345__MapWall">
+      <mesh>
+        <source id="Edge345__MapWall-position">
+          <float_array id="Edge345__MapWall-position-array" count="36">-280 15 -20 -277 15 -17 -230 15 -20 -233 15 -17 -230 15 20 -233 15 17 -277 15 -3 -280 15 0 -260 15 0 -257 15 -3 -260 15 20 -257 15 17</float_array>
+          <technique_common>
+            <accessor source="#Edge345__MapWall-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge345__MapWall-normal">
+          <float_array id="Edge345__MapWall-normal-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Edge345__MapWall-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge345__MapWall-texcoord">
+          <float_array id="Edge345__MapWall-texcoord-array" count="24">2.003906 2.506836 1.853516 2.356445 2.003906 0.007324219 1.853516 0.1572266 0.003997803 0.007324219 0.1539307 0.1572266 1.15332 2.356445 1.003906 2.506836 1.003906 1.506836 1.15332 1.356934 0.003997803 1.506836 0.1539307 1.356934</float_array>
+          <technique_common>
+            <accessor source="#Edge345__MapWall-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge345__MapWall-vertex">
+          <input semantic="POSITION" source="#Edge345__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="12">
+          <input semantic="VERTEX" source="#Edge345__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge345__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge345__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 2 2 2 3 3 3 4 4 4 3 3 3 5 5 5 4 4 4 6 6 6 1 1 1 0 0 0 7 7 7 6 6 6 0 0 0 6 6 6 7 7 7 8 8 8 9 9 9 6 6 6 8 8 8 4 4 4 5 5 5 10 10 10 5 5 5 11 11 11 10 10 10 10 10 10 11 11 11 8 8 8 11 11 11 9 9 9 8 8 8 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube13__MapFence-mesh" name="pCube13__MapFence">
+      <mesh>
+        <source id="pCube13__MapFence-position">
+          <float_array id="pCube13__MapFence-position-array" count="18">-277 15 -3 -257 15 -3 -277 15 -17 -233 15 -17 -233 15 17 -257 15 17</float_array>
+          <technique_common>
+            <accessor source="#pCube13__MapFence-position-array" count="6" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube13__MapFence-normal">
+          <float_array id="pCube13__MapFence-normal-array" count="18">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube13__MapFence-normal-array" count="6" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube13__MapFence-texcoord">
+          <float_array id="pCube13__MapFence-texcoord-array" count="12">0.1499023 0.6000977 0.1499023 -0.3994141 0.8496094 0.6000977 0.8496094 -1.599609 -0.8496094 -1.599609 -0.8496094 -0.3994141</float_array>
+          <technique_common>
+            <accessor source="#pCube13__MapFence-texcoord-array" count="6" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube13__MapFence-vertex">
+          <input semantic="POSITION" source="#pCube13__MapFence-position" />
+        </vertices>
+        <triangles material="MapFence" count="4">
+          <input semantic="VERTEX" source="#pCube13__MapFence-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube13__MapFence-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube13__MapFence-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 3 3 3 1 1 1 4 4 4 1 1 1 5 5 5 4 4 4 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Edge345__MapWall-mesh">
+      <skin source="#Edge345__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge345__MapWall-mesh-joint">
+          <Name_array id="Edge345__MapWall-mesh-joint-array" count="1">WaveScatfoldA_NoFld_Map</Name_array>
+          <technique_common>
+            <accessor source="#Edge345__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge345__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Edge345__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge345__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge345__MapWall-mesh-weight">
+          <float_array id="Edge345__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge345__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge345__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge345__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#Edge345__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge345__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube13__MapFence-mesh">
+      <skin source="#pCube13__MapFence-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube13__MapFence-mesh-joint">
+          <Name_array id="pCube13__MapFence-mesh-joint-array" count="1">WaveScatfoldA_NoFld_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCube13__MapFence-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube13__MapFence-mesh-inv_bind_matrix">
+          <float_array id="pCube13__MapFence-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube13__MapFence-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube13__MapFence-mesh-weight">
+          <float_array id="pCube13__MapFence-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube13__MapFence-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube13__MapFence-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube13__MapFence-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="6">
+          <input semantic="JOINT" source="#pCube13__MapFence-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube13__MapFence-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_WaveScatfoldA_NoFld_Map" name="WaveScatfoldA_NoFld_Map" sid="WaveScatfoldA_NoFld_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Edge345__MapWall" name="Edge345__MapWall" type="NODE">
+        <instance_controller url="#Armature_Edge345__MapWall-mesh">
+          <skeleton>#Armature_WaveScatfoldA_NoFld_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube13__MapFence" name="pCube13__MapFence" type="NODE">
+        <instance_controller url="#Armature_pCube13__MapFence-mesh">
+          <skeleton>#Armature_WaveScatfoldA_NoFld_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapFence" target="#MapFence" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

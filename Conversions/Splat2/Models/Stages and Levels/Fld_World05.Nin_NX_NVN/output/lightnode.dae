@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images />
+  <library_geometries />
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_lightnode" name="lightnode" sid="lightnode" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_point_00" name="point_00" sid="point_00" type="JOINT">
+            <matrix sid="transform">30 0 0 100 0 30 0 85 0 0 30 0 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_01" name="point_01" sid="point_01" type="JOINT">
+            <matrix sid="transform">30 0 0 -210 0 30 0 125 0 0 30 465 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_02" name="point_02" sid="point_02" type="JOINT">
+            <matrix sid="transform">30 0 0 65 0 30 0 145 0 0 30 550 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_03" name="point_03" sid="point_03" type="JOINT">
+            <matrix sid="transform">30 0 0 45 0 30 0 120 0 0 30 -525 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_04" name="point_04" sid="point_04" type="JOINT">
+            <matrix sid="transform">30 0 0 -250 0 30 0 80 0 0 30 -480 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_05" name="point_05" sid="point_05" type="JOINT">
+            <matrix sid="transform">30 0 0 -405 0 30 0 110 0 0 30 -725 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_06" name="point_06" sid="point_06" type="JOINT">
+            <matrix sid="transform">30 0 0 555 0 30 0 250 0 0 30 520 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_07" name="point_07" sid="point_07" type="JOINT">
+            <matrix sid="transform">30 0 0 605 0 30 0 200 0 0 30 -450 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_08" name="point_08" sid="point_08" type="JOINT">
+            <matrix sid="transform">30 0 0 305 0 30 0 315 0 0 30 320 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_09" name="point_09" sid="point_09" type="JOINT">
+            <matrix sid="transform">30 0 0 130 0 30 0 105 0 0 30 -795 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_10" name="point_10" sid="point_10" type="JOINT">
+            <matrix sid="transform">30 0 0 380 0 30 0 105 0 0 30 -795 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_12" name="point_12" sid="point_12" type="JOINT">
+            <matrix sid="transform">30 0 0 -327 0 30 0 45 0 0 30 -970 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_13" name="point_13" sid="point_13" type="JOINT">
+            <matrix sid="transform">30 0 0 660.25 0 30 0 120 0 0 30 -232 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_14" name="point_14" sid="point_14" type="JOINT">
+            <matrix sid="transform">30 0 0 -705 0 30 0 55 0 0 30 285 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_15" name="point_15" sid="point_15" type="JOINT">
+            <matrix sid="transform">30 0 0 769.9999 0 30 0 170 0 0 30 515.0004 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_point_16" name="point_16" sid="point_16" type="JOINT">
+            <matrix sid="transform">30 0 0 545 0 30 0 75 0 0 30 45 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
