@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images />
+  <library_geometries />
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Dynamic" name="Dynamic" sid="Dynamic" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_Dynamic_BigLight" name="Dynamic_BigLight" sid="Dynamic_BigLight" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <node id="Armature_D_BigSpot" name="D_BigSpot" sid="D_BigSpot" type="JOINT">
+              <matrix sid="transform">8.940697E-08 0.7584448 -0.6517374 -299.2632 2.980232E-08 0.6517375 0.7584448 337.8788 1 2.980232E-08 8.940697E-08 -457.8875 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_D_BigSpot1" name="D_BigSpot1" sid="D_BigSpot1" type="JOINT">
+              <matrix sid="transform">8.940697E-08 0.7584448 -0.6517374 -299.2632 2.980232E-08 0.6517375 0.7584448 337.8788 1 2.980232E-08 8.940697E-08 42.11247 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_D_BigSpot2" name="D_BigSpot2" sid="D_BigSpot2" type="JOINT">
+              <matrix sid="transform">8.940697E-08 0.7584448 -0.6517374 -299.2632 2.980232E-08 0.6517375 0.7584448 337.8788 1 2.980232E-08 8.940697E-08 562.1125 0 0 0 1</matrix>
+            </node>
+          </node>
+          <node id="Armature_Dynamic_SmallSpotLight" name="Dynamic_SmallSpotLight" sid="Dynamic_SmallSpotLight" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <node id="Armature_D_SmallSpot" name="D_SmallSpot" sid="D_SmallSpot" type="JOINT">
+              <matrix sid="transform">-0.9281319 -2.980232E-08 0.3722513 180.6343 0.3722513 -5.960464E-08 0.9281319 361.648 -2.980232E-08 0.9999999 -5.960464E-08 -865.9681 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_D_SmallSpot1" name="D_SmallSpot1" sid="D_SmallSpot1" type="JOINT">
+              <matrix sid="transform">108.7645 0 0 37.04198 0 82.4095 70.98166 377.4457 0 -70.98166 82.4095 1056.403 0 0 0 1</matrix>
+            </node>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
