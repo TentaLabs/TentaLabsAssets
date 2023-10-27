@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="AltanaRecord_Alb">
+      <init_from>AltanaRecord_Alb.png</init_from>
+    </image>
+    <image id="AltanaRecord_Mtl">
+      <init_from>AltanaRecord_Mtl.png</init_from>
+    </image>
+    <image id="AltanaRecord_Nrm">
+      <init_from>AltanaRecord_Nrm.png</init_from>
+    </image>
+    <image id="AltanaRecord_Rgh">
+      <init_from>AltanaRecord_Rgh.png</init_from>
+    </image>
+    <image id="AltanaRockWall_Alb">
+      <init_from>AltanaRockWall_Alb.png</init_from>
+    </image>
+    <image id="AltanaRockWall_Mtl">
+      <init_from>AltanaRockWall_Mtl.png</init_from>
+    </image>
+    <image id="AltanaRockWall_Nrm">
+      <init_from>AltanaRockWall_Nrm.png</init_from>
+    </image>
+    <image id="AltanaRockWall_Rgh">
+      <init_from>AltanaRockWall_Rgh.png</init_from>
+    </image>
+    <image id="AltanaSnow_Alb">
+      <init_from>AltanaSnow_Alb.png</init_from>
+    </image>
+    <image id="AltanaSnow_Nrm">
+      <init_from>AltanaSnow_Nrm.png</init_from>
+    </image>
+    <image id="AltanaSnow_Rgh">
+      <init_from>AltanaSnow_Rgh.png</init_from>
+    </image>
+    <image id="Antenna_Alb">
+      <init_from>Antenna_Alb.png</init_from>
+    </image>
+    <image id="Antenna_Mtl">
+      <init_from>Antenna_Mtl.png</init_from>
+    </image>
+    <image id="Antenna_Nrm">
+      <init_from>Antenna_Nrm.png</init_from>
+    </image>
+    <image id="Antenna_Rgh">
+      <init_from>Antenna_Rgh.png</init_from>
+    </image>
+    <image id="Area06Graffiti00_Alb">
+      <init_from>Area06Graffiti00_Alb.png</init_from>
+    </image>
+    <image id="Area06Graffiti00_Mask_Resi">
+      <init_from>Area06Graffiti00_Mask_Resi.png</init_from>
+    </image>
+    <image id="Area06Graffiti00_Nrm">
+      <init_from>Area06Graffiti00_Nrm.png</init_from>
+    </image>
+    <image id="Area06Graffiti01_Alb">
+      <init_from>Area06Graffiti01_Alb.png</init_from>
+    </image>
+    <image id="Area06Graffiti01_Nrm">
+      <init_from>Area06Graffiti01_Nrm.png</init_from>
+    </image>
+    <image id="Area06Graffiti01_Opa">
+      <init_from>Area06Graffiti01_Opa.png</init_from>
+    </image>
+    <image id="Area06Graffiti02_Alb">
+      <init_from>Area06Graffiti02_Alb.png</init_from>
+    </image>
+    <image id="Area06Graffiti02_Opa">
+      <init_from>Area06Graffiti02_Opa.png</init_from>
+    </image>
+    <image id="Area06Graffiti03_Alb">
+      <init_from>Area06Graffiti03_Alb.png</init_from>
+    </image>
+    <image id="Area06Graffiti03_Nrm">
+      <init_from>Area06Graffiti03_Nrm.png</init_from>
+    </image>
+    <image id="Area06Graffiti03_Opa">
+      <init_from>Area06Graffiti03_Opa.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BaseMetalPaint_Alb">
+      <init_from>BaseMetalPaint_Alb.png</init_from>
+    </image>
+    <image id="BaseMetalPaint_Mtl">
+      <init_from>BaseMetalPaint_Mtl.png</init_from>
+    </image>
+    <image id="BaseMetalPaint_Nrm">
+      <init_from>BaseMetalPaint_Nrm.png</init_from>
+    </image>
+    <image id="BaseMetalPaint_Rgh">
+      <init_from>BaseMetalPaint_Rgh.png</init_from>
+    </image>
+    <image id="BaseMetal_Alb">
+      <init_from>BaseMetal_Alb.png</init_from>
+    </image>
+    <image id="BaseMetal_Mtl">
+      <init_from>BaseMetal_Mtl.png</init_from>
+    </image>
+    <image id="BaseMetal_Nrm">
+      <init_from>BaseMetal_Nrm.png</init_from>
+    </image>
+    <image id="BaseMetal_Rgh">
+      <init_from>BaseMetal_Rgh.png</init_from>
+    </image>
+    <image id="BaseSteelFrame_Alb">
+      <init_from>BaseSteelFrame_Alb.png</init_from>
+    </image>
+    <image id="BaseSteelFrame_Mtl">
+      <init_from>BaseSteelFrame_Mtl.png</init_from>
+    </image>
+    <image id="BaseSteelFrame_Nrm">
+      <init_from>BaseSteelFrame_Nrm.png</init_from>
+    </image>
+    <image id="BaseSteelFrame_Rgh">
+      <init_from>BaseSteelFrame_Rgh.png</init_from>
+    </image>
+    <image id="Building_Alb">
+      <init_from>Building_Alb.png</init_from>
+    </image>
+    <image id="Building_Mtl">
+      <init_from>Building_Mtl.png</init_from>
+    </image>
+    <image id="Building_Nrm">
+      <init_from>Building_Nrm.png</init_from>
+    </image>
+    <image id="Building_Rgh">
+      <init_from>Building_Rgh.png</init_from>
+    </image>
+    <image id="Door_Alb">
+      <init_from>Door_Alb.png</init_from>
+    </image>
+    <image id="Door_Mtl">
+      <init_from>Door_Mtl.png</init_from>
+    </image>
+    <image id="Door_Nrm">
+      <init_from>Door_Nrm.png</init_from>
+    </image>
+    <image id="Door_Rgh">
+      <init_from>Door_Rgh.png</init_from>
+    </image>
+    <image id="DuctFun_Alb">
+      <init_from>DuctFun_Alb.png</init_from>
+    </image>
+    <image id="DuctFun_Mtl">
+      <init_from>DuctFun_Mtl.png</init_from>
+    </image>
+    <image id="DuctFun_Nrm">
+      <init_from>DuctFun_Nrm.png</init_from>
+    </image>
+    <image id="DuctFun_Rgh">
+      <init_from>DuctFun_Rgh.png</init_from>
+    </image>
+    <image id="FactoryFace_Alb">
+      <init_from>FactoryFace_Alb.png</init_from>
+    </image>
+    <image id="FactoryFace_Mtl">
+      <init_from>FactoryFace_Mtl.png</init_from>
+    </image>
+    <image id="FactoryFace_Nrm">
+      <init_from>FactoryFace_Nrm.png</init_from>
+    </image>
+    <image id="FactoryFace_Rgh">
+      <init_from>FactoryFace_Rgh.png</init_from>
+    </image>
+    <image id="FactoryParts_Alb">
+      <init_from>FactoryParts_Alb.png</init_from>
+    </image>
+    <image id="FactoryParts_Mtl">
+      <init_from>FactoryParts_Mtl.png</init_from>
+    </image>
+    <image id="FactoryParts_Nrm">
+      <init_from>FactoryParts_Nrm.png</init_from>
+    </image>
+    <image id="FactoryParts_Rgh">
+      <init_from>FactoryParts_Rgh.png</init_from>
+    </image>
+    <image id="FactoryPipe_Alb">
+      <init_from>FactoryPipe_Alb.png</init_from>
+    </image>
+    <image id="FactoryPipe_Mtl">
+      <init_from>FactoryPipe_Mtl.png</init_from>
+    </image>
+    <image id="FactoryPipe_Nrm">
+      <init_from>FactoryPipe_Nrm.png</init_from>
+    </image>
+    <image id="FactoryPipe_Rgh">
+      <init_from>FactoryPipe_Rgh.png</init_from>
+    </image>
+    <image id="Fence00_Alb">
+      <init_from>Fence00_Alb.png</init_from>
+    </image>
+    <image id="Fence00_Nrm">
+      <init_from>Fence00_Nrm.png</init_from>
+    </image>
+    <image id="Fence00_Opa">
+      <init_from>Fence00_Opa.png</init_from>
+    </image>
+    <image id="Fence00_Rgh">
+      <init_from>Fence00_Rgh.png</init_from>
+    </image>
+    <image id="Filament_Alb">
+      <init_from>Filament_Alb.png</init_from>
+    </image>
+    <image id="Filament_Mtl">
+      <init_from>Filament_Mtl.png</init_from>
+    </image>
+    <image id="Filament_Nrm">
+      <init_from>Filament_Nrm.png</init_from>
+    </image>
+    <image id="Filament_Rgh">
+      <init_from>Filament_Rgh.png</init_from>
+    </image>
+    <image id="FloorItems02_Alb">
+      <init_from>FloorItems02_Alb.png</init_from>
+    </image>
+    <image id="FloorItems02_Emi">
+      <init_from>FloorItems02_Emi.png</init_from>
+    </image>
+    <image id="FloorItems02_Mtl">
+      <init_from>FloorItems02_Mtl.png</init_from>
+    </image>
+    <image id="FloorItems02_Nrm">
+      <init_from>FloorItems02_Nrm.png</init_from>
+    </image>
+    <image id="FloorItems02_Rgh">
+      <init_from>FloorItems02_Rgh.png</init_from>
+    </image>
+    <image id="FloorItems03_Alb">
+      <init_from>FloorItems03_Alb.png</init_from>
+    </image>
+    <image id="FloorItems03_Emi">
+      <init_from>FloorItems03_Emi.png</init_from>
+    </image>
+    <image id="FloorItems03_Mtl">
+      <init_from>FloorItems03_Mtl.png</init_from>
+    </image>
+    <image id="FloorItems03_Nrm">
+      <init_from>FloorItems03_Nrm.png</init_from>
+    </image>
+    <image id="FloorItems03_Rgh">
+      <init_from>FloorItems03_Rgh.png</init_from>
+    </image>
+    <image id="FloorItems04_Alb">
+      <init_from>FloorItems04_Alb.png</init_from>
+    </image>
+    <image id="FloorItems04_Mtl">
+      <init_from>FloorItems04_Mtl.png</init_from>
+    </image>
+    <image id="FloorItems04_Nrm">
+      <init_from>FloorItems04_Nrm.png</init_from>
+    </image>
+    <image id="FloorItems04_Rgh">
+      <init_from>FloorItems04_Rgh.png</init_from>
+    </image>
+    <image id="Frames02_Alb">
+      <init_from>Frames02_Alb.png</init_from>
+    </image>
+    <image id="Frames02_Nrm">
+      <init_from>Frames02_Nrm.png</init_from>
+    </image>
+    <image id="Frames02_Rgh">
+      <init_from>Frames02_Rgh.png</init_from>
+    </image>
+    <image id="FramesPlatform00_Alb">
+      <init_from>FramesPlatform00_Alb.png</init_from>
+    </image>
+    <image id="FramesPlatform00_Nrm">
+      <init_from>FramesPlatform00_Nrm.png</init_from>
+    </image>
+    <image id="FramesPlatform00_Rgh">
+      <init_from>FramesPlatform00_Rgh.png</init_from>
+    </image>
+    <image id="GroundConc_Alb">
+      <init_from>GroundConc_Alb.png</init_from>
+    </image>
+    <image id="GroundConc_Nrm">
+      <init_from>GroundConc_Nrm.png</init_from>
+    </image>
+    <image id="GroundConc_Rgh">
+      <init_from>GroundConc_Rgh.png</init_from>
+    </image>
+    <image id="JunctionDitch_Alb">
+      <init_from>JunctionDitch_Alb.png</init_from>
+    </image>
+    <image id="JunctionDitch_Mtl">
+      <init_from>JunctionDitch_Mtl.png</init_from>
+    </image>
+    <image id="JunctionDitch_Nrm">
+      <init_from>JunctionDitch_Nrm.png</init_from>
+    </image>
+    <image id="JunctionDitch_Rgh">
+      <init_from>JunctionDitch_Rgh.png</init_from>
+    </image>
+    <image id="JunctionObj_Alb">
+      <init_from>JunctionObj_Alb.png</init_from>
+    </image>
+    <image id="JunctionObj_Mtl">
+      <init_from>JunctionObj_Mtl.png</init_from>
+    </image>
+    <image id="JunctionObj_Nrm">
+      <init_from>JunctionObj_Nrm.png</init_from>
+    </image>
+    <image id="JunctionObj_Rgh">
+      <init_from>JunctionObj_Rgh.png</init_from>
+    </image>
+    <image id="JunctionWoodPlate_Alb">
+      <init_from>JunctionWoodPlate_Alb.png</init_from>
+    </image>
+    <image id="JunctionWoodPlate_Nrm">
+      <init_from>JunctionWoodPlate_Nrm.png</init_from>
+    </image>
+    <image id="JunctionWoodPlate_Rgh">
+      <init_from>JunctionWoodPlate_Rgh.png</init_from>
+    </image>
+    <image id="KettleIcon_Alb">
+      <init_from>KettleIcon_Alb.png</init_from>
+    </image>
+    <image id="KettleIcon_Nrm">
+      <init_from>KettleIcon_Nrm.png</init_from>
+    </image>
+    <image id="KettleIcon_Opa">
+      <init_from>KettleIcon_Opa.png</init_from>
+    </image>
+    <image id="KettleIcon_Rgh">
+      <init_from>KettleIcon_Rgh.png</init_from>
+    </image>
+    <image id="LampPost00_Alb">
+      <init_from>LampPost00_Alb.png</init_from>
+    </image>
+    <image id="LampPost00_Emi">
+      <init_from>LampPost00_Emi.png</init_from>
+    </image>
+    <image id="LampPost00_Mtl">
+      <init_from>LampPost00_Mtl.png</init_from>
+    </image>
+    <image id="LampPost00_Nrm">
+      <init_from>LampPost00_Nrm.png</init_from>
+    </image>
+    <image id="LampPost00_Rgh">
+      <init_from>LampPost00_Rgh.png</init_from>
+    </image>
+    <image id="LaunchPad01Vents_Alb">
+      <init_from>LaunchPad01Vents_Alb.png</init_from>
+    </image>
+    <image id="LaunchPad01Vents_Nrm">
+      <init_from>LaunchPad01Vents_Nrm.png</init_from>
+    </image>
+    <image id="LaunchPad01Vents_Rgh">
+      <init_from>LaunchPad01Vents_Rgh.png</init_from>
+    </image>
+    <image id="LaunchPad01WallDeco_Alb">
+      <init_from>LaunchPad01WallDeco_Alb.png</init_from>
+    </image>
+    <image id="LaunchPad01WallDeco_Emi">
+      <init_from>LaunchPad01WallDeco_Emi.png</init_from>
+    </image>
+    <image id="LaunchPad01WallDeco_Nrm">
+      <init_from>LaunchPad01WallDeco_Nrm.png</init_from>
+    </image>
+    <image id="LaunchPad01WallDeco_Rgh">
+      <init_from>LaunchPad01WallDeco_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="NormalDummy00">
+      <init_from>NormalDummy00.png</init_from>
+    </image>
+    <image id="ObjSpeakers02_Alb">
+      <init_from>ObjSpeakers02_Alb.png</init_from>
+    </image>
+    <image id="ObjSpeakers02_Mtl">
+      <init_from>ObjSpeakers02_Mtl.png</init_from>
+    </image>
+    <image id="ObjSpeakers02_Nrm">
+      <init_from>ObjSpeakers02_Nrm.png</init_from>
+    </image>
+    <image id="ObjSpeakers02_Rgh">
+      <init_from>ObjSpeakers02_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="RailingYellow_Alb">
+      <init_from>RailingYellow_Alb.png</init_from>
+    </image>
+    <image id="RailingYellow_Mtl">
+      <init_from>RailingYellow_Mtl.png</init_from>
+    </image>
+    <image id="RailingYellow_Nrm">
+      <init_from>RailingYellow_Nrm.png</init_from>
+    </image>
+    <image id="RailingYellow_Rgh">
+      <init_from>RailingYellow_Rgh.png</init_from>
+    </image>
+    <image id="Record00_Alb">
+      <init_from>Record00_Alb.png</init_from>
+    </image>
+    <image id="Record00_Mtl">
+      <init_from>Record00_Mtl.png</init_from>
+    </image>
+    <image id="Record00_Nrm">
+      <init_from>Record00_Nrm.png</init_from>
+    </image>
+    <image id="Record00_Rgh">
+      <init_from>Record00_Rgh.png</init_from>
+    </image>
+    <image id="RecordCover05_Alb">
+      <init_from>RecordCover05_Alb.png</init_from>
+    </image>
+    <image id="RecordCover05_Nrm">
+      <init_from>RecordCover05_Nrm.png</init_from>
+    </image>
+    <image id="RecordCover05_Rgh">
+      <init_from>RecordCover05_Rgh.png</init_from>
+    </image>
+    <image id="RefMat_Fld_Snow_Emm">
+      <init_from>RefMat_Fld_Snow_Emm.png</init_from>
+    </image>
+    <image id="RubberMat_Alb">
+      <init_from>RubberMat_Alb.png</init_from>
+    </image>
+    <image id="RubberMat_Nrm">
+      <init_from>RubberMat_Nrm.png</init_from>
+    </image>
+    <image id="RubberMat_Rgh">
+      <init_from>RubberMat_Rgh.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Alb">
+      <init_from>ScaffoldSet_Alb.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Mtl">
+      <init_from>ScaffoldSet_Mtl.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Nrm">
+      <init_from>ScaffoldSet_Nrm.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Rgh">
+      <init_from>ScaffoldSet_Rgh.png</init_from>
+    </image>
+    <image id="Server_Alb">
+      <init_from>Server_Alb.png</init_from>
+    </image>
+    <image id="Server_Emi">
+      <init_from>Server_Emi.png</init_from>
+    </image>
+    <image id="Server_Mtl">
+      <init_from>Server_Mtl.png</init_from>
+    </image>
+    <image id="Server_Nrm">
+      <init_from>Server_Nrm.png</init_from>
+    </image>
+    <image id="Server_Rgh">
+      <init_from>Server_Rgh.png</init_from>
+    </image>
+    <image id="ShakeshipFenceVinylA_Alb">
+      <init_from>ShakeshipFenceVinylA_Alb.png</init_from>
+    </image>
+    <image id="ShakeshipFenceVinylA_Nrm">
+      <init_from>ShakeshipFenceVinylA_Nrm.png</init_from>
+    </image>
+    <image id="ShakeshipFenceVinylA_Rgh">
+      <init_from>ShakeshipFenceVinylA_Rgh.png</init_from>
+    </image>
+    <image id="SteelTower_Alb">
+      <init_from>SteelTower_Alb.png</init_from>
+    </image>
+    <image id="SteelTower_Mtl">
+      <init_from>SteelTower_Mtl.png</init_from>
+    </image>
+    <image id="SteelTower_Nrm">
+      <init_from>SteelTower_Nrm.png</init_from>
+    </image>
+    <image id="SteelTower_Rgh">
+      <init_from>SteelTower_Rgh.png</init_from>
+    </image>
+    <image id="TestHologram_Alb">
+      <init_from>TestHologram_Alb.png</init_from>
+    </image>
+    <image id="TestHologram_Mask_Resi">
+      <init_from>TestHologram_Mask_Resi.png</init_from>
+    </image>
+    <image id="TestHologram_Opa">
+      <init_from>TestHologram_Opa.png</init_from>
+    </image>
+    <image id="Tire_Alb">
+      <init_from>Tire_Alb.png</init_from>
+    </image>
+    <image id="Tire_Mtl">
+      <init_from>Tire_Mtl.png</init_from>
+    </image>
+    <image id="Tire_Nrm">
+      <init_from>Tire_Nrm.png</init_from>
+    </image>
+    <image id="Tire_Rgh">
+      <init_from>Tire_Rgh.png</init_from>
+    </image>
+    <image id="TowerMain_Alb">
+      <init_from>TowerMain_Alb.png</init_from>
+    </image>
+    <image id="TowerMain_Emi">
+      <init_from>TowerMain_Emi.png</init_from>
+    </image>
+    <image id="TowerMain_Mtl">
+      <init_from>TowerMain_Mtl.png</init_from>
+    </image>
+    <image id="TowerMain_Nrm">
+      <init_from>TowerMain_Nrm.png</init_from>
+    </image>
+    <image id="TowerMain_Rgh">
+      <init_from>TowerMain_Rgh.png</init_from>
+    </image>
+    <image id="VenueReel_Alb">
+      <init_from>VenueReel_Alb.png</init_from>
+    </image>
+    <image id="VenueReel_Nrm">
+      <init_from>VenueReel_Nrm.png</init_from>
+    </image>
+    <image id="VenueReel_Rgh">
+      <init_from>VenueReel_Rgh.png</init_from>
+    </image>
+    <image id="Whs_Box00_Alb">
+      <init_from>Whs_Box00_Alb.png</init_from>
+    </image>
+    <image id="Whs_Box00_Mtl">
+      <init_from>Whs_Box00_Mtl.png</init_from>
+    </image>
+    <image id="Whs_Box00_Nrm">
+      <init_from>Whs_Box00_Nrm.png</init_from>
+    </image>
+    <image id="Whs_Box00_Rgh">
+      <init_from>Whs_Box00_Rgh.png</init_from>
+    </image>
+    <image id="Whs_Shelf00_Alb">
+      <init_from>Whs_Shelf00_Alb.png</init_from>
+    </image>
+    <image id="Whs_Shelf00_Nrm">
+      <init_from>Whs_Shelf00_Nrm.png</init_from>
+    </image>
+    <image id="Whs_Shelf00_Rgh">
+      <init_from>Whs_Shelf00_Rgh.png</init_from>
+    </image>
+    <image id="Window_Emi">
+      <init_from>Window_Emi.png</init_from>
+    </image>
+    <image id="WorldPaintObj_Alb">
+      <init_from>WorldPaintObj_Alb.png</init_from>
+    </image>
+    <image id="WorldPaintObj_Mtl">
+      <init_from>WorldPaintObj_Mtl.png</init_from>
+    </image>
+    <image id="WorldPaintObj_Nrm">
+      <init_from>WorldPaintObj_Nrm.png</init_from>
+    </image>
+    <image id="WorldPaintObj_Rgh">
+      <init_from>WorldPaintObj_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="TestHologram">
+      <instance_effect url="#Effect_TestHologram" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_TestHologram">
+      <profile_COMMON>
+        <newparam sid="surface_TestHologram-diffuse">
+          <surface type="2D">
+            <init_from>TestHologram_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_TestHologram-diffuse">
+          <sampler2D>
+            <source>surface_TestHologram-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_TestHologram-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="TestHologramSeal__TestHologram-mesh" name="TestHologramSeal__TestHologram">
+      <mesh>
+        <source id="TestHologramSeal__TestHologram-position">
+          <float_array id="TestHologramSeal__TestHologram-position-array" count="36">-2 0 2 2 0 2 -2 0 -2 2 0 -2 -2 0 2 2 0 2 -2 0 -2 2 0 -2 -2 0 2 2 0 2 -2 0 -2 2 0 -2</float_array>
+          <technique_common>
+            <accessor source="#TestHologramSeal__TestHologram-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestHologramSeal__TestHologram-normal">
+          <float_array id="TestHologramSeal__TestHologram-normal-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#TestHologramSeal__TestHologram-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestHologramSeal__TestHologram-texcoord">
+          <float_array id="TestHologramSeal__TestHologram-texcoord-array" count="24">0.002380407 0.00679028 0.9915923 0.00679028 0.002380407 0.9960021 0.9915923 0.9960021 0.002380407 0.00679028 0.9915923 0.00679028 0.002380407 0.9960021 0.9915923 0.9960021 0.002380407 0.00679028 0.9915923 0.00679028 0.002380407 0.9960021 0.9915923 0.9960021</float_array>
+          <technique_common>
+            <accessor source="#TestHologramSeal__TestHologram-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TestHologramSeal__TestHologram-vertex">
+          <input semantic="POSITION" source="#TestHologramSeal__TestHologram-position" />
+        </vertices>
+        <triangles material="TestHologram" count="2">
+          <input semantic="VERTEX" source="#TestHologramSeal__TestHologram-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TestHologramSeal__TestHologram-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#TestHologramSeal__TestHologram-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_TestHologramSeal__TestHologram-mesh">
+      <skin source="#TestHologramSeal__TestHologram-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TestHologramSeal__TestHologram-mesh-joint">
+          <Name_array id="TestHologramSeal__TestHologram-mesh-joint-array" count="1">TestHologramSeal</Name_array>
+          <technique_common>
+            <accessor source="#TestHologramSeal__TestHologram-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestHologramSeal__TestHologram-mesh-inv_bind_matrix">
+          <float_array id="TestHologramSeal__TestHologram-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TestHologramSeal__TestHologram-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestHologramSeal__TestHologram-mesh-weight">
+          <float_array id="TestHologramSeal__TestHologram-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TestHologramSeal__TestHologram-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TestHologramSeal__TestHologram-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TestHologramSeal__TestHologram-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#TestHologramSeal__TestHologram-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TestHologramSeal__TestHologram-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_TestHologramSeal" name="TestHologramSeal" sid="TestHologramSeal" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="TestHologramSeal__TestHologram" name="TestHologramSeal__TestHologram" type="NODE">
+        <instance_controller url="#Armature_TestHologramSeal__TestHologram-mesh">
+          <skeleton>#Armature_TestHologramSeal</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="TestHologram" target="#TestHologram" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
