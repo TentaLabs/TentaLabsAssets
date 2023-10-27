@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="EdgePartsSet_Alb">
+      <init_from>EdgePartsSet_Alb.png</init_from>
+    </image>
+    <image id="EdgePartsSet_Mtl">
+      <init_from>EdgePartsSet_Mtl.png</init_from>
+    </image>
+    <image id="EdgePartsSet_Nrm">
+      <init_from>EdgePartsSet_Nrm.png</init_from>
+    </image>
+    <image id="EdgePartsSet_Rgh">
+      <init_from>EdgePartsSet_Rgh.png</init_from>
+    </image>
+    <image id="FootLight_Alb">
+      <init_from>FootLight_Alb.png</init_from>
+    </image>
+    <image id="FootLight_Emm">
+      <init_from>FootLight_Emm.png</init_from>
+    </image>
+    <image id="FootLight_Nrm">
+      <init_from>FootLight_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiPaintedSet_Alb">
+      <init_from>GraffitiPaintedSet_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Alb">
+      <init_from>PlateSteelGrey_Alb.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Nrm">
+      <init_from>PlateSteelGrey_Nrm.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Rgh">
+      <init_from>PlateSteelGrey_Rgh.png</init_from>
+    </image>
+    <image id="SteelFrameRedPurple_Alb">
+      <init_from>SteelFrameRedPurple_Alb.png</init_from>
+    </image>
+    <image id="SteelFrameRedPurple_Col">
+      <init_from>SteelFrameRedPurple_Col.png</init_from>
+    </image>
+    <image id="SteelFrameRedPurple_Nrm">
+      <init_from>SteelFrameRedPurple_Nrm.png</init_from>
+    </image>
+    <image id="Wallbigholds_Alb">
+      <init_from>Wallbigholds_Alb.png</init_from>
+    </image>
+    <image id="Wallbigholds_Nrm">
+      <init_from>Wallbigholds_Nrm.png</init_from>
+    </image>
+    <image id="Wallbigholds_Rgh">
+      <init_from>Wallbigholds_Rgh.png</init_from>
+    </image>
+    <image id="WallIronPatch_Alb">
+      <init_from>WallIronPatch_Alb.png</init_from>
+    </image>
+    <image id="WallIronPatch_Nrm">
+      <init_from>WallIronPatch_Nrm.png</init_from>
+    </image>
+    <image id="WallIronPatch_Rgh">
+      <init_from>WallIronPatch_Rgh.png</init_from>
+    </image>
+    <image id="WallShopMetalGray_Alb">
+      <init_from>WallShopMetalGray_Alb.png</init_from>
+    </image>
+    <image id="WallShopMetalGray_Nrm">
+      <init_from>WallShopMetalGray_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCylinder56__MapWall-mesh" name="pCylinder56__MapWall">
+      <mesh>
+        <source id="pCylinder56__MapWall-position">
+          <float_array id="pCylinder56__MapWall-position-array" count="246">8.035726 130 98.51285 8.035731 154.9999 98.51283 7.279649 130 88.68067 7.279653 154.9999 88.68066 11.86758 130 83.36605 11.86758 154.9999 83.36604 29.58573 129.9929 95.06595 29.58574 154.9928 95.06595 22.30205 130 96.92463 22.30205 154.9999 96.92461 13.02101 130 98.12949 13.02101 154.9999 98.12947 8.035726 130 98.51285 8.035731 154.9999 98.51283 18.87466 130 82.70571 11.86758 130 83.36605 11.86758 154.9999 83.36604 18.87466 154.9999 82.70571 25.02136 154.9928 81.1193 25.02136 129.9929 81.1193 30.86631 130 78.62444 30.86631 154.9999 78.62444 29.58573 129.9929 95.06595 22.30205 130 96.92463 26.54586 129.9929 85.76843 20.0232 130 87.44585 25.02136 129.9929 81.1193 13.02101 130 98.12949 18.87466 130 82.70571 8.035726 130 98.51285 7.279649 130 88.68067 12.26421 130 88.28819 11.86758 130 83.36605 22.30205 154.9999 96.92461 29.58574 154.9928 95.06595 26.54586 154.9928 85.76843 20.0232 154.9999 87.44584 25.02136 154.9928 81.1193 13.02101 154.9999 98.12947 18.87466 154.9999 82.70571 7.279653 154.9999 88.68066 8.035731 154.9999 98.51283 12.26422 154.9999 88.28817 11.86758 154.9999 83.36604 32.76676 130 83.18257 30.86631 130 78.62444 36.0567 130 76.61897 38.48866 130 80.84666 43.41691 130 72.73785 43.35259 130 89.30205 36.56767 130 92.29883 46.64614 130 76.46987 52.34237 130 73.19822 53.10461 130 83.93394 58.80083 130 80.66231 53.10461 154.9999 83.93394 43.35259 154.9999 89.30205 43.35259 130 89.30205 53.10461 130 83.93394 58.80083 154.9999 80.66231 58.80083 130 80.66231 36.0567 130 76.61897 36.0567 154.9999 76.61897 43.41691 154.9999 72.73785 43.41691 130 72.73785 52.34237 130 73.19822 52.34237 154.9999 73.19822 58.80083 154.9999 80.66231 58.80083 130 80.66231 43.41691 154.9999 72.73785 46.64614 154.9999 76.46987 52.34237 154.9999 73.19822 53.10461 154.9999 83.93394 43.35259 154.9999 89.30205 58.80083 154.9999 80.66231 36.56767 130 92.29883 36.56767 154.9999 92.29883 36.56767 154.9999 92.29883 32.76677 154.9999 83.18257 30.86631 154.9999 78.62444 36.0567 154.9999 76.61897 38.48867 154.9999 80.84666</float_array>
+          <technique_common>
+            <accessor source="#pCylinder56__MapWall-position-array" count="82" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder56__MapWall-normal">
+          <float_array id="pCylinder56__MapWall-normal-array" count="246">-0.9960861 0 0.07632094 -0.9960861 0 0.07632094 -0.9686888 0 -0.2446184 -0.9686888 0 -0.2446184 -0.4579256 0 -0.888454 -0.4579256 0 -0.888454 0.3091977 0 0.9510763 0.3091977 0 0.9510763 0.1819961 0 0.9823875 0.1819961 0 0.9823875 0.111546 0 0.9941292 0.111546 0 0.9941292 0.07632094 0 0.9960861 0.07632094 0 0.9960861 -0.1682975 0 -0.9863014 -0.4579256 0 -0.888454 -0.4579256 0 -0.888454 -0.1682975 0 -0.9863014 -0.3228963 0 -0.9471624 -0.3228963 0 -0.9471624 -0.3776908 0 -0.925636 -0.3776908 0 -0.925636 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.4872798 0 0.8727984 0.4520548 0 0.8923679 0.4520548 0 0.8923679 0.4872798 0 0.8727984 0.4990215 0 0.8669276 0.4990215 0 0.8669276 -0.4246575 0 -0.9060665 -0.4246575 0 -0.9060665 -0.2054795 0 -0.9784736 -0.2054795 0 -0.9784736 0.4579256 0 -0.888454 0.4579256 0 -0.888454 0.7553816 0 -0.6536204 0.7553816 0 -0.6536204 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.3855186 0 0.9217221 0.3855186 0 0.9217221 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCylinder56__MapWall-normal-array" count="82" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder56__MapWall-texcoord">
+          <float_array id="pCylinder56__MapWall-texcoord-array" count="164">3.578125 4.308594 3.578125 5.085938 3.269531 4.308594 3.269531 5.085938 3.103516 4.308594 3.103516 5.085938 -0.4243164 -3.304688 -0.4243164 -4.085938 -0.1968994 -3.308594 -0.1968994 -4.085938 0.09307861 -3.308594 0.09307861 -4.085938 0.2487793 -3.308594 0.2487793 -4.085938 -0.08978271 4.308594 0.1290283 4.308594 0.1290283 5.085938 -0.08978271 5.085938 -0.2817383 5.085938 -0.2817383 4.306641 -0.4643555 4.308594 -0.4643555 5.085938 -0.4243164 -2.470703 -0.1968994 -2.527344 -0.3293457 -2.179688 -0.1256104 -2.232422 -0.2817383 -2.033203 0.09307861 -2.566406 -0.08978271 -2.083984 0.2487793 -2.578125 0.2724609 -2.269531 0.1166992 -2.257813 0.1290283 -2.103516 -0.1968994 3.527344 -0.4243164 3.470703 -0.3293457 3.179688 -0.1256104 3.232422 -0.2817383 3.033203 0.09307861 3.566406 -0.08978271 3.083984 0.2724609 3.269531 0.2487793 3.578125 0.1166992 3.257813 0.1290283 3.103516 -0.5239258 -2.097656 -0.4643555 -1.955078 -0.6264648 -1.892578 -0.7026367 -2.025391 -0.8564453 -1.771484 -0.8544922 -2.289063 -0.6425781 -2.382813 -0.9575195 -1.888672 -1.134766 -1.787109 -1.15918 -2.121094 -1.336914 -2.019531 -1.15918 -4.085938 -0.8544922 -4.085938 -0.8544922 -3.308594 -1.15918 -3.308594 -1.336914 -4.085938 -1.336914 -3.308594 -0.6264648 4.308594 -0.6264648 5.085938 -0.8564453 5.085938 -0.8564453 4.308594 -1.134766 4.308594 -1.134766 5.085938 -1.336914 5.085938 -1.336914 4.308594 -0.8564453 2.772461 -0.9575195 2.889648 -1.134766 2.787109 -1.15918 3.121094 -0.8544922 3.289063 -1.336914 3.019531 -0.6425781 -3.308594 -0.6425781 -4.085938 -0.6425781 3.382813 -0.5239258 3.097656 -0.4643555 2.956055 -0.6264648 2.893555 -0.7026367 3.025391</float_array>
+          <technique_common>
+            <accessor source="#pCylinder56__MapWall-texcoord-array" count="82" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder56__MapWall-vertex">
+          <input semantic="POSITION" source="#pCylinder56__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="84">
+          <input semantic="VERTEX" source="#pCylinder56__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder56__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCylinder56__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 2 2 2 3 3 3 4 4 4 3 3 3 5 5 5 4 4 4 6 6 6 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 10 10 10 11 11 11 12 12 12 11 11 11 13 13 13 12 12 12 14 14 14 15 15 15 16 16 16 17 17 17 14 14 14 16 16 16 14 14 14 17 17 17 18 18 18 19 19 19 14 14 14 18 18 18 19 19 19 18 18 18 20 20 20 18 18 18 21 21 21 20 20 20 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 24 24 24 25 25 25 26 26 26 23 23 23 27 27 27 25 25 25 25 25 25 28 28 28 26 26 26 27 27 27 29 29 29 30 30 30 25 25 25 31 31 31 28 28 28 27 27 27 31 31 31 25 25 25 31 31 31 27 27 27 30 30 30 31 31 31 32 32 32 28 28 28 32 32 32 31 31 31 30 30 30 33 33 33 34 34 34 35 35 35 36 36 36 33 33 33 35 35 35 36 36 36 35 35 35 37 37 37 38 38 38 33 33 33 36 36 36 39 39 39 36 36 36 37 37 37 40 40 40 41 41 41 38 38 38 36 36 36 39 39 39 42 42 42 42 42 42 38 38 38 36 36 36 42 42 42 40 40 40 38 38 38 39 39 39 43 43 43 42 42 42 42 42 42 43 43 43 40 40 40 44 44 44 45 45 45 46 46 46 47 47 47 44 44 44 46 46 46 47 47 47 46 46 46 48 48 48 49 49 49 50 50 50 47 47 47 51 51 51 47 47 47 48 48 48 49 49 49 47 47 47 51 51 51 51 51 51 48 48 48 52 52 52 53 53 53 49 49 49 51 51 51 51 51 51 52 52 52 53 53 53 52 52 52 54 54 54 53 53 53 55 55 55 56 56 56 57 57 57 58 58 58 55 55 55 57 57 57 55 55 55 58 58 58 59 59 59 58 58 58 60 60 60 59 59 59 61 61 61 62 62 62 63 63 63 64 64 64 61 61 61 63 63 63 64 64 64 63 63 63 65 65 65 63 63 63 66 66 66 65 65 65 65 65 65 66 66 66 67 67 67 68 68 68 65 65 65 67 67 67 69 69 69 70 70 70 71 71 71 70 70 70 72 72 72 71 71 71 73 73 73 72 72 72 70 70 70 72 72 72 74 74 74 71 71 71 62 62 62 61 61 61 21 21 21 61 61 61 20 20 20 21 21 21 26 26 26 45 45 45 44 44 44 24 24 24 26 26 26 44 44 44 44 44 44 50 50 50 24 24 24 50 50 50 44 44 44 47 47 47 50 50 50 22 22 22 24 24 24 7 7 7 6 6 6 75 75 75 76 76 76 7 7 7 75 75 75 56 56 56 76 76 76 75 75 75 57 57 57 56 56 56 75 75 75 34 34 34 77 77 77 35 35 35 77 77 77 78 78 78 35 35 35 35 35 35 78 78 78 37 37 37 78 78 78 79 79 79 37 37 37 80 80 80 79 79 79 78 78 78 78 78 78 77 77 77 81 81 81 81 81 81 80 80 80 78 78 78 77 77 77 73 73 73 81 81 81 80 80 80 81 81 81 69 69 69 81 81 81 73 73 73 70 70 70 81 81 81 70 70 70 69 69 69 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCylinder56__MapWall-mesh">
+      <skin source="#pCylinder56__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder56__MapWall-mesh-joint">
+          <Name_array id="pCylinder56__MapWall-mesh-joint-array" count="1">Lft_CarouselProtectA_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder56__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder56__MapWall-mesh-inv_bind_matrix">
+          <float_array id="pCylinder56__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder56__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder56__MapWall-mesh-weight">
+          <float_array id="pCylinder56__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder56__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder56__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder56__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="82">
+          <input semantic="JOINT" source="#pCylinder56__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder56__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_CarouselProtectA_Map" name="Lft_CarouselProtectA_Map" sid="Lft_CarouselProtectA_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCylinder56__MapWall" name="pCylinder56__MapWall" type="NODE">
+        <instance_controller url="#Armature_pCylinder56__MapWall-mesh">
+          <skeleton>#Armature_Lft_CarouselProtectA_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Alb">
+      <init_from>M_GeneralBoxBody_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Nrm">
+      <init_from>M_GeneralBoxBody_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Rgh">
+      <init_from>M_GeneralBoxBody_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Alb">
+      <init_from>M_GeneralBoxTopEdge_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Nrm">
+      <init_from>M_GeneralBoxTopEdge_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Rgh">
+      <init_from>M_GeneralBoxTopEdge_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh" name="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround">
+      <mesh>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-position">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-position-array" count="24">205.5 125.7131 -22 205.5 125.7131 37 248.5854 125.713 -22 248.5854 125.7131 37 202.5 7.629395E-06 40 202.5 7.629395E-06 -25 251.5854 7.629395E-06 40 251.5854 7.629395E-06 -25</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-normal">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-normal-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-texcoord">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-texcoord-array" count="16">2.831578 2.179035 26.43158 2.179034 2.831579 19.41321 26.43158 19.41321 0.001758177 0.001760423 26.00176 0.001760006 0.00175805 19.63594 26.00176 19.63594</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-vertex">
+          <input semantic="POSITION" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="4">
+          <input semantic="VERTEX" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh" name="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall">
+      <mesh>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-position">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-position-array" count="90">251.5854 7.629395E-06 40 251.5854 125.7131 40 202.5 7.629395E-06 40 202.5 125.7131 40 251.5854 7.629395E-06 -25 251.5854 125.7131 -25 251.5854 7.629395E-06 40 251.5854 125.7131 40 202.5 125.7131 -25 251.5854 125.7131 -25 202.5 7.629395E-06 -25 251.5854 7.629395E-06 -25 202.5 125.7131 40 202.5 125.7131 -25 202.5 7.629395E-06 40 202.5 7.629395E-06 -25 202.5 125.7131 -25 205.5 125.7131 -22 251.5854 125.7131 -25 248.5854 125.713 -22 248.5854 125.713 -22 248.5854 125.7131 37 251.5854 125.7131 -25 251.5854 125.7131 40 251.5854 125.7131 40 248.5854 125.7131 37 202.5 125.7131 40 205.5 125.7131 37 202.5 125.7131 -25 205.5 125.7131 -22</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-position-array" count="30" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-normal">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-normal-array" count="90">0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-normal-array" count="30" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-texcoord">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-texcoord-array" count="60">3.109375 0.00390625 3.060547 3.144531 1.882813 -0.01464844 1.833984 3.126953 4.878906 0.00390625 4.808594 3.144531 3.255859 -0.03320313 3.183594 3.107422 6.136719 3.138672 4.910156 3.148438 6.109375 -0.00390625 4.882813 0.006835938 1.626953 3.144531 0.002000809 3.144531 1.624023 0.001953125 -0.0009021759 0.003417969 0.2182617 -0.2617188 0.2817383 -0.1767578 0.04193115 0.9523621 0.1268311 0.888916 0.130127 1.186523 1.604492 1.178589 0.05554199 1.261963 1.679688 1.253174 0.9921875 1.240234 0.9287109 1.155029 1.170898 0.02636719 1.085938 0.08984375 -0.435791 -0.2109375 -0.3725586 -0.1259766</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-texcoord-array" count="30" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-vertex">
+          <input semantic="POSITION" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="16">
+          <input semantic="VERTEX" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 26 26 26 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh">
+      <skin source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-joint">
+          <Name_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-joint-array" count="1">Lft_AthleticLiftStep_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-weight">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh">
+      <skin source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-joint">
+          <Name_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-joint-array" count="1">Lft_AthleticLiftStep_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-weight">
+          <float_array id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="30">
+          <input semantic="JOINT" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_AthleticLiftStep_Map" name="Lft_AthleticLiftStep_Map" sid="Lft_AthleticLiftStep_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround" name="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround" type="NODE">
+        <instance_controller url="#Armature_Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapGround-mesh">
+          <skeleton>#Armature_Lft_AthleticLiftStep_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall" name="Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall" type="NODE">
+        <instance_controller url="#Armature_Lft_AthleticLiftStep_Map_dis_Obj_GeneralBox_235_body__MapWall-mesh">
+          <skeleton>#Armature_Lft_AthleticLiftStep_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

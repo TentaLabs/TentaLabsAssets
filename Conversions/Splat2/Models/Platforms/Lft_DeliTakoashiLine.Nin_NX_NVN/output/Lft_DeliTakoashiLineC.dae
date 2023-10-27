@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="GateCodeBase_Alb">
+      <init_from>GateCodeBase_Alb.png</init_from>
+    </image>
+    <image id="GateCodeBase_Nrm">
+      <init_from>GateCodeBase_Nrm.png</init_from>
+    </image>
+    <image id="GateCodeLight_Alb">
+      <init_from>GateCodeLight_Alb.png</init_from>
+    </image>
+    <image id="GateCodeLight_Emm">
+      <init_from>GateCodeLight_Emm.png</init_from>
+    </image>
+    <image id="GateCodeSocketIron_Alb">
+      <init_from>GateCodeSocketIron_Alb.png</init_from>
+    </image>
+    <image id="GateCodeSocketIron_Nrm">
+      <init_from>GateCodeSocketIron_Nrm.png</init_from>
+    </image>
+    <image id="GateCodeSocketIron_Rgh">
+      <init_from>GateCodeSocketIron_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GateCodeBase">
+      <instance_effect url="#Effect_GateCodeBase" />
+    </material>
+    <material id="GateCodeLight">
+      <instance_effect url="#Effect_GateCodeLight" />
+    </material>
+    <material id="GateCodeSocketIron">
+      <instance_effect url="#Effect_GateCodeSocketIron" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GateCodeBase">
+      <profile_COMMON>
+        <newparam sid="surface_GateCodeBase-diffuse">
+          <surface type="2D">
+            <init_from>GateCodeBase_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GateCodeBase-diffuse">
+          <sampler2D>
+            <source>surface_GateCodeBase-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GateCodeBase-bump">
+          <surface type="2D">
+            <init_from>GateCodeBase_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GateCodeBase-bump">
+          <sampler2D>
+            <source>surface_GateCodeBase-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GateCodeBase-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GateCodeBase-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GateCodeLight">
+      <profile_COMMON>
+        <newparam sid="surface_GateCodeLight-diffuse">
+          <surface type="2D">
+            <init_from>GateCodeLight_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GateCodeLight-diffuse">
+          <sampler2D>
+            <source>surface_GateCodeLight-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GateCodeLight-emission">
+          <surface type="2D">
+            <init_from>GateCodeLight_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GateCodeLight-emission">
+          <sampler2D>
+            <source>surface_GateCodeLight-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GateCodeLight-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <texture texture="sampler_GateCodeLight-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GateCodeSocketIron">
+      <profile_COMMON>
+        <newparam sid="surface_GateCodeSocketIron-diffuse">
+          <surface type="2D">
+            <init_from>GateCodeSocketIron_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GateCodeSocketIron-diffuse">
+          <sampler2D>
+            <source>surface_GateCodeSocketIron-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GateCodeSocketIron-bump">
+          <surface type="2D">
+            <init_from>GateCodeSocketIron_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GateCodeSocketIron-bump">
+          <sampler2D>
+            <source>surface_GateCodeSocketIron-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GateCodeSocketIron-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GateCodeSocketIron-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box__GateCodeSocketIron-mesh" name="Box__GateCodeSocketIron">
+      <mesh>
+        <source id="Box__GateCodeSocketIron-position">
+          <float_array id="Box__GateCodeSocketIron-position-array" count="138">-0.79039 5.552062 64.4575 -1.042488 5.049984 64.4575 -1.042488 5.299985 64.4575 -0.79039 5.552062 70.49998 -1.042488 5.299985 70.49998 -1.042488 5.049984 70.49998 5.000023 5.552063 64.4575 5.000023 5.049984 64.4575 -0.79039 5.552062 64.4575 -1.042488 5.049984 64.4575 -1.042488 5.299985 70.49998 -1.042488 5.299985 64.4575 -1.042488 5.049984 70.49998 -1.042488 5.049984 64.4575 5.000023 5.552063 70.49998 5.000023 5.049984 70.49998 5.000023 5.552063 64.4575 5.000023 5.049984 64.4575 5.000023 5.552063 70.49998 5.000023 5.552063 64.4575 -0.79039 5.552062 70.49998 -0.79039 5.552062 64.4575 -1.042488 5.049984 70.49998 5.000023 5.049984 70.49998 -0.79039 5.552062 70.49998 5.000023 5.552063 70.49998 -0.79039 5.552062 64.4575 -1.042488 5.299985 64.4575 -0.79039 5.552062 70.49998 -1.042488 5.299985 70.49998 5.000023 5.552063 64.4575 5.000023 5.049984 64.4575 -1.042488 5.049984 64.4575 5.000023 5.049984 70.49998 5.000023 5.049984 64.4575 5.000023 5.552063 64.4575 -1.042488 5.049984 70.49998 5.000023 5.049984 70.49998 -0.79039 5.552062 70.49998 -1.042488 5.049984 64.4575 -1.042488 5.049984 70.49998 -0.79039 5.552062 70.49998 5.000023 5.049984 70.49998 5.000023 5.552063 64.4575 -0.79039 5.552062 70.49998 -1.042488 5.049984 64.4575</float_array>
+          <technique_common>
+            <accessor source="#Box__GateCodeSocketIron-position-array" count="46" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box__GateCodeSocketIron-normal">
+          <float_array id="Box__GateCodeSocketIron-normal-array" count="138">0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 -0.8943248 0.4481409 0 -0.8943248 0.4481409 0 -0.8943248 0.4481409 0 0.08610567 0.9921722 0.08219178 -0.001956947 1 -0.001956947 0 1 0 -0.08219178 0.9941292 -0.07827789</float_array>
+          <technique_common>
+            <accessor source="#Box__GateCodeSocketIron-normal-array" count="46" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box__GateCodeSocketIron-texcoord">
+          <float_array id="Box__GateCodeSocketIron-texcoord-array" count="92">0.2941787 0.9137713 0.01782254 0.9426718 0.2652781 0.9426718 0.2941787 0.9137713 0.2665446 0.9426718 0.01782254 0.9426718 0.2941787 0.4082552 0.01782254 0.4082552 0.2941787 0.9137713 0.01782254 0.9426718 0.3376974 0.08278018 0.8773633 0.08278018 0.3376974 0.3516136 0.8773633 0.3516136 0.3376974 0.3516136 0.3376974 0.08278018 0.8773633 0.3516136 0.8773633 0.08278018 0.3376974 0.4082552 0.8747692 0.4082552 0.3376974 0.9137713 0.8747692 0.9137713 0.01782254 0.9426718 0.01782254 0.4082552 0.2941787 0.9137713 0.2941787 0.4082552 0.8747692 0.9137713 0.8747692 0.9834745 0.3376974 0.9137713 0.3376974 0.9834745 0.2941787 0.4082552 0.01782254 0.4082552 0.01782254 0.9426718 0.3376974 0.08278018 0.8773633 0.08278018 0.8773633 0.3516136 0.01782254 0.9426718 0.01782254 0.4082552 0.2941787 0.9137713 0.8747692 0.9616846 0.3376974 0.9834745 0.3376974 0.9137713 0.3376974 0.4082552 0.8747692 0.4082552 0.3376974 0.9137713 0.8747692 0.9616846</float_array>
+          <technique_common>
+            <accessor source="#Box__GateCodeSocketIron-texcoord-array" count="46" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box__GateCodeSocketIron-vertex">
+          <input semantic="POSITION" source="#Box__GateCodeSocketIron-position" />
+        </vertices>
+        <triangles material="GateCodeSocketIron" count="14">
+          <input semantic="VERTEX" source="#Box__GateCodeSocketIron-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Box__GateCodeSocketIron-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Box__GateCodeSocketIron-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 10 10 10 11 11 11 12 12 12 11 11 11 13 13 13 12 12 12 14 14 14 15 15 15 16 16 16 15 15 15 17 17 17 16 16 16 18 18 18 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 26 26 26 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Light__GateCodeLight-mesh" name="Light__GateCodeLight">
+      <mesh>
+        <source id="Light__GateCodeLight-position">
+          <float_array id="Light__GateCodeLight-position-array" count="48">4.000031 5.249985 69.5 4.000031 5.249985 65.5 -53 5.25 69.50003 -57 5.25 65.5 -57 5.25 65.5 -57 5.250015 87.5 -53 5.25 69.50003 -52.99997 5.250015 87.5 4.000031 5.249985 69.5 4.000031 5.249985 65.5 -53 5.25 69.50003 -57 5.25 65.5 -57 5.25 65.5 -57 5.250015 87.5 -53 5.25 69.50003 -52.99997 5.250015 87.5</float_array>
+          <technique_common>
+            <accessor source="#Light__GateCodeLight-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Light__GateCodeLight-normal">
+          <float_array id="Light__GateCodeLight-normal-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Light__GateCodeLight-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Light__GateCodeLight-texcoord">
+          <float_array id="Light__GateCodeLight-texcoord-array" count="32">4.871094 0.03271484 4.871094 0.9675598 0.730957 0.03271484 0.4401855 0.9675903 0.6376953 0.9675903 -0.9599609 0.9675903 0.347168 0.03271484 -0.9599609 0.03271484 4.871094 0.03271484 4.871094 0.9675598 0.730957 0.03271484 0.4401855 0.9675903 0.6376953 0.9675903 -0.9599609 0.9675903 0.347168 0.03271484 -0.9599609 0.03271484</float_array>
+          <technique_common>
+            <accessor source="#Light__GateCodeLight-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Light__GateCodeLight-vertex">
+          <input semantic="POSITION" source="#Light__GateCodeLight-position" />
+        </vertices>
+        <triangles material="GateCodeLight" count="4">
+          <input semantic="VERTEX" source="#Light__GateCodeLight-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Light__GateCodeLight-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Light__GateCodeLight-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Line__GateCodeBase-mesh" name="Line__GateCodeBase">
+      <mesh>
+        <source id="Line__GateCodeBase-position">
+          <float_array id="Line__GateCodeBase-position-array" count="48">4.000031 5.199985 69.5 4.000031 5.199985 65.5 -53 5.2 69.50003 -57 5.2 65.5 -57 5.2 65.5 -57 5.200015 87.5 -53 5.2 69.50003 -52.99997 5.200015 87.5 4.000031 5.199985 69.5 4.000031 5.199985 65.5 -53 5.2 69.50003 -57 5.2 65.5 -57 5.2 65.5 -57 5.200015 87.5 -53 5.2 69.50003 -52.99997 5.200015 87.5</float_array>
+          <technique_common>
+            <accessor source="#Line__GateCodeBase-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Line__GateCodeBase-normal">
+          <float_array id="Line__GateCodeBase-normal-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Line__GateCodeBase-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Line__GateCodeBase-texcoord">
+          <float_array id="Line__GateCodeBase-texcoord-array" count="32">4.867188 0.03271484 4.867188 0.9675598 0.7260742 0.03271484 0.435791 0.9675903 0.435791 0.9675903 -1.162109 0.9675903 0.1452637 0.03271484 -1.162109 0.03271484 4.867188 0.03271484 4.867188 0.9675598 0.7260742 0.03271484 0.435791 0.9675903 0.435791 0.9675903 -1.162109 0.9675903 0.1452637 0.03271484 -1.162109 0.03271484</float_array>
+          <technique_common>
+            <accessor source="#Line__GateCodeBase-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Line__GateCodeBase-vertex">
+          <input semantic="POSITION" source="#Line__GateCodeBase-position" />
+        </vertices>
+        <triangles material="GateCodeBase" count="4">
+          <input semantic="VERTEX" source="#Line__GateCodeBase-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Line__GateCodeBase-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Line__GateCodeBase-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Box__GateCodeSocketIron-mesh">
+      <skin source="#Box__GateCodeSocketIron-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Box__GateCodeSocketIron-mesh-joint">
+          <Name_array id="Box__GateCodeSocketIron-mesh-joint-array" count="1">Lft_DeliTakoashiLineC</Name_array>
+          <technique_common>
+            <accessor source="#Box__GateCodeSocketIron-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box__GateCodeSocketIron-mesh-inv_bind_matrix">
+          <float_array id="Box__GateCodeSocketIron-mesh-inv_bind_matrix-array" count="16">1 0 0 -107.5 0 1 0 0 0 0 1 40 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Box__GateCodeSocketIron-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box__GateCodeSocketIron-mesh-weight">
+          <float_array id="Box__GateCodeSocketIron-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Box__GateCodeSocketIron-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box__GateCodeSocketIron-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Box__GateCodeSocketIron-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="46">
+          <input semantic="JOINT" source="#Box__GateCodeSocketIron-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Box__GateCodeSocketIron-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Light__GateCodeLight-mesh">
+      <skin source="#Light__GateCodeLight-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Light__GateCodeLight-mesh-joint">
+          <Name_array id="Light__GateCodeLight-mesh-joint-array" count="1">Lft_DeliTakoashiLineC</Name_array>
+          <technique_common>
+            <accessor source="#Light__GateCodeLight-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Light__GateCodeLight-mesh-inv_bind_matrix">
+          <float_array id="Light__GateCodeLight-mesh-inv_bind_matrix-array" count="16">1 0 0 -107.5 0 1 0 0 0 0 1 40 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Light__GateCodeLight-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Light__GateCodeLight-mesh-weight">
+          <float_array id="Light__GateCodeLight-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Light__GateCodeLight-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Light__GateCodeLight-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Light__GateCodeLight-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#Light__GateCodeLight-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Light__GateCodeLight-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Line__GateCodeBase-mesh">
+      <skin source="#Line__GateCodeBase-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Line__GateCodeBase-mesh-joint">
+          <Name_array id="Line__GateCodeBase-mesh-joint-array" count="1">Lft_DeliTakoashiLineC</Name_array>
+          <technique_common>
+            <accessor source="#Line__GateCodeBase-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Line__GateCodeBase-mesh-inv_bind_matrix">
+          <float_array id="Line__GateCodeBase-mesh-inv_bind_matrix-array" count="16">1 0 0 -107.5 0 1 0 0 0 0 1 40 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Line__GateCodeBase-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Line__GateCodeBase-mesh-weight">
+          <float_array id="Line__GateCodeBase-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Line__GateCodeBase-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Line__GateCodeBase-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Line__GateCodeBase-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#Line__GateCodeBase-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Line__GateCodeBase-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_DeliTakoashiLineC" name="Lft_DeliTakoashiLineC" sid="Lft_DeliTakoashiLineC" type="JOINT">
+          <matrix sid="transform">1 0 0 107.5 0 1 0 0 0 0 1 -40 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Box__GateCodeSocketIron" name="Box__GateCodeSocketIron" type="NODE">
+        <instance_controller url="#Armature_Box__GateCodeSocketIron-mesh">
+          <skeleton>#Armature_Lft_DeliTakoashiLineC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GateCodeSocketIron" target="#GateCodeSocketIron" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Light__GateCodeLight" name="Light__GateCodeLight" type="NODE">
+        <instance_controller url="#Armature_Light__GateCodeLight-mesh">
+          <skeleton>#Armature_Lft_DeliTakoashiLineC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GateCodeLight" target="#GateCodeLight" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Line__GateCodeBase" name="Line__GateCodeBase" type="NODE">
+        <instance_controller url="#Armature_Line__GateCodeBase-mesh">
+          <skeleton>#Armature_Lft_DeliTakoashiLineC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GateCodeBase" target="#GateCodeBase" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

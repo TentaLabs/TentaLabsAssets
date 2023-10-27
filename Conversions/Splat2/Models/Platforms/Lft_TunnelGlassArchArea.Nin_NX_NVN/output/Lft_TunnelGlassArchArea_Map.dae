@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="GlassTriangle_Alb">
+      <init_from>GlassTriangle_Alb.png</init_from>
+    </image>
+    <image id="GlassTriangle_Nrm">
+      <init_from>GlassTriangle_Nrm.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="ObjBridge_Alb">
+      <init_from>ObjBridge_Alb.png</init_from>
+    </image>
+    <image id="ObjBridge_Mtl">
+      <init_from>ObjBridge_Mtl.png</init_from>
+    </image>
+    <image id="ObjBridge_Nrm">
+      <init_from>ObjBridge_Nrm.png</init_from>
+    </image>
+    <image id="ObjBridge_Rgh">
+      <init_from>ObjBridge_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Bridge_col_TestField1753_pCylinder108__MapWall-mesh" name="Bridge_col_TestField1753_pCylinder108__MapWall">
+      <mesh>
+        <source id="Bridge_col_TestField1753_pCylinder108__MapWall-position">
+          <float_array id="Bridge_col_TestField1753_pCylinder108__MapWall-position-array" count="456">-30 90.00005 -170 -30 80 -170 30 90.00005 -170 30 80 -170 -90 75.10281 -59.99992 -90 75.10281 -210 -90 65 -210 -90 65 -60 -90 75.10281 -60 -50.85867 90 -60 -50.85867 90 -210 -90 75.10281 -210 90 65 -60 50.85867 80 -60 90 65 -210 50.85867 80 -210 90 75 -59.99992 90 65 -60 90 75 -210 90 65 -210 -50.85867 80 -60 -90 65 -60 -50.85867 80 -210 -90 65 -210 50.85867 90 -60 90 75 -59.99999 50.85867 90 -210 90 75 -210 -30 90.00005 -80 -30 80 -80 -30 80 -170 -30 90.00005 -170 30 90.00005 -170 30 80 -170 30 80 -80 30 90.00005 -80 -30 80 -80 -30 90.00005 -80 30 80 -80 30 90.00005 -80 -90 75.10281 -59.99992 -90 65 -60 -50.85867 80 -60 -50.85867 90 -60 50.85867 80 -60 90 65 -60 90 75 -59.99992 50.85867 90 -60 50.85867 90 -60 -50.85867 90 -60 50.85867 80 -60 -50.85867 80 -60 -50.85867 80 -210 -90 65 -210 -90 75.10281 -210 -50.85867 90 -210 50.85867 80 -210 50.85867 90 -210 90 75 -210 90 65 -210 -30 80 -170 -50.85867 80 -210 50.85867 80 -210 -50.85867 80 -60 30 80 -170 -30 80 -80 50.85867 80 -60 30 80 -80 50.85867 90 -210 -50.85867 90 -210 30 90.00005 -170 50.85867 90 -60 -30 90.00005 -170 30 90.00005 -80 -50.85867 90 -60 -30 90.00005 -80 -50.85867 80 60 -90 65 59.99988 -90 75.10281 59.99992 -50.85867 90 60 50.85867 90 60 90 75 59.99992 50.85867 80 60 90 65 60 50.85867 80 60 -50.85867 80 60 -50.85867 90 60 50.85867 90 60 -30 80 80 30 80 80 -30 90.00005 80 30 90.00005 80 -30 80 170 -30 80 80 -30 90.00005 80 -30 90.00005 170 30 90.00005 80 30 80 80 30 90.00005 170 30 80 170 -50.85867 90 60 -90 75.10281 60 -50.85867 90 210 -90 75.10281 210 90 75 60 50.85867 90 60 50.85867 90 210 90 75 210 50.85867 80 60 90 65 60 50.85867 80 210 90 65 210 90 65 60 90 75 59.99992 90 65 210 90 75 210 -90 75.10281 59.99992 -90 65 59.99988 -90 65 210 -90 75.10281 210 -90 65 59.99988 -50.85867 80 60 -50.85867 80 210 -90 65 210 -30 90.00005 170 30 90.00005 170 -30 80 170 30 80 170 -90 75.10281 210 -90 65 210 -50.85867 80 210 -50.85867 90 210 50.85867 80 210 50.85867 90 210 90 75 210 90 65 210 30 80 80 50.85867 80 60 30 80 170 -30 80 80 50.85867 80 210 -50.85867 80 60 -30 80 170 -50.85867 80 210 -30 90.00005 80 30 90.00005 80 -50.85867 90 60 -30 90.00005 170 50.85867 90 60 -50.85867 90 210 30 90.00005 170 50.85867 90 210</float_array>
+          <technique_common>
+            <accessor source="#Bridge_col_TestField1753_pCylinder108__MapWall-position-array" count="152" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bridge_col_TestField1753_pCylinder108__MapWall-normal">
+          <float_array id="Bridge_col_TestField1753_pCylinder108__MapWall-normal-array" count="456">0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.3561644 0.9354208 0 -0.3561644 0.9354208 0 -0.3561644 0.9354208 0 -0.3561644 0.9354208 0 -0.3581213 -0.9334638 0 -0.3581213 -0.9334638 0 -0.3581213 -0.9334638 0 -0.3581213 -0.9334638 0 1 0 0 1 0 0 1 0 0 1 0 0 0.3581213 -0.9334638 0 0.3581213 -0.9334638 0 0.3581213 -0.9334638 0 0.3581213 -0.9334638 0 0.3581213 0.9334638 0 0.3581213 0.9334638 0 0.3581213 0.9334638 0 0.3581213 0.9334638 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.3561644 0.9354208 0 -0.3561644 0.9354208 0 -0.3561644 0.9354208 0 -0.3561644 0.9354208 0 0.3581213 0.9334638 0 0.3581213 0.9334638 0 0.3581213 0.9334638 0 0.3581213 0.9334638 0 -0.3581213 -0.9334638 0 -0.3581213 -0.9334638 0 -0.3581213 -0.9334638 0 -0.3581213 -0.9334638 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.3581213 -0.9334638 0 0.3581213 -0.9334638 0 0.3581213 -0.9334638 0 0.3581213 -0.9334638 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Bridge_col_TestField1753_pCylinder108__MapWall-normal-array" count="152" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bridge_col_TestField1753_pCylinder108__MapWall-texcoord">
+          <float_array id="Bridge_col_TestField1753_pCylinder108__MapWall-texcoord-array" count="304">9.1766 3.770998 8.926599 3.771 9.176621 2.271001 8.92662 2.270999 4.851691 6.771001 4.851691 10.52101 4.59912 10.52101 4.59912 6.771004 -0.4918218 -0.8626981 -0.4918224 0.1494954 -4.370814 0.1494955 -4.370814 -0.8626978 4.618757 3.853685 3.618768 3.853685 4.618757 0.02146143 3.618768 0.02146143 5.176093 3.771007 4.926093 3.771007 5.176093 0.02100086 4.926093 0.02100086 1.020078 3.853685 0.02008957 3.853685 1.020078 0.02146143 0.02008957 0.02146143 -0.4948884 0.2300499 -0.4948879 1.242686 -4.37558 0.2300501 -4.37558 1.242686 9.176671 6.020995 8.926671 6.021002 8.926599 3.771 9.1766 3.770998 9.176621 2.271001 8.92662 2.270999 8.92662 0.02099973 9.176621 0.02100098 8.926635 -1.479 9.176637 -1.478997 8.92662 0.02099973 9.176621 0.02100098 0.2581109 1 0 1 0.3832266 0 0.638711 0 0.2554844 0 0.638711 1 0.3832266 1 0 0 6.889014 -8.064846 6.888562 -5.521909 6.639013 -8.06489 6.638563 -5.521959 5.301093 -3.500472 4.926091 -4.479005 5.178664 -4.479005 5.551092 -3.500472 5.301093 -0.957535 5.551093 -0.9575351 5.176093 0.02100086 4.926093 0.02100086 1.552979 1.043388 1.020078 0.02146143 3.618768 0.02146143 1.020078 3.853685 3.085868 1.043388 1.552979 3.342722 3.618768 3.853685 3.085868 3.342722 5.142416 3.757499 2.599483 3.757499 4.620949 2.7575 5.142416 0.007500172 3.12095 2.7575 4.620949 0.5075006 2.599483 0.007500172 3.12095 0.5075006 0.2554844 0 0.638711 1 0.3806001 1 0 0 0.638711 0 0.2554844 1 0.3832266 0 0 1 6.637856 0.02100039 6.637856 -2.521949 6.887855 -2.521919 6.887856 0.02100039 9.848834 3.771001 9.84888 5.271 9.598834 3.771001 9.598879 5.271 9.8489 1.521002 9.848834 3.771001 9.598834 3.771001 9.598899 1.520999 9.598879 5.271 9.84888 5.271 9.598814 7.520997 9.848815 7.521003 2.611371 0.1494953 2.611372 -0.8626981 6.490363 0.1494951 6.490364 -0.8626983 2.609665 1.242686 2.609665 0.2300496 6.490358 0.2300492 6.490357 1.242685 3.618768 6.919463 4.618757 6.919463 3.618768 10.75169 4.618757 10.75169 4.926093 6.771009 5.176093 6.771007 4.926093 10.52101 5.176093 10.52101 4.85169 3.771004 4.59912 3.771005 4.59912 0.02100074 4.851691 0.02100092 0.02008957 6.91946 1.020078 6.919463 1.020078 10.75169 0.02008957 10.75169 9.598899 1.520999 9.598899 0.02100098 9.8489 1.521002 9.848901 0.02100098 4.851691 0.02100092 4.59912 0.02100074 4.974122 -0.9575326 5.224123 -0.9575323 4.974127 -3.500467 5.224127 -3.500467 4.849128 -4.479002 4.599128 -4.479002 3.085868 7.430426 3.618768 6.919463 3.085868 9.72976 1.552979 7.430426 3.618768 10.75169 1.020078 6.919463 1.552979 9.72976 1.020078 10.75169 0.5317307 3.257499 2.03173 3.257499 0.01026423 3.7575 0.5317307 1.0075 2.553197 3.7575 0.01026423 0.007500172 2.03173 1.0075 2.553197 0.007500172</float_array>
+          <technique_common>
+            <accessor source="#Bridge_col_TestField1753_pCylinder108__MapWall-texcoord-array" count="152" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Bridge_col_TestField1753_pCylinder108__MapWall-vertex">
+          <input semantic="POSITION" source="#Bridge_col_TestField1753_pCylinder108__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="96">
+          <input semantic="VERTEX" source="#Bridge_col_TestField1753_pCylinder108__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Bridge_col_TestField1753_pCylinder108__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Bridge_col_TestField1753_pCylinder108__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 7 7 7 4 4 4 6 6 6 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 31 31 31 28 28 28 30 30 30 32 32 32 33 33 33 34 34 34 35 35 35 32 32 32 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 43 43 43 40 40 40 42 42 42 44 44 44 45 45 45 46 46 46 47 47 47 44 44 44 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 55 55 55 52 52 52 54 54 54 52 52 52 55 55 55 56 56 56 55 55 55 57 57 57 56 56 56 57 57 57 58 58 58 56 56 56 58 58 58 59 59 59 56 56 56 60 60 60 61 61 61 62 62 62 63 63 63 61 61 61 60 60 60 64 64 64 60 60 60 62 62 62 65 65 65 63 63 63 60 60 60 64 64 64 62 62 62 66 66 66 63 63 63 65 65 65 66 66 66 67 67 67 64 64 64 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 68 68 68 70 70 70 71 71 71 69 69 69 72 72 72 70 70 70 70 70 70 73 73 73 71 71 71 69 69 69 74 74 74 72 72 72 73 73 73 75 75 75 71 71 71 74 74 74 75 75 75 72 72 72 75 75 75 74 74 74 71 71 71 76 76 76 77 77 77 78 78 78 79 79 79 76 76 76 78 78 78 80 80 80 81 81 81 82 82 82 81 81 81 83 83 83 82 82 82 84 84 84 85 85 85 86 86 86 87 87 87 84 84 84 86 86 86 88 88 88 89 89 89 90 90 90 89 89 89 91 91 91 90 90 90 92 92 92 93 93 93 94 94 94 95 95 95 92 92 92 94 94 94 96 96 96 97 97 97 98 98 98 97 97 97 99 99 99 98 98 98 100 100 100 101 101 101 102 102 102 101 101 101 103 103 103 102 102 102 104 104 104 105 105 105 106 106 106 107 107 107 104 104 104 106 106 106 108 108 108 109 109 109 110 110 110 109 109 109 111 111 111 110 110 110 112 112 112 113 113 113 114 114 114 113 113 113 115 115 115 114 114 114 116 116 116 117 117 117 118 118 118 119 119 119 116 116 116 118 118 118 120 120 120 121 121 121 122 122 122 123 123 123 120 120 120 122 122 122 124 124 124 125 125 125 126 126 126 125 125 125 127 127 127 126 126 126 128 128 128 129 129 129 130 130 130 131 131 131 128 128 128 130 130 130 131 131 131 130 130 130 132 132 132 133 133 133 131 131 131 132 132 132 133 133 133 132 132 132 134 134 134 132 132 132 135 135 135 134 134 134 136 136 136 137 137 137 138 138 138 136 136 136 139 139 139 137 137 137 137 137 137 140 140 140 138 138 138 139 139 139 141 141 141 137 137 137 142 142 142 138 138 138 140 140 140 139 139 139 142 142 142 141 141 141 143 143 143 142 142 142 140 140 140 142 142 142 143 143 143 141 141 141 144 144 144 145 145 145 146 146 146 144 144 144 146 146 146 147 147 147 145 145 145 148 148 148 146 146 146 146 146 146 149 149 149 147 147 147 148 148 148 145 145 145 150 150 150 149 149 149 151 151 151 147 147 147 151 151 151 148 148 148 150 150 150 151 151 151 150 150 150 147 147 147 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Bridge_col_TestField1753_pCylinder108__MapWall-mesh">
+      <skin source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Bridge_col_TestField1753_pCylinder108__MapWall-mesh-joint">
+          <Name_array id="Bridge_col_TestField1753_pCylinder108__MapWall-mesh-joint-array" count="1">Lft_TunnelGlassArch_Map</Name_array>
+          <technique_common>
+            <accessor source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bridge_col_TestField1753_pCylinder108__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Bridge_col_TestField1753_pCylinder108__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bridge_col_TestField1753_pCylinder108__MapWall-mesh-weight">
+          <float_array id="Bridge_col_TestField1753_pCylinder108__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="152">
+          <input semantic="JOINT" source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Bridge_col_TestField1753_pCylinder108__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_TunnelGlassArch_Map" name="Lft_TunnelGlassArch_Map" sid="Lft_TunnelGlassArch_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Bridge_col_TestField1753_pCylinder108__MapWall" name="Bridge_col_TestField1753_pCylinder108__MapWall" type="NODE">
+        <instance_controller url="#Armature_Bridge_col_TestField1753_pCylinder108__MapWall-mesh">
+          <skeleton>#Armature_Lft_TunnelGlassArch_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Lft_TuzuraFloor00_g00_b00_f00">
+      <init_from>Bake_Lft_TuzuraFloor00_g00_b00_f00.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock_Alb">
+      <init_from>FloorConcreteBlock_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock_Nrm">
+      <init_from>FloorConcreteBlock_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock_Rgh">
+      <init_from>FloorConcreteBlock_Rgh.png</init_from>
+    </image>
+    <image id="FloorSlopeCircle_Alb">
+      <init_from>FloorSlopeCircle_Alb.png</init_from>
+    </image>
+    <image id="FloorSlopeCircle_Nrm">
+      <init_from>FloorSlopeCircle_Nrm.png</init_from>
+    </image>
+    <image id="FloorSlopeCircle_Rgh">
+      <init_from>FloorSlopeCircle_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Alb">
+      <init_from>GroundAsphalt_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Nrm">
+      <init_from>GroundAsphalt_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Rgh">
+      <init_from>GroundAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="TinRoof_Alb">
+      <init_from>TinRoof_Alb.png</init_from>
+    </image>
+    <image id="TinRoof_Nrm">
+      <init_from>TinRoof_Nrm.png</init_from>
+    </image>
+    <image id="TinRoof_Rgh">
+      <init_from>TinRoof_Rgh.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Alb">
+      <init_from>WallSlopeWhite_Alb.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Mtl">
+      <init_from>WallSlopeWhite_Mtl.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Nrm">
+      <init_from>WallSlopeWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Rgh">
+      <init_from>WallSlopeWhite_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapSlope">
+      <instance_effect url="#Effect_MapSlope" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_MapSlope-diffuse">
+          <surface type="2D">
+            <init_from>MapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapSlope-diffuse">
+          <sampler2D>
+            <source>surface_MapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh" name="Lift_TuzuraFloor00_Map_pPlane4__MapGround">
+      <mesh>
+        <source id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-position">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-position-array" count="96">327 135 326.2385 282.9999 135 326.2385 301.9999 135 340.8994 282.9999 135 329.2584 282.9999 135 377.0001 301.9999 135 377.0001 327 135 323 282.9999 135 323 327 135 326.2385 282.9999 135 326.2385 301.9999 135 340.8994 282.9999 135 329.2584 282.9999 135 377.0001 301.9999 135 377.0001 327 135 323 282.9999 135 323 327 135 326.2385 327 135 326.2385 282.9999 135 326.2385 282.9999 135 326.2385 282.9999 135 326.2385 301.9999 135 340.8994 282.9999 135 329.2584 282.9999 135 377.0001 301.9999 135 377.0001 327 135 323 282.9999 135 323 327 135 326.2385 327 135 326.2385 282.9999 135 326.2385 282.9999 135 326.2385 282.9999 135 326.2385</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-normal">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-normal-array" count="96">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-texcoord">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-texcoord-array" count="64">8.415938 -8.471111 7.414155 -8.471111 7.851 -8.819424 7.401173 -8.549526 7.401173 -9.791626 7.851 -9.807083 11.0517 -11.0614 9.736225 -11.0614 11.05169 -11.12414 9.736161 -11.12414 7.851 -8.819424 7.401173 -8.549526 7.401173 -9.791626 7.851 -9.807083 11.0517 -11.0614 9.736225 -11.0614 8.415938 -8.471111 11.05169 -11.12414 7.414155 -8.471111 9.736161 -11.12414 7.414155 -8.471111 7.851 -8.819424 7.401173 -8.549526 7.401173 -9.791626 7.851 -9.807083 11.0517 -11.0614 9.736225 -11.0614 8.415938 -8.471111 11.05169 -11.12414 7.414155 -8.471111 9.736161 -11.12414 7.414155 -8.471111</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-vertex">
+          <input semantic="POSITION" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="6">
+          <input semantic="VERTEX" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 2 2 2 4 4 4 5 5 5 2 2 2 6 6 6 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh" name="Lift_TuzuraFloor00_Map_pPlane7__MapWall">
+      <mesh>
+        <source id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-position">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-position-array" count="402">282.9999 135 320 282.9999 135 323 326.9856 135 323 330 135 319.9999 301.9999 135 340.8994 301.9999 135 377.0001 304.9999 135 341.2385 304.9999 135 377.0001 280 110 319.9999 280 110 380.0001 280 135 319.9999 280 135 380.0001 280 135 326.2385 280 135 377.0001 282.9999 135 329.2584 282.9999 135 377.0001 280 110 319.9999 280 135 319.9999 304.9999 110 319.9999 330 135 319.9999 330 110 319.9999 282.9999 135 326.2385 280 135 323 280 135 319.9999 330 135 323 327 135 326.2385 330 135 326.2385 330 135 323 326.9856 135 323 304.9999 135 377.0001 301.9709 135 377.0001 304.9999 135 380.0001 282.9999 135 380.0001 280 135 380.0001 330 130 377 304.9999 135 377 330 130 380.0001 304.9999 135 380.0001 304.9999 135 380.0001 280 135 380.0001 304.9999 110 380.0001 280 110 380.0001 330 130 380.0001 330 110 380.0001 282.9999 135 320 282.9999 135 323 301.9999 135 340.8994 301.9999 135 377.0001 304.9999 135 341.2385 280 135 326.2385 280 135 377.0001 282.9999 135 329.2584 282.9999 135 377.0001 304.9999 110 319.9999 330 110 319.9999 282.9999 135 326.2385 280 135 323 280 135 319.9999 327 135 326.2385 330 135 326.2385 301.9709 135 377.0001 282.9999 135 380.0001 280 135 380.0001 330 130 377 304.9999 135 377 304.9999 110 380.0001 330 110 380.0001 326.9856 135 323 326.9856 135 323 330 135 319.9999 330 135 319.9999 330 135 319.9999 304.9999 135 377.0001 304.9999 135 377.0001 280 110 319.9999 280 110 319.9999 280 110 380.0001 280 110 380.0001 280 135 319.9999 280 135 319.9999 280 135 380.0001 280 135 380.0001 330 135 323 330 135 323 304.9999 135 380.0001 304.9999 135 380.0001 304.9999 135 380.0001 330 130 380.0001 330 130 380.0001 282.9999 135 320 282.9999 135 323 301.9999 135 340.8994 301.9999 135 377.0001 304.9999 135 341.2385 280 135 326.2385 280 135 377.0001 282.9999 135 329.2584 282.9999 135 377.0001 304.9999 110 319.9999 330 110 319.9999 282.9999 135 326.2385 280 135 323 280 135 319.9999 327 135 326.2385 330 135 326.2385 301.9709 135 377.0001 282.9999 135 380.0001 280 135 380.0001 330 130 377 304.9999 135 377 304.9999 110 380.0001 330 110 380.0001 326.9856 135 323 326.9856 135 323 330 135 319.9999 330 135 319.9999 330 135 319.9999 304.9999 135 377.0001 304.9999 135 377.0001 280 110 319.9999 280 110 319.9999 280 110 380.0001 280 110 380.0001 280 135 319.9999 280 135 319.9999 280 135 380.0001 280 135 380.0001 330 135 323 330 135 323 304.9999 135 380.0001 304.9999 135 380.0001 304.9999 135 380.0001 330 130 380.0001 330 130 380.0001</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-position-array" count="134" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-normal">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-normal-array" count="402">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.07240704 0.9980431 0.007827789 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.07240704 0.9902152 0.1213307 0 1 0 0 1 0 0 1 0 0 1 0 0.09001957 0.9960861 0 0 1 0 0 1 0 0.1956947 0.9804305 0 0.1956947 0.9804305 0 0.1956947 0.9804305 0 0.09001957 0.9960861 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.1956947 0.9804305 0 0.1956947 0.9804305 0 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 0 -1 0 1 0 0 1 0 0 1 0 -1 0 0 0 0 -1 -1 0 0 0 0 1 -1 0 0 0 0 -1 -1 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0.1956947 0.9804305 0 0 0 1 0.1956947 0.9804305 0 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.1956947 0.9804305 0 0.1956947 0.9804305 0 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 0 -1 0 1 0 0 1 0 0 1 0 -1 0 0 0 0 -1 -1 0 0 0 0 1 -1 0 0 0 0 -1 -1 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0.1956947 0.9804305 0 0 0 1 0.1956947 0.9804305 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-normal-array" count="134" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-texcoord">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-texcoord-array" count="268">0.08215332 1.369141 0.08215332 1.300781 1.286133 1.300781 1.369141 1.369141 0 0.7023926 0 -0.8349609 0.1071167 0.6623535 0.1071167 -0.8349609 0.003803253 1.50293 0.003803253 0.003417969 0.628418 1.50293 0.628418 0.003417969 0 1.226929 0 0.06884766 0.08215332 1.157959 0.08215332 0.06884766 1.905273 1.25293 1.280273 1.25293 1.905273 0.6281738 1.280273 0.003417969 1.905273 0.003417969 0.08215332 1.226929 0 1.300781 0 1.369141 1.369141 1.300781 0.8925781 0.9738007 1 0.940033 1 1.058289 0.8925781 1.058289 0.6845703 0.06884766 0.6015625 0.06884766 0.6845703 0 0.08215332 0 0 0 0.6074219 0.3266602 -0.02960205 0.3266602 0.6074219 0.2519531 -0.02960205 0.2519531 1.267578 0.6281738 1.267578 1.25293 0.6425781 0.6281738 0.6425781 1.25293 1.142578 0.003417969 0.6425781 0.003417969 0.08215332 1.369141 0.08215332 1.300781 0 0.7023926 0 -0.8349609 0.1071167 0.6623535 0 1.226929 0 0.06884766 0.08215332 1.157959 0.08215332 0.06884766 1.905273 0.6281738 1.905273 0.003417969 0.08215332 1.226929 0 1.300781 0 1.369141 0.8925781 0.9738007 1 0.940033 0.6015625 0.06884766 0.08215332 0 0 0 0.6074219 0.3266602 -0.02960205 0.3266602 0.6425781 0.6281738 0.6425781 0.003417969 1.286133 1.300781 0.8925781 1.058289 1.369141 1.369141 1.280273 0.003417969 1.369141 1.369141 0.1071167 -0.8349609 0.6845703 0.06884766 0.003803253 1.50293 1.905273 1.25293 0.003803253 0.003417969 0.6425781 1.25293 0.628418 1.50293 1.280273 1.25293 0.628418 0.003417969 1.267578 1.25293 1.369141 1.300781 1 1.058289 0.6845703 0 -0.02960205 0.2519531 1.267578 0.6281738 0.6074219 0.2519531 1.142578 0.003417969 0.08215332 1.369141 0.08215332 1.300781 0 0.7023926 0 -0.8349609 0.1071167 0.6623535 0 1.226929 0 0.06884766 0.08215332 1.157959 0.08215332 0.06884766 1.905273 0.6281738 1.905273 0.003417969 0.08215332 1.226929 0 1.300781 0 1.369141 0.8925781 0.9738007 1 0.940033 0.6015625 0.06884766 0.08215332 0 0 0 0.6074219 0.3266602 -0.02960205 0.3266602 0.6425781 0.6281738 0.6425781 0.003417969 1.286133 1.300781 0.8925781 1.058289 1.369141 1.369141 1.280273 0.003417969 1.369141 1.369141 0.1071167 -0.8349609 0.6845703 0.06884766 0.003803253 1.50293 1.905273 1.25293 0.003803253 0.003417969 0.6425781 1.25293 0.628418 1.50293 1.280273 1.25293 0.628418 0.003417969 1.267578 1.25293 1.369141 1.300781 1 1.058289 0.6845703 0 -0.02960205 0.2519531 1.267578 0.6281738 0.6074219 0.2519531 1.142578 0.003417969</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-texcoord-array" count="134" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-vertex">
+          <input semantic="POSITION" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="32">
+          <input semantic="VERTEX" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 18 18 18 19 19 19 20 20 20 14 14 14 21 21 21 12 12 12 21 21 21 1 1 1 12 12 12 1 1 1 22 22 22 12 12 12 22 22 22 1 1 1 23 23 23 1 1 1 0 0 0 23 23 23 3 3 3 2 2 2 24 24 24 25 25 25 4 4 4 6 6 6 26 26 26 25 25 25 6 6 6 25 25 25 26 26 26 27 27 27 28 28 28 25 25 25 27 27 27 29 29 29 30 30 30 31 31 31 31 31 31 30 30 30 32 32 32 30 30 30 15 15 15 32 32 32 15 15 15 13 13 13 32 32 32 13 13 13 33 33 33 32 32 32 34 34 34 35 35 35 36 36 36 35 35 35 37 37 37 36 36 36 38 38 38 39 39 39 40 40 40 39 39 39 41 41 41 40 40 40 38 38 38 40 40 40 42 42 42 40 40 40 43 43 43 42 42 42 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pPlane5__MapSlope-mesh" name="pPlane5__MapSlope">
+      <mesh>
+        <source id="pPlane5__MapSlope-position">
+          <float_array id="pPlane5__MapSlope-position-array" count="45">330 130 341.2385 304.9999 135 341.2385 330 130 377 304.9999 135 377 330 135 326.2385 330 130 341.2385 304.9999 135 341.2385 330 130 377 304.9999 135 377 330 135 326.2385 330 130 341.2385 304.9999 135 341.2385 330 130 377 304.9999 135 377 330 135 326.2385</float_array>
+          <technique_common>
+            <accessor source="#pPlane5__MapSlope-position-array" count="15" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane5__MapSlope-normal">
+          <float_array id="pPlane5__MapSlope-normal-array" count="45">0.1956947 0.9784736 0.05088063 0.07240704 0.9980431 0.007827789 0.1956947 0.9804305 0 0.1956947 0.9804305 0 0.07240704 0.9902152 0.1213307 0.1956947 0.9765166 0.09393346 0.1956947 0.9804305 0.04305284 0.1956947 0.9804305 0 0.1956947 0.9804305 0 0.18591 0.9315069 0.3111546 0.1956947 0.9765166 0.09393346 0.1956947 0.9804305 0.04305284 0.1956947 0.9804305 0 0.1956947 0.9804305 0 0.18591 0.9315069 0.3111546</float_array>
+          <technique_common>
+            <accessor source="#pPlane5__MapSlope-normal-array" count="15" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane5__MapSlope-texcoord">
+          <float_array id="pPlane5__MapSlope-texcoord-array" count="30">3.673828 -3.695313 3.673828 -4.328125 4.578125 -3.695313 4.578125 -4.328125 3.292969 -3.695313 3.673828 -3.695313 3.673828 -4.328125 4.578125 -3.695313 4.578125 -4.328125 3.292969 -3.695313 3.673828 -3.695313 3.673828 -4.328125 4.578125 -3.695313 4.578125 -4.328125 3.292969 -3.695313</float_array>
+          <technique_common>
+            <accessor source="#pPlane5__MapSlope-texcoord-array" count="15" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane5__MapSlope-vertex">
+          <input semantic="POSITION" source="#pPlane5__MapSlope-position" />
+        </vertices>
+        <triangles material="MapSlope" count="3">
+          <input semantic="VERTEX" source="#pPlane5__MapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pPlane5__MapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pPlane5__MapSlope-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 0 0 0 4 4 4 1 1 1 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh">
+      <skin source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-joint">
+          <Name_array id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-joint-array" count="1">Lift_TuzuraFloor00_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-weight">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh">
+      <skin source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-joint">
+          <Name_array id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-joint-array" count="1">Lift_TuzuraFloor00_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-weight">
+          <float_array id="Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="134">
+          <input semantic="JOINT" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pPlane5__MapSlope-mesh">
+      <skin source="#pPlane5__MapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pPlane5__MapSlope-mesh-joint">
+          <Name_array id="pPlane5__MapSlope-mesh-joint-array" count="1">Lift_TuzuraFloor00_Map</Name_array>
+          <technique_common>
+            <accessor source="#pPlane5__MapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane5__MapSlope-mesh-inv_bind_matrix">
+          <float_array id="pPlane5__MapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane5__MapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane5__MapSlope-mesh-weight">
+          <float_array id="pPlane5__MapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pPlane5__MapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pPlane5__MapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pPlane5__MapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="15">
+          <input semantic="JOINT" source="#pPlane5__MapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pPlane5__MapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lift_TuzuraFloor00_Map" name="Lift_TuzuraFloor00_Map" sid="Lift_TuzuraFloor00_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Lift_TuzuraFloor00_Map_pPlane4__MapGround" name="Lift_TuzuraFloor00_Map_pPlane4__MapGround" type="NODE">
+        <instance_controller url="#Armature_Lift_TuzuraFloor00_Map_pPlane4__MapGround-mesh">
+          <skeleton>#Armature_Lift_TuzuraFloor00_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Lift_TuzuraFloor00_Map_pPlane7__MapWall" name="Lift_TuzuraFloor00_Map_pPlane7__MapWall" type="NODE">
+        <instance_controller url="#Armature_Lift_TuzuraFloor00_Map_pPlane7__MapWall-mesh">
+          <skeleton>#Armature_Lift_TuzuraFloor00_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pPlane5__MapSlope" name="pPlane5__MapSlope" type="NODE">
+        <instance_controller url="#Armature_pPlane5__MapSlope-mesh">
+          <skeleton>#Armature_Lift_TuzuraFloor00_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapSlope" target="#MapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

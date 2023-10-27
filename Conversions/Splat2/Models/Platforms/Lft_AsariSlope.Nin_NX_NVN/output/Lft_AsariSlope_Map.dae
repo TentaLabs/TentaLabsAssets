@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="plywood_Alb">
+      <init_from>plywood_Alb.png</init_from>
+    </image>
+    <image id="plywood_Mtl">
+      <init_from>plywood_Mtl.png</init_from>
+    </image>
+    <image id="plywood_Nrm">
+      <init_from>plywood_Nrm.png</init_from>
+    </image>
+    <image id="plywood_Rgh">
+      <init_from>plywood_Rgh.png</init_from>
+    </image>
+    <image id="plywood_Wave_Alb">
+      <init_from>plywood_Wave_Alb.png</init_from>
+    </image>
+    <image id="plywood_Wave_Mtl">
+      <init_from>plywood_Wave_Mtl.png</init_from>
+    </image>
+    <image id="plywood_Wave_Nrm">
+      <init_from>plywood_Wave_Nrm.png</init_from>
+    </image>
+    <image id="plywood_Wave_Rgh">
+      <init_from>plywood_Wave_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapSlope">
+      <instance_effect url="#Effect_MapSlope" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_MapSlope-diffuse">
+          <surface type="2D">
+            <init_from>MapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapSlope-diffuse">
+          <sampler2D>
+            <source>surface_MapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCylinder12__MapGround-mesh" name="pCylinder12__MapGround">
+      <mesh>
+        <source id="pCylinder12__MapGround-position">
+          <float_array id="pCylinder12__MapGround-position-array" count="51">9.185387 15 -3.804709 7.030189 15 -7.030183 0 15 0 9.942182 15 0 3.804719 15 -9.185379 9.185384 15 3.804713 5.037103E-06 15 -9.942181 7.030185 15 7.030186 -3.80471 15 -9.185387 3.804711 15 9.185385 -7.030184 15 -7.030188 -1.481503E-06 15 9.942183 -9.185383 15 -3.804717 -3.804715 15 9.185383 -9.942182 15 -3.07601E-06 -7.030187 15 7.030185 -9.185385 15 3.804711</float_array>
+          <technique_common>
+            <accessor source="#pCylinder12__MapGround-position-array" count="17" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder12__MapGround-normal">
+          <float_array id="pCylinder12__MapGround-normal-array" count="51">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCylinder12__MapGround-normal-array" count="17" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder12__MapGround-vertex">
+          <input semantic="POSITION" source="#pCylinder12__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="16">
+          <input semantic="VERTEX" source="#pCylinder12__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder12__MapGround-normal" offset="1" />
+          <p>0 0 1 1 2 2 3 3 0 0 2 2 1 1 4 4 2 2 5 5 3 3 2 2 4 4 6 6 2 2 7 7 5 5 2 2 6 6 8 8 2 2 9 9 7 7 2 2 8 8 10 10 2 2 11 11 9 9 2 2 10 10 12 12 2 2 13 13 11 11 2 2 12 12 14 14 2 2 15 15 13 13 2 2 14 14 16 16 2 2 16 16 15 15 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCylinder2__MapSlope-mesh" name="pCylinder2__MapSlope">
+      <mesh>
+        <source id="pCylinder2__MapSlope-position">
+          <float_array id="pCylinder2__MapSlope-position-array" count="96">-9.185383 15 -3.804717 -28.30896 0 -11.72598 -9.942182 15 -3.07601E-06 -21.66675 0 -21.66676 -30.64143 0 -1.146563E-05 -7.030184 15 -7.030188 -9.185385 15 3.804711 -11.72596 0 -28.30898 -28.30897 0 11.72596 -3.80471 15 -9.185387 -7.030187 15 7.030185 1.552417E-05 0 -30.64143 -21.66676 0 21.66675 5.037103E-06 15 -9.942181 -3.804715 15 9.185383 11.72598 0 -28.30896 -11.72597 0 28.30896 3.804719 15 -9.185379 -1.481503E-06 15 9.942183 21.66676 0 -21.66675 -4.565928E-06 0 30.64143 7.030189 15 -7.030183 3.804711 15 9.185385 28.30898 0 -11.72596 11.72596 0 28.30897 9.185387 15 -3.804709 7.030185 15 7.030186 30.64143 0 0 21.66675 0 21.66676 9.942182 15 0 9.185384 15 3.804713 28.30896 0 11.72597</float_array>
+          <technique_common>
+            <accessor source="#pCylinder2__MapSlope-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder2__MapSlope-normal">
+          <float_array id="pCylinder2__MapSlope-normal-array" count="96">-0.5420744 0.8101761 -0.2250489 -0.5420744 0.8101761 -0.2250489 -0.5870842 0.8101761 0 -0.4148728 0.8101761 -0.4148728 -0.5870842 0.8101761 0 -0.4148728 0.8101761 -0.4148728 -0.5420744 0.8101761 0.2250489 -0.2250489 0.8101761 -0.5420744 -0.5420744 0.8101761 0.2250489 -0.2250489 0.8101761 -0.5420744 -0.4148728 0.8101761 0.4148728 0 0.8101761 -0.5870842 -0.4148728 0.8101761 0.4148728 0 0.8101761 -0.5870842 -0.2250489 0.8101761 0.5420744 0.2250489 0.8101761 -0.5420744 -0.2250489 0.8101761 0.5420744 0.2250489 0.8101761 -0.5420744 0 0.8101761 0.5870842 0.4148728 0.8101761 -0.4148728 0 0.8101761 0.5870842 0.4148728 0.8101761 -0.4148728 0.2250489 0.8101761 0.5420744 0.5420744 0.8101761 -0.2250489 0.2250489 0.8101761 0.5420744 0.5420744 0.8101761 -0.2250489 0.4148728 0.8101761 0.4148728 0.5870842 0.8101761 0 0.4148728 0.8101761 0.4148728 0.5870842 0.8101761 0 0.5420744 0.8101761 0.2250489 0.5420744 0.8101761 0.2250489</float_array>
+          <technique_common>
+            <accessor source="#pCylinder2__MapSlope-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder2__MapSlope-texcoord">
+          <float_array id="pCylinder2__MapSlope-texcoord-array" count="64">0.01232147 0.3793945 0.01232147 0.1118164 0.1374512 0.3793945 -0.112793 0.1118164 0.1374512 0.1118164 -0.112793 0.3793945 0.2624512 0.3793945 -0.237915 0.1118164 0.2624512 0.1118164 -0.237915 0.3793945 0.3876953 0.3793945 -0.3630371 0.1118164 0.3876953 0.1118164 -0.3630371 0.3793945 0.5126953 0.3793945 -0.4880371 0.1118164 0.5126953 0.1118164 -0.4880371 0.3793945 0.6376953 0.3793945 -0.6132813 0.1118164 0.6376953 0.1118164 -0.6132813 0.3793945 0.7626953 0.3793945 -0.7382813 0.1118164 0.7626953 0.1118164 -0.7382813 0.3793945 -1.113281 0.3793945 -0.8632813 0.1118164 -1.113281 0.1118164 -0.8632813 0.3793945 -0.9882813 0.3793945 -0.9882813 0.1118164</float_array>
+          <technique_common>
+            <accessor source="#pCylinder2__MapSlope-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder2__MapSlope-vertex">
+          <input semantic="POSITION" source="#pCylinder2__MapSlope-position" />
+        </vertices>
+        <triangles material="MapSlope" count="32">
+          <input semantic="VERTEX" source="#pCylinder2__MapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder2__MapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCylinder2__MapSlope-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 1 1 1 0 0 0 1 1 1 4 4 4 2 2 2 5 5 5 3 3 3 0 0 0 2 2 2 4 4 4 6 6 6 7 7 7 3 3 3 5 5 5 4 4 4 8 8 8 6 6 6 9 9 9 7 7 7 5 5 5 6 6 6 8 8 8 10 10 10 11 11 11 7 7 7 9 9 9 8 8 8 12 12 12 10 10 10 13 13 13 11 11 11 9 9 9 10 10 10 12 12 12 14 14 14 15 15 15 11 11 11 13 13 13 12 12 12 16 16 16 14 14 14 17 17 17 15 15 15 13 13 13 14 14 14 16 16 16 18 18 18 19 19 19 15 15 15 17 17 17 16 16 16 20 20 20 18 18 18 21 21 21 19 19 19 17 17 17 18 18 18 20 20 20 22 22 22 23 23 23 19 19 19 21 21 21 20 20 20 24 24 24 22 22 22 25 25 25 23 23 23 21 21 21 22 22 22 24 24 24 26 26 26 27 27 27 23 23 23 25 25 25 24 24 24 28 28 28 26 26 26 29 29 29 27 27 27 25 25 25 26 26 26 28 28 28 30 30 30 31 31 31 27 27 27 29 29 29 28 28 28 31 31 31 30 30 30 30 30 30 31 31 31 29 29 29 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCylinder12__MapGround-mesh">
+      <skin source="#pCylinder12__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder12__MapGround-mesh-joint">
+          <Name_array id="pCylinder12__MapGround-mesh-joint-array" count="1">Lft_AsariSlope_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder12__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder12__MapGround-mesh-inv_bind_matrix">
+          <float_array id="pCylinder12__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder12__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder12__MapGround-mesh-weight">
+          <float_array id="pCylinder12__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder12__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder12__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder12__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="17">
+          <input semantic="JOINT" source="#pCylinder12__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder12__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCylinder2__MapSlope-mesh">
+      <skin source="#pCylinder2__MapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder2__MapSlope-mesh-joint">
+          <Name_array id="pCylinder2__MapSlope-mesh-joint-array" count="1">Lft_AsariSlope_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder2__MapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder2__MapSlope-mesh-inv_bind_matrix">
+          <float_array id="pCylinder2__MapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder2__MapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder2__MapSlope-mesh-weight">
+          <float_array id="pCylinder2__MapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder2__MapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder2__MapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder2__MapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#pCylinder2__MapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder2__MapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_AsariSlope_Map" name="Lft_AsariSlope_Map" sid="Lft_AsariSlope_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCylinder12__MapGround" name="pCylinder12__MapGround" type="NODE">
+        <instance_controller url="#Armature_pCylinder12__MapGround-mesh">
+          <skeleton>#Armature_Lft_AsariSlope_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCylinder2__MapSlope" name="pCylinder2__MapSlope" type="NODE">
+        <instance_controller url="#Armature_pCylinder2__MapSlope-mesh">
+          <skeleton>#Armature_Lft_AsariSlope_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapSlope" target="#MapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

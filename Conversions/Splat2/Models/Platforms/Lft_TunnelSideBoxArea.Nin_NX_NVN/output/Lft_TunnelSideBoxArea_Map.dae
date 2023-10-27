@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Lft_TunnelSideBoxArea_g00_b00_f00">
+      <init_from>Bake_Lft_TunnelSideBoxArea_g00_b00_f00.png</init_from>
+    </image>
+    <image id="MapGround_Alb">
+      <init_from>MapGround_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="TunnelSideBox_Alb">
+      <init_from>TunnelSideBox_Alb.png</init_from>
+    </image>
+    <image id="TunnelSideBox_NP_Alb">
+      <init_from>TunnelSideBox_NP_Alb.png</init_from>
+    </image>
+    <image id="TunnelSideBox_NP_Mtl">
+      <init_from>TunnelSideBox_NP_Mtl.png</init_from>
+    </image>
+    <image id="TunnelSideBox_NP_Nrm">
+      <init_from>TunnelSideBox_NP_Nrm.png</init_from>
+    </image>
+    <image id="TunnelSideBox_NP_Rgh">
+      <init_from>TunnelSideBox_NP_Rgh.png</init_from>
+    </image>
+    <image id="TunnelSideBox_Nrm">
+      <init_from>TunnelSideBox_Nrm.png</init_from>
+    </image>
+    <image id="TunnelSideBox_Rgh">
+      <init_from>TunnelSideBox_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <newparam sid="surface_MapGround-diffuse">
+          <surface type="2D">
+            <init_from>MapGround_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapGround-diffuse">
+          <sampler2D>
+            <source>surface_MapGround-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapGround-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Edge1__MapWall-mesh" name="Edge1__MapWall">
+      <mesh>
+        <source id="Edge1__MapWall-position">
+          <float_array id="Edge1__MapWall-position-array" count="90">225 0 210 225 45 210 170 0 210 170 45 210 170 0 130 225 0 130 170 0 210 225 0 210 170 45 210 170 45 130 170 0 210 170 0 130 170 0 130 170 45 130 225 0 130 225 45 130 225 0 130 225 45 130 225 0 210 225 45 210 170 45 210 173 45 207 170 45 130 173 45 133 225 45 130 222 45 133 225 45 210 222 45 207 170 45 210 173 45 207</float_array>
+          <technique_common>
+            <accessor source="#Edge1__MapWall-position-array" count="30" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__MapWall-normal">
+          <float_array id="Edge1__MapWall-normal-array" count="90">0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Edge1__MapWall-normal-array" count="30" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__MapWall-texcoord">
+          <float_array id="Edge1__MapWall-texcoord-array" count="60">4.919158 3.771108 4.929878 4.90669 0.7740796 3.750906 0.8026858 4.904397 -1.197393 3.779472 -1.195318 2.40656 0.7740796 3.750906 0.7888349 2.390767 0.8026858 4.904397 -1.197378 4.904399 0.7740796 3.750906 -1.197393 3.779472 9.802608 3.779523 9.802557 4.904444 8.426245 3.778198 8.428908 4.905752 8.426245 3.778198 8.428908 4.905752 4.919158 3.771108 4.929878 4.90669 0.001135884 0.4667999 0.02064487 0.4867198 0.0009300606 0.998008 0.02085069 0.9780874 0.3661335 0.9979975 0.3462133 0.9780915 0.3661216 0.4666644 0.3462051 0.4864581 0.0009720236 0.4649562 0.02087378 0.4843896</float_array>
+          <technique_common>
+            <accessor source="#Edge1__MapWall-texcoord-array" count="30" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge1__MapWall-vertex">
+          <input semantic="POSITION" source="#Edge1__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="18">
+          <input semantic="VERTEX" source="#Edge1__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge1__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge1__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 26 26 26 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Edge2__MapGround-mesh" name="Edge2__MapGround">
+      <mesh>
+        <source id="Edge2__MapGround-position">
+          <float_array id="Edge2__MapGround-position-array" count="12">173 45 207 222 45 207 173 45 133 222 45 133</float_array>
+          <technique_common>
+            <accessor source="#Edge2__MapGround-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__MapGround-normal">
+          <float_array id="Edge2__MapGround-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Edge2__MapGround-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__MapGround-texcoord">
+          <float_array id="Edge2__MapGround-texcoord-array" count="8">0.02098116 0.4867323 0.3462425 0.4867323 0.02084382 0.978088 0.3461967 0.9780728</float_array>
+          <technique_common>
+            <accessor source="#Edge2__MapGround-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge2__MapGround-vertex">
+          <input semantic="POSITION" source="#Edge2__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="2">
+          <input semantic="VERTEX" source="#Edge2__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge2__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge2__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Edge1__MapWall-mesh">
+      <skin source="#Edge1__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge1__MapWall-mesh-joint">
+          <Name_array id="Edge1__MapWall-mesh-joint-array" count="1">Lft_TunnelSideBoxArea_Map</Name_array>
+          <technique_common>
+            <accessor source="#Edge1__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Edge1__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge1__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__MapWall-mesh-weight">
+          <float_array id="Edge1__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge1__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge1__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge1__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="30">
+          <input semantic="JOINT" source="#Edge1__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge1__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Edge2__MapGround-mesh">
+      <skin source="#Edge2__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge2__MapGround-mesh-joint">
+          <Name_array id="Edge2__MapGround-mesh-joint-array" count="1">Lft_TunnelSideBoxArea_Map</Name_array>
+          <technique_common>
+            <accessor source="#Edge2__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Edge2__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge2__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__MapGround-mesh-weight">
+          <float_array id="Edge2__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge2__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge2__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge2__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Edge2__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge2__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_TunnelSideBoxArea_Map" name="Lft_TunnelSideBoxArea_Map" sid="Lft_TunnelSideBoxArea_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Edge1__MapWall" name="Edge1__MapWall" type="NODE">
+        <instance_controller url="#Armature_Edge1__MapWall-mesh">
+          <skeleton>#Armature_Lft_TunnelSideBoxArea_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Edge2__MapGround" name="Edge2__MapGround" type="NODE">
+        <instance_controller url="#Armature_Edge2__MapGround-mesh">
+          <skeleton>#Armature_Lft_TunnelSideBoxArea_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

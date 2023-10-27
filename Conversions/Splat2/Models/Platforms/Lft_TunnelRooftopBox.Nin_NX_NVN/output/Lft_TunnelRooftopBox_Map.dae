@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Lft_TunnelRooftopBox_g00_b00_f00">
+      <init_from>Bake_Lft_TunnelRooftopBox_g00_b00_f00.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="PatrolShipBase_Alb">
+      <init_from>PatrolShipBase_Alb.png</init_from>
+    </image>
+    <image id="PatrolShipBase_Mtl">
+      <init_from>PatrolShipBase_Mtl.png</init_from>
+    </image>
+    <image id="PatrolShipBase_Nrm">
+      <init_from>PatrolShipBase_Nrm.png</init_from>
+    </image>
+    <image id="PatrolShipBase_Rgh">
+      <init_from>PatrolShipBase_Rgh.png</init_from>
+    </image>
+    <image id="SteeringMachineMaterial_Alb">
+      <init_from>SteeringMachineMaterial_Alb.png</init_from>
+    </image>
+    <image id="SteeringMachineMaterial_Mtl">
+      <init_from>SteeringMachineMaterial_Mtl.png</init_from>
+    </image>
+    <image id="SteeringMachineMaterial_Nrm">
+      <init_from>SteeringMachineMaterial_Nrm.png</init_from>
+    </image>
+    <image id="SteeringMachineMaterial_Rgh">
+      <init_from>SteeringMachineMaterial_Rgh.png</init_from>
+    </image>
+    <image id="Submarine_Alb">
+      <init_from>Submarine_Alb.png</init_from>
+    </image>
+    <image id="Submarine_Mtl">
+      <init_from>Submarine_Mtl.png</init_from>
+    </image>
+    <image id="Submarine_Nrm">
+      <init_from>Submarine_Nrm.png</init_from>
+    </image>
+    <image id="Submarine_Rgh">
+      <init_from>Submarine_Rgh.png</init_from>
+    </image>
+    <image id="TunnelRooftopBox_Alb">
+      <init_from>TunnelRooftopBox_Alb.png</init_from>
+    </image>
+    <image id="TunnelRooftopBox_Mtl">
+      <init_from>TunnelRooftopBox_Mtl.png</init_from>
+    </image>
+    <image id="TunnelRooftopBox_Nrm">
+      <init_from>TunnelRooftopBox_Nrm.png</init_from>
+    </image>
+    <image id="TunnelRooftopBox_Rgh">
+      <init_from>TunnelRooftopBox_Rgh.png</init_from>
+    </image>
+    <image id="WallPaintSteel_Alb">
+      <init_from>WallPaintSteel_Alb.png</init_from>
+    </image>
+    <image id="WallPaintSteel_Nrm">
+      <init_from>WallPaintSteel_Nrm.png</init_from>
+    </image>
+    <image id="WallPaintSteel_Rgh">
+      <init_from>WallPaintSteel_Rgh.png</init_from>
+    </image>
+    <image id="WallVelvet_Alb">
+      <init_from>WallVelvet_Alb.png</init_from>
+    </image>
+    <image id="WallVelvet_Nrm">
+      <init_from>WallVelvet_Nrm.png</init_from>
+    </image>
+    <image id="WallVelvet_Rgh">
+      <init_from>WallVelvet_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh" name="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall">
+      <mesh>
+        <source id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-position">
+          <float_array id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-position-array" count="324">-135 75 -110 -135 75 -59.99999 -135 120 -110 -135 120 -59.99999 -135 75 -59.99999 -135 75 -110 -90.00001 75 -110 -90.00001 75 -59.99999 -135 120 -110 -135 120 -59.99999 -50.00001 120 -110 -50 120 -60 -50 90 -60 -90.00001 75 -59.99999 -90.00001 75 -110 -50.00001 90 -110 -50 90 -60 -50.00001 90 -110 -50 120 -60 -50.00001 120 -110 -50.00001 120 -110 -50.00001 90 -110 -90.00001 75 -110 -135 120 -110 -135 75 -110 -90.00001 75 -59.99999 -135 120 -59.99999 -135 75 -59.99999 -50 120 -60 -50 90 -60 -30.00002 90 -210 -30.00002 90 -170 -30.00002 130 -210 -30.00002 130 -170 29.99998 130 -170 -30.00002 130 -170 29.99998 90 -170 -30.00002 90 -170 29.99998 90 -170 -30.00002 90 -170 29.99998 90 -210 -30.00002 90 -210 29.99998 130 -210 -30.00002 130 -210 29.99998 130 -170 -30.00002 130 -170 -30.00002 90 -210 -30.00002 130 -210 29.99998 130 -210 29.99998 90 -210 29.99998 90 -170 29.99998 90 -210 29.99998 130 -170 29.99998 130 -210 -30 90 170 -30 90 210 -30 130 170 -30 130 210 -30 90 210 30 90 210 -30 130 210 30 130 210 -30 130 210 30 130 210 -30 130 170 30 130 170 -30 90 170 30 90 170 -30 90 210 30 90 210 30 130 170 30 90 170 -30 90 170 -30 130 170 30 90 210 30 90 170 30 130 210 30 130 170 50 90 110 50 120 110 50 120 60 50 90 60 50 90 60 90 75 60 90 75 110 50 90 110 135 120 110 135 120 60 50 120 110 50 120 60 90 75 60 135 75 60 90 75 110 135 75 110 135 75 60 135 120 60 135 120 110 135 75 110 50 120 110 50 90 110 90 75 110 135 120 110 135 75 110 50 120 60 90 75 60 50 90 60 135 120 60 135 75 60</float_array>
+          <technique_common>
+            <accessor source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-position-array" count="108" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-normal">
+          <float_array id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-normal-array" count="324">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.4481409 -0.8943248 0 0.4481409 -0.8943248 0 0.4481409 -0.8943248 0 0.4481409 -0.8943248 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.4481409 -0.8943248 0 -0.4481409 -0.8943248 0 -0.4481409 -0.8943248 0 -0.4481409 -0.8943248 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-normal-array" count="108" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-texcoord">
+          <float_array id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-texcoord-array" count="216">0.008850098 0.008789063 0.008850098 -1.244141 1.137695 0.008789063 1.137695 -1.244141 -1.245117 0.008789063 0.008850098 0.008789063 0.008850098 1.137451 -1.245117 1.137451 1.137695 0.008789063 2.390625 0.008789063 1.137695 2.140625 2.390625 2.140625 -1.245117 2.140625 -1.245117 1.137451 0.008850098 1.137451 0.008850098 2.140625 0.3850098 -3.375 0.3850098 -4.628906 1.137695 -3.375 1.137695 -4.628906 1.137695 2.140625 0.3850098 2.140625 0.008850098 1.137451 1.137695 0.008789063 0.008850098 0.008789063 0.008850098 -2.373047 1.137695 -1.244141 0.008850098 -1.244141 1.137695 -3.375 0.3850098 -3.375 4.195313 0.519043 5.195313 0.519043 4.195313 1.518555 5.195313 1.518555 5.195313 3.017578 5.195313 1.518555 6.195313 3.017578 6.195313 1.518555 2.197266 3.017578 2.197266 1.518555 3.197266 3.017578 3.197266 1.518555 4.195313 3.017578 4.195313 1.518555 5.195313 3.017578 5.195313 1.518555 3.197266 1.518555 4.195313 1.518555 4.195313 3.017578 3.197266 3.017578 5.195313 4.017578 4.195313 4.017578 5.195313 3.017578 4.195313 3.017578 5.195313 4.017578 4.195313 4.017578 5.195313 3.017578 4.195313 3.017578 3.197266 3.017578 3.197266 1.518555 4.195313 3.017578 4.195313 1.518555 4.195313 3.017578 4.195313 1.518555 5.195313 3.017578 5.195313 1.518555 2.197266 3.017578 2.197266 1.518555 3.197266 3.017578 3.197266 1.518555 5.195313 1.518555 6.195313 1.518555 6.195313 3.017578 5.195313 3.017578 4.195313 0.519043 5.195313 0.519043 4.195313 1.518555 5.195313 1.518555 0.3850098 -4.628906 1.137695 -4.628906 1.137695 -3.375 0.3850098 -3.375 -1.245117 2.140625 -1.245117 1.137451 0.008850098 1.137451 0.008850098 2.140625 1.137695 0.008789063 2.390625 0.008789063 1.137695 2.140625 2.390625 2.140625 -1.245117 1.137451 -1.245117 0.008789063 0.008850098 1.137451 0.008850098 0.008789063 0.008850098 -1.244141 1.137695 -1.244141 1.137695 0.008789063 0.008850098 0.008789063 1.137695 2.140625 0.3850098 2.140625 0.008850098 1.137451 1.137695 0.008789063 0.008850098 0.008789063 1.137695 -3.375 0.008850098 -2.373047 0.3850098 -3.375 1.137695 -1.244141 0.008850098 -1.244141</float_array>
+          <technique_common>
+            <accessor source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-texcoord-array" count="108" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-vertex">
+          <input semantic="POSITION" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="56">
+          <input semantic="VERTEX" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 7 7 7 4 4 4 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 15 15 15 12 12 12 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 22 22 22 23 23 23 20 20 20 22 22 22 24 24 24 23 23 23 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 28 28 28 28 28 28 25 25 25 29 29 29 30 30 30 31 31 31 32 32 32 31 31 31 33 33 33 32 32 32 34 34 34 35 35 35 36 36 36 35 35 35 37 37 37 36 36 36 38 38 38 39 39 39 40 40 40 39 39 39 41 41 41 40 40 40 42 42 42 43 43 43 44 44 44 43 43 43 45 45 45 44 44 44 46 46 46 47 47 47 48 48 48 49 49 49 46 46 46 48 48 48 50 50 50 51 51 51 52 52 52 51 51 51 53 53 53 52 52 52 54 54 54 55 55 55 56 56 56 55 55 55 57 57 57 56 56 56 58 58 58 59 59 59 60 60 60 59 59 59 61 61 61 60 60 60 62 62 62 63 63 63 64 64 64 63 63 63 65 65 65 64 64 64 66 66 66 67 67 67 68 68 68 67 67 67 69 69 69 68 68 68 70 70 70 71 71 71 72 72 72 73 73 73 70 70 70 72 72 72 74 74 74 75 75 75 76 76 76 75 75 75 77 77 77 76 76 76 78 78 78 79 79 79 80 80 80 81 81 81 78 78 78 80 80 80 82 82 82 83 83 83 84 84 84 85 85 85 82 82 82 84 84 84 86 86 86 87 87 87 88 88 88 87 87 87 89 89 89 88 88 88 90 90 90 91 91 91 92 92 92 91 91 91 93 93 93 92 92 92 94 94 94 95 95 95 96 96 96 97 97 97 94 94 94 96 96 96 98 98 98 99 99 99 100 100 100 100 100 100 101 101 101 98 98 98 100 100 100 102 102 102 101 101 101 103 103 103 104 104 104 105 105 105 106 106 106 104 104 104 103 103 103 104 104 104 106 106 106 107 107 107 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh">
+      <skin source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-joint">
+          <Name_array id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-joint-array" count="1">Lft_TunnelRooftopBox_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-weight">
+          <float_array id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="108">
+          <input semantic="JOINT" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_TunnelRooftopBox_Map" name="Lft_TunnelRooftopBox_Map" sid="Lft_TunnelRooftopBox_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall" name="Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall" type="NODE">
+        <instance_controller url="#Armature_Lft_TunnelRooftopBox_TestObj_TF1753yanehako_pCube530_1__MapWall-mesh">
+          <skeleton>#Armature_Lft_TunnelRooftopBox_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

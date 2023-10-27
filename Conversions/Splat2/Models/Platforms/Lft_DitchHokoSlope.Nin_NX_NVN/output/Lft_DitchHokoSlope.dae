@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Alb">
+      <init_from>M_GeneralBoxBody_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Nrm">
+      <init_from>M_GeneralBoxBody_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Rgh">
+      <init_from>M_GeneralBoxBody_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Alb">
+      <init_from>M_GeneralBoxTopEdge_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Nrm">
+      <init_from>M_GeneralBoxTopEdge_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Rgh">
+      <init_from>M_GeneralBoxTopEdge_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_FenceVinyl">
+      <instance_effect url="#Effect_M_FenceVinyl" />
+    </material>
+    <material id="M_GeneralBoxTopEdge">
+      <instance_effect url="#Effect_M_GeneralBoxTopEdge" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_FenceVinyl">
+      <profile_COMMON>
+        <newparam sid="surface_M_FenceVinyl-diffuse">
+          <surface type="2D">
+            <init_from>M_FenceVinyl_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_FenceVinyl-diffuse">
+          <sampler2D>
+            <source>surface_M_FenceVinyl-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_FenceVinyl-bump">
+          <surface type="2D">
+            <init_from>M_FenceVinyl_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_FenceVinyl-bump">
+          <sampler2D>
+            <source>surface_M_FenceVinyl-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_FenceVinyl-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_FenceVinyl-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_M_GeneralBoxTopEdge">
+      <profile_COMMON>
+        <newparam sid="surface_M_GeneralBoxTopEdge-diffuse">
+          <surface type="2D">
+            <init_from>M_GeneralBoxTopEdge_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_GeneralBoxTopEdge-diffuse">
+          <sampler2D>
+            <source>surface_M_GeneralBoxTopEdge-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_GeneralBoxTopEdge-bump">
+          <surface type="2D">
+            <init_from>M_GeneralBoxTopEdge_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_GeneralBoxTopEdge-bump">
+          <sampler2D>
+            <source>surface_M_GeneralBoxTopEdge-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_GeneralBoxTopEdge-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_GeneralBoxTopEdge-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh" name="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl">
+      <mesh>
+        <source id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-position">
+          <float_array id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-position-array" count="390">209.2703 80 284.417 209.2703 80 220.583 209.6825 80.17075 220.5809 209.6825 80.17075 284.4191 209.8533 80.58298 220.583 209.8533 80.58298 284.417 209.8533 119.7646 284.3021 209.6798 119.6838 284.7956 209.6825 80.58298 284.8293 209.2703 119.4718 285 209.2703 80.58298 285 209.8533 119.7646 220.6979 209.6825 80.58298 220.1707 209.6509 120.1186 220.6975 209.6798 119.6838 220.2044 209.6509 120.1186 284.3025 209.2703 80.58298 220 209.2432 120.1236 220.6979 209.2432 120.1236 284.3021 209.2703 119.4718 220 148.9158 80.58298 220 209.2703 80.17075 220.1707 148.0131 80.56179 220.326 148.1164 80.16308 220.326 209.2568 119.9327 220.2044 209.2703 80 220.583 147.7792 80 221.1132 147.6391 80.5406 221.1132 209.2432 120.1236 220.6979 148.9158 80.58298 285 209.2568 119.9327 284.7956 148.1164 80.16308 284.674 148.0131 80.56179 284.674 209.2703 80.17075 284.8293 209.2432 120.1236 284.3021 147.6391 80.5406 283.8868 147.7792 80 283.8868 209.2703 80 284.417 147.5 80.21609 221.1155 147.6391 80.5406 283.8868 147.6391 80.5406 221.1132 147.5 80.21609 283.8845 147.7792 80 221.1132 147.7792 80 283.8868 209.2703 80 284.417 209.2703 80 220.583 210.1319 119.1207 329.1823 209.8573 119.7836 286.0117 209.8573 119.7836 329.1823 210.1319 119.1207 286.0117 209.8573 80.97617 285.3488 209.8573 119.1207 285.3488 210.1319 80.97617 286.0117 210.1319 80.97617 329.1823 209.8573 119.1207 329.8451 209.8573 80.97617 329.8451 209.8573 80.31332 329.1823 209.8573 80.31332 286.0117 209.1945 80.03876 329.1823 209.1945 80.03876 286.0117 147.9795 80.03876 286.0117 147.9795 80.31332 285.3488 209.1945 80.31332 285.3488 147.9795 80.97617 285.0743 209.1945 80.97617 285.0743 147.9795 80.03876 329.1823 209.1945 80.31332 329.8451 147.3166 80.31332 329.1823 147.9795 80.31332 329.8451 147.3166 80.31332 286.0117 209.1945 80.97617 330.1197 147.0421 80.97617 329.1823 147.9795 80.97617 330.1197 147.0421 80.97617 286.0117 147.3166 119.1207 329.8451 147.3166 80.97617 329.8451 147.9795 119.1207 330.1197 209.1945 119.7836 329.8451 147.9795 119.7836 329.8451 209.1945 119.1207 330.1197 209.8573 80.97617 329.8451 209.8573 119.1207 329.8451 147.3166 119.1207 285.3488 147.3166 80.97617 285.3488 147.0421 119.1207 286.0117 147.0421 119.1207 329.1823 147.3166 80.97617 329.8451 147.3166 119.1207 329.8451 147.3166 119.7836 329.1823 147.3166 119.7836 286.0117 147.9795 120.0581 329.1823 147.9795 120.0581 286.0117 209.1945 119.7836 285.3488 147.9795 119.7836 285.3488 209.1945 120.0581 286.0117 209.1945 120.0581 329.1823 147.9795 119.7836 329.8451 209.1945 119.7836 329.8451 209.8573 119.7836 329.1823 209.8573 119.7836 286.0117 209.8573 119.1207 285.3488 209.8573 80.97617 285.3488 209.1945 119.1207 285.0743 147.9795 119.7836 285.3488 209.1945 119.7836 285.3488 147.9795 119.1207 285.0743 147.3166 80.97617 285.3488 147.3166 119.1207 285.3488 147.446 80.44274 285.4783 147.446 80.44274 329.7157 147.7296 80.2756 220.4717 147.5 80.21609 221.1155 147.7296 80.2756 284.5283 147.5 80.21609 283.8845 147.446 119.6541 285.4783 147.446 119.6541 285.4783 147.446 119.6541 329.7157 147.446 119.6541 329.7157 209.6068 80.24654 220.2457 209.7279 80.44274 285.4783 209.6068 80.24654 284.7543 209.7279 80.44274 329.7157 209.5837 120.0044 220.295 209.7279 119.6541 285.4783 209.7279 119.6541 285.4783 209.7279 119.6541 285.4783 209.5837 120.0044 284.705 209.7279 119.6541 329.7157 209.7279 119.6541 329.7157 209.7279 119.6541 329.7157</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-position-array" count="130" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-normal">
+          <float_array id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-normal-array" count="390">0.001956947 -1 0.001956947 0.001956947 -1 -0.001956947 0.7064579 -0.7064579 -0.001956947 0.7064579 -0.7064579 0.001956947 1 -0.003913894 -0.001956947 1 -0.003913894 0.001956947 1 0.005870841 0.001956947 0.7925636 0.003913894 0.6105675 0.739726 -0.001956947 0.6731898 -0.005870841 0.02544031 1 0.005870841 -0.01174168 1 1 0.005870841 -0.001956947 0.739726 -0.001956947 -0.6731898 0.5068493 0.8610567 -0.001956947 0.7925636 0.003913894 -0.6105675 0.5068493 0.8610567 0.001956947 0.005870841 -0.01174168 -1 -0.3365949 0.925636 -0.1741683 -0.3365949 0.925636 0.1741683 -0.005870841 0.02544031 -1 -0.03131115 0.001956947 -1 0 -0.8238748 -0.5675147 -0.4970646 0.7671233 -0.4031311 -0.005870841 -0.9158513 -0.4011742 -0.4716243 0.7358121 -0.483366 0.001956947 -1 -0.001956947 -0.003913894 -1 -0.001956947 -0.7064579 0.6849315 -0.1741683 -0.3365949 0.925636 -0.1741683 -0.03131115 0.001956947 1 -0.4716243 0.7358121 0.483366 -0.005870841 -0.9158513 0.4011742 -0.4970646 0.7671233 0.4031311 0 -0.8238748 0.5675147 -0.3365949 0.925636 0.1741683 -0.7064579 0.6849315 0.1741683 -0.003913894 -1 0.001956947 0.001956947 -1 0.001956947 -0.9686888 -0.2504892 -0.003913894 -0.7064579 0.6849315 0.1741683 -0.7064579 0.6849315 -0.1741683 -0.9686888 -0.2504892 0.003913894 -0.003913894 -1 -0.001956947 -0.003913894 -1 0.001956947 0.001956947 -1 0.001956947 0.001956947 -1 -0.001956947 1 0.007827789 0.005870841 0.7084149 0.7064579 -0.003913894 0.7084149 0.7064579 0.003913894 1 0.007827789 -0.005870841 0.7064579 -0.003913894 -0.7064579 0.7064579 0.003913894 -0.7064579 1 -0.007827789 -0.005870841 1 -0.007827789 0.005870841 0.7064579 0.003913894 0.7064579 0.7064579 -0.003913894 0.7064579 0.7084149 -0.7064579 0.003913894 0.7084149 -0.7064579 -0.003913894 0.003913894 -1 0.005870841 0.003913894 -1 -0.005870841 -0.003913894 -1 -0.005870841 -0.001956947 -0.7064579 -0.7084149 0.001956947 -0.7064579 -0.7084149 -0.003913894 -0.007827789 -1 0.003913894 -0.007827789 -1 -0.003913894 -1 0.005870841 0.001956947 -0.7064579 0.7084149 -0.7084149 -0.7064579 0.003913894 -0.001956947 -0.7064579 0.7084149 -0.7084149 -0.7064579 -0.003913894 0.003913894 -0.007827789 1 -1 -0.007827789 0.005870841 -0.003913894 -0.007827789 1 -1 -0.007827789 -0.005870841 -0.7064579 0.003913894 0.7064579 -0.7064579 -0.003913894 0.7064579 -0.003913894 0.007827789 1 0.001956947 0.7064579 0.7084149 -0.001956947 0.7064579 0.7084149 0.003913894 0.007827789 1 0.7064579 -0.003913894 0.7064579 0.7064579 0.003913894 0.7064579 -0.7064579 0.003913894 -0.7064579 -0.7064579 -0.003913894 -0.7064579 -1 0.007827789 -0.005870841 -1 0.007827789 0.005870841 -0.7064579 -0.003913894 0.7064579 -0.7064579 0.003913894 0.7064579 -0.7084149 0.7064579 0.003913894 -0.7084149 0.7064579 -0.003913894 -0.003913894 1 0.005870841 -0.003913894 1 -0.005870841 0.001956947 0.7064579 -0.7084149 -0.001956947 0.7064579 -0.7084149 0.003913894 1 -0.005870841 0.003913894 1 0.005870841 -0.001956947 0.7064579 0.7084149 0.001956947 0.7064579 0.7084149 0.7084149 0.7064579 0.003913894 0.7084149 0.7064579 -0.003913894 0.7064579 0.003913894 -0.7064579 0.7064579 -0.003913894 -0.7064579 0.003913894 0.007827789 -1 -0.001956947 0.7064579 -0.7084149 0.001956947 0.7064579 -0.7084149 -0.003913894 0.007827789 -1 -0.7064579 -0.003913894 -0.7064579 -0.7064579 0.003913894 -0.7064579 -0.6144814 -0.4931507 -0.6144814 -0.6144814 -0.4931507 0.6144814 -0.7886497 -0.2054795 -0.5792564 -0.9686888 -0.2504892 -0.003913894 -0.7886497 -0.2054795 0.5792564 -0.9686888 -0.2504892 0.003913894 -0.6144814 0.4931507 -0.6144814 -0.6144814 0.4931507 -0.6144814 -0.6144814 0.4931507 0.6144814 -0.6144814 0.4931507 0.6144814 0.5772994 -0.5772994 -0.5792564 0.6144814 -0.4931507 -0.6144814 0.5772994 -0.5772994 0.5792564 0.6144814 -0.4931507 0.6144814 0.4168297 0.7103718 -0.5675147 0.6144814 0.4931507 -0.6144814 0.6144814 0.4931507 -0.6144814 0.6144814 0.4931507 -0.6144814 0.4168297 0.7103718 0.5675147 0.6144814 0.4931507 0.6144814 0.6144814 0.4931507 0.6144814 0.6144814 0.4931507 0.6144814</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-normal-array" count="130" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-texcoord">
+          <float_array id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-texcoord-array" count="260">3.380859 2.166992 1.895508 2.166016 1.894531 2.155273 3.380859 2.15625 1.894531 2.143555 3.382813 2.144531 3.376953 1.082703 3.388672 1.083313 3.392578 2.146484 3.402344 1.086365 3.404297 2.148438 1.898438 1.082825 1.883789 2.145508 1.896484 1.072144 1.888672 1.083435 3.380859 1.072021 1.871094 2.147461 1.898438 1.062408 3.378906 1.062286 1.875 1.086548 0.04800415 2.130859 1.87207 2.162109 0.01902771 2.130859 0.02578735 2.143555 1.875 1.071472 1.874023 2.175781 0.006607056 2.165039 -0.004337311 2.117188 1.874023 1.056824 5.230469 2.132813 3.402344 1.071289 5.253906 2.144531 5.261719 2.132813 3.404297 2.163086 3.402344 1.056641 5.285156 2.119141 5.273438 2.166992 3.402344 2.176758 1.624023 1.861816 3.068359 1.871094 1.624023 1.870605 3.068359 1.861816 1.624023 1.853027 3.068359 1.853027 3.080078 0 1.610352 0 1.100586 -1.533203 0.02119446 -1.554688 1.100586 -1.552734 0.0211792 -1.537109 0.0002596378 -0.5830078 0.003227234 -1.537109 0.01834106 -0.5839844 1.097656 -0.5800781 1.119141 -1.533203 1.116211 -0.5800781 1.097656 -0.5625 0.01805115 -0.5634766 1.097656 -0.5449219 0.01815796 -0.5458984 0.01696777 0.9837952 -0.0008945465 0.9838562 0.0002777576 -0.5458984 -0.01878357 0.9838867 -0.0176239 -0.5458984 1.095703 0.984993 1.115234 -0.5449219 1.095703 1.002827 1.113281 0.9850998 0.0168457 1.001624 1.133789 -0.5449219 1.095703 1.020691 1.130859 0.9851761 0.01676941 1.019485 2.083984 1.004601 1.130859 1.003206 2.083984 0.9866714 2.103516 -0.5429688 2.101563 0.9867249 2.085938 -0.5429688 1.133789 -0.5625 2.085938 -0.5605469 -0.002004623 1.972656 -0.001252174 1.019379 0.01596069 1.972656 1.09375 1.973633 1.113281 1.02063 1.112305 1.973633 1.09375 1.991699 0.01596069 1.990234 1.09375 2.008789 0.01593018 2.007813 -0.003604889 3.537109 -0.002008438 2.007813 0.01431274 3.537109 1.092773 3.537109 1.112305 2.008789 1.110352 3.537109 1.092773 3.556641 0.01425934 3.554688 -0.9711914 -0.5644531 -0.01751709 -0.5644531 -0.9711914 -0.546875 -0.9902344 0.9832001 -0.9887695 -0.546875 -0.972168 0.9831848 -0.01870728 1.001921 -0.972168 1.001114 0 1.000688 1.112305 1.001928 0.01138306 2.138672 0.0002632141 2.141602 5.269531 2.140625 5.28125 2.142578 -0.9873047 0.9982443 0.0009269714 1.990234 2.099609 1.001767 1.109375 1.991699 1.884766 2.155273 0.000998497 -0.5634766 3.390625 2.15625 1.114258 -0.5615234 1.887695 1.074036 0.006122589 -1.552734 -0.0007777214 3.552734 -0.9863281 -0.5615234 3.388672 1.073853 2.101563 -0.5585938 1.116211 -1.548828 1.107422 3.552734</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-texcoord-array" count="130" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-vertex">
+          <input semantic="POSITION" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-position" />
+        </vertices>
+        <triangles material="M_FenceVinyl" count="186">
+          <input semantic="VERTEX" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 3 3 3 2 2 2 4 4 4 3 3 3 4 4 4 5 5 5 4 4 4 6 6 6 5 5 5 5 5 5 6 6 6 7 7 7 5 5 5 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 8 8 8 9 9 9 10 10 10 4 4 4 11 11 11 6 6 6 4 4 4 12 12 12 11 11 11 11 11 11 13 13 13 6 6 6 12 12 12 14 14 14 11 11 11 6 6 6 13 13 13 15 15 15 12 12 12 16 16 16 14 14 14 13 13 13 17 17 17 15 15 15 15 15 15 17 17 17 18 18 18 16 16 16 19 19 19 14 14 14 16 16 16 20 20 20 19 19 19 16 16 16 21 21 21 20 20 20 20 20 20 22 22 22 19 19 19 21 21 21 23 23 23 20 20 20 19 19 19 22 22 22 24 24 24 21 21 21 25 25 25 23 23 23 25 25 25 26 26 26 23 23 23 22 22 22 27 27 27 24 24 24 24 24 24 27 27 27 28 28 28 9 9 9 29 29 29 10 10 10 9 9 9 30 30 30 29 29 29 10 10 10 29 29 29 31 31 31 30 30 30 32 32 32 29 29 29 10 10 10 31 31 31 33 33 33 30 30 30 34 34 34 32 32 32 34 34 34 35 35 35 32 32 32 31 31 31 36 36 36 33 33 33 33 33 33 36 36 36 37 37 37 38 38 38 39 39 39 40 40 40 41 41 41 39 39 39 38 38 38 42 42 42 41 41 41 38 38 38 42 42 42 43 43 43 41 41 41 44 44 44 43 43 43 42 42 42 44 44 44 42 42 42 45 45 45 46 46 46 47 47 47 48 48 48 49 49 49 47 47 47 46 46 46 49 49 49 50 50 50 51 51 51 49 49 49 52 52 52 50 50 50 49 49 49 46 46 46 53 53 53 49 49 49 53 53 53 52 52 52 46 46 46 54 54 54 53 53 53 53 53 53 54 54 54 55 55 55 52 52 52 53 53 53 56 56 56 52 52 52 56 56 56 57 57 57 56 56 56 58 58 58 57 57 57 57 57 57 58 58 58 59 59 59 58 58 58 60 60 60 59 59 59 59 59 59 60 60 60 61 61 61 59 59 59 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 62 62 62 63 63 63 64 64 64 58 58 58 65 65 65 60 60 60 58 58 58 66 66 66 65 65 65 65 65 65 67 67 67 60 60 60 66 66 66 68 68 68 65 65 65 60 60 60 67 67 67 69 69 69 66 66 66 70 70 70 68 68 68 67 67 67 71 71 71 69 69 69 68 68 68 70 70 70 72 72 72 69 69 69 71 71 71 73 73 73 72 72 72 74 74 74 75 75 75 72 72 72 76 76 76 74 74 74 70 70 70 76 76 76 72 72 72 76 76 76 77 77 77 78 78 78 79 79 79 77 77 77 76 76 76 70 70 70 79 79 79 76 76 76 70 70 70 80 80 80 79 79 79 79 79 79 80 80 80 81 81 81 73 73 73 82 82 82 83 83 83 84 84 84 82 82 82 73 73 73 85 85 85 84 84 84 73 73 73 71 71 71 85 85 85 73 73 73 71 71 71 86 86 86 85 85 85 85 85 85 86 86 86 87 87 87 85 85 85 88 88 88 84 84 84 84 84 84 88 88 88 89 89 89 88 88 88 90 90 90 89 89 89 89 89 89 90 90 90 91 91 91 91 91 91 92 92 92 93 93 93 91 91 91 94 94 94 92 92 92 90 90 90 95 95 95 91 91 91 91 91 91 95 95 95 94 94 94 90 90 90 96 96 96 95 95 95 96 96 96 97 97 97 95 95 95 95 95 95 98 98 98 94 94 94 94 94 94 98 98 98 99 99 99 64 64 64 100 100 100 101 101 101 64 64 64 102 102 102 100 100 100 102 102 102 103 103 103 104 104 104 105 105 105 103 103 103 102 102 102 64 64 64 105 105 105 102 102 102 63 63 63 105 105 105 64 64 64 63 63 63 106 106 106 105 105 105 105 105 105 106 106 106 107 107 107 106 106 106 63 63 63 108 108 108 63 63 63 61 61 61 108 108 108 61 61 61 60 60 60 108 108 108 108 108 108 60 60 60 69 69 69 69 69 69 73 73 73 108 108 108 73 73 73 83 83 83 108 108 108 86 86 86 71 71 71 109 109 109 71 71 71 67 67 67 109 109 109 67 67 67 65 65 65 109 109 109 109 109 109 65 65 65 68 68 68 68 68 68 72 72 72 109 109 109 72 72 72 75 75 75 109 109 109 20 20 20 23 23 23 22 22 22 23 23 23 110 110 110 22 22 22 23 23 23 26 26 26 110 110 110 27 27 27 22 22 22 110 110 110 26 26 26 111 111 111 110 110 110 111 111 111 27 27 27 110 110 110 29 29 29 32 32 32 31 31 31 32 32 32 112 112 112 31 31 31 32 32 32 35 35 35 112 112 112 36 36 36 31 31 31 112 112 112 35 35 35 113 113 113 112 112 112 113 113 113 36 36 36 112 112 112 103 103 103 105 105 105 114 114 114 105 105 105 107 107 107 114 114 114 82 82 82 84 84 84 115 115 115 84 84 84 89 89 89 115 115 115 89 89 89 91 91 91 115 115 115 115 115 115 91 91 91 93 93 93 74 74 74 76 76 76 116 116 116 76 76 76 78 78 78 116 116 116 96 96 96 90 90 90 117 117 117 117 117 117 90 90 90 88 88 88 88 88 88 85 85 85 117 117 117 85 85 85 87 87 87 117 117 117 25 25 25 21 21 21 118 118 118 2 2 2 25 25 25 118 118 118 21 21 21 16 16 16 118 118 118 4 4 4 2 2 2 118 118 118 16 16 16 12 12 12 118 118 118 12 12 12 4 4 4 118 118 118 50 50 50 52 52 52 119 119 119 52 52 52 57 57 57 119 119 119 57 57 57 59 59 59 119 119 119 119 119 119 59 59 59 62 62 62 62 62 62 64 64 64 119 119 119 64 64 64 101 101 101 119 119 119 33 33 33 37 37 37 120 120 120 10 10 10 33 33 33 120 120 120 37 37 37 3 3 3 120 120 120 8 8 8 10 10 10 120 120 120 3 3 3 5 5 5 120 120 120 5 5 5 8 8 8 120 120 120 53 53 53 55 55 55 121 121 121 56 56 56 53 53 53 121 121 121 121 121 121 58 58 58 56 56 56 66 66 66 58 58 58 121 121 121 70 70 70 66 66 66 121 121 121 80 80 80 70 70 70 121 121 121 19 19 19 24 24 24 14 14 14 24 24 24 122 122 122 14 14 14 24 24 24 28 28 28 122 122 122 11 11 11 14 14 14 122 122 122 28 28 28 13 13 13 122 122 122 13 13 13 11 11 11 122 122 122 123 123 123 47 47 47 49 49 49 123 123 123 49 49 49 51 51 51 124 124 124 94 94 94 99 99 99 124 124 124 92 92 92 94 94 94 125 125 125 100 100 100 102 102 102 125 125 125 102 102 102 104 104 104 7 7 7 30 30 30 9 9 9 126 126 126 30 30 30 7 7 7 126 126 126 7 7 7 6 6 6 126 126 126 34 34 34 30 30 30 126 126 126 6 6 6 15 15 15 126 126 126 15 15 15 34 34 34 79 79 79 81 81 81 127 127 127 77 77 77 79 79 79 127 127 127 54 54 54 46 46 46 128 128 128 46 46 46 48 48 48 128 128 128 98 98 98 95 95 95 129 129 129 129 129 129 95 95 95 97 97 97 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh" name="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge">
+      <mesh>
+        <source id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-position">
+          <float_array id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-position-array" count="12">147.6391 80.5406 283.8868 209.2432 120.1236 284.3021 147.6391 80.5406 221.1132 209.2432 120.1236 220.6979</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-normal">
+          <float_array id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-normal-array" count="12">-0.5401174 0.8414873 0 -0.5401174 0.8414873 0 -0.5401174 0.8414873 0 -0.5401174 0.8414873 0</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-texcoord">
+          <float_array id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-texcoord-array" count="8">4 -0.009765625 4 5.058594 0 -0.009765625 0 5.058594</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-vertex">
+          <input semantic="POSITION" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-position" />
+        </vertices>
+        <triangles material="M_GeneralBoxTopEdge" count="2">
+          <input semantic="VERTEX" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh">
+      <skin source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-joint">
+          <Name_array id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-joint-array" count="1">Lft_DitchHokoSlope</Name_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-inv_bind_matrix">
+          <float_array id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-weight">
+          <float_array id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="130">
+          <input semantic="JOINT" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh">
+      <skin source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-joint">
+          <Name_array id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-joint-array" count="1">Lft_DitchHokoSlope</Name_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-inv_bind_matrix">
+          <float_array id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-weight">
+          <float_array id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_DitchHokoSlope" name="Lft_DitchHokoSlope" sid="Lft_DitchHokoSlope" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl" name="Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl" type="NODE">
+        <instance_controller url="#Armature_Obj_GeneralBoxNoPaint_Obj_GeneralBoxNoPaint_Ruins__M_FenceVinyl-mesh">
+          <skeleton>#Armature_Lft_DitchHokoSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_FenceVinyl" target="#M_FenceVinyl" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge" name="Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge" type="NODE">
+        <instance_controller url="#Armature_Obj_GeneralBox_Obj_GeneralBox_423__M_GeneralBoxTopEdge-mesh">
+          <skeleton>#Armature_Lft_DitchHokoSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_GeneralBoxTopEdge" target="#M_GeneralBoxTopEdge" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

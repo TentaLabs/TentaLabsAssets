@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Alb">
+      <init_from>MetalBridgeLight_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Nrm">
+      <init_from>MetalBridgeLight_Nrm.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Rgh">
+      <init_from>MetalBridgeLight_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MetalBridgeLight">
+      <instance_effect url="#Effect_MetalBridgeLight" />
+    </material>
+    <material id="Transparency">
+      <instance_effect url="#Effect_Transparency" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MetalBridgeLight">
+      <profile_COMMON>
+        <newparam sid="surface_MetalBridgeLight-diffuse">
+          <surface type="2D">
+            <init_from>MetalBridgeLight_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalBridgeLight-diffuse">
+          <sampler2D>
+            <source>surface_MetalBridgeLight-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_MetalBridgeLight-bump">
+          <surface type="2D">
+            <init_from>MetalBridgeLight_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalBridgeLight-bump">
+          <sampler2D>
+            <source>surface_MetalBridgeLight-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MetalBridgeLight-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_MetalBridgeLight-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Transparency">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh" name="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency">
+      <mesh>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-position">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-position-array" count="36">-15 0 -37.5 -15 0 37.5 -15 49.5 -37.5 -15 49.5 37.5 -15 50 -37 -15 50 37 15 0 37.5 15 0 -37.5 15 49.5 37.5 15 49.5 -37.5 15 50 37 15 50 -37</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-normal">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-normal-array" count="36">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-vertex">
+          <input semantic="POSITION" source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-position" />
+        </vertices>
+        <triangles material="Transparency" count="8">
+          <input semantic="VERTEX" source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-normal" offset="1" />
+          <p>0 0 1 1 2 2 1 1 3 3 2 2 2 2 3 3 4 4 3 3 5 5 4 4 6 6 7 7 8 8 7 7 9 9 8 8 8 8 9 9 10 10 9 9 11 11 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh" name="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight">
+      <mesh>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-position">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-position-array" count="384">1.907349E-06 0 -40 1.907349E-06 52.00005 -40 15 0 -40 15 52.00005 -40 1.907349E-06 49.50005 -37.5 1.907349E-06 0 -37.5 15 49.50005 -37.5 15 0 -37.5 15 52.00005 -40 15 49.50005 -37.5 15 0 -40 15 0 -37.5 1.907349E-06 52.5 39.50005 15 52.5 39.50005 1.907349E-06 52.5 -39.50005 15 52.5 -39.50005 1.907349E-06 50 -37.00005 15 50 -37.00005 1.907349E-06 50 37.00005 15 50 37.00005 15 50 37.00005 15 50 -37.00005 15 52.5 39.50005 15 52.5 -39.50005 1.907349E-06 0 40 15 0 40 1.907349E-06 52.00005 40 15 52.00005 40 1.907349E-06 49.50005 37.5 15 49.50005 37.5 1.907349E-06 0 37.5 15 0 37.5 15 0 37.5 15 49.50005 37.5 15 0 40 15 52.00005 40 -15 0 -40 -15 52.00005 -40 1.907349E-06 0 -40 1.907349E-06 52.00005 -40 -15 49.50005 -37.5 -15 0 -37.5 1.907349E-06 49.50005 -37.5 1.907349E-06 0 -37.5 -15 0 -37.5 -15 49.50005 -37.5 -15 0 -40 -15 52.00005 -40 -15 52.5 39.50005 1.907349E-06 52.5 39.50005 -15 52.5 -39.50005 1.907349E-06 52.5 -39.50005 -15 50 -37.00005 1.907349E-06 50 -37.00005 -15 50 37.00005 1.907349E-06 50 37.00005 -15 50 -37.00005 -15 50 37.00005 -15 52.5 -39.50005 -15 52.5 39.50005 -15 0 40 1.907349E-06 0 40 -15 52.00005 40 1.907349E-06 52.00005 40 -15 49.50005 37.5 1.907349E-06 49.50005 37.5 -15 0 37.5 1.907349E-06 0 37.5 -15 0 37.5 -15 0 40 -15 49.50005 37.5 -15 52.00005 40 1.907349E-06 0 -37.5 1.907349E-06 0 -40 15 0 -37.5 15 0 -40 -15 0 -40 1.907349E-06 0 -40 1.907349E-06 0 -37.5 -15 0 -37.5 1.907349E-06 0 37.5 15 0 37.5 1.907349E-06 0 40 15 0 40 1.907349E-06 0 37.5 1.907349E-06 0 40 -15 0 40 -15 0 37.5 -15 52.00005 -40 -15 52.5 -39.50005 1.907349E-06 52.00005 -40 1.907349E-06 52.5 -39.50005 1.907349E-06 52.00005 -40 1.907349E-06 52.5 -39.50005 15 52.00005 -40 15 52.5 -39.50005 -15 52.5 -39.50005 -15 50 -37.00005 15 52.5 -39.50005 15 50 -37.00005 1.907349E-06 49.50005 -37.5 15 49.50005 -37.5 15 50 -37.00005 1.907349E-06 50 -37.00005 -15 50 -37.00005 -15 49.50005 -37.5 1.907349E-06 50 -37.00005 1.907349E-06 49.50005 -37.5 1.907349E-06 49.50005 37.5 -15 49.50005 37.5 -15 50 37.00005 1.907349E-06 50 37.00005 15 49.50005 37.5 1.907349E-06 49.50005 37.5 1.907349E-06 50 37.00005 15 50 37.00005 -15 49.50005 37.5 -15 52.00005 40 15 52.00005 40 15 49.50005 37.5 1.907349E-06 52.00005 40 15 52.00005 40 15 52.5 39.50005 1.907349E-06 52.5 39.50005 -15 52.5 39.50005 -15 52.00005 40 1.907349E-06 52.5 39.50005 1.907349E-06 52.00005 40</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-position-array" count="128" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-normal">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-normal-array" count="384">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 -1 0 0 -1 0 0 1 0 0 1 0 0 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 -1 0 0 -1 0 0 1 0 0 1 0 0 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-normal-array" count="128" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-texcoord">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-texcoord-array" count="256">0.6044922 0.6455078 0.2058105 0.6455078 0.6044922 0.4155273 0.2058105 0.4155273 1.003906 0.6455078 0.6240234 0.6455078 1.003906 0.4155273 0.6240234 0.4155273 0.5820313 0.4155273 0.6020508 0.3735352 1.012695 0.4155273 1.012695 0.3735352 0.9003906 0.4155273 0.9003906 0.6455078 0.2939453 0.4155273 0.2939453 0.6455078 0.7216797 0.4155273 0.7216797 0.6455078 0.1539307 0.4155273 0.1539307 0.6455078 0.8969727 0.6870117 0.2856445 0.6870117 0.9174805 0.6455078 0.2651367 0.6455078 0.574707 0.6455078 0.574707 0.4155273 0.9824219 0.6455078 0.9824219 0.4155273 0.1756592 0.6455078 0.1756592 0.4155273 0.5556641 0.6455078 0.5551758 0.4155273 0.574707 0.3735352 0.9628906 0.3735352 0.574707 0.4155273 0.9824219 0.4155273 0.6044922 0.6455078 0.2058105 0.6455078 0.6044922 0.4155273 0.2058105 0.4155273 1.003906 0.6455078 0.6240234 0.6455078 1.003906 0.4155273 0.6240234 0.4155273 1.010742 0.6870117 0.6035156 0.6870117 1.010742 0.6455078 0.5830078 0.6455078 0.9003906 0.4155273 0.9003906 0.6455078 0.2939453 0.4155273 0.2939453 0.6455078 0.7216797 0.4155273 0.7216797 0.6455078 0.1539307 0.4155273 0.1539307 0.6455078 0.2822266 0.3735352 0.8984375 0.3735352 0.2614746 0.4155273 0.9189453 0.4155273 0.574707 0.6455078 0.574707 0.4155273 0.9824219 0.6455078 0.9824219 0.4155273 0.1756592 0.6455078 0.1756592 0.4155273 0.5556641 0.6455078 0.5551758 0.4155273 0.574707 0.6870117 0.574707 0.6455078 0.9628906 0.6870117 0.9824219 0.6455078 0.6240234 0.6455078 0.6044922 0.6455078 0.6240234 0.4155273 0.6044922 0.4155273 0.6044922 0.6455078 0.6044922 0.4155273 0.6240234 0.4155273 0.6240234 0.6455078 0.5556641 0.6455078 0.5551758 0.4155273 0.574707 0.6455078 0.574707 0.4155273 0.5551758 0.4155273 0.574707 0.4155273 0.574707 0.6455078 0.5556641 0.6455078 0.2058105 0.6455078 0.2003174 0.6455078 0.2058105 0.4155273 0.2003174 0.4155273 0.2058105 0.6455078 0.2003174 0.6455078 0.2058105 0.4155273 0.2003174 0.4155273 0.5795898 0.6455078 0.5986328 0.6870117 0.5786133 0.4155273 0.597168 0.3735352 1.003906 0.6455078 1.003906 0.4155273 1.008789 0.4155273 1.008789 0.6455078 1.008789 0.6455078 1.003906 0.6455078 1.008789 0.4155273 1.003906 0.4155273 0.1485596 0.6455078 0.1485596 0.4155273 0.1539307 0.4155273 0.1539307 0.6455078 0.1485596 0.6455078 0.1485596 0.4155273 0.1539307 0.4155273 0.1539307 0.6455078 0.9033203 0.3735352 0.9223633 0.4155273 0.9208984 0.6455078 0.9018555 0.6870117 0.9057617 0.4155273 0.9057617 0.6455078 0.9003906 0.6455078 0.9003906 0.4155273 0.9003906 0.4155273 0.9057617 0.4155273 0.9003906 0.6455078 0.9057617 0.6455078</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-texcoord-array" count="128" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-vertex">
+          <input semantic="POSITION" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-position" />
+        </vertices>
+        <triangles material="MetalBridgeLight" count="68">
+          <input semantic="VERTEX" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 76 76 76 77 77 77 78 78 78 79 79 79 76 76 76 78 78 78 80 80 80 81 81 81 82 82 82 81 81 81 83 83 83 82 82 82 84 84 84 85 85 85 86 86 86 87 87 87 84 84 84 86 86 86 88 88 88 89 89 89 90 90 90 89 89 89 91 91 91 90 90 90 92 92 92 93 93 93 94 94 94 93 93 93 95 95 95 94 94 94 96 96 96 47 47 47 97 97 97 47 47 47 45 45 45 97 97 97 98 98 98 99 99 99 9 9 9 8 8 8 98 98 98 9 9 9 100 100 100 101 101 101 102 102 102 103 103 103 100 100 100 102 102 102 104 104 104 105 105 105 106 106 106 105 105 105 107 107 107 106 106 106 108 108 108 109 109 109 110 110 110 111 111 111 108 108 108 110 110 110 112 112 112 113 113 113 114 114 114 115 115 115 112 112 112 114 114 114 59 59 59 57 57 57 116 116 116 117 117 117 59 59 59 116 116 116 22 22 22 118 118 118 20 20 20 118 118 118 119 119 119 20 20 20 120 120 120 121 121 121 122 122 122 123 123 123 120 120 120 122 122 122 124 124 124 125 125 125 126 126 126 125 125 125 127 127 127 126 126 126 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh">
+      <skin source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-joint">
+          <Name_array id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-joint-array" count="1">Lft_TransparencyCenter</Name_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-inv_bind_matrix">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-weight">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh">
+      <skin source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-joint">
+          <Name_array id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-joint-array" count="1">Lft_TransparencyCenter</Name_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-inv_bind_matrix">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-weight">
+          <float_array id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="128">
+          <input semantic="JOINT" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_TransparencyCenter" name="Lft_TransparencyCenter" sid="Lft_TransparencyCenter" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency" name="TestObj_Lift_TransparencyCenterWall_pCube123__Transparency" type="NODE">
+        <instance_controller url="#Armature_TestObj_Lift_TransparencyCenterWall_pCube123__Transparency-mesh">
+          <skeleton>#Armature_Lft_TransparencyCenter</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Transparency" target="#Transparency" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight" name="TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight" type="NODE">
+        <instance_controller url="#Armature_TestObj_Lift_TransparencyCenterWall_pCube126__MetalBridgeLight-mesh">
+          <skeleton>#Armature_Lft_TransparencyCenter</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MetalBridgeLight" target="#MetalBridgeLight" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

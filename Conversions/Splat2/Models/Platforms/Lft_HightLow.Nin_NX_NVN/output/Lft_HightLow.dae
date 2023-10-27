@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Paint00_Alb">
+      <init_from>Paint00_Alb.png</init_from>
+    </image>
+    <image id="Paint00_Nrm">
+      <init_from>Paint00_Nrm.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="Wall00_Alb">
+      <init_from>Wall00_Alb.png</init_from>
+    </image>
+    <image id="Wall00_Nrm">
+      <init_from>Wall00_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Paint00">
+      <instance_effect url="#Effect_Paint00" />
+    </material>
+    <material id="Wall00">
+      <instance_effect url="#Effect_Wall00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Paint00">
+      <profile_COMMON>
+        <newparam sid="surface_Paint00-diffuse">
+          <surface type="2D">
+            <init_from>Paint00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Paint00-diffuse">
+          <sampler2D>
+            <source>surface_Paint00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Paint00-bump">
+          <surface type="2D">
+            <init_from>Paint00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Paint00-bump">
+          <sampler2D>
+            <source>surface_Paint00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Paint00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Paint00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Wall00">
+      <profile_COMMON>
+        <newparam sid="surface_Wall00-diffuse">
+          <surface type="2D">
+            <init_from>Wall00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Wall00-diffuse">
+          <sampler2D>
+            <source>surface_Wall00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Wall00-bump">
+          <surface type="2D">
+            <init_from>Wall00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Wall00-bump">
+          <sampler2D>
+            <source>surface_Wall00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Wall00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Wall00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface338__Paint00-mesh" name="polySurface338__Paint00">
+      <mesh>
+        <source id="polySurface338__Paint00-position">
+          <float_array id="polySurface338__Paint00-position-array" count="144">-225 132.5 0 -60 132.5 0 -225 132.5 -160 -60 132.5 -160 -120 132.5 0 -225 132.5 0 -120 132.5 160 -224.875 132.5 160 -150 152.5 49.96875 -149.875 152.5 -49.96875 -185 152.5 49.96875 -185 152.5 -50 -185 132.5 49.96875 -185 132.5 -50 -150 132.5 49.96875 -149.875 132.5 -49.96875 -60 132.5 0 -225 132.5 -160 -60 132.5 -160 -120 132.5 0 -120 132.5 160 -224.875 132.5 160 -150 152.5 49.96875 -149.875 152.5 -49.96875 -185 152.5 49.96875 -185 152.5 -50 -185 132.5 49.96875 -185 132.5 -50 -150 132.5 49.96875 -149.875 132.5 -49.96875 -225 132.5 0 -225 132.5 0 -60 132.5 0 -225 132.5 -160 -60 132.5 -160 -120 132.5 0 -120 132.5 160 -224.875 132.5 160 -150 152.5 49.96875 -149.875 152.5 -49.96875 -185 152.5 49.96875 -185 152.5 -50 -185 132.5 49.96875 -185 132.5 -50 -150 132.5 49.96875 -149.875 132.5 -49.96875 -225 132.5 0 -225 132.5 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface338__Paint00-position-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface338__Paint00-normal">
+          <float_array id="polySurface338__Paint00-normal-array" count="144">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface338__Paint00-normal-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface338__Paint00-texcoord">
+          <float_array id="polySurface338__Paint00-texcoord-array" count="96">0 4.125 0 0 4 4.125 4 0 6.625 4 4 4 6.625 0 4 0 0.4997559 2.499023 0.4997559 0 1.374023 2.499023 1.374023 0 1.874023 2.499023 1.874023 0 2.748047 2.499023 2.748047 0 0 0 4 4.125 4 0 6.625 4 6.625 0 4 0 0.4997559 2.499023 0.4997559 0 1.374023 2.499023 1.374023 0 1.874023 2.499023 1.874023 0 2.748047 2.499023 2.748047 0 0 4.125 4 4 0 0 4 4.125 4 0 6.625 4 6.625 0 4 0 0.4997559 2.499023 0.4997559 0 1.374023 2.499023 1.374023 0 1.874023 2.499023 1.874023 0 2.748047 2.499023 2.748047 0 0 4.125 4 4</float_array>
+          <technique_common>
+            <accessor source="#polySurface338__Paint00-texcoord-array" count="48" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface338__Paint00-vertex">
+          <input semantic="POSITION" source="#polySurface338__Paint00-position" />
+        </vertices>
+        <triangles material="Paint00" count="8">
+          <input semantic="VERTEX" source="#polySurface338__Paint00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface338__Paint00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface338__Paint00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface340__Wall00-mesh" name="polySurface340__Wall00">
+      <mesh>
+        <source id="polySurface340__Wall00-position">
+          <float_array id="polySurface340__Wall00-position-array" count="306">-185 152.5 49.99999 -185 152.5 -50 -185 132.5 49.99999 -185 132.5 -50 -185 132.5 -50 -185 152.5 -50 -150 152.5 -50 -150 132.5 -50 -150 132.5 49.99999 -150 152.5 49.99999 -185 152.5 49.99999 -185 132.5 49.99999 -150 132.5 49.99999 -150 132.5 -50 -150 152.5 49.99999 -150 152.5 -50 -120 132.5 160 -120 -59.99998 160 -120 132.5 0 -120 -59.99998 0 -120 -59.99998 3.814697E-06 -60 -59.99998 7.629395E-06 -120 132.5 3.814697E-06 -60 132.5 7.629395E-06 -60 -59.99998 -160 -60 132.5 -160 -60 -59.99998 7.629395E-06 -60 132.5 7.629395E-06 -225 132.5 -160 -225 -59.99998 -160 -225 132.5 3.814697E-06 -225 -59.99998 3.814697E-06 -225 132.5 160 -225 -59.99998 160 -120 132.5 160 -120 -59.99998 160 -60 -59.99998 -160 -60 132.5 -160 -225 132.5 -160 -225 -59.99998 -160 -225 132.5 3.814697E-06 -225 -59.99998 3.814697E-06 -225 132.5 160 -225 -59.99998 160 -185 152.5 49.99999 -185 152.5 49.99999 -185 152.5 -50 -185 152.5 -50 -185 132.5 49.99999 -185 132.5 49.99999 -185 132.5 -50 -185 132.5 -50 -150 152.5 -50 -150 152.5 -50 -150 132.5 -50 -150 132.5 -50 -150 132.5 49.99999 -150 132.5 49.99999 -150 152.5 49.99999 -150 152.5 49.99999 -120 132.5 0 -120 132.5 0 -120 -59.99998 0 -120 -59.99998 0 -60 -59.99998 7.629395E-06 -60 -59.99998 7.629395E-06 -60 132.5 7.629395E-06 -60 132.5 7.629395E-06 -120 132.5 160 -120 -59.99998 160 -60 -59.99998 -160 -60 132.5 -160 -225 132.5 -160 -225 -59.99998 -160 -225 132.5 3.814697E-06 -225 -59.99998 3.814697E-06 -225 132.5 160 -225 -59.99998 160 -185 152.5 49.99999 -185 152.5 49.99999 -185 152.5 -50 -185 152.5 -50 -185 132.5 49.99999 -185 132.5 49.99999 -185 132.5 -50 -185 132.5 -50 -150 152.5 -50 -150 152.5 -50 -150 132.5 -50 -150 132.5 -50 -150 132.5 49.99999 -150 132.5 49.99999 -150 152.5 49.99999 -150 152.5 49.99999 -120 132.5 0 -120 132.5 0 -120 -59.99998 0 -120 -59.99998 0 -60 -59.99998 7.629395E-06 -60 -59.99998 7.629395E-06 -60 132.5 7.629395E-06 -60 132.5 7.629395E-06</float_array>
+          <technique_common>
+            <accessor source="#polySurface340__Wall00-position-array" count="102" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface340__Wall00-normal">
+          <float_array id="polySurface340__Wall00-normal-array" count="306">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 -1 0 0 0 0 -1 -1 0 0 0 0 1 -1 0 0 0 0 -1 0 0 -1 1 0 0 0 0 -1 1 0 0 0 0 1 1 0 0 0 0 1 1 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 -1 0 0 0 0 -1 -1 0 0 0 0 1 -1 0 0 0 0 -1 0 0 -1 1 0 0 0 0 -1 1 0 0 0 0 1 1 0 0 0 0 1 1 0 0 1 0 0 0 0 1 1 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface340__Wall00-normal-array" count="102" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface340__Wall00-texcoord">
+          <float_array id="polySurface340__Wall00-texcoord-array" count="204">1.374023 2.499023 1.374023 0 1.874023 2.499023 1.874023 0 2.748047 0 3.248047 0 3.248047 0.875 2.748047 0.875 3.248047 0 3.748047 0 3.748047 0.875 3.248047 0.875 0 2.499023 0 0 0.4997559 2.499023 0.4997559 0 0 4.8125 0 0 4 4.8125 4 0 0 0 1.5 0 0 4.8125 1.5 4.8125 8.125 0 8.125 4.8125 4.121094 0 4.121094 4.8125 8.125 4.8125 8.125 0 12.125 4.8125 12.125 0 16.125 4.8125 16.125 0 0 4.8125 0 0 8.125 0 8.125 4.8125 8.125 4.8125 8.125 0 12.125 4.8125 12.125 0 16.125 4.8125 16.125 0 1.374023 2.499023 3.748047 0.875 1.374023 0 3.248047 0 1.874023 2.499023 3.248047 0.875 1.874023 0 2.748047 0 3.248047 0.875 0.4997559 0 2.748047 0.875 0 0 3.248047 0 0 2.499023 3.748047 0 0.4997559 2.499023 4 4.8125 0 4.8125 4 0 0 0 1.5 0 4.121094 0 1.5 4.8125 4.121094 4.8125 0 4.8125 0 0 8.125 0 8.125 4.8125 8.125 4.8125 8.125 0 12.125 4.8125 12.125 0 16.125 4.8125 16.125 0 1.374023 2.499023 3.748047 0.875 1.374023 0 3.248047 0 1.874023 2.499023 3.248047 0.875 1.874023 0 2.748047 0 3.248047 0.875 0.4997559 0 2.748047 0.875 0 0 3.248047 0 0 2.499023 3.748047 0 0.4997559 2.499023 4 4.8125 0 4.8125 4 0 0 0 1.5 0 4.121094 0 1.5 4.8125 4.121094 4.8125</float_array>
+          <technique_common>
+            <accessor source="#polySurface340__Wall00-texcoord-array" count="102" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface340__Wall00-vertex">
+          <input semantic="POSITION" source="#polySurface340__Wall00-position" />
+        </vertices>
+        <triangles material="Wall00" count="18">
+          <input semantic="VERTEX" source="#polySurface340__Wall00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface340__Wall00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface340__Wall00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 7 7 7 4 4 4 6 6 6 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 30 30 30 31 31 31 33 33 33 32 32 32 31 31 31 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface338__Paint00-mesh">
+      <skin source="#polySurface338__Paint00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface338__Paint00-mesh-joint">
+          <Name_array id="polySurface338__Paint00-mesh-joint-array" count="1">Lft_HightLow</Name_array>
+          <technique_common>
+            <accessor source="#polySurface338__Paint00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface338__Paint00-mesh-inv_bind_matrix">
+          <float_array id="polySurface338__Paint00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface338__Paint00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface338__Paint00-mesh-weight">
+          <float_array id="polySurface338__Paint00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface338__Paint00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface338__Paint00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface338__Paint00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="48">
+          <input semantic="JOINT" source="#polySurface338__Paint00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface338__Paint00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface340__Wall00-mesh">
+      <skin source="#polySurface340__Wall00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface340__Wall00-mesh-joint">
+          <Name_array id="polySurface340__Wall00-mesh-joint-array" count="1">Lft_HightLow</Name_array>
+          <technique_common>
+            <accessor source="#polySurface340__Wall00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface340__Wall00-mesh-inv_bind_matrix">
+          <float_array id="polySurface340__Wall00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface340__Wall00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface340__Wall00-mesh-weight">
+          <float_array id="polySurface340__Wall00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface340__Wall00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface340__Wall00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface340__Wall00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="102">
+          <input semantic="JOINT" source="#polySurface340__Wall00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface340__Wall00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_HightLow" name="Lft_HightLow" sid="Lft_HightLow" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface338__Paint00" name="polySurface338__Paint00" type="NODE">
+        <instance_controller url="#Armature_polySurface338__Paint00-mesh">
+          <skeleton>#Armature_Lft_HightLow</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Paint00" target="#Paint00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface340__Wall00" name="polySurface340__Wall00" type="NODE">
+        <instance_controller url="#Armature_polySurface340__Wall00-mesh">
+          <skeleton>#Armature_Lft_HightLow</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Wall00" target="#Wall00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

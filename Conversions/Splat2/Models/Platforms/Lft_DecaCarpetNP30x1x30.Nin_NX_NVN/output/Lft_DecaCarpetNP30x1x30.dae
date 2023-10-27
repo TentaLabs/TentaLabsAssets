@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="RubberMat_Alb">
+      <init_from>RubberMat_Alb.png</init_from>
+    </image>
+    <image id="RubberMat_Nrm">
+      <init_from>RubberMat_Nrm.png</init_from>
+    </image>
+    <image id="RubberMat_Rgh">
+      <init_from>RubberMat_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="RubberMat">
+      <instance_effect url="#Effect_RubberMat" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_RubberMat">
+      <profile_COMMON>
+        <newparam sid="surface_RubberMat-diffuse">
+          <surface type="2D">
+            <init_from>RubberMat_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RubberMat-diffuse">
+          <sampler2D>
+            <source>surface_RubberMat-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_RubberMat-bump">
+          <surface type="2D">
+            <init_from>RubberMat_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RubberMat-bump">
+          <sampler2D>
+            <source>surface_RubberMat-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_RubberMat-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_RubberMat-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube2__RubberMat-mesh" name="pCube2__RubberMat">
+      <mesh>
+        <source id="pCube2__RubberMat-position">
+          <float_array id="pCube2__RubberMat-position-array" count="60">-15 -0.5 -15 -15 -0.5 15 -15 0.5 -15 -15 0.5 15 15 -0.5 15 15 -0.5 -15 15 0.5 15 15 0.5 -15 -15 0.5 15 -15 -0.5 15 15 0.5 15 15 -0.5 15 -15 -0.5 -15 -15 0.5 -15 15 -0.5 -15 15 0.5 -15 -15 0.5 -15 -15 0.5 15 15 0.5 -15 15 0.5 15</float_array>
+          <technique_common>
+            <accessor source="#pCube2__RubberMat-position-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2__RubberMat-normal">
+          <float_array id="pCube2__RubberMat-normal-array" count="60">-1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube2__RubberMat-normal-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2__RubberMat-texcoord">
+          <float_array id="pCube2__RubberMat-texcoord-array" count="40">0 -1 -1 -1 0 -0.9638672 -1 -0.9638672 -1 -1 0 -1 -1 -0.9638672 0 -0.9638672 0 -0.9638672 0 -1 1 -0.9638672 1 -1 0 -1 0 -0.9638672 1 -1 1 -0.9638672 0 0.0004882813 1 0.0004882813 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#pCube2__RubberMat-texcoord-array" count="20" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube2__RubberMat-vertex">
+          <input semantic="POSITION" source="#pCube2__RubberMat-position" />
+        </vertices>
+        <triangles material="RubberMat" count="10">
+          <input semantic="VERTEX" source="#pCube2__RubberMat-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube2__RubberMat-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube2__RubberMat-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCube2__RubberMat-mesh">
+      <skin source="#pCube2__RubberMat-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube2__RubberMat-mesh-joint">
+          <Name_array id="pCube2__RubberMat-mesh-joint-array" count="1">Lft_DecaCarpetNP30x1x30</Name_array>
+          <technique_common>
+            <accessor source="#pCube2__RubberMat-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2__RubberMat-mesh-inv_bind_matrix">
+          <float_array id="pCube2__RubberMat-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube2__RubberMat-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube2__RubberMat-mesh-weight">
+          <float_array id="pCube2__RubberMat-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube2__RubberMat-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube2__RubberMat-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube2__RubberMat-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="20">
+          <input semantic="JOINT" source="#pCube2__RubberMat-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube2__RubberMat-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_DecaCarpetNP30x1x30" name="Lft_DecaCarpetNP30x1x30" sid="Lft_DecaCarpetNP30x1x30" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCube2__RubberMat" name="pCube2__RubberMat" type="NODE">
+        <instance_controller url="#Armature_pCube2__RubberMat-mesh">
+          <skeleton>#Armature_Lft_DecaCarpetNP30x1x30</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RubberMat" target="#RubberMat" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

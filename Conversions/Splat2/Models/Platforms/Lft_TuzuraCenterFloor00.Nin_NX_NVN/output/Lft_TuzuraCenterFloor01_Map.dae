@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="FloorSteelSet_Alb">
+      <init_from>FloorSteelSet_Alb.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Mlt">
+      <init_from>FloorSteelSet_Mlt.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Nrm">
+      <init_from>FloorSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Rgh">
+      <init_from>FloorSteelSet_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Alb">
+      <init_from>GroundAsphalt_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Nrm">
+      <init_from>GroundAsphalt_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Rgh">
+      <init_from>GroundAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Alb">
+      <init_from>OBJLiftSlopeIron_Alb.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Emm">
+      <init_from>OBJLiftSlopeIron_Emm.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Mtl">
+      <init_from>OBJLiftSlopeIron_Mtl.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Nrm">
+      <init_from>OBJLiftSlopeIron_Nrm.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Rgh">
+      <init_from>OBJLiftSlopeIron_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="TinRoof_Alb">
+      <init_from>TinRoof_Alb.png</init_from>
+    </image>
+    <image id="TinRoof_Nrm">
+      <init_from>TinRoof_Nrm.png</init_from>
+    </image>
+    <image id="TinRoof_Rgh">
+      <init_from>TinRoof_Rgh.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Alb">
+      <init_from>WallConcreteWhite_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Nrm">
+      <init_from>WallConcreteWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Rgh">
+      <init_from>WallConcreteWhite_Rgh.png</init_from>
+    </image>
+    <image id="WallZincSet_Alb">
+      <init_from>WallZincSet_Alb.png</init_from>
+    </image>
+    <image id="WallZincSet_Mtl">
+      <init_from>WallZincSet_Mtl.png</init_from>
+    </image>
+    <image id="WallZincSet_Nrm">
+      <init_from>WallZincSet_Nrm.png</init_from>
+    </image>
+    <image id="WallZincSet_Rgh">
+      <init_from>WallZincSet_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapSlope">
+      <instance_effect url="#Effect_MapSlope" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_MapSlope-diffuse">
+          <surface type="2D">
+            <init_from>MapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapSlope-diffuse">
+          <sampler2D>
+            <source>surface_MapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Large88__MapSlope-mesh" name="Large88__MapSlope">
+      <mesh>
+        <source id="Large88__MapSlope-position">
+          <float_array id="Large88__MapSlope-position-array" count="84">129.7 -30.41238 -67.1 129.7 -36.59105 -66.494 165.0954 -30.41238 -67.1 165.0954 -36.59104 -66.49398 129.7 -36.59105 -66.494 129.7 -41.80811 -65.53912 165.0954 -36.59104 -66.49398 165.0954 -41.80811 -65.5391 129.7 -41.80811 -65.53912 129.7 -46.84911 -63.63017 165.0954 -41.80811 -65.5391 165.0954 -46.84911 -63.63017 129.7 -46.84911 -63.63017 129.7 -51.53096 -60.9084 165.0954 -46.84911 -63.63017 165.0954 -51.531 -60.90844 129.7 -51.53096 -60.9084 129.7 -55.26448 -56.57522 165.0954 -51.531 -60.90844 165.0954 -55.26443 -56.57522 129.7 -55.26448 -56.57522 129.7 -57.56454 -51.01552 165.0954 -55.26443 -56.57522 165.0954 -57.56443 -51.01548 129.7 -57.56454 -51.01552 129.7 -58.66931 -47.18596 165.0954 -57.56443 -51.01548 165.0954 -58.66931 -47.18596</float_array>
+          <technique_common>
+            <accessor source="#Large88__MapSlope-position-array" count="28" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large88__MapSlope-normal">
+          <float_array id="Large88__MapSlope-normal-array" count="84">0 0.09784736 0.9960861 0 0.1350294 0.9902152 0 0.09784736 0.9960861 0 0.1350294 0.9902152 0 0.1350294 0.9902152 0 0.2681018 0.962818 0 0.1350294 0.9902152 0 0.2681018 0.962818 0 0.2681018 0.962818 0 0.4305284 0.9021527 0 0.2681018 0.962818 0 0.4305284 0.9021527 0 0.4305284 0.9021527 0 0.6418787 0.7671233 0 0.4305284 0.9021527 0 0.6418787 0.7671233 0 0.6418787 0.7671233 0 0.853229 0.5205479 0 0.6418787 0.7671233 0 0.853229 0.5205479 0 0.853229 0.5205479 0 0.9393346 0.3405088 0 0.853229 0.5205479 0 0.9393346 0.3405088 0 0.9393346 0.3405088 0 0.960861 0.2778865 0 0.9393346 0.3405088 0 0.960861 0.2778865</float_array>
+          <technique_common>
+            <accessor source="#Large88__MapSlope-normal-array" count="28" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large88__MapSlope-texcoord">
+          <float_array id="Large88__MapSlope-texcoord-array" count="56">-0.3220618 1.776849 -0.3200171 1.618946 0.5701468 1.776696 0.568041 1.618763 -0.3200171 1.618946 -0.3184606 1.485122 0.568041 1.618763 0.5664541 1.485031 -0.3184606 1.485122 -0.3180639 1.349651 0.5664541 1.485031 0.5660268 1.34962 -0.3180639 1.349651 -0.3175146 1.214026 0.5660268 1.34962 0.565447 1.214118 -0.3175146 1.214026 -0.315836 1.070925 0.565447 1.214118 0.563799 1.071017 -0.315836 1.070925 -0.313181 0.9220557 0.563799 1.071017 0.5611743 0.9221168 -0.313181 0.9220557 -0.3123264 0.8234504 0.5611743 0.9221168 0.5603198 0.823542</float_array>
+          <technique_common>
+            <accessor source="#Large88__MapSlope-texcoord-array" count="28" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large88__MapSlope-texcoord_1">
+          <float_array id="Large88__MapSlope-texcoord-array_1" count="56">0 0 1 0 0 0.4741211 0.9995117 0.4741211 0 0 1 0 0 0.4741211 0.9995117 0.4741211 0 0 1 0 0 0.4741211 0.9995117 0.4741211 0 0 1 0 0 0.4741211 1 0.4741211 0 0 1 0 0 0.4741211 0.9995117 0.4741211 0 0 1 0 0 0.4741211 0.9995117 0.4741211 0 0 1 0 0 0.4741211 0.9995117 0.4741211</float_array>
+          <technique_common>
+            <accessor source="#Large88__MapSlope-texcoord-array_1" count="28" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Large88__MapSlope-vertex">
+          <input semantic="POSITION" source="#Large88__MapSlope-position" />
+        </vertices>
+        <triangles material="MapSlope" count="14">
+          <input semantic="VERTEX" source="#Large88__MapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Large88__MapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Large88__MapSlope-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Large88__MapSlope-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Large93__MapGround-mesh" name="Large93__MapGround">
+      <mesh>
+        <source id="Large93__MapGround-position">
+          <float_array id="Large93__MapGround-position-array" count="12">129.7 -30.41238 -70.1 165.0954 -30.41238 -70.1 129.7 -30.41238 -109.9 165.0954 -30.41238 -109.9</float_array>
+          <technique_common>
+            <accessor source="#Large93__MapGround-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large93__MapGround-normal">
+          <float_array id="Large93__MapGround-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Large93__MapGround-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large93__MapGround-texcoord">
+          <float_array id="Large93__MapGround-texcoord-array" count="8">0.003538132 0.1542969 1.772461 0.1542969 0.003538132 2.143555 1.772461 2.143555</float_array>
+          <technique_common>
+            <accessor source="#Large93__MapGround-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large93__MapGround-texcoord_1">
+          <float_array id="Large93__MapGround-texcoord-array_1" count="8">0 0.03515625 1.010742 0.03515625 0 0.5 1.010742 0.5</float_array>
+          <technique_common>
+            <accessor source="#Large93__MapGround-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Large93__MapGround-vertex">
+          <input semantic="POSITION" source="#Large93__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="2">
+          <input semantic="VERTEX" source="#Large93__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Large93__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Large93__MapGround-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Large93__MapGround-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Large97__MapWall-mesh" name="Large97__MapWall">
+      <mesh>
+        <source id="Large97__MapWall-position">
+          <float_array id="Large97__MapWall-position-array" count="12">165.0954 -30.41238 -70.1 129.7 -30.41238 -70.1 165.0954 -30.41238 -67.1 129.7 -30.41238 -67.1</float_array>
+          <technique_common>
+            <accessor source="#Large97__MapWall-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large97__MapWall-normal">
+          <float_array id="Large97__MapWall-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Large97__MapWall-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large97__MapWall-texcoord">
+          <float_array id="Large97__MapWall-texcoord-array" count="8">0.1496063 0 0.1496063 1.771654 0 0 0 1.771654</float_array>
+          <technique_common>
+            <accessor source="#Large97__MapWall-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large97__MapWall-texcoord_1">
+          <float_array id="Large97__MapWall-texcoord-array_1" count="8">0 0 1 0 0 0.4980392 1 0.4980392</float_array>
+          <technique_common>
+            <accessor source="#Large97__MapWall-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Large97__MapWall-vertex">
+          <input semantic="POSITION" source="#Large97__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="2">
+          <input semantic="VERTEX" source="#Large97__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Large97__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Large97__MapWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Large97__MapWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Large88__MapSlope-mesh">
+      <skin source="#Large88__MapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Large88__MapSlope-mesh-joint">
+          <Name_array id="Large88__MapSlope-mesh-joint-array" count="1">Lft_TuzuraCenterFloor01_Map</Name_array>
+          <technique_common>
+            <accessor source="#Large88__MapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large88__MapSlope-mesh-inv_bind_matrix">
+          <float_array id="Large88__MapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Large88__MapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large88__MapSlope-mesh-weight">
+          <float_array id="Large88__MapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Large88__MapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Large88__MapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Large88__MapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="28">
+          <input semantic="JOINT" source="#Large88__MapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Large88__MapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Large93__MapGround-mesh">
+      <skin source="#Large93__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Large93__MapGround-mesh-joint">
+          <Name_array id="Large93__MapGround-mesh-joint-array" count="1">Lft_TuzuraCenterFloor01_Map</Name_array>
+          <technique_common>
+            <accessor source="#Large93__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large93__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Large93__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Large93__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large93__MapGround-mesh-weight">
+          <float_array id="Large93__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Large93__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Large93__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Large93__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Large93__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Large93__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Large97__MapWall-mesh">
+      <skin source="#Large97__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Large97__MapWall-mesh-joint">
+          <Name_array id="Large97__MapWall-mesh-joint-array" count="1">Lft_TuzuraCenterFloor01_Map</Name_array>
+          <technique_common>
+            <accessor source="#Large97__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large97__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Large97__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Large97__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Large97__MapWall-mesh-weight">
+          <float_array id="Large97__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Large97__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Large97__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Large97__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Large97__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Large97__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_TuzuraCenterFloor01_Map" name="Lft_TuzuraCenterFloor01_Map" sid="Lft_TuzuraCenterFloor01_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Large88__MapSlope" name="Large88__MapSlope" type="NODE">
+        <instance_controller url="#Armature_Large88__MapSlope-mesh">
+          <skeleton>#Armature_Lft_TuzuraCenterFloor01_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapSlope" target="#MapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Large93__MapGround" name="Large93__MapGround" type="NODE">
+        <instance_controller url="#Armature_Large93__MapGround-mesh">
+          <skeleton>#Armature_Lft_TuzuraCenterFloor01_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Large97__MapWall" name="Large97__MapWall" type="NODE">
+        <instance_controller url="#Armature_Large97__MapWall-mesh">
+          <skeleton>#Armature_Lft_TuzuraCenterFloor01_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

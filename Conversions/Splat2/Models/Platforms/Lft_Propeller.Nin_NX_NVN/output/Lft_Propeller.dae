@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images />
+  <library_materials>
+    <material id="Floor00">
+      <instance_effect url="#Effect_Floor00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Floor00">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="propeller_root1__Floor00-mesh" name="propeller_root1__Floor00">
+      <mesh>
+        <source id="propeller_root1__Floor00-position">
+          <float_array id="propeller_root1__Floor00-position-array" count="24">-5 0 15 5 0 15 -10 0 5 10 0 5 -5 0 5 5 0 5 -5 0 -5 5 0 -5</float_array>
+          <technique_common>
+            <accessor source="#propeller_root1__Floor00-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="propeller_root1__Floor00-normal">
+          <float_array id="propeller_root1__Floor00-normal-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#propeller_root1__Floor00-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="propeller_root1__Floor00-texcoord">
+          <float_array id="propeller_root1__Floor00-texcoord-array" count="16">0 0 1 0 0 1 1 1 0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#propeller_root1__Floor00-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="propeller_root1__Floor00-vertex">
+          <input semantic="POSITION" source="#propeller_root1__Floor00-position" />
+        </vertices>
+        <triangles material="Floor00" count="4">
+          <input semantic="VERTEX" source="#propeller_root1__Floor00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#propeller_root1__Floor00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#propeller_root1__Floor00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_propeller_root1__Floor00-mesh">
+      <skin source="#propeller_root1__Floor00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="propeller_root1__Floor00-mesh-joint">
+          <Name_array id="propeller_root1__Floor00-mesh-joint-array" count="1">Lft_Propeller</Name_array>
+          <technique_common>
+            <accessor source="#propeller_root1__Floor00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="propeller_root1__Floor00-mesh-inv_bind_matrix">
+          <float_array id="propeller_root1__Floor00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#propeller_root1__Floor00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="propeller_root1__Floor00-mesh-weight">
+          <float_array id="propeller_root1__Floor00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#propeller_root1__Floor00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#propeller_root1__Floor00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#propeller_root1__Floor00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#propeller_root1__Floor00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#propeller_root1__Floor00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_Propeller" name="Lft_Propeller" sid="Lft_Propeller" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="propeller_root1__Floor00" name="propeller_root1__Floor00" type="NODE">
+        <instance_controller url="#Armature_propeller_root1__Floor00-mesh">
+          <skeleton>#Armature_Lft_Propeller</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Floor00" target="#Floor00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

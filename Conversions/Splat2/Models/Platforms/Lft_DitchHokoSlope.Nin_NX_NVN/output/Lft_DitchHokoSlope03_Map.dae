@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Alb">
+      <init_from>M_GeneralBoxBody_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Nrm">
+      <init_from>M_GeneralBoxBody_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Rgh">
+      <init_from>M_GeneralBoxBody_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Alb">
+      <init_from>M_GeneralBoxTopEdge_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Nrm">
+      <init_from>M_GeneralBoxTopEdge_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Rgh">
+      <init_from>M_GeneralBoxTopEdge_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapSlope">
+      <instance_effect url="#Effect_MapSlope" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_MapSlope-diffuse">
+          <surface type="2D">
+            <init_from>MapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapSlope-diffuse">
+          <sampler2D>
+            <source>surface_MapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Ts_pCube19586__MapSlope-mesh" name="Ts_pCube19586__MapSlope">
+      <mesh>
+        <source id="Ts_pCube19586__MapSlope-position">
+          <float_array id="Ts_pCube19586__MapSlope-position-array" count="12">329.1 50 -179.1 269.1 20 -179.1 329.1 50 -114.1 269.1 20 -114.1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19586__MapSlope-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19586__MapSlope-normal">
+          <float_array id="Ts_pCube19586__MapSlope-normal-array" count="12">-0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0 -0.4481409 0.8943248 0</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19586__MapSlope-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19586__MapSlope-texcoord">
+          <float_array id="Ts_pCube19586__MapSlope-texcoord-array" count="8">0.8267717 0.03149605 0.8267717 0.8267716 -0.03149606 0.03149605 -0.03149606 0.8267716</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19586__MapSlope-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ts_pCube19586__MapSlope-vertex">
+          <input semantic="POSITION" source="#Ts_pCube19586__MapSlope-position" />
+        </vertices>
+        <triangles material="MapSlope" count="2">
+          <input semantic="VERTEX" source="#Ts_pCube19586__MapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ts_pCube19586__MapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ts_pCube19586__MapSlope-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Ts_pCube19587__MapWall-mesh" name="Ts_pCube19587__MapWall">
+      <mesh>
+        <source id="Ts_pCube19587__MapWall-position">
+          <float_array id="Ts_pCube19587__MapWall-position-array" count="72">269.1 20 -99.10001 329.1 20 -99.10001 269.1 80 -99.10001 329.1 80 -99.10001 269.1 80 -114.1 329.1 80 -114.1 269.1 20 -114.1 329.1 20 -114.1 329.1 20 -99.10001 329.1 20 -114.1 329.1 80 -99.10001 329.1 80 -114.1 269.1 20 -114.1 269.1 20 -99.10001 269.1 80 -114.1 269.1 80 -99.10001 326.1 80 -102.1 272.1 80 -102.1 329.1 80 -99.10001 329.1 80 -114.1 269.1 80 -99.10001 326.1 80 -111.1 272.1 80 -111.1 269.1 80 -114.1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19587__MapWall-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19587__MapWall-normal">
+          <float_array id="Ts_pCube19587__MapWall-normal-array" count="72">0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19587__MapWall-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19587__MapWall-texcoord">
+          <float_array id="Ts_pCube19587__MapWall-texcoord-array" count="48">0.005672455 0.006347656 1.504883 0.006347656 0.005672455 1.505859 1.504883 1.505859 1.34375 1.51709 2.84375 1.51709 1.34375 3.015625 2.84375 3.015625 0.9511719 1.51709 1.326172 1.51709 0.9511719 3.015625 1.326172 3.015625 0.5585938 1.51709 0.9335938 1.51709 0.5585938 3.015625 0.9335938 3.015625 0.07574463 0.078125 0.07574463 1.427979 0.000749588 0.003417969 0.3757324 0.003417969 0.000749588 1.50293 0.3005371 0.078125 0.3005371 1.427979 0.3757324 1.50293</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19587__MapWall-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ts_pCube19587__MapWall-vertex">
+          <input semantic="POSITION" source="#Ts_pCube19587__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="16">
+          <input semantic="VERTEX" source="#Ts_pCube19587__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ts_pCube19587__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ts_pCube19587__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 16 16 16 18 18 18 19 19 19 17 17 17 20 20 20 18 18 18 21 21 21 16 16 16 19 19 19 17 17 17 22 22 22 20 20 20 21 21 21 19 19 19 23 23 23 22 22 22 23 23 23 20 20 20 22 22 22 21 21 21 23 23 23 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Ts_pCube19590__MapGround-mesh" name="Ts_pCube19590__MapGround">
+      <mesh>
+        <source id="Ts_pCube19590__MapGround-position">
+          <float_array id="Ts_pCube19590__MapGround-position-array" count="12">272.1 80 -102.1 326.1 80 -102.1 272.1 80 -111.1 326.1 80 -111.1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19590__MapGround-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19590__MapGround-normal">
+          <float_array id="Ts_pCube19590__MapGround-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19590__MapGround-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19590__MapGround-texcoord">
+          <float_array id="Ts_pCube19590__MapGround-texcoord-array" count="8">0 1.354331 0 0 0.2283465 1.354331 0.2283465 0</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19590__MapGround-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ts_pCube19590__MapGround-vertex">
+          <input semantic="POSITION" source="#Ts_pCube19590__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="2">
+          <input semantic="VERTEX" source="#Ts_pCube19590__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ts_pCube19590__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ts_pCube19590__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Ts_pCube19586__MapSlope-mesh">
+      <skin source="#Ts_pCube19586__MapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ts_pCube19586__MapSlope-mesh-joint">
+          <Name_array id="Ts_pCube19586__MapSlope-mesh-joint-array" count="1">Lft_DitchHokoSlope03_Map</Name_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19586__MapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19586__MapSlope-mesh-inv_bind_matrix">
+          <float_array id="Ts_pCube19586__MapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19586__MapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19586__MapSlope-mesh-weight">
+          <float_array id="Ts_pCube19586__MapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19586__MapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ts_pCube19586__MapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ts_pCube19586__MapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Ts_pCube19586__MapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ts_pCube19586__MapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Ts_pCube19587__MapWall-mesh">
+      <skin source="#Ts_pCube19587__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ts_pCube19587__MapWall-mesh-joint">
+          <Name_array id="Ts_pCube19587__MapWall-mesh-joint-array" count="1">Lft_DitchHokoSlope03_Map</Name_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19587__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19587__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Ts_pCube19587__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19587__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19587__MapWall-mesh-weight">
+          <float_array id="Ts_pCube19587__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19587__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ts_pCube19587__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ts_pCube19587__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#Ts_pCube19587__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ts_pCube19587__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Ts_pCube19590__MapGround-mesh">
+      <skin source="#Ts_pCube19590__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ts_pCube19590__MapGround-mesh-joint">
+          <Name_array id="Ts_pCube19590__MapGround-mesh-joint-array" count="1">Lft_DitchHokoSlope03_Map</Name_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19590__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19590__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Ts_pCube19590__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19590__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ts_pCube19590__MapGround-mesh-weight">
+          <float_array id="Ts_pCube19590__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ts_pCube19590__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ts_pCube19590__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ts_pCube19590__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Ts_pCube19590__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ts_pCube19590__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_DitchHokoSlope03_Map" name="Lft_DitchHokoSlope03_Map" sid="Lft_DitchHokoSlope03_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Ts_pCube19586__MapSlope" name="Ts_pCube19586__MapSlope" type="NODE">
+        <instance_controller url="#Armature_Ts_pCube19586__MapSlope-mesh">
+          <skeleton>#Armature_Lft_DitchHokoSlope03_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapSlope" target="#MapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Ts_pCube19587__MapWall" name="Ts_pCube19587__MapWall" type="NODE">
+        <instance_controller url="#Armature_Ts_pCube19587__MapWall-mesh">
+          <skeleton>#Armature_Lft_DitchHokoSlope03_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Ts_pCube19590__MapGround" name="Ts_pCube19590__MapGround" type="NODE">
+        <instance_controller url="#Armature_Ts_pCube19590__MapGround-mesh">
+          <skeleton>#Armature_Lft_DitchHokoSlope03_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

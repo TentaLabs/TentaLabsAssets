@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Rgh">
+      <init_from>MapWall_Rgh.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_MapWall">
+      <instance_effect url="#Effect__MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect__MapWall">
+      <profile_COMMON>
+        <newparam sid="surface__MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler__MapWall-diffuse">
+          <sampler2D>
+            <source>surface__MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler__MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh" name="_Lft_TunnelSlopeNPHoko_Map2___MapWall">
+      <mesh>
+        <source id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-position">
+          <float_array id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-position-array" count="342">-40 0 420.0001 -40 15 420.0001 30 15 420.0001 30 0 420.0001 -40 0 450.0001 -40 0 420.0001 30 0 450.0001 30 0 420.0001 30 15 420.0001 -40 15 420.0001 -40 15 450.0001 30 15 450.0001 -40 0 450.0001 30 0 450.0001 -40 15 450.0001 30 15 450.0001 -40 15 435.0001 -40 30 435.0001 30 30 435.0001 30 15 435.0001 -40 15 435.0001 30 15 435.0001 30 15 450.0001 -40 15 450.0001 30 15 450.0001 30 30 450.0001 -40 30 450.0001 -40 15 450.0001 30 30 435.0001 -40 30 435.0001 -40 30 450.0001 30 30 450.0001 100.2636 30 420 100.2636 30 510 100.2636 60 480 130.2636 30 420 130.2636 60 480 130.2636 30 510 100.2636 30 420 130.2636 30 420 100.2636 30 510 130.2636 30 510 100.2636 60 480 130.2636 60 480 100.2636 30 420 130.2636 30 420 204.6318 0 275 204.6318 0 335 204.6318 30 335 234.6318 0 335 234.6318 0 275 234.6318 30 335 234.6318 30 335 234.6318 0 275 204.6318 0 275 204.6318 30 335 204.6318 0 275 234.6318 0 275 204.6318 0 335 234.6318 0 335 -40 15 450.0001 -40 15 420.0001 -40 0 450.0001 -40 0 420.0001 -40 30 450.0001 -40 30 435.0001 -40 15 450.0001 -40 15 435.0001 30 0 450.0001 30 0 420.0001 30 15 450.0001 30 15 420.0001 30 15 450.0001 30 15 435.0001 30 30 450.0001 30 30 435.0001 100.2636 60 510 130.2636 60 510 130.2636 60 510 130.2636 60 480 100.2636 60 480 100.2636 60 510 130.2636 30 510 130.2636 60 510 100.2636 60 510 100.2636 30 510 130 45 350 130 45 335 130 30 350 130 30 335 160 45 335 130 45 335 130 45 350 160 45 350 130 30 350 160 30 350 130 45 350 160 45 350 130 30 350 130 30 335 160 30 350 160 30 335 160 30 335 160 45 335 160 45 350 160 30 350 160 30 335 130 30 335 160 45 335 130 45 335 204.6318 0 335 234.6318 0 335 204.6318 30 335 234.6318 30 335</float_array>
+          <technique_common>
+            <accessor source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-position-array" count="114" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-normal">
+          <float_array id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-normal-array" count="342">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.8943248 -0.4481409 0 0.8943248 -0.4481409 0 0.8943248 -0.4481409 0 0.8943248 -0.4481409 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 0 0.8943248 -0.4481409 0 0.8943248 -0.4481409 0 0.8943248 -0.4481409 0 0.8943248 -0.4481409 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-normal-array" count="114" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-texcoord">
+          <float_array id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-texcoord-array" count="228">-1 0 -1 0.3749999 0.7499999 0.3749999 0.7499999 0 0.006564752 2.785442 0.7645696 2.785442 0.006563132 4.55412 0.7645682 4.554121 0.7499999 -10.5 -1 -10.5 -1 -11.25 0.7499999 -11.25 -1 0 0.7499999 0 -1 0.3749999 0.7499999 0.3749999 -1 0.3749999 -1 0.7499999 0.7499999 0.7499999 0.7499999 0.3749999 0.3855672 2.785442 0.3855657 4.554121 0.006563132 4.55412 0.006564752 2.785442 0.7499999 0.3749999 0.7499999 0.7499999 -1 0.7499999 -1 0.3749999 0.7499999 -10.875 -1 -10.875 -1 -11.25 0.7499999 -11.25 -0.7514404 2.280106 -0.7514403 0.006090701 0.006565068 0.764096 1.522574 2.280106 0.76457 0.764096 1.522575 0.006091058 0.006565123 2.280105 0.7645702 2.280106 0.006563132 4.55412 0.7645682 4.554121 0.006565068 0.764096 0.76457 0.764096 0.006565123 2.280105 0.7645702 2.280106 -0.7514404 2.280106 -0.7514403 0.7640957 -0.07322488 0.9724362 1.522575 0.7640961 1.522574 2.280106 0.8443601 0.9724362 5.815794 -8.374999 5.815794 -6.875 5.065794 -6.875 5.065794 -8.374999 0.006565123 2.280105 0.7645702 2.280106 0.006563843 3.796115 0.7645688 3.796116 -11.25 0.3749999 -10.5 0.3749999 -11.25 0 -10.5 0 -11.25 0.7499999 -10.875 0.7499999 -11.25 0.3749999 -10.875 0.3749999 -11.25 0 -10.5 0 -11.25 0.3749999 -10.5 0.3749999 -11.25 0.3749999 -10.875 0.3749999 -11.25 0.7499999 -10.875 0.7499999 0.006565061 0.00609076 0.7645702 0.006090641 0.7645702 0.006090641 0.76457 0.764096 0.006565068 0.764096 0.006565061 0.00609076 0.7645699 -0.7519144 0.7645702 0.006090641 0.006565061 0.00609076 0.006564727 -0.7519141 -11.25003 0.750001 -10.87503 0.750001 -11.25003 0.3750013 -10.87503 0.3750013 0.7499999 -10.875 0 -10.875 0 -11.25 0.7499999 -11.25 0 0.3750001 0.7499999 0.3749999 0 0.7499998 0.7499999 0.7499999 0.006563944 3.796115 0.3855662 3.796116 0.006563132 4.55412 0.3855657 4.554121 -10.875 0.3749999 -10.875 0.7499999 -11.25 0.7499999 -11.25 0.3749999 0.7499999 0.3749999 0 0.3750001 0.7499999 0.7499999 0 0.7499998 5.065794 0 5.815794 0 5.065794 0.7499999 5.815794 0.7499999</float_array>
+          <technique_common>
+            <accessor source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-texcoord-array" count="114" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-vertex">
+          <input semantic="POSITION" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-position" />
+        </vertices>
+        <triangles material="_MapWall" count="56">
+          <input semantic="VERTEX" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 19 19 19 16 16 16 18 18 18 20 20 20 21 21 21 22 22 22 23 23 23 20 20 20 22 22 22 24 24 24 25 25 25 26 26 26 27 27 27 24 24 24 26 26 26 28 28 28 29 29 29 30 30 30 31 31 31 28 28 28 30 30 30 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39 40 40 40 39 39 39 41 41 41 40 40 40 42 42 42 43 43 43 44 44 44 43 43 43 45 45 45 44 44 44 46 46 46 47 47 47 48 48 48 49 49 49 50 50 50 51 51 51 52 52 52 53 53 53 54 54 54 55 55 55 52 52 52 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 33 33 33 76 76 76 34 34 34 36 36 36 77 77 77 37 37 37 78 78 78 79 79 79 80 80 80 81 81 81 78 78 78 80 80 80 82 82 82 83 83 83 84 84 84 85 85 85 82 82 82 84 84 84 86 86 86 87 87 87 88 88 88 87 87 87 89 89 89 88 88 88 90 90 90 91 91 91 92 92 92 93 93 93 90 90 90 92 92 92 94 94 94 95 95 95 96 96 96 95 95 95 97 97 97 96 96 96 98 98 98 99 99 99 100 100 100 99 99 99 101 101 101 100 100 100 102 102 102 103 103 103 104 104 104 105 105 105 102 102 102 104 104 104 106 106 106 107 107 107 108 108 108 107 107 107 109 109 109 108 108 108 110 110 110 111 111 111 112 112 112 111 111 111 113 113 113 112 112 112 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature__Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh">
+      <skin source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-joint">
+          <Name_array id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-joint-array" count="1">Lft_Tunnel02StairNPHoko_Map</Name_array>
+          <technique_common>
+            <accessor source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-inv_bind_matrix">
+          <float_array id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-weight">
+          <float_array id="_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="114">
+          <input semantic="JOINT" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#_Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_Tunnel02StairNPHoko_Map" name="Lft_Tunnel02StairNPHoko_Map" sid="Lft_Tunnel02StairNPHoko_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="_Lft_TunnelSlopeNPHoko_Map2___MapWall" name="_Lft_TunnelSlopeNPHoko_Map2___MapWall" type="NODE">
+        <instance_controller url="#Armature__Lft_TunnelSlopeNPHoko_Map2___MapWall-mesh">
+          <skeleton>#Armature_Lft_Tunnel02StairNPHoko_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_MapWall" target="#_MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,2537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="graffiti00_Alb">
+      <init_from>graffiti00_Alb.png</init_from>
+    </image>
+    <image id="graffiti010_Alb">
+      <init_from>graffiti010_Alb.png</init_from>
+    </image>
+    <image id="graffiti011_Alb">
+      <init_from>graffiti011_Alb.png</init_from>
+    </image>
+    <image id="graffiti012_Alb">
+      <init_from>graffiti012_Alb.png</init_from>
+    </image>
+    <image id="graffiti013_Alb">
+      <init_from>graffiti013_Alb.png</init_from>
+    </image>
+    <image id="graffiti014_Alb">
+      <init_from>graffiti014_Alb.png</init_from>
+    </image>
+    <image id="graffiti015_Alb">
+      <init_from>graffiti015_Alb.png</init_from>
+    </image>
+    <image id="graffiti01_Alb">
+      <init_from>graffiti01_Alb.png</init_from>
+    </image>
+    <image id="graffiti01_Nrm">
+      <init_from>graffiti01_Nrm.png</init_from>
+    </image>
+    <image id="graffiti01_Rgh">
+      <init_from>graffiti01_Rgh.png</init_from>
+    </image>
+    <image id="graffiti02_Alb">
+      <init_from>graffiti02_Alb.png</init_from>
+    </image>
+    <image id="graffiti03_Alb">
+      <init_from>graffiti03_Alb.png</init_from>
+    </image>
+    <image id="graffiti04_Alb">
+      <init_from>graffiti04_Alb.png</init_from>
+    </image>
+    <image id="graffiti05_Alb">
+      <init_from>graffiti05_Alb.png</init_from>
+    </image>
+    <image id="graffiti06_Alb">
+      <init_from>graffiti06_Alb.png</init_from>
+    </image>
+    <image id="graffiti07_Alb">
+      <init_from>graffiti07_Alb.png</init_from>
+    </image>
+    <image id="graffiti08_Alb">
+      <init_from>graffiti08_Alb.png</init_from>
+    </image>
+    <image id="graffiti09_Alb">
+      <init_from>graffiti09_Alb.png</init_from>
+    </image>
+    <image id="Msk00_Alb">
+      <init_from>Msk00_Alb.png</init_from>
+    </image>
+    <image id="Msk010_Alb">
+      <init_from>Msk010_Alb.png</init_from>
+    </image>
+    <image id="Msk011_Alb">
+      <init_from>Msk011_Alb.png</init_from>
+    </image>
+    <image id="Msk012_Alb">
+      <init_from>Msk012_Alb.png</init_from>
+    </image>
+    <image id="Msk013_Alb">
+      <init_from>Msk013_Alb.png</init_from>
+    </image>
+    <image id="Msk014_Alb">
+      <init_from>Msk014_Alb.png</init_from>
+    </image>
+    <image id="Msk015_Alb">
+      <init_from>Msk015_Alb.png</init_from>
+    </image>
+    <image id="Msk01_Alb">
+      <init_from>Msk01_Alb.png</init_from>
+    </image>
+    <image id="Msk02_Alb">
+      <init_from>Msk02_Alb.png</init_from>
+    </image>
+    <image id="Msk03_Alb">
+      <init_from>Msk03_Alb.png</init_from>
+    </image>
+    <image id="Msk04_Alb">
+      <init_from>Msk04_Alb.png</init_from>
+    </image>
+    <image id="Msk05_Alb">
+      <init_from>Msk05_Alb.png</init_from>
+    </image>
+    <image id="Msk06_Alb">
+      <init_from>Msk06_Alb.png</init_from>
+    </image>
+    <image id="Msk07_Alb">
+      <init_from>Msk07_Alb.png</init_from>
+    </image>
+    <image id="Msk08_Alb">
+      <init_from>Msk08_Alb.png</init_from>
+    </image>
+    <image id="Msk09_Alb">
+      <init_from>Msk09_Alb.png</init_from>
+    </image>
+    <image id="PaintDepthDummy">
+      <init_from>PaintDepthDummy.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Paint00">
+      <instance_effect url="#Effect_Paint00" />
+    </material>
+    <material id="graffiti00">
+      <instance_effect url="#Effect_graffiti00" />
+    </material>
+    <material id="graffiti01">
+      <instance_effect url="#Effect_graffiti01" />
+    </material>
+    <material id="graffiti010">
+      <instance_effect url="#Effect_graffiti010" />
+    </material>
+    <material id="graffiti011">
+      <instance_effect url="#Effect_graffiti011" />
+    </material>
+    <material id="graffiti012">
+      <instance_effect url="#Effect_graffiti012" />
+    </material>
+    <material id="graffiti013">
+      <instance_effect url="#Effect_graffiti013" />
+    </material>
+    <material id="graffiti014">
+      <instance_effect url="#Effect_graffiti014" />
+    </material>
+    <material id="graffiti015">
+      <instance_effect url="#Effect_graffiti015" />
+    </material>
+    <material id="graffiti02">
+      <instance_effect url="#Effect_graffiti02" />
+    </material>
+    <material id="graffiti03">
+      <instance_effect url="#Effect_graffiti03" />
+    </material>
+    <material id="graffiti04">
+      <instance_effect url="#Effect_graffiti04" />
+    </material>
+    <material id="graffiti05">
+      <instance_effect url="#Effect_graffiti05" />
+    </material>
+    <material id="graffiti06">
+      <instance_effect url="#Effect_graffiti06" />
+    </material>
+    <material id="graffiti07">
+      <instance_effect url="#Effect_graffiti07" />
+    </material>
+    <material id="graffiti08">
+      <instance_effect url="#Effect_graffiti08" />
+    </material>
+    <material id="graffiti09">
+      <instance_effect url="#Effect_graffiti09" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Paint00">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti00">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti00-diffuse">
+          <surface type="2D">
+            <init_from>Msk00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti00-diffuse">
+          <sampler2D>
+            <source>surface_graffiti00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti00-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti00-bump">
+          <sampler2D>
+            <source>surface_graffiti00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti01">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti01-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti01-bump">
+          <sampler2D>
+            <source>surface_graffiti01-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti01-diffuse">
+          <surface type="2D">
+            <init_from>Msk01_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti01-diffuse">
+          <sampler2D>
+            <source>surface_graffiti01-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <bump>
+              <texture texture="sampler_graffiti01-bump" texcoord="CHANNEL0" />
+            </bump>
+            <diffuse>
+              <texture texture="sampler_graffiti01-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti010">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti010-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti010-bump">
+          <sampler2D>
+            <source>surface_graffiti010-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti010-diffuse">
+          <surface type="2D">
+            <init_from>Msk010_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti010-diffuse">
+          <sampler2D>
+            <source>surface_graffiti010-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <bump>
+              <texture texture="sampler_graffiti010-bump" texcoord="CHANNEL0" />
+            </bump>
+            <diffuse>
+              <texture texture="sampler_graffiti010-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti011">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti011-diffuse">
+          <surface type="2D">
+            <init_from>Msk011_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti011-diffuse">
+          <sampler2D>
+            <source>surface_graffiti011-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti011-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti011-bump">
+          <sampler2D>
+            <source>surface_graffiti011-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti011-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti011-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti012">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti012-diffuse">
+          <surface type="2D">
+            <init_from>Msk012_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti012-diffuse">
+          <sampler2D>
+            <source>surface_graffiti012-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti012-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti012-bump">
+          <sampler2D>
+            <source>surface_graffiti012-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti012-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti012-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti013">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti013-diffuse">
+          <surface type="2D">
+            <init_from>Msk013_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti013-diffuse">
+          <sampler2D>
+            <source>surface_graffiti013-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti013-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti013-bump">
+          <sampler2D>
+            <source>surface_graffiti013-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti013-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti013-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti014">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti014-diffuse">
+          <surface type="2D">
+            <init_from>Msk014_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti014-diffuse">
+          <sampler2D>
+            <source>surface_graffiti014-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti014-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti014-bump">
+          <sampler2D>
+            <source>surface_graffiti014-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti014-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti014-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti015">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti015-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti015-bump">
+          <sampler2D>
+            <source>surface_graffiti015-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti015-diffuse">
+          <surface type="2D">
+            <init_from>Msk015_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti015-diffuse">
+          <sampler2D>
+            <source>surface_graffiti015-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <bump>
+              <texture texture="sampler_graffiti015-bump" texcoord="CHANNEL0" />
+            </bump>
+            <diffuse>
+              <texture texture="sampler_graffiti015-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti02">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti02-diffuse">
+          <surface type="2D">
+            <init_from>Msk02_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti02-diffuse">
+          <sampler2D>
+            <source>surface_graffiti02-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti02-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti02-bump">
+          <sampler2D>
+            <source>surface_graffiti02-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti02-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti02-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti03">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti03-diffuse">
+          <surface type="2D">
+            <init_from>Msk03_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti03-diffuse">
+          <sampler2D>
+            <source>surface_graffiti03-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti03-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti03-bump">
+          <sampler2D>
+            <source>surface_graffiti03-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti03-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti03-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti04">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti04-diffuse">
+          <surface type="2D">
+            <init_from>Msk04_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti04-diffuse">
+          <sampler2D>
+            <source>surface_graffiti04-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti04-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti04-bump">
+          <sampler2D>
+            <source>surface_graffiti04-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti04-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti04-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti05">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti05-diffuse">
+          <surface type="2D">
+            <init_from>Msk05_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti05-diffuse">
+          <sampler2D>
+            <source>surface_graffiti05-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti05-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti05-bump">
+          <sampler2D>
+            <source>surface_graffiti05-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti05-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti05-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti06">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti06-diffuse">
+          <surface type="2D">
+            <init_from>Msk06_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti06-diffuse">
+          <sampler2D>
+            <source>surface_graffiti06-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti06-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti06-bump">
+          <sampler2D>
+            <source>surface_graffiti06-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti06-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti06-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti07">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti07-diffuse">
+          <surface type="2D">
+            <init_from>Msk07_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti07-diffuse">
+          <sampler2D>
+            <source>surface_graffiti07-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti07-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti07-bump">
+          <sampler2D>
+            <source>surface_graffiti07-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti07-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti07-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti08">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti08-diffuse">
+          <surface type="2D">
+            <init_from>Msk08_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti08-diffuse">
+          <sampler2D>
+            <source>surface_graffiti08-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti08-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti08-bump">
+          <sampler2D>
+            <source>surface_graffiti08-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti08-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti08-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_graffiti09">
+      <profile_COMMON>
+        <newparam sid="surface_graffiti09-diffuse">
+          <surface type="2D">
+            <init_from>Msk09_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti09-diffuse">
+          <sampler2D>
+            <source>surface_graffiti09-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_graffiti09-bump">
+          <surface type="2D">
+            <init_from>graffiti01_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_graffiti09-bump">
+          <sampler2D>
+            <source>surface_graffiti09-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_graffiti09-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_graffiti09-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Paint__Paint00-mesh" name="Paint__Paint00">
+      <mesh>
+        <source id="Paint__Paint00-position">
+          <float_array id="Paint__Paint00-position-array" count="111">-200 2400 0 -200 -400 0 0 -400 0 0 2400 0 200 2400 0 200 -400 0 0 -400 0 200 -400 -20 200 -400 0 0 -400 -20 0 -400 0 200 2400 -20 0 2400 -20 200 2400 0 0 2400 0 -200 2400 0 -200 2400 -20 -200 -400 0 -200 -400 -20 200 -400 -20 200 2400 -20 200 -400 0 200 2400 0 0 2400 -20 -200 2400 -20 0 2400 0 -200 2400 0 0 -400 0 -200 -400 0 0 -400 -20 -200 -400 -20 200 2400 -20 200 -400 -20 0 -400 -20 0 2400 -20 -200 -400 -20 -200 2400 -20</float_array>
+          <technique_common>
+            <accessor source="#Paint__Paint00-position-array" count="37" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Paint__Paint00-normal">
+          <float_array id="Paint__Paint00-normal-array" count="111">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Paint__Paint00-normal-array" count="37" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Paint__Paint00-texcoord">
+          <float_array id="Paint__Paint00-texcoord-array" count="74">-21.03126 69.99998 -21.03111 -70.00006 -11.03111 -70.00003 -11.03126 69.99999 -1.031251 69.99998 -1.03121 -69.99999 -11.03122 -70.00002 31.81274 -41.28158 31.81274 -42.28158 41.81274 -41.28158 41.81274 -42.28159 25.84424 42.21908 35.84424 42.21908 25.84424 43.21909 35.84424 43.21909 20.96875 69.99998 19.96875 69.99998 20.96877 -69.99998 19.96877 -69.99998 -0.03122849 -69.99998 -0.03124023 69.99998 -1.031225 -69.99998 -1.031241 69.99998 41.21875 44.62567 51.21874 44.62567 41.21875 45.62567 51.21874 45.62567 42.37451 -43.06283 52.37451 -43.06283 42.37451 -42.06284 52.37451 -42.06284 -0.0312347 70 -0.03121801 -69.99999 9.968782 -70 9.968765 69.99999 19.96878 -69.99999 19.96877 70</float_array>
+          <technique_common>
+            <accessor source="#Paint__Paint00-texcoord-array" count="37" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Paint__Paint00-vertex">
+          <input semantic="POSITION" source="#Paint__Paint00-position" />
+        </vertices>
+        <triangles material="Paint00" count="20">
+          <input semantic="VERTEX" source="#Paint__Paint00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Paint__Paint00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Paint__Paint00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 4 4 4 3 3 3 5 5 5 5 5 5 3 3 3 6 6 6 7 7 7 8 8 8 9 9 9 8 8 8 10 10 10 9 9 9 11 11 11 12 12 12 13 13 13 12 12 12 14 14 14 13 13 13 15 15 15 16 16 16 17 17 17 16 16 16 18 18 18 17 17 17 19 19 19 20 20 20 21 21 21 20 20 20 22 22 22 21 21 21 23 23 23 24 24 24 25 25 25 24 24 24 26 26 26 25 25 25 27 27 27 28 28 28 29 29 29 28 28 28 30 30 30 29 29 29 31 31 31 32 32 32 33 33 33 31 31 31 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 34 34 34 35 35 35 36 36 36 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text023__graffiti00-mesh" name="dis_Text023__graffiti00">
+      <mesh>
+        <source id="dis_Text023__graffiti00-position">
+          <float_array id="dis_Text023__graffiti00-position-array" count="12">-80 1830.113 1 80 1830.113 1 -80 1990 1 80 1990 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text023__graffiti00-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text023__graffiti00-normal">
+          <float_array id="dis_Text023__graffiti00-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text023__graffiti00-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text023__graffiti00-texcoord">
+          <float_array id="dis_Text023__graffiti00-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text023__graffiti00-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text023__graffiti00-vertex">
+          <input semantic="POSITION" source="#dis_Text023__graffiti00-position" />
+        </vertices>
+        <triangles material="graffiti00" count="2">
+          <input semantic="VERTEX" source="#dis_Text023__graffiti00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text023__graffiti00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text023__graffiti00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text025__graffiti01-mesh" name="dis_Text025__graffiti01">
+      <mesh>
+        <source id="dis_Text025__graffiti01-position">
+          <float_array id="dis_Text025__graffiti01-position-array" count="12">-80 1750.169 1 80 1750.169 1 -80 1830.113 1 80 1830.113 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text025__graffiti01-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text025__graffiti01-normal">
+          <float_array id="dis_Text025__graffiti01-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text025__graffiti01-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text025__graffiti01-texcoord">
+          <float_array id="dis_Text025__graffiti01-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text025__graffiti01-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text025__graffiti01-vertex">
+          <input semantic="POSITION" source="#dis_Text025__graffiti01-position" />
+        </vertices>
+        <triangles material="graffiti01" count="2">
+          <input semantic="VERTEX" source="#dis_Text025__graffiti01-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text025__graffiti01-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text025__graffiti01-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text026__graffiti02-mesh" name="dis_Text026__graffiti02">
+      <mesh>
+        <source id="dis_Text026__graffiti02-position">
+          <float_array id="dis_Text026__graffiti02-position-array" count="12">-80 1510.169 1 80 1510.169 1 -80 1750.169 1 80 1750.169 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text026__graffiti02-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text026__graffiti02-normal">
+          <float_array id="dis_Text026__graffiti02-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text026__graffiti02-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text026__graffiti02-texcoord">
+          <float_array id="dis_Text026__graffiti02-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text026__graffiti02-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text026__graffiti02-vertex">
+          <input semantic="POSITION" source="#dis_Text026__graffiti02-position" />
+        </vertices>
+        <triangles material="graffiti02" count="2">
+          <input semantic="VERTEX" source="#dis_Text026__graffiti02-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text026__graffiti02-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text026__graffiti02-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text027__graffiti03-mesh" name="dis_Text027__graffiti03">
+      <mesh>
+        <source id="dis_Text027__graffiti03-position">
+          <float_array id="dis_Text027__graffiti03-position-array" count="12">-80 1350.226 1 80 1350.226 1 -80 1510.169 1 80 1510.169 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text027__graffiti03-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text027__graffiti03-normal">
+          <float_array id="dis_Text027__graffiti03-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text027__graffiti03-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text027__graffiti03-texcoord">
+          <float_array id="dis_Text027__graffiti03-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text027__graffiti03-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text027__graffiti03-vertex">
+          <input semantic="POSITION" source="#dis_Text027__graffiti03-position" />
+        </vertices>
+        <triangles material="graffiti03" count="2">
+          <input semantic="VERTEX" source="#dis_Text027__graffiti03-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text027__graffiti03-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text027__graffiti03-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text028__graffiti04-mesh" name="dis_Text028__graffiti04">
+      <mesh>
+        <source id="dis_Text028__graffiti04-position">
+          <float_array id="dis_Text028__graffiti04-position-array" count="12">-80 1110.226 1 80 1110.226 1 -80 1350.226 1 80 1350.226 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text028__graffiti04-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text028__graffiti04-normal">
+          <float_array id="dis_Text028__graffiti04-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text028__graffiti04-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text028__graffiti04-texcoord">
+          <float_array id="dis_Text028__graffiti04-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text028__graffiti04-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text028__graffiti04-vertex">
+          <input semantic="POSITION" source="#dis_Text028__graffiti04-position" />
+        </vertices>
+        <triangles material="graffiti04" count="2">
+          <input semantic="VERTEX" source="#dis_Text028__graffiti04-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text028__graffiti04-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text028__graffiti04-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text029__graffiti05-mesh" name="dis_Text029__graffiti05">
+      <mesh>
+        <source id="dis_Text029__graffiti05-position">
+          <float_array id="dis_Text029__graffiti05-position-array" count="12">-80 630.4517 1 80 630.4517 1 -80 1110.226 1 80 1110.226 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text029__graffiti05-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text029__graffiti05-normal">
+          <float_array id="dis_Text029__graffiti05-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text029__graffiti05-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text029__graffiti05-texcoord">
+          <float_array id="dis_Text029__graffiti05-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text029__graffiti05-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text029__graffiti05-vertex">
+          <input semantic="POSITION" source="#dis_Text029__graffiti05-position" />
+        </vertices>
+        <triangles material="graffiti05" count="2">
+          <input semantic="VERTEX" source="#dis_Text029__graffiti05-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text029__graffiti05-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text029__graffiti05-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text030__graffiti06-mesh" name="dis_Text030__graffiti06">
+      <mesh>
+        <source id="dis_Text030__graffiti06-position">
+          <float_array id="dis_Text030__graffiti06-position-array" count="12">-80 230.6777 1 80 230.6777 1 -80 630.4518 1 80 630.4518 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text030__graffiti06-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text030__graffiti06-normal">
+          <float_array id="dis_Text030__graffiti06-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text030__graffiti06-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text030__graffiti06-texcoord">
+          <float_array id="dis_Text030__graffiti06-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text030__graffiti06-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text030__graffiti06-vertex">
+          <input semantic="POSITION" source="#dis_Text030__graffiti06-position" />
+        </vertices>
+        <triangles material="graffiti06" count="2">
+          <input semantic="VERTEX" source="#dis_Text030__graffiti06-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text030__graffiti06-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text030__graffiti06-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text031__graffiti08-mesh" name="dis_Text031__graffiti08">
+      <mesh>
+        <source id="dis_Text031__graffiti08-position">
+          <float_array id="dis_Text031__graffiti08-position-array" count="12">-80 -249.2094 1 80 -249.2094 1 -80 70.79061 1 80 70.79061 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text031__graffiti08-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text031__graffiti08-normal">
+          <float_array id="dis_Text031__graffiti08-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text031__graffiti08-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text031__graffiti08-texcoord">
+          <float_array id="dis_Text031__graffiti08-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text031__graffiti08-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text031__graffiti08-vertex">
+          <input semantic="POSITION" source="#dis_Text031__graffiti08-position" />
+        </vertices>
+        <triangles material="graffiti08" count="2">
+          <input semantic="VERTEX" source="#dis_Text031__graffiti08-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text031__graffiti08-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text031__graffiti08-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text032__graffiti09-mesh" name="dis_Text032__graffiti09">
+      <mesh>
+        <source id="dis_Text032__graffiti09-position">
+          <float_array id="dis_Text032__graffiti09-position-array" count="12">-80 -649.2094 1 80 -649.2094 1 -80 -249.2094 1 80 -249.2094 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text032__graffiti09-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text032__graffiti09-normal">
+          <float_array id="dis_Text032__graffiti09-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text032__graffiti09-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text032__graffiti09-texcoord">
+          <float_array id="dis_Text032__graffiti09-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text032__graffiti09-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text032__graffiti09-vertex">
+          <input semantic="POSITION" source="#dis_Text032__graffiti09-position" />
+        </vertices>
+        <triangles material="graffiti09" count="2">
+          <input semantic="VERTEX" source="#dis_Text032__graffiti09-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text032__graffiti09-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text032__graffiti09-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text033__graffiti010-mesh" name="dis_Text033__graffiti010">
+      <mesh>
+        <source id="dis_Text033__graffiti010-position">
+          <float_array id="dis_Text033__graffiti010-position-array" count="12">-80 -1049.209 1 80 -1049.209 1 -80 -649.2094 1 80 -649.2094 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text033__graffiti010-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text033__graffiti010-normal">
+          <float_array id="dis_Text033__graffiti010-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text033__graffiti010-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text033__graffiti010-texcoord">
+          <float_array id="dis_Text033__graffiti010-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text033__graffiti010-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text033__graffiti010-vertex">
+          <input semantic="POSITION" source="#dis_Text033__graffiti010-position" />
+        </vertices>
+        <triangles material="graffiti010" count="2">
+          <input semantic="VERTEX" source="#dis_Text033__graffiti010-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text033__graffiti010-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text033__graffiti010-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text034__graffiti011-mesh" name="dis_Text034__graffiti011">
+      <mesh>
+        <source id="dis_Text034__graffiti011-position">
+          <float_array id="dis_Text034__graffiti011-position-array" count="12">-80 -1449.153 1 80 -1449.153 1 -80 -1049.209 1 80 -1049.209 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text034__graffiti011-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text034__graffiti011-normal">
+          <float_array id="dis_Text034__graffiti011-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text034__graffiti011-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text034__graffiti011-texcoord">
+          <float_array id="dis_Text034__graffiti011-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text034__graffiti011-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text034__graffiti011-vertex">
+          <input semantic="POSITION" source="#dis_Text034__graffiti011-position" />
+        </vertices>
+        <triangles material="graffiti011" count="2">
+          <input semantic="VERTEX" source="#dis_Text034__graffiti011-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text034__graffiti011-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text034__graffiti011-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text035__graffiti012-mesh" name="dis_Text035__graffiti012">
+      <mesh>
+        <source id="dis_Text035__graffiti012-position">
+          <float_array id="dis_Text035__graffiti012-position-array" count="12">-80 -1529.096 1 80 -1529.096 1 -80 -1449.153 1 80 -1449.153 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text035__graffiti012-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text035__graffiti012-normal">
+          <float_array id="dis_Text035__graffiti012-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text035__graffiti012-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text035__graffiti012-texcoord">
+          <float_array id="dis_Text035__graffiti012-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text035__graffiti012-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text035__graffiti012-vertex">
+          <input semantic="POSITION" source="#dis_Text035__graffiti012-position" />
+        </vertices>
+        <triangles material="graffiti012" count="2">
+          <input semantic="VERTEX" source="#dis_Text035__graffiti012-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text035__graffiti012-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text035__graffiti012-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text036__graffiti013-mesh" name="dis_Text036__graffiti013">
+      <mesh>
+        <source id="dis_Text036__graffiti013-position">
+          <float_array id="dis_Text036__graffiti013-position-array" count="12">-80 -1609.04 1 80 -1609.04 1 -80 -1529.096 1 80 -1529.096 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text036__graffiti013-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text036__graffiti013-normal">
+          <float_array id="dis_Text036__graffiti013-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text036__graffiti013-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text036__graffiti013-texcoord">
+          <float_array id="dis_Text036__graffiti013-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text036__graffiti013-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text036__graffiti013-vertex">
+          <input semantic="POSITION" source="#dis_Text036__graffiti013-position" />
+        </vertices>
+        <triangles material="graffiti013" count="2">
+          <input semantic="VERTEX" source="#dis_Text036__graffiti013-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text036__graffiti013-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text036__graffiti013-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text038__graffiti015-mesh" name="dis_Text038__graffiti015">
+      <mesh>
+        <source id="dis_Text038__graffiti015-position">
+          <float_array id="dis_Text038__graffiti015-position-array" count="12">-80 -1848.871 1 80 -1848.871 1 -80 -1688.984 1 80 -1688.984 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text038__graffiti015-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text038__graffiti015-normal">
+          <float_array id="dis_Text038__graffiti015-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text038__graffiti015-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text038__graffiti015-texcoord">
+          <float_array id="dis_Text038__graffiti015-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text038__graffiti015-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text038__graffiti015-vertex">
+          <input semantic="POSITION" source="#dis_Text038__graffiti015-position" />
+        </vertices>
+        <triangles material="graffiti015" count="2">
+          <input semantic="VERTEX" source="#dis_Text038__graffiti015-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text038__graffiti015-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text038__graffiti015-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text039__graffiti014-mesh" name="dis_Text039__graffiti014">
+      <mesh>
+        <source id="dis_Text039__graffiti014-position">
+          <float_array id="dis_Text039__graffiti014-position-array" count="12">-80 -1688.984 1 80 -1688.984 1 -80 -1609.04 1 80 -1609.04 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text039__graffiti014-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text039__graffiti014-normal">
+          <float_array id="dis_Text039__graffiti014-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text039__graffiti014-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text039__graffiti014-texcoord">
+          <float_array id="dis_Text039__graffiti014-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text039__graffiti014-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text039__graffiti014-vertex">
+          <input semantic="POSITION" source="#dis_Text039__graffiti014-position" />
+        </vertices>
+        <triangles material="graffiti014" count="2">
+          <input semantic="VERTEX" source="#dis_Text039__graffiti014-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text039__graffiti014-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text039__graffiti014-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="dis_Text050__graffiti07-mesh" name="dis_Text050__graffiti07">
+      <mesh>
+        <source id="dis_Text050__graffiti07-position">
+          <float_array id="dis_Text050__graffiti07-position-array" count="12">-80 70.79062 1 80 70.79062 1 -80 230.6777 1 80 230.6777 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text050__graffiti07-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text050__graffiti07-normal">
+          <float_array id="dis_Text050__graffiti07-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text050__graffiti07-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text050__graffiti07-texcoord">
+          <float_array id="dis_Text050__graffiti07-texcoord-array" count="8">0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text050__graffiti07-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="dis_Text050__graffiti07-vertex">
+          <input semantic="POSITION" source="#dis_Text050__graffiti07-position" />
+        </vertices>
+        <triangles material="graffiti07" count="2">
+          <input semantic="VERTEX" source="#dis_Text050__graffiti07-vertex" offset="0" />
+          <input semantic="NORMAL" source="#dis_Text050__graffiti07-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#dis_Text050__graffiti07-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Paint__Paint00-mesh">
+      <skin source="#Paint__Paint00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Paint__Paint00-mesh-joint">
+          <Name_array id="Paint__Paint00-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#Paint__Paint00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Paint__Paint00-mesh-inv_bind_matrix">
+          <float_array id="Paint__Paint00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Paint__Paint00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Paint__Paint00-mesh-weight">
+          <float_array id="Paint__Paint00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Paint__Paint00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Paint__Paint00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Paint__Paint00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="37">
+          <input semantic="JOINT" source="#Paint__Paint00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Paint__Paint00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text023__graffiti00-mesh">
+      <skin source="#dis_Text023__graffiti00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text023__graffiti00-mesh-joint">
+          <Name_array id="dis_Text023__graffiti00-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text023__graffiti00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text023__graffiti00-mesh-inv_bind_matrix">
+          <float_array id="dis_Text023__graffiti00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text023__graffiti00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text023__graffiti00-mesh-weight">
+          <float_array id="dis_Text023__graffiti00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text023__graffiti00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text023__graffiti00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text023__graffiti00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text023__graffiti00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text023__graffiti00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text025__graffiti01-mesh">
+      <skin source="#dis_Text025__graffiti01-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text025__graffiti01-mesh-joint">
+          <Name_array id="dis_Text025__graffiti01-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text025__graffiti01-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text025__graffiti01-mesh-inv_bind_matrix">
+          <float_array id="dis_Text025__graffiti01-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text025__graffiti01-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text025__graffiti01-mesh-weight">
+          <float_array id="dis_Text025__graffiti01-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text025__graffiti01-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text025__graffiti01-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text025__graffiti01-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text025__graffiti01-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text025__graffiti01-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text026__graffiti02-mesh">
+      <skin source="#dis_Text026__graffiti02-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text026__graffiti02-mesh-joint">
+          <Name_array id="dis_Text026__graffiti02-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text026__graffiti02-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text026__graffiti02-mesh-inv_bind_matrix">
+          <float_array id="dis_Text026__graffiti02-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text026__graffiti02-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text026__graffiti02-mesh-weight">
+          <float_array id="dis_Text026__graffiti02-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text026__graffiti02-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text026__graffiti02-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text026__graffiti02-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text026__graffiti02-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text026__graffiti02-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text027__graffiti03-mesh">
+      <skin source="#dis_Text027__graffiti03-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text027__graffiti03-mesh-joint">
+          <Name_array id="dis_Text027__graffiti03-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text027__graffiti03-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text027__graffiti03-mesh-inv_bind_matrix">
+          <float_array id="dis_Text027__graffiti03-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text027__graffiti03-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text027__graffiti03-mesh-weight">
+          <float_array id="dis_Text027__graffiti03-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text027__graffiti03-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text027__graffiti03-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text027__graffiti03-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text027__graffiti03-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text027__graffiti03-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text028__graffiti04-mesh">
+      <skin source="#dis_Text028__graffiti04-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text028__graffiti04-mesh-joint">
+          <Name_array id="dis_Text028__graffiti04-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text028__graffiti04-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text028__graffiti04-mesh-inv_bind_matrix">
+          <float_array id="dis_Text028__graffiti04-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text028__graffiti04-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text028__graffiti04-mesh-weight">
+          <float_array id="dis_Text028__graffiti04-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text028__graffiti04-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text028__graffiti04-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text028__graffiti04-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text028__graffiti04-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text028__graffiti04-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text029__graffiti05-mesh">
+      <skin source="#dis_Text029__graffiti05-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text029__graffiti05-mesh-joint">
+          <Name_array id="dis_Text029__graffiti05-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text029__graffiti05-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text029__graffiti05-mesh-inv_bind_matrix">
+          <float_array id="dis_Text029__graffiti05-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text029__graffiti05-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text029__graffiti05-mesh-weight">
+          <float_array id="dis_Text029__graffiti05-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text029__graffiti05-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text029__graffiti05-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text029__graffiti05-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text029__graffiti05-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text029__graffiti05-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text030__graffiti06-mesh">
+      <skin source="#dis_Text030__graffiti06-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text030__graffiti06-mesh-joint">
+          <Name_array id="dis_Text030__graffiti06-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text030__graffiti06-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text030__graffiti06-mesh-inv_bind_matrix">
+          <float_array id="dis_Text030__graffiti06-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text030__graffiti06-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text030__graffiti06-mesh-weight">
+          <float_array id="dis_Text030__graffiti06-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text030__graffiti06-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text030__graffiti06-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text030__graffiti06-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text030__graffiti06-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text030__graffiti06-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text031__graffiti08-mesh">
+      <skin source="#dis_Text031__graffiti08-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text031__graffiti08-mesh-joint">
+          <Name_array id="dis_Text031__graffiti08-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text031__graffiti08-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text031__graffiti08-mesh-inv_bind_matrix">
+          <float_array id="dis_Text031__graffiti08-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text031__graffiti08-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text031__graffiti08-mesh-weight">
+          <float_array id="dis_Text031__graffiti08-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text031__graffiti08-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text031__graffiti08-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text031__graffiti08-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text031__graffiti08-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text031__graffiti08-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text032__graffiti09-mesh">
+      <skin source="#dis_Text032__graffiti09-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text032__graffiti09-mesh-joint">
+          <Name_array id="dis_Text032__graffiti09-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text032__graffiti09-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text032__graffiti09-mesh-inv_bind_matrix">
+          <float_array id="dis_Text032__graffiti09-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text032__graffiti09-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text032__graffiti09-mesh-weight">
+          <float_array id="dis_Text032__graffiti09-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text032__graffiti09-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text032__graffiti09-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text032__graffiti09-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text032__graffiti09-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text032__graffiti09-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text033__graffiti010-mesh">
+      <skin source="#dis_Text033__graffiti010-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text033__graffiti010-mesh-joint">
+          <Name_array id="dis_Text033__graffiti010-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text033__graffiti010-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text033__graffiti010-mesh-inv_bind_matrix">
+          <float_array id="dis_Text033__graffiti010-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text033__graffiti010-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text033__graffiti010-mesh-weight">
+          <float_array id="dis_Text033__graffiti010-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text033__graffiti010-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text033__graffiti010-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text033__graffiti010-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text033__graffiti010-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text033__graffiti010-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text034__graffiti011-mesh">
+      <skin source="#dis_Text034__graffiti011-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text034__graffiti011-mesh-joint">
+          <Name_array id="dis_Text034__graffiti011-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text034__graffiti011-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text034__graffiti011-mesh-inv_bind_matrix">
+          <float_array id="dis_Text034__graffiti011-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text034__graffiti011-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text034__graffiti011-mesh-weight">
+          <float_array id="dis_Text034__graffiti011-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text034__graffiti011-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text034__graffiti011-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text034__graffiti011-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text034__graffiti011-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text034__graffiti011-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text035__graffiti012-mesh">
+      <skin source="#dis_Text035__graffiti012-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text035__graffiti012-mesh-joint">
+          <Name_array id="dis_Text035__graffiti012-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text035__graffiti012-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text035__graffiti012-mesh-inv_bind_matrix">
+          <float_array id="dis_Text035__graffiti012-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text035__graffiti012-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text035__graffiti012-mesh-weight">
+          <float_array id="dis_Text035__graffiti012-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text035__graffiti012-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text035__graffiti012-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text035__graffiti012-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text035__graffiti012-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text035__graffiti012-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text036__graffiti013-mesh">
+      <skin source="#dis_Text036__graffiti013-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text036__graffiti013-mesh-joint">
+          <Name_array id="dis_Text036__graffiti013-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text036__graffiti013-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text036__graffiti013-mesh-inv_bind_matrix">
+          <float_array id="dis_Text036__graffiti013-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text036__graffiti013-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text036__graffiti013-mesh-weight">
+          <float_array id="dis_Text036__graffiti013-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text036__graffiti013-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text036__graffiti013-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text036__graffiti013-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text036__graffiti013-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text036__graffiti013-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text038__graffiti015-mesh">
+      <skin source="#dis_Text038__graffiti015-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text038__graffiti015-mesh-joint">
+          <Name_array id="dis_Text038__graffiti015-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text038__graffiti015-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text038__graffiti015-mesh-inv_bind_matrix">
+          <float_array id="dis_Text038__graffiti015-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text038__graffiti015-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text038__graffiti015-mesh-weight">
+          <float_array id="dis_Text038__graffiti015-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text038__graffiti015-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text038__graffiti015-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text038__graffiti015-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text038__graffiti015-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text038__graffiti015-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text039__graffiti014-mesh">
+      <skin source="#dis_Text039__graffiti014-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text039__graffiti014-mesh-joint">
+          <Name_array id="dis_Text039__graffiti014-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text039__graffiti014-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text039__graffiti014-mesh-inv_bind_matrix">
+          <float_array id="dis_Text039__graffiti014-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text039__graffiti014-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text039__graffiti014-mesh-weight">
+          <float_array id="dis_Text039__graffiti014-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text039__graffiti014-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text039__graffiti014-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text039__graffiti014-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text039__graffiti014-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text039__graffiti014-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_dis_Text050__graffiti07-mesh">
+      <skin source="#dis_Text050__graffiti07-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="dis_Text050__graffiti07-mesh-joint">
+          <Name_array id="dis_Text050__graffiti07-mesh-joint-array" count="1">Lft_StaffRoll00</Name_array>
+          <technique_common>
+            <accessor source="#dis_Text050__graffiti07-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text050__graffiti07-mesh-inv_bind_matrix">
+          <float_array id="dis_Text050__graffiti07-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text050__graffiti07-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="dis_Text050__graffiti07-mesh-weight">
+          <float_array id="dis_Text050__graffiti07-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#dis_Text050__graffiti07-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#dis_Text050__graffiti07-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#dis_Text050__graffiti07-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#dis_Text050__graffiti07-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#dis_Text050__graffiti07-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_StaffRoll00" name="Lft_StaffRoll00" sid="Lft_StaffRoll00" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Paint__Paint00" name="Paint__Paint00" type="NODE">
+        <instance_controller url="#Armature_Paint__Paint00-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Paint00" target="#Paint00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text023__graffiti00" name="dis_Text023__graffiti00" type="NODE">
+        <instance_controller url="#Armature_dis_Text023__graffiti00-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti00" target="#graffiti00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text025__graffiti01" name="dis_Text025__graffiti01" type="NODE">
+        <instance_controller url="#Armature_dis_Text025__graffiti01-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti01" target="#graffiti01" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text026__graffiti02" name="dis_Text026__graffiti02" type="NODE">
+        <instance_controller url="#Armature_dis_Text026__graffiti02-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti02" target="#graffiti02" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text027__graffiti03" name="dis_Text027__graffiti03" type="NODE">
+        <instance_controller url="#Armature_dis_Text027__graffiti03-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti03" target="#graffiti03" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text028__graffiti04" name="dis_Text028__graffiti04" type="NODE">
+        <instance_controller url="#Armature_dis_Text028__graffiti04-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti04" target="#graffiti04" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text029__graffiti05" name="dis_Text029__graffiti05" type="NODE">
+        <instance_controller url="#Armature_dis_Text029__graffiti05-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti05" target="#graffiti05" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text030__graffiti06" name="dis_Text030__graffiti06" type="NODE">
+        <instance_controller url="#Armature_dis_Text030__graffiti06-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti06" target="#graffiti06" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text031__graffiti08" name="dis_Text031__graffiti08" type="NODE">
+        <instance_controller url="#Armature_dis_Text031__graffiti08-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti08" target="#graffiti08" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text032__graffiti09" name="dis_Text032__graffiti09" type="NODE">
+        <instance_controller url="#Armature_dis_Text032__graffiti09-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti09" target="#graffiti09" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text033__graffiti010" name="dis_Text033__graffiti010" type="NODE">
+        <instance_controller url="#Armature_dis_Text033__graffiti010-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti010" target="#graffiti010" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text034__graffiti011" name="dis_Text034__graffiti011" type="NODE">
+        <instance_controller url="#Armature_dis_Text034__graffiti011-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti011" target="#graffiti011" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text035__graffiti012" name="dis_Text035__graffiti012" type="NODE">
+        <instance_controller url="#Armature_dis_Text035__graffiti012-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti012" target="#graffiti012" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text036__graffiti013" name="dis_Text036__graffiti013" type="NODE">
+        <instance_controller url="#Armature_dis_Text036__graffiti013-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti013" target="#graffiti013" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text038__graffiti015" name="dis_Text038__graffiti015" type="NODE">
+        <instance_controller url="#Armature_dis_Text038__graffiti015-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti015" target="#graffiti015" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text039__graffiti014" name="dis_Text039__graffiti014" type="NODE">
+        <instance_controller url="#Armature_dis_Text039__graffiti014-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti014" target="#graffiti014" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="dis_Text050__graffiti07" name="dis_Text050__graffiti07" type="NODE">
+        <instance_controller url="#Armature_dis_Text050__graffiti07-mesh">
+          <skeleton>#Armature_Lft_StaffRoll00</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="graffiti07" target="#graffiti07" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

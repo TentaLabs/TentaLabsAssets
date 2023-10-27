@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="IronBrown_Alb">
+      <init_from>IronBrown_Alb.png</init_from>
+    </image>
+    <image id="IronBrown_Mtl">
+      <init_from>IronBrown_Mtl.png</init_from>
+    </image>
+    <image id="IronBrown_Nrm">
+      <init_from>IronBrown_Nrm.png</init_from>
+    </image>
+    <image id="IronBrown_Rgh">
+      <init_from>IronBrown_Rgh.png</init_from>
+    </image>
+    <image id="RopeNetLoop_Alb">
+      <init_from>RopeNetLoop_Alb.png</init_from>
+    </image>
+    <image id="RopeNetLoop_Nrm">
+      <init_from>RopeNetLoop_Nrm.png</init_from>
+    </image>
+    <image id="RopeNetLoop_Rgh">
+      <init_from>RopeNetLoop_Rgh.png</init_from>
+    </image>
+    <image id="SquidSignBoard_Alb">
+      <init_from>SquidSignBoard_Alb.png</init_from>
+    </image>
+    <image id="SquidSignBoard_Mtl">
+      <init_from>SquidSignBoard_Mtl.png</init_from>
+    </image>
+    <image id="SquidSignBoard_Nrm">
+      <init_from>SquidSignBoard_Nrm.png</init_from>
+    </image>
+    <image id="SquidSignBoard_Rgh">
+      <init_from>SquidSignBoard_Rgh.png</init_from>
+    </image>
+    <image id="WireNet_Alb">
+      <init_from>WireNet_Alb.png</init_from>
+    </image>
+    <image id="WireNet_Mtl">
+      <init_from>WireNet_Mtl.png</init_from>
+    </image>
+    <image id="WireNet_Nrm">
+      <init_from>WireNet_Nrm.png</init_from>
+    </image>
+    <image id="WireNet_Rgh">
+      <init_from>WireNet_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="RopeNetLoop_bt">
+      <instance_effect url="#Effect_RopeNetLoop_bt" />
+    </material>
+    <material id="WireNet_bt">
+      <instance_effect url="#Effect_WireNet_bt" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_RopeNetLoop_bt">
+      <profile_COMMON>
+        <newparam sid="surface_RopeNetLoop_bt-diffuse">
+          <surface type="2D">
+            <init_from>RopeNetLoop_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RopeNetLoop_bt-diffuse">
+          <sampler2D>
+            <source>surface_RopeNetLoop_bt-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_RopeNetLoop_bt-bump">
+          <surface type="2D">
+            <init_from>RopeNetLoop_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RopeNetLoop_bt-bump">
+          <sampler2D>
+            <source>surface_RopeNetLoop_bt-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_RopeNetLoop_bt-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_RopeNetLoop_bt-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WireNet_bt">
+      <profile_COMMON>
+        <newparam sid="surface_WireNet_bt-diffuse">
+          <surface type="2D">
+            <init_from>WireNet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WireNet_bt-diffuse">
+          <sampler2D>
+            <source>surface_WireNet_bt-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WireNet_bt-bump">
+          <surface type="2D">
+            <init_from>WireNet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WireNet_bt-bump">
+          <sampler2D>
+            <source>surface_WireNet_bt-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WireNet_bt-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WireNet_bt-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Pipe__WireNet_bt-mesh" name="Pipe__WireNet_bt">
+      <mesh>
+        <source id="Pipe__WireNet_bt-position">
+          <float_array id="Pipe__WireNet_bt-position-array" count="447">-204.8568 156.2566 -206.0004 -263.643 120.7426 -206 -204.8474 157.0219 -205.7075 -264.1776 121.2903 -205.7071 -204.2997 157.5565 -205.0004 -264.9429 121.2997 -205 -203.5344 157.5471 -204.2933 -265.4907 120.7651 -204.2929 -202.9998 156.9994 -204.0004 -265.5 119.9998 -204 -203.0092 156.2341 -204.2933 -264.9655 119.4521 -204.2929 -203.5569 155.6995 -205.0004 -264.2001 119.4427 -205 -204.3222 155.7088 -205.7075 -263.6524 119.9773 -205.7071 -204.8568 156.2566 -206.0004 -263.643 120.7426 -206 -204.8568 156.2566 -244 -204.8568 156.2566 -206.0004 -204.8474 157.0219 -244.2929 -204.8474 157.0219 -205.7075 -204.2997 157.5565 -245 -204.2997 157.5565 -205.0004 -203.5344 157.5471 -245.7071 -203.5344 157.5471 -204.2933 -202.9998 156.9994 -246 -202.9998 156.9994 -204.0004 -203.0092 156.2341 -245.7071 -203.0092 156.2341 -204.2933 -203.5569 155.6995 -245 -203.5569 155.6995 -205.0004 -204.3222 155.7088 -244.2929 -204.3222 155.7088 -205.7075 -204.8568 156.2566 -244 -204.8568 156.2566 -206.0004 -263.643 120.7426 -244 -204.8568 156.2566 -244 -264.1776 121.2903 -244.2929 -204.8474 157.0219 -244.2929 -264.9429 121.2997 -245 -204.2997 157.5565 -245 -265.4907 120.7651 -245.7071 -203.5344 157.5471 -245.7071 -265.5 119.9998 -246 -202.9998 156.9994 -246 -264.9655 119.4521 -245.7071 -203.0092 156.2341 -245.7071 -264.2001 119.4427 -245 -203.5569 155.6995 -245 -263.6524 119.9773 -244.2929 -204.3222 155.7088 -244.2929 -263.643 120.7426 -244 -204.8568 156.2566 -244 -263.643 120.7426 -206 -263.643 120.7426 -244 -264.1776 121.2903 -205.7071 -264.1776 121.2903 -244.2929 -264.9429 121.2997 -205 -264.9429 121.2997 -245 -265.4907 120.7651 -204.2929 -265.4907 120.7651 -245.7071 -265.5 119.9998 -204 -265.5 119.9998 -246 -264.9655 119.4521 -204.2929 -264.9655 119.4521 -245.7071 -264.2001 119.4427 -205 -264.2001 119.4427 -245 -263.6524 119.9773 -205.7071 -263.6524 119.9773 -244.2929 -263.643 120.7426 -206 -263.643 120.7426 -244 -264.1776 121.2903 -205.7071 -264.1776 121.2903 -205.7071 -204.2997 157.5565 -205.0004 -204.2997 157.5565 -205.0004 -264.9429 121.2997 -205 -264.9429 121.2997 -205 -265.4907 120.7651 -204.2929 -265.4907 120.7651 -204.2929 -203.137 156.8493 -204.1834 -203.137 156.8493 -204.1834 -264.91 119.6374 -204.4132 -264.91 119.6374 -204.4132 -204.3159 156.0912 -205.5597 -204.3159 156.0912 -205.5597 -204.3159 156.0912 -205.5597 -204.3159 156.0912 -205.5597 -263.6477 120.3599 -205.8536 -263.6477 120.3599 -205.8536 -263.6477 120.3599 -205.8536 -263.6477 120.3599 -205.8536 -204.654 156.2425 -244.1831 -204.654 156.2425 -244.1831 -204.654 156.2425 -244.1831 -204.654 156.2425 -244.1831 -204.2997 157.5565 -245 -204.2997 157.5565 -245 -203.5344 157.5471 -245.7071 -203.5344 157.5471 -245.7071 -203.1426 156.3874 -245.6402 -203.1426 156.3874 -245.6402 -203.1426 156.3874 -245.6402 -263.7802 120.5925 -244.1831 -263.7802 120.5925 -244.1831 -263.7802 120.5925 -244.1831 -263.7802 120.5925 -244.1831 -263.7802 120.5925 -244.1831 -264.9429 121.2997 -245 -264.9429 121.2997 -245 -265.4907 120.7651 -245.7071 -265.4907 120.7651 -245.7071 -264.8365 119.6196 -245.5252 -264.8365 119.6196 -245.5252 -264.1776 121.2903 -205.7071 -264.1776 121.2903 -205.7071 -204.2997 157.5565 -205.0004 -204.2997 157.5565 -205.0004 -264.9429 121.2997 -205 -264.9429 121.2997 -205 -265.4907 120.7651 -204.2929 -265.4907 120.7651 -204.2929 -203.137 156.8493 -204.1834 -203.137 156.8493 -204.1834 -264.4367 119.9084 -204.9533 -264.4367 119.9084 -204.9533 -264.4367 119.9084 -204.9533 -264.4367 119.9084 -204.9533 -204.3159 156.0912 -205.5597 -204.3159 156.0912 -205.5597 -204.3159 156.0912 -205.5597 -204.3159 156.0912 -205.5597 -204.654 156.2425 -244.1831 -204.654 156.2425 -244.1831 -204.654 156.2425 -244.1831 -204.654 156.2425 -244.1831 -204.2997 157.5565 -245 -204.2997 157.5565 -245 -203.1916 156.5324 -245.6485 -203.1916 156.5324 -245.6485 -263.9982 120.7251 -244.3362 -263.9982 120.7251 -244.3362 -263.9982 120.7251 -244.3362 -263.9982 120.7251 -244.3362 -263.9982 120.7251 -244.3362 -265.4907 120.7651 -245.7071 -265.4907 120.7651 -245.7071 -264.8365 119.6196 -245.5252 -264.8365 119.6196 -245.5252</float_array>
+          <technique_common>
+            <accessor source="#Pipe__WireNet_bt-position-array" count="149" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pipe__WireNet_bt-normal">
+          <float_array id="Pipe__WireNet_bt-normal-array" count="447">-0.01761252 0.02739726 -1 0.01761252 -0.02739726 -1 -0.6223092 0.6771037 -0.3953033 -0.183953 0.8727984 -0.4520548 -0.3894325 0.9119374 0.1272016 -0.5225049 0.8454012 0.1193738 0.01174168 0.7886497 0.6144814 -0.62818 0.4657534 0.6223092 -0.02544031 0.04305284 0.9980431 0.02544031 -0.04305284 0.9980431 0.62818 -0.4657534 0.6223092 -0.01174168 -0.7886497 0.6144814 0.5225049 -0.8454012 0.1193738 0.3894325 -0.9119374 0.1272016 0.183953 -0.8727984 -0.4520548 0.6223092 -0.6771037 -0.3953033 -0.01761252 0.02739726 -1 0.01761252 -0.02739726 -1 -0.9275929 -0.37182 0 -0.9275929 -0.37182 0 -0.6223092 0.6771037 0.3953033 -0.6223092 0.6771037 -0.3953033 -0.3894325 0.9119374 -0.1272016 -0.3894325 0.9119374 0.1272016 0.01174168 0.7886497 -0.6144814 0.01174168 0.7886497 0.6144814 0.9275929 0.37182 0 0.9275929 0.37182 0 0.62818 -0.4657534 -0.6223092 0.62818 -0.4657534 0.6223092 0.5225049 -0.8454012 -0.1193738 0.5225049 -0.8454012 0.1193738 0.183953 -0.8727984 0.4520548 0.183953 -0.8727984 -0.4520548 -0.9275929 -0.37182 0 -0.9275929 -0.37182 0 0.01761252 -0.02739726 1 -0.01761252 0.02739726 1 -0.183953 0.8727984 0.4520548 -0.6223092 0.6771037 0.3953033 -0.5225049 0.8454012 -0.1193738 -0.3894325 0.9119374 -0.1272016 -0.62818 0.4657534 -0.6223092 0.01174168 0.7886497 -0.6144814 0.02544031 -0.04305284 -0.9980431 -0.02544031 0.04305284 -0.9980431 -0.01174168 -0.7886497 -0.6144814 0.62818 -0.4657534 -0.6223092 0.3894325 -0.9119374 -0.1272016 0.5225049 -0.8454012 -0.1193738 0.6223092 -0.6771037 0.3953033 0.183953 -0.8727984 0.4520548 0.01761252 -0.02739726 1 -0.01761252 0.02739726 1 0.9275929 0.37182 0 0.9275929 0.37182 0 -0.183953 0.8727984 -0.4520548 -0.183953 0.8727984 0.4520548 -0.5225049 0.8454012 0.1193738 -0.5225049 0.8454012 -0.1193738 -0.62818 0.4657534 0.6223092 -0.62818 0.4657534 -0.6223092 -0.9275929 -0.37182 0 -0.9275929 -0.37182 0 -0.01174168 -0.7886497 0.6144814 -0.01174168 -0.7886497 -0.6144814 0.3894325 -0.9119374 0.1272016 0.3894325 -0.9119374 -0.1272016 0.6223092 -0.6771037 -0.3953033 0.6223092 -0.6771037 0.3953033 0.9275929 0.37182 0 0.9275929 0.37182 0 -0.05479452 0.7475538 -0.6614481 -0.05479452 0.7475538 -0.6614481 -0.3405088 0.8923679 0.295499 -0.3405088 0.8923679 0.295499 -0.516634 0.8551859 0.03131115 -0.516634 0.8551859 0.03131115 -0.5322896 0.02544031 0.8454012 -0.5322896 0.02544031 0.8454012 0.5107632 0.01369863 0.8590998 0.5107632 0.01369863 0.8590998 -0.03522505 -0.7534246 0.6555773 -0.03522505 -0.7534246 0.6555773 0.1311155 -0.8101761 -0.5714286 0.1311155 -0.8101761 -0.5714286 0.1311155 -0.8101761 -0.5714286 0.1311155 -0.8101761 -0.5714286 0.6379648 -0.7162427 -0.2837573 0.6379648 -0.7162427 -0.2837573 0.6379648 -0.7162427 -0.2837573 0.6379648 -0.7162427 -0.2837573 -0.1311155 -0.6007828 0.7886497 -0.1311155 -0.6007828 0.7886497 -0.1311155 -0.6007828 0.7886497 -0.1311155 -0.6007828 0.7886497 -0.5146771 0.8571429 -0.01174168 -0.5146771 0.8571429 -0.01174168 0.3052838 0.481409 -0.8219178 0.3052838 0.481409 -0.8219178 0.778865 -0.5812133 0.2328767 0.02739726 -0.04892368 -0.9980431 0.778865 -0.5812133 0.2328767 0.6575342 -0.3111546 0.6868885 0.6575342 -0.3111546 0.6868885 0.8688846 0.4951076 0 0.6575342 -0.3111546 0.6868885 0.6575342 -0.3111546 0.6868885 -0.4011742 0.8864971 0.2289628 -0.4011742 0.8864971 0.2289628 -0.5088063 -0.02348337 -0.8610567 -0.5088063 -0.02348337 -0.8610567 -0.005870841 -0.7749511 -0.6320939 -0.005870841 -0.7749511 -0.6320939 0.4305284 0.1800391 -0.8845401 0.4305284 0.1800391 -0.8845401 -0.3307241 0.8982387 0.2876712 -0.3307241 0.8982387 0.2876712 -0.5264188 0.849315 0.02348337 -0.5264188 0.849315 0.02348337 -0.334638 -0.332681 0.8806262 -0.334638 -0.332681 0.8806262 0.5107632 0.02935421 0.8590998 0.5107632 0.02935421 0.8590998 0.2270059 -0.8825831 0.4109589 0.2270059 -0.8825831 0.4109589 0.2270059 -0.8825831 0.4109589 0.2270059 -0.8825831 0.4109589 0.1272016 -0.8043053 -0.5792564 0.1272016 -0.8043053 -0.5792564 0.1272016 -0.8043053 -0.5792564 0.1272016 -0.8043053 -0.5792564 -0.08806262 -0.6516634 0.7534246 -0.08806262 -0.6516634 0.7534246 -0.08806262 -0.6516634 0.7534246 -0.08806262 -0.6516634 0.7534246 -0.1585127 0.853229 -0.4990215 -0.1585127 0.853229 -0.4990215 0.5459883 -0.1076321 -0.8317025 0.5459883 -0.1076321 -0.8317025 0.3816047 0.3150685 0.8688846 0.3816047 0.3150685 0.8688846 0.9843444 -0.1800391 0.007827789 0.3816047 0.3150685 0.8688846 0.3816047 0.3150685 0.8688846 -0.6379648 0.4422701 -0.630137 -0.6379648 0.4422701 -0.630137 0.01761252 -0.7886497 -0.6144814 0.01761252 -0.7886497 -0.6144814</float_array>
+          <technique_common>
+            <accessor source="#Pipe__WireNet_bt-normal-array" count="149" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pipe__WireNet_bt-texcoord">
+          <float_array id="Pipe__WireNet_bt-texcoord-array" count="298">1.521484 1.444336 1.521484 -0.9453125 1.578125 1.455322 1.578125 -0.9570313 1.635742 1.481934 1.635742 -0.9833984 1.692383 1.508789 1.692383 -1.009766 1.748047 1.519531 1.748047 -1.021484 1.804688 1.508789 1.804688 -1.009766 1.860352 1.481934 1.860352 -0.9833984 1.916992 1.455322 1.916992 -0.9570313 1.977539 1.444336 1.977539 -0.9453125 1.526367 1.423828 1.526367 -0.046875 1.582031 1.43457 1.582031 -0.05761719 1.637695 1.460205 1.637695 -0.08300781 1.694336 1.48584 1.694336 -0.1083984 1.748047 1.496582 1.748047 -0.1191406 1.802734 1.48584 1.802734 -0.1083984 1.857422 1.460205 1.857422 -0.08300781 1.914063 1.43457 1.914063 -0.05761719 1.972656 1.424072 1.972656 -0.046875 1.977539 -0.9453125 1.977539 1.444336 1.916992 -0.9570313 1.916992 1.455322 1.860352 -0.9833984 1.860352 1.481934 1.804688 -1.009766 1.804688 1.508789 1.748047 -1.021484 1.748047 1.519531 1.692383 -1.009766 1.692383 1.508789 1.635742 -0.9833984 1.635742 1.481934 1.578125 -0.9570313 1.578125 1.455322 1.521484 -0.9453125 1.521484 1.444336 1.972656 -0.046875 1.972656 1.424072 1.914063 -0.05761719 1.914063 1.43457 1.857422 -0.08300781 1.857422 1.460205 1.802734 -0.1083984 1.802734 1.48584 1.748047 -0.1191406 1.748047 1.496582 1.694336 -0.1083984 1.694336 1.48584 1.637695 -0.08300781 1.637695 1.460205 1.582031 -0.05761719 1.582031 1.43457 1.526367 -0.046875 1.526367 1.424072 1.578125 -0.9570313 1.914063 -0.05761719 1.635742 1.481934 1.637695 -0.08300781 1.635742 -0.9833984 1.857422 -0.08300781 1.692383 -1.009766 1.802734 -0.1083984 1.754883 1.512695 1.754883 -0.1123047 1.802734 -1.005859 1.695313 -0.1044922 1.532227 1.446289 1.914063 1.462158 1.537109 -0.04882813 1.910156 -0.06445313 1.521484 -0.9453125 1.947266 -0.9511719 1.972656 -0.046875 1.553711 -0.05273438 1.540039 1.426514 1.943359 1.429199 1.962891 1.447021 1.549805 1.449707 1.637695 1.460205 1.860352 1.481934 1.694336 1.48584 1.804688 1.508789 1.795898 1.483398 1.699219 1.505859 1.699219 1.505859 1.962891 -0.9482422 1.549805 -0.9511719 1.958008 1.426758 1.958008 1.426758 1.553711 1.429199 1.860352 -0.9833984 1.857422 1.460205 1.804688 -1.009766 1.802734 1.48584 1.6875 -1.001953 1.689453 1.479248 1.578125 -0.9570313 1.914063 -0.05761719 1.635742 1.481934 1.637695 -0.08300781 1.635742 -0.9833984 1.857422 -0.08300781 1.692383 -1.009766 1.802734 -0.1083984 1.754883 1.512695 1.754883 -0.1123047 1.521484 -0.9453125 1.856445 -0.9853516 1.972656 -0.046875 1.642578 -0.08496094 1.532227 1.446289 1.914063 1.462158 1.537109 -0.04882813 1.910156 -0.06445313 1.540039 1.426514 1.943359 1.429199 1.962891 1.447021 1.549805 1.449707 1.637695 1.460205 1.860352 1.481934 1.783203 1.483643 1.711914 1.506348 1.943359 -0.9550781 1.549805 -0.9511719 1.939453 1.432861 1.939453 1.432861 1.553711 1.429199 1.804688 -1.009766 1.802734 1.48584 1.6875 -1.001953 1.689453 1.479248</float_array>
+          <technique_common>
+            <accessor source="#Pipe__WireNet_bt-texcoord-array" count="149" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Pipe__WireNet_bt-vertex">
+          <input semantic="POSITION" source="#Pipe__WireNet_bt-position" />
+        </vertices>
+        <triangles material="WireNet_bt" count="64">
+          <input semantic="VERTEX" source="#Pipe__WireNet_bt-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Pipe__WireNet_bt-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Pipe__WireNet_bt-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 2 2 2 3 3 3 4 4 4 3 3 3 5 5 5 4 4 4 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 6 6 6 7 7 7 8 8 8 7 7 7 9 9 9 8 8 8 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 10 10 10 11 11 11 12 12 12 11 11 11 13 13 13 12 12 12 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 14 14 14 15 15 15 16 16 16 15 15 15 17 17 17 16 16 16 18 18 18 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 26 26 26 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 30 30 30 31 31 31 32 32 32 31 31 31 33 33 33 32 32 32 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 38 38 38 39 39 39 40 40 40 39 39 39 41 41 41 40 40 40 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 42 42 42 43 43 43 44 44 44 43 43 43 45 45 45 44 44 44 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 46 46 46 47 47 47 48 48 48 47 47 47 49 49 49 48 48 48 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 50 50 50 51 51 51 52 52 52 51 51 51 53 53 53 52 52 52 54 54 54 55 55 55 56 56 56 55 55 55 57 57 57 56 56 56 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 58 58 58 59 59 59 60 60 60 59 59 59 61 61 61 60 60 60 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 62 62 62 63 63 63 64 64 64 63 63 63 65 65 65 64 64 64 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 66 66 66 67 67 67 68 68 68 67 67 67 69 69 69 68 68 68 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="RopeNet1__RopeNetLoop_bt-mesh" name="RopeNet1__RopeNetLoop_bt">
+      <mesh>
+        <source id="RopeNet1__RopeNetLoop_bt-position">
+          <float_array id="RopeNet1__RopeNetLoop_bt-position-array" count="72">-264.5715 120.3712 -245 -203.9285 156.6284 -245 -264.5715 120.3712 -205 -203.9285 156.6284 -205 -264.5715 120.3712 -245 -264.5715 120.3712 -205 -203.9285 156.6284 -245 -203.9285 156.6284 -205 -264.5715 120.3712 -245 -264.5715 120.3712 -245 -203.9285 156.6284 -245 -203.9285 156.6284 -245 -264.5715 120.3712 -205 -264.5715 120.3712 -205 -203.9285 156.6284 -205 -203.9285 156.6284 -205 -264.5715 120.3712 -245 -264.5715 120.3712 -245 -203.9285 156.6284 -245 -203.9285 156.6284 -245 -264.5715 120.3712 -205 -264.5715 120.3712 -205 -203.9285 156.6284 -205 -203.9285 156.6284 -205</float_array>
+          <technique_common>
+            <accessor source="#RopeNet1__RopeNetLoop_bt-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RopeNet1__RopeNetLoop_bt-normal">
+          <float_array id="RopeNet1__RopeNetLoop_bt-normal-array" count="72">0.5127202 -0.8590998 0 0.5127202 -0.8590998 0 0.5127202 -0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 -0.5127202 0.8590998 0 -0.5127202 0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0 0.5127202 -0.8590998 0 -0.5127202 0.8590998 0</float_array>
+          <technique_common>
+            <accessor source="#RopeNet1__RopeNetLoop_bt-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RopeNet1__RopeNetLoop_bt-texcoord">
+          <float_array id="RopeNet1__RopeNetLoop_bt-texcoord-array" count="48">8.874996 3.265728 8.874996 0 10.875 3.265728 10.875 0 8.874996 0 10.875 0 8.874996 3.265728 10.875 3.265728 8.874996 3.265728 8.874996 0 8.874996 0 8.874996 3.265728 10.875 3.265728 10.875 0 10.875 0 10.875 3.265728 8.874996 3.265728 8.874996 0 8.874996 0 8.874996 3.265728 10.875 3.265728 10.875 0 10.875 0 10.875 3.265728</float_array>
+          <technique_common>
+            <accessor source="#RopeNet1__RopeNetLoop_bt-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="RopeNet1__RopeNetLoop_bt-vertex">
+          <input semantic="POSITION" source="#RopeNet1__RopeNetLoop_bt-position" />
+        </vertices>
+        <triangles material="RopeNetLoop_bt" count="4">
+          <input semantic="VERTEX" source="#RopeNet1__RopeNetLoop_bt-vertex" offset="0" />
+          <input semantic="NORMAL" source="#RopeNet1__RopeNetLoop_bt-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#RopeNet1__RopeNetLoop_bt-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Pipe__WireNet_bt-mesh">
+      <skin source="#Pipe__WireNet_bt-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Pipe__WireNet_bt-mesh-joint">
+          <Name_array id="Pipe__WireNet_bt-mesh-joint-array" count="1">Lft_AthleticAmiFloorD</Name_array>
+          <technique_common>
+            <accessor source="#Pipe__WireNet_bt-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pipe__WireNet_bt-mesh-inv_bind_matrix">
+          <float_array id="Pipe__WireNet_bt-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Pipe__WireNet_bt-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Pipe__WireNet_bt-mesh-weight">
+          <float_array id="Pipe__WireNet_bt-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Pipe__WireNet_bt-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Pipe__WireNet_bt-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Pipe__WireNet_bt-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="149">
+          <input semantic="JOINT" source="#Pipe__WireNet_bt-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Pipe__WireNet_bt-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_RopeNet1__RopeNetLoop_bt-mesh">
+      <skin source="#RopeNet1__RopeNetLoop_bt-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="RopeNet1__RopeNetLoop_bt-mesh-joint">
+          <Name_array id="RopeNet1__RopeNetLoop_bt-mesh-joint-array" count="1">Lft_AthleticAmiFloorD</Name_array>
+          <technique_common>
+            <accessor source="#RopeNet1__RopeNetLoop_bt-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RopeNet1__RopeNetLoop_bt-mesh-inv_bind_matrix">
+          <float_array id="RopeNet1__RopeNetLoop_bt-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#RopeNet1__RopeNetLoop_bt-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RopeNet1__RopeNetLoop_bt-mesh-weight">
+          <float_array id="RopeNet1__RopeNetLoop_bt-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#RopeNet1__RopeNetLoop_bt-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#RopeNet1__RopeNetLoop_bt-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#RopeNet1__RopeNetLoop_bt-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#RopeNet1__RopeNetLoop_bt-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#RopeNet1__RopeNetLoop_bt-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_AthleticAmiFloorD" name="Lft_AthleticAmiFloorD" sid="Lft_AthleticAmiFloorD" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Pipe__WireNet_bt" name="Pipe__WireNet_bt" type="NODE">
+        <instance_controller url="#Armature_Pipe__WireNet_bt-mesh">
+          <skeleton>#Armature_Lft_AthleticAmiFloorD</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WireNet_bt" target="#WireNet_bt" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="RopeNet1__RopeNetLoop_bt" name="RopeNet1__RopeNetLoop_bt" type="NODE">
+        <instance_controller url="#Armature_RopeNet1__RopeNetLoop_bt-mesh">
+          <skeleton>#Armature_Lft_AthleticAmiFloorD</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RopeNetLoop_bt" target="#RopeNetLoop_bt" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MetalShutterGray_Alb">
+      <init_from>MetalShutterGray_Alb.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Nrm">
+      <init_from>MetalShutterGray_Nrm.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Rgh">
+      <init_from>MetalShutterGray_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="WallAluminum_Alb">
+      <init_from>WallAluminum_Alb.png</init_from>
+    </image>
+    <image id="WallAluminum_Nrm">
+      <init_from>WallAluminum_Nrm.png</init_from>
+    </image>
+    <image id="WallAluminum_Rgh">
+      <init_from>WallAluminum_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MetalShutterGray_gp">
+      <instance_effect url="#Effect_MetalShutterGray_gp" />
+    </material>
+    <material id="WallAluminum">
+      <instance_effect url="#Effect_WallAluminum" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MetalShutterGray_gp">
+      <profile_COMMON>
+        <newparam sid="surface_MetalShutterGray_gp-diffuse">
+          <surface type="2D">
+            <init_from>MetalShutterGray_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalShutterGray_gp-diffuse">
+          <sampler2D>
+            <source>surface_MetalShutterGray_gp-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_MetalShutterGray_gp-bump">
+          <surface type="2D">
+            <init_from>MetalShutterGray_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalShutterGray_gp-bump">
+          <sampler2D>
+            <source>surface_MetalShutterGray_gp-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MetalShutterGray_gp-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_MetalShutterGray_gp-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallAluminum">
+      <profile_COMMON>
+        <newparam sid="surface_WallAluminum-diffuse">
+          <surface type="2D">
+            <init_from>WallAluminum_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallAluminum-diffuse">
+          <sampler2D>
+            <source>surface_WallAluminum-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallAluminum-bump">
+          <surface type="2D">
+            <init_from>WallAluminum_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallAluminum-bump">
+          <sampler2D>
+            <source>surface_WallAluminum-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallAluminum-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallAluminum-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface12222__WallAluminum-mesh" name="polySurface12222__WallAluminum">
+      <mesh>
+        <source id="polySurface12222__WallAluminum-position">
+          <float_array id="polySurface12222__WallAluminum-position-array" count="72">-4.5 1.100002 -29.49997 -4.5 1.100002 29.50003 -4.5 39.6 -29.49997 -4.5 39.6 29.50003 -4.5 39.6 -29.49997 -4.5 39.6 29.50003 4.5 39.6 -29.49997 4.5 39.6 29.50003 4.5 39.6 -29.49997 4.5 39.6 29.50003 4.5 1.100002 -29.49997 4.5 1.100002 29.50003 4.5 1.100002 -29.49997 4.5 1.100002 29.50003 -4.5 1.100002 -29.49997 -4.5 1.100002 29.50003 -4.5 1.100002 29.50003 4.5 1.100002 29.50003 -4.5 39.6 29.50003 4.5 39.6 29.50003 4.5 1.100002 -29.49997 -4.5 1.100002 -29.49997 4.5 39.6 -29.49997 -4.5 39.6 -29.49997</float_array>
+          <technique_common>
+            <accessor source="#polySurface12222__WallAluminum-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12222__WallAluminum-normal">
+          <float_array id="polySurface12222__WallAluminum-normal-array" count="72">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#polySurface12222__WallAluminum-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12222__WallAluminum-texcoord">
+          <float_array id="polySurface12222__WallAluminum-texcoord-array" count="48">3.173828 0.9875031 1.699219 0.9875259 3.173828 0.0004882813 1.699219 0.0004882813 0.7607422 1.476807 0.7607422 0.001953125 0.9858398 1.476807 0.9858398 0.001953125 0 0.0004882813 1.474609 0.0004882813 0 0.9875183 1.474609 0.9875259 0.7651367 1.476807 0.7651367 0.001953125 0.9902344 1.476807 0.9902344 0.001953125 1.699219 0.9875259 1.474609 0.9875259 1.699219 0.0004882813 1.474609 0.0004882813 3.398438 0.9875031 3.173828 0.9875031 3.398438 0 3.173828 0.0004882813</float_array>
+          <technique_common>
+            <accessor source="#polySurface12222__WallAluminum-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface12222__WallAluminum-vertex">
+          <input semantic="POSITION" source="#polySurface12222__WallAluminum-position" />
+        </vertices>
+        <triangles material="WallAluminum" count="12">
+          <input semantic="VERTEX" source="#polySurface12222__WallAluminum-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface12222__WallAluminum-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface12222__WallAluminum-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface12226__MetalShutterGray_gp-mesh" name="polySurface12226__MetalShutterGray_gp">
+      <mesh>
+        <source id="polySurface12226__MetalShutterGray_gp-position">
+          <float_array id="polySurface12226__MetalShutterGray_gp-position-array" count="864">2 0.1000061 -30 2 0.1000061 -27 2 40.10001 -30 2 40.10001 -27 5 40.10001 -30 5 40.10001 -27 5 0.1000061 -30 5 0.1000061 -27 2 0.1000061 -27 5 0.1000061 -27 2 40.10001 -27 5 40.10001 -27 5 0.1000061 -30 2 0.1000061 -30 5 40.10001 -30 2 40.10001 -30 -5 0.1000061 -30 -5 0.1000061 -27 -5 40.10001 -30 -5 40.10001 -27 -2 40.10001 -30 -2 40.10001 -27 -2 0.1000061 -30 -2 0.1000061 -27 -5 0.1000061 -27 -2 0.1000061 -27 -5 40.10001 -27 -2 40.10001 -27 -2 0.1000061 -30 -5 0.1000061 -30 -2 40.10001 -30 -5 40.10001 -30 2 37 27 2 40 27 2 37 -27 2 40 -27 5 37 -27 5 40 -27 5 37 27 5 40 27 2 40 27 5 40 27 2 40 -27 5 40 -27 5 37 27 2 37 27 5 37 -27 2 37 -27 -5 37 27 -5 40 27 -5 37.5 -27 -5 40 -27 -2 37 -27 -2 40 -27 -2 37 27 -2 40 27 -5 40 27 -2 40 27 -5 40 -27 -2 40 -27 -2 37 27 -5 37 27 -2 37 -27 -5 37.5 -27 -5 0.1000061 27 -5 0.1000061 30 -5 40.10001 27 -5 40.10001 30 -2 40.10001 27 -2 40.10001 30 -2 0.1000061 27 -2 0.1000061 30 -5 0.1000061 30 -2 0.1000061 30 -5 40.10001 30 -2 40.10001 30 -2 0.1000061 27 -5 0.1000061 27 -2 40.10001 27 -5 40.10001 27 2 0.1000061 27 2 0.1000061 30 2 40.10001 27 2 40.10001 30 5 40.10001 27 5 40.10001 30 5 0.1000061 27 5 0.1000061 30 2 0.1000061 30 5 0.1000061 30 2 40.10001 30 5 40.10001 30 5 0.1000061 27 2 0.1000061 27 5 40.10001 27 2 40.10001 27 2 0.1000061 27 2 3.100006 27 2 0.1000061 -27 2 3.100006 -27 5 0.1000061 -27 5 3.100006 -27 5 0.1000061 27 5 3.100006 27 2 3.100006 27 5 3.100006 27 2 3.100006 -27 5 3.100006 -27 5 0.1000061 27 2 0.1000061 27 5 0.1000061 -27 2 0.1000061 -27 -5 0.1000061 27 -5 3.100006 27 -5 0.1000061 -27 -5 3.100006 -27 -2 0.1000061 -27 -2 3.100006 -27 -2 0.1000061 27 -2 3.100006 27 -5 3.100006 27 -2 3.100006 27 -5 3.100006 -27 -2 3.100006 -27 -2 0.1000061 27 -5 0.1000061 27 -2 0.1000061 -27 -5 0.1000061 -27 -2 3.100006 -30 2 3.100006 -30 2 0.1000061 -30 -2 0.1000061 -30 -2 3.100006 -27 2 3.100006 -27 2 3.100006 -30 -2 3.100006 -30 -2 3.100006 -27 -2 3.100006 -30 -2 0.1000061 -30 -2 0.1000061 -27 2 3.100006 -30 2 3.100006 -27 2 0.1000061 -27 2 0.1000061 -30 -2 0.1000061 -27 -2 0.1000061 -30 2 0.1000061 -27 2 0.1000061 -30 5 0.1000061 -30 5 0.1000061 -27 2 0.1000061 -30 2 0.1000061 -27 -2 0.1000061 -30 -2 0.1000061 -27 -5 0.1000061 -30 -5 0.1000061 -27 2 3.100006 -27 -2 3.100006 -27 -2 0.1000061 -27 2 0.1000061 -27 -5 3.100006 -27 -2 3.100006 -27 -2 0.1000061 -27 -5 0.1000061 -27 2 3.100006 -27 5 3.100006 -27 5 0.1000061 -27 2 0.1000061 -27 -2 37 -30 -2 40 -30 2 37 -30 2 40 -30 -2 40 -27 -2 40 -30 -2 37 -30 -2 37 -27 2 37 -30 2 40 -30 2 37 -27 2 40 -27 -5 40.10001 -27 -2 40.10001 -27 -2 40.10001 -30 -5 40.10001 -30 2 40.10001 -27 5 40.10001 -27 5 40.10001 -30 2 40.10001 -30 -2 40 -30 -2 40 -27 2 40 -30 2 40 -27 -5 40 -27 -2 40 -27 -5 37.5 -27 -2 37 -27 2 40 -27 5 40 -27 5 37 -27 2 37 -27 2 37 -27 2 40 -27 -2 37 -27 -2 40 -27 -2 37 -30 2 37 -30 2 37 -27 -2 37 -27 -2 0.1000061 27 2 0.1000061 27 2 0.1000061 30 -2 0.1000061 30 5 0.1000061 27 5 0.1000061 30 2 0.1000061 27 2 0.1000061 30 -2 0.1000061 30 -5 0.1000061 30 -5 0.1000061 27 -2 0.1000061 27 2 0.1000061 30 2 3.100006 30 -2 0.1000061 30 -2 3.100006 30 -2 0.1000061 27 -2 3.100006 27 2 0.1000061 27 2 3.100006 27 2 3.100006 27 2 3.100006 30 2 0.1000061 30 2 0.1000061 27 -2 3.100006 30 -2 3.100006 27 -2 0.1000061 27 -2 0.1000061 30 5 3.100006 27 2 3.100006 27 2 0.1000061 27 5 0.1000061 27 -2 0.1000061 27 -2 3.100006 27 -5 0.1000061 27 -5 3.100006 27 -2 3.100006 27 -2 3.100006 30 2 3.100006 27 2 3.100006 30 -2 37 27 2 37 27 2 37 30 -2 37 30 2 40 30 -2 40 30 -2 37 30 2 37 30 -2 37 30 -2 40 30 -2 37 27 -2 40 27 2 40 27 2 40 30 2 37 30 2 37 27 5 37 27 5 40 27 2 37 27 2 40 27 -2 40 27 2 40 27 2 37 27 -2 37 27 -2 37 27 -2 40 27 -5 37 27 -5 40 27 2 40.10001 27 2 40.10001 30 5 40.10001 27 5 40.10001 30 -2 40 27 -2 40 30 2 40 27 2 40 30 -5 40.10001 30 -2 40.10001 30 -2 40.10001 27 -5 40.10001 27</float_array>
+          <technique_common>
+            <accessor source="#polySurface12226__MetalShutterGray_gp-position-array" count="288" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12226__MetalShutterGray_gp-normal">
+          <float_array id="polySurface12226__MetalShutterGray_gp-normal-array" count="864">-1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.08219178 -0.9960861 -0.003913894 -0.08219178 -0.9960861 -0.003913894 -0.08219178 -0.9960861 -0.003913894 -0.08219178 -0.9960861 -0.003913894 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface12226__MetalShutterGray_gp-normal-array" count="288" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12226__MetalShutterGray_gp-texcoord">
+          <float_array id="polySurface12226__MetalShutterGray_gp-texcoord-array" count="576">2.324219 -1.552734 2.324219 -1.642578 2.703125 -1.552734 2.703125 -1.642578 3.193359 -1.642578 3.193359 -1.552734 2.8125 -1.642578 2.8125 -1.552734 3.660156 -1.642578 3.660156 -1.552734 3.279297 -1.642578 3.279297 -1.552734 2.03125 -1.552734 2.03125 -1.642578 2.410156 -1.552734 2.410156 -1.642578 2.324219 -1.552734 2.324219 -1.642578 2.703125 -1.552734 2.703125 -1.642578 3.193359 -1.642578 3.193359 -1.552734 2.8125 -1.642578 2.8125 -1.552734 3.660156 -1.642578 3.660156 -1.552734 3.279297 -1.642578 3.279297 -1.552734 2.03125 -1.552734 2.03125 -1.642578 2.410156 -1.552734 2.410156 -1.642578 1.655273 -1.552734 1.655273 -1.642578 3.060547 -1.552734 3.060547 -1.642578 3.662109 -1.642578 3.662109 -1.552734 2.257813 -1.642578 2.257813 -1.552734 4.269531 -1.642578 4.269531 -1.552734 2.865234 -1.642578 2.865234 -1.552734 0.8828125 -1.552734 0.8828125 -1.642578 2.287109 -1.552734 2.287109 -1.642578 1.655273 -1.552734 1.655273 -1.642578 3.060547 -1.552734 3.060547 -1.642578 3.662109 -1.642578 3.662109 -1.552734 2.257813 -1.642578 2.257813 -1.552734 4.269531 -1.642578 4.269531 -1.552734 2.865234 -1.642578 2.865234 -1.552734 0.8828125 -1.552734 0.8828125 -1.642578 2.287109 -1.552734 2.287109 -1.642578 2.324219 -1.552734 2.324219 -1.642578 2.703125 -1.552734 2.703125 -1.642578 3.193359 -1.642578 3.193359 -1.552734 2.8125 -1.642578 2.8125 -1.552734 3.660156 -1.642578 3.660156 -1.552734 3.279297 -1.642578 3.279297 -1.552734 2.097656 -1.533203 2.097656 -1.611328 2.431641 -1.533203 2.431641 -1.611328 2.324219 -1.552734 2.324219 -1.642578 2.703125 -1.552734 2.703125 -1.642578 3.193359 -1.642578 3.193359 -1.552734 2.8125 -1.642578 2.8125 -1.552734 3.660156 -1.642578 3.660156 -1.552734 3.279297 -1.642578 3.279297 -1.552734 2.03125 -1.552734 2.03125 -1.642578 2.410156 -1.552734 2.410156 -1.642578 1.655273 -1.552734 1.655273 -1.642578 3.060547 -1.552734 3.060547 -1.642578 3.662109 -1.642578 3.662109 -1.552734 2.257813 -1.642578 2.257813 -1.552734 4.269531 -1.642578 4.269531 -1.552734 2.865234 -1.642578 2.865234 -1.552734 0.8828125 -1.552734 0.8828125 -1.642578 2.287109 -1.552734 2.287109 -1.642578 1.655273 -1.552734 1.655273 -1.642578 3.060547 -1.552734 3.060547 -1.642578 3.662109 -1.642578 3.662109 -1.552734 2.257813 -1.642578 2.257813 -1.552734 4.269531 -1.642578 4.269531 -1.552734 2.865234 -1.642578 2.865234 -1.552734 0.8828125 -1.552734 0.8828125 -1.642578 2.287109 -1.552734 2.287109 -1.642578 2.519531 -1.642578 2.578125 -1.642578 2.578125 -1.552734 2.519531 -1.552734 3.40625 -1.552734 3.347656 -1.552734 3.347656 -1.642578 3.40625 -1.642578 2.587891 -1.425781 2.648438 -1.425781 2.648438 -1.304688 2.587891 -1.304688 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 1.74707 -1.552734 1.74707 -1.642578 1.806641 -1.552734 1.806641 -1.642578 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.304688 2.648438 -1.425781 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.304688 2.648438 -1.425781 3.181641 -1.552734 3.121094 -1.552734 3.121094 -1.642578 3.181641 -1.642578 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 2.519531 -1.552734 2.519531 -1.642578 2.578125 -1.552734 2.578125 -1.642578 2.587891 -1.425781 2.648438 -1.425781 2.648438 -1.304688 2.587891 -1.304688 2.390625 -1.425781 2.390625 -1.304688 2.332031 -1.425781 2.332031 -1.304688 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 3.40625 -1.642578 3.40625 -1.552734 3.347656 -1.642578 3.347656 -1.552734 2.390625 -1.304688 2.332031 -1.304688 2.390625 -1.425781 2.332031 -1.425781 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 3.181641 -1.642578 3.181641 -1.552734 3.121094 -1.642578 3.121094 -1.552734 1.74707 -1.642578 1.806641 -1.642578 1.806641 -1.552734 1.74707 -1.552734 1.74707 -1.642578 1.806641 -1.642578 1.806641 -1.552734 1.74707 -1.552734 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.304688 2.648438 -1.425781 2.587891 -1.425781 2.648438 -1.425781 2.648438 -1.304688 2.587891 -1.304688 3.181641 -1.642578 3.181641 -1.552734 3.121094 -1.642578 3.121094 -1.552734 2.519531 -1.552734 2.519531 -1.642578 2.578125 -1.552734 2.578125 -1.642578 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 2.587891 -1.425781 2.648438 -1.425781 2.648438 -1.304688 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.425781 2.648438 -1.304688 2.587891 -1.304688 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.304688 2.648438 -1.425781 3.40625 -1.642578 3.40625 -1.552734 3.347656 -1.642578 3.347656 -1.552734 1.74707 -1.642578 1.806641 -1.642578 1.806641 -1.552734 1.74707 -1.552734 3.181641 -1.552734 3.121094 -1.552734 3.121094 -1.642578 3.181641 -1.642578 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.304688 2.648438 -1.425781 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.304688 2.648438 -1.425781 2.519531 -1.642578 2.578125 -1.642578 2.578125 -1.552734 2.519531 -1.552734 2.587891 -1.304688 2.587891 -1.425781 2.648438 -1.304688 2.648438 -1.425781 2.390625 -1.425781 2.390625 -1.304688 2.332031 -1.425781 2.332031 -1.304688 3.40625 -1.642578 3.40625 -1.552734 3.347656 -1.642578 3.347656 -1.552734 2.390625 -1.304688 2.332031 -1.304688 2.332031 -1.425781 2.390625 -1.425781</float_array>
+          <technique_common>
+            <accessor source="#polySurface12226__MetalShutterGray_gp-texcoord-array" count="288" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface12226__MetalShutterGray_gp-vertex">
+          <input semantic="POSITION" source="#polySurface12226__MetalShutterGray_gp-position" />
+        </vertices>
+        <triangles material="MetalShutterGray_gp" count="144">
+          <input semantic="VERTEX" source="#polySurface12226__MetalShutterGray_gp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface12226__MetalShutterGray_gp-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface12226__MetalShutterGray_gp-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 76 76 76 77 77 77 78 78 78 77 77 77 79 79 79 78 78 78 80 80 80 81 81 81 82 82 82 81 81 81 83 83 83 82 82 82 84 84 84 85 85 85 86 86 86 85 85 85 87 87 87 86 86 86 88 88 88 89 89 89 90 90 90 89 89 89 91 91 91 90 90 90 92 92 92 93 93 93 94 94 94 93 93 93 95 95 95 94 94 94 96 96 96 97 97 97 98 98 98 97 97 97 99 99 99 98 98 98 100 100 100 101 101 101 102 102 102 101 101 101 103 103 103 102 102 102 104 104 104 105 105 105 106 106 106 105 105 105 107 107 107 106 106 106 108 108 108 109 109 109 110 110 110 109 109 109 111 111 111 110 110 110 112 112 112 113 113 113 114 114 114 113 113 113 115 115 115 114 114 114 116 116 116 117 117 117 118 118 118 117 117 117 119 119 119 118 118 118 120 120 120 121 121 121 122 122 122 121 121 121 123 123 123 122 122 122 124 124 124 125 125 125 126 126 126 125 125 125 127 127 127 126 126 126 128 128 128 129 129 129 130 130 130 131 131 131 128 128 128 130 130 130 132 132 132 133 133 133 134 134 134 135 135 135 132 132 132 134 134 134 136 136 136 137 137 137 138 138 138 139 139 139 136 136 136 138 138 138 140 140 140 141 141 141 142 142 142 143 143 143 140 140 140 142 142 142 144 144 144 145 145 145 146 146 146 145 145 145 147 147 147 146 146 146 148 148 148 149 149 149 150 150 150 149 149 149 151 151 151 150 150 150 152 152 152 153 153 153 154 154 154 153 153 153 155 155 155 154 154 154 156 156 156 157 157 157 158 158 158 159 159 159 156 156 156 158 158 158 160 160 160 161 161 161 162 162 162 163 163 163 160 160 160 162 162 162 164 164 164 165 165 165 166 166 166 167 167 167 164 164 164 166 166 166 168 168 168 169 169 169 170 170 170 169 169 169 171 171 171 170 170 170 172 172 172 173 173 173 174 174 174 175 175 175 172 172 172 174 174 174 176 176 176 177 177 177 178 178 178 177 177 177 179 179 179 178 178 178 180 180 180 181 181 181 182 182 182 183 183 183 180 180 180 182 182 182 184 184 184 185 185 185 186 186 186 187 187 187 184 184 184 186 186 186 188 188 188 189 189 189 190 190 190 189 189 189 191 191 191 190 190 190 192 192 192 193 193 193 194 194 194 193 193 193 195 195 195 194 194 194 196 196 196 197 197 197 198 198 198 199 199 199 196 196 196 198 198 198 200 200 200 201 201 201 202 202 202 201 201 201 203 203 203 202 202 202 204 204 204 205 205 205 206 206 206 207 207 207 204 204 204 206 206 206 208 208 208 209 209 209 210 210 210 211 211 211 208 208 208 210 210 210 212 212 212 213 213 213 214 214 214 213 213 213 215 215 215 214 214 214 216 216 216 217 217 217 218 218 218 219 219 219 216 216 216 218 218 218 220 220 220 221 221 221 222 222 222 221 221 221 223 223 223 222 222 222 224 224 224 225 225 225 226 226 226 225 225 225 227 227 227 226 226 226 228 228 228 229 229 229 230 230 230 231 231 231 228 228 228 230 230 230 232 232 232 233 233 233 234 234 234 235 235 235 232 232 232 234 234 234 236 236 236 237 237 237 238 238 238 239 239 239 236 236 236 238 238 238 240 240 240 241 241 241 242 242 242 241 241 241 243 243 243 242 242 242 244 244 244 245 245 245 246 246 246 245 245 245 247 247 247 246 246 246 248 248 248 249 249 249 250 250 250 251 251 251 248 248 248 250 250 250 252 252 252 253 253 253 254 254 254 255 255 255 252 252 252 254 254 254 256 256 256 257 257 257 258 258 258 257 257 257 259 259 259 258 258 258 260 260 260 261 261 261 262 262 262 263 263 263 260 260 260 262 262 262 264 264 264 265 265 265 266 266 266 265 265 265 267 267 267 266 266 266 268 268 268 269 269 269 270 270 270 271 271 271 268 268 268 270 270 270 272 272 272 273 273 273 274 274 274 273 273 273 275 275 275 274 274 274 276 276 276 277 277 277 278 278 278 277 277 277 279 279 279 278 278 278 280 280 280 281 281 281 282 282 282 281 281 281 283 283 283 282 282 282 284 284 284 285 285 285 286 286 286 287 287 287 284 284 284 286 286 286 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface12222__WallAluminum-mesh">
+      <skin source="#polySurface12222__WallAluminum-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface12222__WallAluminum-mesh-joint">
+          <Name_array id="polySurface12222__WallAluminum-mesh-joint-array" count="1">Lft_OctCanon00_dis</Name_array>
+          <technique_common>
+            <accessor source="#polySurface12222__WallAluminum-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12222__WallAluminum-mesh-inv_bind_matrix">
+          <float_array id="polySurface12222__WallAluminum-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 -20.1 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface12222__WallAluminum-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12222__WallAluminum-mesh-weight">
+          <float_array id="polySurface12222__WallAluminum-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface12222__WallAluminum-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface12222__WallAluminum-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface12222__WallAluminum-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#polySurface12222__WallAluminum-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface12222__WallAluminum-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface12226__MetalShutterGray_gp-mesh">
+      <skin source="#polySurface12226__MetalShutterGray_gp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface12226__MetalShutterGray_gp-mesh-joint">
+          <Name_array id="polySurface12226__MetalShutterGray_gp-mesh-joint-array" count="1">Lft_OctCanon00_dis</Name_array>
+          <technique_common>
+            <accessor source="#polySurface12226__MetalShutterGray_gp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12226__MetalShutterGray_gp-mesh-inv_bind_matrix">
+          <float_array id="polySurface12226__MetalShutterGray_gp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 -20.1 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface12226__MetalShutterGray_gp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface12226__MetalShutterGray_gp-mesh-weight">
+          <float_array id="polySurface12226__MetalShutterGray_gp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface12226__MetalShutterGray_gp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface12226__MetalShutterGray_gp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface12226__MetalShutterGray_gp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="288">
+          <input semantic="JOINT" source="#polySurface12226__MetalShutterGray_gp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface12226__MetalShutterGray_gp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_OctCanon00_dis" name="Lft_OctCanon00_dis" sid="Lft_OctCanon00_dis" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 20.1 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface12222__WallAluminum" name="polySurface12222__WallAluminum" type="NODE">
+        <instance_controller url="#Armature_polySurface12222__WallAluminum-mesh">
+          <skeleton>#Armature_Lft_OctCanon00_dis</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallAluminum" target="#WallAluminum" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface12226__MetalShutterGray_gp" name="polySurface12226__MetalShutterGray_gp" type="NODE">
+        <instance_controller url="#Armature_polySurface12226__MetalShutterGray_gp-mesh">
+          <skeleton>#Armature_Lft_OctCanon00_dis</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MetalShutterGray_gp" target="#MetalShutterGray_gp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

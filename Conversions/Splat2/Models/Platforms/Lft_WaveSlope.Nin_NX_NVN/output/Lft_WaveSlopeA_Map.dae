@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Lft_WaveSlopeA_g00_b00_f00">
+      <init_from>Bake_Lft_WaveSlopeA_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Lft_WaveSlopeA_g00_b01_f00">
+      <init_from>Bake_Lft_WaveSlopeA_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Bake_Lft_WaveSlopeB_g00_b00_f00">
+      <init_from>Bake_Lft_WaveSlopeB_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Lft_WaveSlopeB_g00_b01_f00">
+      <init_from>Bake_Lft_WaveSlopeB_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Graffitiset_Alb">
+      <init_from>Graffitiset_Alb.png</init_from>
+    </image>
+    <image id="Graffitiset_Nrm">
+      <init_from>Graffitiset_Nrm.png</init_from>
+    </image>
+    <image id="Graffitiset_Rgh">
+      <init_from>Graffitiset_Rgh.png</init_from>
+    </image>
+    <image id="GroundPlywood_Alb">
+      <init_from>GroundPlywood_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Brown_Alb">
+      <init_from>GroundPlywood_Brown_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Nrm">
+      <init_from>GroundPlywood_Nrm.png</init_from>
+    </image>
+    <image id="GroundPlywood_Rgh">
+      <init_from>GroundPlywood_Rgh.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Alb">
+      <init_from>GroundRoughWood_Alb.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Nrm">
+      <init_from>GroundRoughWood_Nrm.png</init_from>
+    </image>
+    <image id="GroundRoughWood_Rgh">
+      <init_from>GroundRoughWood_Rgh.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Alb">
+      <init_from>WallMetalFenceSet_Alb.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Mtl">
+      <init_from>WallMetalFenceSet_Mtl.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Nrm">
+      <init_from>WallMetalFenceSet_Nrm.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Rgh">
+      <init_from>WallMetalFenceSet_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapSlope">
+      <instance_effect url="#Effect_MapSlope" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapSlope">
+      <profile_COMMON>
+        <newparam sid="surface_MapSlope-diffuse">
+          <surface type="2D">
+            <init_from>MapSlope_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapSlope-diffuse">
+          <sampler2D>
+            <source>surface_MapSlope-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapSlope-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Edge356__MapWall-mesh" name="Edge356__MapWall">
+      <mesh>
+        <source id="Edge356__MapWall-position">
+          <float_array id="Edge356__MapWall-position-array" count="72">260 0.008172066 -43.03049 189.1655 0 -32.91123 260 0 -40 190 0 -30 190 -30 -30 260 -30 -40 190 0 -30 260 0 -40 260 0.008172066 -43.03049 189.1655 0 -32.91123 190 -30 -30 260 -30 -40 260 0 -40 260 0 -40 190 0 -30 190 0 -30 260 0.008172066 -43.03049 189.1655 0 -32.91123 190 -30 -30 260 -30 -40 260 0 -40 260 0 -40 190 0 -30 190 0 -30</float_array>
+          <technique_common>
+            <accessor source="#Edge356__MapWall-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge356__MapWall-normal">
+          <float_array id="Edge356__MapWall-normal-array" count="72">0 1 0.001956947 0 1 0.001956947 0 1 0.001956947 0 1 0.001956947 0.1409002 0 0.9902152 0.1409002 0 0.9902152 0.1409002 0 0.9902152 0.1409002 0 0.9902152 -0.001956947 1 -0.001956947 0 1 0 0.1409002 0 0.9902152 0.1409002 0 0.9902152 -0.005870841 1 0.001956947 0.1409002 0 0.9902152 0 1 0 0.1409002 0 0.9902152 -0.001956947 1 -0.001956947 0 1 0 0.1409002 0 0.9902152 0.1409002 0 0.9902152 -0.005870841 1 0.001956947 0.1409002 0 0.9902152 0 1 0 0.1409002 0 0.9902152</float_array>
+          <technique_common>
+            <accessor source="#Edge356__MapWall-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge356__MapWall-texcoord">
+          <float_array id="Edge356__MapWall-texcoord-array" count="48">0.4189453 -1.265625 -0.08679199 2.275391 0.2675781 -1.265625 -0.2322998 2.233398 -0.5390625 2.258789 -0.5390625 -1.257813 0.9677734 2.258789 0.9677734 -1.257813 0.4189453 -1.265625 -0.08679199 2.275391 -0.5390625 2.258789 -0.5390625 -1.257813 0.2675781 -1.265625 0.9677734 -1.257813 -0.2322998 2.233398 0.9677734 2.258789 0.4189453 -1.265625 -0.08679199 2.275391 -0.5390625 2.258789 -0.5390625 -1.257813 0.2675781 -1.265625 0.9677734 -1.257813 -0.2322998 2.233398 0.9677734 2.258789</float_array>
+          <technique_common>
+            <accessor source="#Edge356__MapWall-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge356__MapWall-vertex">
+          <input semantic="POSITION" source="#Edge356__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="4">
+          <input semantic="VERTEX" source="#Edge356__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge356__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge356__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="hokoslopecol__MapSlope-mesh" name="hokoslopecol__MapSlope">
+      <mesh>
+        <source id="hokoslopecol__MapSlope-position">
+          <float_array id="hokoslopecol__MapSlope-position-array" count="162">220.6489 0.358942 -124.3189 213.4319 -2.388045 -123.7313 183.3099 0 -45.16299 177.4737 -3.512953 -51.17081 205.869 -5.279743 -123.187 200.1532 -7.481097 -122.863 170.7794 -7.235705 -56.2069 194.2865 -9.76057 -122.6406 188.2748 -12.12252 -122.556 163.5218 -11.06223 -60.39997 182.1264 -14.57029 -122.6461 175.8181 -17.12005 -122.9492 155.8616 -14.93039 -63.79358 160.6104 -23.44279 -124.6462 147.7475 -18.77199 -65.84123 139.3791 -22.46404 -66.32028 145.3209 -30 -127.7976 121.8855 -30 -66.22118 220.6489 0.358942 -124.3189 213.4319 -2.388045 -123.7313 183.3099 0 -45.16299 177.4737 -3.512953 -51.17081 205.869 -5.279743 -123.187 200.1532 -7.481097 -122.863 170.7794 -7.235705 -56.2069 194.2865 -9.76057 -122.6406 188.2748 -12.12252 -122.556 163.5218 -11.06223 -60.39997 182.1264 -14.57029 -122.6461 175.8181 -17.12005 -122.9492 155.8616 -14.93039 -63.79358 160.6104 -23.44279 -124.6462 147.7475 -18.77199 -65.84123 139.3791 -22.46404 -66.32028 145.3209 -30 -127.7976 121.8855 -30 -66.22118 220.6489 0.358942 -124.3189 213.4319 -2.388045 -123.7313 183.3099 0 -45.16299 177.4737 -3.512953 -51.17081 205.869 -5.279743 -123.187 200.1532 -7.481097 -122.863 170.7794 -7.235705 -56.2069 194.2865 -9.76057 -122.6406 188.2748 -12.12252 -122.556 163.5218 -11.06223 -60.39997 182.1264 -14.57029 -122.6461 175.8181 -17.12005 -122.9492 155.8616 -14.93039 -63.79358 160.6104 -23.44279 -124.6462 147.7475 -18.77199 -65.84123 139.3791 -22.46404 -66.32028 145.3209 -30 -127.7976 121.8855 -30 -66.22118</float_array>
+          <technique_common>
+            <accessor source="#hokoslopecol__MapSlope-position-array" count="54" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="hokoslopecol__MapSlope-normal">
+          <float_array id="hokoslopecol__MapSlope-normal-array" count="162">-0.3620352 0.9178082 -0.1663405 -0.3620352 0.9158513 -0.1663405 -0.37182 0.9119374 -0.1702544 -0.3737769 0.9119374 -0.1702544 -0.3620352 0.9178082 -0.1663405 -0.3639922 0.9178082 -0.1643836 -0.3796478 0.9099804 -0.1682975 -0.3620352 0.9178082 -0.1624266 -0.3639922 0.9178082 -0.1624266 -0.3835616 0.9080235 -0.1663405 -0.3639922 0.9178082 -0.1604697 -0.3639922 0.9178082 -0.1585127 -0.3835616 0.9099804 -0.1604697 -0.3659491 0.9178082 -0.1526419 -0.3913894 0.9080235 -0.1565558 -0.3894325 0.9080235 -0.1506849 -0.369863 0.9178082 -0.148728 -0.3913894 0.9080235 -0.148728 -0.3620352 0.9178082 -0.1663405 -0.3620352 0.9158513 -0.1663405 -0.37182 0.9119374 -0.1702544 -0.3737769 0.9119374 -0.1702544 -0.3620352 0.9178082 -0.1663405 -0.3639922 0.9178082 -0.1643836 -0.3796478 0.9099804 -0.1682975 -0.3620352 0.9178082 -0.1624266 -0.3639922 0.9178082 -0.1624266 -0.3835616 0.9080235 -0.1663405 -0.3639922 0.9178082 -0.1604697 -0.3639922 0.9178082 -0.1585127 -0.3835616 0.9099804 -0.1604697 -0.3659491 0.9178082 -0.1526419 -0.3913894 0.9080235 -0.1565558 -0.3894325 0.9080235 -0.1506849 -0.369863 0.9178082 -0.148728 -0.3913894 0.9080235 -0.148728 -0.3620352 0.9178082 -0.1663405 -0.3620352 0.9158513 -0.1663405 -0.37182 0.9119374 -0.1702544 -0.3737769 0.9119374 -0.1702544 -0.3620352 0.9178082 -0.1663405 -0.3639922 0.9178082 -0.1643836 -0.3796478 0.9099804 -0.1682975 -0.3620352 0.9178082 -0.1624266 -0.3639922 0.9178082 -0.1624266 -0.3835616 0.9080235 -0.1663405 -0.3639922 0.9178082 -0.1604697 -0.3639922 0.9178082 -0.1585127 -0.3835616 0.9099804 -0.1604697 -0.3659491 0.9178082 -0.1526419 -0.3913894 0.9080235 -0.1565558 -0.3894325 0.9080235 -0.1506849 -0.369863 0.9178082 -0.148728 -0.3913894 0.9080235 -0.148728</float_array>
+          <technique_common>
+            <accessor source="#hokoslopecol__MapSlope-normal-array" count="54" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="hokoslopecol__MapSlope-texcoord">
+          <float_array id="hokoslopecol__MapSlope-texcoord-array" count="108">2.882813 0.5681152 2.791016 0.7331543 0.3395996 0.5681152 0.4536133 0.7976074 2.697266 0.9057617 2.626953 1.036255 0.5371094 1.031433 2.558594 1.17041 2.492188 1.308105 0.5957031 1.262451 2.429688 1.448975 2.371094 1.59375 0.6313477 1.487061 2.255859 1.944824 0.6303711 1.70166 0.5878906 1.901855 2.177734 2.298828 0.4711914 2.298828 2.882813 0.5681152 2.791016 0.7331543 0.3395996 0.5681152 0.4536133 0.7976074 2.697266 0.9057617 2.626953 1.036255 0.5371094 1.031433 2.558594 1.17041 2.492188 1.308105 0.5957031 1.262451 2.429688 1.448975 2.371094 1.59375 0.6313477 1.487061 2.255859 1.944824 0.6303711 1.70166 0.5878906 1.901855 2.177734 2.298828 0.4711914 2.298828 2.882813 0.5681152 2.791016 0.7331543 0.3395996 0.5681152 0.4536133 0.7976074 2.697266 0.9057617 2.626953 1.036255 0.5371094 1.031433 2.558594 1.17041 2.492188 1.308105 0.5957031 1.262451 2.429688 1.448975 2.371094 1.59375 0.6313477 1.487061 2.255859 1.944824 0.6303711 1.70166 0.5878906 1.901855 2.177734 2.298828 0.4711914 2.298828</float_array>
+          <technique_common>
+            <accessor source="#hokoslopecol__MapSlope-texcoord-array" count="54" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="hokoslopecol__MapSlope-vertex">
+          <input semantic="POSITION" source="#hokoslopecol__MapSlope-position" />
+        </vertices>
+        <triangles material="MapSlope" count="16">
+          <input semantic="VERTEX" source="#hokoslopecol__MapSlope-vertex" offset="0" />
+          <input semantic="NORMAL" source="#hokoslopecol__MapSlope-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#hokoslopecol__MapSlope-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 1 1 1 3 3 3 1 1 1 4 4 4 3 3 3 4 4 4 5 5 5 3 3 3 3 3 3 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 7 7 7 8 8 8 6 6 6 6 6 6 8 8 8 9 9 9 8 8 8 10 10 10 9 9 9 10 10 10 11 11 11 9 9 9 9 9 9 11 11 11 12 12 12 11 11 11 13 13 13 12 12 12 12 12 12 13 13 13 14 14 14 15 15 15 14 14 14 13 13 13 13 13 13 16 16 16 15 15 15 17 17 17 15 15 15 16 16 16 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube132__MapGround-mesh" name="pCube132__MapGround">
+      <mesh>
+        <source id="pCube132__MapGround-position">
+          <float_array id="pCube132__MapGround-position-array" count="225">227.4642 -0.2434444 -124.8706 220.6489 0.3589417 -124.3189 183.3099 0 -45.163 187.6916 0 -38.05299 260 0.008172066 -43.03049 189.1655 0 -32.91123 233.8238 -0.3636066 -125.3082 239.6512 -0.2495557 -125.5543 248.5419 0.04502165 -125.3824 256.0487 0.3568243 -124.4486 262.4624 0.6502047 -122.7804 268.0798 0.9001354 -120.391 273.199 1.065425 -117.2676 278.0178 1.116937 -113.3997 282.4982 1.073762 -108.7818 286.5621 0.9670447 -103.3979 290.135 0.8279303 -97.22683 293.1427 0.6875645 -90.2402 295.5355 0.5707144 -82.43172 297.3535 0.4766374 -73.95501 298.6596 0.3982109 -65.02276 299.5194 0.3283136 -55.86819 299.913 0.2598242 -46.69812 300 0.2069326 -40 260 0 -40 227.4642 -0.2434444 -124.8706 220.6489 0.358942 -124.3189 183.3099 0 -45.16299 187.6916 0 -38.05299 260 0.008172066 -43.03049 189.1655 0 -32.91123 233.8238 -0.3636066 -125.3082 239.6512 -0.2495557 -125.5543 248.5419 0.04502165 -125.3824 256.0487 0.3568243 -124.4486 262.4624 0.6502047 -122.7804 268.0798 0.9001354 -120.391 273.199 1.065425 -117.2676 278.0178 1.116937 -113.3997 282.4982 1.073762 -108.7818 286.5621 0.9670447 -103.3979 290.135 0.8279303 -97.22683 293.1427 0.6875645 -90.2402 295.5355 0.5707144 -82.43172 297.3535 0.4766374 -73.95501 298.6596 0.3982109 -65.02276 299.5194 0.3283136 -55.86819 299.913 0.2598242 -46.69812 300 0.2069326 -40 260 0 -40 227.4642 -0.2434444 -124.8706 220.6489 0.358942 -124.3189 183.3099 0 -45.16299 187.6916 0 -38.05299 260 0.008172066 -43.03049 189.1655 0 -32.91123 233.8238 -0.3636066 -125.3082 239.6512 -0.2495557 -125.5543 248.5419 0.04502165 -125.3824 256.0487 0.3568243 -124.4486 262.4624 0.6502047 -122.7804 268.0798 0.9001354 -120.391 273.199 1.065425 -117.2676 278.0178 1.116937 -113.3997 282.4982 1.073762 -108.7818 286.5621 0.9670447 -103.3979 290.135 0.8279303 -97.22683 293.1427 0.6875645 -90.2402 295.5355 0.5707144 -82.43172 297.3535 0.4766374 -73.95501 298.6596 0.3982109 -65.02276 299.5194 0.3283136 -55.86819 299.913 0.2598242 -46.69812 300 0.2069326 -40 260 0 -40</float_array>
+          <technique_common>
+            <accessor source="#pCube132__MapGround-position-array" count="75" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube132__MapGround-normal">
+          <float_array id="pCube132__MapGround-normal-array" count="225">0.009784736 1 0 0.04109589 0.9980431 0.01956947 0.04109589 0.9980431 0.01956947 0.005870841 1 0 -0.001956947 1 -0.001956947 0 1 0 0.003913894 1 -0.005870841 -0.02739726 1 0.003913894 -0.037182 1 0.005870841 -0.04500978 0.9980431 0.005870841 -0.04696673 0.9980431 0.005870841 -0.04305284 1 0.007827789 -0.03131115 1 0.007827789 -0.01369863 1 0.01174168 -0.001956947 1 0.01565558 0.003913894 1 0.01761252 0.005870841 1 0.01761252 0.003913894 1 0.01761252 0 1 0.01369863 -0.003913894 1 0.01174168 -0.005870841 1 0.009784736 -0.005870841 1 0.007827789 -0.005870841 1 0.007827789 -0.005870841 1 0.007827789 -0.005870841 1 0.001956947 0.009784736 1 0 0.09197652 0.9941292 0.04696673 0.003913894 1 0 0 1 -0.001956947 -0.001956947 1 -0.001956947 0 1 0 0.003913894 1 -0.005870841 -0.02739726 1 0.003913894 -0.037182 1 0.005870841 -0.04500978 0.9980431 0.005870841 -0.04696673 0.9980431 0.005870841 -0.04305284 1 0.007827789 -0.03131115 1 0.007827789 -0.01369863 1 0.01174168 -0.001956947 1 0.01565558 0.003913894 1 0.01761252 0.005870841 1 0.01761252 0.003913894 1 0.01761252 0 1 0.01369863 -0.003913894 1 0.01174168 -0.005870841 1 0.009784736 -0.005870841 1 0.007827789 -0.005870841 1 0.007827789 -0.005870841 1 0.007827789 -0.005870841 1 0.001956947 0.009784736 1 0 0.09197652 0.9941292 0.04696673 0.003913894 1 0 0 1 -0.001956947 -0.001956947 1 -0.001956947 0 1 0 0.003913894 1 -0.005870841 -0.02739726 1 0.003913894 -0.037182 1 0.005870841 -0.04500978 0.9980431 0.005870841 -0.04696673 0.9980431 0.005870841 -0.04305284 1 0.007827789 -0.03131115 1 0.007827789 -0.01369863 1 0.01174168 -0.001956947 1 0.01565558 0.003913894 1 0.01761252 0.005870841 1 0.01761252 0.003913894 1 0.01761252 0 1 0.01369863 -0.003913894 1 0.01174168 -0.005870841 1 0.009784736 -0.005870841 1 0.007827789 -0.005870841 1 0.007827789 -0.005870841 1 0.007827789 -0.005870841 1 0.001956947</float_array>
+          <technique_common>
+            <accessor source="#pCube132__MapGround-normal-array" count="75" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube132__MapGround-vertex">
+          <input semantic="POSITION" source="#pCube132__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="23">
+          <input semantic="VERTEX" source="#pCube132__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube132__MapGround-normal" offset="1" />
+          <p>0 0 1 1 2 2 3 3 0 0 2 2 4 4 0 0 3 3 4 4 3 3 5 5 4 4 6 6 0 0 4 4 7 7 6 6 4 4 8 8 7 7 9 9 8 8 4 4 10 10 9 9 4 4 11 11 10 10 4 4 12 12 11 11 4 4 13 13 12 12 4 4 14 14 13 13 4 4 15 15 14 14 4 4 16 16 15 15 4 4 17 17 16 16 4 4 18 18 17 17 4 4 19 19 18 18 4 4 20 20 19 19 4 4 20 20 4 4 21 21 21 21 4 4 22 22 22 22 4 4 23 23 23 23 4 4 24 24 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Edge356__MapWall-mesh">
+      <skin source="#Edge356__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge356__MapWall-mesh-joint">
+          <Name_array id="Edge356__MapWall-mesh-joint-array" count="1">Lft_WaveSlopeA_Map</Name_array>
+          <technique_common>
+            <accessor source="#Edge356__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge356__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Edge356__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge356__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge356__MapWall-mesh-weight">
+          <float_array id="Edge356__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge356__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge356__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge356__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#Edge356__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge356__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_hokoslopecol__MapSlope-mesh">
+      <skin source="#hokoslopecol__MapSlope-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="hokoslopecol__MapSlope-mesh-joint">
+          <Name_array id="hokoslopecol__MapSlope-mesh-joint-array" count="1">Lft_WaveSlopeA_Map</Name_array>
+          <technique_common>
+            <accessor source="#hokoslopecol__MapSlope-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="hokoslopecol__MapSlope-mesh-inv_bind_matrix">
+          <float_array id="hokoslopecol__MapSlope-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#hokoslopecol__MapSlope-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="hokoslopecol__MapSlope-mesh-weight">
+          <float_array id="hokoslopecol__MapSlope-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#hokoslopecol__MapSlope-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#hokoslopecol__MapSlope-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#hokoslopecol__MapSlope-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="54">
+          <input semantic="JOINT" source="#hokoslopecol__MapSlope-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#hokoslopecol__MapSlope-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube132__MapGround-mesh">
+      <skin source="#pCube132__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube132__MapGround-mesh-joint">
+          <Name_array id="pCube132__MapGround-mesh-joint-array" count="1">Lft_WaveSlopeA_Map</Name_array>
+          <technique_common>
+            <accessor source="#pCube132__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube132__MapGround-mesh-inv_bind_matrix">
+          <float_array id="pCube132__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube132__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube132__MapGround-mesh-weight">
+          <float_array id="pCube132__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube132__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube132__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube132__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="75">
+          <input semantic="JOINT" source="#pCube132__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube132__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_WaveSlopeA_Map" name="Lft_WaveSlopeA_Map" sid="Lft_WaveSlopeA_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Edge356__MapWall" name="Edge356__MapWall" type="NODE">
+        <instance_controller url="#Armature_Edge356__MapWall-mesh">
+          <skeleton>#Armature_Lft_WaveSlopeA_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="hokoslopecol__MapSlope" name="hokoslopecol__MapSlope" type="NODE">
+        <instance_controller url="#Armature_hokoslopecol__MapSlope-mesh">
+          <skeleton>#Armature_Lft_WaveSlopeA_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapSlope" target="#MapSlope" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube132__MapGround" name="pCube132__MapGround" type="NODE">
+        <instance_controller url="#Armature_pCube132__MapGround-mesh">
+          <skeleton>#Armature_Lft_WaveSlopeA_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

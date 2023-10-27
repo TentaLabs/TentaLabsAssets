@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="SquidSignBoard_Alb">
+      <init_from>SquidSignBoard_Alb.png</init_from>
+    </image>
+    <image id="SquidSignBoard_Mtl">
+      <init_from>SquidSignBoard_Mtl.png</init_from>
+    </image>
+    <image id="SquidSignBoard_Nrm">
+      <init_from>SquidSignBoard_Nrm.png</init_from>
+    </image>
+    <image id="SquidSignBoard_Rgh">
+      <init_from>SquidSignBoard_Rgh.png</init_from>
+    </image>
+    <image id="WireNet_Alb">
+      <init_from>WireNet_Alb.png</init_from>
+    </image>
+    <image id="WireNet_Mtl">
+      <init_from>WireNet_Mtl.png</init_from>
+    </image>
+    <image id="WireNet_Nrm">
+      <init_from>WireNet_Nrm.png</init_from>
+    </image>
+    <image id="WireNet_Rgh">
+      <init_from>WireNet_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="SquidSignBoard_np">
+      <instance_effect url="#Effect_SquidSignBoard_np" />
+    </material>
+    <material id="WireNet_bt">
+      <instance_effect url="#Effect_WireNet_bt" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_SquidSignBoard_np">
+      <profile_COMMON>
+        <newparam sid="surface_SquidSignBoard_np-diffuse">
+          <surface type="2D">
+            <init_from>SquidSignBoard_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SquidSignBoard_np-diffuse">
+          <sampler2D>
+            <source>surface_SquidSignBoard_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_SquidSignBoard_np-bump">
+          <surface type="2D">
+            <init_from>SquidSignBoard_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SquidSignBoard_np-bump">
+          <sampler2D>
+            <source>surface_SquidSignBoard_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SquidSignBoard_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_SquidSignBoard_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WireNet_bt">
+      <profile_COMMON>
+        <newparam sid="surface_WireNet_bt-diffuse">
+          <surface type="2D">
+            <init_from>WireNet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WireNet_bt-diffuse">
+          <sampler2D>
+            <source>surface_WireNet_bt-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WireNet_bt-bump">
+          <surface type="2D">
+            <init_from>WireNet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WireNet_bt-bump">
+          <sampler2D>
+            <source>surface_WireNet_bt-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WireNet_bt-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WireNet_bt-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface13307__WireNet_bt-mesh" name="polySurface13307__WireNet_bt">
+      <mesh>
+        <source id="polySurface13307__WireNet_bt-position">
+          <float_array id="polySurface13307__WireNet_bt-position-array" count="294">101.9481 0 176.2133 101.9481 0 180.0029 101.9481 130.8143 176.2133 101.9481 130.8143 180.0029 101.9481 0 180.0029 105.9515 0 180.0029 101.9481 130.8143 180.0029 105.9515 130.8143 180.0029 101.9481 130.8143 176.2133 105.9515 130.8143 176.2133 101.9481 0 176.2133 105.9515 0 176.2133 105.9515 130.8143 180.0029 105.9515 0 180.0029 105.9515 130.8143 176.2133 105.9515 0 176.2133 101.9481 152.7555 203.8435 105.9515 152.7555 203.8435 101.9481 156 203.8435 101.9481 152.7555 203.8435 101.9481 156 203.8435 105.9515 156 203.8435 105.9515 152.7555 203.8435 105.9515 156 203.8435 105.9515 156 203.8435 101.9481 156 203.8435 105.9515 152.7555 203.8435 101.9481 152.7555 203.8435 101.9481 0 176.2133 101.9481 0 176.2133 101.9481 0 180.0029 101.9481 0 180.0029 101.9481 130.8143 176.2133 101.9481 130.8143 176.2133 101.9481 130.8143 176.2133 101.9481 130.8143 176.2133 101.9481 130.8143 180.0029 101.9481 130.8143 180.0029 101.9481 130.8143 180.0029 105.9515 0 180.0029 105.9515 0 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 176.2133 105.9515 130.8143 176.2133 105.9515 130.8143 176.2133 105.9515 130.8143 176.2133 105.9515 0 176.2133 105.9515 0 176.2133 101.9481 152.7555 203.8435 101.9481 152.7555 203.8435 101.9481 152.7555 203.8435 105.9515 152.7555 203.8435 105.9515 152.7555 203.8435 105.9515 152.7555 203.8435 101.9481 156 203.8435 101.9481 156 203.8435 101.9481 156 203.8435 105.9515 156 203.8435 105.9515 156 203.8435 105.9515 156 203.8435 101.9481 0 176.2133 101.9481 0 176.2133 101.9481 0 180.0029 101.9481 0 180.0029 101.9481 130.8143 176.2133 101.9481 130.8143 176.2133 101.9481 130.8143 176.2133 101.9481 130.8143 176.2133 101.9481 130.8143 180.0029 101.9481 130.8143 180.0029 101.9481 130.8143 180.0029 105.9515 0 180.0029 105.9515 0 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 180.0029 105.9515 130.8143 176.2133 105.9515 130.8143 176.2133 105.9515 130.8143 176.2133 105.9515 130.8143 176.2133 105.9515 0 176.2133 105.9515 0 176.2133 101.9481 152.7555 203.8435 101.9481 152.7555 203.8435 101.9481 152.7555 203.8435 105.9515 152.7555 203.8435 105.9515 152.7555 203.8435 105.9515 152.7555 203.8435 101.9481 156 203.8435 101.9481 156 203.8435 101.9481 156 203.8435 105.9515 156 203.8435 105.9515 156 203.8435 105.9515 156 203.8435</float_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-position-array" count="98" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface13307__WireNet_bt-normal">
+          <float_array id="polySurface13307__WireNet_bt-normal-array" count="294">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 -0.1545988 0.9882583 0 -0.1545988 0.9882583 0 0.1741683 -0.9843444 0 0.1741683 -0.9843444 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 -0.7358121 0.6771037 0 -0.7358121 0.6771037 -1 0 0 -1 0 0 0 0.739726 -0.6731898 0 0.739726 -0.6731898 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 0 0 -1 -1 0 0 0 0 1 -1 0 0 0 0.1741683 -0.9843444 -1 0 0 0 0.1741683 -0.9843444 -1 0 0 0 -0.1545988 0.9882583 -1 0 0 0 0 1 1 0 0 0 -0.1545988 0.9882583 1 0 0 0 -0.1545988 0.9882583 1 0 0 0 0.1741683 -0.9843444 1 0 0 0 0.1741683 -0.9843444 1 0 0 0 0 -1 1 0 0 0 -0.7358121 0.6771037 -1 0 0 0 0 1 0 -0.7358121 0.6771037 1 0 0 0 0 1 -1 0 0 0 0.739726 -0.6731898 0 0 1 0 0.739726 -0.6731898 1 0 0 0 0 1 -1 0 0 0 0 -1 -1 0 0 0 0 1 -1 0 0 0 0.1741683 -0.9843444 -1 0 0 0 0.1741683 -0.9843444 -1 0 0 0 -0.1545988 0.9882583 -1 0 0 0 0 1 1 0 0 0 -0.1545988 0.9882583 1 0 0 0 -0.1545988 0.9882583 1 0 0 0 0.1741683 -0.9843444 1 0 0 0 0.1741683 -0.9843444 1 0 0 0 0 -1 1 0 0 0 -0.7358121 0.6771037 -1 0 0 0 0 1 0 -0.7358121 0.6771037 1 0 0 0 0 1 -1 0 0 0 0.739726 -0.6731898 0 0 1 0 0.739726 -0.6731898 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-normal-array" count="98" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface13307__WireNet_bt-color">
+          <float_array id="polySurface13307__WireNet_bt-color-array" count="392">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-color-array" count="98" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface13307__WireNet_bt-texcoord">
+          <float_array id="polySurface13307__WireNet_bt-texcoord-array" count="196">0.2491455 2.25293 0.1490479 2.253906 0.2491455 -1.861328 0.1490479 -1.912109 0.1490479 2.253906 0.04568481 2.253906 0.1490479 -1.912109 0.04568481 -1.919922 0.2491455 -1.861328 0.3544922 -1.851563 0.2491455 2.25293 0.3544922 2.253906 0.4538574 -1.882813 0.4538574 2.253906 0.3544922 -1.851563 0.3544922 2.253906 0.1490479 -3.230469 0.04568481 -3.230469 0.2491455 -3.230469 0.1490479 -3.230469 0.2491455 -3.230469 0.3544922 -3.230469 0.4538574 -3.230469 0.3544922 -3.230469 0.3544922 -3.230469 0.2491455 -3.230469 0.3544922 -3.339844 0.2491455 -3.339844 0.2491455 2.25293 0.2491455 2.25293 0.1490479 2.253906 0.1490479 2.253906 0.2491455 -1.861328 0.2491455 -1.861328 0.2491455 -1.861328 0.2491455 -1.861328 0.1490479 -1.912109 0.1490479 -1.912109 0.1490479 -1.912109 0.04568481 2.253906 0.4538574 2.253906 0.04568481 -1.919922 0.4538574 -1.882813 0.04568481 -1.919922 0.4538574 -1.882813 0.3544922 -1.851563 0.3544922 -1.851563 0.3544922 -1.851563 0.3544922 -1.851563 0.3544922 2.253906 0.3544922 2.253906 0.1490479 -3.230469 0.1490479 -3.230469 0.2491455 -3.339844 0.04568481 -3.230469 0.4538574 -3.230469 0.3544922 -3.339844 0.2491455 -3.230469 0.2491455 -3.230469 0.2491455 -3.230469 0.3544922 -3.230469 0.3544922 -3.230469 0.3544922 -3.230469 0.2491455 2.25293 0.2491455 2.25293 0.1490479 2.253906 0.1490479 2.253906 0.2491455 -1.861328 0.2491455 -1.861328 0.2491455 -1.861328 0.2491455 -1.861328 0.1490479 -1.912109 0.1490479 -1.912109 0.1490479 -1.912109 0.04568481 2.253906 0.4538574 2.253906 0.04568481 -1.919922 0.4538574 -1.882813 0.04568481 -1.919922 0.4538574 -1.882813 0.3544922 -1.851563 0.3544922 -1.851563 0.3544922 -1.851563 0.3544922 -1.851563 0.3544922 2.253906 0.3544922 2.253906 0.1490479 -3.230469 0.1490479 -3.230469 0.2491455 -3.339844 0.04568481 -3.230469 0.4538574 -3.230469 0.3544922 -3.339844 0.2491455 -3.230469 0.2491455 -3.230469 0.2491455 -3.230469 0.3544922 -3.230469 0.3544922 -3.230469 0.3544922 -3.230469</float_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-texcoord-array" count="98" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface13307__WireNet_bt-texcoord_1">
+          <float_array id="polySurface13307__WireNet_bt-texcoord-array_1" count="196">0.05526818 0.5093461 0.05073625 0.5093614 0.05526818 0.1376211 0.05073625 0.1331502 0.05073625 0.5093614 0.04606699 0.5094072 0.05073625 0.1331502 0.04606699 0.1324178 0.05526818 0.1376211 0.06002899 0.1385977 0.05526818 0.5093461 0.06002899 0.5093614 0.06451514 0.1358053 0.06451514 0.5094072 0.06002899 0.1385977 0.06002899 0.5093614 0.05073625 0.01409936 0.04606699 0.01409936 0.05526818 0.01409936 0.05073625 0.01409936 0.05526818 0.01409936 0.06002899 0.01409936 0.06451514 0.01409936 0.06002899 0.01409936 0.06002899 0.01409936 0.05526818 0.01409936 0.06002899 0.003967345 0.05526818 0.003967345 0.05526818 0.5093461 0.05526818 0.5093461 0.05073625 0.5093614 0.05073625 0.5093614 0.05526818 0.1376211 0.05526818 0.1376211 0.05526818 0.1376211 0.05526818 0.1376211 0.05073625 0.1331502 0.05073625 0.1331502 0.05073625 0.1331502 0.04606699 0.5094072 0.06451514 0.5094072 0.04606699 0.1324178 0.06451514 0.1358053 0.04606699 0.1324178 0.06451514 0.1358053 0.06002899 0.1385977 0.06002899 0.1385977 0.06002899 0.1385977 0.06002899 0.1385977 0.06002899 0.5093614 0.06002899 0.5093614 0.05073625 0.01409936 0.05073625 0.01409936 0.05526818 0.003967345 0.04606699 0.01409936 0.06451514 0.01409936 0.06002899 0.003967345 0.05526818 0.01409936 0.05526818 0.01409936 0.05526818 0.01409936 0.06002899 0.01409936 0.06002899 0.01409936 0.06002899 0.01409936 0.05526818 0.5093461 0.05526818 0.5093461 0.05073625 0.5093614 0.05073625 0.5093614 0.05526818 0.1376211 0.05526818 0.1376211 0.05526818 0.1376211 0.05526818 0.1376211 0.05073625 0.1331502 0.05073625 0.1331502 0.05073625 0.1331502 0.04606699 0.5094072 0.06451514 0.5094072 0.04606699 0.1324178 0.06451514 0.1358053 0.04606699 0.1324178 0.06451514 0.1358053 0.06002899 0.1385977 0.06002899 0.1385977 0.06002899 0.1385977 0.06002899 0.1385977 0.06002899 0.5093614 0.06002899 0.5093614 0.05073625 0.01409936 0.05073625 0.01409936 0.05526818 0.003967345 0.04606699 0.01409936 0.06451514 0.01409936 0.06002899 0.003967345 0.05526818 0.01409936 0.05526818 0.01409936 0.05526818 0.01409936 0.06002899 0.01409936 0.06002899 0.01409936 0.06002899 0.01409936</float_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-texcoord-array_1" count="98" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface13307__WireNet_bt-vertex">
+          <input semantic="POSITION" source="#polySurface13307__WireNet_bt-position" />
+        </vertices>
+        <triangles material="WireNet_bt" count="18">
+          <input semantic="VERTEX" source="#polySurface13307__WireNet_bt-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface13307__WireNet_bt-normal" offset="1" />
+          <input semantic="COLOR" source="#polySurface13307__WireNet_bt-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface13307__WireNet_bt-texcoord" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface13307__WireNet_bt-texcoord_1" offset="4" set="1" />
+          <p>0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 1 1 1 1 1 3 3 3 3 3 2 2 2 2 2 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 5 5 5 5 5 7 7 7 7 7 6 6 6 6 6 8 8 8 8 8 9 9 9 9 9 10 10 10 10 10 9 9 9 9 9 11 11 11 11 11 10 10 10 10 10 12 12 12 12 12 13 13 13 13 13 14 14 14 14 14 13 13 13 13 13 15 15 15 15 15 14 14 14 14 14 6 6 6 6 6 7 7 7 7 7 16 16 16 16 16 7 7 7 7 7 17 17 17 17 17 16 16 16 16 16 2 2 2 2 2 3 3 3 3 3 18 18 18 18 18 3 3 3 3 3 19 19 19 19 19 18 18 18 18 18 20 20 20 20 20 21 21 21 21 21 8 8 8 8 8 21 21 21 21 21 9 9 9 9 9 8 8 8 8 8 22 22 22 22 22 12 12 12 12 12 23 23 23 23 23 12 12 12 12 12 14 14 14 14 14 23 23 23 23 23 24 24 24 24 24 25 25 25 25 25 26 26 26 26 26 25 25 25 25 25 27 27 27 27 27 26 26 26 26 26 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface3222__SquidSignBoard_np-mesh" name="polySurface3222__SquidSignBoard_np">
+      <mesh>
+        <source id="polySurface3222__SquidSignBoard_np-position">
+          <float_array id="polySurface3222__SquidSignBoard_np-position-array" count="270">106.4514 130.8143 180.0029 106.4514 128.8143 180.0029 106.4514 130.8143 176.2133 106.4514 128.8143 176.2133 105.9515 130.8143 175.7133 105.9515 128.8143 175.7133 101.9481 130.8143 175.7133 101.9481 128.8143 175.7133 101.4482 130.8143 176.2133 101.4482 128.8143 176.2133 101.4482 130.8143 180.0029 101.4482 128.8143 180.0029 101.9481 128.8143 180.5029 101.9481 130.8143 180.5029 105.9515 130.8143 180.5029 105.9515 128.8143 180.5029 106.4514 130.8143 180.0029 106.4514 128.8143 180.0029 106.4514 128.8143 176.2133 106.4514 128.8143 180.0029 105.9515 128.8143 180.5029 105.9515 128.8143 175.7133 101.9481 128.8143 180.5029 101.9481 128.8143 175.7133 101.4482 128.8143 180.0029 101.4482 128.8143 176.2133 106.4514 130.8143 180.0029 106.4514 130.8143 176.2133 105.9515 130.8143 175.7133 105.9515 130.8143 180.5029 101.9481 130.8143 175.7133 101.9481 130.8143 180.5029 101.4482 130.8143 176.2133 101.4482 130.8143 180.0029 106.4514 130.8143 180.0029 106.4514 130.8143 180.0029 106.4514 130.8143 180.0029 106.4514 128.8143 180.0029 106.4514 128.8143 180.0029 106.4514 128.8143 180.0029 106.4514 130.8143 176.2133 106.4514 130.8143 176.2133 105.9515 130.8143 175.7133 105.9515 130.8143 175.7133 106.1077 128.8143 175.8695 106.1077 128.8143 175.8695 101.9481 130.8143 175.7133 101.9481 130.8143 175.7133 101.4482 130.8143 176.2133 101.4482 130.8143 176.2133 101.6044 128.8143 176.057 101.6044 128.8143 176.057 101.4482 130.8143 180.0029 101.4482 130.8143 180.0029 101.7919 128.8143 180.3467 101.7919 128.8143 180.3467 101.9481 130.8143 180.5029 101.9481 130.8143 180.5029 105.9515 130.8143 180.5029 105.9515 130.8143 180.5029 105.9515 128.8143 180.5029 105.9515 128.8143 180.5029 106.4514 130.8143 180.0029 106.4514 130.8143 180.0029 106.4514 130.8143 180.0029 106.4514 128.8143 180.0029 106.4514 128.8143 180.0029 106.4514 128.8143 180.0029 106.4514 130.8143 176.2133 106.4514 130.8143 176.2133 105.9515 130.8143 175.7133 105.9515 130.8143 175.7133 106.1077 128.8143 175.8695 106.1077 128.8143 175.8695 101.9481 130.8143 175.7133 101.9481 130.8143 175.7133 101.4482 130.8143 176.2133 101.4482 130.8143 176.2133 101.6044 128.8143 176.057 101.6044 128.8143 176.057 101.4482 130.8143 180.0029 101.4482 130.8143 180.0029 101.7919 128.8143 180.3467 101.7919 128.8143 180.3467 101.9481 130.8143 180.5029 101.9481 130.8143 180.5029 105.9515 130.8143 180.5029 105.9515 130.8143 180.5029 105.9515 128.8143 180.5029 105.9515 128.8143 180.5029</float_array>
+          <technique_common>
+            <accessor source="#polySurface3222__SquidSignBoard_np-position-array" count="90" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3222__SquidSignBoard_np-normal">
+          <float_array id="polySurface3222__SquidSignBoard_np-normal-array" count="270">0.9941292 0 0.1154599 0.9941292 0 0.1154599 0.9941292 0 -0.1154599 0.9941292 0 -0.1154599 0.109589 0 -0.9941292 0.109589 0 -0.9941292 -0.109589 0 -0.9941292 -0.109589 0 -0.9941292 -0.9941292 0 -0.1154599 -0.9941292 0 -0.1154599 -0.9941292 0 0.1154599 -0.9941292 0 0.1154599 -0.109589 0 0.9941292 -0.109589 0 0.9941292 0.109589 0 0.9941292 0.109589 0 0.9941292 0.9941292 0 0.1154599 0.9941292 0 0.1154599 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.9941292 0 0.1154599 0.9941292 0 0.1154599 0 1 0 0.9941292 -0.04696673 0.08806262 0.9941292 -0.04696673 0.08806262 0 -1 0 0.9843444 -0.1056751 -0.1409002 0 1 0 0.0998043 -0.0704501 -0.9921722 0 1 0 0.6379648 -0.1722113 -0.7514677 0 -1 0 -0.1076321 -0.1311155 -0.9863014 0 1 0 -0.9921722 -0.06849315 -0.1037182 0 1 0 -0.6947162 -0.1819961 -0.6966732 0 -1 0 -0.9843444 -0.1291585 0.1135029 0 1 0 -0.6868885 -0.1448141 0.7123288 0 -1 0 -0.0998043 -0.0704501 0.9921722 0 1 0 0.08414873 -0.01956947 0.9960861 0 1 0 0.07436399 0 0.9980431 0 -1 0 0.9941292 0 0.1154599 0.9941292 0 0.1154599 0 1 0 0.9941292 -0.04696673 0.08806262 0.9941292 -0.04696673 0.08806262 0 -1 0 0.9843444 -0.1056751 -0.1409002 0 1 0 0.0998043 -0.0704501 -0.9921722 0 1 0 0.6379648 -0.1722113 -0.7514677 0 -1 0 -0.1076321 -0.1311155 -0.9863014 0 1 0 -0.9921722 -0.06849315 -0.1037182 0 1 0 -0.6947162 -0.1819961 -0.6966732 0 -1 0 -0.9843444 -0.1291585 0.1135029 0 1 0 -0.6868885 -0.1448141 0.7123288 0 -1 0 -0.0998043 -0.0704501 0.9921722 0 1 0 0.08414873 -0.01956947 0.9960861 0 1 0 0.07436399 0 0.9980431 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface3222__SquidSignBoard_np-normal-array" count="90" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3222__SquidSignBoard_np-texcoord">
+          <float_array id="polySurface3222__SquidSignBoard_np-texcoord-array" count="180">0.7366293 0.9923095 0.6864576 0.9923247 0.7366293 0.9671931 0.6864576 0.9671931 0.7366293 0.9599146 0.6864576 0.9599146 0.7366293 0.9100633 0.6864576 0.9100633 0.7366293 0.9012436 0.6864576 0.9012436 0.7366293 0.8760967 0.6864576 0.8760967 0.6864576 0.867216 0.7366293 0.867216 0.7366293 0.8173648 0.6864576 0.8173648 0.7366293 0.808484 0.6864576 0.808484 0.7550622 0.9281453 0.805066 0.9281453 0.8175631 0.9343862 0.742565 0.9343862 0.8175631 0.9839475 0.742565 0.9839475 0.805066 0.9901884 0.7550622 0.9901884 0.805066 0.9901884 0.7550622 0.9901884 0.742565 0.9839475 0.8175631 0.9839475 0.742565 0.9343862 0.8175631 0.9343862 0.7550622 0.9281453 0.805066 0.9281453 0.7366293 0.9923095 0.7366293 0.808484 0.805066 0.9901884 0.6864576 0.9923247 0.6864576 0.808484 0.805066 0.9281453 0.7366293 0.9671931 0.7550622 0.9901884 0.7366293 0.9599146 0.742565 0.9839475 0.6864576 0.9621881 0.7464713 0.9324331 0.7366293 0.9100633 0.742565 0.9343862 0.7366293 0.9012436 0.7550622 0.9281453 0.6864576 0.9040055 0.7511559 0.9882353 0.7366293 0.8760967 0.805066 0.9281453 0.6864576 0.8699932 0.8136568 0.9859006 0.7366293 0.867216 0.8175631 0.9343862 0.7366293 0.8173648 0.8175631 0.9839475 0.6864576 0.8173648 0.8175631 0.9343862 0.7366293 0.9923095 0.7366293 0.808484 0.805066 0.9901884 0.6864576 0.9923247 0.6864576 0.808484 0.805066 0.9281453 0.7366293 0.9671931 0.7550622 0.9901884 0.7366293 0.9599146 0.742565 0.9839475 0.6864576 0.9621881 0.7464713 0.9324331 0.7366293 0.9100633 0.742565 0.9343862 0.7366293 0.9012436 0.7550622 0.9281453 0.6864576 0.9040055 0.7511559 0.9882353 0.7366293 0.8760967 0.805066 0.9281453 0.6864576 0.8699932 0.8136568 0.9859006 0.7366293 0.867216 0.8175631 0.9343862 0.7366293 0.8173648 0.8175631 0.9839475 0.6864576 0.8173648 0.8175631 0.9343862</float_array>
+          <technique_common>
+            <accessor source="#polySurface3222__SquidSignBoard_np-texcoord-array" count="90" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3222__SquidSignBoard_np-texcoord_1">
+          <float_array id="polySurface3222__SquidSignBoard_np-texcoord-array_1" count="180">0.2943618 0.327306 0.2834974 0.327306 0.2943618 0.3164263 0.2834974 0.3164263 0.2943618 0.313283 0.2834974 0.313283 0.2943618 0.2917067 0.2834974 0.2917067 0.2943618 0.287892 0.2834974 0.287892 0.2943618 0.2770123 0.2834974 0.2770123 0.2834974 0.2731518 0.2943618 0.2731518 0.2943618 0.2515907 0.2834974 0.2515907 0.2943618 0.2477455 0.2834974 0.2477455 0.290013 0.8531014 0.3008316 0.8531014 0.3035325 0.8558175 0.2873121 0.8558175 0.3035325 0.8772565 0.2873121 0.8772565 0.3008316 0.8799573 0.290013 0.8799573 0.03640803 0.8818647 0.02558938 0.8818647 0.02288853 0.8791638 0.03910887 0.8791638 0.02288853 0.8577096 0.03910887 0.8577096 0.02558938 0.8550088 0.03640803 0.8550088 0.2943618 0.327306 0.2943618 0.2477455 0.03640803 0.8818647 0.2834974 0.327306 0.2834974 0.2477455 0.3008316 0.8531014 0.2943618 0.3164263 0.02558938 0.8818647 0.2943618 0.313283 0.02288853 0.8791638 0.2834974 0.3142595 0.2881514 0.854963 0.2943618 0.2917067 0.02288853 0.8577096 0.2943618 0.287892 0.02558938 0.8550088 0.2834974 0.2890822 0.2891585 0.879118 0.2943618 0.2770123 0.03640803 0.8550088 0.2834974 0.2743572 0.3026932 0.8781109 0.2943618 0.2731518 0.03910887 0.8577096 0.2943618 0.2515907 0.03910887 0.8791638 0.2834974 0.2515907 0.3035325 0.8558175 0.2943618 0.327306 0.2943618 0.2477455 0.03640803 0.8818647 0.2834974 0.327306 0.2834974 0.2477455 0.3008316 0.8531014 0.2943618 0.3164263 0.02558938 0.8818647 0.2943618 0.313283 0.02288853 0.8791638 0.2834974 0.3142595 0.2881514 0.854963 0.2943618 0.2917067 0.02288853 0.8577096 0.2943618 0.287892 0.02558938 0.8550088 0.2834974 0.2890822 0.2891585 0.879118 0.2943618 0.2770123 0.03640803 0.8550088 0.2834974 0.2743572 0.3026932 0.8781109 0.2943618 0.2731518 0.03910887 0.8577096 0.2943618 0.2515907 0.03910887 0.8791638 0.2834974 0.2515907 0.3035325 0.8558175</float_array>
+          <technique_common>
+            <accessor source="#polySurface3222__SquidSignBoard_np-texcoord-array_1" count="90" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface3222__SquidSignBoard_np-vertex">
+          <input semantic="POSITION" source="#polySurface3222__SquidSignBoard_np-position" />
+        </vertices>
+        <triangles material="SquidSignBoard_np" count="28">
+          <input semantic="VERTEX" source="#polySurface3222__SquidSignBoard_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface3222__SquidSignBoard_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface3222__SquidSignBoard_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface3222__SquidSignBoard_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 3 3 3 3 5 5 5 5 4 4 4 4 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 6 6 6 6 7 7 7 7 9 9 9 9 8 8 8 8 7 7 7 7 10 10 10 10 8 8 8 8 9 9 9 9 11 11 11 11 10 10 10 10 9 9 9 9 11 11 11 11 12 12 12 12 10 10 10 10 12 12 12 12 13 13 13 13 10 10 10 10 14 14 14 14 13 13 13 13 12 12 12 12 15 15 15 15 14 14 14 14 12 12 12 12 16 16 16 16 14 14 14 14 15 15 15 15 17 17 17 17 16 16 16 16 15 15 15 15 18 18 18 18 19 19 19 19 20 20 20 20 21 21 21 21 18 18 18 18 20 20 20 20 21 21 21 21 20 20 20 20 22 22 22 22 23 23 23 23 21 21 21 21 22 22 22 22 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 23 23 23 23 24 24 24 24 26 26 26 26 27 27 27 27 28 28 28 28 29 29 29 29 26 26 26 26 28 28 28 28 29 29 29 29 28 28 28 28 30 30 30 30 31 31 31 31 29 29 29 29 30 30 30 30 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 31 31 31 31 32 32 32 32 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface13307__WireNet_bt-mesh">
+      <skin source="#polySurface13307__WireNet_bt-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface13307__WireNet_bt-mesh-joint">
+          <Name_array id="polySurface13307__WireNet_bt-mesh-joint-array" count="1">Lft_AthleticPillar</Name_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface13307__WireNet_bt-mesh-inv_bind_matrix">
+          <float_array id="polySurface13307__WireNet_bt-mesh-inv_bind_matrix-array" count="16">1 0 0 103.9498 0 1 0 -78.02116 0 0 1 189.7784 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface13307__WireNet_bt-mesh-weight">
+          <float_array id="polySurface13307__WireNet_bt-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface13307__WireNet_bt-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface13307__WireNet_bt-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface13307__WireNet_bt-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="98">
+          <input semantic="JOINT" source="#polySurface13307__WireNet_bt-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface13307__WireNet_bt-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface3222__SquidSignBoard_np-mesh">
+      <skin source="#polySurface3222__SquidSignBoard_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface3222__SquidSignBoard_np-mesh-joint">
+          <Name_array id="polySurface3222__SquidSignBoard_np-mesh-joint-array" count="1">Lft_AthleticPillar</Name_array>
+          <technique_common>
+            <accessor source="#polySurface3222__SquidSignBoard_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3222__SquidSignBoard_np-mesh-inv_bind_matrix">
+          <float_array id="polySurface3222__SquidSignBoard_np-mesh-inv_bind_matrix-array" count="16">1 0 0 103.9498 0 1 0 -78.02116 0 0 1 189.7784 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface3222__SquidSignBoard_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3222__SquidSignBoard_np-mesh-weight">
+          <float_array id="polySurface3222__SquidSignBoard_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface3222__SquidSignBoard_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface3222__SquidSignBoard_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface3222__SquidSignBoard_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="90">
+          <input semantic="JOINT" source="#polySurface3222__SquidSignBoard_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface3222__SquidSignBoard_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_AthleticPillar" name="Lft_AthleticPillar" sid="Lft_AthleticPillar" type="JOINT">
+          <matrix sid="transform">1 0 0 -103.9498 0 1 0 78.02116 0 0 1 -189.7784 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface13307__WireNet_bt" name="polySurface13307__WireNet_bt" type="NODE">
+        <instance_controller url="#Armature_polySurface13307__WireNet_bt-mesh">
+          <skeleton>#Armature_Lft_AthleticPillar</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WireNet_bt" target="#WireNet_bt" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface3222__SquidSignBoard_np" name="polySurface3222__SquidSignBoard_np" type="NODE">
+        <instance_controller url="#Armature_polySurface3222__SquidSignBoard_np-mesh">
+          <skeleton>#Armature_Lft_AthleticPillar</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SquidSignBoard_np" target="#SquidSignBoard_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

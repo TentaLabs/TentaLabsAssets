@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="EdgePartsSet_Alb">
+      <init_from>EdgePartsSet_Alb.png</init_from>
+    </image>
+    <image id="EdgePartsSet_Mtl">
+      <init_from>EdgePartsSet_Mtl.png</init_from>
+    </image>
+    <image id="EdgePartsSet_Nrm">
+      <init_from>EdgePartsSet_Nrm.png</init_from>
+    </image>
+    <image id="EdgePartsSet_Rgh">
+      <init_from>EdgePartsSet_Rgh.png</init_from>
+    </image>
+    <image id="GraffitiPaintedSet_Alb">
+      <init_from>GraffitiPaintedSet_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalFrameSet2_Alb">
+      <init_from>MetalFrameSet2_Alb.png</init_from>
+    </image>
+    <image id="MetalFrameSet2_Nrm">
+      <init_from>MetalFrameSet2_Nrm.png</init_from>
+    </image>
+    <image id="MetalFrameSet2_Rgh">
+      <init_from>MetalFrameSet2_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="PassageFramePlate_Alb">
+      <init_from>PassageFramePlate_Alb.png</init_from>
+    </image>
+    <image id="PassageFramePlate_Nrm">
+      <init_from>PassageFramePlate_Nrm.png</init_from>
+    </image>
+    <image id="PassageFramePlate_Rgh">
+      <init_from>PassageFramePlate_Rgh.png</init_from>
+    </image>
+    <image id="WallIronGrey_Alb">
+      <init_from>WallIronGrey_Alb.png</init_from>
+    </image>
+    <image id="WallIronGrey_Nrm">
+      <init_from>WallIronGrey_Nrm.png</init_from>
+    </image>
+    <image id="WallIronGrey_Rgh">
+      <init_from>WallIronGrey_Rgh.png</init_from>
+    </image>
+    <image id="WallShopMetalGray_Alb">
+      <init_from>WallShopMetalGray_Alb.png</init_from>
+    </image>
+    <image id="WallShopMetalGray_Nrm">
+      <init_from>WallShopMetalGray_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface3__MapGround-mesh" name="polySurface3__MapGround">
+      <mesh>
+        <source id="polySurface3__MapGround-position">
+          <float_array id="polySurface3__MapGround-position-array" count="168">149.7823 128.9314 3.691947 146.7805 128.9315 3.61268 145.2863 128.9345 24.02576 148.2554 128.9334 24.54927 140.0813 128.9317 3.435819 138.8984 128.9367 22.8702 146.7805 128.9315 3.61268 145.2863 128.9345 24.02576 125.5974 128.9337 3.467847 124.4054 128.9418 20.26948 139.4071 128.9345 45.29614 133.3478 128.9367 43.32735 142.2624 128.9334 46.22388 139.4071 128.9345 45.29614 110.8172 128.9348 3.50147 109.6767 128.9469 17.62646 103.0316 128.9332 3.502581 102.0971 128.9491 16.26635 98.3304 128.9491 31.94952 105.5075 128.9469 34.28149 119.5399 128.9417 38.84092 112.3486 128.9417 57.24451 98.99432 128.9469 50.44015 92.12173 128.9491 46.9384 131.284 128.9345 66.89256 133.973 128.9334 68.26265 131.284 128.9345 66.89256 125.4892 128.9367 63.93994 89.75003 128.9469 65.20724 101.6868 128.9417 73.87978 78.67841 128.9469 78.40529 113.4324 128.9367 82.41348 89.41569 128.9417 88.81071 99.98109 128.9367 99.04958 121.0156 128.9334 87.92302 118.5866 128.9345 86.15825 118.5866 128.9345 86.15825 104.6477 128.9344 103.5466 104.6477 128.9344 103.5466 106.8023 128.9334 105.66 83.64478 128.9491 60.77153 60.77155 128.9491 83.64487 65.20725 128.9469 89.75002 73.14023 128.9491 73.07079 55.43236 128.945 86.92448 59.63462 128.9426 93.32968 67.53777 128.9502 105.3759 73.87985 128.9417 101.6867 82.41362 128.9367 113.4323 78.9956 128.9579 122.7101 80.55629 128.9583 125.2719 86.18061 128.9345 118.5599 87.92319 128.9334 121.0155 86.18061 128.9345 118.5599 78.9956 128.9579 122.7101 75.51817 128.9575 117.5146</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapGround-position-array" count="56" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapGround-normal">
+          <float_array id="polySurface3__MapGround-normal-array" count="168">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.001956947 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.001956947 1 -0.001956947 0.001956947 1 -0.001956947 0 1 0 0 1 0 0 1 0 0.001956947 1 -0.001956947 0.001956947 1 -0.001956947</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapGround-normal-array" count="56" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapGround-texcoord">
+          <float_array id="polySurface3__MapGround-texcoord-array" count="112">0.1943359 -1.712891 0.1281738 -1.636719 0.6318359 -1.162109 0.7089844 -1.228516 0.1445313 -0.8623047 0.4807129 -0.5527344 0.2468262 -0.9814453 0.5961914 -0.6523438 -0.0692749 -0.5976563 0.2188721 -0.3271484 0.8964844 -0.2304688 0.7709961 -0.1494141 1.150391 -0.6083984 1.064453 -0.5537109 -0.2873535 -0.328125 -0.04721069 -0.09863281 -0.4025879 -0.1865234 -0.1842041 0.01904297 0.04550171 0.3198242 0.1942139 0.2236328 0.4848633 0.03564453 0.7133789 0.4389648 0.3918457 0.5812988 0.2264404 0.654541 1.458008 0.1210938 1.551758 0.07958984 1.168945 0.2373047 1.029297 0.2988281 0.5234375 0.9681091 0.8583984 0.8792725 0.6000977 1.36499 1.1875 0.7918701 0.9482422 1.323486 1.291016 1.282959 1.791016 0.8394775 1.693359 0.8654785 1.332031 0.753418 1.441406 1.264404 1.851563 1.602539 1.953125 1.591309 0.3525391 1.013565 0.4304199 1.768555 0.6069336 1.777832 0.4208984 1.386719 0.4108887 1.914063 0.5898438 1.932617 0.9257813 1.966797 0.9526367 1.796875 1.292969 1.81543 1.807617 2.68457 1.908203 2.699219 1.851563 2.408203 1.953125 2.414063 1.441406 1.822754 1.411133 2.014648 1.264648 2.000977</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapGround-texcoord-array" count="56" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface3__MapGround-vertex">
+          <input semantic="POSITION" source="#polySurface3__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="70">
+          <input semantic="VERTEX" source="#polySurface3__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface3__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface3__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 4 4 4 9 9 9 5 5 5 4 4 4 10 10 10 7 7 7 5 5 5 11 11 11 10 10 10 5 5 5 12 12 12 3 3 3 2 2 2 13 13 13 12 12 12 2 2 2 14 14 14 15 15 15 8 8 8 15 15 15 9 9 9 8 8 8 16 16 16 17 17 17 14 14 14 17 17 17 15 15 15 14 14 14 15 15 15 17 17 17 18 18 18 19 19 19 15 15 15 18 18 18 19 19 19 20 20 20 15 15 15 20 20 20 9 9 9 15 15 15 21 21 21 20 20 20 22 22 22 20 20 20 19 19 19 22 22 22 22 22 22 19 19 19 23 23 23 19 19 19 18 18 18 23 23 23 20 20 20 11 11 11 9 9 9 11 11 11 5 5 5 9 9 9 12 12 12 13 13 13 24 24 24 25 25 25 12 12 12 24 24 24 26 26 26 10 10 10 27 27 27 10 10 10 11 11 11 27 27 27 27 27 27 11 11 11 21 21 21 11 11 11 20 20 20 21 21 21 28 28 28 22 22 22 23 23 23 28 28 28 29 29 29 22 22 22 29 29 29 28 28 28 30 30 30 29 29 29 31 31 31 21 21 21 29 29 29 21 21 21 22 22 22 32 32 32 29 29 29 30 30 30 33 33 33 31 31 31 32 32 32 31 31 31 29 29 29 32 32 32 34 34 34 25 25 25 24 24 24 35 35 35 34 34 34 24 24 24 36 36 36 26 26 26 27 27 27 31 31 31 36 36 36 27 27 27 31 31 31 27 27 27 21 21 21 36 36 36 31 31 31 33 33 33 37 37 37 36 36 36 33 33 33 34 34 34 35 35 35 38 38 38 39 39 39 34 34 34 38 38 38 40 40 40 28 28 28 23 23 23 30 30 30 28 28 28 40 40 40 41 41 41 42 42 42 43 43 43 42 42 42 30 30 30 43 43 43 43 43 43 30 30 30 40 40 40 41 41 41 44 44 44 45 45 45 42 42 42 41 41 41 45 45 45 45 45 45 46 46 46 42 42 42 46 46 46 47 47 47 42 42 42 42 42 42 47 47 47 30 30 30 48 48 48 33 33 33 32 32 32 47 47 47 48 48 48 32 32 32 47 47 47 32 32 32 30 30 30 49 49 49 50 50 50 51 51 51 50 50 50 52 52 52 51 51 51 51 51 51 52 52 52 38 38 38 52 52 52 39 39 39 38 38 38 53 53 53 37 37 37 33 33 33 48 48 48 53 53 53 33 33 33 54 54 54 53 53 53 48 48 48 55 55 55 54 54 54 48 48 48 55 55 55 48 48 48 47 47 47 46 46 46 55 55 55 47 47 47 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface3__MapWall-mesh" name="polySurface3__MapWall">
+      <mesh>
+        <source id="polySurface3__MapWall-position">
+          <float_array id="polySurface3__MapWall-position-array" count="438">125.5452 128.95 1.421242 125.6065 120.437 1.399451 110.8737 120.4371 1.405506 110.8511 128.9498 1.431408 109.8326 120.4287 17.7481 110.8737 120.4371 1.405506 125.6065 120.437 1.399451 124.3181 120.4287 20.31179 125.5974 128.9337 3.467847 125.6678 128.9312 1.377661 110.8962 128.9312 1.379604 110.8172 128.9348 3.50147 103.191 128.9312 1.379604 148.358 120.4359 24.56694 138.8036 120.4286 22.87548 149.827 120.4368 1.389498 140.1072 120.4369 1.393492 149.827 120.4368 1.389498 149.7019 128.9504 1.40453 148.358 120.4359 24.56694 148.4606 128.95 24.58461 149.952 128.9312 1.374466 146.9444 128.9312 1.374862 149.7823 128.9314 3.691947 146.7805 128.9315 3.61268 140.2066 128.9312 1.375748 140.0813 128.9317 3.435819 149.827 120.4368 1.389498 140.1072 120.4369 1.393492 149.7019 128.9504 1.40453 140.0077 128.9503 1.411236 142.4856 128.95 46.29639 142.374 120.4359 46.26014 119.4846 120.4287 38.82291 133.2852 120.4286 43.307 142.374 120.4359 46.26014 100.3192 128.9606 1.414232 100.3088 120.4272 1.408655 100.3192 128.9606 1.414232 100.3088 120.4272 1.408655 99.13393 120.4278 15.79463 99.11928 128.9498 15.85203 99.13393 120.4278 15.79463 100.3088 120.4272 1.408655 99.14859 128.95 15.73724 102.0971 128.9491 16.26635 103.0316 128.9332 3.502581 100.1236 128.9332 3.502581 100.283 128.9312 1.379604 99.13393 120.4278 15.79463 95.47718 120.4277 31.02245 99.11928 128.9498 15.85203 95.47717 128.9498 31.02245 95.47719 128.95 31.02245 98.3304 128.9491 31.94952 95.47718 120.4277 31.02245 105.684 120.4287 34.33883 95.47718 120.4277 31.02245 89.44872 120.4277 45.57643 95.47717 128.9498 31.02245 89.44872 128.9498 45.57643 89.44872 128.95 45.57643 92.12173 128.9491 46.9384 89.44872 120.4277 45.57643 99.15977 120.4287 50.52445 81.21773 128.95 59.00818 83.64478 128.9491 60.77153 81.21773 120.4277 59.00817 81.21773 128.9498 59.00817 89.44872 128.9498 45.57643 89.44872 120.4277 45.57643 89.90014 120.4287 65.3163 81.21773 120.4277 59.00817 101.6397 120.4287 73.84555 112.2901 120.4287 57.21469 134.174 128.95 68.36508 134.0735 120.4359 68.31387 134.0735 120.4359 68.31387 125.4205 120.4286 63.90493 71.00219 120.4277 70.96901 71.00093 128.9498 70.97047 81.21773 128.9498 59.00817 81.21773 120.4277 59.00817 59.00814 120.4278 81.21776 59.00814 128.9498 81.21776 71.00093 128.9498 70.97047 71.00219 120.4277 70.96901 59.00814 128.95 81.21777 60.77155 128.9491 83.64487 71.00345 128.95 70.96754 73.14023 128.9491 73.07079 65.31696 120.4287 89.89961 59.00814 120.4278 81.21776 71.00219 120.4277 70.96901 78.80927 120.4287 78.53685 59.00814 128.9498 81.21776 59.00814 120.4278 81.21776 52.03772 128.9234 85.4892 52.02256 120.4436 85.49847 57.88382 120.4404 94.42878 57.88916 128.9333 94.39978 52.02256 120.4436 85.49847 52.03772 128.9234 85.4892 65.76411 128.9516 106.4802 67.53777 128.9502 105.3759 59.63462 128.9426 93.32968 57.87847 128.9412 94.45778 55.43236 128.945 86.92448 53.65352 128.9437 88.01713 52.00741 128.9447 85.50774 53.78731 128.946 84.41704 57.88382 120.4404 94.42878 52.02256 120.4436 85.49847 65.7538 120.4352 106.4195 89.36697 120.4287 88.76736 73.84711 120.4287 101.6384 73.73479 128.9621 118.6322 75.51817 128.9575 117.5146 73.70863 120.4299 118.5395 82.37727 120.4286 113.3772 73.70863 120.4299 118.5395 73.68249 128.9334 118.4469 65.7538 120.4352 106.4195 65.74348 128.9333 106.3588 121.2055 128.95 88.06096 121.1106 120.4359 87.99199 121.1106 120.4359 87.99199 113.3792 120.4286 82.37479 106.9631 128.95 105.8182 106.8827 120.4359 105.7391 106.8827 120.4359 105.7391 99.92467 120.4286 98.99788 78.74081 128.9335 126.1487 78.77705 120.4265 126.2618 78.77705 120.4265 126.2618 87.99362 120.4359 121.1092 88.06404 128.95 121.203 78.74081 128.9335 126.1487 87.99362 120.4359 121.1092 78.77705 120.4265 126.2618 78.81329 128.9688 126.3749 80.55629 128.9583 125.2719 78.9956 128.9579 122.7101 77.16909 128.9626 123.856 88.06404 128.95 121.203 87.99362 120.4359 121.1092</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapWall-position-array" count="146" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapWall-normal">
+          <float_array id="polySurface3__MapWall-normal-array" count="438">0 0.001956947 -1 0 0.001956947 -1 0 0.001956947 -1 0 0.001956947 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.9980431 0.001956947 0.05870841 0.9980431 0.001956947 0.05870841 0.9863014 -0.005870841 0.1604697 0.9863014 -0.005870841 0.1604697 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.001956947 -1 0 0.001956947 -1 0 0.001956947 -1 0 0.001956947 -1 0.9510763 -0.01369863 0.3111546 0.9510763 -0.01369863 0.3111546 0 -1 0 0 -1 0 0 -1 0 0 0.001956947 -1 0 0.001956947 -1 -0.9960861 0 -0.08219178 -0.9960861 0 -0.08219178 -0.9960861 0 -0.08219178 -0.9960861 0 -0.08219178 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 -0.001956947 0 1 -0.001956947 0 1 0 -0.9726027 0 -0.2328767 -0.9726027 0 -0.2328767 -0.9726027 0 -0.2328767 -0.9726027 0 -0.2328767 0 1 0 0 1 0 0 -1 0 0 -1 0 -0.9236791 0 -0.3835616 -0.9236791 0 -0.3835616 -0.9236791 0 -0.3835616 -0.9236791 0 -0.3835616 0 1 0 0 1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 -0.853229 0 -0.5225049 -0.853229 0 -0.5225049 -0.853229 0 -0.5225049 -0.853229 0 -0.5225049 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.890411 -0.01369863 0.4540117 0.890411 -0.01369863 0.4540117 0 -1 0 0 -1 0 -0.7612525 0 -0.6497065 -0.7612525 0 -0.6497065 -0.7612525 0 -0.6497065 -0.7612525 0 -0.6497065 -0.6497065 0 -0.7592955 -0.6497065 0 -0.7592955 -0.6497065 0 -0.7592955 -0.6497065 0 -0.7592955 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.5225049 0 -0.853229 -0.5225049 0 -0.853229 -0.5225049 0 -0.853229 -0.5225049 0 -0.853229 -0.8356164 0.001956947 0.5479452 -0.8356164 0.001956947 0.5479452 -0.8356164 0.001956947 0.5479452 -0.8356164 0.001956947 0.5479452 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 -0.001956947 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 -0.001956947 0 1 -0.001956947 0 -1 0 0 -1 0 -0.8356164 0.001956947 0.5479452 -0.8356164 0.003913894 0.5479452 -0.8356164 0.001956947 0.5479452 -0.8356164 0.001956947 0.5479452 0.8082192 -0.01369863 0.5870842 0.8082192 -0.01369863 0.5870842 0 -1 0 0 -1 0 0.7064579 -0.01369863 0.7064579 0.7064579 -0.01369863 0.7064579 0 -1 0 0 -1 0 -0.8356164 0.003913894 0.5479452 -0.8356164 0.001956947 0.5479452 0 -1 0 0 -1 0 0.5870842 -0.009784736 0.8101761 0.4774951 0 0.8786693 0.5870842 -0.009784736 0.8101761 0.4774951 0 0.8786693 0.001956947 1 -0.001956947 0.001956947 1 -0.001956947 0.001956947 1 -0.001956947 0.001956947 1 -0.001956947 0.5870842 -0.009784736 0.8101761 0.5870842 -0.009784736 0.8101761</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapWall-normal-array" count="146" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapWall-texcoord">
+          <float_array id="polySurface3__MapWall-texcoord-array" count="292">2.367188 -0.9394531 2.679688 -0.9443359 2.679688 -0.3984375 2.367188 -0.3974609 0.5063477 2.160156 0.5439453 2.762695 1.085938 2.763672 1.041016 2.06543 -0.3278809 -1.083984 -0.3811035 -1.130859 -0.6962891 -0.7421875 -0.6425781 -0.6953125 -0.8608398 -0.5400391 1.932617 1.908203 1.576172 1.971191 1.978516 2.763672 1.620117 2.763672 2.017578 -1.839844 2.330078 -1.839844 2.017578 -0.9853516 2.330078 -0.984375 0.137085 -1.767578 0.07287598 -1.689453 0.1943359 -1.712891 0.1281738 -1.636719 -0.07086182 -1.511719 -0.01948547 -1.464844 2.679688 -1.839844 2.679688 -1.480469 2.367188 -1.832031 2.367188 -1.472656 2.330078 -0.1826172 2.017578 -0.1845703 0.862793 1.382813 1.37207 1.217163 1.711914 1.106873 2.365234 -0.008789063 2.679688 -0.0078125 -1.661133 2.771484 -1.975586 2.772461 -1.975586 2.243164 -1.661133 2.239258 0.111145 2.230469 0.1553955 2.763672 -0.5703125 -0.1279297 -0.4934082 -0.1933594 -0.8085938 -0.4902344 -0.8706055 -0.4140625 -0.9228516 -0.4638672 -1.975586 2.243164 -1.975586 1.678711 -1.661133 2.239258 -1.661133 1.678711 -0.2474365 0.2949219 -0.1622314 0.2397461 -0.02326965 1.67041 0.3535156 1.54834 -1.975586 1.678711 -1.975586 1.141724 -1.661133 1.678711 -1.661133 1.141724 0.005840302 0.763916 0.09863281 0.7229004 -0.2458496 1.133423 0.1126709 0.9508057 0.1826172 1.266602 0.2807617 1.240723 -1.975586 0.6459961 -1.661133 0.6459961 -1.661133 1.141724 -1.975586 1.141724 -0.229126 0.4047852 -0.5493164 0.6376953 0.2042236 0.08984375 0.597168 0.7038574 2.330078 0.6320801 2.017578 0.628418 1.405273 0.2924805 1.082031 0.4570313 -1.975586 0.2045898 -1.661133 0.2045898 -1.661133 0.6459961 -1.975586 0.6459961 -1.975586 -0.1738281 -1.661133 -0.1738281 -1.661133 0.2045898 -1.975586 0.2045898 0.2915039 2.323242 0.3928223 2.329102 0.2785645 1.790039 0.3793945 1.778809 -1.136719 -0.5029297 -1.369141 -0.1816406 -0.9267578 0.1962891 -0.6386719 -0.08300781 -1.661133 -0.1738281 -1.975586 -0.1738281 -1.662109 -0.3310547 -1.975586 -0.3320313 -1.975586 -0.6621094 -1.662109 -0.6601563 -1.975586 -0.3320313 -1.662109 -0.3310547 1.098633 2.685547 1.107422 2.615234 0.6225586 2.56543 0.6147461 2.635742 0.3647461 2.539063 0.3554688 2.609375 0.2543945 2.598633 0.263916 2.529297 -1.410156 -0.6689453 -1.626953 -0.3398438 -1.120117 -1.109375 -0.2487793 -0.4609375 -0.8217773 -0.9355469 1.587891 2.736328 1.59668 2.665039 -0.8276367 -1.556641 -0.5068359 -1.369141 -1.976563 -1.554688 -1.662109 -1.546875 -1.975586 -1.105469 -1.662109 -1.101563 2.330078 1.359131 2.017578 1.354004 0.9262695 -0.4345703 0.6376953 -0.2246094 2.330078 2.014648 2.017578 2.008789 0.4006348 -1.089844 0.1408691 -0.8388672 -1.662109 -1.832031 -1.976563 -1.839844 -0.6411133 -1.839844 -0.296875 -1.658203 2.976563 0.01220703 2.974609 0.3564453 2.662109 0.01708984 2.660156 0.3535156 1.899414 2.768555 1.908203 2.699219 1.807617 2.68457 1.797852 2.757813 2.330078 2.582031 2.017578 2.575195</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapWall-texcoord-array" count="146" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface3__MapWall-vertex">
+          <input semantic="POSITION" source="#polySurface3__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="138">
+          <input semantic="VERTEX" source="#polySurface3__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface3__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface3__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 4 4 4 5 5 5 6 6 6 7 7 7 4 4 4 6 6 6 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 10 10 10 12 12 12 11 11 11 13 13 13 14 14 14 15 15 15 14 14 14 16 16 16 15 15 15 17 17 17 18 18 18 19 19 19 18 18 18 20 20 20 19 19 19 21 21 21 22 22 22 23 23 23 22 22 22 24 24 24 23 23 23 24 24 24 22 22 22 25 25 25 26 26 26 24 24 24 25 25 25 26 26 26 25 25 25 9 9 9 8 8 8 26 26 26 9 9 9 27 27 27 28 28 28 29 29 29 28 28 28 30 30 30 29 29 29 30 30 30 28 28 28 1 1 1 0 0 0 30 30 30 1 1 1 7 7 7 6 6 6 16 16 16 14 14 14 7 7 7 16 16 16 20 20 20 31 31 31 19 19 19 31 31 31 32 32 32 19 19 19 33 33 33 7 7 7 34 34 34 7 7 7 14 14 14 34 34 34 35 35 35 34 34 34 14 14 14 13 13 13 35 35 35 14 14 14 36 36 36 3 3 3 37 37 37 3 3 3 2 2 2 37 37 37 38 38 38 39 39 39 40 40 40 41 41 41 38 38 38 40 40 40 42 42 42 43 43 43 5 5 5 4 4 4 42 42 42 5 5 5 44 44 44 45 45 45 46 46 46 47 47 47 44 44 44 46 46 46 48 48 48 47 47 47 46 46 46 12 12 12 48 48 48 46 46 46 12 12 12 46 46 46 11 11 11 49 49 49 50 50 50 51 51 51 50 50 50 52 52 52 51 51 51 45 45 45 44 44 44 53 53 53 54 54 54 45 45 45 53 53 53 42 42 42 4 4 4 55 55 55 4 4 4 56 56 56 55 55 55 56 56 56 4 4 4 33 33 33 4 4 4 7 7 7 33 33 33 57 57 57 58 58 58 59 59 59 58 58 58 60 60 60 59 59 59 61 61 61 62 62 62 53 53 53 62 62 62 54 54 54 53 53 53 55 55 55 56 56 56 63 63 63 56 56 56 64 64 64 63 63 63 65 65 65 66 66 66 61 61 61 66 66 66 62 62 62 61 61 61 67 67 67 68 68 68 69 69 69 70 70 70 67 67 67 69 69 69 71 71 71 72 72 72 63 63 63 64 64 64 71 71 71 63 63 63 71 71 71 64 64 64 73 73 73 64 64 64 74 74 74 73 73 73 33 33 33 74 74 74 64 64 64 56 56 56 33 33 33 64 64 64 33 33 33 34 34 34 74 74 74 75 75 75 76 76 76 31 31 31 76 76 76 32 32 32 31 31 31 35 35 35 77 77 77 78 78 78 34 34 34 35 35 35 78 78 78 34 34 34 78 78 78 74 74 74 79 79 79 80 80 80 81 81 81 82 82 82 79 79 79 81 81 81 83 83 83 84 84 84 85 85 85 86 86 86 83 83 83 85 85 85 87 87 87 88 88 88 89 89 89 88 88 88 90 90 90 89 89 89 89 89 89 90 90 90 65 65 65 90 90 90 66 66 66 65 65 65 91 91 91 92 92 92 93 93 93 94 94 94 91 91 91 93 93 93 94 94 94 93 93 93 72 72 72 71 71 71 94 94 94 72 72 72 95 95 95 96 96 96 97 97 97 96 96 96 98 98 98 97 97 97 99 99 99 100 100 100 101 101 101 100 100 100 102 102 102 101 101 101 103 103 103 104 104 104 105 105 105 106 106 106 103 103 103 105 105 105 106 106 106 105 105 105 107 107 107 108 108 108 106 106 106 107 107 107 109 109 109 108 108 108 110 110 110 108 108 108 107 107 107 110 110 110 110 110 110 107 107 107 87 87 87 107 107 107 88 88 88 87 87 87 111 111 111 112 112 112 92 92 92 91 91 91 111 111 111 92 92 92 113 113 113 111 111 111 91 91 91 94 94 94 114 114 114 115 115 115 91 91 91 94 94 94 115 115 115 115 115 115 113 113 113 91 91 91 116 116 116 117 117 117 104 104 104 103 103 103 116 116 116 104 104 104 118 118 118 113 113 113 115 115 115 119 119 119 118 118 118 115 115 115 115 115 115 114 114 114 119 119 119 120 120 120 121 121 121 122 122 122 121 121 121 123 123 123 122 122 122 122 122 122 123 123 123 99 99 99 123 123 123 100 100 100 99 99 99 124 124 124 125 125 125 76 76 76 75 75 75 124 124 124 76 76 76 77 77 77 126 126 126 78 78 78 126 126 126 127 127 127 78 78 78 74 74 74 78 78 78 127 127 127 73 73 73 74 74 74 127 127 127 73 73 73 127 127 127 114 114 114 128 128 128 129 129 129 124 124 124 129 129 129 125 125 125 124 124 124 126 126 126 130 130 130 131 131 131 127 127 127 126 126 126 131 131 131 127 127 127 131 131 131 114 114 114 71 71 71 73 73 73 94 94 94 73 73 73 114 114 114 94 94 94 132 132 132 121 121 121 120 120 120 133 133 133 132 132 132 120 120 120 134 134 134 118 118 118 119 119 119 135 135 135 134 134 134 119 119 119 136 136 136 137 137 137 138 138 138 137 137 137 139 139 139 138 138 138 140 140 140 141 141 141 142 142 142 143 143 143 140 140 140 142 142 142 143 143 143 142 142 142 117 117 117 116 116 116 143 143 143 117 117 117 144 144 144 145 145 145 129 129 129 128 128 128 144 144 144 129 129 129 130 130 130 135 135 135 131 131 131 135 135 135 119 119 119 131 131 131 114 114 114 131 131 131 119 119 119 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface3__MapGround-mesh">
+      <skin source="#polySurface3__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface3__MapGround-mesh-joint">
+          <Name_array id="polySurface3__MapGround-mesh-joint-array" count="1">Lft_CarouselBridgeMoveB_Map</Name_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapGround-mesh-inv_bind_matrix">
+          <float_array id="polySurface3__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapGround-mesh-weight">
+          <float_array id="polySurface3__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface3__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface3__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="56">
+          <input semantic="JOINT" source="#polySurface3__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface3__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface3__MapWall-mesh">
+      <skin source="#polySurface3__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface3__MapWall-mesh-joint">
+          <Name_array id="polySurface3__MapWall-mesh-joint-array" count="1">Lft_CarouselBridgeMoveB_Map</Name_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapWall-mesh-inv_bind_matrix">
+          <float_array id="polySurface3__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface3__MapWall-mesh-weight">
+          <float_array id="polySurface3__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface3__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface3__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface3__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="146">
+          <input semantic="JOINT" source="#polySurface3__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface3__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_CarouselBridgeMoveB_Map" name="Lft_CarouselBridgeMoveB_Map" sid="Lft_CarouselBridgeMoveB_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface3__MapGround" name="polySurface3__MapGround" type="NODE">
+        <instance_controller url="#Armature_polySurface3__MapGround-mesh">
+          <skeleton>#Armature_Lft_CarouselBridgeMoveB_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface3__MapWall" name="polySurface3__MapWall" type="NODE">
+        <instance_controller url="#Armature_polySurface3__MapWall-mesh">
+          <skeleton>#Armature_Lft_CarouselBridgeMoveB_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

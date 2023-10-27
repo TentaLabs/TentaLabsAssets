@@ -1,0 +1,1002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Lft_WaveAreaHakoA_g00_b00_f00">
+      <init_from>Bake_Lft_WaveAreaHakoA_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Lft_WaveAreaHakoA_g00_b01_f00">
+      <init_from>Bake_Lft_WaveAreaHakoA_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Bake_Lft_WaveAreaHakoB_g00_b00_f00">
+      <init_from>Bake_Lft_WaveAreaHakoB_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Lft_WaveAreaHakoB_g00_b01_f00">
+      <init_from>Bake_Lft_WaveAreaHakoB_g00_b01_f00.png</init_from>
+    </image>
+    <image id="Graffitiset_Alb">
+      <init_from>Graffitiset_Alb.png</init_from>
+    </image>
+    <image id="Graffitiset_Nrm">
+      <init_from>Graffitiset_Nrm.png</init_from>
+    </image>
+    <image id="Graffitiset_Rgh">
+      <init_from>Graffitiset_Rgh.png</init_from>
+    </image>
+    <image id="GroundPlywood_Alb">
+      <init_from>GroundPlywood_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Brown_Alb">
+      <init_from>GroundPlywood_Brown_Alb.png</init_from>
+    </image>
+    <image id="GroundPlywood_Nrm">
+      <init_from>GroundPlywood_Nrm.png</init_from>
+    </image>
+    <image id="GroundPlywood_Rgh">
+      <init_from>GroundPlywood_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Alb">
+      <init_from>WallMetalFenceSet_Alb.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Mtl">
+      <init_from>WallMetalFenceSet_Mtl.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Nrm">
+      <init_from>WallMetalFenceSet_Nrm.png</init_from>
+    </image>
+    <image id="WallMetalFenceSet_Rgh">
+      <init_from>WallMetalFenceSet_Rgh.png</init_from>
+    </image>
+    <image id="WallVinylCover_Black_Alb">
+      <init_from>WallVinylCover_Black_Alb.png</init_from>
+    </image>
+    <image id="WallVinylCover_Nrm">
+      <init_from>WallVinylCover_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Graffitiset">
+      <instance_effect url="#Effect_Graffitiset" />
+    </material>
+    <material id="GroundPlywood">
+      <instance_effect url="#Effect_GroundPlywood" />
+    </material>
+    <material id="GroundPlywoodBrown">
+      <instance_effect url="#Effect_GroundPlywoodBrown" />
+    </material>
+    <material id="WallMetalFenceSet">
+      <instance_effect url="#Effect_WallMetalFenceSet" />
+    </material>
+    <material id="WallMetalFenceSet_np">
+      <instance_effect url="#Effect_WallMetalFenceSet_np" />
+    </material>
+    <material id="WallVinylCover_Black">
+      <instance_effect url="#Effect_WallVinylCover_Black" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Graffitiset">
+      <profile_COMMON>
+        <newparam sid="surface_Graffitiset-diffuse">
+          <surface type="2D">
+            <init_from>Graffitiset_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Graffitiset-diffuse">
+          <sampler2D>
+            <source>surface_Graffitiset-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Graffitiset-bump">
+          <surface type="2D">
+            <init_from>Graffitiset_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Graffitiset-bump">
+          <sampler2D>
+            <source>surface_Graffitiset-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Graffitiset-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Graffitiset-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundPlywood">
+      <profile_COMMON>
+        <newparam sid="surface_GroundPlywood-diffuse">
+          <surface type="2D">
+            <init_from>GroundPlywood_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundPlywood-diffuse">
+          <sampler2D>
+            <source>surface_GroundPlywood-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundPlywood-bump">
+          <surface type="2D">
+            <init_from>GroundPlywood_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundPlywood-bump">
+          <sampler2D>
+            <source>surface_GroundPlywood-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundPlywood-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundPlywood-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundPlywoodBrown">
+      <profile_COMMON>
+        <newparam sid="surface_GroundPlywoodBrown-diffuse">
+          <surface type="2D">
+            <init_from>GroundPlywood_Brown_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundPlywoodBrown-diffuse">
+          <sampler2D>
+            <source>surface_GroundPlywoodBrown-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundPlywoodBrown-bump">
+          <surface type="2D">
+            <init_from>GroundPlywood_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundPlywoodBrown-bump">
+          <sampler2D>
+            <source>surface_GroundPlywoodBrown-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundPlywoodBrown-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundPlywoodBrown-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallMetalFenceSet">
+      <profile_COMMON>
+        <newparam sid="surface_WallMetalFenceSet-diffuse">
+          <surface type="2D">
+            <init_from>WallMetalFenceSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallMetalFenceSet-diffuse">
+          <sampler2D>
+            <source>surface_WallMetalFenceSet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallMetalFenceSet-bump">
+          <surface type="2D">
+            <init_from>WallMetalFenceSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallMetalFenceSet-bump">
+          <sampler2D>
+            <source>surface_WallMetalFenceSet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallMetalFenceSet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallMetalFenceSet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallMetalFenceSet_np">
+      <profile_COMMON>
+        <newparam sid="surface_WallMetalFenceSet_np-diffuse">
+          <surface type="2D">
+            <init_from>WallMetalFenceSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallMetalFenceSet_np-diffuse">
+          <sampler2D>
+            <source>surface_WallMetalFenceSet_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallMetalFenceSet_np-bump">
+          <surface type="2D">
+            <init_from>WallMetalFenceSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallMetalFenceSet_np-bump">
+          <sampler2D>
+            <source>surface_WallMetalFenceSet_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallMetalFenceSet_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallMetalFenceSet_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallVinylCover_Black">
+      <profile_COMMON>
+        <newparam sid="surface_WallVinylCover_Black-diffuse">
+          <surface type="2D">
+            <init_from>WallVinylCover_Black_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallVinylCover_Black-diffuse">
+          <sampler2D>
+            <source>surface_WallVinylCover_Black-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallVinylCover_Black-bump">
+          <surface type="2D">
+            <init_from>WallVinylCover_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallVinylCover_Black-bump">
+          <sampler2D>
+            <source>surface_WallVinylCover_Black-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallVinylCover_Black-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallVinylCover_Black-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Edge2__WallMetalFenceSet-mesh" name="Edge2__WallMetalFenceSet">
+      <mesh>
+        <source id="Edge2__WallMetalFenceSet-position">
+          <float_array id="Edge2__WallMetalFenceSet-position-array" count="102">389 30 -20 300 30 -19.99999 386.5 30 -17.5 302.5 30 -17.49999 300 30 30 389 30 30 302.5 30 27.5 386.5 30 27.5 389 30 30 389 30 -20 386.5 30 27.5 386.5 30 -17.5 300 30 -19.99999 300 30 30 302.5 30 -17.49999 302.5 30 27.5 389 30 -20 389 29 -20 300 30 -19.99999 300 29 -19.99999 389 30 30 389 29 30 389 30 -20 389 29 -20 300 30 -19.99999 300 29 -19.99999 300 30 30 300 29 30 389 30 30 389 29 30 389 29 -20 300 29 -19.99999 300 29 30 300 30 30</float_array>
+          <technique_common>
+            <accessor source="#Edge2__WallMetalFenceSet-position-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__WallMetalFenceSet-normal">
+          <float_array id="Edge2__WallMetalFenceSet-normal-array" count="102">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Edge2__WallMetalFenceSet-normal-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__WallMetalFenceSet-texcoord">
+          <float_array id="Edge2__WallMetalFenceSet-texcoord-array" count="68">0.03503418 0.6755371 0.03503418 -0.4492188 0.003803253 0.6437988 0.003803253 -0.4179688 0.03503418 0.6755371 0.03503418 -0.4492188 0.003803253 0.6437988 0.003803253 -0.4179688 0.03503418 -0.4287109 0.03503418 -1.052734 0.003803253 -0.4599609 0.003803253 -1.021484 0.03503418 -0.4287109 0.03503418 -1.052734 0.003803253 -0.4599609 0.003803253 -1.021484 0.03503418 0.675293 0.04754639 0.675293 0.03503418 -0.4492188 0.04754639 -0.4492188 0.03503418 -0.4287109 0.04754639 -0.4287109 0.03503418 -1.052734 0.04754639 -1.052734 0.03503418 -0.4287109 0.04754639 -0.4287109 0.03503418 -1.052734 0.04754639 -1.052734 0.03503418 -0.4287109 0.04754639 -0.4287109 0.04754639 -1.052734 0.04754639 -0.4287109 0.04754639 -1.052734 0.03503418 -1.052734</float_array>
+          <technique_common>
+            <accessor source="#Edge2__WallMetalFenceSet-texcoord-array" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__WallMetalFenceSet-texcoord_1">
+          <float_array id="Edge2__WallMetalFenceSet-texcoord-array_1" count="68">0.0007934691 0.9960327 0.0007934691 0.005920529 0.02827497 0.9682155 0.02827497 0.03373772 0.03720149 0.9960327 0.03720149 0.005920529 0.06469826 0.9682155 0.06469826 0.03373772 0.1337148 0.5538567 0.1337148 0.003967345 0.1612116 0.5263752 0.1612116 0.0314641 0.1701381 0.5538567 0.1701381 0.003967345 0.1976196 0.5263752 0.1976196 0.0314641 0.08462653 0.9958801 0.07362478 0.9958801 0.08462653 0.006073117 0.07362478 0.006073117 0.1046464 0.5538567 0.09365988 0.553872 0.1046464 0.003967345 0.09365988 0.003967345 0.1246815 0.5538567 0.1136797 0.553872 0.1246815 0.003967345 0.1136797 0.003967345 0.1046464 0.5538567 0.09365988 0.553872 0.09365988 0.003967345 0.1136797 0.553872 0.1136797 0.003967345 0.1246815 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#Edge2__WallMetalFenceSet-texcoord-array_1" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge2__WallMetalFenceSet-vertex">
+          <input semantic="POSITION" source="#Edge2__WallMetalFenceSet-position" />
+        </vertices>
+        <triangles material="WallMetalFenceSet" count="14">
+          <input semantic="VERTEX" source="#Edge2__WallMetalFenceSet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge2__WallMetalFenceSet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge2__WallMetalFenceSet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Edge2__WallMetalFenceSet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_Hello_Green_0012__Graffitiset-mesh" name="_Hello_Green_0012__Graffitiset">
+      <mesh>
+        <source id="_Hello_Green_0012__Graffitiset-position">
+          <float_array id="_Hello_Green_0012__Graffitiset-position-array" count="102">304.7659 29.99999 -6.477962 304.6956 29.99998 -0.820406 319.0441 29.99998 -0.6419945 313.822 30 -15.29405 319.2255 30 -15.22686 344.5 12.50002 30 335.0299 7.426835 30 338.2442 1.426675 30 347.7143 6.499862 30 370.9997 8.59074 30 375.2907 13.87476 30 362.6599 15.36334 30 366.9509 20.64735 30 367.8031 18.20299 30.1 368.8291 24.93216 30.1 357.1825 19.82227 30.1 358.2085 26.55145 30.1 304.7659 29.99999 -6.477962 304.6956 29.99998 -0.820406 319.0441 29.99998 -0.6419945 313.822 30 -15.29405 319.2255 30 -15.22686 344.5 12.50002 30 335.0299 7.426835 30 338.2442 1.426675 30 347.7143 6.499862 30 370.9997 8.59074 30 375.2907 13.87476 30 362.6599 15.36334 30 366.9509 20.64735 30 367.8031 18.20299 30.1 368.8291 24.93216 30.1 357.1825 19.82227 30.1 358.2085 26.55145 30.1</float_array>
+          <technique_common>
+            <accessor source="#_Hello_Green_0012__Graffitiset-position-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Hello_Green_0012__Graffitiset-normal">
+          <float_array id="_Hello_Green_0012__Graffitiset-normal-array" count="102">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_Hello_Green_0012__Graffitiset-normal-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Hello_Green_0012__Graffitiset-texcoord">
+          <float_array id="_Hello_Green_0012__Graffitiset-texcoord-array" count="68">0.7991303 0.2514839 0.7991303 0.1877165 0.9616388 0.1877165 0.9004502 0.3520867 0.9616388 0.3520867 0.3664149 0.9099413 0.2474708 0.9099413 0.2474708 0.8344396 0.3664149 0.8344396 0.1214466 0.8349432 0.1214466 0.9104448 0.00250248 0.8349432 0.00250248 0.9104448 0.2462043 0.7575799 0.2462043 0.8330815 0.1272755 0.7575799 0.1272755 0.8330815 0.7991303 0.2514839 0.7991303 0.1877165 0.9616388 0.1877165 0.9004502 0.3520867 0.9616388 0.3520867 0.3664149 0.9099413 0.2474708 0.9099413 0.2474708 0.8344396 0.3664149 0.8344396 0.1214466 0.8349432 0.1214466 0.9104448 0.00250248 0.8349432 0.00250248 0.9104448 0.2462043 0.7575799 0.2462043 0.8330815 0.1272755 0.7575799 0.1272755 0.8330815</float_array>
+          <technique_common>
+            <accessor source="#_Hello_Green_0012__Graffitiset-texcoord-array" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Hello_Green_0012__Graffitiset-texcoord_1">
+          <float_array id="_Hello_Green_0012__Graffitiset-texcoord-array_1" count="68">0.003631647 0.2448005 0.003631647 0.003967345 0.6174868 0.003967345 0.3863127 0.6248112 0.6174868 0.6248112 0.2888228 0.5467918 0.2888228 0.9960327 0.003631647 0.9960327 0.003631647 0.5467918 0.6270085 0.004501402 0.9121996 0.004501402 0.6270085 0.4537423 0.9121996 0.4537423 0.6270085 0.4649271 0.9121996 0.4649271 0.6270085 0.914168 0.9121996 0.914168 0.003631647 0.2448005 0.003631647 0.003967345 0.6174868 0.003967345 0.3863127 0.6248112 0.6174868 0.6248112 0.2888228 0.5467918 0.2888228 0.9960327 0.003631647 0.9960327 0.003631647 0.5467918 0.6270085 0.004501402 0.9121996 0.004501402 0.6270085 0.4537423 0.9121996 0.4537423 0.6270085 0.4649271 0.9121996 0.4649271 0.6270085 0.914168 0.9121996 0.914168</float_array>
+          <technique_common>
+            <accessor source="#_Hello_Green_0012__Graffitiset-texcoord-array_1" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_Hello_Green_0012__Graffitiset-vertex">
+          <input semantic="POSITION" source="#_Hello_Green_0012__Graffitiset-position" />
+        </vertices>
+        <triangles material="Graffitiset" count="9">
+          <input semantic="VERTEX" source="#_Hello_Green_0012__Graffitiset-vertex" offset="0" />
+          <input semantic="NORMAL" source="#_Hello_Green_0012__Graffitiset-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#_Hello_Green_0012__Graffitiset-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#_Hello_Green_0012__Graffitiset-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 3 3 3 3 2 2 2 2 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 5 5 5 5 7 7 7 7 9 9 9 9 10 10 10 10 11 11 11 11 10 10 10 10 12 12 12 12 11 11 11 11 13 13 13 13 14 14 14 14 15 15 15 15 14 14 14 14 16 16 16 16 15 15 15 15 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_pCube21674__WallMetalFenceSet_np-mesh" name="_pCube21674__WallMetalFenceSet_np">
+      <mesh>
+        <source id="_pCube21674__WallMetalFenceSet_np-position">
+          <float_array id="_pCube21674__WallMetalFenceSet_np-position-array" count="288">300 -2.69469E-07 -20 300 3 -20 389 -2.69469E-07 -20 389 3 -20 300 -2.69469E-07 30 300 3 30 300 -2.69469E-07 -20 300 3 -20 389 3 -20 389 3 30 389 -2.69469E-07 -20 389 -2.69469E-07 30 300 26 -20 300 29 -20 389 26 -20 389 29 -20 300 26 30 300 29 30 300 26 -20 300 29 -20 389 29 -20 389 29 30 389 26 -20 389 26 30 300 26 -20 302 26 -20 300 3 -20 302 3 -20 300 26 -20 300 3 -20 300 26 -18 300 3 -18 300 26 30 300 26 28 300 3 30 300 3 28 389 26 -20 389 3 -19.99999 387 26 -20 387 3 -19.99999 389 26 -20 389 26 -18 389 3 -19.99999 389 3 -17.99999 389 26 30 389 3 30 389 26 28 389 3 28 300 -2.69469E-07 -20 300 3 -20 389 -2.69469E-07 -20 389 3 -20 300 -2.69469E-07 30 300 3 30 300 -2.69469E-07 -20 300 3 -20 389 3 -20 389 3 30 389 -2.69469E-07 -20 389 -2.69469E-07 30 300 26 -20 300 29 -19.99999 389 26 -20 389 29 -20 300 26 30 300 29 30 300 26 -20 300 29 -19.99999 389 29 -20 389 29 30 389 26 -20 389 26 30 300 26 -20 302 26 -20 300 3 -20 302 3 -20 300 26 -20 300 3 -20 300 26 -18 300 3 -18 300 26 30 300 26 28 300 3 30 300 3 28 389 26 -20 389 3 -20 387 26 -20 387 3 -19.99999 389 26 -20 389 26 -18 389 3 -20 389 3 -17.99999 389 26 30 389 3 30 389 26 28 389 3 28</float_array>
+          <technique_common>
+            <accessor source="#_pCube21674__WallMetalFenceSet_np-position-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube21674__WallMetalFenceSet_np-normal">
+          <float_array id="_pCube21674__WallMetalFenceSet_np-normal-array" count="288">0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#_pCube21674__WallMetalFenceSet_np-normal-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube21674__WallMetalFenceSet_np-texcoord">
+          <float_array id="_pCube21674__WallMetalFenceSet_np-texcoord-array" count="192">0.2266846 0.1865234 0.189209 0.1865234 0.2266846 1.310791 0.189209 1.310791 0.2266846 -0.4375 0.189209 -0.4375 0.2266846 0.1865234 0.189209 0.1865234 0.189209 1.310791 0.189209 1.935547 0.2266846 1.310791 0.2266846 1.935547 0.2266846 0.7053223 0.189209 0.7053223 0.2266846 1.830078 0.189209 1.830078 0.2266846 0.08154297 0.189209 0.08154297 0.2266846 0.7053223 0.189209 0.7053223 0.189209 1.830078 0.189209 2.455078 0.2266846 1.830078 0.2266846 2.455078 0.2266846 -0.6386719 0.189209 -0.6386719 0.2266846 -0.2070313 0.189209 -0.2070313 0.2266846 0.2197266 0.2266846 -0.2109375 0.189209 0.2197266 0.189209 -0.2109375 0.2266846 -0.6386719 0.189209 -0.6386719 0.2266846 -0.2070313 0.189209 -0.2070313 0.2266846 0.2197266 0.2266846 -0.2109375 0.189209 0.2197266 0.189209 -0.2109375 0.2266846 -0.6386719 0.189209 -0.6386719 0.2266846 -0.2070313 0.189209 -0.2070313 0.2266846 -0.6386719 0.2266846 -0.2070313 0.189209 -0.6386719 0.189209 -0.2070313 0.2266846 0.1865234 0.189209 0.1865234 0.2266846 1.310791 0.189209 1.310791 0.2266846 -0.4375 0.189209 -0.4375 0.2266846 0.1865234 0.189209 0.1865234 0.189209 1.310791 0.189209 1.935547 0.2266846 1.310791 0.2266846 1.935547 0.2266846 0.7053223 0.189209 0.7053223 0.2266846 1.830078 0.189209 1.830078 0.2266846 0.08154297 0.189209 0.08154297 0.2266846 0.7053223 0.189209 0.7053223 0.189209 1.830078 0.189209 2.455078 0.2266846 1.830078 0.2266846 2.455078 0.2266846 -0.6386719 0.189209 -0.6386719 0.2266846 -0.2070313 0.189209 -0.2070313 0.2266846 0.2197266 0.2266846 -0.2109375 0.189209 0.2197266 0.189209 -0.2109375 0.2266846 -0.6386719 0.189209 -0.6386719 0.2266846 -0.2070313 0.189209 -0.2070313 0.2266846 0.2197266 0.2266846 -0.2109375 0.189209 0.2197266 0.189209 -0.2109375 0.2266846 -0.6386719 0.189209 -0.6386719 0.2266846 -0.2070313 0.189209 -0.2070313 0.2266846 -0.6386719 0.2266846 -0.2070313 0.189209 -0.6386719 0.189209 -0.2070313</float_array>
+          <technique_common>
+            <accessor source="#_pCube21674__WallMetalFenceSet_np-texcoord-array" count="96" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube21674__WallMetalFenceSet_np-texcoord_1">
+          <float_array id="_pCube21674__WallMetalFenceSet_np-texcoord-array_1" count="192">0.02552834 0.2664378 0.04115358 0.2664378 0.02552834 0.7352712 0.04115358 0.7352712 0.02552834 0.006485105 0.04115358 0.006485105 0.02552834 0.2664378 0.04115358 0.2664378 0.04115358 0.7352712 0.04115358 0.995758 0.02552834 0.7352712 0.02552834 0.995758 0.0007324331 0.2667124 0.01635767 0.2667124 0.0007324331 0.7355611 0.01635767 0.7355611 0.0007324331 0.006759763 0.01635767 0.006759763 0.0007324331 0.2667124 0.01635767 0.2667124 0.01635767 0.7355611 0.01635767 0.9960327 0.0007324331 0.7355611 0.0007324331 0.9960327 0.05030899 0.005737364 0.06593423 0.005737364 0.05030899 0.1854429 0.06593423 0.1854429 0.07333486 0.1865873 0.07333486 0.006881833 0.0889601 0.1865873 0.0889601 0.006881833 0.09813077 0.005737364 0.113756 0.005737364 0.09813077 0.1854429 0.113756 0.1854429 0.1441672 0.1865873 0.1441825 0.006881833 0.1598077 0.1865873 0.1598077 0.006881833 0.1211566 0.005737364 0.1367819 0.005737364 0.1211566 0.1854429 0.1367819 0.1854429 0.1828183 0.003967345 0.1828183 0.1836728 0.1671931 0.003967345 0.1671931 0.1836728 0.02552834 0.2664378 0.04115358 0.2664378 0.02552834 0.7352712 0.04115358 0.7352712 0.02552834 0.006485105 0.04115358 0.006485105 0.02552834 0.2664378 0.04115358 0.2664378 0.04115358 0.7352712 0.04115358 0.995758 0.02552834 0.7352712 0.02552834 0.995758 0.0007324331 0.2667124 0.01635767 0.2667124 0.0007324331 0.7355611 0.01635767 0.7355611 0.0007324331 0.006759763 0.01635767 0.006759763 0.0007324331 0.2667124 0.01635767 0.2667124 0.01635767 0.7355611 0.01635767 0.9960327 0.0007324331 0.7355611 0.0007324331 0.9960327 0.05030899 0.005737364 0.06593423 0.005737364 0.05030899 0.1854429 0.06593423 0.1854429 0.07333486 0.1865873 0.07333486 0.006881833 0.0889601 0.1865873 0.0889601 0.006881833 0.09813077 0.005737364 0.113756 0.005737364 0.09813077 0.1854429 0.113756 0.1854429 0.1441672 0.1865873 0.1441825 0.006881833 0.1598077 0.1865873 0.1598077 0.006881833 0.1211566 0.005737364 0.1367819 0.005737364 0.1211566 0.1854429 0.1367819 0.1854429 0.1828183 0.003967345 0.1828183 0.1836728 0.1671931 0.003967345 0.1671931 0.1836728</float_array>
+          <technique_common>
+            <accessor source="#_pCube21674__WallMetalFenceSet_np-texcoord-array_1" count="96" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_pCube21674__WallMetalFenceSet_np-vertex">
+          <input semantic="POSITION" source="#_pCube21674__WallMetalFenceSet_np-position" />
+        </vertices>
+        <triangles material="WallMetalFenceSet_np" count="24">
+          <input semantic="VERTEX" source="#_pCube21674__WallMetalFenceSet_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#_pCube21674__WallMetalFenceSet_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#_pCube21674__WallMetalFenceSet_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#_pCube21674__WallMetalFenceSet_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube134__GroundPlywoodBrown-mesh" name="pCube134__GroundPlywoodBrown">
+      <mesh>
+        <source id="pCube134__GroundPlywoodBrown-position">
+          <float_array id="pCube134__GroundPlywoodBrown-position-array" count="24">389 30 30 300 30 30 389 0 30 300 0 30 389 30 30 300 30 30 389 -2.69469E-07 30 300 -2.69469E-07 30</float_array>
+          <technique_common>
+            <accessor source="#pCube134__GroundPlywoodBrown-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube134__GroundPlywoodBrown-normal">
+          <float_array id="pCube134__GroundPlywoodBrown-normal-array" count="24">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube134__GroundPlywoodBrown-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube134__GroundPlywoodBrown-texcoord">
+          <float_array id="pCube134__GroundPlywoodBrown-texcoord-array" count="16">2.060547 2.258789 2.060547 0.009277344 2.810547 2.258789 2.810547 0.009277344 2.060547 2.258789 2.060547 0.009277344 2.810547 2.258789 2.810547 0.009277344</float_array>
+          <technique_common>
+            <accessor source="#pCube134__GroundPlywoodBrown-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube134__GroundPlywoodBrown-texcoord_1">
+          <float_array id="pCube134__GroundPlywoodBrown-texcoord-array_1" count="16">0.001327535 0.9960327 0.001327535 0.003967345 0.3320058 0.9960327 0.3320058 0.003967345 0.001327535 0.9960327 0.001327535 0.003967345 0.3320058 0.9960327 0.3320058 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#pCube134__GroundPlywoodBrown-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube134__GroundPlywoodBrown-vertex">
+          <input semantic="POSITION" source="#pCube134__GroundPlywoodBrown-position" />
+        </vertices>
+        <triangles material="GroundPlywoodBrown" count="2">
+          <input semantic="VERTEX" source="#pCube134__GroundPlywoodBrown-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube134__GroundPlywoodBrown-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube134__GroundPlywoodBrown-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube134__GroundPlywoodBrown-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube137__GroundPlywood-mesh" name="pCube137__GroundPlywood">
+      <mesh>
+        <source id="pCube137__GroundPlywood-position">
+          <float_array id="pCube137__GroundPlywood-position-array" count="24">386.5 30 -17.5 302.5 30 -17.49999 386.5 30 27.5 302.5 30 27.5 389 29 -20 300 29 -19.99999 389 30 30 300 30 30</float_array>
+          <technique_common>
+            <accessor source="#pCube137__GroundPlywood-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube137__GroundPlywood-normal">
+          <float_array id="pCube137__GroundPlywood-normal-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.01956947 0 1 -0.01956947 0 1 -0.01956947 0 1 -0.01956947</float_array>
+          <technique_common>
+            <accessor source="#pCube137__GroundPlywood-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube137__GroundPlywood-texcoord">
+          <float_array id="pCube137__GroundPlywood-texcoord-array" count="16">0.222168 -0.05859375 0.222168 1.003666 0.784668 -0.05859375 0.784668 1.003666 0.222168 -0.05859375 0.222168 1.003666 0.784668 -0.05859375 0.784668 1.003666</float_array>
+          <technique_common>
+            <accessor source="#pCube137__GroundPlywood-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube137__GroundPlywood-texcoord_1">
+          <float_array id="pCube137__GroundPlywood-texcoord-array_1" count="16">0.527306 0.003967345 0.527306 0.9960327 0.002105745 0.003967345 0.002105745 0.9960327 0.527306 0.003967345 0.527306 0.9960327 0.002105745 0.003967345 0.002105745 0.9960327</float_array>
+          <technique_common>
+            <accessor source="#pCube137__GroundPlywood-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube137__GroundPlywood-vertex">
+          <input semantic="POSITION" source="#pCube137__GroundPlywood-position" />
+        </vertices>
+        <triangles material="GroundPlywood" count="2">
+          <input semantic="VERTEX" source="#pCube137__GroundPlywood-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube137__GroundPlywood-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube137__GroundPlywood-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube137__GroundPlywood-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube57__WallVinylCover_Black-mesh" name="pCube57__WallVinylCover_Black">
+      <mesh>
+        <source id="pCube57__WallVinylCover_Black-position">
+          <float_array id="pCube57__WallVinylCover_Black-position-array" count="72">300 3 -18 300 3 28 300 26 -18 300 26 28 387 3 -20 302 3 -20 387 26 -20 302 26 -20 389 3 28 389 3 -18 389 26 28 389 26 -18 300 3 -18 300 3 28 300 26 -18 300 26 28 387 3 -19.99999 302 3 -20 387 26 -20 302 26 -20 389 3 28 389 3 -17.99999 389 26 28 389 26 -18</float_array>
+          <technique_common>
+            <accessor source="#pCube57__WallVinylCover_Black-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube57__WallVinylCover_Black-normal">
+          <float_array id="pCube57__WallVinylCover_Black-normal-array" count="72">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#pCube57__WallVinylCover_Black-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube57__WallVinylCover_Black-texcoord">
+          <float_array id="pCube57__WallVinylCover_Black-texcoord-array" count="48">0.8447266 -0.5410156 -0.3049316 -0.5410156 0.8447266 0.03369141 -0.3049316 0.03369141 1.43457 0.3696289 -0.7148438 0.3696289 1.43457 0.9446106 -0.7148438 0.9446106 2.271484 -0.5166016 1.123047 -0.5166016 2.271484 0.05810547 1.123047 0.05810547 0.8447266 -0.5410156 -0.3049316 -0.5410156 0.8447266 0.03369141 -0.3049316 0.03369141 1.43457 0.3696289 -0.7148438 0.3696289 1.43457 0.9446106 -0.7148438 0.9446106 2.271484 -0.5166016 1.123047 -0.5166016 2.271484 0.05810547 1.123047 0.05810547</float_array>
+          <technique_common>
+            <accessor source="#pCube57__WallVinylCover_Black-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube57__WallVinylCover_Black-texcoord_1">
+          <float_array id="pCube57__WallVinylCover_Black-texcoord-array_1" count="48">0.5428855 0.003967345 0.5428855 0.5338368 0.2779431 0.003967345 0.2779431 0.5338368 0.2681926 0.005401671 0.2681926 0.9960327 0.003250172 0.005401671 0.003250172 0.9960327 0.8175631 0.004135191 0.8175631 0.5340047 0.5526207 0.004135191 0.5526207 0.5340047 0.5428855 0.003967345 0.5428855 0.5338368 0.2779431 0.003967345 0.2779431 0.5338368 0.2681926 0.005401671 0.2681926 0.9960327 0.003250172 0.005401671 0.003250172 0.9960327 0.8175631 0.004135191 0.8175631 0.5340047 0.5526207 0.004135191 0.5526207 0.5340047</float_array>
+          <technique_common>
+            <accessor source="#pCube57__WallVinylCover_Black-texcoord-array_1" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube57__WallVinylCover_Black-vertex">
+          <input semantic="POSITION" source="#pCube57__WallVinylCover_Black-position" />
+        </vertices>
+        <triangles material="WallVinylCover_Black" count="6">
+          <input semantic="VERTEX" source="#pCube57__WallVinylCover_Black-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube57__WallVinylCover_Black-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube57__WallVinylCover_Black-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube57__WallVinylCover_Black-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Edge2__WallMetalFenceSet-mesh">
+      <skin source="#Edge2__WallMetalFenceSet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge2__WallMetalFenceSet-mesh-joint">
+          <Name_array id="Edge2__WallMetalFenceSet-mesh-joint-array" count="1">Lft_WaveAreaHakoB</Name_array>
+          <technique_common>
+            <accessor source="#Edge2__WallMetalFenceSet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__WallMetalFenceSet-mesh-inv_bind_matrix">
+          <float_array id="Edge2__WallMetalFenceSet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge2__WallMetalFenceSet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__WallMetalFenceSet-mesh-weight">
+          <float_array id="Edge2__WallMetalFenceSet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge2__WallMetalFenceSet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge2__WallMetalFenceSet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge2__WallMetalFenceSet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="34">
+          <input semantic="JOINT" source="#Edge2__WallMetalFenceSet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge2__WallMetalFenceSet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__Hello_Green_0012__Graffitiset-mesh">
+      <skin source="#_Hello_Green_0012__Graffitiset-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="_Hello_Green_0012__Graffitiset-mesh-joint">
+          <Name_array id="_Hello_Green_0012__Graffitiset-mesh-joint-array" count="1">Lft_WaveAreaHakoB</Name_array>
+          <technique_common>
+            <accessor source="#_Hello_Green_0012__Graffitiset-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Hello_Green_0012__Graffitiset-mesh-inv_bind_matrix">
+          <float_array id="_Hello_Green_0012__Graffitiset-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_Hello_Green_0012__Graffitiset-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_Hello_Green_0012__Graffitiset-mesh-weight">
+          <float_array id="_Hello_Green_0012__Graffitiset-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#_Hello_Green_0012__Graffitiset-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#_Hello_Green_0012__Graffitiset-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#_Hello_Green_0012__Graffitiset-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="34">
+          <input semantic="JOINT" source="#_Hello_Green_0012__Graffitiset-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#_Hello_Green_0012__Graffitiset-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature__pCube21674__WallMetalFenceSet_np-mesh">
+      <skin source="#_pCube21674__WallMetalFenceSet_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="_pCube21674__WallMetalFenceSet_np-mesh-joint">
+          <Name_array id="_pCube21674__WallMetalFenceSet_np-mesh-joint-array" count="1">Lft_WaveAreaHakoB</Name_array>
+          <technique_common>
+            <accessor source="#_pCube21674__WallMetalFenceSet_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube21674__WallMetalFenceSet_np-mesh-inv_bind_matrix">
+          <float_array id="_pCube21674__WallMetalFenceSet_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_pCube21674__WallMetalFenceSet_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_pCube21674__WallMetalFenceSet_np-mesh-weight">
+          <float_array id="_pCube21674__WallMetalFenceSet_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#_pCube21674__WallMetalFenceSet_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#_pCube21674__WallMetalFenceSet_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#_pCube21674__WallMetalFenceSet_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="96">
+          <input semantic="JOINT" source="#_pCube21674__WallMetalFenceSet_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#_pCube21674__WallMetalFenceSet_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube134__GroundPlywoodBrown-mesh">
+      <skin source="#pCube134__GroundPlywoodBrown-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube134__GroundPlywoodBrown-mesh-joint">
+          <Name_array id="pCube134__GroundPlywoodBrown-mesh-joint-array" count="1">Lft_WaveAreaHakoB</Name_array>
+          <technique_common>
+            <accessor source="#pCube134__GroundPlywoodBrown-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube134__GroundPlywoodBrown-mesh-inv_bind_matrix">
+          <float_array id="pCube134__GroundPlywoodBrown-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube134__GroundPlywoodBrown-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube134__GroundPlywoodBrown-mesh-weight">
+          <float_array id="pCube134__GroundPlywoodBrown-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube134__GroundPlywoodBrown-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube134__GroundPlywoodBrown-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube134__GroundPlywoodBrown-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#pCube134__GroundPlywoodBrown-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube134__GroundPlywoodBrown-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube137__GroundPlywood-mesh">
+      <skin source="#pCube137__GroundPlywood-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube137__GroundPlywood-mesh-joint">
+          <Name_array id="pCube137__GroundPlywood-mesh-joint-array" count="1">Lft_WaveAreaHakoB</Name_array>
+          <technique_common>
+            <accessor source="#pCube137__GroundPlywood-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube137__GroundPlywood-mesh-inv_bind_matrix">
+          <float_array id="pCube137__GroundPlywood-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube137__GroundPlywood-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube137__GroundPlywood-mesh-weight">
+          <float_array id="pCube137__GroundPlywood-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube137__GroundPlywood-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube137__GroundPlywood-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube137__GroundPlywood-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#pCube137__GroundPlywood-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube137__GroundPlywood-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube57__WallVinylCover_Black-mesh">
+      <skin source="#pCube57__WallVinylCover_Black-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube57__WallVinylCover_Black-mesh-joint">
+          <Name_array id="pCube57__WallVinylCover_Black-mesh-joint-array" count="1">Lft_WaveAreaHakoB</Name_array>
+          <technique_common>
+            <accessor source="#pCube57__WallVinylCover_Black-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube57__WallVinylCover_Black-mesh-inv_bind_matrix">
+          <float_array id="pCube57__WallVinylCover_Black-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube57__WallVinylCover_Black-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube57__WallVinylCover_Black-mesh-weight">
+          <float_array id="pCube57__WallVinylCover_Black-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube57__WallVinylCover_Black-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube57__WallVinylCover_Black-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube57__WallVinylCover_Black-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#pCube57__WallVinylCover_Black-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube57__WallVinylCover_Black-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_WaveAreaHakoB" name="Lft_WaveAreaHakoB" sid="Lft_WaveAreaHakoB" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Edge2__WallMetalFenceSet" name="Edge2__WallMetalFenceSet" type="NODE">
+        <instance_controller url="#Armature_Edge2__WallMetalFenceSet-mesh">
+          <skeleton>#Armature_Lft_WaveAreaHakoB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallMetalFenceSet" target="#WallMetalFenceSet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_Hello_Green_0012__Graffitiset" name="_Hello_Green_0012__Graffitiset" type="NODE">
+        <instance_controller url="#Armature__Hello_Green_0012__Graffitiset-mesh">
+          <skeleton>#Armature_Lft_WaveAreaHakoB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Graffitiset" target="#Graffitiset" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="_pCube21674__WallMetalFenceSet_np" name="_pCube21674__WallMetalFenceSet_np" type="NODE">
+        <instance_controller url="#Armature__pCube21674__WallMetalFenceSet_np-mesh">
+          <skeleton>#Armature_Lft_WaveAreaHakoB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallMetalFenceSet_np" target="#WallMetalFenceSet_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube134__GroundPlywoodBrown" name="pCube134__GroundPlywoodBrown" type="NODE">
+        <instance_controller url="#Armature_pCube134__GroundPlywoodBrown-mesh">
+          <skeleton>#Armature_Lft_WaveAreaHakoB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundPlywoodBrown" target="#GroundPlywoodBrown" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube137__GroundPlywood" name="pCube137__GroundPlywood" type="NODE">
+        <instance_controller url="#Armature_pCube137__GroundPlywood-mesh">
+          <skeleton>#Armature_Lft_WaveAreaHakoB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundPlywood" target="#GroundPlywood" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube57__WallVinylCover_Black" name="pCube57__WallVinylCover_Black" type="NODE">
+        <instance_controller url="#Armature_pCube57__WallVinylCover_Black-mesh">
+          <skeleton>#Armature_Lft_WaveAreaHakoB</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallVinylCover_Black" target="#WallVinylCover_Black" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

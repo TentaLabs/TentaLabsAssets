@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="AthleticWall_Alb">
+      <init_from>AthleticWall_Alb.png</init_from>
+    </image>
+    <image id="AthleticWall_Mtl">
+      <init_from>AthleticWall_Mtl.png</init_from>
+    </image>
+    <image id="AthleticWall_Nrm">
+      <init_from>AthleticWall_Nrm.png</init_from>
+    </image>
+    <image id="AthleticWall_Rgh">
+      <init_from>AthleticWall_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiStickerNew_Alb">
+      <init_from>GrafittiStickerNew_Alb.png</init_from>
+    </image>
+    <image id="GrafittiStickerNew_Nrm">
+      <init_from>GrafittiStickerNew_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiStickerT_Alb">
+      <init_from>GrafittiStickerT_Alb.png</init_from>
+    </image>
+    <image id="MachineLamp_Alb">
+      <init_from>MachineLamp_Alb.png</init_from>
+    </image>
+    <image id="MachineLamp_Emm">
+      <init_from>MachineLamp_Emm.png</init_from>
+    </image>
+    <image id="MachineLamp_Nrm">
+      <init_from>MachineLamp_Nrm.png</init_from>
+    </image>
+    <image id="MachineLamp_Rgh">
+      <init_from>MachineLamp_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Lft_AthleticWall_drcmap_model__MapGround-mesh" name="Lft_AthleticWall_drcmap_model__MapGround">
+      <mesh>
+        <source id="Lft_AthleticWall_drcmap_model__MapGround-position">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapGround-position-array" count="18">-42.0962 62 -6.000002 -42.0962 62 6 1.907349E-06 62 -6.000002 1.907349E-06 62 6.000001 42.0962 62 -6.000002 42.0962 62 6</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapGround-position-array" count="6" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapGround-normal">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapGround-normal-array" count="18">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapGround-normal-array" count="6" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapGround-color">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapGround-color-array" count="24">0.5294118 0.5294118 0.5294118 1 0.5764706 0.5764706 0.5764706 1 0.9686275 0.9686275 0.9686275 1 0.9686275 0.9686275 0.9686275 1 0.5607843 0.5607843 0.5607843 1 0.5764706 0.5764706 0.5764706 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapGround-color-array" count="6" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapGround-texcoord">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapGround-texcoord-array" count="12">-0.02619934 0.5751953 -0.02619934 0.425293 0.4997559 0.5751953 0.4997559 0.425293 1.025391 0.5751953 1.025391 0.425293</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapGround-texcoord-array" count="6" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lft_AthleticWall_drcmap_model__MapGround-vertex">
+          <input semantic="POSITION" source="#Lft_AthleticWall_drcmap_model__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="4">
+          <input semantic="VERTEX" source="#Lft_AthleticWall_drcmap_model__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lft_AthleticWall_drcmap_model__MapGround-normal" offset="1" />
+          <input semantic="COLOR" source="#Lft_AthleticWall_drcmap_model__MapGround-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Lft_AthleticWall_drcmap_model__MapGround-texcoord" offset="3" set="0" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 3 3 3 3 5 5 5 5 4 4 4 4 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Lft_AthleticWall_drcmap_model__MapWall-mesh" name="Lft_AthleticWall_drcmap_model__MapWall">
+      <mesh>
+        <source id="Lft_AthleticWall_drcmap_model__MapWall-position">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapWall-position-array" count="114">45.09619 -1.999998 9.000002 45.09619 -1.999998 -9 45.09619 62 9.000002 45.09619 62 -9 -45.09619 -1.999998 -9 -45.09619 -1.999998 9.000002 -45.09619 62 -9 -45.09619 62 9.000002 -45.09619 62 9.000002 -45.09619 -1.999998 9.000002 1.907349E-06 62 9.000002 1.907349E-06 -1.999998 9.000002 45.09619 62 9.000002 45.09619 -1.999998 9.000002 -45.09619 -1.999998 -9 -45.09619 62 -9 1.907349E-06 -1.999998 -9 1.907349E-06 62 -9 45.09619 -1.999998 -9 45.09619 62 -9 -45.09619 -1.999998 9.000002 -45.09619 -1.999998 -9 1.907349E-06 -1.999998 -9 1.907349E-06 -1.999998 9.000002 45.09619 -1.999998 9.000002 45.09619 -1.999998 -9 1.907349E-06 62 -9 1.907349E-06 62 -6.000002 42.0962 62 -6.000002 -42.0962 62 -6.000002 45.09619 62 -9 -45.09619 62 -9 42.0962 62 6 -45.09619 62 9.000002 45.09619 62 9.000002 -42.0962 62 6 1.907349E-06 62 9.000002 1.907349E-06 62 6.000001</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapWall-position-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapWall-normal">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapWall-normal-array" count="114">1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapWall-normal-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapWall-color">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapWall-color-array" count="152">0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.7333333 0.7333333 0.7333333 1 0.4705882 0.4705882 0.4705882 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.4627451 0.4627451 0.4627451 1 0.7176471 0.7176471 0.7176471 1 0.2 0.2 0.2 1 0.2 0.2 0.2 1 0.9843137 0.9843137 0.9843137 1 0.8745098 0.8745098 0.8745098 1 0.9372549 0.9372549 0.9372549 1 1 1 1 1 0.9686275 0.9686275 0.9686275 1 0.8745098 0.8745098 0.8745098 1 0.9686275 0.9686275 0.9686275 1 0.9764706 0.9764706 0.9764706 1 0.5764706 0.5764706 0.5764706 1 0.5843138 0.5843138 0.5843138 1 0.3607843 0.3607843 0.3607843 1 0.3529412 0.3529412 0.3529412 1 0.5764706 0.5764706 0.5764706 1 0.3529412 0.3529412 0.3529412 1 0.3529412 0.3529412 0.3529412 1 0.5843138 0.5843138 0.5843138 1 0.7411765 0.7411765 0.7411765 1 0.9529412 0.9529412 0.9529412 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapWall-color-array" count="38" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapWall-texcoord">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapWall-texcoord-array" count="76">1.443359 1.011124 1.643555 1.011124 1.443359 1.720703 1.643555 1.720703 1.232422 1.011124 1.432617 1.011124 1.232422 1.720703 1.432617 1.720703 0.7128906 1.003708 0.003707886 1.003708 0.7128906 0.5039063 0.003707886 0.5039063 0.7128906 0.00390625 0.003707886 0.00390625 1.647461 1.003708 0.9384766 1.003708 1.647461 0.5039063 0.9384766 0.5039063 1.647461 0.00390625 0.9384766 0.00390625 1.854492 2.010742 1.654297 2.010742 1.654297 1.510742 1.854492 1.510742 1.854492 1.011124 1.654297 1.011124 0.9243164 0.5039063 0.8911133 0.5039063 0.8911133 0.03710938 0.8911133 0.970459 0.9243164 0.00390625 0.9243164 1.003708 0.7578125 0.03710938 0.7246094 1.003708 0.7246094 0.00390625 0.7578125 0.970459 0.7246094 0.5039063 0.7578125 0.5039063</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapWall-texcoord-array" count="38" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lft_AthleticWall_drcmap_model__MapWall-vertex">
+          <input semantic="POSITION" source="#Lft_AthleticWall_drcmap_model__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="28">
+          <input semantic="VERTEX" source="#Lft_AthleticWall_drcmap_model__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lft_AthleticWall_drcmap_model__MapWall-normal" offset="1" />
+          <input semantic="COLOR" source="#Lft_AthleticWall_drcmap_model__MapWall-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Lft_AthleticWall_drcmap_model__MapWall-texcoord" offset="3" set="0" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 10 10 10 10 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 14 14 14 14 15 15 15 15 16 16 16 16 15 15 15 15 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 23 23 23 23 20 20 20 20 22 22 22 22 23 23 23 23 22 22 22 22 24 24 24 24 22 22 22 22 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 28 28 28 28 27 27 27 27 26 26 26 26 29 29 29 29 30 30 30 30 26 26 26 26 28 28 28 28 26 26 26 26 31 31 31 31 29 29 29 29 30 30 30 30 28 28 28 28 32 32 32 32 31 31 31 31 33 33 33 33 29 29 29 29 34 34 34 34 30 30 30 30 32 32 32 32 33 33 33 33 35 35 35 35 29 29 29 29 36 36 36 36 34 34 34 34 32 32 32 32 35 35 35 35 33 33 33 33 36 36 36 36 37 37 37 37 36 36 36 36 32 32 32 32 37 37 37 37 35 35 35 35 36 36 36 36 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Lft_AthleticWall_drcmap_model__MapGround-mesh">
+      <skin source="#Lft_AthleticWall_drcmap_model__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lft_AthleticWall_drcmap_model__MapGround-mesh-joint">
+          <Name_array id="Lft_AthleticWall_drcmap_model__MapGround-mesh-joint-array" count="1">Lft_AthleticWall_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapGround-mesh-weight">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lft_AthleticWall_drcmap_model__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lft_AthleticWall_drcmap_model__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="6">
+          <input semantic="JOINT" source="#Lft_AthleticWall_drcmap_model__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lft_AthleticWall_drcmap_model__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Lft_AthleticWall_drcmap_model__MapWall-mesh">
+      <skin source="#Lft_AthleticWall_drcmap_model__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lft_AthleticWall_drcmap_model__MapWall-mesh-joint">
+          <Name_array id="Lft_AthleticWall_drcmap_model__MapWall-mesh-joint-array" count="1">Lft_AthleticWall_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_AthleticWall_drcmap_model__MapWall-mesh-weight">
+          <float_array id="Lft_AthleticWall_drcmap_model__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lft_AthleticWall_drcmap_model__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lft_AthleticWall_drcmap_model__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lft_AthleticWall_drcmap_model__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="38">
+          <input semantic="JOINT" source="#Lft_AthleticWall_drcmap_model__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lft_AthleticWall_drcmap_model__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_AthleticWall_Map" name="Lft_AthleticWall_Map" sid="Lft_AthleticWall_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Lft_AthleticWall_drcmap_model__MapGround" name="Lft_AthleticWall_drcmap_model__MapGround" type="NODE">
+        <instance_controller url="#Armature_Lft_AthleticWall_drcmap_model__MapGround-mesh">
+          <skeleton>#Armature_Lft_AthleticWall_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Lft_AthleticWall_drcmap_model__MapWall" name="Lft_AthleticWall_drcmap_model__MapWall" type="NODE">
+        <instance_controller url="#Armature_Lft_AthleticWall_drcmap_model__MapWall-mesh">
+          <skeleton>#Armature_Lft_AthleticWall_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

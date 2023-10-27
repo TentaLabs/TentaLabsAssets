@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="MapFence_Alb">
+      <init_from>MapFence_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Alb">
+      <init_from>OBJFenceIronGreyNet_Alb.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Mtl">
+      <init_from>OBJFenceIronGreyNet_Mtl.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Nrm">
+      <init_from>OBJFenceIronGreyNet_Nrm.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Rgh">
+      <init_from>OBJFenceIronGreyNet_Rgh.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Alb">
+      <init_from>OBJFrameSteelSet_Alb.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Mtl">
+      <init_from>OBJFrameSteelSet_Mtl.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Nrm">
+      <init_from>OBJFrameSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Rgh">
+      <init_from>OBJFrameSteelSet_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapFence">
+      <instance_effect url="#Effect_MapFence" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapFence">
+      <profile_COMMON>
+        <newparam sid="surface_MapFence-diffuse">
+          <surface type="2D">
+            <init_from>MapFence_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapFence-diffuse">
+          <sampler2D>
+            <source>surface_MapFence-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapFence-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Lft_TuzuraMesh00_Map1__MapFence-mesh" name="Lft_TuzuraMesh00_Map1__MapFence">
+      <mesh>
+        <source id="Lft_TuzuraMesh00_Map1__MapFence-position">
+          <float_array id="Lft_TuzuraMesh00_Map1__MapFence-position-array" count="12">100 54.91655 -218 137 54.91655 -218 100 54.91655 -252 137 54.91655 -252</float_array>
+          <technique_common>
+            <accessor source="#Lft_TuzuraMesh00_Map1__MapFence-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TuzuraMesh00_Map1__MapFence-normal">
+          <float_array id="Lft_TuzuraMesh00_Map1__MapFence-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Lft_TuzuraMesh00_Map1__MapFence-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TuzuraMesh00_Map1__MapFence-texcoord">
+          <float_array id="Lft_TuzuraMesh00_Map1__MapFence-texcoord-array" count="8">0.003398895 1.853516 0.003398895 0.00390625 1.703125 1.853516 1.703125 0.00390625</float_array>
+          <technique_common>
+            <accessor source="#Lft_TuzuraMesh00_Map1__MapFence-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lft_TuzuraMesh00_Map1__MapFence-vertex">
+          <input semantic="POSITION" source="#Lft_TuzuraMesh00_Map1__MapFence-position" />
+        </vertices>
+        <triangles material="MapFence" count="2">
+          <input semantic="VERTEX" source="#Lft_TuzuraMesh00_Map1__MapFence-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lft_TuzuraMesh00_Map1__MapFence-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Lft_TuzuraMesh00_Map1__MapFence-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="aaaa__MapWall-mesh" name="aaaa__MapWall">
+      <mesh>
+        <source id="aaaa__MapWall-position">
+          <float_array id="aaaa__MapWall-position-array" count="24">100 54.91655 -252 137 54.91655 -252 100 54.91655 -255 140 54.91655 -255 137 54.91655 -218 140 54.91655 -215 100 54.91655 -215 100 54.91655 -218</float_array>
+          <technique_common>
+            <accessor source="#aaaa__MapWall-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aaaa__MapWall-normal">
+          <float_array id="aaaa__MapWall-normal-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#aaaa__MapWall-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aaaa__MapWall-texcoord">
+          <float_array id="aaaa__MapWall-texcoord-array" count="16">1.853516 2.003906 1.853516 0.1542969 2.003906 2.003906 2.003906 0.004394531 0.1539307 0.1542969 0.003997803 0.004394531 0.003997803 2.003906 0.1539307 2.003906</float_array>
+          <technique_common>
+            <accessor source="#aaaa__MapWall-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="aaaa__MapWall-vertex">
+          <input semantic="POSITION" source="#aaaa__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="6">
+          <input semantic="VERTEX" source="#aaaa__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#aaaa__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#aaaa__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 1 1 1 4 4 4 3 3 3 4 4 4 5 5 5 3 3 3 6 6 6 5 5 5 4 4 4 7 7 7 6 6 6 4 4 4 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Lft_TuzuraMesh00_Map1__MapFence-mesh">
+      <skin source="#Lft_TuzuraMesh00_Map1__MapFence-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lft_TuzuraMesh00_Map1__MapFence-mesh-joint">
+          <Name_array id="Lft_TuzuraMesh00_Map1__MapFence-mesh-joint-array" count="1">Lft_TuzuraMesh00_Map</Name_array>
+          <technique_common>
+            <accessor source="#Lft_TuzuraMesh00_Map1__MapFence-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TuzuraMesh00_Map1__MapFence-mesh-inv_bind_matrix">
+          <float_array id="Lft_TuzuraMesh00_Map1__MapFence-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_TuzuraMesh00_Map1__MapFence-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_TuzuraMesh00_Map1__MapFence-mesh-weight">
+          <float_array id="Lft_TuzuraMesh00_Map1__MapFence-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lft_TuzuraMesh00_Map1__MapFence-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lft_TuzuraMesh00_Map1__MapFence-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lft_TuzuraMesh00_Map1__MapFence-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Lft_TuzuraMesh00_Map1__MapFence-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lft_TuzuraMesh00_Map1__MapFence-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_aaaa__MapWall-mesh">
+      <skin source="#aaaa__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="aaaa__MapWall-mesh-joint">
+          <Name_array id="aaaa__MapWall-mesh-joint-array" count="1">Lft_TuzuraMesh00_Map</Name_array>
+          <technique_common>
+            <accessor source="#aaaa__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aaaa__MapWall-mesh-inv_bind_matrix">
+          <float_array id="aaaa__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#aaaa__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="aaaa__MapWall-mesh-weight">
+          <float_array id="aaaa__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#aaaa__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#aaaa__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#aaaa__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#aaaa__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#aaaa__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_TuzuraMesh00_Map" name="Lft_TuzuraMesh00_Map" sid="Lft_TuzuraMesh00_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Lft_TuzuraMesh00_Map1__MapFence" name="Lft_TuzuraMesh00_Map1__MapFence" type="NODE">
+        <instance_controller url="#Armature_Lft_TuzuraMesh00_Map1__MapFence-mesh">
+          <skeleton>#Armature_Lft_TuzuraMesh00_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapFence" target="#MapFence" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="aaaa__MapWall" name="aaaa__MapWall" type="NODE">
+        <instance_controller url="#Armature_aaaa__MapWall-mesh">
+          <skeleton>#Armature_Lft_TuzuraMesh00_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Edge_Alb">
+      <init_from>Edge_Alb.png</init_from>
+    </image>
+    <image id="Edge_Emm">
+      <init_from>Edge_Emm.png</init_from>
+    </image>
+    <image id="Edge_Nrm">
+      <init_from>Edge_Nrm.png</init_from>
+    </image>
+    <image id="GlassStandard_Alb">
+      <init_from>GlassStandard_Alb.png</init_from>
+    </image>
+    <image id="GlassStandard_Nrm">
+      <init_from>GlassStandard_Nrm.png</init_from>
+    </image>
+    <image id="GlassStandard_Rgh">
+      <init_from>GlassStandard_Rgh.png</init_from>
+    </image>
+    <image id="GrafittisetB_Alb">
+      <init_from>GrafittisetB_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Alb2">
+      <init_from>MetalBridgeLight_Alb2.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Nrm">
+      <init_from>MetalBridgeLight_Nrm.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Rgh">
+      <init_from>MetalBridgeLight_Rgh.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Alb">
+      <init_from>Obj_PlanlLeaf_Alb.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Nrm">
+      <init_from>Obj_PlanlLeaf_Nrm.png</init_from>
+    </image>
+    <image id="Obj_PlanlLeaf_Rgh">
+      <init_from>Obj_PlanlLeaf_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="RoadRivetLight_Alb">
+      <init_from>RoadRivetLight_Alb.png</init_from>
+    </image>
+    <image id="RoadRivetLight_Emm">
+      <init_from>RoadRivetLight_Emm.png</init_from>
+    </image>
+    <image id="RoadRivetLight_Nrm">
+      <init_from>RoadRivetLight_Nrm.png</init_from>
+    </image>
+    <image id="RoadRivetLight_Rgh">
+      <init_from>RoadRivetLight_Rgh.png</init_from>
+    </image>
+    <image id="Wallclimingwoodedge_Alb">
+      <init_from>Wallclimingwoodedge_Alb.png</init_from>
+    </image>
+    <image id="Wallclimingwoodedge_Nrm">
+      <init_from>Wallclimingwoodedge_Nrm.png</init_from>
+    </image>
+    <image id="Wallclimingwood_Alb">
+      <init_from>Wallclimingwood_Alb.png</init_from>
+    </image>
+    <image id="Wallclimingwood_Nrm">
+      <init_from>Wallclimingwood_Nrm.png</init_from>
+    </image>
+    <image id="Wallclimingwood_Rgh">
+      <init_from>Wallclimingwood_Rgh.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Alb">
+      <init_from>WallConcreteWhite_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Nrm">
+      <init_from>WallConcreteWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Rgh">
+      <init_from>WallConcreteWhite_Rgh.png</init_from>
+    </image>
+    <image id="Wallmetalbeams_Alb">
+      <init_from>Wallmetalbeams_Alb.png</init_from>
+    </image>
+    <image id="Wallmetalbeams_Mtl">
+      <init_from>Wallmetalbeams_Mtl.png</init_from>
+    </image>
+    <image id="Wallmetalbeams_Nrm">
+      <init_from>Wallmetalbeams_Nrm.png</init_from>
+    </image>
+    <image id="Wallmetalbeams_Rgh">
+      <init_from>Wallmetalbeams_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Ground1__MapWall-mesh" name="Ground1__MapWall">
+      <mesh>
+        <source id="Ground1__MapWall-position">
+          <float_array id="Ground1__MapWall-position-array" count="96">94.20001 70 -55 94.20001 5.330608 -55 -94.2 70 -55 -94.2 5.330608 -55 94.20001 5.330608 55 94.20001 70 55 -94.2 5.330608 55 -94.2 70 55 94.20001 70 55 94.20001 5.330608 55 94.20001 70 -55 94.20001 5.330608 -55 -94.2 70 -55 -94.2 5.330608 -55 -94.2 70 55 -94.2 5.330608 55 -94.2 70 52 -94.2 70 55 -91.2 70 55 -91.2 70 52 -94.2 70 -52 91.20001 70 55 -91.2 70 -52 91.20001 70 52 -94.2 70 -55 94.20001 70 55 -91.2 70 -55 94.20001 70 52 91.20001 70 -52 91.20001 70 -55 94.20001 70 -52 94.20001 70 -55</float_array>
+          <technique_common>
+            <accessor source="#Ground1__MapWall-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground1__MapWall-normal">
+          <float_array id="Ground1__MapWall-normal-array" count="96">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Ground1__MapWall-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground1__MapWall-texcoord">
+          <float_array id="Ground1__MapWall-texcoord-array" count="64">1.681641 0.009765625 3.296875 0.009765625 1.681641 4.71875 3.296875 4.71875 0.01237488 0.009765625 1.628906 0.009765625 0.01237488 4.71875 1.628906 4.71875 1.623047 2.855469 0.006515503 2.855469 1.623047 0.005859375 0.006515503 0.005859375 3.263672 2.855469 1.647461 2.855469 3.263672 0.005859375 1.647461 0.005859375 0.08050537 4.71875 0.005500793 4.71875 0.005500793 4.642578 0.08050537 4.642578 2.679688 4.71875 0.005500793 0.08447266 2.679688 4.642578 0.08050537 0.08447266 2.753906 4.71875 0.005500793 0.009765625 2.753906 4.642578 0.08050537 0.009765625 2.679688 0.08447266 2.753906 0.08447266 2.679688 0.009765625 2.753906 0.009765625</float_array>
+          <technique_common>
+            <accessor source="#Ground1__MapWall-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ground1__MapWall-vertex">
+          <input semantic="POSITION" source="#Ground1__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="24">
+          <input semantic="VERTEX" source="#Ground1__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ground1__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ground1__MapWall-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 19 19 19 16 16 16 18 18 18 20 20 20 16 16 16 19 19 19 19 19 19 18 18 18 21 21 21 22 22 22 20 20 20 19 19 19 23 23 23 19 19 19 21 21 21 24 24 24 20 20 20 22 22 22 23 23 23 21 21 21 25 25 25 26 26 26 24 24 24 22 22 22 27 27 27 23 23 23 25 25 25 26 26 26 22 22 22 28 28 28 28 28 28 23 23 23 27 27 27 29 29 29 26 26 26 28 28 28 30 30 30 28 28 28 27 27 27 29 29 29 28 28 28 30 30 30 31 31 31 29 29 29 30 30 30 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Ground__MapGround-mesh" name="Ground__MapGround">
+      <mesh>
+        <source id="Ground__MapGround-position">
+          <float_array id="Ground__MapGround-position-array" count="12">91.20001 70 -52 -91.2 70 -52 91.20001 70 52 -91.2 70 52</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-normal">
+          <float_array id="Ground__MapGround-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-texcoord">
+          <float_array id="Ground__MapGround-texcoord-array" count="8">1.251953 0.1181641 1.251953 2.28125 0.1472168 0.1181641 0.1472168 2.28125</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ground__MapGround-vertex">
+          <input semantic="POSITION" source="#Ground__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="2">
+          <input semantic="VERTEX" source="#Ground__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ground__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ground__MapGround-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Ground1__MapWall-mesh">
+      <skin source="#Ground1__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ground1__MapWall-mesh-joint">
+          <Name_array id="Ground1__MapWall-mesh-joint-array" count="1">Lft_OctPushBox00_Map</Name_array>
+          <technique_common>
+            <accessor source="#Ground1__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground1__MapWall-mesh-inv_bind_matrix">
+          <float_array id="Ground1__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ground1__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground1__MapWall-mesh-weight">
+          <float_array id="Ground1__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ground1__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ground1__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ground1__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#Ground1__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ground1__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Ground__MapGround-mesh">
+      <skin source="#Ground__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ground__MapGround-mesh-joint">
+          <Name_array id="Ground__MapGround-mesh-joint-array" count="1">Lft_OctPushBox00_Map</Name_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-mesh-inv_bind_matrix">
+          <float_array id="Ground__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__MapGround-mesh-weight">
+          <float_array id="Ground__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ground__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ground__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ground__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Ground__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ground__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_OctPushBox00_Map" name="Lft_OctPushBox00_Map" sid="Lft_OctPushBox00_Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Ground1__MapWall" name="Ground1__MapWall" type="NODE">
+        <instance_controller url="#Armature_Ground1__MapWall-mesh">
+          <skeleton>#Armature_Lft_OctPushBox00_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Ground__MapGround" name="Ground__MapGround" type="NODE">
+        <instance_controller url="#Armature_Ground__MapGround-mesh">
+          <skeleton>#Armature_Lft_OctPushBox00_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BlockCurbYellow_Alb">
+      <init_from>BlockCurbYellow_Alb.png</init_from>
+    </image>
+    <image id="BlockCurbYellow_Rgh">
+      <init_from>BlockCurbYellow_Rgh.png</init_from>
+    </image>
+    <image id="CircleSign00_Alb">
+      <init_from>CircleSign00_Alb.png</init_from>
+    </image>
+    <image id="CircleSign00_Col">
+      <init_from>CircleSign00_Col.png</init_from>
+    </image>
+    <image id="CircleSign00_Emm">
+      <init_from>CircleSign00_Emm.png</init_from>
+    </image>
+    <image id="CircleSign00_Mtl">
+      <init_from>CircleSign00_Mtl.png</init_from>
+    </image>
+    <image id="CircleSign00_Nrm">
+      <init_from>CircleSign00_Nrm.png</init_from>
+    </image>
+    <image id="CircleSign00_Rgh">
+      <init_from>CircleSign00_Rgh.png</init_from>
+    </image>
+    <image id="FenceFrameSet_Alb">
+      <init_from>FenceFrameSet_Alb.png</init_from>
+    </image>
+    <image id="FenceFrameSet_Alb2">
+      <init_from>FenceFrameSet_Alb2.png</init_from>
+    </image>
+    <image id="FenceFrameSet_Nrm">
+      <init_from>FenceFrameSet_Nrm.png</init_from>
+    </image>
+    <image id="FenceFrameSet_Rgh">
+      <init_from>FenceFrameSet_Rgh.png</init_from>
+    </image>
+    <image id="FenceVinylA_Grey_Alb">
+      <init_from>FenceVinylA_Grey_Alb.png</init_from>
+    </image>
+    <image id="FenceVinylGray_Alb">
+      <init_from>FenceVinylGray_Alb.png</init_from>
+    </image>
+    <image id="FenceVinylGray_Nrm">
+      <init_from>FenceVinylGray_Nrm.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Alb">
+      <init_from>FloorSteelSet_Alb.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Nrm">
+      <init_from>FloorSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Rgh">
+      <init_from>FloorSteelSet_Rgh.png</init_from>
+    </image>
+    <image id="GlassLightingTile_Alb">
+      <init_from>GlassLightingTile_Alb.png</init_from>
+    </image>
+    <image id="GlassLightingTile_Mtl">
+      <init_from>GlassLightingTile_Mtl.png</init_from>
+    </image>
+    <image id="GlassLightingTile_Nrm">
+      <init_from>GlassLightingTile_Nrm.png</init_from>
+    </image>
+    <image id="GlassLightingTile_Rgh">
+      <init_from>GlassLightingTile_Rgh.png</init_from>
+    </image>
+    <image id="GlassStandard_Alb">
+      <init_from>GlassStandard_Alb.png</init_from>
+    </image>
+    <image id="GlassStandard_Nrm">
+      <init_from>GlassStandard_Nrm.png</init_from>
+    </image>
+    <image id="Grafittiset_Alb">
+      <init_from>Grafittiset_Alb.png</init_from>
+    </image>
+    <image id="Grafittiset_Nrm">
+      <init_from>Grafittiset_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Alb">
+      <init_from>GroundAsphaltCrackGrey_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackGrey_Nrm">
+      <init_from>GroundAsphaltCrackGrey_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltCrackRed_Rgh">
+      <init_from>GroundAsphaltCrackRed_Rgh.png</init_from>
+    </image>
+    <image id="GroundConc_Alb">
+      <init_from>GroundConc_Alb.png</init_from>
+    </image>
+    <image id="GroundConc_Nrm">
+      <init_from>GroundConc_Nrm.png</init_from>
+    </image>
+    <image id="GroundConc_Rgh">
+      <init_from>GroundConc_Rgh.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Alb">
+      <init_from>GroundGrassBase_Alb.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Nrm">
+      <init_from>GroundGrassBase_Nrm.png</init_from>
+    </image>
+    <image id="GroundGrassBase_Rgh">
+      <init_from>GroundGrassBase_Rgh.png</init_from>
+    </image>
+    <image id="ManholeStandardGrey_Alb">
+      <init_from>ManholeStandardGrey_Alb.png</init_from>
+    </image>
+    <image id="ManholeStandardGrey_Nrm">
+      <init_from>ManholeStandardGrey_Nrm.png</init_from>
+    </image>
+    <image id="ManholeStandardGrey_Rgh">
+      <init_from>ManholeStandardGrey_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Alb2">
+      <init_from>MetalBridgeLight_Alb2.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Nrm">
+      <init_from>MetalBridgeLight_Nrm.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Rgh">
+      <init_from>MetalBridgeLight_Rgh.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Alb">
+      <init_from>MetalShutterGray_Alb.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Nrm">
+      <init_from>MetalShutterGray_Nrm.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Rgh">
+      <init_from>MetalShutterGray_Rgh.png</init_from>
+    </image>
+    <image id="NagasakiGraffiti_Alb">
+      <init_from>NagasakiGraffiti_Alb.png</init_from>
+    </image>
+    <image id="NagasakiGraffiti_Mtl">
+      <init_from>NagasakiGraffiti_Mtl.png</init_from>
+    </image>
+    <image id="NagasakiGraffiti_Nrm">
+      <init_from>NagasakiGraffiti_Nrm.png</init_from>
+    </image>
+    <image id="NagasakiGraffiti_Rgh">
+      <init_from>NagasakiGraffiti_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="Pattern02_mission_Alb">
+      <init_from>Pattern02_mission_Alb.png</init_from>
+    </image>
+    <image id="TakoBumperEngine_Alb">
+      <init_from>TakoBumperEngine_Alb.png</init_from>
+    </image>
+    <image id="TakoBumperEngine_Emm">
+      <init_from>TakoBumperEngine_Emm.png</init_from>
+    </image>
+    <image id="TakoBumperEngine_Nrm">
+      <init_from>TakoBumperEngine_Nrm.png</init_from>
+    </image>
+    <image id="VinylFes_Alb">
+      <init_from>VinylFes_Alb.png</init_from>
+    </image>
+    <image id="VinylFes_Nrm">
+      <init_from>VinylFes_Nrm.png</init_from>
+    </image>
+    <image id="WallDecoIron_Alb">
+      <init_from>WallDecoIron_Alb.png</init_from>
+    </image>
+    <image id="WallDecoIron_Emm">
+      <init_from>WallDecoIron_Emm.png</init_from>
+    </image>
+    <image id="WallDecoIron_Nrm">
+      <init_from>WallDecoIron_Nrm.png</init_from>
+    </image>
+    <image id="WallDecoIron_Rgh">
+      <init_from>WallDecoIron_Rgh.png</init_from>
+    </image>
+    <image id="WorkingLampMaterial_Alb">
+      <init_from>WorkingLampMaterial_Alb.png</init_from>
+    </image>
+    <image id="WorkingLampMaterial_Emm">
+      <init_from>WorkingLampMaterial_Emm.png</init_from>
+    </image>
+    <image id="WorkingLampMaterial_Nrm">
+      <init_from>WorkingLampMaterial_Nrm.png</init_from>
+    </image>
+    <image id="WorkingLampMaterial_Rgh">
+      <init_from>WorkingLampMaterial_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GroundConc">
+      <instance_effect url="#Effect_GroundConc" />
+    </material>
+    <material id="GroundConc_wp">
+      <instance_effect url="#Effect_GroundConc_wp" />
+    </material>
+    <material id="WallDecoIron">
+      <instance_effect url="#Effect_WallDecoIron" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GroundConc">
+      <profile_COMMON>
+        <newparam sid="surface_GroundConc-diffuse">
+          <surface type="2D">
+            <init_from>GroundConc_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc-diffuse">
+          <sampler2D>
+            <source>surface_GroundConc-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundConc-bump">
+          <surface type="2D">
+            <init_from>GroundConc_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc-bump">
+          <sampler2D>
+            <source>surface_GroundConc-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundConc-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundConc-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundConc_wp">
+      <profile_COMMON>
+        <newparam sid="surface_GroundConc_wp-diffuse">
+          <surface type="2D">
+            <init_from>GroundConc_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc_wp-diffuse">
+          <sampler2D>
+            <source>surface_GroundConc_wp-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundConc_wp-bump">
+          <surface type="2D">
+            <init_from>GroundConc_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc_wp-bump">
+          <sampler2D>
+            <source>surface_GroundConc_wp-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundConc_wp-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundConc_wp-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallDecoIron">
+      <profile_COMMON>
+        <newparam sid="surface_WallDecoIron-diffuse">
+          <surface type="2D">
+            <init_from>WallDecoIron_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallDecoIron-diffuse">
+          <sampler2D>
+            <source>surface_WallDecoIron-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallDecoIron-emission">
+          <surface type="2D">
+            <init_from>WallDecoIron_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallDecoIron-emission">
+          <sampler2D>
+            <source>surface_WallDecoIron-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallDecoIron-bump">
+          <surface type="2D">
+            <init_from>WallDecoIron_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallDecoIron-bump">
+          <sampler2D>
+            <source>surface_WallDecoIron-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallDecoIron-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <texture texture="sampler_WallDecoIron-emission" texcoord="CHANNEL0" />
+            </emission>
+            <bump>
+              <texture texture="sampler_WallDecoIron-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Lft_DeliKakutei_Center11__WallDecoIron-mesh" name="Lft_DeliKakutei_Center11__WallDecoIron">
+      <mesh>
+        <source id="Lft_DeliKakutei_Center11__WallDecoIron-position">
+          <float_array id="Lft_DeliKakutei_Center11__WallDecoIron-position-array" count="912">-68.5182 5.400603 15.76524 -68.5182 5.400603 -23.80301 -67.91821 5.400603 16.00949 -68.96812 5.400603 -23.80301 -68.96812 3.687349 -23.80301 -68.96812 5.400603 15.76524 -68.96812 3.687349 15.76525 -67.91822 5.400603 -23.85027 -65.17817 5.400603 -23.85027 -68.96812 5.400603 -23.80301 -68.96812 5.400603 15.76524 -65.17815 5.400603 16.00949 -68.5182 5.400603 -23.80301 -68.5182 5.400603 15.76524 -68.5182 6.049071 15.76524 -68.5182 6.049071 -23.80301 -68.5182 6.049071 15.76524 -67.91821 6.049071 16.00949 -68.5182 6.049071 -23.80301 -67.91822 6.049071 -23.85027 -67.91821 5.400603 16.00949 -67.91822 5.400603 -23.85027 -67.91822 6.049071 -23.85027 -67.91821 6.049071 16.00949 -61.51281 5.400603 12.07531 -57.72282 5.400603 12.05461 -57.72282 5.400603 -23.22632 -61.51279 5.400603 -23.29217 -58.17275 5.400603 -23.22632 -58.17275 5.400603 12.05461 -58.77274 5.400603 -23.29217 -58.77276 5.400603 12.07531 -58.17275 6.049071 12.05461 -58.17275 5.400603 12.05461 -58.17275 6.049071 -23.22632 -58.17275 5.400603 -23.22632 -58.77274 5.400603 -23.29217 -58.77276 5.400603 12.07531 -58.77276 6.049071 12.07531 -58.77274 6.049071 -23.29217 -58.77274 6.049071 -23.29217 -58.77276 6.049071 12.07531 -58.17275 6.049071 12.05461 -58.17275 6.049071 -23.22632 -57.72282 3.687349 12.05461 -57.72282 3.687349 -23.22634 -57.72282 5.400603 -23.22632 -57.72282 5.400603 12.05461 -58.17275 34.54997 -23.22632 -58.17275 34.54997 12.05461 -58.77274 34.54997 -23.29217 -58.77276 34.54997 12.07531 -58.17275 35.19844 -23.22632 -58.77274 35.19844 -23.29217 -58.17275 35.19844 12.05461 -58.77276 35.19844 12.07531 -58.77274 35.19844 -23.29217 -58.77274 34.54997 -23.29217 -58.77276 35.19844 12.07531 -58.77276 34.54997 12.07531 -58.17275 35.19844 12.05461 -58.17275 34.54997 12.05461 -58.17275 35.19844 -23.22632 -58.17275 34.54997 -23.22632 -67.91821 35.19844 16.00949 -67.91821 34.54997 16.00949 -67.91822 35.19844 -23.85027 -67.91822 34.54997 -23.85027 -68.5182 34.54997 15.76524 -68.5182 34.54997 -23.80301 -67.91821 34.54997 16.00949 -67.91822 34.54997 -23.85027 -68.5182 35.19844 15.76524 -67.91821 35.19844 16.00949 -68.5182 35.19844 -23.80301 -67.91822 35.19844 -23.85027 -68.5182 34.54997 -23.80301 -68.5182 34.54997 15.76524 -68.5182 35.19844 15.76524 -68.5182 35.19844 -23.80301 -63.20502 35.19844 -26.93943 -63.20502 34.54997 -26.93943 -58.77274 35.19844 -26.93942 -58.77274 34.54997 -26.93942 -67.91822 35.19844 -26.93943 -67.91822 34.54997 -26.93943 -63.20502 35.19844 -26.93943 -63.20502 34.54997 -26.93943 -68.38035 4.202553 -27.39733 -68.38035 4.202553 -26.93943 -68.38035 35.10347 -27.39733 -68.38035 35.10347 -26.93943 -58.77274 4.202551 -26.93943 -58.31485 4.202551 -26.93943 -58.77274 35.10348 -26.93943 -58.31485 35.10348 -26.93943 -67.92245 4.202553 -27.39733 -67.92245 35.10347 -27.39733 -67.92245 35.10347 -26.93943 -67.92245 4.202553 -26.93943 -67.92245 35.10347 -27.39733 -67.92245 4.202553 -27.39733 -68.38035 4.202553 -27.39733 -68.38035 35.10347 -27.39733 -67.92245 35.10347 -26.93943 -67.92245 35.10347 -27.39733 -68.38035 35.10347 -27.39733 -68.38035 35.10347 -26.93943 -58.77274 4.202551 -26.93943 -58.77274 35.10348 -26.93943 -58.77274 35.10348 -27.39733 -58.77274 4.202551 -27.39733 -58.31485 4.202551 -27.39733 -58.31485 35.10348 -27.39733 -58.31485 35.10348 -26.93943 -58.31485 4.202551 -26.93943 -58.31485 35.10348 -27.39733 -58.31485 4.202551 -27.39733 -58.77274 4.202551 -27.39733 -58.77274 35.10348 -27.39733 -58.31485 35.10348 -26.93943 -58.31485 35.10348 -27.39733 -58.77274 35.10348 -27.39733 -58.77274 35.10348 -26.93943 -63.20502 5.400603 -26.93943 -58.77274 5.400603 -26.93942 -58.77274 6.049071 -26.93942 -63.20502 6.049071 -26.93943 -67.91822 6.049071 -26.93943 -67.91822 5.400603 -26.93943 -63.20502 6.049071 -26.93943 -63.20502 5.400603 -26.93943 -67.92245 4.202553 -27.39733 -67.92245 4.202553 -26.93943 -68.38035 4.202553 -26.93943 -68.38035 4.202553 -27.39733 -68.38035 4.202553 -26.93943 -67.92245 4.202553 -26.93943 -68.38035 35.10347 -26.93943 -67.92245 35.10347 -26.93943 -58.31485 4.202551 -27.39733 -58.31485 4.202551 -26.93943 -58.77274 4.202551 -26.93943 -58.77274 4.202551 -27.39733 -67.91822 6.049071 -26.93943 -68.5182 6.049071 -27.53943 -58.17275 6.049071 -27.53942 -58.77274 6.049071 -26.93942 -58.77274 6.049071 -26.93942 -58.77274 5.400603 -26.93942 -58.77274 6.049071 -23.29217 -58.77274 5.400603 -23.29217 -67.91822 5.400603 -23.85027 -67.91822 5.400603 -26.93943 -67.91822 6.049071 -26.93943 -67.91822 6.049071 -23.85027 -68.5182 6.049071 -27.53943 -68.5182 5.400603 -27.53943 -58.17275 6.049071 -27.53942 -58.17275 5.400603 -27.53942 -57.72282 5.400603 -28.23943 -61.51279 5.400603 -24.98301 -57.72282 3.687349 -28.23943 -57.72282 5.400603 -28.23943 -65.17817 5.400603 -24.98301 -68.96812 5.400603 -28.23943 -68.96812 3.687349 -28.23943 -68.96812 5.400603 -28.23943 -58.77274 5.400603 -26.93942 -58.17275 5.400603 -27.53942 -58.77274 34.54997 -26.93942 -58.17275 34.54997 -27.53942 -68.5182 34.54997 -27.53943 -67.91822 34.54997 -26.93943 -58.77274 35.19844 -26.93942 -58.17275 35.19844 -27.53942 -68.5182 34.54997 -27.53943 -68.5182 35.19844 -27.53943 -58.77274 35.19844 -26.93942 -58.77274 34.54997 -26.93942 -58.77274 35.19844 -23.29217 -58.77274 34.54997 -23.29217 -58.17275 35.19844 -27.53942 -58.17275 34.54997 -27.53942 -67.91822 34.54997 -23.85027 -67.91822 34.54997 -26.93943 -67.91822 35.19844 -26.93943 -67.91822 35.19844 -23.85027 -68.5182 5.400603 -27.53943 -67.91822 5.400603 -26.93943 -67.91822 35.19844 -26.93943 -68.5182 35.19844 -27.53943 -58.17275 35.19844 -27.53942 -58.17275 34.54997 -27.53942 -62.91456 35.19844 -27.53942 -62.91456 34.54997 -27.53943 -68.5182 35.19844 -27.53943 -68.5182 34.54997 -27.53943 -58.17275 6.049071 -27.53942 -58.17275 5.400603 -27.53942 -62.91456 6.049071 -27.53942 -62.91456 5.400603 -27.53943 -68.5182 6.049071 -27.53943 -68.5182 5.400603 -27.53943 -58.77274 35.19844 -26.93942 -58.17275 35.19844 -27.53942 -62.91456 35.19844 -27.53942 -63.20502 35.19844 -26.93943 -67.91822 35.19844 -26.93943 -68.5182 35.19844 -27.53943 -68.96812 5.400603 -28.23943 -62.91456 5.400603 -28.23943 -68.96812 3.687349 -28.23943 -62.91456 3.687349 -28.23943 -57.72282 3.687349 -28.23943 -57.72282 5.400603 -28.23943 -68.5182 6.049071 -27.53943 -67.91822 6.049071 -26.93943 -62.91456 6.049071 -27.53942 -63.20502 6.049071 -26.93943 -58.77274 6.049071 -26.93942 -58.17275 6.049071 -27.53942 -58.17275 34.54997 -27.53942 -58.77274 34.54997 -26.93942 -62.91456 34.54997 -27.53943 -63.20502 34.54997 -26.93943 -67.91822 34.54997 -26.93943 -68.5182 34.54997 -27.53943 -68.5182 5.400603 -27.53943 -62.91456 5.400603 -27.53943 -67.91822 5.400603 -26.93943 -63.20502 5.400603 -26.93943 -58.77274 5.400603 -26.93942 -58.17275 5.400603 -27.53942 -61.51279 5.400603 -24.98301 -57.72282 5.400603 -28.23943 -62.91456 5.400603 -28.23943 -63.20502 5.400603 -24.98301 -65.17817 5.400603 -24.98301 -68.96812 5.400603 -28.23943 -58.17275 34.54997 12.05461 -58.24777 34.54997 18.95079 -58.77276 34.54997 12.07531 -58.85943 34.54997 19.16496 -58.77276 35.19844 12.07531 -58.85943 35.19844 19.16496 -58.24777 35.19844 18.95078 -58.17275 35.19844 12.05461 -57.72282 5.400603 18.48773 -61.51281 5.400603 20.31113 -57.72282 3.687349 18.48773 -57.72282 5.400603 18.48773 -58.77276 34.54997 12.07531 -58.85943 34.54997 19.16496 -58.85943 35.19844 19.16496 -58.77276 35.19844 12.07531 -58.77276 6.049071 12.07531 -58.85943 6.049071 19.16496 -58.24777 6.049071 18.95078 -58.17275 6.049071 12.05461 -58.24777 34.54997 18.95079 -58.24777 35.19844 18.95078 -58.77276 6.049071 12.07531 -58.77276 5.400603 12.07531 -58.85943 6.049071 19.16496 -58.85943 5.400603 19.16496 -58.17275 5.400603 12.05461 -58.24777 5.400603 18.95079 -58.77276 5.400603 12.07531 -58.85943 5.400603 19.16496 -58.24777 5.400603 18.95079 -58.24777 6.049071 18.95078 -67.84615 35.19844 22.39975 -67.91821 35.19844 16.00949 -68.44318 35.19844 22.52754 -68.5182 35.19844 15.76524 -67.84615 6.049071 22.39975 -67.91821 6.049071 16.00949 -68.44318 6.049071 22.52754 -68.5182 6.049071 15.76524 -67.91821 34.54997 16.00949 -67.84615 34.54997 22.39975 -68.44318 34.54997 22.52754 -68.5182 34.54997 15.76524 -68.44318 34.54997 22.52754 -68.44318 35.19844 22.52754 -68.5182 5.400603 15.76524 -67.91821 5.400603 16.00949 -68.44318 5.400603 22.52754 -67.84615 5.400603 22.39975 -68.44318 5.400603 22.52754 -68.44318 6.049071 22.52754 -67.84615 34.54997 22.39975 -67.91821 34.54997 16.00949 -67.91821 35.19844 16.00949 -67.84615 35.19844 22.39975 -68.96812 5.400603 22.99061 -68.96812 3.687349 22.99061 -68.96812 5.400603 22.99061 -65.17815 5.400603 21.16714 -67.84615 6.049071 22.39975 -67.84615 5.400603 22.39975 -67.91821 6.049071 16.00949 -67.91821 5.400603 16.00949</float_array>
+          <technique_common>
+            <accessor source="#Lft_DeliKakutei_Center11__WallDecoIron-position-array" count="304" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_DeliKakutei_Center11__WallDecoIron-normal">
+          <float_array id="Lft_DeliKakutei_Center11__WallDecoIron-normal-array" count="912">0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 1 0 0 1 0 0 0 1 0 0 1 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 -1 0 0 -1 0 -0.01174168 -1 0 -0.01174168 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0.01174168 1 0 0.01174168 -1 0 0 -1 0 0 -1 0 -0.01174168 -1 0 -0.01174168 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0.01174168 1 0 0.01174168 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0.01174168 -1 0 0.01174168 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0.01174168 -1 0 0.01174168 1 0 -0.01174168 1 0 0 1 0 0 1 0 -0.01174168 -1 0 0 -1 0 0 0 1 0 0 1 0 1 0 -0.01174168 1 0 -0.01174168 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Lft_DeliKakutei_Center11__WallDecoIron-normal-array" count="304" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_DeliKakutei_Center11__WallDecoIron-texcoord">
+          <float_array id="Lft_DeliKakutei_Center11__WallDecoIron-texcoord-array" count="608">1.173828 2.036133 1.737305 2.036133 1.173828 2.001953 0.03448486 3.037109 0.03448486 3 0.9438477 3.037109 0.9438477 3 1.737305 2.001953 1.791992 1.00268 1.791992 1.039337 1.191406 1.039337 1.191406 1.00268 -2.921875 2.000977 -0.6801758 2.000977 -0.6801758 2.038086 -2.921875 2.038086 1.173828 2.036133 1.173828 2.001953 1.737305 2.036133 1.737305 2.001953 1.173828 2.001953 1.737305 2.001953 1.737305 2.001953 1.173828 2.001953 2.617188 1.00268 2.617188 1.039337 2.083984 1.039337 2.083984 1.00268 2.009766 2.036133 2.509766 2.036133 2.009766 2.001953 2.509766 2.001953 -5.960938 2.039063 -5.964844 2.001953 -3.964844 2.038086 -3.964844 2.000977 2.009766 2.001953 2.509766 2.001953 2.509766 2.001953 2.009766 2.001953 2.009766 2.001953 2.509766 2.001953 2.509766 2.036133 2.009766 2.036133 -1.033203 2.999023 -0.3886719 3 -0.3886719 3.037109 -1.033203 3.037109 2.009766 2.036133 2.509766 2.036133 2.009766 2.001953 2.509766 2.001953 2.009766 2.036133 2.009766 2.001953 2.509766 2.036133 2.509766 2.001953 2.009766 2.001953 2.009766 2.001953 2.509766 2.001953 2.509766 2.001953 -5.960938 2.039063 -5.964844 2.001953 -3.964844 2.038086 -3.964844 2.000977 1.173828 2.001953 1.173828 2.001953 1.737305 2.001953 1.737305 2.001953 1.173828 2.036133 1.737305 2.036133 1.173828 2.001953 1.737305 2.001953 1.173828 2.036133 1.173828 2.001953 1.737305 2.036133 1.737305 2.001953 -2.921875 2.000977 -0.6801758 2.000977 -0.6801758 2.038086 -2.921875 2.038086 2.263672 2.001953 2.263672 2.001953 2.271484 2.001953 2.271484 2.001953 2.253906 2.001953 2.253906 2.001953 2.263672 2.001953 2.263672 2.001953 3.453125 0.7258301 3.453125 0.7678223 -0.6708984 0.7258301 -0.6708984 0.7678223 3.453125 0.7258301 3.453125 0.7678223 -0.6708984 0.7258301 -0.6708984 0.7678223 3.453125 0.7678223 -0.6708984 0.7678223 -0.6708984 0.7258301 3.453125 0.7258301 2.650391 0.7678223 -1.473633 0.7678223 -1.473633 0.7258301 2.650391 0.7258301 0.4040527 0.7304688 0.4040527 0.7553711 0.3789063 0.7553711 0.3789063 0.7304688 3.453125 0.7678223 -0.6708984 0.7678223 -0.6708984 0.7258301 3.453125 0.7258301 3.453125 0.7678223 -0.6708984 0.7678223 -0.6708984 0.7258301 3.453125 0.7258301 2.650391 0.7678223 -1.473633 0.7678223 -1.473633 0.7258301 2.650391 0.7258301 0.4040527 0.7304688 0.4040527 0.7553711 0.3789063 0.7553711 0.3789063 0.7304688 2.263672 2.001953 2.271484 2.001953 2.271484 2.001953 2.263672 2.001953 2.253906 2.001953 2.253906 2.001953 2.263672 2.001953 2.263672 2.001953 0.3601074 0.7341309 0.3601074 0.7592773 0.3349609 0.7592773 0.3349609 0.7341309 3.453125 0.7258301 3.453125 0.7678223 -0.6708984 0.7258301 -0.6708984 0.7678223 0.3601074 0.7341309 0.3601074 0.7592773 0.3349609 0.7592773 0.3349609 0.7341309 1.800781 2.001953 1.800781 2.036133 1.956055 2.036133 1.956055 2.001953 1.956055 2.001953 1.956055 2.001953 2.009766 2.001953 2.009766 2.001953 1.737305 2.001953 1.800781 2.001953 1.800781 2.001953 1.737305 2.001953 -3.132813 2.038086 -3.132813 2.000977 -3.720703 2.038086 -3.720703 2.000977 2.023438 1.039337 2.023438 1.00268 -0.3171387 3 -0.3171387 3.037109 1.859375 1.00268 1.859375 1.039337 -0.06744385 3 -0.06744385 3.037109 1.956055 2.001953 1.956055 2.036133 1.956055 2.001953 1.956055 2.036133 1.800781 2.036133 1.800781 2.001953 1.956055 2.001953 1.956055 2.036133 -3.132813 2.000977 -3.132813 2.038086 1.956055 2.001953 1.956055 2.001953 2.009766 2.001953 2.009766 2.001953 -3.720703 2.038086 -3.720703 2.000977 1.737305 2.001953 1.800781 2.001953 1.800781 2.001953 1.737305 2.001953 1.800781 2.036133 1.800781 2.001953 1.800781 2.001953 1.800781 2.036133 -3.720703 2.038086 -3.720703 2.000977 -3.451172 2.038086 -3.451172 2.000977 -3.132813 2.038086 -3.132813 2.000977 -3.720703 2.038086 -3.720703 2.000977 -3.451172 2.038086 -3.451172 2.000977 -3.132813 2.038086 -3.132813 2.000977 2.271484 2.001953 2.294922 2.036133 2.263672 2.036133 2.263672 2.001953 2.253906 2.001953 2.224609 2.036133 -0.06744385 3.037109 -0.2019043 3.037109 -0.06744385 3 -0.2019043 3 -0.3171387 3 -0.3171387 3.037109 2.224609 2.036133 2.253906 2.001953 2.263672 2.036133 2.263672 2.001953 2.271484 2.001953 2.294922 2.036133 2.294922 2.036133 2.271484 2.001953 2.263672 2.036133 2.263672 2.001953 2.253906 2.001953 2.224609 2.036133 2.224609 2.036133 2.263672 2.036133 2.253906 2.001953 2.263672 2.001953 2.271484 2.001953 2.294922 2.036133 2.361328 1.00268 2.386719 1.039337 2.353516 1.039337 2.353516 1.00268 2.34375 1.00268 2.3125 1.039337 2.509766 2.036133 2.599609 2.036133 2.509766 2.001953 2.599609 2.001953 2.509766 2.001953 2.599609 2.001953 2.599609 2.036133 2.509766 2.036133 2.710938 1.039337 2.710938 1.00268 -1.147461 2.999023 -1.147461 3.037109 2.509766 2.001953 2.599609 2.001953 2.599609 2.001953 2.509766 2.001953 2.509766 2.001953 2.599609 2.001953 2.599609 2.036133 2.509766 2.036133 -6.355469 2.001953 -6.355469 2.039063 2.509766 2.001953 2.509766 2.001953 2.599609 2.001953 2.599609 2.001953 2.509766 2.036133 2.599609 2.036133 2.509766 2.001953 2.599609 2.001953 -6.355469 2.001953 -6.355469 2.039063 1.094727 2.001953 1.173828 2.001953 1.094727 2.036133 1.173828 2.036133 1.094727 2.001953 1.173828 2.001953 1.094727 2.036133 1.173828 2.036133 1.173828 2.001953 1.094727 2.001953 1.094727 2.036133 1.173828 2.036133 -0.2971191 2.000977 -0.2971191 2.038086 1.173828 2.036133 1.173828 2.001953 1.094727 2.036133 1.094727 2.001953 -0.2971191 2.000977 -0.2971191 2.038086 1.094727 2.001953 1.173828 2.001953 1.173828 2.001953 1.094727 2.001953 1.070313 3.037109 1.070313 3 1.106445 1.039337 1.106445 1.00268 1.094727 2.001953 1.094727 2.001953 1.173828 2.001953 1.173828 2.001953</float_array>
+          <technique_common>
+            <accessor source="#Lft_DeliKakutei_Center11__WallDecoIron-texcoord-array" count="304" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Lft_DeliKakutei_Center11__WallDecoIron-vertex">
+          <input semantic="POSITION" source="#Lft_DeliKakutei_Center11__WallDecoIron-position" />
+        </vertices>
+        <triangles material="WallDecoIron" count="184">
+          <input semantic="VERTEX" source="#Lft_DeliKakutei_Center11__WallDecoIron-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Lft_DeliKakutei_Center11__WallDecoIron-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Lft_DeliKakutei_Center11__WallDecoIron-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 4 4 4 6 6 6 5 5 5 1 1 1 7 7 7 2 2 2 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 12 12 12 13 13 13 14 14 14 15 15 15 12 12 12 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 23 23 23 20 20 20 22 22 22 24 24 24 25 25 25 26 26 26 27 27 27 24 24 24 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 39 39 39 36 36 36 38 38 38 40 40 40 41 41 41 42 42 42 43 43 43 40 40 40 42 42 42 44 44 44 45 45 45 46 46 46 47 47 47 44 44 44 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 76 76 76 77 77 77 78 78 78 79 79 79 76 76 76 78 78 78 80 80 80 81 81 81 82 82 82 81 81 81 83 83 83 82 82 82 84 84 84 85 85 85 86 86 86 85 85 85 87 87 87 86 86 86 88 88 88 89 89 89 90 90 90 89 89 89 91 91 91 90 90 90 92 92 92 93 93 93 94 94 94 93 93 93 95 95 95 94 94 94 96 96 96 97 97 97 98 98 98 99 99 99 96 96 96 98 98 98 100 100 100 101 101 101 102 102 102 103 103 103 100 100 100 102 102 102 104 104 104 105 105 105 106 106 106 107 107 107 104 104 104 106 106 106 108 108 108 109 109 109 110 110 110 111 111 111 108 108 108 110 110 110 112 112 112 113 113 113 114 114 114 115 115 115 112 112 112 114 114 114 116 116 116 117 117 117 118 118 118 119 119 119 116 116 116 118 118 118 120 120 120 121 121 121 122 122 122 123 123 123 120 120 120 122 122 122 124 124 124 125 125 125 126 126 126 127 127 127 124 124 124 126 126 126 128 128 128 129 129 129 130 130 130 129 129 129 131 131 131 130 130 130 132 132 132 133 133 133 134 134 134 135 135 135 132 132 132 134 134 134 136 136 136 137 137 137 138 138 138 137 137 137 139 139 139 138 138 138 140 140 140 141 141 141 142 142 142 143 143 143 140 140 140 142 142 142 19 19 19 144 144 144 18 18 18 144 144 144 145 145 145 18 18 18 146 146 146 147 147 147 43 43 43 147 147 147 40 40 40 43 43 43 148 148 148 149 149 149 150 150 150 149 149 149 151 151 151 150 150 150 152 152 152 153 153 153 154 154 154 155 155 155 152 152 152 154 154 154 156 156 156 157 157 157 15 15 15 157 157 157 12 12 12 15 15 15 34 34 34 35 35 35 158 158 158 35 35 35 159 159 159 158 158 158 160 160 160 161 161 161 26 26 26 161 161 161 27 27 27 26 26 26 45 45 45 162 162 162 163 163 163 46 46 46 45 45 45 163 163 163 164 164 164 165 165 165 9 9 9 8 8 8 164 164 164 9 9 9 166 166 166 4 4 4 3 3 3 167 167 167 166 166 166 3 3 3 28 28 28 30 30 30 168 168 168 169 169 169 28 28 28 168 168 168 48 48 48 50 50 50 170 170 170 171 171 171 48 48 48 170 170 170 172 172 172 173 173 173 69 69 69 173 173 173 71 71 71 69 69 69 174 174 174 53 53 53 52 52 52 175 175 175 174 174 174 52 52 52 176 176 176 76 76 76 79 79 79 177 177 177 176 176 176 79 79 79 178 178 178 179 179 179 180 180 180 179 179 179 181 181 181 180 180 180 62 62 62 63 63 63 182 182 182 63 63 63 183 183 183 182 182 182 184 184 184 185 185 185 186 186 186 187 187 187 184 184 184 186 186 186 188 188 188 189 189 189 1 1 1 189 189 189 7 7 7 1 1 1 190 190 190 191 191 191 74 74 74 75 75 75 190 190 190 74 74 74 192 192 192 193 193 193 194 194 194 193 193 193 195 195 195 194 194 194 194 194 194 195 195 195 196 196 196 195 195 195 197 197 197 196 196 196 198 198 198 199 199 199 200 200 200 199 199 199 201 201 201 200 200 200 200 200 200 201 201 201 202 202 202 201 201 201 203 203 203 202 202 202 204 204 204 205 205 205 206 206 206 207 207 207 204 204 204 206 206 206 208 208 208 207 207 207 206 206 206 209 209 209 208 208 208 206 206 206 210 210 210 211 211 211 212 212 212 211 211 211 213 213 213 212 212 212 213 213 213 211 211 211 214 214 214 211 211 211 215 215 215 214 214 214 216 216 216 217 217 217 218 218 218 217 217 217 219 219 219 218 218 218 219 219 219 220 220 220 218 218 218 220 220 220 221 221 221 218 218 218 222 222 222 223 223 223 224 224 224 223 223 223 225 225 225 224 224 224 224 224 224 225 225 225 226 226 226 227 227 227 224 224 224 226 226 226 228 228 228 229 229 229 230 230 230 229 229 229 231 231 231 230 230 230 232 232 232 231 231 231 229 229 229 233 233 233 232 232 232 229 229 229 234 234 234 235 235 235 236 236 236 237 237 237 234 234 234 236 236 236 238 238 238 237 237 237 236 236 236 239 239 239 238 238 238 236 236 236 240 240 240 241 241 241 242 242 242 241 241 241 243 243 243 242 242 242 244 244 244 245 245 245 246 246 246 247 247 247 244 244 244 246 246 246 25 25 25 24 24 24 248 248 248 24 24 24 249 249 249 248 248 248 250 250 250 44 44 44 47 47 47 251 251 251 250 250 250 47 47 47 252 252 252 253 253 253 254 254 254 255 255 255 252 252 252 254 254 254 256 256 256 257 257 257 258 258 258 259 259 259 256 256 256 258 258 258 260 260 260 61 61 61 60 60 60 261 261 261 260 260 260 60 60 60 262 262 262 263 263 263 264 264 264 263 263 263 265 265 265 264 264 264 266 266 266 267 267 267 268 268 268 267 267 267 269 269 269 268 268 268 270 270 270 33 33 33 32 32 32 271 271 271 270 270 270 32 32 32 272 272 272 273 273 273 274 274 274 273 273 273 275 275 275 274 274 274 276 276 276 277 277 277 278 278 278 277 277 277 279 279 279 278 278 278 280 280 280 281 281 281 282 282 282 283 283 283 280 280 280 282 282 282 77 77 77 284 284 284 285 285 285 78 78 78 77 77 77 285 285 285 286 286 286 287 287 287 288 288 288 287 287 287 289 289 289 288 288 288 13 13 13 290 290 290 291 291 291 14 14 14 13 13 13 291 291 291 292 292 292 293 293 293 294 294 294 295 295 295 292 292 292 294 294 294 5 5 5 6 6 6 296 296 296 6 6 6 297 297 297 296 296 296 298 298 298 299 299 299 10 10 10 299 299 299 11 11 11 10 10 10 300 300 300 301 301 301 302 302 302 301 301 301 303 303 303 302 302 302 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube192088__GroundConc-mesh" name="pCube192088__GroundConc">
+      <mesh>
+        <source id="pCube192088__GroundConc-position">
+          <float_array id="pCube192088__GroundConc-position-array" count="12">-58.47275 35 -27.23943 -68.21821 35 -27.23943 -58.47275 35 19.14924 -68.21821 35 22.32907</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc-normal">
+          <float_array id="pCube192088__GroundConc-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc-texcoord">
+          <float_array id="pCube192088__GroundConc-texcoord-array" count="8">0.9960938 -0.6953125 0.5068359 -0.6953125 0.9941406 -3.023438 0.5043945 -3.183594</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube192088__GroundConc-vertex">
+          <input semantic="POSITION" source="#pCube192088__GroundConc-position" />
+        </vertices>
+        <triangles material="GroundConc" count="2">
+          <input semantic="VERTEX" source="#pCube192088__GroundConc-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube192088__GroundConc-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube192088__GroundConc-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube192088__GroundConc_wp-mesh" name="pCube192088__GroundConc_wp">
+      <mesh>
+        <source id="pCube192088__GroundConc_wp-position">
+          <float_array id="pCube192088__GroundConc_wp-position-array" count="36">-68.21821 35 -27.23943 -68.21821 5 -27.23943 -68.21821 35 22.32907 -68.21821 5 22.32907 -58.47275 35 19.14924 -58.47275 5 19.14924 -58.47275 35 -27.23943 -58.47275 5 -27.23943 -68.21821 35 -27.23943 -58.47275 35 -27.23943 -68.21821 5 -27.23943 -58.47275 5 -27.23943</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc_wp-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc_wp-normal">
+          <float_array id="pCube192088__GroundConc_wp-normal-array" count="36">-1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc_wp-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc_wp-texcoord">
+          <float_array id="pCube192088__GroundConc_wp-texcoord-array" count="24">-11.97262 11.30161 -13.77107 11.30161 -11.97262 8.833177 -13.77107 8.833177 -11.94451 8.016087 -13.73991 8.016087 -11.94451 5.704638 -13.73991 5.704638 -11.99665 -1.004752 -11.49257 -1.004752 -11.99665 0.7368035 -11.49257 0.7368035</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc_wp-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube192088__GroundConc_wp-vertex">
+          <input semantic="POSITION" source="#pCube192088__GroundConc_wp-position" />
+        </vertices>
+        <triangles material="GroundConc_wp" count="6">
+          <input semantic="VERTEX" source="#pCube192088__GroundConc_wp-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube192088__GroundConc_wp-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube192088__GroundConc_wp-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Lft_DeliKakutei_Center11__WallDecoIron-mesh">
+      <skin source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Lft_DeliKakutei_Center11__WallDecoIron-mesh-joint">
+          <Name_array id="Lft_DeliKakutei_Center11__WallDecoIron-mesh-joint-array" count="1">Lft_DeliKakutei_Center2</Name_array>
+          <technique_common>
+            <accessor source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_DeliKakutei_Center11__WallDecoIron-mesh-inv_bind_matrix">
+          <float_array id="Lft_DeliKakutei_Center11__WallDecoIron-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Lft_DeliKakutei_Center11__WallDecoIron-mesh-weight">
+          <float_array id="Lft_DeliKakutei_Center11__WallDecoIron-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="304">
+          <input semantic="JOINT" source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Lft_DeliKakutei_Center11__WallDecoIron-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube192088__GroundConc-mesh">
+      <skin source="#pCube192088__GroundConc-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube192088__GroundConc-mesh-joint">
+          <Name_array id="pCube192088__GroundConc-mesh-joint-array" count="1">Lft_DeliKakutei_Center2</Name_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc-mesh-inv_bind_matrix">
+          <float_array id="pCube192088__GroundConc-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc-mesh-weight">
+          <float_array id="pCube192088__GroundConc-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube192088__GroundConc-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube192088__GroundConc-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#pCube192088__GroundConc-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube192088__GroundConc-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube192088__GroundConc_wp-mesh">
+      <skin source="#pCube192088__GroundConc_wp-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube192088__GroundConc_wp-mesh-joint">
+          <Name_array id="pCube192088__GroundConc_wp-mesh-joint-array" count="1">Lft_DeliKakutei_Center2</Name_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc_wp-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc_wp-mesh-inv_bind_matrix">
+          <float_array id="pCube192088__GroundConc_wp-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc_wp-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube192088__GroundConc_wp-mesh-weight">
+          <float_array id="pCube192088__GroundConc_wp-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube192088__GroundConc_wp-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube192088__GroundConc_wp-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube192088__GroundConc_wp-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#pCube192088__GroundConc_wp-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube192088__GroundConc_wp-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_DeliKakutei_Center2" name="Lft_DeliKakutei_Center2" sid="Lft_DeliKakutei_Center2" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Lft_DeliKakutei_Center11__WallDecoIron" name="Lft_DeliKakutei_Center11__WallDecoIron" type="NODE">
+        <instance_controller url="#Armature_Lft_DeliKakutei_Center11__WallDecoIron-mesh">
+          <skeleton>#Armature_Lft_DeliKakutei_Center2</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallDecoIron" target="#WallDecoIron" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube192088__GroundConc" name="pCube192088__GroundConc" type="NODE">
+        <instance_controller url="#Armature_pCube192088__GroundConc-mesh">
+          <skeleton>#Armature_Lft_DeliKakutei_Center2</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundConc" target="#GroundConc" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube192088__GroundConc_wp" name="pCube192088__GroundConc_wp" type="NODE">
+        <instance_controller url="#Armature_pCube192088__GroundConc_wp-mesh">
+          <skeleton>#Armature_Lft_DeliKakutei_Center2</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundConc_wp" target="#GroundConc_wp" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

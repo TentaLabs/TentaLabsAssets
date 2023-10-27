@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Bake_Lft_TuzuraFloor01_g00_b00_f00">
+      <init_from>Bake_Lft_TuzuraFloor01_g00_b00_f00.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Alb">
+      <init_from>FloorSteelSet_Alb.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Nrm">
+      <init_from>FloorSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Rgh">
+      <init_from>FloorSteelSet_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiAsphaltSet_Alb">
+      <init_from>GrafittiAsphaltSet_Alb.png</init_from>
+    </image>
+    <image id="GrafittiAsphaltSet_Nrm">
+      <init_from>GrafittiAsphaltSet_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiAsphaltSet_Rgh">
+      <init_from>GrafittiAsphaltSet_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Alb">
+      <init_from>GroundAsphaltEdge_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Nrm">
+      <init_from>GroundAsphaltEdge_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Rgh">
+      <init_from>GroundAsphaltEdge_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Alb">
+      <init_from>GroundAsphalt_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Nrm">
+      <init_from>GroundAsphalt_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Rgh">
+      <init_from>GroundAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="TinRoof_Alb">
+      <init_from>TinRoof_Alb.png</init_from>
+    </image>
+    <image id="TinRoof_Nrm">
+      <init_from>TinRoof_Nrm.png</init_from>
+    </image>
+    <image id="TinRoof_Rgh">
+      <init_from>TinRoof_Rgh.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Alb">
+      <init_from>WallSlopeWhite_Alb.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Mtl">
+      <init_from>WallSlopeWhite_Mtl.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Nrm">
+      <init_from>WallSlopeWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Rgh">
+      <init_from>WallSlopeWhite_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="FloorSteelSet">
+      <instance_effect url="#Effect_FloorSteelSet" />
+    </material>
+    <material id="GrafittiAsphaltSet">
+      <instance_effect url="#Effect_GrafittiAsphaltSet" />
+    </material>
+    <material id="GroundAsphalt">
+      <instance_effect url="#Effect_GroundAsphalt" />
+    </material>
+    <material id="GroundAsphaltEdge">
+      <instance_effect url="#Effect_GroundAsphaltEdge" />
+    </material>
+    <material id="TinRoof">
+      <instance_effect url="#Effect_TinRoof" />
+    </material>
+    <material id="WallSlopeWhite">
+      <instance_effect url="#Effect_WallSlopeWhite" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_FloorSteelSet">
+      <profile_COMMON>
+        <newparam sid="surface_FloorSteelSet-diffuse">
+          <surface type="2D">
+            <init_from>FloorSteelSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FloorSteelSet-diffuse">
+          <sampler2D>
+            <source>surface_FloorSteelSet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_FloorSteelSet-bump">
+          <surface type="2D">
+            <init_from>FloorSteelSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FloorSteelSet-bump">
+          <sampler2D>
+            <source>surface_FloorSteelSet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_FloorSteelSet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_FloorSteelSet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GrafittiAsphaltSet">
+      <profile_COMMON>
+        <newparam sid="surface_GrafittiAsphaltSet-diffuse">
+          <surface type="2D">
+            <init_from>GrafittiAsphaltSet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GrafittiAsphaltSet-diffuse">
+          <sampler2D>
+            <source>surface_GrafittiAsphaltSet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GrafittiAsphaltSet-bump">
+          <surface type="2D">
+            <init_from>GrafittiAsphaltSet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GrafittiAsphaltSet-bump">
+          <sampler2D>
+            <source>surface_GrafittiAsphaltSet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GrafittiAsphaltSet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GrafittiAsphaltSet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundAsphalt">
+      <profile_COMMON>
+        <newparam sid="surface_GroundAsphalt-diffuse">
+          <surface type="2D">
+            <init_from>GroundAsphalt_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundAsphalt-diffuse">
+          <sampler2D>
+            <source>surface_GroundAsphalt-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundAsphalt-bump">
+          <surface type="2D">
+            <init_from>GroundAsphalt_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundAsphalt-bump">
+          <sampler2D>
+            <source>surface_GroundAsphalt-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundAsphalt-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundAsphalt-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundAsphaltEdge">
+      <profile_COMMON>
+        <newparam sid="surface_GroundAsphaltEdge-diffuse">
+          <surface type="2D">
+            <init_from>GroundAsphaltEdge_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundAsphaltEdge-diffuse">
+          <sampler2D>
+            <source>surface_GroundAsphaltEdge-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundAsphaltEdge-bump">
+          <surface type="2D">
+            <init_from>GroundAsphaltEdge_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundAsphaltEdge-bump">
+          <sampler2D>
+            <source>surface_GroundAsphaltEdge-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundAsphaltEdge-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundAsphaltEdge-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_TinRoof">
+      <profile_COMMON>
+        <newparam sid="surface_TinRoof-diffuse">
+          <surface type="2D">
+            <init_from>TinRoof_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_TinRoof-diffuse">
+          <sampler2D>
+            <source>surface_TinRoof-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_TinRoof-bump">
+          <surface type="2D">
+            <init_from>TinRoof_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_TinRoof-bump">
+          <sampler2D>
+            <source>surface_TinRoof-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_TinRoof-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_TinRoof-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallSlopeWhite">
+      <profile_COMMON>
+        <newparam sid="surface_WallSlopeWhite-diffuse">
+          <surface type="2D">
+            <init_from>WallSlopeWhite_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallSlopeWhite-diffuse">
+          <sampler2D>
+            <source>surface_WallSlopeWhite-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallSlopeWhite-bump">
+          <surface type="2D">
+            <init_from>WallSlopeWhite_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallSlopeWhite-bump">
+          <sampler2D>
+            <source>surface_WallSlopeWhite-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallSlopeWhite-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallSlopeWhite-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="test_asphaltMesh21__GroundAsphaltEdge-mesh" name="test_asphaltMesh21__GroundAsphaltEdge">
+      <mesh>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-position">
+          <float_array id="test_asphaltMesh21__GroundAsphaltEdge-position-array" count="216">4.104574 34.94022 218.9616 46.56713 34.94022 218.9616 46.56713 34.94022 215.2116 4.104574 34.94022 215.2116 46.56713 34.94022 211.4616 4.104574 34.94022 211.4616 40.82872 35.00259 213.976 40.82873 35.00259 256.4386 44.57873 35.00259 256.4386 44.57872 35.00259 213.976 48.32873 35.00259 256.4386 48.32872 35.00259 213.976 1.764387 34.94022 218.9616 1.764387 34.94022 215.2116 1.764387 34.94022 211.4616 40.82872 35.00259 211.6358 44.57872 35.00259 211.6358 48.32872 35.00259 211.6358 48.36715 34.94022 211.4616 48.36715 34.94022 215.2116 48.36715 34.94022 218.9616 40.82873 35.00259 258.2386 44.57873 35.00259 258.2386 48.32873 35.00259 258.2386 4.104574 34.94022 218.9616 46.56713 34.94022 218.9616 46.56713 34.94022 215.2116 4.104574 34.94022 215.2116 46.56713 34.94022 211.4616 4.104574 34.94022 211.4616 40.82872 35.00259 213.976 40.82873 35.00259 256.4386 44.57873 35.00259 256.4386 44.57872 35.00259 213.976 48.32873 35.00259 256.4386 48.32872 35.00259 213.976 1.764387 34.94022 218.9616 1.764387 34.94022 215.2116 1.764387 34.94022 211.4616 40.82872 35.00259 211.6358 44.57872 35.00259 211.6358 48.32872 35.00259 211.6358 48.36715 34.94022 211.4616 48.36715 34.94022 215.2116 48.36715 34.94022 218.9616 40.82873 35.00259 258.2386 44.57873 35.00259 258.2386 48.32873 35.00259 258.2386 4.104574 34.94022 218.9616 46.56713 34.94022 218.9616 46.56713 34.94022 215.2116 4.104574 34.94022 215.2116 46.56713 34.94022 211.4616 4.104574 34.94022 211.4616 40.82872 35.00259 213.976 40.82873 35.00259 256.4386 44.57873 35.00259 256.4386 44.57872 35.00259 213.976 48.32873 35.00259 256.4386 48.32872 35.00259 213.976 1.764387 34.94022 218.9616 1.764387 34.94022 215.2116 1.764387 34.94022 211.4616 40.82872 35.00259 211.6358 44.57872 35.00259 211.6358 48.32872 35.00259 211.6358 48.36715 34.94022 211.4616 48.36715 34.94022 215.2116 48.36715 34.94022 218.9616 40.82873 35.00259 258.2386 44.57873 35.00259 258.2386 48.32873 35.00259 258.2386</float_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-position-array" count="72" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-normal">
+          <float_array id="test_asphaltMesh21__GroundAsphaltEdge-normal-array" count="216">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-normal-array" count="72" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-color">
+          <float_array id="test_asphaltMesh21__GroundAsphaltEdge-color-array" count="288">1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-color-array" count="72" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-texcoord">
+          <float_array id="test_asphaltMesh21__GroundAsphaltEdge-texcoord-array" count="144">0.5449219 0.4638672 1.259766 0.4633789 1.260742 0.7314453 0.5449219 0.7319336 1.260742 0.9995885 0.5449219 1.000167 0.5449219 0.4638672 1.259766 0.4633789 1.260742 0.7314453 0.5449219 0.7319336 1.260742 0.9995885 0.5449219 1.000167 0.5170898 0.4638672 0.5170898 0.7319336 0.5170898 1 0.5170898 0.4638672 0.5170898 0.7319336 0.5170898 1 1.290039 0.9994507 1.290039 0.730957 1.289063 0.4633789 1.289063 0.4633789 1.290039 0.730957 1.290039 0.9994507 0.5449219 0.4638672 1.259766 0.4633789 1.260742 0.7314453 0.5449219 0.7319336 1.260742 0.9995885 0.5449219 1.000167 0.5449219 0.4638672 1.259766 0.4633789 1.260742 0.7314453 0.5449219 0.7319336 1.260742 0.9995885 0.5449219 1.000167 0.5170898 0.4638672 0.5170898 0.7319336 0.5170898 1 0.5170898 0.4638672 0.5170898 0.7319336 0.5170898 1 1.290039 0.9994507 1.290039 0.730957 1.289063 0.4633789 1.289063 0.4633789 1.290039 0.730957 1.290039 0.9994507 0.5449219 0.4638672 1.259766 0.4633789 1.260742 0.7314453 0.5449219 0.7319336 1.260742 0.9995885 0.5449219 1.000167 0.5449219 0.4638672 1.259766 0.4633789 1.260742 0.7314453 0.5449219 0.7319336 1.260742 0.9995885 0.5449219 1.000167 0.5170898 0.4638672 0.5170898 0.7319336 0.5170898 1 0.5170898 0.4638672 0.5170898 0.7319336 0.5170898 1 1.290039 0.9994507 1.290039 0.730957 1.289063 0.4633789 1.289063 0.4633789 1.290039 0.730957 1.290039 0.9994507</float_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-texcoord-array" count="72" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-texcoord_1">
+          <float_array id="test_asphaltMesh21__GroundAsphaltEdge-texcoord-array_1" count="144">0.0008239872 0.9606775 0.0007476921 0.04310673 0.04373236 0.04202336 0.04382391 0.9605707 0.08677806 0.04185551 0.08686961 0.9605554 0.09684901 0.9606775 0.09678797 0.04310673 0.1397726 0.04202336 0.1398489 0.9605707 0.1828183 0.04185551 0.1829099 0.9605554 0.0007934691 0.9960327 0.04380865 0.9960327 0.08683909 0.9960327 0.09681849 0.9960327 0.1398489 0.9960327 0.1828794 0.9960327 0.08674754 0.003967345 0.04365606 0.004196227 0.0007324331 0.004852355 0.09677272 0.004852355 0.1396963 0.004196227 0.1827878 0.003967345 0.0008239872 0.9606775 0.0007476921 0.04310673 0.04373236 0.04202336 0.04382391 0.9605707 0.08677806 0.04185551 0.08686961 0.9605554 0.09684901 0.9606775 0.09678797 0.04310673 0.1397726 0.04202336 0.1398489 0.9605707 0.1828183 0.04185551 0.1829099 0.9605554 0.0007934691 0.9960327 0.04380865 0.9960327 0.08683909 0.9960327 0.09681849 0.9960327 0.1398489 0.9960327 0.1828794 0.9960327 0.08674754 0.003967345 0.04365606 0.004196227 0.0007324331 0.004852355 0.09677272 0.004852355 0.1396963 0.004196227 0.1827878 0.003967345 0.0008239872 0.9606775 0.0007476921 0.04310673 0.04373236 0.04202336 0.04382391 0.9605707 0.08677806 0.04185551 0.08686961 0.9605554 0.09684901 0.9606775 0.09678797 0.04310673 0.1397726 0.04202336 0.1398489 0.9605707 0.1828183 0.04185551 0.1829099 0.9605554 0.0007934691 0.9960327 0.04380865 0.9960327 0.08683909 0.9960327 0.09681849 0.9960327 0.1398489 0.9960327 0.1828794 0.9960327 0.08674754 0.003967345 0.04365606 0.004196227 0.0007324331 0.004852355 0.09677272 0.004852355 0.1396963 0.004196227 0.1827878 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-texcoord-array_1" count="72" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="test_asphaltMesh21__GroundAsphaltEdge-vertex">
+          <input semantic="POSITION" source="#test_asphaltMesh21__GroundAsphaltEdge-position" />
+        </vertices>
+        <triangles material="GroundAsphaltEdge" count="24">
+          <input semantic="VERTEX" source="#test_asphaltMesh21__GroundAsphaltEdge-vertex" offset="0" />
+          <input semantic="NORMAL" source="#test_asphaltMesh21__GroundAsphaltEdge-normal" offset="1" />
+          <input semantic="COLOR" source="#test_asphaltMesh21__GroundAsphaltEdge-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#test_asphaltMesh21__GroundAsphaltEdge-texcoord" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#test_asphaltMesh21__GroundAsphaltEdge-texcoord_1" offset="4" set="1" />
+          <p>0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 0 0 0 0 0 2 2 2 2 2 3 3 3 3 3 2 2 2 2 2 4 4 4 4 4 5 5 5 5 5 3 3 3 3 3 4 4 4 4 4 6 6 6 6 6 7 7 7 7 7 8 8 8 8 8 9 9 9 9 9 6 6 6 6 6 8 8 8 8 8 9 9 9 9 9 8 8 8 8 8 10 10 10 10 10 11 11 11 11 11 9 9 9 9 9 10 10 10 10 10 12 12 12 12 12 0 0 0 0 0 3 3 3 3 3 13 13 13 13 13 12 12 12 12 12 3 3 3 3 3 13 13 13 13 13 3 3 3 3 3 5 5 5 5 5 14 14 14 14 14 13 13 13 13 13 5 5 5 5 5 15 15 15 15 15 6 6 6 6 6 9 9 9 9 9 16 16 16 16 16 15 15 15 15 15 9 9 9 9 9 16 16 16 16 16 9 9 9 9 9 11 11 11 11 11 17 17 17 17 17 16 16 16 16 16 11 11 11 11 11 4 4 4 4 4 2 2 2 2 2 18 18 18 18 18 2 2 2 2 2 19 19 19 19 19 18 18 18 18 18 20 20 20 20 20 19 19 19 19 19 2 2 2 2 2 20 20 20 20 20 2 2 2 2 2 1 1 1 1 1 21 21 21 21 21 8 8 8 8 8 7 7 7 7 7 21 21 21 21 21 22 22 22 22 22 8 8 8 8 8 8 8 8 8 8 22 22 22 22 22 23 23 23 23 23 10 10 10 10 10 8 8 8 8 8 23 23 23 23 23 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="test_pCube4627__FloorSteelSet-mesh" name="test_pCube4627__FloorSteelSet">
+      <mesh>
+        <source id="test_pCube4627__FloorSteelSet-position">
+          <float_array id="test_pCube4627__FloorSteelSet-position-array" count="528">0.05006409 34.89996 211.7701 50.05004 34.89996 211.7701 0.2500229 35.24657 211.5701 49.85008 35.24657 211.5701 0.2500229 35.24657 210.2 49.85008 35.24657 210.2 49.85008 35.24657 211.5701 0.05006409 34.89996 210 0.2500229 35.24657 210.2 50.05004 34.89996 210 0.0500679 34.89996 260 50.05005 34.89996 260 0.2500267 35.24657 259.8 49.85009 35.24657 259.8 0.2500267 35.24657 258.43 49.85009 35.24657 258.43 49.85009 35.24657 259.8 0.0500679 34.89996 258.2299 0.2500267 35.24657 258.43 50.05005 34.89996 258.2299 50.05003 34.89996 258.2299 50.05003 34.89996 211.7701 49.85008 35.24657 258.0299 49.85008 35.24657 211.9701 48.47998 35.24657 258.0299 48.47998 35.24657 211.9701 49.85008 35.24657 211.9701 48.27996 34.89996 258.2299 48.47998 35.24657 258.0299 48.27996 34.89996 211.7701 1.820152 34.89996 258.23 1.820152 34.89996 211.7701 1.620125 35.24657 258.0299 1.620125 35.24657 211.9701 0.2500305 35.24657 258.0299 0.2500305 35.24657 211.9701 1.620125 35.24657 211.9701 0.05007553 34.89996 258.23 0.2500305 35.24657 258.0299 0.05007553 34.89996 211.7701 0.05006409 34.89996 210 0.05006409 34.89996 211.7701 1.820152 34.89996 211.7701 0.05007553 34.89996 211.7701 0.0500679 34.89996 258.2299 0.0500679 34.89996 260 0.05007553 34.89996 258.23 1.820152 34.89996 258.23 50.05004 34.89996 211.7701 50.05004 34.89996 210 50.05003 34.89996 211.7701 48.27996 34.89996 211.7701 50.05005 34.89996 260 50.05005 34.89996 258.2299 48.27996 34.89996 258.2299 50.05003 34.89996 258.2299 0.2500229 35.24657 211.5701 49.85008 35.24657 210.2 0.2500267 35.24657 259.8 49.85009 35.24657 258.43 49.85008 35.24657 258.0299 48.47998 35.24657 211.9701 1.620125 35.24657 258.0299 0.2500305 35.24657 211.9701 0.05006409 34.89996 211.7701 0.05006409 34.89996 211.7701 50.05004 34.89996 211.7701 50.05004 34.89996 211.7701 50.05004 34.89996 211.7701 50.05004 34.89996 211.7701 49.85008 35.24657 211.5701 49.85008 35.24657 211.5701 0.2500229 35.24657 210.2 0.2500229 35.24657 210.2 0.2500229 35.24657 210.2 0.05006409 34.89996 210 0.05006409 34.89996 210 50.05004 34.89996 210 50.05004 34.89996 210 0.0500679 34.89996 260 0.0500679 34.89996 260 50.05005 34.89996 260 50.05005 34.89996 260 49.85009 35.24657 259.8 49.85009 35.24657 259.8 0.2500267 35.24657 258.43 0.2500267 35.24657 258.43 0.2500267 35.24657 258.43 0.0500679 34.89996 258.2299 0.0500679 34.89996 258.2299 50.05005 34.89996 258.2299 50.05005 34.89996 258.2299 50.05005 34.89996 258.2299 50.05005 34.89996 258.2299 49.85008 35.24657 211.9701 49.85008 35.24657 211.9701 48.47998 35.24657 258.0299 48.47998 35.24657 258.0299 48.47998 35.24657 258.0299 48.27996 34.89996 258.2299 48.27996 34.89996 258.2299 48.27996 34.89996 211.7701 48.27996 34.89996 211.7701 1.820152 34.89996 258.23 1.820152 34.89996 258.23 1.820152 34.89996 211.7701 1.820152 34.89996 211.7701 1.620125 35.24657 211.9701 1.620125 35.24657 211.9701 0.2500305 35.24657 258.0299 0.2500305 35.24657 258.0299 0.2500305 35.24657 258.0299 0.05007553 34.89996 258.23 0.05007553 34.89996 258.23 0.05007553 34.89996 211.7701 0.05007553 34.89996 211.7701 0.2500229 35.24657 211.5701 49.85008 35.24657 210.2 0.2500267 35.24657 259.8 49.85009 35.24657 258.43 49.85008 35.24657 258.0299 48.47998 35.24657 211.9701 1.620125 35.24657 258.0299 0.2500305 35.24657 211.9701 0.05006409 34.89996 211.7701 0.05006409 34.89996 211.7701 50.05004 34.89996 211.7701 50.05004 34.89996 211.7701 50.05004 34.89996 211.7701 50.05004 34.89996 211.7701 49.85008 35.24657 211.5701 49.85008 35.24657 211.5701 0.2500229 35.24657 210.2 0.2500229 35.24657 210.2 0.2500229 35.24657 210.2 0.05006409 34.89996 210 0.05006409 34.89996 210 50.05004 34.89996 210 50.05004 34.89996 210 0.0500679 34.89996 260 0.0500679 34.89996 260 50.05005 34.89996 260 50.05005 34.89996 260 49.85009 35.24657 259.8 49.85009 35.24657 259.8 0.2500267 35.24657 258.43 0.2500267 35.24657 258.43 0.2500267 35.24657 258.43 0.0500679 34.89996 258.2299 0.0500679 34.89996 258.2299 50.05005 34.89996 258.2299 50.05005 34.89996 258.2299 50.05005 34.89996 258.2299 50.05005 34.89996 258.2299 49.85008 35.24657 211.9701 49.85008 35.24657 211.9701 48.47998 35.24657 258.0299 48.47998 35.24657 258.0299 48.47998 35.24657 258.0299 48.27996 34.89996 258.2299 48.27996 34.89996 258.2299 48.27996 34.89996 211.7701 48.27996 34.89996 211.7701 1.820152 34.89996 258.23 1.820152 34.89996 258.23 1.820152 34.89996 211.7701 1.820152 34.89996 211.7701 1.620125 35.24657 211.9701 1.620125 35.24657 211.9701 0.2500305 35.24657 258.0299 0.2500305 35.24657 258.0299 0.2500305 35.24657 258.0299 0.05007553 34.89996 258.23 0.05007553 34.89996 258.23 0.05007553 34.89996 211.7701 0.05007553 34.89996 211.7701</float_array>
+          <technique_common>
+            <accessor source="#test_pCube4627__FloorSteelSet-position-array" count="176" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube4627__FloorSteelSet-normal">
+          <float_array id="test_pCube4627__FloorSteelSet-normal-array" count="528">0 0.4990215 0.8669276 0 0.4990215 0.8669276 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.4990215 -0.8669276 0 1 0 0 0.4990215 -0.8669276 0 0.4990215 0.8669276 0 0.4990215 0.8669276 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.4990215 -0.8669276 0 1 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.8669276 0.4990215 0 0 1 0 -0.8669276 0.4990215 0 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.8669276 0.4990215 0 0 1 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0 0.4990215 -0.8669276 -0.8669276 0.4990215 0 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 0.4990215 0.8669276 0 0.4990215 0.8669276 -0.007827789 0.964775 0.2661448 0.007827789 0.964775 -0.2661448 -0.007827789 0.964775 0.2661448 0.007827789 0.964775 -0.2661448 0.2661448 0.964775 0.007827789 -0.2661448 0.964775 -0.007827789 0.2661448 0.964775 0.007827789 -0.2661448 0.964775 -0.007827789 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0 0.4990215 0.8669276 0.01174168 1 0 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.01174168 1 0 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0 1 -0.01174168 0 1 0.01174168 -0.8669276 0.4990215 0 0 1 0.01174168 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0 1 -0.01174168 0 1 0.01174168 -0.8669276 0.4990215 0 0 1 0.01174168 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 -0.007827789 0.964775 0.2661448 0.007827789 0.964775 -0.2661448 -0.007827789 0.964775 0.2661448 0.007827789 0.964775 -0.2661448 0.2661448 0.964775 0.007827789 -0.2661448 0.964775 -0.007827789 0.2661448 0.964775 0.007827789 -0.2661448 0.964775 -0.007827789 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0 0.4990215 0.8669276 0.01174168 1 0 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.01174168 1 0 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.01174168 1 0 0 0.4990215 -0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0 1 -0.01174168 0 1 0.01174168 -0.8669276 0.4990215 0 0 1 0.01174168 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0 0.4990215 0.8669276 0.8669276 0.4990215 0 0 0.4990215 -0.8669276 0.8669276 0.4990215 0 0 1 -0.01174168 0 1 0.01174168 -0.8669276 0.4990215 0 0 1 0.01174168 -0.8669276 0.4990215 0 0 0.4990215 0.8669276 -0.8669276 0.4990215 0 0 0.4990215 -0.8669276</float_array>
+          <technique_common>
+            <accessor source="#test_pCube4627__FloorSteelSet-normal-array" count="176" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube4627__FloorSteelSet-texcoord">
+          <float_array id="test_pCube4627__FloorSteelSet-texcoord-array" count="352">0.7783203 1.226196 0.7783203 -0.3251953 0.7871094 1.220459 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 -0.3203125 0.7871094 -0.3203125 0.8364258 1.226318 0.8251953 1.220459 0.8364258 -0.3261719 0.7783203 1.226196 0.7783203 -0.3251953 0.7871094 1.220459 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 -0.3203125 0.7871094 -0.3203125 0.8364258 1.226318 0.8251953 1.220459 0.8364258 -0.3261719 0.7783203 1.226196 0.7783203 -0.3251953 0.7871094 1.220459 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 -0.3203125 0.7871094 -0.3203125 0.8364258 1.226318 0.8251953 1.220459 0.8364258 -0.3261719 0.7783203 1.226196 0.7783203 -0.3251953 0.7871094 1.220459 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 -0.3203125 0.7871094 -0.3203125 0.8364258 1.226318 0.8251953 1.220459 0.8364258 -0.3261719 0.8364258 1.226318 0.7783203 1.226196 0.7783203 -0.3251953 0.8364258 -0.3261719 0.8364258 1.226318 0.7783203 1.226196 0.8364258 1.226318 0.7783203 1.226196 0.7783203 -0.3251953 0.8364258 -0.3261719 0.7783203 -0.3251953 0.8364258 -0.3261719 0.7783203 -0.3251953 0.8364258 -0.3261719 0.8364258 1.226318 0.7783203 1.226196 0.7871094 1.220459 0.8251953 -0.3203125 0.7871094 1.220459 0.8251953 -0.3203125 0.7871094 1.220459 0.8251953 -0.3203125 0.7871094 1.220459 0.8251953 -0.3203125 0.7783203 1.226196 0.7783203 1.226196 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.8364258 -0.3261719 0.7783203 1.226196 0.7783203 1.226196 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.7783203 1.226196 0.8364258 -0.3261719 0.7783203 1.226196 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.8364258 -0.3261719 0.7783203 1.226196 0.7783203 1.226196 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.8364258 -0.3261719 0.7871094 1.220459 0.8251953 -0.3203125 0.7871094 1.220459 0.8251953 -0.3203125 0.7871094 1.220459 0.8251953 -0.3203125 0.7871094 1.220459 0.8251953 -0.3203125 0.7783203 1.226196 0.7783203 1.226196 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.8364258 -0.3261719 0.7783203 1.226196 0.7783203 1.226196 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.7783203 1.226196 0.8364258 -0.3261719 0.7783203 1.226196 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.8364258 -0.3261719 0.7783203 1.226196 0.7783203 1.226196 0.7783203 -0.3251953 0.7783203 -0.3251953 0.7871094 -0.3203125 0.7871094 -0.3203125 0.8251953 1.220459 0.8251953 1.220459 0.8251953 1.220459 0.8364258 1.226318 0.8364258 1.226318 0.8364258 -0.3261719 0.8364258 -0.3261719</float_array>
+          <technique_common>
+            <accessor source="#test_pCube4627__FloorSteelSet-texcoord-array" count="176" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube4627__FloorSteelSet-texcoord_1">
+          <float_array id="test_pCube4627__FloorSteelSet-texcoord-array_1" count="352">0.000717174 0.9959716 0.000717174 0.00402838 0.006286717 0.9923095 0.006271458 0.007690549 0.03076219 0.9923095 0.03076219 0.007690549 0.006271458 0.007690549 0.03784237 0.9960327 0.03076219 0.9923095 0.03784237 0.003967345 0.04856947 0.9959716 0.04856947 0.00402838 0.05413901 0.9923095 0.05412375 0.007690549 0.07861448 0.9923095 0.07861448 0.007690549 0.05412375 0.007690549 0.08569467 0.9960327 0.07861448 0.9923095 0.0856794 0.003967345 0.09642176 0.9959716 0.0964065 0.00402838 0.101976 0.9923095 0.101976 0.007690549 0.1264668 0.9923095 0.1264515 0.007690549 0.101976 0.007690549 0.133547 0.9960327 0.1264668 0.9923095 0.1335317 0.003967345 0.1424277 0.9959716 0.1424125 0.00402838 0.147982 0.9923095 0.147982 0.007690549 0.1724727 0.9923095 0.1724575 0.007690549 0.147982 0.007690549 0.1795529 0.9960327 0.1724727 0.9923095 0.1795377 0.003967345 0.03784237 0.9960327 0.000717174 0.9959716 0.1424125 0.00402838 0.1795377 0.003967345 0.08569467 0.9960327 0.04856947 0.9959716 0.1795529 0.9960327 0.1424277 0.9959716 0.000717174 0.00402838 0.03784237 0.003967345 0.0964065 0.00402838 0.1335317 0.003967345 0.04856947 0.00402838 0.0856794 0.003967345 0.133547 0.9960327 0.09642176 0.9959716 0.006286717 0.9923095 0.03076219 0.007690549 0.05413901 0.9923095 0.07861448 0.007690549 0.101976 0.9923095 0.1264515 0.007690549 0.147982 0.9923095 0.1724575 0.007690549 0.000717174 0.9959716 0.000717174 0.9959716 0.000717174 0.00402838 0.0964065 0.00402838 0.000717174 0.00402838 0.0964065 0.00402838 0.006271458 0.007690549 0.006271458 0.007690549 0.03076219 0.9923095 0.03076219 0.9923095 0.03076219 0.9923095 0.03784237 0.9960327 0.03784237 0.9960327 0.03784237 0.003967345 0.03784237 0.003967345 0.04856947 0.9959716 0.04856947 0.9959716 0.04856947 0.00402838 0.04856947 0.00402838 0.05412375 0.007690549 0.05412375 0.007690549 0.07861448 0.9923095 0.07861448 0.9923095 0.07861448 0.9923095 0.08569467 0.9960327 0.08569467 0.9960327 0.0856794 0.003967345 0.09642176 0.9959716 0.0856794 0.003967345 0.09642176 0.9959716 0.101976 0.007690549 0.101976 0.007690549 0.1264668 0.9923095 0.1264668 0.9923095 0.1264668 0.9923095 0.133547 0.9960327 0.133547 0.9960327 0.1335317 0.003967345 0.1335317 0.003967345 0.1424277 0.9959716 0.1424277 0.9959716 0.1424125 0.00402838 0.1424125 0.00402838 0.147982 0.007690549 0.147982 0.007690549 0.1724727 0.9923095 0.1724727 0.9923095 0.1724727 0.9923095 0.1795529 0.9960327 0.1795529 0.9960327 0.1795377 0.003967345 0.1795377 0.003967345 0.006286717 0.9923095 0.03076219 0.007690549 0.05413901 0.9923095 0.07861448 0.007690549 0.101976 0.9923095 0.1264515 0.007690549 0.147982 0.9923095 0.1724575 0.007690549 0.000717174 0.9959716 0.000717174 0.9959716 0.000717174 0.00402838 0.0964065 0.00402838 0.000717174 0.00402838 0.0964065 0.00402838 0.006271458 0.007690549 0.006271458 0.007690549 0.03076219 0.9923095 0.03076219 0.9923095 0.03076219 0.9923095 0.03784237 0.9960327 0.03784237 0.9960327 0.03784237 0.003967345 0.03784237 0.003967345 0.04856947 0.9959716 0.04856947 0.9959716 0.04856947 0.00402838 0.04856947 0.00402838 0.05412375 0.007690549 0.05412375 0.007690549 0.07861448 0.9923095 0.07861448 0.9923095 0.07861448 0.9923095 0.08569467 0.9960327 0.08569467 0.9960327 0.0856794 0.003967345 0.09642176 0.9959716 0.0856794 0.003967345 0.09642176 0.9959716 0.101976 0.007690549 0.101976 0.007690549 0.1264668 0.9923095 0.1264668 0.9923095 0.1264668 0.9923095 0.133547 0.9960327 0.133547 0.9960327 0.1335317 0.003967345 0.1335317 0.003967345 0.1424277 0.9959716 0.1424277 0.9959716 0.1424125 0.00402838 0.1424125 0.00402838 0.147982 0.007690549 0.147982 0.007690549 0.1724727 0.9923095 0.1724727 0.9923095 0.1724727 0.9923095 0.1795529 0.9960327 0.1795529 0.9960327 0.1795377 0.003967345 0.1795377 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#test_pCube4627__FloorSteelSet-texcoord-array_1" count="176" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="test_pCube4627__FloorSteelSet-vertex">
+          <input semantic="POSITION" source="#test_pCube4627__FloorSteelSet-position" />
+        </vertices>
+        <triangles material="FloorSteelSet" count="40">
+          <input semantic="VERTEX" source="#test_pCube4627__FloorSteelSet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#test_pCube4627__FloorSteelSet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#test_pCube4627__FloorSteelSet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#test_pCube4627__FloorSteelSet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 2 2 2 2 5 5 5 5 2 2 2 2 6 6 6 6 5 5 5 5 7 7 7 7 8 8 8 8 5 5 5 5 9 9 9 9 7 7 7 7 5 5 5 5 10 10 10 10 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 14 14 14 14 12 12 12 12 15 15 15 15 12 12 12 12 16 16 16 16 15 15 15 15 17 17 17 17 18 18 18 18 15 15 15 15 19 19 19 19 17 17 17 17 15 15 15 15 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 22 22 22 22 25 25 25 25 22 22 22 22 26 26 26 26 25 25 25 25 27 27 27 27 28 28 28 28 25 25 25 25 29 29 29 29 27 27 27 27 25 25 25 25 30 30 30 30 31 31 31 31 32 32 32 32 31 31 31 31 33 33 33 33 32 32 32 32 34 34 34 34 32 32 32 32 35 35 35 35 32 32 32 32 36 36 36 36 35 35 35 35 37 37 37 37 38 38 38 38 35 35 35 35 39 39 39 39 37 37 37 37 35 35 35 35 40 40 40 40 41 41 41 41 4 4 4 4 41 41 41 41 2 2 2 2 4 4 4 4 42 42 42 42 43 43 43 43 36 36 36 36 43 43 43 43 35 35 35 35 36 36 36 36 44 44 44 44 45 45 45 45 14 14 14 14 45 45 45 45 12 12 12 12 14 14 14 14 46 46 46 46 47 47 47 47 34 34 34 34 47 47 47 47 32 32 32 32 34 34 34 34 48 48 48 48 49 49 49 49 6 6 6 6 49 49 49 49 5 5 5 5 6 6 6 6 50 50 50 50 51 51 51 51 26 26 26 26 51 51 51 51 25 25 25 25 26 26 26 26 52 52 52 52 53 53 53 53 16 16 16 16 53 53 53 53 15 15 15 15 16 16 16 16 54 54 54 54 55 55 55 55 24 24 24 24 55 55 55 55 22 22 22 22 24 24 24 24 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="test_pCube764__WallSlopeWhite-mesh" name="test_pCube764__WallSlopeWhite">
+      <mesh>
+        <source id="test_pCube764__WallSlopeWhite-position">
+          <float_array id="test_pCube764__WallSlopeWhite-position-array" count="216">50.05005 11.58639 210 0.05004811 11.58639 210 50.05005 34.90005 210 0.05004811 34.90005 210 50.05005 34.90005 260 0.05005249 34.90005 260 50.05005 11.58639 260 0.05005249 11.58639 260 50.05005 11.58639 260 50.05005 11.58639 210 50.05005 34.90005 260 50.05005 34.90005 210 50.05005 11.58639 260 0.05005249 11.58639 260 50.05005 9.900047 260 0.05005249 9.900047 260 50.05005 9.900047 260 50.05005 9.900047 210 50.05005 11.58639 260 50.05005 11.58639 210 50.05005 9.900047 210 0.05004811 9.900047 210 50.05005 11.58639 210 0.05004811 11.58639 210 0.05004811 34.90005 210 0.05005249 34.90005 260 0.05005249 9.900047 260 0.05004811 9.900047 210 50.05005 11.58639 210 50.05005 11.58639 210 50.05005 11.58639 210 50.05005 11.58639 210 0.05004811 11.58639 210 0.05004811 11.58639 210 50.05005 34.90005 210 50.05005 34.90005 210 50.05005 34.90005 260 50.05005 34.90005 260 50.05005 11.58639 260 50.05005 11.58639 260 50.05005 11.58639 260 50.05005 11.58639 260 0.05005249 11.58639 260 0.05005249 11.58639 260 50.05005 9.900047 260 50.05005 9.900047 260 50.05005 9.900047 210 50.05005 9.900047 210 0.05004811 34.90005 210 0.05005249 34.90005 260 0.05005249 9.900047 260 0.05004811 9.900047 210 50.05005 11.58639 210 50.05005 11.58639 210 50.05005 11.58639 210 50.05005 11.58639 210 0.05004811 11.58639 210 0.05004811 11.58639 210 50.05005 34.90005 210 50.05005 34.90005 210 50.05005 34.90005 260 50.05005 34.90005 260 50.05005 11.58639 260 50.05005 11.58639 260 50.05005 11.58639 260 50.05005 11.58639 260 0.05005249 11.58639 260 0.05005249 11.58639 260 50.05005 9.900047 260 50.05005 9.900047 260 50.05005 9.900047 210 50.05005 9.900047 210</float_array>
+          <technique_common>
+            <accessor source="#test_pCube764__WallSlopeWhite-position-array" count="72" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube764__WallSlopeWhite-normal">
+          <float_array id="test_pCube764__WallSlopeWhite-normal-array" count="216">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 -1 0 0 -1 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube764__WallSlopeWhite-normal-array" count="72" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube764__WallSlopeWhite-texcoord">
+          <float_array id="test_pCube764__WallSlopeWhite-texcoord-array" count="144">0.7080078 1.685059 1.016602 1.685059 0.7080078 1.962402 1.016602 1.962402 0.3989258 1.962402 0.09002686 1.962402 0.3989258 1.685059 0.09002686 1.685059 0.3989258 1.685059 0.7080078 1.685059 0.3989258 1.962402 0.7080078 1.962402 0.3989258 1.984863 0.09002686 1.984863 0.3989258 1.964355 0.09002686 1.964355 0.3989258 1.964355 0.7080078 1.964355 0.3989258 1.984863 0.7080078 1.984863 0.7080078 1.964355 1.016602 1.964355 0.7080078 1.984863 1.016602 1.984863 1.016602 1.962402 0.09002686 1.962402 0.09002686 1.964355 1.016602 1.964355 0.7080078 1.685059 0.7080078 1.685059 0.7080078 1.984863 0.7080078 1.984863 1.016602 1.685059 1.016602 1.984863 0.7080078 1.962402 0.7080078 1.962402 0.3989258 1.962402 0.3989258 1.962402 0.3989258 1.685059 0.3989258 1.685059 0.3989258 1.984863 0.3989258 1.984863 0.09002686 1.685059 0.09002686 1.984863 0.3989258 1.964355 0.3989258 1.964355 0.7080078 1.964355 0.7080078 1.964355 1.016602 1.962402 0.09002686 1.962402 0.09002686 1.964355 1.016602 1.964355 0.7080078 1.685059 0.7080078 1.685059 0.7080078 1.984863 0.7080078 1.984863 1.016602 1.685059 1.016602 1.984863 0.7080078 1.962402 0.7080078 1.962402 0.3989258 1.962402 0.3989258 1.962402 0.3989258 1.685059 0.3989258 1.685059 0.3989258 1.984863 0.3989258 1.984863 0.09002686 1.685059 0.09002686 1.984863 0.3989258 1.964355 0.3989258 1.964355 0.7080078 1.964355 0.7080078 1.964355</float_array>
+          <technique_common>
+            <accessor source="#test_pCube764__WallSlopeWhite-texcoord-array" count="72" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube764__WallSlopeWhite-texcoord_1">
+          <float_array id="test_pCube764__WallSlopeWhite-texcoord-array_1" count="144">0.000671397 0.3342031 0.000671397 0.003967345 0.148806 0.3342031 0.148806 0.003967345 0.148806 0.6644388 0.148806 0.9946746 0.000671397 0.6644388 0.000671397 0.9946746 0.000671397 0.6644388 0.000671397 0.3342031 0.148806 0.6644388 0.148806 0.3342031 0.1698787 0.6657969 0.1698634 0.9960327 0.1591516 0.6657969 0.1591516 0.9960327 0.1591516 0.6657969 0.1591516 0.3355612 0.1698787 0.6657969 0.1698787 0.3355612 0.1591516 0.3355612 0.1591516 0.005325377 0.1698787 0.3355612 0.1698787 0.005325377 0.148806 0.003967345 0.148806 0.9946746 0.1591516 0.9960327 0.1591516 0.005325377 0.000671397 0.3342031 0.000671397 0.3342031 0.1698787 0.3355612 0.1698787 0.3355612 0.000671397 0.003967345 0.1698787 0.005325377 0.148806 0.3342031 0.148806 0.3342031 0.148806 0.6644388 0.148806 0.6644388 0.000671397 0.6644388 0.000671397 0.6644388 0.1698787 0.6657969 0.1698787 0.6657969 0.000671397 0.9946746 0.1698634 0.9960327 0.1591516 0.6657969 0.1591516 0.6657969 0.1591516 0.3355612 0.1591516 0.3355612 0.148806 0.003967345 0.148806 0.9946746 0.1591516 0.9960327 0.1591516 0.005325377 0.000671397 0.3342031 0.000671397 0.3342031 0.1698787 0.3355612 0.1698787 0.3355612 0.000671397 0.003967345 0.1698787 0.005325377 0.148806 0.3342031 0.148806 0.3342031 0.148806 0.6644388 0.148806 0.6644388 0.000671397 0.6644388 0.000671397 0.6644388 0.1698787 0.6657969 0.1698787 0.6657969 0.000671397 0.9946746 0.1698634 0.9960327 0.1591516 0.6657969 0.1591516 0.6657969 0.1591516 0.3355612 0.1591516 0.3355612</float_array>
+          <technique_common>
+            <accessor source="#test_pCube764__WallSlopeWhite-texcoord-array_1" count="72" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="test_pCube764__WallSlopeWhite-vertex">
+          <input semantic="POSITION" source="#test_pCube764__WallSlopeWhite-position" />
+        </vertices>
+        <triangles material="WallSlopeWhite" count="12">
+          <input semantic="VERTEX" source="#test_pCube764__WallSlopeWhite-vertex" offset="0" />
+          <input semantic="NORMAL" source="#test_pCube764__WallSlopeWhite-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#test_pCube764__WallSlopeWhite-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#test_pCube764__WallSlopeWhite-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="test_pCube765__GroundAsphalt-mesh" name="test_pCube765__GroundAsphalt">
+      <mesh>
+        <source id="test_pCube765__GroundAsphalt-position">
+          <float_array id="test_pCube765__GroundAsphalt-position-array" count="36">50.05005 34.90005 210 0.05004811 34.90005 210 50.05005 34.90005 260 0.05005249 34.90005 260 50.05005 34.90005 210 0.05004811 34.90005 210 50.05005 34.90005 260 0.05005249 34.90005 260 50.05005 34.90005 210 0.05004811 34.90005 210 50.05005 34.90005 260 0.05005249 34.90005 260</float_array>
+          <technique_common>
+            <accessor source="#test_pCube765__GroundAsphalt-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube765__GroundAsphalt-normal">
+          <float_array id="test_pCube765__GroundAsphalt-normal-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#test_pCube765__GroundAsphalt-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube765__GroundAsphalt-texcoord">
+          <float_array id="test_pCube765__GroundAsphalt-texcoord-array" count="24">0.6479492 0.005371094 1.897461 0.005371094 0.6479492 1.254883 1.897461 1.254883 0.6479492 0.005371094 1.897461 0.005371094 0.6479492 1.254883 1.897461 1.254883 0.6479492 0.005371094 1.897461 0.005371094 0.6479492 1.254883 1.897461 1.254883</float_array>
+          <technique_common>
+            <accessor source="#test_pCube765__GroundAsphalt-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube765__GroundAsphalt-texcoord_1">
+          <float_array id="test_pCube765__GroundAsphalt-texcoord-array_1" count="24">0.003921569 0.9960784 0.003921569 0.003921568 0.9372549 0.9960784 0.9372549 0.003921568 0.003921569 0.9960784 0.003921569 0.003921568 0.9372549 0.9960784 0.9372549 0.003921568 0.003921569 0.9960784 0.003921569 0.003921568 0.9372549 0.9960784 0.9372549 0.003921568</float_array>
+          <technique_common>
+            <accessor source="#test_pCube765__GroundAsphalt-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="test_pCube765__GroundAsphalt-vertex">
+          <input semantic="POSITION" source="#test_pCube765__GroundAsphalt-position" />
+        </vertices>
+        <triangles material="GroundAsphalt" count="2">
+          <input semantic="VERTEX" source="#test_pCube765__GroundAsphalt-vertex" offset="0" />
+          <input semantic="NORMAL" source="#test_pCube765__GroundAsphalt-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#test_pCube765__GroundAsphalt-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#test_pCube765__GroundAsphalt-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="test_pCube766__TinRoof-mesh" name="test_pCube766__TinRoof">
+      <mesh>
+        <source id="test_pCube766__TinRoof-position">
+          <float_array id="test_pCube766__TinRoof-position-array" count="36">50.05005 9.900047 260 0.05005264 9.900047 260 50.05005 9.900047 210 0.05004883 9.900047 210 50.05005 9.900047 260 0.05005249 9.900047 260 50.05005 9.900047 210 0.05004811 9.900047 210 50.05005 9.900047 260 0.05005249 9.900047 260 50.05005 9.900047 210 0.05004811 9.900047 210</float_array>
+          <technique_common>
+            <accessor source="#test_pCube766__TinRoof-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube766__TinRoof-normal">
+          <float_array id="test_pCube766__TinRoof-normal-array" count="36">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#test_pCube766__TinRoof-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube766__TinRoof-texcoord">
+          <float_array id="test_pCube766__TinRoof-texcoord-array" count="24">1.536133 1.266113 2.785156 1.266113 1.536133 2.515625 2.785156 2.515625 1.536133 1.266113 2.785156 1.266113 1.536133 2.515625 2.785156 2.515625 1.536133 1.266113 2.785156 1.266113 1.536133 2.515625 2.785156 2.515625</float_array>
+          <technique_common>
+            <accessor source="#test_pCube766__TinRoof-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube766__TinRoof-texcoord_1">
+          <float_array id="test_pCube766__TinRoof-texcoord-array_1" count="24">0.001983673 0.9960327 0.001983673 0.003967345 0.4980087 0.9960327 0.4980087 0.003967345 0.001983673 0.9960327 0.001983673 0.003967345 0.4980087 0.9960327 0.4980087 0.003967345 0.001983673 0.9960327 0.001983673 0.003967345 0.4980087 0.9960327 0.4980087 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#test_pCube766__TinRoof-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="test_pCube766__TinRoof-vertex">
+          <input semantic="POSITION" source="#test_pCube766__TinRoof-position" />
+        </vertices>
+        <triangles material="TinRoof" count="2">
+          <input semantic="VERTEX" source="#test_pCube766__TinRoof-vertex" offset="0" />
+          <input semantic="NORMAL" source="#test_pCube766__TinRoof-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#test_pCube766__TinRoof-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#test_pCube766__TinRoof-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="test_slopeMesh_058__GrafittiAsphaltSet-mesh" name="test_slopeMesh_058__GrafittiAsphaltSet">
+      <mesh>
+        <source id="test_slopeMesh_058__GrafittiAsphaltSet-position">
+          <float_array id="test_slopeMesh_058__GrafittiAsphaltSet-position-array" count="72">9.033955 34.9745 249.3793 9.033953 34.9745 215.2116 4.033955 34.9745 249.3793 4.033953 34.9745 215.2116 44.92379 34.9745 249.7643 4.371082 34.9745 249.7643 44.92379 34.9745 254.7643 4.371082 34.9745 254.7643 9.033955 34.9745 249.3793 9.033953 34.9745 215.2116 4.033955 34.9745 249.3793 4.033953 34.9745 215.2116 44.92379 34.9745 249.7643 4.371082 34.9745 249.7643 44.92379 34.9745 254.7643 4.371082 34.9745 254.7643 9.033955 34.9745 249.3793 9.033953 34.9745 215.2116 4.033955 34.9745 249.3793 4.033953 34.9745 215.2116 44.92379 34.9745 249.7643 4.371082 34.9745 249.7643 44.92379 34.9745 254.7643 4.371082 34.9745 254.7643</float_array>
+          <technique_common>
+            <accessor source="#test_slopeMesh_058__GrafittiAsphaltSet-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_slopeMesh_058__GrafittiAsphaltSet-normal">
+          <float_array id="test_slopeMesh_058__GrafittiAsphaltSet-normal-array" count="72">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#test_slopeMesh_058__GrafittiAsphaltSet-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_slopeMesh_058__GrafittiAsphaltSet-texcoord">
+          <float_array id="test_slopeMesh_058__GrafittiAsphaltSet-texcoord-array" count="48">0.6941177 0.5764706 0.6941177 0.1019608 0.7568628 0.5764706 0.7568628 0.1019608 0.6941177 0.5764706 0.6941177 0.1019608 0.7568628 0.5764706 0.7568628 0.1019608 0.6941177 0.5764706 0.6941177 0.1019608 0.7568628 0.5764706 0.7568628 0.1019608 0.6941177 0.5764706 0.6941177 0.1019608 0.7568628 0.5764706 0.7568628 0.1019608 0.6941177 0.5764706 0.6941177 0.1019608 0.7568628 0.5764706 0.7568628 0.1019608 0.6941177 0.5764706 0.6941177 0.1019608 0.7568628 0.5764706 0.7568628 0.1019608</float_array>
+          <technique_common>
+            <accessor source="#test_slopeMesh_058__GrafittiAsphaltSet-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_slopeMesh_058__GrafittiAsphaltSet-texcoord_1">
+          <float_array id="test_slopeMesh_058__GrafittiAsphaltSet-texcoord-array_1" count="48">0.1409476 0.9960327 0.1409476 0.003967345 0.2700542 0.9960327 0.2700542 0.003967345 0.001083391 0.9960327 0.001083391 0.003967345 0.1301747 0.9960327 0.1301747 0.003967345 0.1409476 0.9960327 0.1409476 0.003967345 0.2700542 0.9960327 0.2700542 0.003967345 0.001083391 0.9960327 0.001083391 0.003967345 0.1301747 0.9960327 0.1301747 0.003967345 0.1409476 0.9960327 0.1409476 0.003967345 0.2700542 0.9960327 0.2700542 0.003967345 0.001083391 0.9960327 0.001083391 0.003967345 0.1301747 0.9960327 0.1301747 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#test_slopeMesh_058__GrafittiAsphaltSet-texcoord-array_1" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="test_slopeMesh_058__GrafittiAsphaltSet-vertex">
+          <input semantic="POSITION" source="#test_slopeMesh_058__GrafittiAsphaltSet-position" />
+        </vertices>
+        <triangles material="GrafittiAsphaltSet" count="4">
+          <input semantic="VERTEX" source="#test_slopeMesh_058__GrafittiAsphaltSet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#test_slopeMesh_058__GrafittiAsphaltSet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#test_slopeMesh_058__GrafittiAsphaltSet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#test_slopeMesh_058__GrafittiAsphaltSet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_test_asphaltMesh21__GroundAsphaltEdge-mesh">
+      <skin source="#test_asphaltMesh21__GroundAsphaltEdge-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-mesh-joint">
+          <Name_array id="test_asphaltMesh21__GroundAsphaltEdge-mesh-joint-array" count="1">Lft_TuzuraFloor01</Name_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-mesh-inv_bind_matrix">
+          <float_array id="test_asphaltMesh21__GroundAsphaltEdge-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_asphaltMesh21__GroundAsphaltEdge-mesh-weight">
+          <float_array id="test_asphaltMesh21__GroundAsphaltEdge-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#test_asphaltMesh21__GroundAsphaltEdge-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#test_asphaltMesh21__GroundAsphaltEdge-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#test_asphaltMesh21__GroundAsphaltEdge-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="72">
+          <input semantic="JOINT" source="#test_asphaltMesh21__GroundAsphaltEdge-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#test_asphaltMesh21__GroundAsphaltEdge-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_test_pCube4627__FloorSteelSet-mesh">
+      <skin source="#test_pCube4627__FloorSteelSet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="test_pCube4627__FloorSteelSet-mesh-joint">
+          <Name_array id="test_pCube4627__FloorSteelSet-mesh-joint-array" count="1">Lft_TuzuraFloor01</Name_array>
+          <technique_common>
+            <accessor source="#test_pCube4627__FloorSteelSet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube4627__FloorSteelSet-mesh-inv_bind_matrix">
+          <float_array id="test_pCube4627__FloorSteelSet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube4627__FloorSteelSet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube4627__FloorSteelSet-mesh-weight">
+          <float_array id="test_pCube4627__FloorSteelSet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube4627__FloorSteelSet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#test_pCube4627__FloorSteelSet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#test_pCube4627__FloorSteelSet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="176">
+          <input semantic="JOINT" source="#test_pCube4627__FloorSteelSet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#test_pCube4627__FloorSteelSet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_test_pCube764__WallSlopeWhite-mesh">
+      <skin source="#test_pCube764__WallSlopeWhite-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="test_pCube764__WallSlopeWhite-mesh-joint">
+          <Name_array id="test_pCube764__WallSlopeWhite-mesh-joint-array" count="1">Lft_TuzuraFloor01</Name_array>
+          <technique_common>
+            <accessor source="#test_pCube764__WallSlopeWhite-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube764__WallSlopeWhite-mesh-inv_bind_matrix">
+          <float_array id="test_pCube764__WallSlopeWhite-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube764__WallSlopeWhite-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube764__WallSlopeWhite-mesh-weight">
+          <float_array id="test_pCube764__WallSlopeWhite-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube764__WallSlopeWhite-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#test_pCube764__WallSlopeWhite-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#test_pCube764__WallSlopeWhite-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="72">
+          <input semantic="JOINT" source="#test_pCube764__WallSlopeWhite-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#test_pCube764__WallSlopeWhite-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_test_pCube765__GroundAsphalt-mesh">
+      <skin source="#test_pCube765__GroundAsphalt-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="test_pCube765__GroundAsphalt-mesh-joint">
+          <Name_array id="test_pCube765__GroundAsphalt-mesh-joint-array" count="1">Lft_TuzuraFloor01</Name_array>
+          <technique_common>
+            <accessor source="#test_pCube765__GroundAsphalt-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube765__GroundAsphalt-mesh-inv_bind_matrix">
+          <float_array id="test_pCube765__GroundAsphalt-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube765__GroundAsphalt-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube765__GroundAsphalt-mesh-weight">
+          <float_array id="test_pCube765__GroundAsphalt-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube765__GroundAsphalt-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#test_pCube765__GroundAsphalt-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#test_pCube765__GroundAsphalt-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#test_pCube765__GroundAsphalt-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#test_pCube765__GroundAsphalt-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_test_pCube766__TinRoof-mesh">
+      <skin source="#test_pCube766__TinRoof-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="test_pCube766__TinRoof-mesh-joint">
+          <Name_array id="test_pCube766__TinRoof-mesh-joint-array" count="1">Lft_TuzuraFloor01</Name_array>
+          <technique_common>
+            <accessor source="#test_pCube766__TinRoof-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube766__TinRoof-mesh-inv_bind_matrix">
+          <float_array id="test_pCube766__TinRoof-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube766__TinRoof-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_pCube766__TinRoof-mesh-weight">
+          <float_array id="test_pCube766__TinRoof-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#test_pCube766__TinRoof-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#test_pCube766__TinRoof-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#test_pCube766__TinRoof-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#test_pCube766__TinRoof-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#test_pCube766__TinRoof-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_test_slopeMesh_058__GrafittiAsphaltSet-mesh">
+      <skin source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="test_slopeMesh_058__GrafittiAsphaltSet-mesh-joint">
+          <Name_array id="test_slopeMesh_058__GrafittiAsphaltSet-mesh-joint-array" count="1">Lft_TuzuraFloor01</Name_array>
+          <technique_common>
+            <accessor source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_slopeMesh_058__GrafittiAsphaltSet-mesh-inv_bind_matrix">
+          <float_array id="test_slopeMesh_058__GrafittiAsphaltSet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="test_slopeMesh_058__GrafittiAsphaltSet-mesh-weight">
+          <float_array id="test_slopeMesh_058__GrafittiAsphaltSet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#test_slopeMesh_058__GrafittiAsphaltSet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Lft_TuzuraFloor01" name="Lft_TuzuraFloor01" sid="Lft_TuzuraFloor01" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="test_asphaltMesh21__GroundAsphaltEdge" name="test_asphaltMesh21__GroundAsphaltEdge" type="NODE">
+        <instance_controller url="#Armature_test_asphaltMesh21__GroundAsphaltEdge-mesh">
+          <skeleton>#Armature_Lft_TuzuraFloor01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundAsphaltEdge" target="#GroundAsphaltEdge" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="test_pCube4627__FloorSteelSet" name="test_pCube4627__FloorSteelSet" type="NODE">
+        <instance_controller url="#Armature_test_pCube4627__FloorSteelSet-mesh">
+          <skeleton>#Armature_Lft_TuzuraFloor01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FloorSteelSet" target="#FloorSteelSet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="test_pCube764__WallSlopeWhite" name="test_pCube764__WallSlopeWhite" type="NODE">
+        <instance_controller url="#Armature_test_pCube764__WallSlopeWhite-mesh">
+          <skeleton>#Armature_Lft_TuzuraFloor01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallSlopeWhite" target="#WallSlopeWhite" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="test_pCube765__GroundAsphalt" name="test_pCube765__GroundAsphalt" type="NODE">
+        <instance_controller url="#Armature_test_pCube765__GroundAsphalt-mesh">
+          <skeleton>#Armature_Lft_TuzuraFloor01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundAsphalt" target="#GroundAsphalt" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="test_pCube766__TinRoof" name="test_pCube766__TinRoof" type="NODE">
+        <instance_controller url="#Armature_test_pCube766__TinRoof-mesh">
+          <skeleton>#Armature_Lft_TuzuraFloor01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="TinRoof" target="#TinRoof" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="test_slopeMesh_058__GrafittiAsphaltSet" name="test_slopeMesh_058__GrafittiAsphaltSet" type="NODE">
+        <instance_controller url="#Armature_test_slopeMesh_058__GrafittiAsphaltSet-mesh">
+          <skeleton>#Armature_Lft_TuzuraFloor01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GrafittiAsphaltSet" target="#GrafittiAsphaltSet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

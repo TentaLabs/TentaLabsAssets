@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="ContainerBase_Alb">
+      <init_from>ContainerBase_Alb.png</init_from>
+    </image>
+    <image id="ContainerBase_Nrm">
+      <init_from>ContainerBase_Nrm.png</init_from>
+    </image>
+    <image id="GlassStandard_Nrm">
+      <init_from>GlassStandard_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiSetA_Alb">
+      <init_from>GrafittiSetA_Alb.png</init_from>
+    </image>
+    <image id="GroundFabric_Alb">
+      <init_from>GroundFabric_Alb.png</init_from>
+    </image>
+    <image id="GroundFabric_Nrm">
+      <init_from>GroundFabric_Nrm.png</init_from>
+    </image>
+    <image id="LftMontSetOp_Alb">
+      <init_from>LftMontSetOp_Alb.png</init_from>
+    </image>
+    <image id="LftMontSetOp_Emm">
+      <init_from>LftMontSetOp_Emm.png</init_from>
+    </image>
+    <image id="LftMontSetOp_Mtl">
+      <init_from>LftMontSetOp_Mtl.png</init_from>
+    </image>
+    <image id="LftMontSetOp_Nrm">
+      <init_from>LftMontSetOp_Nrm.png</init_from>
+    </image>
+    <image id="LftMontSetOp_Rgh">
+      <init_from>LftMontSetOp_Rgh.png</init_from>
+    </image>
+    <image id="LftOfficeSetNp_Alb">
+      <init_from>LftOfficeSetNp_Alb.png</init_from>
+    </image>
+    <image id="LftOfficeSetNp_Emm">
+      <init_from>LftOfficeSetNp_Emm.png</init_from>
+    </image>
+    <image id="LftOfficeSetNp_Mtl">
+      <init_from>LftOfficeSetNp_Mtl.png</init_from>
+    </image>
+    <image id="LftOfficeSetNp_Nrm">
+      <init_from>LftOfficeSetNp_Nrm.png</init_from>
+    </image>
+    <image id="LftOfficeSetNp_Rgh">
+      <init_from>LftOfficeSetNp_Rgh.png</init_from>
+    </image>
+    <image id="MapFence_Alb">
+      <init_from>MapFence_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalNpSet_Alb">
+      <init_from>MetalNpSet_Alb.png</init_from>
+    </image>
+    <image id="MetalNpSet_Emm">
+      <init_from>MetalNpSet_Emm.png</init_from>
+    </image>
+    <image id="MetalNpSet_Nrm">
+      <init_from>MetalNpSet_Nrm.png</init_from>
+    </image>
+    <image id="MetalNpSet_Rgh">
+      <init_from>MetalNpSet_Rgh.png</init_from>
+    </image>
+    <image id="MiiverseA00VSWall_Alb">
+      <init_from>MiiverseA00VSWall_Alb.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlA">
+      <init_from>MiiverseVSWall_MlA.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlB">
+      <init_from>MiiverseVSWall_MlB.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="PartitionInsideBoard_Alb">
+      <init_from>PartitionInsideBoard_Alb.png</init_from>
+    </image>
+    <image id="PartitionInsideBoard_Tcl">
+      <init_from>PartitionInsideBoard_Tcl.png</init_from>
+    </image>
+    <image id="SteelNetCircle_Alb">
+      <init_from>SteelNetCircle_Alb.png</init_from>
+    </image>
+    <image id="SteelNetCircle_Nrm">
+      <init_from>SteelNetCircle_Nrm.png</init_from>
+    </image>
+    <image id="SteelNetCircle_Rgh">
+      <init_from>SteelNetCircle_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="MapFence">
+      <instance_effect url="#Effect_MapFence" />
+    </material>
+    <material id="MapGround">
+      <instance_effect url="#Effect_MapGround" />
+    </material>
+    <material id="MapWall">
+      <instance_effect url="#Effect_MapWall" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_MapFence">
+      <profile_COMMON>
+        <newparam sid="surface_MapFence-diffuse">
+          <surface type="2D">
+            <init_from>MapFence_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapFence-diffuse">
+          <sampler2D>
+            <source>surface_MapFence-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapFence-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapGround">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MapWall">
+      <profile_COMMON>
+        <newparam sid="surface_MapWall-diffuse">
+          <surface type="2D">
+            <init_from>MapWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MapWall-diffuse">
+          <sampler2D>
+            <source>surface_MapWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MapWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="nopaint2__MapWall-mesh" name="nopaint2__MapWall">
+      <mesh>
+        <source id="nopaint2__MapWall-position">
+          <float_array id="nopaint2__MapWall-position-array" count="192">44.99999 -22.23026 -116.25 -45.00001 -22.23026 -116.25 -45.00001 -7.769744 -116.25 44.99999 -7.769744 -116.25 44.99999 -7.769744 -116.25 44.99999 -7.769744 81.25 44.99999 -22.23026 -116.25 44.99999 -22.23026 81.25 -45.00001 -7.769744 81.25 -45.00001 -7.769744 -116.25 -45.00001 -22.23026 81.25 -45.00001 -22.23026 -116.25 -45.00001 -7.769744 81.25 -45.00001 -22.23026 81.25 44.99999 -7.769744 81.25 44.99999 -22.23026 81.25 -42 -7.769744 84.25 -45 -7.769744 81.25 -45 -7.769744 116.25 41.99999 -7.769744 -113.25 44.99999 -7.769744 -116.25 -45.00001 -7.769744 -116.25 -42.00001 -7.769744 -113.25 41.99999 -7.769744 -113.25 41.99999 -7.769744 81.25 44.99999 -7.769744 -116.25 44.99999 -7.769744 81.25 -42.00001 -7.769744 -113.25 -45.00001 -7.769744 -116.25 -45.00001 -7.769744 81.25 -42.00001 -7.769744 81.25 -42 -7.769744 84.25 42 -7.769744 84.25 -45 -7.769744 81.25 45 -7.769744 81.25 -42 -7.769744 113.25 -45 -7.769744 116.25 45 -7.769744 116.25 42 -7.769744 113.25 35 22.23026 -56.25 35 -7.769744 -56.25 35 22.23026 0 35 -7.769744 0 44.99999 -7.769744 0 44.99999 -7.769744 -56.25 45.00001 22.23026 0 44.99999 22.23026 -56.25 35 22.23026 -56.25 35 22.23026 0 44.99999 22.23026 -56.25 45.00001 22.23026 0 35 22.23026 -56.25 44.99999 22.23026 -56.25 35 -7.769744 -56.25 44.99999 -7.769744 -56.25 35 -7.769744 0 44.99999 -7.769744 0 35 22.23026 0 45.00001 22.23026 0 -42 -7.769744 113.25 42 -7.769744 84.25 42 -7.769744 113.25 45 -7.769744 81.25 45 -7.769744 116.25</float_array>
+          <technique_common>
+            <accessor source="#nopaint2__MapWall-position-array" count="64" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint2__MapWall-normal">
+          <float_array id="nopaint2__MapWall-normal-array" count="192">0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#nopaint2__MapWall-normal-array" count="64" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint2__MapWall-texcoord">
+          <float_array id="nopaint2__MapWall-texcoord-array" count="128">5.03125 0.01025391 5.03125 2.259766 4.667969 2.259766 4.667969 0.01025391 2.654297 0.01025391 2.654297 4.947266 2.292969 0.01025391 2.292969 4.947266 3.050781 0.01025391 3.050781 4.947266 2.689453 0.01025391 2.689453 4.947266 5.335938 4.529297 4.972656 4.529297 5.335938 2.280273 4.972656 2.280273 0.8012695 2.178711 0.8764648 2.253906 0.001749992 2.253906 2.185547 4.871094 2.259766 4.947266 0.01065063 4.947266 0.08563232 4.871094 2.185547 4.871094 2.185547 0.01025391 2.259766 4.947266 2.259766 0.01025391 0.08563232 4.871094 0.01065063 4.947266 0.01065063 0.01025391 0.08563232 0.01025391 0.8012695 2.178711 0.8012695 0.07958984 0.8764648 2.253906 0.8764648 0.004882813 0.07672119 2.178711 0.001749992 2.253906 0.001749992 0.004882813 0.07672119 0.07958984 3.820313 2.057617 3.070313 2.057617 3.820313 0.6523438 3.070313 0.6523438 3.857422 2.057617 3.857422 0.6523438 4.605469 2.057617 4.605469 0.6523438 0 0 1 0 0 0.1782227 1 0.1782227 4.382813 2.723633 4.632813 2.723633 4.382813 3.472656 4.632813 3.472656 4.664063 2.270508 4.914063 2.270508 4.664063 3.019531 4.914063 3.019531 0.07672119 2.178711 0.8012695 0.07958984 0.07672119 0.07958984 0.8764648 0.004882813 0.001749992 0.004882813</float_array>
+          <technique_common>
+            <accessor source="#nopaint2__MapWall-texcoord-array" count="64" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint2__MapWall-texcoord_1">
+          <float_array id="nopaint2__MapWall-texcoord-array_1" count="128">0.956543 0.9544678 0.956543 0.4863281 0.972168 0.4863281 0.972168 0.9544678 0.9956055 0.005859375 0.9956055 0.4746094 0.9799805 0.005859375 0.9799805 0.4746094 0.9956055 0.4863281 0.9956055 0.9544678 0.9799805 0.4863281 0.9799805 0.9544678 0.956543 0.005859375 0.972168 0.005859375 0.956543 0.4746094 0.972168 0.4746094 1 0 0.8964844 0.2275391 -0.1033936 0.2783203 1 0 1 1 0 1 0 0 0 0 1 0 0 1 1 1 1 0 1 1 0 1 0 0 0 0 1 0 0.03570557 0.5 1.035156 0.5 1 0 0.9638672 0.5 -0.03570557 0.5 0 0 0 0 0.4665527 0 0 1 0.4665527 1 0.5351563 0.07128906 0.5366211 0.07128906 0.5351563 0.08349609 0.5366211 0.08349609 0 0 1 0 0 0.1782227 1 0.1782227 0.3498535 0.08349609 0.347168 0.08349609 0.3498535 0.07128906 0.347168 0.07128906 0.3361816 0.07128906 0.3388672 0.07128906 0.3361816 0.08349609 0.3388672 0.08349609 0 0 0 0 1 0 0.1033936 0.2275391 1.102539 0.2783203</float_array>
+          <technique_common>
+            <accessor source="#nopaint2__MapWall-texcoord-array_1" count="64" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="nopaint2__MapWall-vertex">
+          <input semantic="POSITION" source="#nopaint2__MapWall-position" />
+        </vertices>
+        <triangles material="MapWall" count="32">
+          <input semantic="VERTEX" source="#nopaint2__MapWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#nopaint2__MapWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#nopaint2__MapWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#nopaint2__MapWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19 20 20 20 20 21 21 21 21 22 22 22 22 19 19 19 19 21 21 21 21 23 23 23 23 24 24 24 24 25 25 25 25 24 24 24 24 26 26 26 26 25 25 25 25 27 27 27 27 28 28 28 28 29 29 29 29 30 30 30 30 27 27 27 27 29 29 29 29 31 31 31 31 32 32 32 32 33 33 33 33 32 32 32 32 34 34 34 34 33 33 33 33 35 35 35 35 36 36 36 36 37 37 37 37 38 38 38 38 35 35 35 35 37 37 37 37 39 39 39 39 40 40 40 40 41 41 41 41 40 40 40 40 42 42 42 42 41 41 41 41 43 43 43 43 44 44 44 44 45 45 45 45 44 44 44 44 46 46 46 46 45 45 45 45 47 47 47 47 48 48 48 48 49 49 49 49 48 48 48 48 50 50 50 50 49 49 49 49 51 51 51 51 52 52 52 52 53 53 53 53 52 52 52 52 54 54 54 54 53 53 53 53 55 55 55 55 56 56 56 56 57 57 57 57 56 56 56 56 58 58 58 58 57 57 57 57 59 59 59 59 16 16 16 16 18 18 18 18 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="nopaint3__MapFence-mesh" name="nopaint3__MapFence">
+      <mesh>
+        <source id="nopaint3__MapFence-position">
+          <float_array id="nopaint3__MapFence-position-array" count="12">42 -7.769744 84.25 -42 -7.769744 84.25 42 -7.769744 113.25 -42 -7.769744 113.25</float_array>
+          <technique_common>
+            <accessor source="#nopaint3__MapFence-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint3__MapFence-normal">
+          <float_array id="nopaint3__MapFence-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#nopaint3__MapFence-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint3__MapFence-texcoord">
+          <float_array id="nopaint3__MapFence-texcoord-array" count="8">3.046875 1.095886 -1.151367 1.095886 3.046875 -0.3535156 -1.151367 -0.3535156</float_array>
+          <technique_common>
+            <accessor source="#nopaint3__MapFence-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint3__MapFence-texcoord_1">
+          <float_array id="nopaint3__MapFence-texcoord-array_1" count="8">0.9568627 0.4588235 0.9568627 0.01960784 0.9568627 0.4588235 0.9568627 0.01960784</float_array>
+          <technique_common>
+            <accessor source="#nopaint3__MapFence-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="nopaint3__MapFence-vertex">
+          <input semantic="POSITION" source="#nopaint3__MapFence-position" />
+        </vertices>
+        <triangles material="MapFence" count="2">
+          <input semantic="VERTEX" source="#nopaint3__MapFence-vertex" offset="0" />
+          <input semantic="NORMAL" source="#nopaint3__MapFence-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#nopaint3__MapFence-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#nopaint3__MapFence-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="paint1__MapGround-mesh" name="paint1__MapGround">
+      <mesh>
+        <source id="paint1__MapGround-position">
+          <float_array id="paint1__MapGround-position-array" count="12">-42.00001 -7.769744 81.25 41.99999 -7.769744 81.25 -42.00001 -7.769744 -113.25 41.99999 -7.769744 -113.25</float_array>
+          <technique_common>
+            <accessor source="#paint1__MapGround-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="paint1__MapGround-normal">
+          <float_array id="paint1__MapGround-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#paint1__MapGround-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="paint1__MapGround-texcoord">
+          <float_array id="paint1__MapGround-texcoord-array" count="8">0.4980087 0.4981613 0.001846342 0.4981613 0.4980087 0.001998961 0.001846342 0.001998961</float_array>
+          <technique_common>
+            <accessor source="#paint1__MapGround-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="paint1__MapGround-texcoord_1">
+          <float_array id="paint1__MapGround-texcoord-array_1" count="8">0.9960784 0.9960784 0.003921569 0.9960784 0.9960784 0.003921568 0.003921569 0.003921568</float_array>
+          <technique_common>
+            <accessor source="#paint1__MapGround-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="paint1__MapGround-vertex">
+          <input semantic="POSITION" source="#paint1__MapGround-position" />
+        </vertices>
+        <triangles material="MapGround" count="2">
+          <input semantic="VERTEX" source="#paint1__MapGround-vertex" offset="0" />
+          <input semantic="NORMAL" source="#paint1__MapGround-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#paint1__MapGround-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#paint1__MapGround-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_nopaint2__MapWall-mesh">
+      <skin source="#nopaint2__MapWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="nopaint2__MapWall-mesh-joint">
+          <Name_array id="nopaint2__MapWall-mesh-joint-array" count="1">Map</Name_array>
+          <technique_common>
+            <accessor source="#nopaint2__MapWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint2__MapWall-mesh-inv_bind_matrix">
+          <float_array id="nopaint2__MapWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#nopaint2__MapWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint2__MapWall-mesh-weight">
+          <float_array id="nopaint2__MapWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#nopaint2__MapWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#nopaint2__MapWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#nopaint2__MapWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="64">
+          <input semantic="JOINT" source="#nopaint2__MapWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#nopaint2__MapWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_nopaint3__MapFence-mesh">
+      <skin source="#nopaint3__MapFence-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="nopaint3__MapFence-mesh-joint">
+          <Name_array id="nopaint3__MapFence-mesh-joint-array" count="1">Map</Name_array>
+          <technique_common>
+            <accessor source="#nopaint3__MapFence-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint3__MapFence-mesh-inv_bind_matrix">
+          <float_array id="nopaint3__MapFence-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#nopaint3__MapFence-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="nopaint3__MapFence-mesh-weight">
+          <float_array id="nopaint3__MapFence-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#nopaint3__MapFence-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#nopaint3__MapFence-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#nopaint3__MapFence-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#nopaint3__MapFence-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#nopaint3__MapFence-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_paint1__MapGround-mesh">
+      <skin source="#paint1__MapGround-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="paint1__MapGround-mesh-joint">
+          <Name_array id="paint1__MapGround-mesh-joint-array" count="1">Map</Name_array>
+          <technique_common>
+            <accessor source="#paint1__MapGround-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="paint1__MapGround-mesh-inv_bind_matrix">
+          <float_array id="paint1__MapGround-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#paint1__MapGround-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="paint1__MapGround-mesh-weight">
+          <float_array id="paint1__MapGround-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#paint1__MapGround-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#paint1__MapGround-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#paint1__MapGround-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#paint1__MapGround-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#paint1__MapGround-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Map" name="Map" sid="Map" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="nopaint2__MapWall" name="nopaint2__MapWall" type="NODE">
+        <instance_controller url="#Armature_nopaint2__MapWall-mesh">
+          <skeleton>#Armature_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapWall" target="#MapWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="nopaint3__MapFence" name="nopaint3__MapFence" type="NODE">
+        <instance_controller url="#Armature_nopaint3__MapFence-mesh">
+          <skeleton>#Armature_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapFence" target="#MapFence" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="paint1__MapGround" name="paint1__MapGround" type="NODE">
+        <instance_controller url="#Armature_paint1__MapGround-mesh">
+          <skeleton>#Armature_Map</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MapGround" target="#MapGround" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
