@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images />
+  <library_geometries />
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_Shakelift00_LightNode" name="Fld_Shakelift00_LightNode" sid="Fld_Shakelift00_LightNode" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_PointLight00" name="PointLight00" sid="PointLight00" type="JOINT">
+            <matrix sid="transform">1 0 0 -792.8481 0 1 0 127.4229 0 0 1 124.648 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_PointLight01" name="PointLight01" sid="PointLight01" type="JOINT">
+            <matrix sid="transform">1 0 0 -842.8481 0 1 0 128.3674 0 0 1 -325.5664 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_SpotLight00" name="SpotLight00" sid="SpotLight00" type="JOINT">
+            <matrix sid="transform">7.54979E-08 1 0 340.9687 -1 7.54979E-08 0 255.105 0 0 1 -344.8024 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_SpotLight01" name="SpotLight01" sid="SpotLight01" type="JOINT">
+            <matrix sid="transform">7.54979E-08 1 0 0.7042403 -1 7.54979E-08 0 265.846 0 0 1 -266.0969 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_SpotLight02" name="SpotLight02" sid="SpotLight02" type="JOINT">
+            <matrix sid="transform">7.54979E-08 1 0 260.8782 -1 7.54979E-08 0 266.1127 0 0 1 95.73415 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

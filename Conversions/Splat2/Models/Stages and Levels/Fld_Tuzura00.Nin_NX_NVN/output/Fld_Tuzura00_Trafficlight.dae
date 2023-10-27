@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="AcrylicPlateTeam_Alb">
+      <init_from>AcrylicPlateTeam_Alb.png</init_from>
+    </image>
+    <image id="AcrylicPlateTeam_Col">
+      <init_from>AcrylicPlateTeam_Col.png</init_from>
+    </image>
+    <image id="AcrylicPlateTeam_Nrm">
+      <init_from>AcrylicPlateTeam_Nrm.png</init_from>
+    </image>
+    <image id="BackgroundBuildings_Alb">
+      <init_from>BackgroundBuildings_Alb.png</init_from>
+    </image>
+    <image id="BackgroundBuildings_Emm">
+      <init_from>BackgroundBuildings_Emm.png</init_from>
+    </image>
+    <image id="Bake_Fld_Tuzura00_DV_g01_b00_f00">
+      <init_from>Bake_Fld_Tuzura00_DV_g01_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Tuzura00_DV_g02_b00_f00">
+      <init_from>Bake_Fld_Tuzura00_DV_g02_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Tuzura00_g00_b00_f00">
+      <init_from>Bake_Fld_Tuzura00_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_Fld_Tuzura00_g03_b00_f00">
+      <init_from>Bake_Fld_Tuzura00_g03_b00_f00.png</init_from>
+    </image>
+    <image id="BlockCurbYellow_Alb">
+      <init_from>BlockCurbYellow_Alb.png</init_from>
+    </image>
+    <image id="BlockCurbYellow_Rgh">
+      <init_from>BlockCurbYellow_Rgh.png</init_from>
+    </image>
+    <image id="CornerGuard_Alb">
+      <init_from>CornerGuard_Alb.png</init_from>
+    </image>
+    <image id="CornerGuard_Nrm">
+      <init_from>CornerGuard_Nrm.png</init_from>
+    </image>
+    <image id="CornerGuard_Rgh">
+      <init_from>CornerGuard_Rgh.png</init_from>
+    </image>
+    <image id="DrcmapFence_Alb">
+      <init_from>DrcmapFence_Alb.png</init_from>
+    </image>
+    <image id="DrcmapGround_Alb">
+      <init_from>DrcmapGround_Alb.png</init_from>
+    </image>
+    <image id="DrcmapSlope_Alb">
+      <init_from>DrcmapSlope_Alb.png</init_from>
+    </image>
+    <image id="DrcmapWall_Alb">
+      <init_from>DrcmapWall_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Alb">
+      <init_from>DVBuildingBaseParts_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Emm">
+      <init_from>DVBuildingBaseParts_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Nrm">
+      <init_from>DVBuildingBaseParts_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Rgh">
+      <init_from>DVBuildingBaseParts_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Alb">
+      <init_from>DVBuildingBase_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Emm">
+      <init_from>DVBuildingBase_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingBase_Nrm">
+      <init_from>DVBuildingBase_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingWallBlack_Alb">
+      <init_from>DVBuildingWallBlack_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingWallBlack_Rgh">
+      <init_from>DVBuildingWallBlack_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingWallGroup_Alb">
+      <init_from>DVBuildingWallGroup_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingWallGroup_Nrm">
+      <init_from>DVBuildingWallGroup_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingWallGroup_Rgh">
+      <init_from>DVBuildingWallGroup_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingWall_Alb">
+      <init_from>DVBuildingWall_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingWall_Nrm">
+      <init_from>DVBuildingWall_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingWall_Rgh">
+      <init_from>DVBuildingWall_Rgh.png</init_from>
+    </image>
+    <image id="DVCarGroup_Alb">
+      <init_from>DVCarGroup_Alb.png</init_from>
+    </image>
+    <image id="DVCarGroup_Emm">
+      <init_from>DVCarGroup_Emm.png</init_from>
+    </image>
+    <image id="DVCarGroup_Nrm">
+      <init_from>DVCarGroup_Nrm.png</init_from>
+    </image>
+    <image id="DVCarShadow_Alb">
+      <init_from>DVCarShadow_Alb.png</init_from>
+    </image>
+    <image id="DVFenceIron_Alb">
+      <init_from>DVFenceIron_Alb.png</init_from>
+    </image>
+    <image id="DVFenceIron_Nrm">
+      <init_from>DVFenceIron_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceVinylBlue_Alb">
+      <init_from>DVFenceVinylBlue_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylBlue_Nrm">
+      <init_from>DVFenceVinylBlue_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceVinylBlue_Rgh">
+      <init_from>DVFenceVinylBlue_Rgh.png</init_from>
+    </image>
+    <image id="DVFenceVinylGray_Alb">
+      <init_from>DVFenceVinylGray_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylGray_Nrm">
+      <init_from>DVFenceVinylGray_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceVinylGray_Rgh">
+      <init_from>DVFenceVinylGray_Rgh.png</init_from>
+    </image>
+    <image id="DVFenceVinylGreen00_Alb">
+      <init_from>DVFenceVinylGreen00_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylGreen01_Alb">
+      <init_from>DVFenceVinylGreen01_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylGreen02_Alb">
+      <init_from>DVFenceVinylGreen02_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylOrange00_Alb">
+      <init_from>DVFenceVinylOrange00_Alb.png</init_from>
+    </image>
+    <image id="DVFenceVinylOrange01_Alb">
+      <init_from>DVFenceVinylOrange01_Alb.png</init_from>
+    </image>
+    <image id="DVGlassTile_Alb">
+      <init_from>DVGlassTile_Alb.png</init_from>
+    </image>
+    <image id="DVGlassTile_Emm">
+      <init_from>DVGlassTile_Emm.png</init_from>
+    </image>
+    <image id="DVGlassTile_Rgh">
+      <init_from>DVGlassTile_Rgh.png</init_from>
+    </image>
+    <image id="DVGrafittiSignBoardAlpha_Alb">
+      <init_from>DVGrafittiSignBoardAlpha_Alb.png</init_from>
+    </image>
+    <image id="DVGrafittiSignBoardAlpha_Emm">
+      <init_from>DVGrafittiSignBoardAlpha_Emm.png</init_from>
+    </image>
+    <image id="DVGrafittiSignBoardAlpha_Nrm">
+      <init_from>DVGrafittiSignBoardAlpha_Nrm.png</init_from>
+    </image>
+    <image id="DVGrafittiSignBoard_Alb">
+      <init_from>DVGrafittiSignBoard_Alb.png</init_from>
+    </image>
+    <image id="DVGrafittiSignBoard_Emm">
+      <init_from>DVGrafittiSignBoard_Emm.png</init_from>
+    </image>
+    <image id="DVGrafittiSignBoard_Nrm">
+      <init_from>DVGrafittiSignBoard_Nrm.png</init_from>
+    </image>
+    <image id="DVGrafittiSignBoard_Spm">
+      <init_from>DVGrafittiSignBoard_Spm.png</init_from>
+    </image>
+    <image id="DVGroundAsphalt_Alb">
+      <init_from>DVGroundAsphalt_Alb.png</init_from>
+    </image>
+    <image id="DVGroundAsphalt_Emm">
+      <init_from>DVGroundAsphalt_Emm.png</init_from>
+    </image>
+    <image id="DVGroundAsphalt_Nrm">
+      <init_from>DVGroundAsphalt_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundAsphalt_Rgh">
+      <init_from>DVGroundAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="DVGroundBase_Alb">
+      <init_from>DVGroundBase_Alb.png</init_from>
+    </image>
+    <image id="DVHighWayFenceLong_Alb">
+      <init_from>DVHighWayFenceLong_Alb.png</init_from>
+    </image>
+    <image id="DVHighWayFenceLong_Emm">
+      <init_from>DVHighWayFenceLong_Emm.png</init_from>
+    </image>
+    <image id="DVHighWayFenceLong_Nrm">
+      <init_from>DVHighWayFenceLong_Nrm.png</init_from>
+    </image>
+    <image id="DVHighWayWallShort_Alb">
+      <init_from>DVHighWayWallShort_Alb.png</init_from>
+    </image>
+    <image id="DVHighWayWallShort_Nrm">
+      <init_from>DVHighWayWallShort_Nrm.png</init_from>
+    </image>
+    <image id="DVMountain_Alb">
+      <init_from>DVMountain_Alb.png</init_from>
+    </image>
+    <image id="DVTinRoof_Alb">
+      <init_from>DVTinRoof_Alb.png</init_from>
+    </image>
+    <image id="DVTinRoof_Emm">
+      <init_from>DVTinRoof_Emm.png</init_from>
+    </image>
+    <image id="DVTinRoof_Nrm">
+      <init_from>DVTinRoof_Nrm.png</init_from>
+    </image>
+    <image id="DVTreeFarN_Alb">
+      <init_from>DVTreeFarN_Alb.png</init_from>
+    </image>
+    <image id="DVWallConcreteGrey_Alb">
+      <init_from>DVWallConcreteGrey_Alb.png</init_from>
+    </image>
+    <image id="DVWallConcreteGrey_Nrm">
+      <init_from>DVWallConcreteGrey_Nrm.png</init_from>
+    </image>
+    <image id="DVWallTile_Alb">
+      <init_from>DVWallTile_Alb.png</init_from>
+    </image>
+    <image id="DVWallTile_Nrm">
+      <init_from>DVWallTile_Nrm.png</init_from>
+    </image>
+    <image id="DVWindowlFrame_Alb">
+      <init_from>DVWindowlFrame_Alb.png</init_from>
+    </image>
+    <image id="DVWindowlFrame_Nrm">
+      <init_from>DVWindowlFrame_Nrm.png</init_from>
+    </image>
+    <image id="DVWindowlFrame_Rgh">
+      <init_from>DVWindowlFrame_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock_Alb">
+      <init_from>FloorConcreteBlock_Alb.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock_Nrm">
+      <init_from>FloorConcreteBlock_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcreteBlock_Rgh">
+      <init_from>FloorConcreteBlock_Rgh.png</init_from>
+    </image>
+    <image id="FloorSlopeCircle_Alb">
+      <init_from>FloorSlopeCircle_Alb.png</init_from>
+    </image>
+    <image id="FloorSlopeCircle_Nrm">
+      <init_from>FloorSlopeCircle_Nrm.png</init_from>
+    </image>
+    <image id="FloorSlopeCircle_Rgh">
+      <init_from>FloorSlopeCircle_Rgh.png</init_from>
+    </image>
+    <image id="FloorSlopeNonslip_Alb">
+      <init_from>FloorSlopeNonslip_Alb.png</init_from>
+    </image>
+    <image id="FloorSlopeNonslip_Nrm">
+      <init_from>FloorSlopeNonslip_Nrm.png</init_from>
+    </image>
+    <image id="FloorSlopeNonslip_Rgh">
+      <init_from>FloorSlopeNonslip_Rgh.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Alb">
+      <init_from>FloorSteelSet_Alb.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Mlt">
+      <init_from>FloorSteelSet_Mlt.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Nrm">
+      <init_from>FloorSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="FloorSteelSet_Rgh">
+      <init_from>FloorSteelSet_Rgh.png</init_from>
+    </image>
+    <image id="GarageFloorConcrete_Alb">
+      <init_from>GarageFloorConcrete_Alb.png</init_from>
+    </image>
+    <image id="GarageFloorConcrete_Nrm">
+      <init_from>GarageFloorConcrete_Nrm.png</init_from>
+    </image>
+    <image id="GarageFloorConcrete_Rgh">
+      <init_from>GarageFloorConcrete_Rgh.png</init_from>
+    </image>
+    <image id="GlassStandard_Rgh">
+      <init_from>GlassStandard_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiAsphaltSet_Alb">
+      <init_from>GrafittiAsphaltSet_Alb.png</init_from>
+    </image>
+    <image id="GrafittiAsphaltSet_Nrm">
+      <init_from>GrafittiAsphaltSet_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiAsphaltSet_Rgh">
+      <init_from>GrafittiAsphaltSet_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiBuildingWindow_Alb">
+      <init_from>GrafittiBuildingWindow_Alb.png</init_from>
+    </image>
+    <image id="GrafittiBuildingWindow_Emm">
+      <init_from>GrafittiBuildingWindow_Emm.png</init_from>
+    </image>
+    <image id="GrafittiBuildingWindow_Nrm">
+      <init_from>GrafittiBuildingWindow_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiMetalPlate_Alb">
+      <init_from>GrafittiMetalPlate_Alb.png</init_from>
+    </image>
+    <image id="GrafittiMetalPlate_Nrm">
+      <init_from>GrafittiMetalPlate_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiMetalPlate_Rgh">
+      <init_from>GrafittiMetalPlate_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiPaint_Alb">
+      <init_from>GrafittiPaint_Alb.png</init_from>
+    </image>
+    <image id="GrafittiPrint_Alb">
+      <init_from>GrafittiPrint_Alb.png</init_from>
+    </image>
+    <image id="GrafittiRemake_Alb">
+      <init_from>GrafittiRemake_Alb.png</init_from>
+    </image>
+    <image id="GrafittiSheet_Alb">
+      <init_from>GrafittiSheet_Alb.png</init_from>
+    </image>
+    <image id="GrafittiTile_Alb">
+      <init_from>GrafittiTile_Alb.png</init_from>
+    </image>
+    <image id="GrafittiTile_Nrm">
+      <init_from>GrafittiTile_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiTile_Rgh">
+      <init_from>GrafittiTile_Rgh.png</init_from>
+    </image>
+    <image id="GrafittiWallConcreteTeamColor_Alb">
+      <init_from>GrafittiWallConcreteTeamColor_Alb.png</init_from>
+    </image>
+    <image id="GrafittiWallConcreteTeamColor_Col">
+      <init_from>GrafittiWallConcreteTeamColor_Col.png</init_from>
+    </image>
+    <image id="GrafittiWallConcreteTeamColor_Nrm">
+      <init_from>GrafittiWallConcreteTeamColor_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiWallConcrete_Alb">
+      <init_from>GrafittiWallConcrete_Alb.png</init_from>
+    </image>
+    <image id="GrafittiWallConcrete_Nrm">
+      <init_from>GrafittiWallConcrete_Nrm.png</init_from>
+    </image>
+    <image id="GrafittiWallConcrete_Rgh">
+      <init_from>GrafittiWallConcrete_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Alb">
+      <init_from>GroundAsphaltEdge_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Nrm">
+      <init_from>GroundAsphaltEdge_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphaltEdge_Rgh">
+      <init_from>GroundAsphaltEdge_Rgh.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Alb">
+      <init_from>GroundAsphalt_Alb.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Nrm">
+      <init_from>GroundAsphalt_Nrm.png</init_from>
+    </image>
+    <image id="GroundAsphalt_Rgh">
+      <init_from>GroundAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="HeightLimitBoard_Alb">
+      <init_from>HeightLimitBoard_Alb.png</init_from>
+    </image>
+    <image id="HeightLimitBoard_Nrm">
+      <init_from>HeightLimitBoard_Nrm.png</init_from>
+    </image>
+    <image id="MapFence_Alb">
+      <init_from>MapFence_Alb.png</init_from>
+    </image>
+    <image id="MapSlope_Alb">
+      <init_from>MapSlope_Alb.png</init_from>
+    </image>
+    <image id="MapWall_Alb">
+      <init_from>MapWall_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Alb">
+      <init_from>MetalBridgeLight_Alb.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Mtl">
+      <init_from>MetalBridgeLight_Mtl.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Nrm">
+      <init_from>MetalBridgeLight_Nrm.png</init_from>
+    </image>
+    <image id="MetalBridgeLight_Rgh">
+      <init_from>MetalBridgeLight_Rgh.png</init_from>
+    </image>
+    <image id="MetalElectricBox_Alb">
+      <init_from>MetalElectricBox_Alb.png</init_from>
+    </image>
+    <image id="MetalElectricBox_Mtl">
+      <init_from>MetalElectricBox_Mtl.png</init_from>
+    </image>
+    <image id="MetalElectricBox_Nrm">
+      <init_from>MetalElectricBox_Nrm.png</init_from>
+    </image>
+    <image id="MetalElectricBox_Rgh">
+      <init_from>MetalElectricBox_Rgh.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Alb">
+      <init_from>MetalShutterGray_Alb.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Nrm">
+      <init_from>MetalShutterGray_Nrm.png</init_from>
+    </image>
+    <image id="MetalShutterGray_Rgh">
+      <init_from>MetalShutterGray_Rgh.png</init_from>
+    </image>
+    <image id="MiiverseA00VSWall_Alb">
+      <init_from>MiiverseA00VSWall_Alb.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlA">
+      <init_from>MiiverseVSWall_MlA.png</init_from>
+    </image>
+    <image id="MiiverseVSWall_MlB">
+      <init_from>MiiverseVSWall_MlB.png</init_from>
+    </image>
+    <image id="OBJCarGroup_Alb">
+      <init_from>OBJCarGroup_Alb.png</init_from>
+    </image>
+    <image id="OBJCarGroup_Nrm">
+      <init_from>OBJCarGroup_Nrm.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Alb">
+      <init_from>OBJFenceIronGreyNet_Alb.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Mtl">
+      <init_from>OBJFenceIronGreyNet_Mtl.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Nrm">
+      <init_from>OBJFenceIronGreyNet_Nrm.png</init_from>
+    </image>
+    <image id="OBJFenceIronGreyNet_Rgh">
+      <init_from>OBJFenceIronGreyNet_Rgh.png</init_from>
+    </image>
+    <image id="OBJFenceIronYellowNet_Alb">
+      <init_from>OBJFenceIronYellowNet_Alb.png</init_from>
+    </image>
+    <image id="OBJFenceIronYellowNet_Nrm">
+      <init_from>OBJFenceIronYellowNet_Nrm.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Alb">
+      <init_from>OBJFrameSteelSet_Alb.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Mtl">
+      <init_from>OBJFrameSteelSet_Mtl.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Nrm">
+      <init_from>OBJFrameSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="OBJFrameSteelSet_Rgh">
+      <init_from>OBJFrameSteelSet_Rgh.png</init_from>
+    </image>
+    <image id="OBJHelicopter_Alb">
+      <init_from>OBJHelicopter_Alb.png</init_from>
+    </image>
+    <image id="OBJHelicopter_Nrm">
+      <init_from>OBJHelicopter_Nrm.png</init_from>
+    </image>
+    <image id="OBJHelicopter_Rgh">
+      <init_from>OBJHelicopter_Rgh.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Alb">
+      <init_from>OBJLiftSlopeIron_Alb.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Emm">
+      <init_from>OBJLiftSlopeIron_Emm.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Mtl">
+      <init_from>OBJLiftSlopeIron_Mtl.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Nrm">
+      <init_from>OBJLiftSlopeIron_Nrm.png</init_from>
+    </image>
+    <image id="OBJLiftSlopeIron_Rgh">
+      <init_from>OBJLiftSlopeIron_Rgh.png</init_from>
+    </image>
+    <image id="OBJMachineGateIron_Alb">
+      <init_from>OBJMachineGateIron_Alb.png</init_from>
+    </image>
+    <image id="OBJMachineGateIron_Emm">
+      <init_from>OBJMachineGateIron_Emm.png</init_from>
+    </image>
+    <image id="OBJMachineGateIron_Mtl">
+      <init_from>OBJMachineGateIron_Mtl.png</init_from>
+    </image>
+    <image id="OBJMachineGateIron_Nrm">
+      <init_from>OBJMachineGateIron_Nrm.png</init_from>
+    </image>
+    <image id="OBJMachineGateIron_Rgh">
+      <init_from>OBJMachineGateIron_Rgh.png</init_from>
+    </image>
+    <image id="ObjRevolvinglight_Alb">
+      <init_from>ObjRevolvinglight_Alb.png</init_from>
+    </image>
+    <image id="ObjRevolvinglight_Emm">
+      <init_from>ObjRevolvinglight_Emm.png</init_from>
+    </image>
+    <image id="ObjRevolvinglight_Nrm">
+      <init_from>ObjRevolvinglight_Nrm.png</init_from>
+    </image>
+    <image id="ObjRevolvinglight_Rgh">
+      <init_from>ObjRevolvinglight_Rgh.png</init_from>
+    </image>
+    <image id="OBJStreetlight_Alb">
+      <init_from>OBJStreetlight_Alb.png</init_from>
+    </image>
+    <image id="OBJStreetlight_Emm">
+      <init_from>OBJStreetlight_Emm.png</init_from>
+    </image>
+    <image id="OBJStreetlight_Nrm">
+      <init_from>OBJStreetlight_Nrm.png</init_from>
+    </image>
+    <image id="ObjTrafficlight_Alb">
+      <init_from>ObjTrafficlight_Alb.png</init_from>
+    </image>
+    <image id="ObjTrafficlight_Emm.1">
+      <init_from>ObjTrafficlight_Emm.1.png</init_from>
+    </image>
+    <image id="ObjTrafficlight_Emm.2">
+      <init_from>ObjTrafficlight_Emm.2.png</init_from>
+    </image>
+    <image id="ObjTrafficlight_Nrm">
+      <init_from>ObjTrafficlight_Nrm.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Alb">
+      <init_from>PlateSteelGrey_Alb.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Mtl">
+      <init_from>PlateSteelGrey_Mtl.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Nrm">
+      <init_from>PlateSteelGrey_Nrm.png</init_from>
+    </image>
+    <image id="PlateSteelGrey_Rgh">
+      <init_from>PlateSteelGrey_Rgh.png</init_from>
+    </image>
+    <image id="PoleChainYellow_Alb">
+      <init_from>PoleChainYellow_Alb.png</init_from>
+    </image>
+    <image id="PoleChainYellow_Nrm">
+      <init_from>PoleChainYellow_Nrm.png</init_from>
+    </image>
+    <image id="RoadRivetLight_Alb">
+      <init_from>RoadRivetLight_Alb.png</init_from>
+    </image>
+    <image id="RoadRivetLight_Emm">
+      <init_from>RoadRivetLight_Emm.png</init_from>
+    </image>
+    <image id="RoadRivetLight_Nrm">
+      <init_from>RoadRivetLight_Nrm.png</init_from>
+    </image>
+    <image id="SeaWaterBasic_Alb">
+      <init_from>SeaWaterBasic_Alb.png</init_from>
+    </image>
+    <image id="SeaWaterBasic_Nrm">
+      <init_from>SeaWaterBasic_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalPyramid_Alb">
+      <init_from>SlopeMetalPyramid_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalPyramid_Mlt">
+      <init_from>SlopeMetalPyramid_Mlt.png</init_from>
+    </image>
+    <image id="SlopeMetalPyramid_Nrm">
+      <init_from>SlopeMetalPyramid_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalPyramid_Rgh">
+      <init_from>SlopeMetalPyramid_Rgh.png</init_from>
+    </image>
+    <image id="SpotStudiumLight_Rft">
+      <init_from>SpotStudiumLight_Rft.png</init_from>
+    </image>
+    <image id="TinRoof_Alb">
+      <init_from>TinRoof_Alb.png</init_from>
+    </image>
+    <image id="TinRoof_Nrm">
+      <init_from>TinRoof_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteTeamColor_Alb">
+      <init_from>WallConcreteTeamColor_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteTeamColor_Col">
+      <init_from>WallConcreteTeamColor_Col.png</init_from>
+    </image>
+    <image id="WallConcreteTeamColor_Nrm">
+      <init_from>WallConcreteTeamColor_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteTeamColor_Rgh">
+      <init_from>WallConcreteTeamColor_Rgh.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Alb">
+      <init_from>WallConcreteWhite_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Nrm">
+      <init_from>WallConcreteWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Rgh">
+      <init_from>WallConcreteWhite_Rgh.png</init_from>
+    </image>
+    <image id="WallPlateSteel_Alb">
+      <init_from>WallPlateSteel_Alb.png</init_from>
+    </image>
+    <image id="WallPlateSteel_Nrm">
+      <init_from>WallPlateSteel_Nrm.png</init_from>
+    </image>
+    <image id="WallPlateSteel_Rgh">
+      <init_from>WallPlateSteel_Rgh.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Alb">
+      <init_from>WallSlopeWhite_Alb.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Mtl">
+      <init_from>WallSlopeWhite_Mtl.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Nrm">
+      <init_from>WallSlopeWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallSlopeWhite_Rgh">
+      <init_from>WallSlopeWhite_Rgh.png</init_from>
+    </image>
+    <image id="WallZincSet_Alb">
+      <init_from>WallZincSet_Alb.png</init_from>
+    </image>
+    <image id="WallZincSet_Mtl">
+      <init_from>WallZincSet_Mtl.png</init_from>
+    </image>
+    <image id="WallZincSet_Nrm">
+      <init_from>WallZincSet_Nrm.png</init_from>
+    </image>
+    <image id="WallZincSet_Rgh">
+      <init_from>WallZincSet_Rgh.png</init_from>
+    </image>
+    <image id="WaveSheet_Nrm">
+      <init_from>WaveSheet_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="ObjTrafficlight">
+      <instance_effect url="#Effect_ObjTrafficlight" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_ObjTrafficlight">
+      <profile_COMMON>
+        <newparam sid="surface_ObjTrafficlight-diffuse">
+          <surface type="2D">
+            <init_from>ObjTrafficlight_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ObjTrafficlight-diffuse">
+          <sampler2D>
+            <source>surface_ObjTrafficlight-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ObjTrafficlight-emission">
+          <surface type="2D">
+            <init_from>ObjTrafficlight_Emm.1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ObjTrafficlight-emission">
+          <sampler2D>
+            <source>surface_ObjTrafficlight-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ObjTrafficlight-bump">
+          <surface type="2D">
+            <init_from>ObjTrafficlight_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ObjTrafficlight-bump">
+          <sampler2D>
+            <source>surface_ObjTrafficlight-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_ObjTrafficlight-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <texture texture="sampler_ObjTrafficlight-emission" texcoord="CHANNEL0" />
+            </emission>
+            <bump>
+              <texture texture="sampler_ObjTrafficlight-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Trafficlight4__ObjTrafficlight-mesh" name="Trafficlight4__ObjTrafficlight">
+      <mesh>
+        <source id="Trafficlight4__ObjTrafficlight-position">
+          <float_array id="Trafficlight4__ObjTrafficlight-position-array" count="621">0.6858289 102.2582 -289.8034 0.6858292 97.92814 -287.3034 0.6858292 102.9281 -287.3034 0.6858284 100.4281 -291.6335 0.6858294 102.2582 -284.8034 0.6858282 97.92814 -292.3034 0.6858296 100.4281 -282.9733 0.6858284 95.42814 -291.6335 0.6858301 97.92814 -282.3034 0.6858289 93.59804 -289.8034 0.6858296 95.42814 -282.9733 0.6858292 92.92814 -287.3034 0.6858294 93.59804 -284.8034 0.6858308 102.2582 -276.8034 0.6858311 100.4281 -278.6335 0.6858315 97.92814 -274.3034 0.6858315 102.9281 -274.3034 0.6858306 97.92814 -279.3034 0.6858318 102.2582 -271.8034 0.6858311 95.42814 -278.6335 0.685832 100.4281 -269.9733 0.6858308 93.59804 -276.8034 0.685832 97.92814 -269.3034 0.6858315 92.92814 -274.3034 0.685832 95.42814 -269.9733 0.6858318 93.59804 -271.8034 -0.685832 92.92814 274.3034 -0.6858327 93.59804 271.8034 -0.685832 97.92814 274.3034 -0.6858313 93.59804 276.8034 -0.685833 95.42814 269.9733 -0.6858311 95.42814 278.6335 -0.685833 97.92814 269.3034 -0.6858306 97.92814 279.3034 -0.685833 100.4281 269.9733 -0.6858311 100.4281 278.6335 -0.6858327 102.2582 271.8034 -0.6858313 102.2582 276.8034 -0.685832 102.9281 274.3034 -0.6858287 102.9281 287.3034 -0.6858287 97.92814 287.3034 -0.6858289 102.2582 284.8034 -0.685828 102.2582 289.8034 -0.6858296 100.4281 282.9733 -0.6858275 100.4281 291.6335 -0.6858301 97.92814 282.3034 -0.6858273 97.92814 292.3034 -0.6858296 95.42814 282.9733 -0.6858275 95.42814 291.6335 -0.6858289 93.59804 284.8034 -0.685828 93.59804 289.8034 -0.6858287 92.92814 287.3034 -38.44498 317.1062 -523.2034 -38.44498 322.1062 -523.2034 -38.44498 317.7761 -525.7034 -38.44498 317.7761 -520.7034 -38.44498 319.6062 -527.5335 -38.44498 319.6062 -518.8734 -38.44498 322.1062 -528.2034 -38.44498 322.1062 -518.2034 -38.44498 324.6062 -527.5335 -38.44498 324.6062 -518.8734 -38.44498 326.4363 -525.7034 -38.44498 326.4363 -520.7034 -38.44498 327.1062 -523.2034 -38.44498 324.6062 -514.5335 -38.44498 322.1062 -515.2034 -38.44498 322.1062 -510.2034 -38.44498 326.4363 -512.7034 -38.44498 319.6062 -514.5335 -38.44498 327.1062 -510.2034 -38.44498 317.7761 -512.7034 -38.44498 326.4363 -507.7034 -38.44498 317.1062 -510.2034 -38.44498 324.6062 -505.8733 -38.44498 317.7761 -507.7034 -38.44498 322.1062 -505.2034 -38.44498 319.6062 -505.8733 38.41417 319.6062 505.8733 38.41417 322.1062 505.2034 38.41417 322.1062 510.2034 38.41417 317.7761 507.7034 38.41417 324.6062 505.8733 38.41417 317.1062 510.2034 38.41417 326.4363 507.7034 38.41417 317.7761 512.7034 38.41417 327.1062 510.2034 38.41417 319.6062 514.5335 38.41417 326.4363 512.7034 38.41417 322.1062 515.2034 38.41417 324.6062 514.5335 38.41417 322.1062 518.2034 38.41417 322.1062 523.2034 38.41417 319.6062 518.8734 38.41417 324.6062 518.8734 38.41417 317.7761 520.7034 38.41417 326.4363 520.7034 38.41417 317.1062 523.2034 38.41417 327.1062 523.2034 38.41417 317.7761 525.7034 38.41417 326.4363 525.7034 38.41417 319.6062 527.5335 38.41417 324.6062 527.5335 38.41417 322.1062 528.2034 0.6858289 102.2582 -289.8034 0.6858292 97.92814 -287.3034 0.6858292 102.9281 -287.3034 0.6858284 100.4281 -291.6335 0.6858294 102.2582 -284.8034 0.6858282 97.92814 -292.3034 0.6858296 100.4281 -282.9733 0.6858284 95.42814 -291.6335 0.6858301 97.92814 -282.3034 0.6858289 93.59804 -289.8034 0.6858296 95.42814 -282.9733 0.6858292 92.92814 -287.3034 0.6858294 93.59804 -284.8034 0.6858308 102.2582 -276.8034 0.6858311 100.4281 -278.6335 0.6858315 97.92814 -274.3034 0.6858315 102.9281 -274.3034 0.6858306 97.92814 -279.3034 0.6858318 102.2582 -271.8034 0.6858311 95.42814 -278.6335 0.685832 100.4281 -269.9733 0.6858308 93.59804 -276.8034 0.685832 97.92814 -269.3034 0.6858315 92.92814 -274.3034 0.685832 95.42814 -269.9733 0.6858318 93.59804 -271.8034 -0.685832 92.92814 274.3034 -0.6858327 93.59804 271.8034 -0.685832 97.92814 274.3034 -0.6858313 93.59804 276.8034 -0.685833 95.42814 269.9733 -0.6858311 95.42814 278.6335 -0.685833 97.92814 269.3034 -0.6858306 97.92814 279.3034 -0.685833 100.4281 269.9733 -0.6858311 100.4281 278.6335 -0.6858327 102.2582 271.8034 -0.6858313 102.2582 276.8034 -0.685832 102.9281 274.3034 -0.6858287 102.9281 287.3034 -0.6858287 97.92814 287.3034 -0.6858289 102.2582 284.8034 -0.685828 102.2582 289.8034 -0.6858296 100.4281 282.9733 -0.6858275 100.4281 291.6335 -0.6858301 97.92814 282.3034 -0.6858273 97.92814 292.3034 -0.6858296 95.42814 282.9733 -0.6858275 95.42814 291.6335 -0.6858289 93.59804 284.8034 -0.685828 93.59804 289.8034 -0.6858287 92.92814 287.3034 -38.44498 317.1062 -523.2034 -38.44498 322.1062 -523.2034 -38.44498 317.7761 -525.7034 -38.44498 317.7761 -520.7034 -38.44498 319.6062 -527.5335 -38.44498 319.6062 -518.8734 -38.44498 322.1062 -528.2034 -38.44498 322.1062 -518.2034 -38.44498 324.6062 -527.5335 -38.44498 324.6062 -518.8734 -38.44498 326.4363 -525.7034 -38.44498 326.4363 -520.7034 -38.44498 327.1062 -523.2034 -38.44498 324.6062 -514.5335 -38.44498 322.1062 -515.2034 -38.44498 322.1062 -510.2034 -38.44498 326.4363 -512.7034 -38.44498 319.6062 -514.5335 -38.44498 327.1062 -510.2034 -38.44498 317.7761 -512.7034 -38.44498 326.4363 -507.7034 -38.44498 317.1062 -510.2034 -38.44498 324.6062 -505.8733 -38.44498 317.7761 -507.7034 -38.44498 322.1062 -505.2034 -38.44498 319.6062 -505.8733 38.41417 319.6062 505.8733 38.41417 322.1062 505.2034 38.41417 324.6062 505.8733 38.41417 317.7761 507.7034 38.41417 317.1062 510.2034 38.41417 317.7761 512.7034 38.41417 319.6062 514.5335 38.41417 322.1062 515.2034 38.41417 324.6062 514.5335 38.41417 326.4363 512.7034 38.41417 327.1062 510.2034 38.41417 326.4363 507.7034 38.41417 322.1062 518.2034 38.41417 322.1062 523.2034 38.41417 319.6062 518.8734 38.41417 324.6062 518.8734 38.41417 317.7761 520.7034 38.41417 326.4363 520.7034 38.41417 317.1062 523.2034 38.41417 327.1062 523.2034 38.41417 317.7761 525.7034 38.41417 326.4363 525.7034 38.41417 319.6062 527.5335 38.41417 324.6062 527.5335 38.41417 322.1062 528.2034</float_array>
+          <technique_common>
+            <accessor source="#Trafficlight4__ObjTrafficlight-position-array" count="207" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Trafficlight4__ObjTrafficlight-normal">
+          <float_array id="Trafficlight4__ObjTrafficlight-normal-array" count="621">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Trafficlight4__ObjTrafficlight-normal-array" count="207" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Trafficlight4__ObjTrafficlight-texcoord">
+          <float_array id="Trafficlight4__ObjTrafficlight-texcoord-array" count="414">0.1286641 0.7367666 0.1589838 0.6315252 0.1590295 0.7528344 0.1063859 0.6922713 0.1893492 0.7367055 0.09832913 0.6316015 0.2116121 0.6921645 0.1063706 0.570901 0.2196231 0.6314489 0.128603 0.5263294 0.2115816 0.570779 0.1589532 0.5102159 0.1892882 0.5262684 0.2979172 0.7361104 0.2757305 0.6916915 0.3282979 0.6310521 0.3282673 0.7524529 0.2675975 0.6309911 0.3586175 0.7361715 0.275761 0.5703059 0.3808194 0.6918135 0.2979782 0.5259327 0.3889982 0.6311132 0.3283284 0.5096513 0.3808499 0.5704128 0.3586633 0.526009 0.3283284 0.5096513 0.3586633 0.526009 0.3282979 0.6310521 0.2979782 0.5259327 0.3808499 0.5704128 0.275761 0.5703059 0.3889982 0.6311132 0.2675975 0.6309911 0.3808194 0.6918135 0.2757305 0.6916915 0.3586175 0.7361715 0.2979172 0.7361104 0.3282673 0.7524529 0.1590295 0.7528344 0.1589838 0.6315252 0.1893492 0.7367055 0.1286641 0.7367666 0.2116121 0.6921645 0.1063859 0.6922713 0.2196231 0.6314489 0.09832913 0.6316015 0.2115816 0.570779 0.1063706 0.570901 0.1892882 0.5262684 0.128603 0.5263294 0.1589532 0.5102159 0.1589532 0.5102159 0.1589838 0.6315252 0.128603 0.5263294 0.1892882 0.5262684 0.1063706 0.570901 0.2115816 0.570779 0.09832913 0.6316015 0.2196231 0.6314489 0.1063859 0.6922713 0.2116121 0.6921645 0.1286641 0.7367666 0.1893492 0.7367055 0.1590295 0.7528344 0.2757305 0.6916915 0.2675975 0.6309911 0.3282979 0.6310521 0.2979172 0.7361104 0.275761 0.5703059 0.3282673 0.7524529 0.2979782 0.5259327 0.3586175 0.7361715 0.3283284 0.5096513 0.3808194 0.6918135 0.3586633 0.526009 0.3889982 0.6311132 0.3808499 0.5704128 0.3808499 0.5704128 0.3889982 0.6311132 0.3282979 0.6310521 0.3586633 0.526009 0.3808194 0.6918135 0.3283284 0.5096513 0.3586175 0.7361715 0.2979782 0.5259327 0.3282673 0.7524529 0.275761 0.5703059 0.2979172 0.7361104 0.2675975 0.6309911 0.2757305 0.6916915 0.2196231 0.6314489 0.1589838 0.6315252 0.2115816 0.570779 0.2116121 0.6921645 0.1892882 0.5262684 0.1893492 0.7367055 0.1589532 0.5102159 0.1590295 0.7528344 0.128603 0.5263294 0.1286641 0.7367666 0.1063706 0.570901 0.1063859 0.6922713 0.09832913 0.6316015 0.1286641 0.7367666 0.1589838 0.6315252 0.1590295 0.7528344 0.1063859 0.6922713 0.1893492 0.7367055 0.09832913 0.6316015 0.2116121 0.6921645 0.1063706 0.570901 0.2196231 0.6314489 0.128603 0.5263294 0.2115816 0.570779 0.1589532 0.5102159 0.1892882 0.5262684 0.2979172 0.7361104 0.2757305 0.6916915 0.3282979 0.6310521 0.3282673 0.7524529 0.2675975 0.6309911 0.3586175 0.7361715 0.275761 0.5703059 0.3808194 0.6918135 0.2979782 0.5259327 0.3889982 0.6311132 0.3283284 0.5096513 0.3808499 0.5704128 0.3586633 0.526009 0.3283284 0.5096513 0.3586633 0.526009 0.3282979 0.6310521 0.2979782 0.5259327 0.3808499 0.5704128 0.275761 0.5703059 0.3889982 0.6311132 0.2675975 0.6309911 0.3808194 0.6918135 0.2757305 0.6916915 0.3586175 0.7361715 0.2979172 0.7361104 0.3282673 0.7524529 0.1590295 0.7528344 0.1589838 0.6315252 0.1893492 0.7367055 0.1286641 0.7367666 0.2116121 0.6921645 0.1063859 0.6922713 0.2196231 0.6314489 0.09832913 0.6316015 0.2115816 0.570779 0.1063706 0.570901 0.1892882 0.5262684 0.128603 0.5263294 0.1589532 0.5102159 0.1589532 0.5102159 0.1589838 0.6315252 0.128603 0.5263294 0.1892882 0.5262684 0.1063706 0.570901 0.2115816 0.570779 0.09832913 0.6316015 0.2196231 0.6314489 0.1063859 0.6922713 0.2116121 0.6921645 0.1286641 0.7367666 0.1893492 0.7367055 0.1590295 0.7528344 0.2757305 0.6916915 0.2675975 0.6309911 0.3282979 0.6310521 0.2979172 0.7361104 0.275761 0.5703059 0.3282673 0.7524529 0.2979782 0.5259327 0.3586175 0.7361715 0.3283284 0.5096513 0.3808194 0.6918135 0.3586633 0.526009 0.3889982 0.6311132 0.3808499 0.5704128 0.3808499 0.5704128 0.3889982 0.6311132 0.3808194 0.6918135 0.3586633 0.526009 0.3283284 0.5096513 0.2979782 0.5259327 0.275761 0.5703059 0.2675975 0.6309911 0.2757305 0.6916915 0.2979172 0.7361104 0.3282673 0.7524529 0.3586175 0.7361715 0.2196231 0.6314489 0.1589838 0.6315252 0.2115816 0.570779 0.2116121 0.6921645 0.1892882 0.5262684 0.1893492 0.7367055 0.1589532 0.5102159 0.1590295 0.7528344 0.128603 0.5263294 0.1286641 0.7367666 0.1063706 0.570901 0.1063859 0.6922713 0.09832913 0.6316015</float_array>
+          <technique_common>
+            <accessor source="#Trafficlight4__ObjTrafficlight-texcoord-array" count="207" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Trafficlight4__ObjTrafficlight-vertex">
+          <input semantic="POSITION" source="#Trafficlight4__ObjTrafficlight-position" />
+        </vertices>
+        <triangles material="ObjTrafficlight" count="96">
+          <input semantic="VERTEX" source="#Trafficlight4__ObjTrafficlight-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Trafficlight4__ObjTrafficlight-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Trafficlight4__ObjTrafficlight-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 1 1 1 0 0 0 2 2 2 1 1 1 4 4 4 5 5 5 1 1 1 3 3 3 4 4 4 1 1 1 6 6 6 7 7 7 1 1 1 5 5 5 6 6 6 1 1 1 8 8 8 9 9 9 1 1 1 7 7 7 8 8 8 1 1 1 10 10 10 11 11 11 1 1 1 9 9 9 10 10 10 1 1 1 12 12 12 12 12 12 1 1 1 11 11 11 13 13 13 14 14 14 15 15 15 16 16 16 13 13 13 15 15 15 14 14 14 17 17 17 15 15 15 18 18 18 16 16 16 15 15 15 17 17 17 19 19 19 15 15 15 20 20 20 18 18 18 15 15 15 19 19 19 21 21 21 15 15 15 22 22 22 20 20 20 15 15 15 21 21 21 23 23 23 15 15 15 24 24 24 22 22 22 15 15 15 23 23 23 25 25 25 15 15 15 25 25 25 24 24 24 15 15 15 26 26 26 27 27 27 28 28 28 29 29 29 26 26 26 28 28 28 27 27 27 30 30 30 28 28 28 31 31 31 29 29 29 28 28 28 30 30 30 32 32 32 28 28 28 33 33 33 31 31 31 28 28 28 32 32 32 34 34 34 28 28 28 35 35 35 33 33 33 28 28 28 34 34 34 36 36 36 28 28 28 37 37 37 35 35 35 28 28 28 36 36 36 38 38 38 28 28 28 38 38 38 37 37 37 28 28 28 39 39 39 40 40 40 41 41 41 42 42 42 40 40 40 39 39 39 41 41 41 40 40 40 43 43 43 44 44 44 40 40 40 42 42 42 43 43 43 40 40 40 45 45 45 46 46 46 40 40 40 44 44 44 45 45 45 40 40 40 47 47 47 48 48 48 40 40 40 46 46 46 47 47 47 40 40 40 49 49 49 50 50 50 40 40 40 48 48 48 49 49 49 40 40 40 51 51 51 51 51 51 40 40 40 50 50 50 52 52 52 53 53 53 54 54 54 55 55 55 53 53 53 52 52 52 54 54 54 53 53 53 56 56 56 57 57 57 53 53 53 55 55 55 56 56 56 53 53 53 58 58 58 59 59 59 53 53 53 57 57 57 58 58 58 53 53 53 60 60 60 61 61 61 53 53 53 59 59 59 60 60 60 53 53 53 62 62 62 63 63 63 53 53 53 61 61 61 62 62 62 53 53 53 64 64 64 64 64 64 53 53 53 63 63 63 65 65 65 66 66 66 67 67 67 68 68 68 65 65 65 67 67 67 66 66 66 69 69 69 67 67 67 70 70 70 68 68 68 67 67 67 69 69 69 71 71 71 67 67 67 72 72 72 70 70 70 67 67 67 71 71 71 73 73 73 67 67 67 74 74 74 72 72 72 67 67 67 73 73 73 75 75 75 67 67 67 76 76 76 74 74 74 67 67 67 75 75 75 77 77 77 67 67 67 77 77 77 76 76 76 67 67 67 78 78 78 79 79 79 80 80 80 81 81 81 78 78 78 80 80 80 79 79 79 82 82 82 80 80 80 83 83 83 81 81 81 80 80 80 82 82 82 84 84 84 80 80 80 85 85 85 83 83 83 80 80 80 84 84 84 86 86 86 80 80 80 87 87 87 85 85 85 80 80 80 86 86 86 88 88 88 80 80 80 89 89 89 87 87 87 80 80 80 88 88 88 90 90 90 80 80 80 90 90 90 89 89 89 80 80 80 91 91 91 92 92 92 93 93 93 94 94 94 92 92 92 91 91 91 93 93 93 92 92 92 95 95 95 96 96 96 92 92 92 94 94 94 95 95 95 92 92 92 97 97 97 98 98 98 92 92 92 96 96 96 97 97 97 92 92 92 99 99 99 100 100 100 92 92 92 98 98 98 99 99 99 92 92 92 101 101 101 102 102 102 92 92 92 100 100 100 101 101 101 92 92 92 103 103 103 103 103 103 92 92 92 102 102 102 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Trafficlight4__ObjTrafficlight-mesh">
+      <skin source="#Trafficlight4__ObjTrafficlight-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Trafficlight4__ObjTrafficlight-mesh-joint">
+          <Name_array id="Trafficlight4__ObjTrafficlight-mesh-joint-array" count="1">Fld_Tuzura00_Trafficlight</Name_array>
+          <technique_common>
+            <accessor source="#Trafficlight4__ObjTrafficlight-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Trafficlight4__ObjTrafficlight-mesh-inv_bind_matrix">
+          <float_array id="Trafficlight4__ObjTrafficlight-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Trafficlight4__ObjTrafficlight-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Trafficlight4__ObjTrafficlight-mesh-weight">
+          <float_array id="Trafficlight4__ObjTrafficlight-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Trafficlight4__ObjTrafficlight-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Trafficlight4__ObjTrafficlight-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Trafficlight4__ObjTrafficlight-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="207">
+          <input semantic="JOINT" source="#Trafficlight4__ObjTrafficlight-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Trafficlight4__ObjTrafficlight-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_Tuzura00_Trafficlight" name="Fld_Tuzura00_Trafficlight" sid="Fld_Tuzura00_Trafficlight" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Trafficlight4__ObjTrafficlight" name="Trafficlight4__ObjTrafficlight" type="NODE">
+        <instance_controller url="#Armature_Trafficlight4__ObjTrafficlight-mesh">
+          <skeleton>#Armature_Fld_Tuzura00_Trafficlight</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ObjTrafficlight" target="#ObjTrafficlight" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
