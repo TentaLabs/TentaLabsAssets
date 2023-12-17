@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="IkaPatternMsk">
+      <init_from>IkaPatternMsk.png</init_from>
+    </image>
+    <image id="movTV_Alb.0000">
+      <init_from>movTV_Alb.0000.png</init_from>
+    </image>
+    <image id="SignageMiniScroll_Alb">
+      <init_from>SignageMiniScroll_Alb.png</init_from>
+    </image>
+    <image id="SignageMiniSwitch_Alb">
+      <init_from>SignageMiniSwitch_Alb.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="SignageMiniScroll">
+      <instance_effect url="#Effect_SignageMiniScroll" />
+    </material>
+    <material id="SignageMiniSwitch">
+      <instance_effect url="#Effect_SignageMiniSwitch" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_SignageMiniScroll">
+      <profile_COMMON>
+        <newparam sid="surface_SignageMiniScroll-diffuse">
+          <surface type="2D">
+            <init_from>SignageMiniScroll_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SignageMiniScroll-diffuse">
+          <sampler2D>
+            <source>surface_SignageMiniScroll-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SignageMiniScroll-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_SignageMiniSwitch">
+      <profile_COMMON>
+        <newparam sid="surface_SignageMiniSwitch-diffuse">
+          <surface type="2D">
+            <init_from>SignageMiniSwitch_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SignageMiniSwitch-diffuse">
+          <sampler2D>
+            <source>surface_SignageMiniSwitch-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SignageMiniSwitch-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Scroll_000__SignageMiniScroll-mesh" name="Scroll_000__SignageMiniScroll">
+      <mesh>
+        <source id="Scroll_000__SignageMiniScroll-position">
+          <float_array id="Scroll_000__SignageMiniScroll-position-array" count="24">46.34967 6.216725 -11.65646 55.04802 6.216725 -11.65645 46.34966 7.083319 -11.65646 55.04801 7.083319 -11.65646 -20.15 8.551622 26.30001 -26.68132 8.551622 26.3 -20.15 9.800003 26.30001 -26.68132 9.800003 26.30001</float_array>
+          <technique_common>
+            <accessor source="#Scroll_000__SignageMiniScroll-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Scroll_000__SignageMiniScroll-normal">
+          <float_array id="Scroll_000__SignageMiniScroll-normal-array" count="24">0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Scroll_000__SignageMiniScroll-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Scroll_000__SignageMiniScroll-texcoord">
+          <float_array id="Scroll_000__SignageMiniScroll-texcoord-array" count="16">0.09019608 0.3333333 0.7960784 0.3333333 0.09019608 0.6470588 0.7960784 0.6470588 0.3568628 0.3254902 0.6509804 0.3254902 0.3568628 0.6627451 0.6509804 0.6627451</float_array>
+          <technique_common>
+            <accessor source="#Scroll_000__SignageMiniScroll-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Scroll_000__SignageMiniScroll-vertex">
+          <input semantic="POSITION" source="#Scroll_000__SignageMiniScroll-position" />
+        </vertices>
+        <triangles material="SignageMiniScroll" count="4">
+          <input semantic="VERTEX" source="#Scroll_000__SignageMiniScroll-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Scroll_000__SignageMiniScroll-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Scroll_000__SignageMiniScroll-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Switch_000__SignageMiniSwitch-mesh" name="Switch_000__SignageMiniSwitch">
+      <mesh>
+        <source id="Switch_000__SignageMiniSwitch-position">
+          <float_array id="Switch_000__SignageMiniSwitch-position-array" count="84">37.62 14.8 -7.52 37.62 14.8 -1.28 37.62 16.48 -7.52 37.62 16.48 -1.28 61.7499 9.511802 2.613851 60.35866 9.511802 9.159122 61.7499 12.28825 2.613845 60.35867 12.28825 9.159115 -2.98193 10.36408 32.07029 -7.759472 10.36408 32.07028 -2.981925 11.83597 32.07029 -7.759468 11.83597 32.07028 -33.3 2.6 -0.7000008 -33.3 2.6 -2.5 -33.3 4.300001 -0.7000008 -33.3 4.300001 -2.5 -33.3 2.6 -8.099999 -33.3 2.6 -9.9 -33.3 4.300001 -8.099999 -33.3 4.300001 -9.9 -33.3 2.6 22.3 -33.3 2.6 20.5 -33.3 4.300001 22.3 -33.3 4.300001 20.5 -33.3 2.6 14.9 -33.3 2.6 13.1 -33.3 4.300001 14.9 -33.3 4.300001 13.1</float_array>
+          <technique_common>
+            <accessor source="#Switch_000__SignageMiniSwitch-position-array" count="28" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Switch_000__SignageMiniSwitch-normal">
+          <float_array id="Switch_000__SignageMiniSwitch-normal-array" count="84">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.9784736 0 -0.2074364 -0.9784736 0 -0.2074364 -0.9784736 0 -0.2074364 -0.9784736 0 -0.2074364 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Switch_000__SignageMiniSwitch-normal-array" count="28" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Switch_000__SignageMiniSwitch-texcoord">
+          <float_array id="Switch_000__SignageMiniSwitch-texcoord-array" count="56">0.005004959 0.6728618 0.4961929 0.6728618 0.005004959 0.829633 0.4961929 0.829633 0.5296407 0.5016403 0.9837949 0.5016403 0.5296407 0.6833143 0.9837949 0.6833143 0.5024796 0.8458228 0.9994507 0.8458228 0.5024644 0.9855039 0.9994507 0.9855039 0 0 0.2500038 0 0 0.4999924 0.2500038 0.4999924 0.2505074 0 0.5004959 0 0.2505074 0.4999924 0.5004959 0.4999924 0 0 0.2500038 0 0 0.4999924 0.2500038 0.4999924 0.2505074 0 0.5004959 0 0.2505074 0.4999924 0.5004959 0.4999924</float_array>
+          <technique_common>
+            <accessor source="#Switch_000__SignageMiniSwitch-texcoord-array" count="28" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Switch_000__SignageMiniSwitch-vertex">
+          <input semantic="POSITION" source="#Switch_000__SignageMiniSwitch-position" />
+        </vertices>
+        <triangles material="SignageMiniSwitch" count="14">
+          <input semantic="VERTEX" source="#Switch_000__SignageMiniSwitch-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Switch_000__SignageMiniSwitch-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Switch_000__SignageMiniSwitch-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Scroll_000__SignageMiniScroll-mesh">
+      <skin source="#Scroll_000__SignageMiniScroll-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Scroll_000__SignageMiniScroll-mesh-joint">
+          <Name_array id="Scroll_000__SignageMiniScroll-mesh-joint-array" count="1">Fld_PlazaSignageSmall</Name_array>
+          <technique_common>
+            <accessor source="#Scroll_000__SignageMiniScroll-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Scroll_000__SignageMiniScroll-mesh-inv_bind_matrix">
+          <float_array id="Scroll_000__SignageMiniScroll-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Scroll_000__SignageMiniScroll-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Scroll_000__SignageMiniScroll-mesh-weight">
+          <float_array id="Scroll_000__SignageMiniScroll-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Scroll_000__SignageMiniScroll-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Scroll_000__SignageMiniScroll-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Scroll_000__SignageMiniScroll-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#Scroll_000__SignageMiniScroll-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Scroll_000__SignageMiniScroll-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Switch_000__SignageMiniSwitch-mesh">
+      <skin source="#Switch_000__SignageMiniSwitch-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Switch_000__SignageMiniSwitch-mesh-joint">
+          <Name_array id="Switch_000__SignageMiniSwitch-mesh-joint-array" count="1">Fld_PlazaSignageSmall</Name_array>
+          <technique_common>
+            <accessor source="#Switch_000__SignageMiniSwitch-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Switch_000__SignageMiniSwitch-mesh-inv_bind_matrix">
+          <float_array id="Switch_000__SignageMiniSwitch-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Switch_000__SignageMiniSwitch-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Switch_000__SignageMiniSwitch-mesh-weight">
+          <float_array id="Switch_000__SignageMiniSwitch-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Switch_000__SignageMiniSwitch-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Switch_000__SignageMiniSwitch-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Switch_000__SignageMiniSwitch-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="28">
+          <input semantic="JOINT" source="#Switch_000__SignageMiniSwitch-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Switch_000__SignageMiniSwitch-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_PlazaSignageSmall" name="Fld_PlazaSignageSmall" sid="Fld_PlazaSignageSmall" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Scroll_000__SignageMiniScroll" name="Scroll_000__SignageMiniScroll" type="NODE">
+        <instance_controller url="#Armature_Scroll_000__SignageMiniScroll-mesh">
+          <skeleton>#Armature_Fld_PlazaSignageSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SignageMiniScroll" target="#SignageMiniScroll" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Switch_000__SignageMiniSwitch" name="Switch_000__SignageMiniSwitch" type="NODE">
+        <instance_controller url="#Armature_Switch_000__SignageMiniSwitch-mesh">
+          <skeleton>#Armature_Fld_PlazaSignageSmall</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SignageMiniSwitch" target="#SignageMiniSwitch" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
