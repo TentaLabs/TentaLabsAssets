@@ -1,0 +1,1851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="AptClothes_Alb">
+      <init_from>AptClothes_Alb.png</init_from>
+    </image>
+    <image id="AptClothes_Nrm">
+      <init_from>AptClothes_Nrm.png</init_from>
+    </image>
+    <image id="AptClothes_Opa">
+      <init_from>AptClothes_Opa.png</init_from>
+    </image>
+    <image id="AptClothes_Rgh">
+      <init_from>AptClothes_Rgh.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Alb">
+      <init_from>AptExtMiscProp_Alb.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Mtl">
+      <init_from>AptExtMiscProp_Mtl.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Nrm">
+      <init_from>AptExtMiscProp_Nrm.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Rgh">
+      <init_from>AptExtMiscProp_Rgh.png</init_from>
+    </image>
+    <image id="AptMiscProp_Alb">
+      <init_from>AptMiscProp_Alb.png</init_from>
+    </image>
+    <image id="AptMiscProp_Mtl">
+      <init_from>AptMiscProp_Mtl.png</init_from>
+    </image>
+    <image id="AptMiscProp_Nrm">
+      <init_from>AptMiscProp_Nrm.png</init_from>
+    </image>
+    <image id="AptMiscProp_Rgh">
+      <init_from>AptMiscProp_Rgh.png</init_from>
+    </image>
+    <image id="AptTrim_Alb">
+      <init_from>AptTrim_Alb.png</init_from>
+    </image>
+    <image id="AptTrim_Nrm">
+      <init_from>AptTrim_Nrm.png</init_from>
+    </image>
+    <image id="AptTrim_Rgh">
+      <init_from>AptTrim_Rgh.png</init_from>
+    </image>
+    <image id="AptWallA_Alb">
+      <init_from>AptWallA_Alb.png</init_from>
+    </image>
+    <image id="AptWallA_Nrm">
+      <init_from>AptWallA_Nrm.png</init_from>
+    </image>
+    <image id="AptWallA_Rgh">
+      <init_from>AptWallA_Rgh.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BalloonLightMaterial_Alb">
+      <init_from>BalloonLightMaterial_Alb.png</init_from>
+    </image>
+    <image id="BalloonLightMaterial_Emm">
+      <init_from>BalloonLightMaterial_Emm.png</init_from>
+    </image>
+    <image id="BalloonLightMaterial_Nrm">
+      <init_from>BalloonLightMaterial_Nrm.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Alb">
+      <init_from>BaseHeliportOrange_Alb.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Mtl">
+      <init_from>BaseHeliportOrange_Mtl.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Nrm">
+      <init_from>BaseHeliportOrange_Nrm.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Rgh">
+      <init_from>BaseHeliportOrange_Rgh.png</init_from>
+    </image>
+    <image id="BaseHeliport_Alb">
+      <init_from>BaseHeliport_Alb.png</init_from>
+    </image>
+    <image id="BaseHeliport_Mtl">
+      <init_from>BaseHeliport_Mtl.png</init_from>
+    </image>
+    <image id="BaseHeliport_Nrm">
+      <init_from>BaseHeliport_Nrm.png</init_from>
+    </image>
+    <image id="BaseHeliport_Rgh">
+      <init_from>BaseHeliport_Rgh.png</init_from>
+    </image>
+    <image id="Body_Alb">
+      <init_from>Body_Alb.png</init_from>
+    </image>
+    <image id="Body_Emm">
+      <init_from>Body_Emm.png</init_from>
+    </image>
+    <image id="Body_Nrm">
+      <init_from>Body_Nrm.png</init_from>
+    </image>
+    <image id="Body_Rgh">
+      <init_from>Body_Rgh.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Alb">
+      <init_from>BuildingFenceVinylB_Alb.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Mtl">
+      <init_from>BuildingFenceVinylB_Mtl.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Nrm">
+      <init_from>BuildingFenceVinylB_Nrm.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Opa">
+      <init_from>BuildingFenceVinylB_Opa.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Rgh">
+      <init_from>BuildingFenceVinylB_Rgh.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Alb">
+      <init_from>CafeBuildingArchitectureA_Alb.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Emm">
+      <init_from>CafeBuildingArchitectureA_Emm.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Nrm">
+      <init_from>CafeBuildingArchitectureA_Nrm.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Rgh">
+      <init_from>CafeBuildingArchitectureA_Rgh.png</init_from>
+    </image>
+    <image id="CanolaAV_Alb">
+      <init_from>CanolaAV_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaBV_Alb">
+      <init_from>CanolaBV_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaCV_Alb">
+      <init_from>CanolaCV_Alb.png</init_from>
+    </image>
+    <image id="CanolaC_Alb">
+      <init_from>CanolaC_Alb.png</init_from>
+    </image>
+    <image id="Canola_Fxm">
+      <init_from>Canola_Fxm.png</init_from>
+    </image>
+    <image id="Canola_Opa">
+      <init_from>Canola_Opa.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Alb">
+      <init_from>CeilingMetalTrass_Alb.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Mtl">
+      <init_from>CeilingMetalTrass_Mtl.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Nrm">
+      <init_from>CeilingMetalTrass_Nrm.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Rgh">
+      <init_from>CeilingMetalTrass_Rgh.png</init_from>
+    </image>
+    <image id="ColorSample00_Alb">
+      <init_from>ColorSample00_Alb.png</init_from>
+    </image>
+    <image id="ColorSample00_Nrm">
+      <init_from>ColorSample00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Alb">
+      <init_from>ConcreteEdge00_Alb.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Mtl">
+      <init_from>ConcreteEdge00_Mtl.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Nrm">
+      <init_from>ConcreteEdge00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Rgh">
+      <init_from>ConcreteEdge00_Rgh.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Alb">
+      <init_from>ConcreteFrameMetal00_Alb.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Mtl">
+      <init_from>ConcreteFrameMetal00_Mtl.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Nrm">
+      <init_from>ConcreteFrameMetal00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Rgh">
+      <init_from>ConcreteFrameMetal00_Rgh.png</init_from>
+    </image>
+    <image id="ConstructionObject_Alb">
+      <init_from>ConstructionObject_Alb.png</init_from>
+    </image>
+    <image id="ConstructionObject_Mtl">
+      <init_from>ConstructionObject_Mtl.png</init_from>
+    </image>
+    <image id="ConstructionObject_Nrm">
+      <init_from>ConstructionObject_Nrm.png</init_from>
+    </image>
+    <image id="ConstructionObject_Rgh">
+      <init_from>ConstructionObject_Rgh.png</init_from>
+    </image>
+    <image id="ContainerWall00_Alb">
+      <init_from>ContainerWall00_Alb.png</init_from>
+    </image>
+    <image id="ContainerWall00_Mtl">
+      <init_from>ContainerWall00_Mtl.png</init_from>
+    </image>
+    <image id="ContainerWall00_Nrm">
+      <init_from>ContainerWall00_Nrm.png</init_from>
+    </image>
+    <image id="ContainerWall00_Rgh">
+      <init_from>ContainerWall00_Rgh.png</init_from>
+    </image>
+    <image id="CraneHandRail_Alb">
+      <init_from>CraneHandRail_Alb.png</init_from>
+    </image>
+    <image id="CraneHandRail_Mtl">
+      <init_from>CraneHandRail_Mtl.png</init_from>
+    </image>
+    <image id="CraneHandRail_Nrm">
+      <init_from>CraneHandRail_Nrm.png</init_from>
+    </image>
+    <image id="CraneHandRail_Opa">
+      <init_from>CraneHandRail_Opa.png</init_from>
+    </image>
+    <image id="CraneHandRail_Rgh">
+      <init_from>CraneHandRail_Rgh.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Alb">
+      <init_from>CraneUnderFrame_Alb.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Mtl">
+      <init_from>CraneUnderFrame_Mtl.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Nrm">
+      <init_from>CraneUnderFrame_Nrm.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Rgh">
+      <init_from>CraneUnderFrame_Rgh.png</init_from>
+    </image>
+    <image id="Desert00_Alb">
+      <init_from>Desert00_Alb.png</init_from>
+    </image>
+    <image id="Desert00_Nrm">
+      <init_from>Desert00_Nrm.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Alb">
+      <init_from>DistrictPillarGlass00_Alb.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Mtl">
+      <init_from>DistrictPillarGlass00_Mtl.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Nrm">
+      <init_from>DistrictPillarGlass00_Nrm.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Opa">
+      <init_from>DistrictPillarGlass00_Opa.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Rgh">
+      <init_from>DistrictPillarGlass00_Rgh.png</init_from>
+    </image>
+    <image id="DVAptBldg_Alb">
+      <init_from>DVAptBldg_Alb.png</init_from>
+    </image>
+    <image id="DVAptBldg_Emi">
+      <init_from>DVAptBldg_Emi.png</init_from>
+    </image>
+    <image id="DVAptBldg_Nrm">
+      <init_from>DVAptBldg_Nrm.png</init_from>
+    </image>
+    <image id="DVBGBldgLights_Alb">
+      <init_from>DVBGBldgLights_Alb.png</init_from>
+    </image>
+    <image id="DVBGBldgLights_Emi">
+      <init_from>DVBGBldgLights_Emi.png</init_from>
+    </image>
+    <image id="DVBGBldgLights_Opa">
+      <init_from>DVBGBldgLights_Opa.png</init_from>
+    </image>
+    <image id="DVBoats_Alb">
+      <init_from>DVBoats_Alb.png</init_from>
+    </image>
+    <image id="DVBoats_Emi">
+      <init_from>DVBoats_Emi.png</init_from>
+    </image>
+    <image id="DVBoats_Nrm">
+      <init_from>DVBoats_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Alb">
+      <init_from>DVBuildingBaseParts_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Emm">
+      <init_from>DVBuildingBaseParts_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Nrm">
+      <init_from>DVBuildingBaseParts_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Rgh">
+      <init_from>DVBuildingBaseParts_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Alb">
+      <init_from>DVBuildingUloop00_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Mtl">
+      <init_from>DVBuildingUloop00_Mtl.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Nrm">
+      <init_from>DVBuildingUloop00_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Rgh">
+      <init_from>DVBuildingUloop00_Rgh.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Alb">
+      <init_from>DVconcreteLoop00_Alb.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Mtl">
+      <init_from>DVconcreteLoop00_Mtl.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Nrm">
+      <init_from>DVconcreteLoop00_Nrm.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Rgh">
+      <init_from>DVconcreteLoop00_Rgh.png</init_from>
+    </image>
+    <image id="DVCranes_Alb">
+      <init_from>DVCranes_Alb.png</init_from>
+    </image>
+    <image id="DVCranes_Nrm">
+      <init_from>DVCranes_Nrm.png</init_from>
+    </image>
+    <image id="DVElectricPole_Alb">
+      <init_from>DVElectricPole_Alb.png</init_from>
+    </image>
+    <image id="DVElectricPole_Nrm">
+      <init_from>DVElectricPole_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceIron_Alb">
+      <init_from>DVFenceIron_Alb.png</init_from>
+    </image>
+    <image id="DVFenceIron_Nrm">
+      <init_from>DVFenceIron_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceIron_Opa">
+      <init_from>DVFenceIron_Opa.png</init_from>
+    </image>
+    <image id="DVGrass_Alb">
+      <init_from>DVGrass_Alb.png</init_from>
+    </image>
+    <image id="DVGroundPavement_Alb">
+      <init_from>DVGroundPavement_Alb.png</init_from>
+    </image>
+    <image id="DVGroundPavement_Nrm">
+      <init_from>DVGroundPavement_Nrm.png</init_from>
+    </image>
+    <image id="DVHseAwning_Alb">
+      <init_from>DVHseAwning_Alb.png</init_from>
+    </image>
+    <image id="DVHseAwning_Nrm">
+      <init_from>DVHseAwning_Nrm.png</init_from>
+    </image>
+    <image id="DVHseAwning_Opa">
+      <init_from>DVHseAwning_Opa.png</init_from>
+    </image>
+    <image id="DVHseLOD_Alb">
+      <init_from>DVHseLOD_Alb.png</init_from>
+    </image>
+    <image id="DVHseLOD_Emi">
+      <init_from>DVHseLOD_Emi.png</init_from>
+    </image>
+    <image id="DVHseLOD_Nrm">
+      <init_from>DVHseLOD_Nrm.png</init_from>
+    </image>
+    <image id="DVHseRoof_Alb">
+      <init_from>DVHseRoof_Alb.png</init_from>
+    </image>
+    <image id="DVHseRoof_Nrm">
+      <init_from>DVHseRoof_Nrm.png</init_from>
+    </image>
+    <image id="DVHseWallA_Alb">
+      <init_from>DVHseWallA_Alb.png</init_from>
+    </image>
+    <image id="DVHseWallA_Emi">
+      <init_from>DVHseWallA_Emi.png</init_from>
+    </image>
+    <image id="DVHseWallA_Nrm">
+      <init_from>DVHseWallA_Nrm.png</init_from>
+    </image>
+    <image id="DVHseWallB_Alb">
+      <init_from>DVHseWallB_Alb.png</init_from>
+    </image>
+    <image id="DVHseWallB_Emi">
+      <init_from>DVHseWallB_Emi.png</init_from>
+    </image>
+    <image id="DVHseWallB_Nrm">
+      <init_from>DVHseWallB_Nrm.png</init_from>
+    </image>
+    <image id="DVMidBuilding_A_Alb">
+      <init_from>DVMidBuilding_A_Alb.png</init_from>
+    </image>
+    <image id="DVMidBuilding_A_Emm">
+      <init_from>DVMidBuilding_A_Emm.png</init_from>
+    </image>
+    <image id="DVMidBuilding_A_Mtl">
+      <init_from>DVMidBuilding_A_Mtl.png</init_from>
+    </image>
+    <image id="DVMidBuilding_B_Alb">
+      <init_from>DVMidBuilding_B_Alb.png</init_from>
+    </image>
+    <image id="DVMidBuilding_B_Emm">
+      <init_from>DVMidBuilding_B_Emm.png</init_from>
+    </image>
+    <image id="DVMidBuilding_B_Mtl">
+      <init_from>DVMidBuilding_B_Mtl.png</init_from>
+    </image>
+    <image id="DVMonorailAtlas_Alb">
+      <init_from>DVMonorailAtlas_Alb.png</init_from>
+    </image>
+    <image id="DVMonorailAtlas_Nrm">
+      <init_from>DVMonorailAtlas_Nrm.png</init_from>
+    </image>
+    <image id="DVMountain_Alb">
+      <init_from>DVMountain_Alb.png</init_from>
+    </image>
+    <image id="DVMountain_Opa">
+      <init_from>DVMountain_Opa.png</init_from>
+    </image>
+    <image id="DVMVPier_Alb">
+      <init_from>DVMVPier_Alb.png</init_from>
+    </image>
+    <image id="DVMVPier_Nrm">
+      <init_from>DVMVPier_Nrm.png</init_from>
+    </image>
+    <image id="DVPalmTree01_Alb">
+      <init_from>DVPalmTree01_Alb.png</init_from>
+    </image>
+    <image id="DVPalmTree01_Nrm">
+      <init_from>DVPalmTree01_Nrm.png</init_from>
+    </image>
+    <image id="DVPalmTree01_Opa">
+      <init_from>DVPalmTree01_Opa.png</init_from>
+    </image>
+    <image id="DVPalmTree02_Alb">
+      <init_from>DVPalmTree02_Alb.png</init_from>
+    </image>
+    <image id="DVPalmTree02_Nrm">
+      <init_from>DVPalmTree02_Nrm.png</init_from>
+    </image>
+    <image id="DVRoad_Alb">
+      <init_from>DVRoad_Alb.png</init_from>
+    </image>
+    <image id="DVRoad_Opa">
+      <init_from>DVRoad_Opa.png</init_from>
+    </image>
+    <image id="DVShip_Alb">
+      <init_from>DVShip_Alb.png</init_from>
+    </image>
+    <image id="DVShip_Emi">
+      <init_from>DVShip_Emi.png</init_from>
+    </image>
+    <image id="DVShip_Nrm">
+      <init_from>DVShip_Nrm.png</init_from>
+    </image>
+    <image id="DVTentStallAtlas01_Alb">
+      <init_from>DVTentStallAtlas01_Alb.png</init_from>
+    </image>
+    <image id="DVTentStallAtlas01_Nrm">
+      <init_from>DVTentStallAtlas01_Nrm.png</init_from>
+    </image>
+    <image id="DVTerrain_Alb">
+      <init_from>DVTerrain_Alb.png</init_from>
+    </image>
+    <image id="DVTerrain_Nrm">
+      <init_from>DVTerrain_Nrm.png</init_from>
+    </image>
+    <image id="DVTreeBush_Alb">
+      <init_from>DVTreeBush_Alb.png</init_from>
+    </image>
+    <image id="DVTreeBush_Nrm">
+      <init_from>DVTreeBush_Nrm.png</init_from>
+    </image>
+    <image id="DVWater_Nrm">
+      <init_from>DVWater_Nrm.png</init_from>
+    </image>
+    <image id="DV_Crane01_Alb">
+      <init_from>DV_Crane01_Alb.png</init_from>
+    </image>
+    <image id="DV_Crane01_Mtl">
+      <init_from>DV_Crane01_Mtl.png</init_from>
+    </image>
+    <image id="DV_Crane01_Nrm">
+      <init_from>DV_Crane01_Nrm.png</init_from>
+    </image>
+    <image id="DV_Crane01_Rgh">
+      <init_from>DV_Crane01_Rgh.png</init_from>
+    </image>
+    <image id="Elevator00_Alb">
+      <init_from>Elevator00_Alb.png</init_from>
+    </image>
+    <image id="Elevator00_Emi">
+      <init_from>Elevator00_Emi.png</init_from>
+    </image>
+    <image id="Elevator00_Mtl">
+      <init_from>Elevator00_Mtl.png</init_from>
+    </image>
+    <image id="Elevator00_Nrm">
+      <init_from>Elevator00_Nrm.png</init_from>
+    </image>
+    <image id="Elevator00_Rgh">
+      <init_from>Elevator00_Rgh.png</init_from>
+    </image>
+    <image id="elevatorFence00_Alb">
+      <init_from>elevatorFence00_Alb.png</init_from>
+    </image>
+    <image id="elevatorFence00_Mtl">
+      <init_from>elevatorFence00_Mtl.png</init_from>
+    </image>
+    <image id="elevatorFence00_Nrm">
+      <init_from>elevatorFence00_Nrm.png</init_from>
+    </image>
+    <image id="elevatorFence00_Opa">
+      <init_from>elevatorFence00_Opa.png</init_from>
+    </image>
+    <image id="elevatorFence00_Rgh">
+      <init_from>elevatorFence00_Rgh.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Alb">
+      <init_from>FactoryMetalFrame_Alb.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Mtl">
+      <init_from>FactoryMetalFrame_Mtl.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Nrm">
+      <init_from>FactoryMetalFrame_Nrm.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Rgh">
+      <init_from>FactoryMetalFrame_Rgh.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Tcl">
+      <init_from>FactoryMetalFrame_Tcl.png</init_from>
+    </image>
+    <image id="FenceGray_Alb">
+      <init_from>FenceGray_Alb.png</init_from>
+    </image>
+    <image id="FenceGray_Mtl">
+      <init_from>FenceGray_Mtl.png</init_from>
+    </image>
+    <image id="FenceGray_Nrm">
+      <init_from>FenceGray_Nrm.png</init_from>
+    </image>
+    <image id="FenceGray_Opa">
+      <init_from>FenceGray_Opa.png</init_from>
+    </image>
+    <image id="FenceGray_Rgh">
+      <init_from>FenceGray_Rgh.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Alb">
+      <init_from>FenceVinylWhite_Alb.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Mtl">
+      <init_from>FenceVinylWhite_Mtl.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Nrm">
+      <init_from>FenceVinylWhite_Nrm.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Opa">
+      <init_from>FenceVinylWhite_Opa.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Rgh">
+      <init_from>FenceVinylWhite_Rgh.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Alb">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Alb.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Mtl">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Mtl.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Nrm">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Nrm.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Rgh">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Alb">
+      <init_from>FloorConcreteHigh_Alb.png</init_from>
+    </image>
+    <image id="FloorLine00_Alb">
+      <init_from>FloorLine00_Alb.png</init_from>
+    </image>
+    <image id="FloorLine00_Mtl">
+      <init_from>FloorLine00_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine00_Nrm">
+      <init_from>FloorLine00_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine00_Rgh">
+      <init_from>FloorLine00_Rgh.png</init_from>
+    </image>
+    <image id="FloorPanel_Alb">
+      <init_from>FloorPanel_Alb.png</init_from>
+    </image>
+    <image id="FloorPanel_Mtl">
+      <init_from>FloorPanel_Mtl.png</init_from>
+    </image>
+    <image id="FloorPanel_Nrm">
+      <init_from>FloorPanel_Nrm.png</init_from>
+    </image>
+    <image id="FloorPanel_Rgh">
+      <init_from>FloorPanel_Rgh.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Alb">
+      <init_from>FloorWireNetN_Alb.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Mtl">
+      <init_from>FloorWireNetN_Mtl.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Nrm">
+      <init_from>FloorWireNetN_Nrm.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Opa">
+      <init_from>FloorWireNetN_Opa.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Rgh">
+      <init_from>FloorWireNetN_Rgh.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Yellow_Alb">
+      <init_from>FloorWireNetN_Yellow_Alb.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Yellow_Opa">
+      <init_from>FloorWireNetN_Yellow_Opa.png</init_from>
+    </image>
+    <image id="glassInner_Opa">
+      <init_from>glassInner_Opa.png</init_from>
+    </image>
+    <image id="glass_Mtl">
+      <init_from>glass_Mtl.png</init_from>
+    </image>
+    <image id="glass_Nrm">
+      <init_from>glass_Nrm.png</init_from>
+    </image>
+    <image id="glass_Rgh">
+      <init_from>glass_Rgh.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Alb">
+      <init_from>GraffitiSetA00_Alb.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Mtl">
+      <init_from>GraffitiSetA00_Mtl.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Nrm">
+      <init_from>GraffitiSetA00_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Rgh">
+      <init_from>GraffitiSetA00_Rgh.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Alb">
+      <init_from>GraffitiSetB00_Alb.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Emm">
+      <init_from>GraffitiSetB00_Emm.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Mtl">
+      <init_from>GraffitiSetB00_Mtl.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Nrm">
+      <init_from>GraffitiSetB00_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Opa">
+      <init_from>GraffitiSetB00_Opa.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Rgh">
+      <init_from>GraffitiSetB00_Rgh.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Alb">
+      <init_from>GraffitiSetC00_Alb.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Emm">
+      <init_from>GraffitiSetC00_Emm.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Mtl">
+      <init_from>GraffitiSetC00_Mtl.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Nrm">
+      <init_from>GraffitiSetC00_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Opa">
+      <init_from>GraffitiSetC00_Opa.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Rgh">
+      <init_from>GraffitiSetC00_Rgh.png</init_from>
+    </image>
+    <image id="Ground05_Alb">
+      <init_from>Ground05_Alb.png</init_from>
+    </image>
+    <image id="Ground05_Mtl">
+      <init_from>Ground05_Mtl.png</init_from>
+    </image>
+    <image id="Ground05_Nrm">
+      <init_from>Ground05_Nrm.png</init_from>
+    </image>
+    <image id="Ground05_Rgh">
+      <init_from>Ground05_Rgh.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Alb">
+      <init_from>IronPlarteParts_Alb.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Mtl">
+      <init_from>IronPlarteParts_Mtl.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Nrm">
+      <init_from>IronPlarteParts_Nrm.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Rgh">
+      <init_from>IronPlarteParts_Rgh.png</init_from>
+    </image>
+    <image id="IronSet_Alb">
+      <init_from>IronSet_Alb.png</init_from>
+    </image>
+    <image id="IronSet_Emi">
+      <init_from>IronSet_Emi.png</init_from>
+    </image>
+    <image id="IronSet_Mtl">
+      <init_from>IronSet_Mtl.png</init_from>
+    </image>
+    <image id="IronSet_Nrm">
+      <init_from>IronSet_Nrm.png</init_from>
+    </image>
+    <image id="IronSet_Rgh">
+      <init_from>IronSet_Rgh.png</init_from>
+    </image>
+    <image id="IronWallRed_Alb">
+      <init_from>IronWallRed_Alb.png</init_from>
+    </image>
+    <image id="IronWallRed_Mtl">
+      <init_from>IronWallRed_Mtl.png</init_from>
+    </image>
+    <image id="IronWallRed_Nrm">
+      <init_from>IronWallRed_Nrm.png</init_from>
+    </image>
+    <image id="IronWallRed_Rgh">
+      <init_from>IronWallRed_Rgh.png</init_from>
+    </image>
+    <image id="IronWall_Alb">
+      <init_from>IronWall_Alb.png</init_from>
+    </image>
+    <image id="IronWall_Mtl">
+      <init_from>IronWall_Mtl.png</init_from>
+    </image>
+    <image id="IronWall_Nrm">
+      <init_from>IronWall_Nrm.png</init_from>
+    </image>
+    <image id="IronWall_Rgh">
+      <init_from>IronWall_Rgh.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Alb">
+      <init_from>ItrWindowApart_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Fxm">
+      <init_from>ItrWindowApart_Fxm.png</init_from>
+    </image>
+    <image id="ItrWindowApart_In_Alb">
+      <init_from>ItrWindowApart_In_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowApart_M_Alb">
+      <init_from>ItrWindowApart_M_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Nrm">
+      <init_from>ItrWindowApart_Nrm.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Opa">
+      <init_from>ItrWindowApart_Opa.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Rgh">
+      <init_from>ItrWindowApart_Rgh.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Alb">
+      <init_from>ItrWindowServerRoom_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Fxm">
+      <init_from>ItrWindowServerRoom_Fxm.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_In_Itr_Resca">
+      <init_from>ItrWindowServerRoom_In_Itr_Resca.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_M_Alb">
+      <init_from>ItrWindowServerRoom_M_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Nrm">
+      <init_from>ItrWindowServerRoom_Nrm.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Opa">
+      <init_from>ItrWindowServerRoom_Opa.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Rgh">
+      <init_from>ItrWindowServerRoom_Rgh.png</init_from>
+    </image>
+    <image id="Lamp00_Alb">
+      <init_from>Lamp00_Alb.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Alb">
+      <init_from>MetalFloorB00_Alb.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Mtl">
+      <init_from>MetalFloorB00_Mtl.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Nrm">
+      <init_from>MetalFloorB00_Nrm.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Rgh">
+      <init_from>MetalFloorB00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Alb">
+      <init_from>MetalPlateAshiba00_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Mtl">
+      <init_from>MetalPlateAshiba00_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Nrm">
+      <init_from>MetalPlateAshiba00_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Rgh">
+      <init_from>MetalPlateAshiba00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Alb">
+      <init_from>MetalPlateAshibaSet00_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Mtl">
+      <init_from>MetalPlateAshibaSet00_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Nrm">
+      <init_from>MetalPlateAshibaSet00_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Rgh">
+      <init_from>MetalPlateAshibaSet00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Alb">
+      <init_from>MetalPlateSteelRed00_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Mtl">
+      <init_from>MetalPlateSteelRed00_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Nrm">
+      <init_from>MetalPlateSteelRed00_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Rgh">
+      <init_from>MetalPlateSteelRed00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Alb">
+      <init_from>MetalPlateSteel_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Mtl">
+      <init_from>MetalPlateSteel_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Nrm">
+      <init_from>MetalPlateSteel_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Rgh">
+      <init_from>MetalPlateSteel_Rgh.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Alb">
+      <init_from>mIronPlateLarge_Alb.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Mtl">
+      <init_from>mIronPlateLarge_Mtl.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Nrm">
+      <init_from>mIronPlateLarge_Nrm.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Rgh">
+      <init_from>mIronPlateLarge_Rgh.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Alb">
+      <init_from>mIronPlateMix_Alb.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Mtl">
+      <init_from>mIronPlateMix_Mtl.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Nrm">
+      <init_from>mIronPlateMix_Nrm.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Rgh">
+      <init_from>mIronPlateMix_Rgh.png</init_from>
+    </image>
+    <image id="M_Windsock_Alb">
+      <init_from>M_Windsock_Alb.png</init_from>
+    </image>
+    <image id="M_Windsock_Nrm">
+      <init_from>M_Windsock_Nrm.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Alb">
+      <init_from>NoPaintedVLoop00_Alb.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Mtl">
+      <init_from>NoPaintedVLoop00_Mtl.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Nrm">
+      <init_from>NoPaintedVLoop00_Nrm.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Rgh">
+      <init_from>NoPaintedVLoop00_Rgh.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Alb">
+      <init_from>OldBuildingWallA00_Alb.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Mtl">
+      <init_from>OldBuildingWallA00_Mtl.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Nrm">
+      <init_from>OldBuildingWallA00_Nrm.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Rgh">
+      <init_from>OldBuildingWallA00_Rgh.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Alb">
+      <init_from>OldBuildingWallA01_Alb.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Mtl">
+      <init_from>OldBuildingWallA01_Mtl.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Nrm">
+      <init_from>OldBuildingWallA01_Nrm.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Rgh">
+      <init_from>OldBuildingWallA01_Rgh.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Alb">
+      <init_from>OldBuildingWallB00_Alb.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Mtl">
+      <init_from>OldBuildingWallB00_Mtl.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Nrm">
+      <init_from>OldBuildingWallB00_Nrm.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Rgh">
+      <init_from>OldBuildingWallB00_Rgh.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Alb">
+      <init_from>PaintedVLoop00_Alb.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Mtl">
+      <init_from>PaintedVLoop00_Mtl.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Nrm">
+      <init_from>PaintedVLoop00_Nrm.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Rgh">
+      <init_from>PaintedVLoop00_Rgh.png</init_from>
+    </image>
+    <image id="Piping00_Alb">
+      <init_from>Piping00_Alb.png</init_from>
+    </image>
+    <image id="Piping00_Mtl">
+      <init_from>Piping00_Mtl.png</init_from>
+    </image>
+    <image id="Piping00_Nrm">
+      <init_from>Piping00_Nrm.png</init_from>
+    </image>
+    <image id="Piping00_Rgh">
+      <init_from>Piping00_Rgh.png</init_from>
+    </image>
+    <image id="PropsA00_Alb">
+      <init_from>PropsA00_Alb.png</init_from>
+    </image>
+    <image id="PropsA00_Mtl">
+      <init_from>PropsA00_Mtl.png</init_from>
+    </image>
+    <image id="PropsA00_Nrm">
+      <init_from>PropsA00_Nrm.png</init_from>
+    </image>
+    <image id="PropsA00_Rgh">
+      <init_from>PropsA00_Rgh.png</init_from>
+    </image>
+    <image id="PropsCtext00_Alb">
+      <init_from>PropsCtext00_Alb.png</init_from>
+    </image>
+    <image id="PropsCtext00_Emm">
+      <init_from>PropsCtext00_Emm.png</init_from>
+    </image>
+    <image id="PropsCtext00_Mtl">
+      <init_from>PropsCtext00_Mtl.png</init_from>
+    </image>
+    <image id="PropsCtext00_Nrm">
+      <init_from>PropsCtext00_Nrm.png</init_from>
+    </image>
+    <image id="PropsCtext00_Rgh">
+      <init_from>PropsCtext00_Rgh.png</init_from>
+    </image>
+    <image id="RedFrames_Alb">
+      <init_from>RedFrames_Alb.png</init_from>
+    </image>
+    <image id="RedFrames_Nrm">
+      <init_from>RedFrames_Nrm.png</init_from>
+    </image>
+    <image id="RedFrames_Rgh">
+      <init_from>RedFrames_Rgh.png</init_from>
+    </image>
+    <image id="RedLightEmissionPattern_Emm">
+      <init_from>RedLightEmissionPattern_Emm.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Alb">
+      <init_from>ScaffoldSet_Alb.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Mtl">
+      <init_from>ScaffoldSet_Mtl.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Nrm">
+      <init_from>ScaffoldSet_Nrm.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Rgh">
+      <init_from>ScaffoldSet_Rgh.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Alb">
+      <init_from>ShopSignFrame00_Alb.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Mtl">
+      <init_from>ShopSignFrame00_Mtl.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Nrm">
+      <init_from>ShopSignFrame00_Nrm.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Rgh">
+      <init_from>ShopSignFrame00_Rgh.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Alb">
+      <init_from>ShopSignFrame01_Alb.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Mtl">
+      <init_from>ShopSignFrame01_Mtl.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Nrm">
+      <init_from>ShopSignFrame01_Nrm.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Rgh">
+      <init_from>ShopSignFrame01_Rgh.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Alb">
+      <init_from>SlopeMetalRustGray_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Mtl">
+      <init_from>SlopeMetalRustGray_Mtl.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Nrm">
+      <init_from>SlopeMetalRustGray_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Rgh">
+      <init_from>SlopeMetalRustGray_Rgh.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Alb">
+      <init_from>SpiderIronFrameB00_Alb.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Mtl">
+      <init_from>SpiderIronFrameB00_Mtl.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Nrm">
+      <init_from>SpiderIronFrameB00_Nrm.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Rgh">
+      <init_from>SpiderIronFrameB00_Rgh.png</init_from>
+    </image>
+    <image id="Tape00_Alb">
+      <init_from>Tape00_Alb.png</init_from>
+    </image>
+    <image id="Tape00_Mtl">
+      <init_from>Tape00_Mtl.png</init_from>
+    </image>
+    <image id="Tape00_Nrm">
+      <init_from>Tape00_Nrm.png</init_from>
+    </image>
+    <image id="Tape00_Rgh">
+      <init_from>Tape00_Rgh.png</init_from>
+    </image>
+    <image id="TarpSheet_Alb">
+      <init_from>TarpSheet_Alb.png</init_from>
+    </image>
+    <image id="TarpSheet_Mtl">
+      <init_from>TarpSheet_Mtl.png</init_from>
+    </image>
+    <image id="TarpSheet_Nrm">
+      <init_from>TarpSheet_Nrm.png</init_from>
+    </image>
+    <image id="TarpSheet_Rgh">
+      <init_from>TarpSheet_Rgh.png</init_from>
+    </image>
+    <image id="TclPole00_Alb">
+      <init_from>TclPole00_Alb.png</init_from>
+    </image>
+    <image id="TclPole00_Mtl">
+      <init_from>TclPole00_Mtl.png</init_from>
+    </image>
+    <image id="TclPole00_Nrm">
+      <init_from>TclPole00_Nrm.png</init_from>
+    </image>
+    <image id="TclPole00_Rgh">
+      <init_from>TclPole00_Rgh.png</init_from>
+    </image>
+    <image id="Terrain_Alb">
+      <init_from>Terrain_Alb.png</init_from>
+    </image>
+    <image id="Terrain_Nrm">
+      <init_from>Terrain_Nrm.png</init_from>
+    </image>
+    <image id="Terrain_Rgh">
+      <init_from>Terrain_Rgh.png</init_from>
+    </image>
+    <image id="towerCrane00_Alb">
+      <init_from>towerCrane00_Alb.png</init_from>
+    </image>
+    <image id="towerCrane00_Col">
+      <init_from>towerCrane00_Col.png</init_from>
+    </image>
+    <image id="towerCrane00_Mtl">
+      <init_from>towerCrane00_Mtl.png</init_from>
+    </image>
+    <image id="towerCrane00_Nrm">
+      <init_from>towerCrane00_Nrm.png</init_from>
+    </image>
+    <image id="towerCrane00_Rgh">
+      <init_from>towerCrane00_Rgh.png</init_from>
+    </image>
+    <image id="TransformerBox_Alb">
+      <init_from>TransformerBox_Alb.png</init_from>
+    </image>
+    <image id="TransformerBox_Emi">
+      <init_from>TransformerBox_Emi.png</init_from>
+    </image>
+    <image id="TransformerBox_Mtl">
+      <init_from>TransformerBox_Mtl.png</init_from>
+    </image>
+    <image id="TransformerBox_Nrm">
+      <init_from>TransformerBox_Nrm.png</init_from>
+    </image>
+    <image id="TransformerBox_Rgh">
+      <init_from>TransformerBox_Rgh.png</init_from>
+    </image>
+    <image id="UrbanSet00_Alb">
+      <init_from>UrbanSet00_Alb.png</init_from>
+    </image>
+    <image id="UrbanSet00_Nrm">
+      <init_from>UrbanSet00_Nrm.png</init_from>
+    </image>
+    <image id="UrbanSet00_Rgh">
+      <init_from>UrbanSet00_Rgh.png</init_from>
+    </image>
+    <image id="VenueReel_Alb">
+      <init_from>VenueReel_Alb.png</init_from>
+    </image>
+    <image id="VenueReel_Nrm">
+      <init_from>VenueReel_Nrm.png</init_from>
+    </image>
+    <image id="VenueReel_Rgh">
+      <init_from>VenueReel_Rgh.png</init_from>
+    </image>
+    <image id="VinylSoftWall00_Alb">
+      <init_from>VinylSoftWall00_Alb.png</init_from>
+    </image>
+    <image id="VinylSoftWall00_Nrm">
+      <init_from>VinylSoftWall00_Nrm.png</init_from>
+    </image>
+    <image id="WallFence00_Alb">
+      <init_from>WallFence00_Alb.png</init_from>
+    </image>
+    <image id="WallFence00_Mtl">
+      <init_from>WallFence00_Mtl.png</init_from>
+    </image>
+    <image id="WallFence00_Nrm">
+      <init_from>WallFence00_Nrm.png</init_from>
+    </image>
+    <image id="WallFence00_Opa">
+      <init_from>WallFence00_Opa.png</init_from>
+    </image>
+    <image id="WallFence00_Rgh">
+      <init_from>WallFence00_Rgh.png</init_from>
+    </image>
+    <image id="Wasteland00_Alb">
+      <init_from>Wasteland00_Alb.png</init_from>
+    </image>
+    <image id="Wasteland00_Nrm">
+      <init_from>Wasteland00_Nrm.png</init_from>
+    </image>
+    <image id="Windsock00_Rgh">
+      <init_from>Windsock00_Rgh.png</init_from>
+    </image>
+    <image id="Wire_Alb">
+      <init_from>Wire_Alb.png</init_from>
+    </image>
+    <image id="Wire_Nrm">
+      <init_from>Wire_Nrm.png</init_from>
+    </image>
+    <image id="Wire_Rgh">
+      <init_from>Wire_Rgh.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Alb">
+      <init_from>WoodRepeat00_Alb.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Mtl">
+      <init_from>WoodRepeat00_Mtl.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Nrm">
+      <init_from>WoodRepeat00_Nrm.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Rgh">
+      <init_from>WoodRepeat00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="ContainerWall00">
+      <instance_effect url="#Effect_ContainerWall00" />
+    </material>
+    <material id="MetalPlateSteelRed00">
+      <instance_effect url="#Effect_MetalPlateSteelRed00" />
+    </material>
+    <material id="PaintedVLoop00">
+      <instance_effect url="#Effect_PaintedVLoop00" />
+    </material>
+    <material id="TarpSheet">
+      <instance_effect url="#Effect_TarpSheet" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_ContainerWall00">
+      <profile_COMMON>
+        <newparam sid="surface_ContainerWall00-diffuse">
+          <surface type="2D">
+            <init_from>ContainerWall00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ContainerWall00-diffuse">
+          <sampler2D>
+            <source>surface_ContainerWall00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ContainerWall00-bump">
+          <surface type="2D">
+            <init_from>ContainerWall00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ContainerWall00-bump">
+          <sampler2D>
+            <source>surface_ContainerWall00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_ContainerWall00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_ContainerWall00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_MetalPlateSteelRed00">
+      <profile_COMMON>
+        <newparam sid="surface_MetalPlateSteelRed00-diffuse">
+          <surface type="2D">
+            <init_from>MetalPlateSteelRed00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalPlateSteelRed00-diffuse">
+          <sampler2D>
+            <source>surface_MetalPlateSteelRed00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_MetalPlateSteelRed00-bump">
+          <surface type="2D">
+            <init_from>MetalPlateSteelRed00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_MetalPlateSteelRed00-bump">
+          <sampler2D>
+            <source>surface_MetalPlateSteelRed00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_MetalPlateSteelRed00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_MetalPlateSteelRed00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_PaintedVLoop00">
+      <profile_COMMON>
+        <newparam sid="surface_PaintedVLoop00-diffuse">
+          <surface type="2D">
+            <init_from>PaintedVLoop00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PaintedVLoop00-diffuse">
+          <sampler2D>
+            <source>surface_PaintedVLoop00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_PaintedVLoop00-bump">
+          <surface type="2D">
+            <init_from>PaintedVLoop00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PaintedVLoop00-bump">
+          <sampler2D>
+            <source>surface_PaintedVLoop00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_PaintedVLoop00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_PaintedVLoop00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_TarpSheet">
+      <profile_COMMON>
+        <newparam sid="surface_TarpSheet-diffuse">
+          <surface type="2D">
+            <init_from>TarpSheet_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_TarpSheet-diffuse">
+          <sampler2D>
+            <source>surface_TarpSheet-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_TarpSheet-bump">
+          <surface type="2D">
+            <init_from>TarpSheet_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_TarpSheet-bump">
+          <sampler2D>
+            <source>surface_TarpSheet-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_TarpSheet-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_TarpSheet-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh" name="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00">
+      <mesh>
+        <source id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-position">
+          <float_array id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-position-array" count="558">25.48295 4.558324 -9.411405 25.48299 4.558444 -14.58847 25.20685 4.650359 -9.411407 25.20688 4.650481 -14.58847 25.20685 4.650359 -9.411407 25.20688 4.650481 -14.58847 25.15848 4.613845 -9.360005 25.15847 4.613845 -14.64001 25.48295 4.558324 -9.411405 25.5 4.500001 -9.360001 25.48299 4.558444 -14.58847 25.49999 4.500001 -14.64 25.20688 4.650481 -14.58847 25.48299 4.558444 -14.58847 25.15847 4.613845 -14.64001 25.49999 4.500001 -14.64 25.20685 4.650359 -9.411407 25.15848 4.613845 -9.360005 25.48295 4.558324 -9.411405 25.5 4.500001 -9.360001 25.46702 4.563632 -14.96539 21.06472 6.031202 -14.96539 25.46702 4.563632 -14.67435 21.06472 6.031202 -14.67434 25.46702 4.563632 -14.67435 21.06472 6.031202 -14.67434 25.5 4.500003 -14.64001 21 6.000003 -14.64001 25.46702 4.563632 -14.96539 25.5 4.499999 -15 21.06472 6.031202 -14.96539 21 6 -15 21.06472 6.031202 -14.67434 21.06472 6.031202 -14.96539 21 6.000003 -14.64001 21 6 -15 25.46702 4.563632 -14.67435 25.5 4.500003 -14.64001 25.46702 4.563632 -14.96539 25.5 4.499999 -15 25.46703 4.563632 -9.325389 21.06473 6.031204 -9.325386 25.46703 4.563633 -9.034346 21.06473 6.031204 -9.034341 25.46703 4.563633 -9.034346 21.06473 6.031204 -9.034341 25.5 4.500003 -9.000005 21 6.000004 -9.000005 25.46703 4.563632 -9.325389 25.50001 4.5 -9.360003 21.06473 6.031204 -9.325386 21 6.000001 -9.360005 21.06473 6.031204 -9.034341 21.06473 6.031204 -9.325386 21 6.000004 -9.000005 21 6.000001 -9.360005 25.46703 4.563633 -9.034346 25.5 4.500003 -9.000005 25.46703 4.563632 -9.325389 25.50001 4.5 -9.360003 25.35788 4.607838 -9.565761 25.37355 4.652896 -9.56279 25.29998 4.627101 -9.592321 25.31124 4.673628 -9.591366 25.29229 4.629573 -9.659781 25.30297 4.676284 -9.663965 25.34251 4.612779 -9.700693 25.357 4.658215 -9.707977 25.41931 4.637482 -9.679401 25.4004 4.593517 -9.674137 25.42758 4.634824 -9.606807 25.4081 4.591043 -9.606674 25.37355 4.652896 -9.56279 25.35788 4.607838 -9.565761 25.32294 4.619485 -14.83108 25.34084 4.663799 -14.8317 25.29773 4.627851 -14.77006 25.31371 4.672802 -14.76603 25.23371 4.649101 -14.76198 25.24482 4.695668 -14.75734 25.19488 4.661987 -14.81492 25.20304 4.709531 -14.81431 25.23016 4.700528 -14.87998 25.22008 4.653624 -14.87595 25.29906 4.677664 -14.88867 25.28411 4.632372 -14.88403 25.34084 4.663799 -14.8317 25.32294 4.619485 -14.83108 25.32294 4.619485 -9.191078 25.34085 4.6638 -9.191696 25.29773 4.627852 -9.130058 25.31372 4.672802 -9.126026 25.23371 4.649101 -9.121978 25.24482 4.695668 -9.117337 25.19488 4.661988 -9.174921 25.20305 4.709532 -9.174307 25.23017 4.700529 -9.239978 25.22009 4.653625 -9.235946 25.29906 4.677664 -9.248667 25.28411 4.632372 -9.244032 25.34085 4.6638 -9.191696 25.32294 4.619485 -9.191078 25.34753 4.602487 -14.2911 25.3645 4.651368 -14.28837 25.2877 4.62239 -14.31556 25.3001 4.672791 -14.31468 25.27975 4.62494 -14.37767 25.29155 4.67553 -14.38153 25.33163 4.607584 -14.41533 25.34737 4.656858 -14.42205 25.41177 4.635435 -14.39573 25.39146 4.587682 -14.39088 25.42032 4.632691 -14.3289 25.39941 4.585131 -14.32877 25.3645 4.651368 -14.28837 25.34753 4.602487 -14.2911 21.31179 5.947732 -14.82295 21.33075 5.995951 -14.82359 21.28858 5.955429 -14.7599 21.30578 6.004234 -14.75573 21.22962 5.974984 -14.75155 21.24232 6.025274 -14.74675 21.19388 5.986835 -14.80625 21.20386 6.038029 -14.80561 21.22883 6.029746 -14.87348 21.21708 5.979144 -14.86931 21.29228 6.008706 -14.88246 21.27604 5.959588 -14.87766 21.33075 5.995951 -14.82359 21.31179 5.947732 -14.82295 21.3118 5.947732 -9.182953 21.33076 5.995952 -9.183585 21.28859 5.95543 -9.119902 21.30578 6.004234 -9.115727 21.22962 5.974985 -9.111547 21.24232 6.025275 -9.106746 21.19388 5.986835 -9.166254 21.20387 6.03803 -9.16561 21.22884 6.029746 -9.233479 21.21709 5.979144 -9.22931 21.29229 6.008707 -9.24246 21.27605 5.959589 -9.237664 21.33076 5.995952 -9.183585 21.3118 5.947732 -9.182953 25.42758 4.634824 -9.606807 25.41931 4.637482 -9.679401 25.37114 4.67315 -9.635365 25.37355 4.652896 -9.56279 25.357 4.658215 -9.707977 25.31124 4.673628 -9.591366 25.30297 4.676284 -9.663965 25.29906 4.677664 -14.88867 25.23016 4.700528 -14.87998 25.27783 4.704253 -14.823 25.34084 4.663799 -14.8317 25.20304 4.709531 -14.81431 25.31371 4.672802 -14.76603 25.24482 4.695668 -14.75734 25.29906 4.677664 -9.248667 25.23017 4.700529 -9.239978 25.27783 4.704254 -9.183002 25.34085 4.6638 -9.191696 25.20305 4.709532 -9.174307 25.31372 4.672802 -9.126026 25.24482 4.695668 -9.117337 25.42032 4.632691 -14.3289 25.41177 4.635435 -14.39573 25.3623 4.673198 -14.3552 25.3645 4.651368 -14.28837 25.34737 4.656858 -14.42205 25.3001 4.672791 -14.31468 25.29155 4.67553 -14.38153 21.29228 6.008706 -14.88246 21.22883 6.029746 -14.87348 21.27367 6.036073 -14.8146 21.33075 5.995951 -14.82359 21.20386 6.038029 -14.80561 21.30578 6.004234 -14.75573 21.24232 6.025274 -14.74675 21.29229 6.008707 -9.24246 21.22884 6.029746 -9.233479 21.27367 6.036073 -9.174603 21.33076 5.995952 -9.183585 21.20387 6.03803 -9.16561 21.30578 6.004234 -9.115727 21.24232 6.025275 -9.106746</float_array>
+          <technique_common>
+            <accessor source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-position-array" count="186" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-normal">
+          <float_array id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-normal-array" count="558">0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.3170255 0.9491194 0 -0.6027398 0.7984344 0 -0.6027398 0.7984344 0 -0.6027398 0.7984344 0 -0.6027398 0.7984344 0 0.960861 0.2798434 0 0.960861 0.2798434 0 0.960861 0.2798434 0 0.960861 0.2798434 0 0.2270059 0.6810176 -0.6966732 0.2270059 0.6810176 -0.6966732 0.2270059 0.6810176 -0.6966732 0.2270059 0.6810176 -0.6966732 0.2270059 0.6810176 0.6966732 0.2270059 0.6810176 0.6966732 0.2270059 0.6810176 0.6966732 0.2270059 0.6810176 0.6966732 0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.1780822 0.5362035 0.8238748 0.1780822 0.5362035 0.8238748 0.1780822 0.5362035 0.8238748 0.1780822 0.5362035 0.8238748 0.1800391 0.5401174 -0.8219178 0.1800391 0.5401174 -0.8219178 0.1800391 0.5401174 -0.8219178 0.1800391 0.5401174 -0.8219178 -0.4344423 0.9001957 0 -0.4344423 0.9001957 0 -0.4344423 0.9001957 0 -0.4344423 0.9001957 0 0.888454 0.4598826 0 0.888454 0.4598826 0 0.888454 0.4598826 0 0.888454 0.4598826 0 0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.3170255 0.9491194 0 0.1780822 0.5362035 0.8238748 0.1780822 0.5362035 0.8238748 0.1780822 0.5362035 0.8238748 0.1780822 0.5362035 0.8238748 0.1800391 0.5401174 -0.8219178 0.1800391 0.5401174 -0.8219178 0.1800391 0.5401174 -0.8219178 0.1800391 0.5401174 -0.8219178 -0.4344423 0.9001957 0 -0.4344423 0.9001957 0 -0.4344423 0.9001957 0 -0.4344423 0.9001957 0 0.888454 0.4598826 0 0.888454 0.4598826 0 0.888454 0.4598826 0 0.888454 0.4598826 0 0.09589041 -0.0998043 0.9902152 0.0998043 -0.0998043 0.9902152 -0.7808219 0.1761252 0.5988258 -0.7925636 0.1800391 0.5812133 -0.9138943 0.1761252 -0.3679061 -0.9041096 0.1722113 -0.3913894 -0.1663405 -0.1037182 -0.9804305 -0.1624266 -0.1056751 -0.9804305 0.7084149 -0.3757339 -0.5968689 0.7221135 -0.3796478 -0.5772994 0.849315 -0.3776908 0.369863 0.8414873 -0.3737769 0.3913894 0.0998043 -0.0998043 0.9902152 0.09589041 -0.0998043 0.9902152 0.9197652 -0.3737769 -0.1232877 0.9197652 -0.3737769 -0.1272016 0.5420744 -0.2641879 0.7964775 0.5264188 -0.260274 0.8101761 -0.3874756 0 0.9217221 -0.4109589 0.007827789 0.9119374 -0.9784736 0.1663405 0.1252446 -0.9784736 0.1663405 0.1213307 -0.6086106 0.06262231 -0.7906067 -0.5909981 0.05675147 -0.8062623 0.3228963 -0.2015656 -0.925636 0.3444227 -0.2074364 -0.9158513 0.9197652 -0.3737769 -0.1272016 0.9197652 -0.3737769 -0.1232877 0.9197652 -0.3737769 -0.1232877 0.9197652 -0.3737769 -0.1272016 0.5420744 -0.2641879 0.7964775 0.5264188 -0.260274 0.8101761 -0.3874756 0 0.9217221 -0.4109589 0.007827789 0.9119374 -0.9784736 0.1663405 0.1252446 -0.9784736 0.1663405 0.1213307 -0.6086106 0.06262231 -0.7906067 -0.5909981 0.05675147 -0.8062623 0.3228963 -0.2015656 -0.925636 0.3444227 -0.2074364 -0.9158513 0.9197652 -0.3737769 -0.1272016 0.9197652 -0.3737769 -0.1232877 0.08610567 -0.08610567 0.9921722 0.09001957 -0.08610567 0.9921722 -0.7455969 0.1722113 0.6438356 -0.7592955 0.1761252 0.6262231 -0.8943248 0.1780822 -0.4109589 -0.8864971 0.1741683 -0.4266145 -0.146771 -0.08806262 -0.9863014 -0.1448141 -0.08806262 -0.9863014 0.6829746 -0.3561644 -0.6379648 0.6927593 -0.3581213 -0.6262231 0.8356164 -0.3659491 0.4090019 0.8258317 -0.3620352 0.4305284 0.09001957 -0.08610567 0.9921722 0.08610567 -0.08610567 0.9921722 0.9236791 -0.3639922 -0.109589 0.9236791 -0.3639922 -0.1135029 0.5870842 -0.2720157 0.7632094 0.5694716 -0.2681018 0.776908 -0.4246575 0.02152642 0.9041096 -0.4422701 0.02544031 0.8962818 -0.9765166 0.1898239 0.111546 -0.9765166 0.1898239 0.109589 -0.6438356 0.08610567 -0.7612525 -0.6320939 0.08414873 -0.7710372 0.3600783 -0.2074364 -0.9099804 0.3835616 -0.2152642 -0.8982387 0.9236791 -0.3639922 -0.1135029 0.9236791 -0.3639922 -0.109589 0.9236791 -0.3639922 -0.109589 0.9236791 -0.3639922 -0.1135029 0.5870842 -0.2720157 0.7632094 0.5694716 -0.2681018 0.776908 -0.4246575 0.02152642 0.9041096 -0.4422701 0.02544031 0.8962818 -0.9765166 0.1898239 0.111546 -0.9765166 0.1898239 0.109589 -0.6438356 0.08610567 -0.7612525 -0.6320939 0.08414873 -0.7710372 0.3600783 -0.2074364 -0.9099804 0.3835616 -0.2152642 -0.8982387 0.9236791 -0.3639922 -0.1135029 0.9236791 -0.3639922 -0.109589 0.5244619 0.8454012 0.09589041 0.4951076 0.8551859 -0.1506849 0.3170255 0.9491194 -0.001956947 0.334638 0.9099804 0.2426614 0.2778865 0.9295499 -0.2446184 0.1174168 0.9823875 0.148728 0.08610567 0.9921722 -0.09784736 0.3972603 0.888454 -0.2309198 0.1624266 0.9667319 -0.1996086 0.3150685 0.9491194 0 0.5362035 0.8434442 -0.02935421 0.07436399 0.9960861 0.02935421 0.4461839 0.8727984 0.1996086 0.2133072 0.9491194 0.2309198 0.3972603 0.888454 -0.2309198 0.1624266 0.9667319 -0.1996086 0.3150685 0.9491194 0 0.5362035 0.8434442 -0.02935421 0.07436399 0.9960861 0.02935421 0.4461839 0.8727984 0.1996086 0.2133072 0.9491194 0.2309198 0.5362035 0.8375734 0.1037182 0.5088063 0.8454012 -0.1663405 0.3170255 0.9491194 -0.001956947 0.334638 0.8982387 0.2818004 0.2700587 0.9197652 -0.2857143 0.0998043 0.9804305 0.1643836 0.07240704 0.9921722 -0.1076321 0.4031311 0.8806262 -0.2446184 0.146771 0.964775 -0.2152642 0.3150685 0.9491194 0 0.5714286 0.8199608 -0.0332681 0.0332681 0.9980431 0.0332681 0.4598826 0.8610567 0.2152642 0.2035225 0.9491194 0.2446184 0.4031311 0.8806262 -0.2446184 0.146771 0.964775 -0.2152642 0.3150685 0.9491194 0 0.5714286 0.8199608 -0.0332681 0.0332681 0.9980431 0.0332681 0.4598826 0.8610567 0.2152642 0.2035225 0.9491194 0.2446184</float_array>
+          <technique_common>
+            <accessor source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-normal-array" count="186" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord">
+          <float_array id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord-array" count="372">0.2836914 -0.7460938 0.2836914 0.9267578 0.1787109 -0.7460938 0.1787109 0.9267578 0.4008789 0.2001953 0.4008789 -0.6015625 0.411377 0.2094727 0.411377 -0.6103516 0.4008789 0.8352051 0.411377 0.8262939 0.4008789 1.635254 0.411377 1.644043 0.4008789 -0.46875 0.4008789 -0.5117188 0.411377 -0.4638672 0.411377 -0.5166016 0.3977051 1.505859 0.4082031 1.500977 0.3977051 1.548828 0.4082031 1.553711 0.2836914 -0.7460938 0.2836914 0.9267578 0.1787109 -0.7460938 0.1787109 0.9267578 0.4008789 0.2001953 0.4008789 -0.6015625 0.411377 0.2094727 0.411377 -0.6103516 0.4008789 0.8352051 0.411377 0.8262939 0.4008789 1.635254 0.411377 1.644043 0.4008789 -0.46875 0.4008789 -0.5117188 0.411377 -0.4638672 0.411377 -0.5166016 0.3977051 1.505859 0.4082031 1.500977 0.3977051 1.548828 0.4082031 1.553711 0.2836914 -0.7460938 0.2836914 0.9267578 0.1787109 -0.7460938 0.1787109 0.9267578 0.4008789 0.2001953 0.4008789 -0.6015625 0.411377 0.2094727 0.411377 -0.6103516 0.4008789 0.8352051 0.411377 0.8262939 0.4008789 1.635254 0.411377 1.644043 0.4008789 -0.46875 0.4008789 -0.5117188 0.411377 -0.4638672 0.411377 -0.5166016 0.3977051 1.505859 0.4082031 1.500977 0.3977051 1.548828 0.4082031 1.553711 0.3950195 0.3730469 0.3793945 0.3764648 0.3903809 0.3500977 0.3745117 0.3530273 0.3852539 0.3261719 0.3693848 0.3286133 0.380127 0.3022461 0.3642578 0.3051758 0.359375 0.2817383 0.3747559 0.277832 0.354248 0.2578125 0.369873 0.2539063 0.3491211 0.2333984 0.3647461 0.2299805 0.3950195 0.3730469 0.3793945 0.3764648 0.3903809 0.3500977 0.3745117 0.3530273 0.3852539 0.3261719 0.3693848 0.3286133 0.380127 0.3022461 0.3642578 0.3051758 0.359375 0.2817383 0.3747559 0.277832 0.354248 0.2578125 0.369873 0.2539063 0.3491211 0.2333984 0.3647461 0.2299805 0.3950195 0.3730469 0.3793945 0.3764648 0.3903809 0.3500977 0.3745117 0.3530273 0.3852539 0.3261719 0.3693848 0.3286133 0.380127 0.3022461 0.3642578 0.3051758 0.359375 0.2817383 0.3747559 0.277832 0.354248 0.2578125 0.369873 0.2539063 0.3491211 0.2333984 0.3647461 0.2299805 0.3950195 0.3730469 0.3793945 0.3764648 0.3903809 0.3500977 0.3745117 0.3530273 0.3852539 0.3261719 0.3693848 0.3286133 0.380127 0.3022461 0.3642578 0.3051758 0.359375 0.2817383 0.3747559 0.277832 0.354248 0.2578125 0.369873 0.2539063 0.3491211 0.2333984 0.3647461 0.2299805 0.3950195 0.3730469 0.3793945 0.3764648 0.3903809 0.3500977 0.3745117 0.3530273 0.3852539 0.3261719 0.3693848 0.3286133 0.380127 0.3022461 0.3642578 0.3051758 0.359375 0.2817383 0.3747559 0.277832 0.354248 0.2578125 0.369873 0.2539063 0.3491211 0.2333984 0.3647461 0.2299805 0.3950195 0.3730469 0.3793945 0.3764648 0.3903809 0.3500977 0.3745117 0.3530273 0.3852539 0.3261719 0.3693848 0.3286133 0.380127 0.3022461 0.3642578 0.3051758 0.359375 0.2817383 0.3747559 0.277832 0.354248 0.2578125 0.369873 0.2539063 0.3491211 0.2333984 0.3647461 0.2299805 0.3312988 0.362793 0.3259277 0.3374023 0.3503418 0.3452148 0.3554688 0.3706055 0.3449707 0.3203125 0.3745117 0.3530273 0.3693848 0.3286133 0.3312988 0.362793 0.3259277 0.3374023 0.3503418 0.3452148 0.3554688 0.3706055 0.3449707 0.3203125 0.3745117 0.3530273 0.3693848 0.3286133 0.3312988 0.362793 0.3259277 0.3374023 0.3503418 0.3452148 0.3554688 0.3706055 0.3449707 0.3203125 0.3745117 0.3530273 0.3693848 0.3286133 0.3312988 0.362793 0.3259277 0.3374023 0.3503418 0.3452148 0.3554688 0.3706055 0.3449707 0.3203125 0.3745117 0.3530273 0.3693848 0.3286133 0.3312988 0.362793 0.3259277 0.3374023 0.3503418 0.3452148 0.3554688 0.3706055 0.3449707 0.3203125 0.3745117 0.3530273 0.3693848 0.3286133 0.3312988 0.362793 0.3259277 0.3374023 0.3503418 0.3452148 0.3554688 0.3706055 0.3449707 0.3203125 0.3745117 0.3530273 0.3693848 0.3286133</float_array>
+          <technique_common>
+            <accessor source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord-array" count="186" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord_1">
+          <float_array id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord-array_1" count="372">0.144152 0.009903133 0.144152 0.9900969 0.08267338 0.009903133 0.08267338 0.9900969 0.2478828 0.485069 0.2478828 0.0151217 0.2540322 0.4902724 0.2540322 0.009903133 0.300618 0.01509118 0.3067521 0.009903133 0.300618 0.4837873 0.3067521 0.4889906 0.7224079 0.03773558 0.7224079 0.01286334 0.7285573 0.04068053 0.7285573 0.009903133 0.6696879 0.01284808 0.6758221 0.009903133 0.6696879 0.03779662 0.6758221 0.04074156 0.2179751 0.009903133 0.2179751 0.9900969 0.1564965 0.009903133 0.1564965 0.9900969 0.2654612 0.485069 0.2654612 0.0151217 0.2716106 0.4902724 0.2716106 0.009903133 0.3181811 0.01509118 0.3243305 0.009903133 0.3181811 0.4837873 0.3243305 0.4889906 0.7399862 0.03773558 0.7399862 0.01286334 0.7461357 0.04068053 0.7461357 0.009903133 0.6872663 0.01284808 0.6934005 0.009903133 0.6872663 0.03779662 0.6934005 0.04074156 0.07016098 0.009903133 0.07016098 0.9900969 0.008682383 0.009903133 0.008682383 0.9900969 0.2303044 0.485069 0.2303044 0.0151217 0.2364538 0.4902724 0.2364538 0.009903133 0.2830396 0.01509118 0.2891737 0.009903133 0.2830396 0.4837873 0.2891737 0.4889906 0.7048447 0.03773558 0.7048447 0.01286334 0.7109789 0.04068053 0.7109789 0.009903133 0.6521096 0.01284808 0.658259 0.009903133 0.6521096 0.03779662 0.658259 0.04074156 0.4816663 0.0936141 0.4725109 0.09565878 0.4788891 0.08033878 0.4695964 0.08187991 0.4758831 0.0662089 0.4665751 0.067689 0.4728923 0.05210954 0.4636606 0.05401695 0.4607309 0.04019225 0.4698558 0.03782713 0.4577554 0.02623028 0.466865 0.02380407 0.4547036 0.01185626 0.4638895 0.009903133 0.5871214 0.0936141 0.577966 0.09565878 0.5843443 0.08033878 0.5750362 0.08187991 0.5813382 0.0662089 0.5720302 0.067689 0.5783474 0.05210954 0.5691158 0.05401695 0.566186 0.04019225 0.5753109 0.03782713 0.5632105 0.02623028 0.5723202 0.02380407 0.5601587 0.01185626 0.5693294 0.009903133 0.3762265 0.0936141 0.367071 0.09565878 0.373434 0.08033878 0.3641413 0.08187991 0.370428 0.0662089 0.36112 0.067689 0.3674372 0.05210954 0.3582208 0.05401695 0.3552758 0.04019225 0.3644007 0.03782713 0.3523155 0.02623028 0.3614252 0.02380407 0.3492485 0.01185626 0.3584344 0.009903133 0.5344015 0.0936141 0.525246 0.09565878 0.5316091 0.08033878 0.5223163 0.08187991 0.5286183 0.0662089 0.519295 0.067689 0.5256123 0.05210954 0.5163958 0.05401695 0.5134508 0.04019225 0.5225757 0.03782713 0.5104906 0.02623028 0.5196002 0.02380407 0.5074235 0.01185626 0.5166094 0.009903133 0.6398413 0.0936141 0.6307011 0.09565878 0.6370642 0.08033878 0.6277714 0.08187991 0.6340581 0.0662089 0.6247501 0.067689 0.6310674 0.05210954 0.6218509 0.05401695 0.6189059 0.04019225 0.6280308 0.03782713 0.6159304 0.02623028 0.6250553 0.02380407 0.6128786 0.01185626 0.6220645 0.009903133 0.4289464 0.0936141 0.419791 0.09565878 0.4261692 0.08033878 0.4168612 0.08187991 0.4231632 0.0662089 0.4138399 0.067689 0.4201724 0.05210954 0.4109407 0.05401695 0.408011 0.04019225 0.4171359 0.03782713 0.4050355 0.02623028 0.4141451 0.02380407 0.4019837 0.01185626 0.4111544 0.009903133 0.4443427 0.08749521 0.4412146 0.07289237 0.4554208 0.07747006 0.4585489 0.09208822 0.4523079 0.06286716 0.4695964 0.08187991 0.4665751 0.067689 0.5497978 0.08749521 0.5466697 0.07289237 0.5608759 0.07747006 0.5640039 0.09208822 0.557763 0.06286716 0.5750362 0.08187991 0.5720302 0.067689 0.3389029 0.08749521 0.3357595 0.07289237 0.3499809 0.07747006 0.3530938 0.09208822 0.3468681 0.06286716 0.3641413 0.08187991 0.36112 0.067689 0.4970779 0.08749521 0.4939345 0.07289237 0.5081559 0.07747006 0.5112688 0.09208822 0.5050431 0.06286716 0.5223163 0.08187991 0.519295 0.067689 0.6025177 0.08749521 0.5993896 0.07289237 0.613611 0.07747006 0.6167239 0.09208822 0.6104829 0.06286716 0.6277714 0.08187991 0.6247501 0.067689 0.3916228 0.08749521 0.3884794 0.07289237 0.4027008 0.07747006 0.405829 0.09208822 0.399588 0.06286716 0.4168612 0.08187991 0.4138399 0.067689</float_array>
+          <technique_common>
+            <accessor source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord-array_1" count="186" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-vertex">
+          <input semantic="POSITION" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-position" />
+        </vertices>
+        <triangles material="PaintedVLoop00" count="138">
+          <input semantic="VERTEX" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 62 62 62 62 63 63 63 63 64 64 64 64 63 63 63 63 65 65 65 65 64 64 64 64 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 66 66 66 66 67 67 67 67 68 68 68 68 69 69 69 69 66 66 66 66 68 68 68 68 69 69 69 69 68 68 68 68 70 70 70 70 71 71 71 71 69 69 69 69 70 70 70 70 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 71 71 71 71 72 72 72 72 74 74 74 74 75 75 75 75 76 76 76 76 75 75 75 75 77 77 77 77 76 76 76 76 76 76 76 76 77 77 77 77 78 78 78 78 77 77 77 77 79 79 79 79 78 78 78 78 78 78 78 78 79 79 79 79 80 80 80 80 79 79 79 79 81 81 81 81 80 80 80 80 80 80 80 80 81 81 81 81 82 82 82 82 83 83 83 83 80 80 80 80 82 82 82 82 83 83 83 83 82 82 82 82 84 84 84 84 85 85 85 85 83 83 83 83 84 84 84 84 85 85 85 85 84 84 84 84 86 86 86 86 87 87 87 87 85 85 85 85 86 86 86 86 88 88 88 88 89 89 89 89 90 90 90 90 89 89 89 89 91 91 91 91 90 90 90 90 90 90 90 90 91 91 91 91 92 92 92 92 91 91 91 91 93 93 93 93 92 92 92 92 92 92 92 92 93 93 93 93 94 94 94 94 93 93 93 93 95 95 95 95 94 94 94 94 94 94 94 94 95 95 95 95 96 96 96 96 97 97 97 97 94 94 94 94 96 96 96 96 97 97 97 97 96 96 96 96 98 98 98 98 99 99 99 99 97 97 97 97 98 98 98 98 99 99 99 99 98 98 98 98 100 100 100 100 101 101 101 101 99 99 99 99 100 100 100 100 102 102 102 102 103 103 103 103 104 104 104 104 103 103 103 103 105 105 105 105 104 104 104 104 104 104 104 104 105 105 105 105 106 106 106 106 105 105 105 105 107 107 107 107 106 106 106 106 106 106 106 106 107 107 107 107 108 108 108 108 107 107 107 107 109 109 109 109 108 108 108 108 108 108 108 108 109 109 109 109 110 110 110 110 111 111 111 111 108 108 108 108 110 110 110 110 111 111 111 111 110 110 110 110 112 112 112 112 113 113 113 113 111 111 111 111 112 112 112 112 113 113 113 113 112 112 112 112 114 114 114 114 115 115 115 115 113 113 113 113 114 114 114 114 116 116 116 116 117 117 117 117 118 118 118 118 117 117 117 117 119 119 119 119 118 118 118 118 118 118 118 118 119 119 119 119 120 120 120 120 119 119 119 119 121 121 121 121 120 120 120 120 120 120 120 120 121 121 121 121 122 122 122 122 121 121 121 121 123 123 123 123 122 122 122 122 122 122 122 122 123 123 123 123 124 124 124 124 125 125 125 125 122 122 122 122 124 124 124 124 125 125 125 125 124 124 124 124 126 126 126 126 127 127 127 127 125 125 125 125 126 126 126 126 127 127 127 127 126 126 126 126 128 128 128 128 129 129 129 129 127 127 127 127 128 128 128 128 130 130 130 130 131 131 131 131 132 132 132 132 131 131 131 131 133 133 133 133 132 132 132 132 132 132 132 132 133 133 133 133 134 134 134 134 133 133 133 133 135 135 135 135 134 134 134 134 134 134 134 134 135 135 135 135 136 136 136 136 135 135 135 135 137 137 137 137 136 136 136 136 136 136 136 136 137 137 137 137 138 138 138 138 139 139 139 139 136 136 136 136 138 138 138 138 139 139 139 139 138 138 138 138 140 140 140 140 141 141 141 141 139 139 139 139 140 140 140 140 141 141 141 141 140 140 140 140 142 142 142 142 143 143 143 143 141 141 141 141 142 142 142 142 144 144 144 144 145 145 145 145 146 146 146 146 147 147 147 147 144 144 144 144 146 146 146 146 145 145 145 145 148 148 148 148 146 146 146 146 149 149 149 149 147 147 147 147 146 146 146 146 148 148 148 148 150 150 150 150 146 146 146 146 150 150 150 150 149 149 149 149 146 146 146 146 151 151 151 151 152 152 152 152 153 153 153 153 154 154 154 154 151 151 151 151 153 153 153 153 152 152 152 152 155 155 155 155 153 153 153 153 156 156 156 156 154 154 154 154 153 153 153 153 155 155 155 155 157 157 157 157 153 153 153 153 157 157 157 157 156 156 156 156 153 153 153 153 158 158 158 158 159 159 159 159 160 160 160 160 161 161 161 161 158 158 158 158 160 160 160 160 159 159 159 159 162 162 162 162 160 160 160 160 163 163 163 163 161 161 161 161 160 160 160 160 162 162 162 162 164 164 164 164 160 160 160 160 164 164 164 164 163 163 163 163 160 160 160 160 165 165 165 165 166 166 166 166 167 167 167 167 168 168 168 168 165 165 165 165 167 167 167 167 166 166 166 166 169 169 169 169 167 167 167 167 170 170 170 170 168 168 168 168 167 167 167 167 169 169 169 169 171 171 171 171 167 167 167 167 171 171 171 171 170 170 170 170 167 167 167 167 172 172 172 172 173 173 173 173 174 174 174 174 175 175 175 175 172 172 172 172 174 174 174 174 173 173 173 173 176 176 176 176 174 174 174 174 177 177 177 177 175 175 175 175 174 174 174 174 176 176 176 176 178 178 178 178 174 174 174 174 178 178 178 178 177 177 177 177 174 174 174 174 179 179 179 179 180 180 180 180 181 181 181 181 182 182 182 182 179 179 179 179 181 181 181 181 180 180 180 180 183 183 183 183 181 181 181 181 184 184 184 184 182 182 182 182 181 181 181 181 183 183 183 183 185 185 185 185 181 181 181 181 185 185 185 185 184 184 184 184 181 181 181 181 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pPlane2793__ContainerWall00-mesh" name="pPlane2793__ContainerWall00">
+      <mesh>
+        <source id="pPlane2793__ContainerWall00-position">
+          <float_array id="pPlane2793__ContainerWall00-position-array" count="9">21 6 -9.000003 21 4.5 -9.000003 25.5 4.5 -9.000003</float_array>
+          <technique_common>
+            <accessor source="#pPlane2793__ContainerWall00-position-array" count="3" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2793__ContainerWall00-normal">
+          <float_array id="pPlane2793__ContainerWall00-normal-array" count="9">0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2793__ContainerWall00-normal-array" count="3" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2793__ContainerWall00-texcoord">
+          <float_array id="pPlane2793__ContainerWall00-texcoord-array" count="6">1.876953 0.1826172 1.501953 0.1826172 1.501953 -0.9423828</float_array>
+          <technique_common>
+            <accessor source="#pPlane2793__ContainerWall00-texcoord-array" count="3" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2793__ContainerWall00-texcoord_1">
+          <float_array id="pPlane2793__ContainerWall00-texcoord-array_1" count="6">0.3333639 0.9900969 0.006637675 0.9900969 0.006637675 0.009903133</float_array>
+          <technique_common>
+            <accessor source="#pPlane2793__ContainerWall00-texcoord-array_1" count="3" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane2793__ContainerWall00-vertex">
+          <input semantic="POSITION" source="#pPlane2793__ContainerWall00-position" />
+        </vertices>
+        <triangles material="ContainerWall00" count="1">
+          <input semantic="VERTEX" source="#pPlane2793__ContainerWall00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pPlane2793__ContainerWall00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pPlane2793__ContainerWall00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pPlane2793__ContainerWall00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pPlane2800__TarpSheet-mesh" name="pPlane2800__TarpSheet">
+      <mesh>
+        <source id="pPlane2800__TarpSheet-position">
+          <float_array id="pPlane2800__TarpSheet-position-array" count="27">21 5.95789 -14.85 25.5 4.457889 -14.85 25.5 4.457889 -14.90723 21 5.95789 -14.90723 21 4.457889 -14.85 21 4.457889 -14.90723 24.9283 4.550663 -15 21.09277 5.829172 -15 21.09277 4.550663 -15</float_array>
+          <technique_common>
+            <accessor source="#pPlane2800__TarpSheet-position-array" count="9" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2800__TarpSheet-normal">
+          <float_array id="pPlane2800__TarpSheet-normal-array" count="27">0 1 0 1 0 0 0.6751468 0 -0.7377691 0 0.8571429 -0.5146771 -0.3170255 -0.9491194 0 -0.2700587 -0.8121331 -0.516634 0.1193738 0 -0.9921722 0 0.2054795 -0.9784736 -0.05479452 -0.1663405 -0.9843444</float_array>
+          <technique_common>
+            <accessor source="#pPlane2800__TarpSheet-normal-array" count="9" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2800__TarpSheet-texcoord">
+          <float_array id="pPlane2800__TarpSheet-texcoord-array" count="18">0.1949645 0.6107576 0.806424 0.398291 0.8051423 0.3983063 0.194995 0.6052186 0.191577 0.3884947 0.1935302 0.3942321 0.7270466 0.4107881 0.2072785 0.5840391 0.2072785 0.4107881</float_array>
+          <technique_common>
+            <accessor source="#pPlane2800__TarpSheet-texcoord-array" count="9" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2800__TarpSheet-texcoord_1">
+          <float_array id="pPlane2800__TarpSheet-texcoord-array_1" count="18">0.006775006 0.9846952 0.3454795 0.009903133 0.3454643 0.01194781 0.01559472 0.9846647 0.36112 0.9900969 0.3519493 0.9869993 0.3255665 0.1364614 0.04936294 0.9650721 0.3255665 0.9650721</float_array>
+          <technique_common>
+            <accessor source="#pPlane2800__TarpSheet-texcoord-array_1" count="9" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pPlane2800__TarpSheet-vertex">
+          <input semantic="POSITION" source="#pPlane2800__TarpSheet-position" />
+        </vertices>
+        <triangles material="TarpSheet" count="13">
+          <input semantic="VERTEX" source="#pPlane2800__TarpSheet-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pPlane2800__TarpSheet-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pPlane2800__TarpSheet-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pPlane2800__TarpSheet-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 0 0 0 0 3 3 3 3 1 1 1 1 4 4 4 4 5 5 5 5 2 2 2 2 1 1 1 1 5 5 5 5 5 5 5 5 4 4 4 4 3 3 3 3 3 3 3 3 2 2 2 2 6 6 6 6 2 2 2 2 5 5 5 5 6 6 6 6 5 5 5 5 3 3 3 3 7 7 7 7 7 7 7 7 3 3 3 3 6 6 6 6 8 8 8 8 5 5 5 5 7 7 7 7 7 7 7 7 6 6 6 6 8 8 8 8 5 5 5 5 8 8 8 8 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface836255198__MetalPlateSteelRed00-mesh" name="polySurface836255198__MetalPlateSteelRed00">
+      <mesh>
+        <source id="polySurface836255198__MetalPlateSteelRed00-position">
+          <float_array id="polySurface836255198__MetalPlateSteelRed00-position-array" count="198">25.5 4.447626 -14.65688 25.5 4.447626 -15 25.5 4.5 -15 25.5 4.5 -14.65688 25.5 4.447626 -9.376177 25.5 4.447626 -14.65688 25.5 4.5 -9.376177 25.5 4.447626 -9.000003 25.5 4.5 -9.000003 21 5.947626 -9.376177 21 5.947626 -9.000003 21 6 -9.000003 21 6 -9.376177 21 5.947626 -14.65688 21 5.947626 -9.376177 21 6 -14.65688 21 5.947626 -15 21 6 -15 21 6 -9.000003 21 5.947626 -9.000003 21.3359 5.888031 -9.000003 21.3359 5.835659 -9.000003 25.19165 4.602782 -9.000003 25.19165 4.550408 -9.000003 25.5 4.5 -9.000003 25.5 4.447626 -9.000003 21 5.947626 -15 21 6 -15 21.3359 5.888031 -15 21.3359 5.835659 -15 25.19165 4.550408 -15 25.19165 4.602782 -15 25.5 4.5 -15 25.5 4.447626 -15 21 5.947626 -9.000003 21 5.947626 -9.376177 21.3359 5.835659 -9.000003 21.3359 5.835659 -9.376177 21 5.947626 -14.65688 25.19165 4.550408 -9.000003 21.3359 5.835659 -14.65688 25.19165 4.550408 -9.376177 21 5.947626 -15 25.5 4.447626 -9.000003 21.3359 5.835659 -15 25.5 4.447626 -9.376177 25.19165 4.550408 -15 25.19165 4.550408 -14.65688 25.5 4.447626 -14.65688 25.5 4.447626 -15 21 6 -9.000003 21.3359 5.888031 -9.000003 21 6 -9.376177 21.3359 5.888031 -9.376177 21 6 -14.65688 25.19165 4.602782 -9.000003 21.3359 5.888031 -14.65688 21 6 -15 21.3359 5.888031 -15 25.19165 4.602782 -15 25.19165 4.602782 -9.376177 25.5 4.5 -9.000003 25.5 4.5 -9.376177 25.19165 4.602782 -14.65688 25.5 4.5 -15 25.5 4.5 -14.65688</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255198__MetalPlateSteelRed00-position-array" count="66" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255198__MetalPlateSteelRed00-normal">
+          <float_array id="polySurface836255198__MetalPlateSteelRed00-normal-array" count="198">-0.1604697 -0.9863014 0 -0.1604697 -0.9804305 -0.1193738 0.444227 0.8806262 -0.1624266 0.4500979 0.8923679 0 -0.1604697 -0.9863014 0 -0.1604697 -0.9863014 0 0.4500979 0.8923679 0 -0.1604697 -0.9804305 0.109589 0.444227 0.8825831 0.148728 -0.4403131 -0.8982387 0 -0.4344423 -0.888454 0.148728 0.1741683 0.9784736 0.1076321 0.1741683 0.9843444 0 -0.4403131 -0.8982387 0 -0.4403131 -0.8982387 0 0.1741683 0.9843444 0 -0.4344423 -0.8864971 -0.1624266 0.1741683 0.9784736 -0.1193738 0.1741683 0.9784736 0.1076321 -0.4344423 -0.888454 0.148728 0.3150685 0.9432485 0.109589 -0.3131115 -0.9373777 0.1526419 0.3131115 0.9373777 0.1526419 -0.3150685 -0.9432485 0.1076321 0.444227 0.8825831 0.148728 -0.1604697 -0.9804305 0.109589 -0.4344423 -0.8864971 -0.1624266 0.1741683 0.9784736 -0.1193738 0.3131115 0.9412916 -0.1193738 -0.3111546 -0.9354208 -0.1682975 -0.3131115 -0.9412916 -0.1193738 0.3111546 0.9354208 -0.1682975 0.444227 0.8806262 -0.1624266 -0.1604697 -0.9804305 -0.1193738 -0.4344423 -0.888454 0.148728 -0.4403131 -0.8982387 0 -0.3131115 -0.9373777 0.1526419 -0.3170255 -0.9491194 0 -0.4403131 -0.8982387 0 -0.3150685 -0.9432485 0.1076321 -0.3170255 -0.9491194 0 -0.3170255 -0.9491194 0 -0.4344423 -0.8864971 -0.1624266 -0.1604697 -0.9804305 0.109589 -0.3111546 -0.9354208 -0.1682975 -0.1604697 -0.9863014 0 -0.3131115 -0.9412916 -0.1193738 -0.3170255 -0.9491194 0 -0.1604697 -0.9863014 0 -0.1604697 -0.9804305 -0.1193738 0.1741683 0.9784736 0.1076321 0.3150685 0.9432485 0.109589 0.1741683 0.9843444 0 0.3170255 0.9491194 0 0.1741683 0.9843444 0 0.3131115 0.9373777 0.1526419 0.3170255 0.9491194 0 0.1741683 0.9784736 -0.1193738 0.3131115 0.9412916 -0.1193738 0.3111546 0.9354208 -0.1682975 0.3170255 0.9491194 0 0.444227 0.8825831 0.148728 0.4500979 0.8923679 0 0.3170255 0.9491194 0 0.444227 0.8806262 -0.1624266 0.4500979 0.8923679 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255198__MetalPlateSteelRed00-normal-array" count="66" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255198__MetalPlateSteelRed00-texcoord">
+          <float_array id="polySurface836255198__MetalPlateSteelRed00-texcoord-array" count="132">2.607422 0.7937012 2.591797 0.7937012 2.599609 0.7937012 2.607422 0.7937012 2.779297 0.7937012 2.607422 0.7937012 2.779297 0.7937012 2.794922 0.7937012 2.789063 0.7937012 2.605469 -0.3603516 2.597656 -0.3603516 2.589844 -0.3603516 2.605469 -0.3603516 2.783203 -0.3603516 2.605469 -0.3603516 2.783203 -0.3603516 2.792969 -0.3603516 2.798828 -0.3603516 2.589844 -0.3603516 2.597656 -0.3603516 2.595703 -0.2744141 2.609375 -0.2744141 2.779297 0.7145996 2.791016 0.7145996 2.789063 0.7937012 2.794922 0.7937012 2.792969 -0.3603516 2.798828 -0.3603516 2.792969 -0.2744141 2.779297 -0.2744141 2.597656 0.7145996 2.611328 0.7145996 2.599609 0.7937012 2.591797 0.7937012 1.962891 -0.3603516 2.054688 -0.3603516 1.962891 -0.2744141 2.054688 -0.2744141 3.339844 -0.3603516 1.959961 0.7145996 3.339844 -0.2744141 2.050781 0.7145996 3.423828 -0.3603516 1.959961 0.7937012 3.423828 -0.2744141 2.050781 0.7937012 3.419922 0.7145996 3.337891 0.7145996 3.337891 0.7937012 3.419922 0.7937012 1.670898 -0.2998047 1.670898 -0.2138672 1.574219 -0.2998047 1.574219 -0.2138672 0.2193604 -0.2998047 1.670898 0.7751465 0.2193604 -0.2138672 0.1313477 -0.2998047 0.1313477 -0.2138672 0.1313477 0.7751465 1.574219 0.7751465 1.670898 0.854248 1.574219 0.854248 0.2193604 0.7751465 0.1313477 0.854248 0.2193604 0.854248</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255198__MetalPlateSteelRed00-texcoord-array" count="66" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255198__MetalPlateSteelRed00-texcoord_1">
+          <float_array id="polySurface836255198__MetalPlateSteelRed00-texcoord-array_1" count="132">0.8290226 0.9900969 0.8237888 0.9900969 0.8260471 0.9900969 0.8290226 0.9900969 0.8930495 0.9900969 0.8290226 0.9900969 0.8930495 0.9900969 0.8989547 0.9900969 0.8968185 0.9900969 0.8287175 0.5617914 0.8252842 0.5617914 0.8230259 0.5617914 0.8287022 0.5617914 0.8946365 0.5617914 0.8287175 0.5617914 0.8946365 0.5617914 0.8977493 0.5617914 0.9001144 0.5617914 0.8230259 0.5617914 0.8252842 0.5617914 0.8250248 0.5937591 0.8297856 0.5937591 0.8927138 0.9607538 0.8974746 0.9607538 0.8968185 0.9900969 0.8989547 0.9900969 0.8977493 0.5617914 0.9001144 0.5617914 0.8978409 0.5937591 0.8930801 0.5937591 0.8255741 0.9607538 0.830335 0.9607538 0.8260471 0.9900969 0.8237888 0.9900969 0.4497139 0.5517968 0.4497139 0.5177844 0.4816816 0.551751 0.4816816 0.5177844 0.4497139 0.04093993 0.8486763 0.5527581 0.4816816 0.04093993 0.8486763 0.5187915 0.4497139 0.009903133 0.8780194 0.5528191 0.4816816 0.009964168 0.8780194 0.5187915 0.8486763 0.01100177 0.8486763 0.04197758 0.8780194 0.04199284 0.8780194 0.01118487 0.009460594 0.009903133 0.04142825 0.009903133 0.009460594 0.04570079 0.04142825 0.04570079 0.009460594 0.5483329 0.4084077 0.009903133 0.04142825 0.5483329 0.009460594 0.5809872 0.04142825 0.5809872 0.4084077 0.5809872 0.4084077 0.04570079 0.4377508 0.009903133 0.4377508 0.04570079 0.4084077 0.5483329 0.4377508 0.5809872 0.4377508 0.5483329</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255198__MetalPlateSteelRed00-texcoord-array_1" count="66" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface836255198__MetalPlateSteelRed00-vertex">
+          <input semantic="POSITION" source="#polySurface836255198__MetalPlateSteelRed00-position" />
+        </vertices>
+        <triangles material="MetalPlateSteelRed00" count="58">
+          <input semantic="VERTEX" source="#polySurface836255198__MetalPlateSteelRed00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface836255198__MetalPlateSteelRed00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface836255198__MetalPlateSteelRed00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface836255198__MetalPlateSteelRed00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 5 5 5 5 3 3 3 3 6 6 6 6 4 4 4 4 3 3 3 3 7 7 7 7 4 4 4 4 6 6 6 6 8 8 8 8 7 7 7 7 6 6 6 6 9 9 9 9 10 10 10 10 11 11 11 11 12 12 12 12 9 9 9 9 11 11 11 11 13 13 13 13 14 14 14 14 12 12 12 12 15 15 15 15 13 13 13 13 12 12 12 12 16 16 16 16 13 13 13 13 15 15 15 15 17 17 17 17 16 16 16 16 15 15 15 15 18 18 18 18 19 19 19 19 20 20 20 20 19 19 19 19 21 21 21 21 20 20 20 20 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 22 22 22 22 23 23 23 23 24 24 24 24 23 23 23 23 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 28 28 28 28 29 29 29 29 26 26 26 26 28 28 28 28 30 30 30 30 29 29 29 29 28 28 28 28 31 31 31 31 30 30 30 30 28 28 28 28 30 30 30 30 31 31 31 31 32 32 32 32 33 33 33 33 30 30 30 30 32 32 32 32 34 34 34 34 35 35 35 35 36 36 36 36 35 35 35 35 37 37 37 37 36 36 36 36 35 35 35 35 38 38 38 38 37 37 37 37 36 36 36 36 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 37 37 37 37 37 37 37 37 41 41 41 41 39 39 39 39 40 40 40 40 38 38 38 38 42 42 42 42 39 39 39 39 41 41 41 41 43 43 43 43 44 44 44 44 40 40 40 40 42 42 42 42 41 41 41 41 45 45 45 45 43 43 43 43 40 40 40 40 44 44 44 44 46 46 46 46 41 41 41 41 47 47 47 47 45 45 45 45 47 47 47 47 40 40 40 40 46 46 46 46 47 47 47 47 48 48 48 48 45 45 45 45 47 47 47 47 46 46 46 46 49 49 49 49 48 48 48 48 47 47 47 47 49 49 49 49 50 50 50 50 51 51 51 51 52 52 52 52 51 51 51 51 53 53 53 53 52 52 52 52 52 52 52 52 53 53 53 53 54 54 54 54 51 51 51 51 55 55 55 55 53 53 53 53 53 53 53 53 56 56 56 56 54 54 54 54 54 54 54 54 56 56 56 56 57 57 57 57 56 56 56 56 58 58 58 58 57 57 57 57 58 58 58 58 56 56 56 56 59 59 59 59 55 55 55 55 60 60 60 60 53 53 53 53 53 53 53 53 60 60 60 60 56 56 56 56 55 55 55 55 61 61 61 61 62 62 62 62 60 60 60 60 55 55 55 55 62 62 62 62 56 56 56 56 63 63 63 63 59 59 59 59 60 60 60 60 63 63 63 63 56 56 56 56 60 60 60 60 62 62 62 62 63 63 63 63 59 59 59 59 63 63 63 63 64 64 64 64 62 62 62 62 65 65 65 65 63 63 63 63 63 63 63 63 65 65 65 65 64 64 64 64 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh">
+      <skin source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-joint">
+          <Name_array id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-joint-array" count="1">Fld_Spider00_SideSlope</Name_array>
+          <technique_common>
+            <accessor source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-inv_bind_matrix">
+          <float_array id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-weight">
+          <float_array id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="186">
+          <input semantic="JOINT" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pPlane2793__ContainerWall00-mesh">
+      <skin source="#pPlane2793__ContainerWall00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pPlane2793__ContainerWall00-mesh-joint">
+          <Name_array id="pPlane2793__ContainerWall00-mesh-joint-array" count="1">Fld_Spider00_SideSlope</Name_array>
+          <technique_common>
+            <accessor source="#pPlane2793__ContainerWall00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2793__ContainerWall00-mesh-inv_bind_matrix">
+          <float_array id="pPlane2793__ContainerWall00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2793__ContainerWall00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2793__ContainerWall00-mesh-weight">
+          <float_array id="pPlane2793__ContainerWall00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2793__ContainerWall00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pPlane2793__ContainerWall00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pPlane2793__ContainerWall00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="3">
+          <input semantic="JOINT" source="#pPlane2793__ContainerWall00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pPlane2793__ContainerWall00-mesh-weight" offset="1" />
+          <vcount>1 1 1 </vcount>
+          <v>0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pPlane2800__TarpSheet-mesh">
+      <skin source="#pPlane2800__TarpSheet-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pPlane2800__TarpSheet-mesh-joint">
+          <Name_array id="pPlane2800__TarpSheet-mesh-joint-array" count="1">Fld_Spider00_SideSlope</Name_array>
+          <technique_common>
+            <accessor source="#pPlane2800__TarpSheet-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2800__TarpSheet-mesh-inv_bind_matrix">
+          <float_array id="pPlane2800__TarpSheet-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2800__TarpSheet-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pPlane2800__TarpSheet-mesh-weight">
+          <float_array id="pPlane2800__TarpSheet-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pPlane2800__TarpSheet-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pPlane2800__TarpSheet-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pPlane2800__TarpSheet-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="9">
+          <input semantic="JOINT" source="#pPlane2800__TarpSheet-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pPlane2800__TarpSheet-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface836255198__MetalPlateSteelRed00-mesh">
+      <skin source="#polySurface836255198__MetalPlateSteelRed00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface836255198__MetalPlateSteelRed00-mesh-joint">
+          <Name_array id="polySurface836255198__MetalPlateSteelRed00-mesh-joint-array" count="1">Fld_Spider00_SideSlope</Name_array>
+          <technique_common>
+            <accessor source="#polySurface836255198__MetalPlateSteelRed00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255198__MetalPlateSteelRed00-mesh-inv_bind_matrix">
+          <float_array id="polySurface836255198__MetalPlateSteelRed00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255198__MetalPlateSteelRed00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255198__MetalPlateSteelRed00-mesh-weight">
+          <float_array id="polySurface836255198__MetalPlateSteelRed00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255198__MetalPlateSteelRed00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface836255198__MetalPlateSteelRed00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface836255198__MetalPlateSteelRed00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="66">
+          <input semantic="JOINT" source="#polySurface836255198__MetalPlateSteelRed00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface836255198__MetalPlateSteelRed00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_Spider00_SideSlope" name="Fld_Spider00_SideSlope" sid="Fld_Spider00_SideSlope" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00" name="Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00" type="NODE">
+        <instance_controller url="#Armature_Ship_Nagasaki_ex_bolt21_40_1__PaintedVLoop00-mesh">
+          <skeleton>#Armature_Fld_Spider00_SideSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PaintedVLoop00" target="#PaintedVLoop00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pPlane2793__ContainerWall00" name="pPlane2793__ContainerWall00" type="NODE">
+        <instance_controller url="#Armature_pPlane2793__ContainerWall00-mesh">
+          <skeleton>#Armature_Fld_Spider00_SideSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ContainerWall00" target="#ContainerWall00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pPlane2800__TarpSheet" name="pPlane2800__TarpSheet" type="NODE">
+        <instance_controller url="#Armature_pPlane2800__TarpSheet-mesh">
+          <skeleton>#Armature_Fld_Spider00_SideSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="TarpSheet" target="#TarpSheet" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface836255198__MetalPlateSteelRed00" name="polySurface836255198__MetalPlateSteelRed00" type="NODE">
+        <instance_controller url="#Armature_polySurface836255198__MetalPlateSteelRed00-mesh">
+          <skeleton>#Armature_Fld_Spider00_SideSlope</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MetalPlateSteelRed00" target="#MetalPlateSteelRed00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,1698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="AptClothes_Alb">
+      <init_from>AptClothes_Alb.png</init_from>
+    </image>
+    <image id="AptClothes_Nrm">
+      <init_from>AptClothes_Nrm.png</init_from>
+    </image>
+    <image id="AptClothes_Opa">
+      <init_from>AptClothes_Opa.png</init_from>
+    </image>
+    <image id="AptClothes_Rgh">
+      <init_from>AptClothes_Rgh.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Alb">
+      <init_from>AptExtMiscProp_Alb.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Mtl">
+      <init_from>AptExtMiscProp_Mtl.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Nrm">
+      <init_from>AptExtMiscProp_Nrm.png</init_from>
+    </image>
+    <image id="AptExtMiscProp_Rgh">
+      <init_from>AptExtMiscProp_Rgh.png</init_from>
+    </image>
+    <image id="AptMiscProp_Alb">
+      <init_from>AptMiscProp_Alb.png</init_from>
+    </image>
+    <image id="AptMiscProp_Mtl">
+      <init_from>AptMiscProp_Mtl.png</init_from>
+    </image>
+    <image id="AptMiscProp_Nrm">
+      <init_from>AptMiscProp_Nrm.png</init_from>
+    </image>
+    <image id="AptMiscProp_Rgh">
+      <init_from>AptMiscProp_Rgh.png</init_from>
+    </image>
+    <image id="AptTrim_Alb">
+      <init_from>AptTrim_Alb.png</init_from>
+    </image>
+    <image id="AptTrim_Nrm">
+      <init_from>AptTrim_Nrm.png</init_from>
+    </image>
+    <image id="AptTrim_Rgh">
+      <init_from>AptTrim_Rgh.png</init_from>
+    </image>
+    <image id="AptWallA_Alb">
+      <init_from>AptWallA_Alb.png</init_from>
+    </image>
+    <image id="AptWallA_Nrm">
+      <init_from>AptWallA_Nrm.png</init_from>
+    </image>
+    <image id="AptWallA_Rgh">
+      <init_from>AptWallA_Rgh.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BalloonLightMaterial_Alb">
+      <init_from>BalloonLightMaterial_Alb.png</init_from>
+    </image>
+    <image id="BalloonLightMaterial_Emm">
+      <init_from>BalloonLightMaterial_Emm.png</init_from>
+    </image>
+    <image id="BalloonLightMaterial_Nrm">
+      <init_from>BalloonLightMaterial_Nrm.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Alb">
+      <init_from>BaseHeliportOrange_Alb.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Mtl">
+      <init_from>BaseHeliportOrange_Mtl.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Nrm">
+      <init_from>BaseHeliportOrange_Nrm.png</init_from>
+    </image>
+    <image id="BaseHeliportOrange_Rgh">
+      <init_from>BaseHeliportOrange_Rgh.png</init_from>
+    </image>
+    <image id="BaseHeliport_Alb">
+      <init_from>BaseHeliport_Alb.png</init_from>
+    </image>
+    <image id="BaseHeliport_Mtl">
+      <init_from>BaseHeliport_Mtl.png</init_from>
+    </image>
+    <image id="BaseHeliport_Nrm">
+      <init_from>BaseHeliport_Nrm.png</init_from>
+    </image>
+    <image id="BaseHeliport_Rgh">
+      <init_from>BaseHeliport_Rgh.png</init_from>
+    </image>
+    <image id="Body_Alb">
+      <init_from>Body_Alb.png</init_from>
+    </image>
+    <image id="Body_Emm">
+      <init_from>Body_Emm.png</init_from>
+    </image>
+    <image id="Body_Nrm">
+      <init_from>Body_Nrm.png</init_from>
+    </image>
+    <image id="Body_Rgh">
+      <init_from>Body_Rgh.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Alb">
+      <init_from>BuildingFenceVinylB_Alb.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Mtl">
+      <init_from>BuildingFenceVinylB_Mtl.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Nrm">
+      <init_from>BuildingFenceVinylB_Nrm.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Opa">
+      <init_from>BuildingFenceVinylB_Opa.png</init_from>
+    </image>
+    <image id="BuildingFenceVinylB_Rgh">
+      <init_from>BuildingFenceVinylB_Rgh.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Alb">
+      <init_from>CafeBuildingArchitectureA_Alb.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Emm">
+      <init_from>CafeBuildingArchitectureA_Emm.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Nrm">
+      <init_from>CafeBuildingArchitectureA_Nrm.png</init_from>
+    </image>
+    <image id="CafeBuildingArchitectureA_Rgh">
+      <init_from>CafeBuildingArchitectureA_Rgh.png</init_from>
+    </image>
+    <image id="CanolaAV_Alb">
+      <init_from>CanolaAV_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaBV_Alb">
+      <init_from>CanolaBV_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaCV_Alb">
+      <init_from>CanolaCV_Alb.png</init_from>
+    </image>
+    <image id="CanolaC_Alb">
+      <init_from>CanolaC_Alb.png</init_from>
+    </image>
+    <image id="Canola_Fxm">
+      <init_from>Canola_Fxm.png</init_from>
+    </image>
+    <image id="Canola_Opa">
+      <init_from>Canola_Opa.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Alb">
+      <init_from>CeilingMetalTrass_Alb.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Mtl">
+      <init_from>CeilingMetalTrass_Mtl.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Nrm">
+      <init_from>CeilingMetalTrass_Nrm.png</init_from>
+    </image>
+    <image id="CeilingMetalTrass_Rgh">
+      <init_from>CeilingMetalTrass_Rgh.png</init_from>
+    </image>
+    <image id="ColorSample00_Alb">
+      <init_from>ColorSample00_Alb.png</init_from>
+    </image>
+    <image id="ColorSample00_Nrm">
+      <init_from>ColorSample00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Alb">
+      <init_from>ConcreteEdge00_Alb.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Mtl">
+      <init_from>ConcreteEdge00_Mtl.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Nrm">
+      <init_from>ConcreteEdge00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteEdge00_Rgh">
+      <init_from>ConcreteEdge00_Rgh.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Alb">
+      <init_from>ConcreteFrameMetal00_Alb.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Mtl">
+      <init_from>ConcreteFrameMetal00_Mtl.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Nrm">
+      <init_from>ConcreteFrameMetal00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteFrameMetal00_Rgh">
+      <init_from>ConcreteFrameMetal00_Rgh.png</init_from>
+    </image>
+    <image id="ConstructionObject_Alb">
+      <init_from>ConstructionObject_Alb.png</init_from>
+    </image>
+    <image id="ConstructionObject_Mtl">
+      <init_from>ConstructionObject_Mtl.png</init_from>
+    </image>
+    <image id="ConstructionObject_Nrm">
+      <init_from>ConstructionObject_Nrm.png</init_from>
+    </image>
+    <image id="ConstructionObject_Rgh">
+      <init_from>ConstructionObject_Rgh.png</init_from>
+    </image>
+    <image id="ContainerWall00_Alb">
+      <init_from>ContainerWall00_Alb.png</init_from>
+    </image>
+    <image id="ContainerWall00_Mtl">
+      <init_from>ContainerWall00_Mtl.png</init_from>
+    </image>
+    <image id="ContainerWall00_Nrm">
+      <init_from>ContainerWall00_Nrm.png</init_from>
+    </image>
+    <image id="ContainerWall00_Rgh">
+      <init_from>ContainerWall00_Rgh.png</init_from>
+    </image>
+    <image id="CraneHandRail_Alb">
+      <init_from>CraneHandRail_Alb.png</init_from>
+    </image>
+    <image id="CraneHandRail_Mtl">
+      <init_from>CraneHandRail_Mtl.png</init_from>
+    </image>
+    <image id="CraneHandRail_Nrm">
+      <init_from>CraneHandRail_Nrm.png</init_from>
+    </image>
+    <image id="CraneHandRail_Opa">
+      <init_from>CraneHandRail_Opa.png</init_from>
+    </image>
+    <image id="CraneHandRail_Rgh">
+      <init_from>CraneHandRail_Rgh.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Alb">
+      <init_from>CraneUnderFrame_Alb.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Mtl">
+      <init_from>CraneUnderFrame_Mtl.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Nrm">
+      <init_from>CraneUnderFrame_Nrm.png</init_from>
+    </image>
+    <image id="CraneUnderFrame_Rgh">
+      <init_from>CraneUnderFrame_Rgh.png</init_from>
+    </image>
+    <image id="Desert00_Alb">
+      <init_from>Desert00_Alb.png</init_from>
+    </image>
+    <image id="Desert00_Nrm">
+      <init_from>Desert00_Nrm.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Alb">
+      <init_from>DistrictPillarGlass00_Alb.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Mtl">
+      <init_from>DistrictPillarGlass00_Mtl.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Nrm">
+      <init_from>DistrictPillarGlass00_Nrm.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Opa">
+      <init_from>DistrictPillarGlass00_Opa.png</init_from>
+    </image>
+    <image id="DistrictPillarGlass00_Rgh">
+      <init_from>DistrictPillarGlass00_Rgh.png</init_from>
+    </image>
+    <image id="DVAptBldg_Alb">
+      <init_from>DVAptBldg_Alb.png</init_from>
+    </image>
+    <image id="DVAptBldg_Emi">
+      <init_from>DVAptBldg_Emi.png</init_from>
+    </image>
+    <image id="DVAptBldg_Nrm">
+      <init_from>DVAptBldg_Nrm.png</init_from>
+    </image>
+    <image id="DVBGBldgLights_Alb">
+      <init_from>DVBGBldgLights_Alb.png</init_from>
+    </image>
+    <image id="DVBGBldgLights_Emi">
+      <init_from>DVBGBldgLights_Emi.png</init_from>
+    </image>
+    <image id="DVBGBldgLights_Opa">
+      <init_from>DVBGBldgLights_Opa.png</init_from>
+    </image>
+    <image id="DVBoats_Alb">
+      <init_from>DVBoats_Alb.png</init_from>
+    </image>
+    <image id="DVBoats_Emi">
+      <init_from>DVBoats_Emi.png</init_from>
+    </image>
+    <image id="DVBoats_Nrm">
+      <init_from>DVBoats_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Alb">
+      <init_from>DVBuildingBaseParts_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Emm">
+      <init_from>DVBuildingBaseParts_Emm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Nrm">
+      <init_from>DVBuildingBaseParts_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingBaseParts_Rgh">
+      <init_from>DVBuildingBaseParts_Rgh.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Alb">
+      <init_from>DVBuildingUloop00_Alb.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Mtl">
+      <init_from>DVBuildingUloop00_Mtl.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Nrm">
+      <init_from>DVBuildingUloop00_Nrm.png</init_from>
+    </image>
+    <image id="DVBuildingUloop00_Rgh">
+      <init_from>DVBuildingUloop00_Rgh.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Alb">
+      <init_from>DVconcreteLoop00_Alb.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Mtl">
+      <init_from>DVconcreteLoop00_Mtl.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Nrm">
+      <init_from>DVconcreteLoop00_Nrm.png</init_from>
+    </image>
+    <image id="DVconcreteLoop00_Rgh">
+      <init_from>DVconcreteLoop00_Rgh.png</init_from>
+    </image>
+    <image id="DVCranes_Alb">
+      <init_from>DVCranes_Alb.png</init_from>
+    </image>
+    <image id="DVCranes_Nrm">
+      <init_from>DVCranes_Nrm.png</init_from>
+    </image>
+    <image id="DVElectricPole_Alb">
+      <init_from>DVElectricPole_Alb.png</init_from>
+    </image>
+    <image id="DVElectricPole_Nrm">
+      <init_from>DVElectricPole_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceIron_Alb">
+      <init_from>DVFenceIron_Alb.png</init_from>
+    </image>
+    <image id="DVFenceIron_Nrm">
+      <init_from>DVFenceIron_Nrm.png</init_from>
+    </image>
+    <image id="DVFenceIron_Opa">
+      <init_from>DVFenceIron_Opa.png</init_from>
+    </image>
+    <image id="DVGrass_Alb">
+      <init_from>DVGrass_Alb.png</init_from>
+    </image>
+    <image id="DVGroundPavement_Alb">
+      <init_from>DVGroundPavement_Alb.png</init_from>
+    </image>
+    <image id="DVGroundPavement_Nrm">
+      <init_from>DVGroundPavement_Nrm.png</init_from>
+    </image>
+    <image id="DVHseAwning_Alb">
+      <init_from>DVHseAwning_Alb.png</init_from>
+    </image>
+    <image id="DVHseAwning_Nrm">
+      <init_from>DVHseAwning_Nrm.png</init_from>
+    </image>
+    <image id="DVHseAwning_Opa">
+      <init_from>DVHseAwning_Opa.png</init_from>
+    </image>
+    <image id="DVHseLOD_Alb">
+      <init_from>DVHseLOD_Alb.png</init_from>
+    </image>
+    <image id="DVHseLOD_Emi">
+      <init_from>DVHseLOD_Emi.png</init_from>
+    </image>
+    <image id="DVHseLOD_Nrm">
+      <init_from>DVHseLOD_Nrm.png</init_from>
+    </image>
+    <image id="DVHseRoof_Alb">
+      <init_from>DVHseRoof_Alb.png</init_from>
+    </image>
+    <image id="DVHseRoof_Nrm">
+      <init_from>DVHseRoof_Nrm.png</init_from>
+    </image>
+    <image id="DVHseWallA_Alb">
+      <init_from>DVHseWallA_Alb.png</init_from>
+    </image>
+    <image id="DVHseWallA_Emi">
+      <init_from>DVHseWallA_Emi.png</init_from>
+    </image>
+    <image id="DVHseWallA_Nrm">
+      <init_from>DVHseWallA_Nrm.png</init_from>
+    </image>
+    <image id="DVHseWallB_Alb">
+      <init_from>DVHseWallB_Alb.png</init_from>
+    </image>
+    <image id="DVHseWallB_Emi">
+      <init_from>DVHseWallB_Emi.png</init_from>
+    </image>
+    <image id="DVHseWallB_Nrm">
+      <init_from>DVHseWallB_Nrm.png</init_from>
+    </image>
+    <image id="DVMidBuilding_A_Alb">
+      <init_from>DVMidBuilding_A_Alb.png</init_from>
+    </image>
+    <image id="DVMidBuilding_A_Emm">
+      <init_from>DVMidBuilding_A_Emm.png</init_from>
+    </image>
+    <image id="DVMidBuilding_A_Mtl">
+      <init_from>DVMidBuilding_A_Mtl.png</init_from>
+    </image>
+    <image id="DVMidBuilding_B_Alb">
+      <init_from>DVMidBuilding_B_Alb.png</init_from>
+    </image>
+    <image id="DVMidBuilding_B_Emm">
+      <init_from>DVMidBuilding_B_Emm.png</init_from>
+    </image>
+    <image id="DVMidBuilding_B_Mtl">
+      <init_from>DVMidBuilding_B_Mtl.png</init_from>
+    </image>
+    <image id="DVMonorailAtlas_Alb">
+      <init_from>DVMonorailAtlas_Alb.png</init_from>
+    </image>
+    <image id="DVMonorailAtlas_Nrm">
+      <init_from>DVMonorailAtlas_Nrm.png</init_from>
+    </image>
+    <image id="DVMountain_Alb">
+      <init_from>DVMountain_Alb.png</init_from>
+    </image>
+    <image id="DVMountain_Opa">
+      <init_from>DVMountain_Opa.png</init_from>
+    </image>
+    <image id="DVMVPier_Alb">
+      <init_from>DVMVPier_Alb.png</init_from>
+    </image>
+    <image id="DVMVPier_Nrm">
+      <init_from>DVMVPier_Nrm.png</init_from>
+    </image>
+    <image id="DVPalmTree01_Alb">
+      <init_from>DVPalmTree01_Alb.png</init_from>
+    </image>
+    <image id="DVPalmTree01_Nrm">
+      <init_from>DVPalmTree01_Nrm.png</init_from>
+    </image>
+    <image id="DVPalmTree01_Opa">
+      <init_from>DVPalmTree01_Opa.png</init_from>
+    </image>
+    <image id="DVPalmTree02_Alb">
+      <init_from>DVPalmTree02_Alb.png</init_from>
+    </image>
+    <image id="DVPalmTree02_Nrm">
+      <init_from>DVPalmTree02_Nrm.png</init_from>
+    </image>
+    <image id="DVRoad_Alb">
+      <init_from>DVRoad_Alb.png</init_from>
+    </image>
+    <image id="DVRoad_Opa">
+      <init_from>DVRoad_Opa.png</init_from>
+    </image>
+    <image id="DVShip_Alb">
+      <init_from>DVShip_Alb.png</init_from>
+    </image>
+    <image id="DVShip_Emi">
+      <init_from>DVShip_Emi.png</init_from>
+    </image>
+    <image id="DVShip_Nrm">
+      <init_from>DVShip_Nrm.png</init_from>
+    </image>
+    <image id="DVTentStallAtlas01_Alb">
+      <init_from>DVTentStallAtlas01_Alb.png</init_from>
+    </image>
+    <image id="DVTentStallAtlas01_Nrm">
+      <init_from>DVTentStallAtlas01_Nrm.png</init_from>
+    </image>
+    <image id="DVTerrain_Alb">
+      <init_from>DVTerrain_Alb.png</init_from>
+    </image>
+    <image id="DVTerrain_Nrm">
+      <init_from>DVTerrain_Nrm.png</init_from>
+    </image>
+    <image id="DVTreeBush_Alb">
+      <init_from>DVTreeBush_Alb.png</init_from>
+    </image>
+    <image id="DVTreeBush_Nrm">
+      <init_from>DVTreeBush_Nrm.png</init_from>
+    </image>
+    <image id="DVWater_Nrm">
+      <init_from>DVWater_Nrm.png</init_from>
+    </image>
+    <image id="DV_Crane01_Alb">
+      <init_from>DV_Crane01_Alb.png</init_from>
+    </image>
+    <image id="DV_Crane01_Mtl">
+      <init_from>DV_Crane01_Mtl.png</init_from>
+    </image>
+    <image id="DV_Crane01_Nrm">
+      <init_from>DV_Crane01_Nrm.png</init_from>
+    </image>
+    <image id="DV_Crane01_Rgh">
+      <init_from>DV_Crane01_Rgh.png</init_from>
+    </image>
+    <image id="Elevator00_Alb">
+      <init_from>Elevator00_Alb.png</init_from>
+    </image>
+    <image id="Elevator00_Emi">
+      <init_from>Elevator00_Emi.png</init_from>
+    </image>
+    <image id="Elevator00_Mtl">
+      <init_from>Elevator00_Mtl.png</init_from>
+    </image>
+    <image id="Elevator00_Nrm">
+      <init_from>Elevator00_Nrm.png</init_from>
+    </image>
+    <image id="Elevator00_Rgh">
+      <init_from>Elevator00_Rgh.png</init_from>
+    </image>
+    <image id="elevatorFence00_Alb">
+      <init_from>elevatorFence00_Alb.png</init_from>
+    </image>
+    <image id="elevatorFence00_Mtl">
+      <init_from>elevatorFence00_Mtl.png</init_from>
+    </image>
+    <image id="elevatorFence00_Nrm">
+      <init_from>elevatorFence00_Nrm.png</init_from>
+    </image>
+    <image id="elevatorFence00_Opa">
+      <init_from>elevatorFence00_Opa.png</init_from>
+    </image>
+    <image id="elevatorFence00_Rgh">
+      <init_from>elevatorFence00_Rgh.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Alb">
+      <init_from>FactoryMetalFrame_Alb.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Mtl">
+      <init_from>FactoryMetalFrame_Mtl.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Nrm">
+      <init_from>FactoryMetalFrame_Nrm.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Rgh">
+      <init_from>FactoryMetalFrame_Rgh.png</init_from>
+    </image>
+    <image id="FactoryMetalFrame_Tcl">
+      <init_from>FactoryMetalFrame_Tcl.png</init_from>
+    </image>
+    <image id="FenceGray_Alb">
+      <init_from>FenceGray_Alb.png</init_from>
+    </image>
+    <image id="FenceGray_Mtl">
+      <init_from>FenceGray_Mtl.png</init_from>
+    </image>
+    <image id="FenceGray_Nrm">
+      <init_from>FenceGray_Nrm.png</init_from>
+    </image>
+    <image id="FenceGray_Opa">
+      <init_from>FenceGray_Opa.png</init_from>
+    </image>
+    <image id="FenceGray_Rgh">
+      <init_from>FenceGray_Rgh.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Alb">
+      <init_from>FenceVinylWhite_Alb.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Mtl">
+      <init_from>FenceVinylWhite_Mtl.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Nrm">
+      <init_from>FenceVinylWhite_Nrm.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Opa">
+      <init_from>FenceVinylWhite_Opa.png</init_from>
+    </image>
+    <image id="FenceVinylWhite_Rgh">
+      <init_from>FenceVinylWhite_Rgh.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Alb">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Alb.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Mtl">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Mtl.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Nrm">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Nrm.png</init_from>
+    </image>
+    <image id="FldSpiderNoPaintUDIM00_UDIM_Rgh">
+      <init_from>FldSpiderNoPaintUDIM00_UDIM_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcreteHigh_Alb">
+      <init_from>FloorConcreteHigh_Alb.png</init_from>
+    </image>
+    <image id="FloorLine00_Alb">
+      <init_from>FloorLine00_Alb.png</init_from>
+    </image>
+    <image id="FloorLine00_Mtl">
+      <init_from>FloorLine00_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine00_Nrm">
+      <init_from>FloorLine00_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine00_Rgh">
+      <init_from>FloorLine00_Rgh.png</init_from>
+    </image>
+    <image id="FloorPanel_Alb">
+      <init_from>FloorPanel_Alb.png</init_from>
+    </image>
+    <image id="FloorPanel_Mtl">
+      <init_from>FloorPanel_Mtl.png</init_from>
+    </image>
+    <image id="FloorPanel_Nrm">
+      <init_from>FloorPanel_Nrm.png</init_from>
+    </image>
+    <image id="FloorPanel_Rgh">
+      <init_from>FloorPanel_Rgh.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Alb">
+      <init_from>FloorWireNetN_Alb.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Mtl">
+      <init_from>FloorWireNetN_Mtl.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Nrm">
+      <init_from>FloorWireNetN_Nrm.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Opa">
+      <init_from>FloorWireNetN_Opa.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Rgh">
+      <init_from>FloorWireNetN_Rgh.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Yellow_Alb">
+      <init_from>FloorWireNetN_Yellow_Alb.png</init_from>
+    </image>
+    <image id="FloorWireNetN_Yellow_Opa">
+      <init_from>FloorWireNetN_Yellow_Opa.png</init_from>
+    </image>
+    <image id="glassInner_Opa">
+      <init_from>glassInner_Opa.png</init_from>
+    </image>
+    <image id="glass_Mtl">
+      <init_from>glass_Mtl.png</init_from>
+    </image>
+    <image id="glass_Nrm">
+      <init_from>glass_Nrm.png</init_from>
+    </image>
+    <image id="glass_Rgh">
+      <init_from>glass_Rgh.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Alb">
+      <init_from>GraffitiSetA00_Alb.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Mtl">
+      <init_from>GraffitiSetA00_Mtl.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Nrm">
+      <init_from>GraffitiSetA00_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiSetA00_Rgh">
+      <init_from>GraffitiSetA00_Rgh.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Alb">
+      <init_from>GraffitiSetB00_Alb.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Emm">
+      <init_from>GraffitiSetB00_Emm.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Mtl">
+      <init_from>GraffitiSetB00_Mtl.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Nrm">
+      <init_from>GraffitiSetB00_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Opa">
+      <init_from>GraffitiSetB00_Opa.png</init_from>
+    </image>
+    <image id="GraffitiSetB00_Rgh">
+      <init_from>GraffitiSetB00_Rgh.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Alb">
+      <init_from>GraffitiSetC00_Alb.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Emm">
+      <init_from>GraffitiSetC00_Emm.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Mtl">
+      <init_from>GraffitiSetC00_Mtl.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Nrm">
+      <init_from>GraffitiSetC00_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Opa">
+      <init_from>GraffitiSetC00_Opa.png</init_from>
+    </image>
+    <image id="GraffitiSetC00_Rgh">
+      <init_from>GraffitiSetC00_Rgh.png</init_from>
+    </image>
+    <image id="Ground05_Alb">
+      <init_from>Ground05_Alb.png</init_from>
+    </image>
+    <image id="Ground05_Mtl">
+      <init_from>Ground05_Mtl.png</init_from>
+    </image>
+    <image id="Ground05_Nrm">
+      <init_from>Ground05_Nrm.png</init_from>
+    </image>
+    <image id="Ground05_Rgh">
+      <init_from>Ground05_Rgh.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Alb">
+      <init_from>IronPlarteParts_Alb.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Mtl">
+      <init_from>IronPlarteParts_Mtl.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Nrm">
+      <init_from>IronPlarteParts_Nrm.png</init_from>
+    </image>
+    <image id="IronPlarteParts_Rgh">
+      <init_from>IronPlarteParts_Rgh.png</init_from>
+    </image>
+    <image id="IronSet_Alb">
+      <init_from>IronSet_Alb.png</init_from>
+    </image>
+    <image id="IronSet_Emi">
+      <init_from>IronSet_Emi.png</init_from>
+    </image>
+    <image id="IronSet_Mtl">
+      <init_from>IronSet_Mtl.png</init_from>
+    </image>
+    <image id="IronSet_Nrm">
+      <init_from>IronSet_Nrm.png</init_from>
+    </image>
+    <image id="IronSet_Rgh">
+      <init_from>IronSet_Rgh.png</init_from>
+    </image>
+    <image id="IronWallRed_Alb">
+      <init_from>IronWallRed_Alb.png</init_from>
+    </image>
+    <image id="IronWallRed_Mtl">
+      <init_from>IronWallRed_Mtl.png</init_from>
+    </image>
+    <image id="IronWallRed_Nrm">
+      <init_from>IronWallRed_Nrm.png</init_from>
+    </image>
+    <image id="IronWallRed_Rgh">
+      <init_from>IronWallRed_Rgh.png</init_from>
+    </image>
+    <image id="IronWall_Alb">
+      <init_from>IronWall_Alb.png</init_from>
+    </image>
+    <image id="IronWall_Mtl">
+      <init_from>IronWall_Mtl.png</init_from>
+    </image>
+    <image id="IronWall_Nrm">
+      <init_from>IronWall_Nrm.png</init_from>
+    </image>
+    <image id="IronWall_Rgh">
+      <init_from>IronWall_Rgh.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Alb">
+      <init_from>ItrWindowApart_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Fxm">
+      <init_from>ItrWindowApart_Fxm.png</init_from>
+    </image>
+    <image id="ItrWindowApart_In_Alb">
+      <init_from>ItrWindowApart_In_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowApart_M_Alb">
+      <init_from>ItrWindowApart_M_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Nrm">
+      <init_from>ItrWindowApart_Nrm.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Opa">
+      <init_from>ItrWindowApart_Opa.png</init_from>
+    </image>
+    <image id="ItrWindowApart_Rgh">
+      <init_from>ItrWindowApart_Rgh.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Alb">
+      <init_from>ItrWindowServerRoom_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Fxm">
+      <init_from>ItrWindowServerRoom_Fxm.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_In_Itr_Resca">
+      <init_from>ItrWindowServerRoom_In_Itr_Resca.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_M_Alb">
+      <init_from>ItrWindowServerRoom_M_Alb.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Nrm">
+      <init_from>ItrWindowServerRoom_Nrm.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Opa">
+      <init_from>ItrWindowServerRoom_Opa.png</init_from>
+    </image>
+    <image id="ItrWindowServerRoom_Rgh">
+      <init_from>ItrWindowServerRoom_Rgh.png</init_from>
+    </image>
+    <image id="Lamp00_Alb">
+      <init_from>Lamp00_Alb.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Alb">
+      <init_from>MetalFloorB00_Alb.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Mtl">
+      <init_from>MetalFloorB00_Mtl.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Nrm">
+      <init_from>MetalFloorB00_Nrm.png</init_from>
+    </image>
+    <image id="MetalFloorB00_Rgh">
+      <init_from>MetalFloorB00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Alb">
+      <init_from>MetalPlateAshiba00_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Mtl">
+      <init_from>MetalPlateAshiba00_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Nrm">
+      <init_from>MetalPlateAshiba00_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateAshiba00_Rgh">
+      <init_from>MetalPlateAshiba00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Alb">
+      <init_from>MetalPlateAshibaSet00_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Mtl">
+      <init_from>MetalPlateAshibaSet00_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Nrm">
+      <init_from>MetalPlateAshibaSet00_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateAshibaSet00_Rgh">
+      <init_from>MetalPlateAshibaSet00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Alb">
+      <init_from>MetalPlateSteelRed00_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Mtl">
+      <init_from>MetalPlateSteelRed00_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Nrm">
+      <init_from>MetalPlateSteelRed00_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateSteelRed00_Rgh">
+      <init_from>MetalPlateSteelRed00_Rgh.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Alb">
+      <init_from>MetalPlateSteel_Alb.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Mtl">
+      <init_from>MetalPlateSteel_Mtl.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Nrm">
+      <init_from>MetalPlateSteel_Nrm.png</init_from>
+    </image>
+    <image id="MetalPlateSteel_Rgh">
+      <init_from>MetalPlateSteel_Rgh.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Alb">
+      <init_from>mIronPlateLarge_Alb.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Mtl">
+      <init_from>mIronPlateLarge_Mtl.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Nrm">
+      <init_from>mIronPlateLarge_Nrm.png</init_from>
+    </image>
+    <image id="mIronPlateLarge_Rgh">
+      <init_from>mIronPlateLarge_Rgh.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Alb">
+      <init_from>mIronPlateMix_Alb.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Mtl">
+      <init_from>mIronPlateMix_Mtl.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Nrm">
+      <init_from>mIronPlateMix_Nrm.png</init_from>
+    </image>
+    <image id="mIronPlateMix_Rgh">
+      <init_from>mIronPlateMix_Rgh.png</init_from>
+    </image>
+    <image id="M_Windsock_Alb">
+      <init_from>M_Windsock_Alb.png</init_from>
+    </image>
+    <image id="M_Windsock_Nrm">
+      <init_from>M_Windsock_Nrm.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Alb">
+      <init_from>NoPaintedVLoop00_Alb.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Mtl">
+      <init_from>NoPaintedVLoop00_Mtl.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Nrm">
+      <init_from>NoPaintedVLoop00_Nrm.png</init_from>
+    </image>
+    <image id="NoPaintedVLoop00_Rgh">
+      <init_from>NoPaintedVLoop00_Rgh.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Alb">
+      <init_from>OldBuildingWallA00_Alb.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Mtl">
+      <init_from>OldBuildingWallA00_Mtl.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Nrm">
+      <init_from>OldBuildingWallA00_Nrm.png</init_from>
+    </image>
+    <image id="OldBuildingWallA00_Rgh">
+      <init_from>OldBuildingWallA00_Rgh.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Alb">
+      <init_from>OldBuildingWallA01_Alb.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Mtl">
+      <init_from>OldBuildingWallA01_Mtl.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Nrm">
+      <init_from>OldBuildingWallA01_Nrm.png</init_from>
+    </image>
+    <image id="OldBuildingWallA01_Rgh">
+      <init_from>OldBuildingWallA01_Rgh.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Alb">
+      <init_from>OldBuildingWallB00_Alb.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Mtl">
+      <init_from>OldBuildingWallB00_Mtl.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Nrm">
+      <init_from>OldBuildingWallB00_Nrm.png</init_from>
+    </image>
+    <image id="OldBuildingWallB00_Rgh">
+      <init_from>OldBuildingWallB00_Rgh.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Alb">
+      <init_from>PaintedVLoop00_Alb.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Mtl">
+      <init_from>PaintedVLoop00_Mtl.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Nrm">
+      <init_from>PaintedVLoop00_Nrm.png</init_from>
+    </image>
+    <image id="PaintedVLoop00_Rgh">
+      <init_from>PaintedVLoop00_Rgh.png</init_from>
+    </image>
+    <image id="Piping00_Alb">
+      <init_from>Piping00_Alb.png</init_from>
+    </image>
+    <image id="Piping00_Mtl">
+      <init_from>Piping00_Mtl.png</init_from>
+    </image>
+    <image id="Piping00_Nrm">
+      <init_from>Piping00_Nrm.png</init_from>
+    </image>
+    <image id="Piping00_Rgh">
+      <init_from>Piping00_Rgh.png</init_from>
+    </image>
+    <image id="PropsA00_Alb">
+      <init_from>PropsA00_Alb.png</init_from>
+    </image>
+    <image id="PropsA00_Mtl">
+      <init_from>PropsA00_Mtl.png</init_from>
+    </image>
+    <image id="PropsA00_Nrm">
+      <init_from>PropsA00_Nrm.png</init_from>
+    </image>
+    <image id="PropsA00_Rgh">
+      <init_from>PropsA00_Rgh.png</init_from>
+    </image>
+    <image id="PropsCtext00_Alb">
+      <init_from>PropsCtext00_Alb.png</init_from>
+    </image>
+    <image id="PropsCtext00_Emm">
+      <init_from>PropsCtext00_Emm.png</init_from>
+    </image>
+    <image id="PropsCtext00_Mtl">
+      <init_from>PropsCtext00_Mtl.png</init_from>
+    </image>
+    <image id="PropsCtext00_Nrm">
+      <init_from>PropsCtext00_Nrm.png</init_from>
+    </image>
+    <image id="PropsCtext00_Rgh">
+      <init_from>PropsCtext00_Rgh.png</init_from>
+    </image>
+    <image id="RedFrames_Alb">
+      <init_from>RedFrames_Alb.png</init_from>
+    </image>
+    <image id="RedFrames_Nrm">
+      <init_from>RedFrames_Nrm.png</init_from>
+    </image>
+    <image id="RedFrames_Rgh">
+      <init_from>RedFrames_Rgh.png</init_from>
+    </image>
+    <image id="RedLightEmissionPattern_Emm">
+      <init_from>RedLightEmissionPattern_Emm.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Alb">
+      <init_from>ScaffoldSet_Alb.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Mtl">
+      <init_from>ScaffoldSet_Mtl.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Nrm">
+      <init_from>ScaffoldSet_Nrm.png</init_from>
+    </image>
+    <image id="ScaffoldSet_Rgh">
+      <init_from>ScaffoldSet_Rgh.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Alb">
+      <init_from>ShopSignFrame00_Alb.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Mtl">
+      <init_from>ShopSignFrame00_Mtl.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Nrm">
+      <init_from>ShopSignFrame00_Nrm.png</init_from>
+    </image>
+    <image id="ShopSignFrame00_Rgh">
+      <init_from>ShopSignFrame00_Rgh.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Alb">
+      <init_from>ShopSignFrame01_Alb.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Mtl">
+      <init_from>ShopSignFrame01_Mtl.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Nrm">
+      <init_from>ShopSignFrame01_Nrm.png</init_from>
+    </image>
+    <image id="ShopSignFrame01_Rgh">
+      <init_from>ShopSignFrame01_Rgh.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Alb">
+      <init_from>SlopeMetalRustGray_Alb.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Mtl">
+      <init_from>SlopeMetalRustGray_Mtl.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Nrm">
+      <init_from>SlopeMetalRustGray_Nrm.png</init_from>
+    </image>
+    <image id="SlopeMetalRustGray_Rgh">
+      <init_from>SlopeMetalRustGray_Rgh.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Alb">
+      <init_from>SpiderIronFrameB00_Alb.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Mtl">
+      <init_from>SpiderIronFrameB00_Mtl.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Nrm">
+      <init_from>SpiderIronFrameB00_Nrm.png</init_from>
+    </image>
+    <image id="SpiderIronFrameB00_Rgh">
+      <init_from>SpiderIronFrameB00_Rgh.png</init_from>
+    </image>
+    <image id="Tape00_Alb">
+      <init_from>Tape00_Alb.png</init_from>
+    </image>
+    <image id="Tape00_Mtl">
+      <init_from>Tape00_Mtl.png</init_from>
+    </image>
+    <image id="Tape00_Nrm">
+      <init_from>Tape00_Nrm.png</init_from>
+    </image>
+    <image id="Tape00_Rgh">
+      <init_from>Tape00_Rgh.png</init_from>
+    </image>
+    <image id="TarpSheet_Alb">
+      <init_from>TarpSheet_Alb.png</init_from>
+    </image>
+    <image id="TarpSheet_Mtl">
+      <init_from>TarpSheet_Mtl.png</init_from>
+    </image>
+    <image id="TarpSheet_Nrm">
+      <init_from>TarpSheet_Nrm.png</init_from>
+    </image>
+    <image id="TarpSheet_Rgh">
+      <init_from>TarpSheet_Rgh.png</init_from>
+    </image>
+    <image id="TclPole00_Alb">
+      <init_from>TclPole00_Alb.png</init_from>
+    </image>
+    <image id="TclPole00_Mtl">
+      <init_from>TclPole00_Mtl.png</init_from>
+    </image>
+    <image id="TclPole00_Nrm">
+      <init_from>TclPole00_Nrm.png</init_from>
+    </image>
+    <image id="TclPole00_Rgh">
+      <init_from>TclPole00_Rgh.png</init_from>
+    </image>
+    <image id="Terrain_Alb">
+      <init_from>Terrain_Alb.png</init_from>
+    </image>
+    <image id="Terrain_Nrm">
+      <init_from>Terrain_Nrm.png</init_from>
+    </image>
+    <image id="Terrain_Rgh">
+      <init_from>Terrain_Rgh.png</init_from>
+    </image>
+    <image id="towerCrane00_Alb">
+      <init_from>towerCrane00_Alb.png</init_from>
+    </image>
+    <image id="towerCrane00_Col">
+      <init_from>towerCrane00_Col.png</init_from>
+    </image>
+    <image id="towerCrane00_Mtl">
+      <init_from>towerCrane00_Mtl.png</init_from>
+    </image>
+    <image id="towerCrane00_Nrm">
+      <init_from>towerCrane00_Nrm.png</init_from>
+    </image>
+    <image id="towerCrane00_Rgh">
+      <init_from>towerCrane00_Rgh.png</init_from>
+    </image>
+    <image id="TransformerBox_Alb">
+      <init_from>TransformerBox_Alb.png</init_from>
+    </image>
+    <image id="TransformerBox_Emi">
+      <init_from>TransformerBox_Emi.png</init_from>
+    </image>
+    <image id="TransformerBox_Mtl">
+      <init_from>TransformerBox_Mtl.png</init_from>
+    </image>
+    <image id="TransformerBox_Nrm">
+      <init_from>TransformerBox_Nrm.png</init_from>
+    </image>
+    <image id="TransformerBox_Rgh">
+      <init_from>TransformerBox_Rgh.png</init_from>
+    </image>
+    <image id="UrbanSet00_Alb">
+      <init_from>UrbanSet00_Alb.png</init_from>
+    </image>
+    <image id="UrbanSet00_Nrm">
+      <init_from>UrbanSet00_Nrm.png</init_from>
+    </image>
+    <image id="UrbanSet00_Rgh">
+      <init_from>UrbanSet00_Rgh.png</init_from>
+    </image>
+    <image id="VenueReel_Alb">
+      <init_from>VenueReel_Alb.png</init_from>
+    </image>
+    <image id="VenueReel_Nrm">
+      <init_from>VenueReel_Nrm.png</init_from>
+    </image>
+    <image id="VenueReel_Rgh">
+      <init_from>VenueReel_Rgh.png</init_from>
+    </image>
+    <image id="VinylSoftWall00_Alb">
+      <init_from>VinylSoftWall00_Alb.png</init_from>
+    </image>
+    <image id="VinylSoftWall00_Nrm">
+      <init_from>VinylSoftWall00_Nrm.png</init_from>
+    </image>
+    <image id="WallFence00_Alb">
+      <init_from>WallFence00_Alb.png</init_from>
+    </image>
+    <image id="WallFence00_Mtl">
+      <init_from>WallFence00_Mtl.png</init_from>
+    </image>
+    <image id="WallFence00_Nrm">
+      <init_from>WallFence00_Nrm.png</init_from>
+    </image>
+    <image id="WallFence00_Opa">
+      <init_from>WallFence00_Opa.png</init_from>
+    </image>
+    <image id="WallFence00_Rgh">
+      <init_from>WallFence00_Rgh.png</init_from>
+    </image>
+    <image id="Wasteland00_Alb">
+      <init_from>Wasteland00_Alb.png</init_from>
+    </image>
+    <image id="Wasteland00_Nrm">
+      <init_from>Wasteland00_Nrm.png</init_from>
+    </image>
+    <image id="Windsock00_Rgh">
+      <init_from>Windsock00_Rgh.png</init_from>
+    </image>
+    <image id="Wire_Alb">
+      <init_from>Wire_Alb.png</init_from>
+    </image>
+    <image id="Wire_Nrm">
+      <init_from>Wire_Nrm.png</init_from>
+    </image>
+    <image id="Wire_Rgh">
+      <init_from>Wire_Rgh.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Alb">
+      <init_from>WoodRepeat00_Alb.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Mtl">
+      <init_from>WoodRepeat00_Mtl.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Nrm">
+      <init_from>WoodRepeat00_Nrm.png</init_from>
+    </image>
+    <image id="WoodRepeat00_Rgh">
+      <init_from>WoodRepeat00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="BaseHeliportOrange">
+      <instance_effect url="#Effect_BaseHeliportOrange" />
+    </material>
+    <material id="IronWall">
+      <instance_effect url="#Effect_IronWall" />
+    </material>
+    <material id="IronWallRed">
+      <instance_effect url="#Effect_IronWallRed" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_BaseHeliportOrange">
+      <profile_COMMON>
+        <newparam sid="surface_BaseHeliportOrange-diffuse">
+          <surface type="2D">
+            <init_from>BaseHeliportOrange_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BaseHeliportOrange-diffuse">
+          <sampler2D>
+            <source>surface_BaseHeliportOrange-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_BaseHeliportOrange-bump">
+          <surface type="2D">
+            <init_from>BaseHeliportOrange_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BaseHeliportOrange-bump">
+          <sampler2D>
+            <source>surface_BaseHeliportOrange-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_BaseHeliportOrange-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_BaseHeliportOrange-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_IronWall">
+      <profile_COMMON>
+        <newparam sid="surface_IronWall-diffuse">
+          <surface type="2D">
+            <init_from>IronWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_IronWall-diffuse">
+          <sampler2D>
+            <source>surface_IronWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_IronWall-bump">
+          <surface type="2D">
+            <init_from>IronWall_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_IronWall-bump">
+          <sampler2D>
+            <source>surface_IronWall-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_IronWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_IronWall-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_IronWallRed">
+      <profile_COMMON>
+        <newparam sid="surface_IronWallRed-diffuse">
+          <surface type="2D">
+            <init_from>IronWallRed_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_IronWallRed-diffuse">
+          <sampler2D>
+            <source>surface_IronWallRed-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_IronWallRed-bump">
+          <surface type="2D">
+            <init_from>IronWallRed_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_IronWallRed-bump">
+          <sampler2D>
+            <source>surface_IronWallRed-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_IronWallRed-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_IronWallRed-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface836255157__BaseHeliportOrange-mesh" name="polySurface836255157__BaseHeliportOrange">
+      <mesh>
+        <source id="polySurface836255157__BaseHeliportOrange-position">
+          <float_array id="polySurface836255157__BaseHeliportOrange-position-array" count="240">-28.9992 -414.9666 4.5 -28.9992 -414.9666 4.999999 -28.9992 -37.99998 4.5 -28.9992 -37.99998 4.999999 -28.9992 -414.9666 4.5 -28.9992 -37.99998 4.5 -28.4992 -414.9666 4.5 -28.4992 -37.99998 4.5 -28.4992 -414.9666 4.999999 -28.4992 -37.99998 5 -28.9992 -414.9666 4.999999 -28.9992 -37.99998 4.999999 -28.4992 -37.99998 4.5 -28.4992 -37.99998 5 -28.4992 -414.9666 4.5 -28.4992 -414.9666 4.999999 -29.5 -414.9666 9.000005 -29.5 -414.9666 8.500005 -29.5 -37.99998 9.000005 -29.5 -37.99998 8.500005 -29.5 -414.9666 9.000005 -29.5 -37.99998 9.000005 -30 -414.9666 9.000005 -30 -37.99998 9.000005 -30 -414.9666 8.500005 -30 -37.99998 8.500005 -29.5 -414.9666 8.500005 -29.5 -37.99998 8.500005 -30 -37.99998 9.000005 -30 -37.99998 8.500005 -30 -414.9666 9.000005 -30 -414.9666 8.500005 -28.5 -414.9666 9.000005 -28.5 -414.9666 8.500004 -28.5 -37.99999 9.000005 -28.5 -37.99999 8.500004 -28.5 -414.9666 9.000005 -28.5 -37.99999 9.000005 -29 -414.9666 9.000005 -29 -38 9.000005 -29 -414.9666 8.500004 -29 -38 8.500004 -28.5 -414.9666 8.500004 -28.5 -37.99999 8.500004 -29 -38 9.000005 -29 -38 8.500004 -29 -414.9666 9.000005 -29 -414.9666 8.500004 -30 -414.9666 4.5 -30 -414.9666 4.999999 -30 -37.99998 4.5 -30 -37.99998 4.999999 -30 -414.9666 4.5 -30 -37.99998 4.5 -29.5 -414.9666 4.5 -29.5 -37.99998 4.5 -29.5 -414.9666 4.999999 -29.5 -37.99998 5 -30 -414.9666 4.999999 -30 -37.99998 4.999999 -29.5 -37.99998 4.5 -29.5 -37.99998 5 -29.5 -414.9666 4.5 -29.5 -414.9666 4.999999 -28.5 -414.9666 8.500004 -28.5 -414.9666 8.000003 -28.5 -37.99999 8.500004 -28.5 -37.99999 8.000003 -28.5 -414.9666 8.500004 -28.5 -37.99999 8.500004 -29 -414.9666 8.500004 -29 -38 8.500004 -29 -414.9666 8.000003 -29 -38 8.000003 -28.5 -414.9666 8.000003 -28.5 -37.99999 8.000003 -29 -38 8.500004 -29 -38 8.000003 -29 -414.9666 8.500004 -29 -414.9666 8.000003</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255157__BaseHeliportOrange-position-array" count="80" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255157__BaseHeliportOrange-normal">
+          <float_array id="polySurface836255157__BaseHeliportOrange-normal-array" count="240">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255157__BaseHeliportOrange-normal-array" count="80" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255157__BaseHeliportOrange-texcoord">
+          <float_array id="polySurface836255157__BaseHeliportOrange-texcoord-array" count="160">1.918127 -12.42399 1.949127 -12.42399 1.918127 10.93541 1.949127 10.93541 1.918127 -12.42399 1.918127 10.93541 1.887127 -12.42399 1.887127 10.93541 1.856127 -12.42399 1.856127 10.93541 1.825126 -12.42399 1.825126 10.93541 1.887127 10.93541 1.856127 10.93541 1.887127 -12.42399 1.856127 -12.42399 1.918127 -12.42927 1.949127 -12.42927 1.918127 10.93949 1.949127 10.93949 1.918127 -12.42927 1.918127 10.93949 1.887127 -12.42927 1.887127 10.93949 1.856127 -12.42927 1.856127 10.93948 1.825126 -12.42927 1.825126 10.93949 1.887127 10.93949 1.856127 10.93948 1.887127 -12.42927 1.856127 -12.42927 1.918127 -12.42927 1.949127 -12.42927 1.918127 10.93949 1.949127 10.93949 1.918127 -12.42927 1.918127 10.93949 1.887127 -12.42927 1.887127 10.93949 1.856127 -12.42927 1.856127 10.93948 1.825126 -12.42927 1.825126 10.93949 1.887127 10.93949 1.856127 10.93948 1.887127 -12.42927 1.856127 -12.42927 1.918127 -12.42399 1.949127 -12.42399 1.918127 10.93541 1.949127 10.93541 1.918127 -12.42399 1.918127 10.93541 1.887127 -12.42399 1.887127 10.93541 1.856127 -12.42399 1.856127 10.93541 1.825126 -12.42399 1.825126 10.93541 1.887127 10.93541 1.856127 10.93541 1.887127 -12.42399 1.856127 -12.42399 1.918127 -12.42927 1.949127 -12.42927 1.918127 10.93949 1.949127 10.93949 1.918127 -12.42927 1.918127 10.93949 1.887127 -12.42927 1.887127 10.93949 1.856127 -12.42927 1.856127 10.93948 1.825126 -12.42927 1.825126 10.93949 1.887127 10.93949 1.856127 10.93948 1.887127 -12.42927 1.856127 -12.42927</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255157__BaseHeliportOrange-texcoord-array" count="80" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255157__BaseHeliportOrange-texcoord_1">
+          <float_array id="polySurface836255157__BaseHeliportOrange-texcoord-array_1" count="160">0.08055238 0.009903133 0.0818494 0.009903133 0.08055238 0.9897001 0.0818494 0.9897001 0.08055238 0.009903133 0.08055238 0.9897001 0.0792401 0.009903133 0.0792401 0.9897001 0.07794309 0.009903133 0.07794309 0.9897001 0.07664607 0.009903133 0.07664607 0.9897001 0.0792401 0.9897001 0.07794309 0.9897001 0.0792401 0.009903133 0.07794309 0.009903133 0.02586404 0.009903133 0.02717632 0.009903133 0.02586404 0.9900969 0.02717632 0.9900969 0.02586404 0.009903133 0.02586404 0.9900969 0.02456702 0.009903133 0.02456702 0.9900969 0.02327001 0.009903133 0.02327001 0.9900969 0.02197299 0.009903133 0.02197299 0.9900969 0.02456702 0.9900969 0.02327001 0.9900969 0.02456702 0.009903133 0.02327001 0.009903133 0.009277485 0.009903133 0.01058976 0.009903133 0.009277485 0.9900969 0.01058976 0.9900969 0.009277485 0.009903133 0.009277485 0.9900969 0.007980469 0.009903133 0.007980469 0.9900969 0.006683452 0.009903133 0.006683452 0.9900969 0.005386435 0.009903133 0.005386435 0.9900969 0.007980469 0.9900969 0.006683452 0.9900969 0.007980469 0.009903133 0.006683452 0.009903133 0.06231784 0.009903133 0.06361486 0.009903133 0.06231784 0.9897001 0.06361486 0.9897001 0.06231784 0.009903133 0.06231784 0.9897001 0.06102083 0.009903133 0.06102083 0.9897001 0.05972381 0.009903133 0.05972381 0.9897001 0.05842679 0.009903133 0.05842679 0.9897001 0.06102083 0.9897001 0.05972381 0.9897001 0.06102083 0.009903133 0.05972381 0.009903133 0.04409857 0.009903133 0.04539559 0.009903133 0.04409857 0.9900969 0.04539559 0.9900969 0.04409857 0.009903133 0.04409857 0.9900969 0.04280156 0.009903133 0.04280156 0.9900969 0.04148928 0.009903133 0.04148928 0.9900969 0.04019227 0.009903133 0.04019227 0.9900969 0.04280156 0.9900969 0.04148928 0.9900969 0.04280156 0.009903133 0.04148928 0.009903133</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255157__BaseHeliportOrange-texcoord-array_1" count="80" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface836255157__BaseHeliportOrange-vertex">
+          <input semantic="POSITION" source="#polySurface836255157__BaseHeliportOrange-position" />
+        </vertices>
+        <triangles material="BaseHeliportOrange" count="40">
+          <input semantic="VERTEX" source="#polySurface836255157__BaseHeliportOrange-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface836255157__BaseHeliportOrange-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface836255157__BaseHeliportOrange-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface836255157__BaseHeliportOrange-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 76 76 76 76 77 77 77 77 78 78 78 78 77 77 77 77 79 79 79 79 78 78 78 78 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface836255161__IronWallRed-mesh" name="polySurface836255161__IronWallRed">
+      <mesh>
+        <source id="polySurface836255161__IronWallRed-position">
+          <float_array id="polySurface836255161__IronWallRed-position-array" count="12">-30 -37.99999 8.500004 -30 -37.99999 5 -30 -414.9666 8.500004 -30 -414.9666 5</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255161__IronWallRed-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255161__IronWallRed-normal">
+          <float_array id="polySurface836255161__IronWallRed-normal-array" count="12">-1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255161__IronWallRed-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255161__IronWallRed-texcoord">
+          <float_array id="polySurface836255161__IronWallRed-texcoord-array" count="8">-5.240955 -18.86744 -4.803454 -18.86744 -5.240955 28.25336 -4.803454 28.25336</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255161__IronWallRed-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255161__IronWallRed-texcoord_1">
+          <float_array id="polySurface836255161__IronWallRed-texcoord-array_1" count="8">0.003921569 0.01176471 0.01568628 0.01176471 0.003921569 0.9882353 0.01568628 0.9882353</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255161__IronWallRed-texcoord-array_1" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface836255161__IronWallRed-vertex">
+          <input semantic="POSITION" source="#polySurface836255161__IronWallRed-position" />
+        </vertices>
+        <triangles material="IronWallRed" count="2">
+          <input semantic="VERTEX" source="#polySurface836255161__IronWallRed-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface836255161__IronWallRed-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface836255161__IronWallRed-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface836255161__IronWallRed-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface836255162__IronWall-mesh" name="polySurface836255162__IronWall">
+      <mesh>
+        <source id="polySurface836255162__IronWall-position">
+          <float_array id="polySurface836255162__IronWall-position-array" count="36">-29.00001 -37.99999 9.000005 -29.5 -37.99999 9.000005 -29.00001 -414.9666 9.000005 -29.5 -414.9666 9.000005 -29.49919 -37.99999 4.5 -28.9992 -37.99999 4.5 -29.49919 -414.9666 4.5 -28.9992 -414.9666 4.5 -28.56595 -38.00001 4.999995 -28.56595 -38.00001 8.500005 -28.56595 -414.5806 4.999995 -28.56595 -414.5806 8.500005</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255162__IronWall-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255162__IronWall-normal">
+          <float_array id="polySurface836255162__IronWall-normal-array" count="36">0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255162__IronWall-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255162__IronWall-texcoord">
+          <float_array id="polySurface836255162__IronWall-texcoord-array" count="24">-5.120491 -18.86732 -5.057992 -18.86732 -5.120491 28.25321 -5.057992 28.25321 -5.120491 -18.86732 -5.057992 -18.86732 -5.120491 28.25321 -5.057992 28.25321 -5.233736 -20.11731 -4.796235 -20.11731 -5.233736 26.95531 -4.796235 26.95531</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255162__IronWall-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255162__IronWall-texcoord_1">
+          <float_array id="polySurface836255162__IronWall-texcoord-array_1" count="24">0.01794461 0.009903133 0.01924163 0.009903133 0.01794461 0.9900969 0.01924163 0.9900969 0.005172809 0.009903133 0.006469825 0.009903133 0.005172809 0.9900969 0.006469825 0.9900969 0.03054856 0.009903133 0.03964294 0.009903133 0.03054856 0.989105 0.03964294 0.989105</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255162__IronWall-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface836255162__IronWall-vertex">
+          <input semantic="POSITION" source="#polySurface836255162__IronWall-position" />
+        </vertices>
+        <triangles material="IronWall" count="6">
+          <input semantic="VERTEX" source="#polySurface836255162__IronWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface836255162__IronWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface836255162__IronWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface836255162__IronWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface836255157__BaseHeliportOrange-mesh">
+      <skin source="#polySurface836255157__BaseHeliportOrange-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface836255157__BaseHeliportOrange-mesh-joint">
+          <Name_array id="polySurface836255157__BaseHeliportOrange-mesh-joint-array" count="1">FldBG_ElevatorFrame</Name_array>
+          <technique_common>
+            <accessor source="#polySurface836255157__BaseHeliportOrange-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255157__BaseHeliportOrange-mesh-inv_bind_matrix">
+          <float_array id="polySurface836255157__BaseHeliportOrange-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255157__BaseHeliportOrange-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255157__BaseHeliportOrange-mesh-weight">
+          <float_array id="polySurface836255157__BaseHeliportOrange-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255157__BaseHeliportOrange-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface836255157__BaseHeliportOrange-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface836255157__BaseHeliportOrange-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="80">
+          <input semantic="JOINT" source="#polySurface836255157__BaseHeliportOrange-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface836255157__BaseHeliportOrange-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface836255161__IronWallRed-mesh">
+      <skin source="#polySurface836255161__IronWallRed-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface836255161__IronWallRed-mesh-joint">
+          <Name_array id="polySurface836255161__IronWallRed-mesh-joint-array" count="1">FldBG_ElevatorFrame</Name_array>
+          <technique_common>
+            <accessor source="#polySurface836255161__IronWallRed-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255161__IronWallRed-mesh-inv_bind_matrix">
+          <float_array id="polySurface836255161__IronWallRed-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255161__IronWallRed-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255161__IronWallRed-mesh-weight">
+          <float_array id="polySurface836255161__IronWallRed-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255161__IronWallRed-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface836255161__IronWallRed-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface836255161__IronWallRed-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#polySurface836255161__IronWallRed-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface836255161__IronWallRed-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface836255162__IronWall-mesh">
+      <skin source="#polySurface836255162__IronWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface836255162__IronWall-mesh-joint">
+          <Name_array id="polySurface836255162__IronWall-mesh-joint-array" count="1">FldBG_ElevatorFrame</Name_array>
+          <technique_common>
+            <accessor source="#polySurface836255162__IronWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255162__IronWall-mesh-inv_bind_matrix">
+          <float_array id="polySurface836255162__IronWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255162__IronWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface836255162__IronWall-mesh-weight">
+          <float_array id="polySurface836255162__IronWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface836255162__IronWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface836255162__IronWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface836255162__IronWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface836255162__IronWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface836255162__IronWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldBG_ElevatorFrame" name="FldBG_ElevatorFrame" sid="FldBG_ElevatorFrame" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface836255157__BaseHeliportOrange" name="polySurface836255157__BaseHeliportOrange" type="NODE">
+        <instance_controller url="#Armature_polySurface836255157__BaseHeliportOrange-mesh">
+          <skeleton>#Armature_FldBG_ElevatorFrame</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BaseHeliportOrange" target="#BaseHeliportOrange" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface836255161__IronWallRed" name="polySurface836255161__IronWallRed" type="NODE">
+        <instance_controller url="#Armature_polySurface836255161__IronWallRed-mesh">
+          <skeleton>#Armature_FldBG_ElevatorFrame</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="IronWallRed" target="#IronWallRed" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface836255162__IronWall" name="polySurface836255162__IronWall" type="NODE">
+        <instance_controller url="#Armature_polySurface836255162__IronWall-mesh">
+          <skeleton>#Armature_FldBG_ElevatorFrame</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="IronWall" target="#IronWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
