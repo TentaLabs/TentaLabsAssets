@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BoxWoodRepeat_Alb">
+      <init_from>BoxWoodRepeat_Alb.png</init_from>
+    </image>
+    <image id="BoxWoodRepeat_Nrm">
+      <init_from>BoxWoodRepeat_Nrm.png</init_from>
+    </image>
+    <image id="BoxWoodRepeat_Rgh">
+      <init_from>BoxWoodRepeat_Rgh.png</init_from>
+    </image>
+    <image id="GroundMarbleTile2_Alb">
+      <init_from>GroundMarbleTile2_Alb.png</init_from>
+    </image>
+    <image id="GroundMarbleTile2_Nrm">
+      <init_from>GroundMarbleTile2_Nrm.png</init_from>
+    </image>
+    <image id="GroundWoodRepeat_Alb">
+      <init_from>GroundWoodRepeat_Alb.png</init_from>
+    </image>
+    <image id="GroundWoodRepeat_Nrm">
+      <init_from>GroundWoodRepeat_Nrm.png</init_from>
+    </image>
+    <image id="GroundWoodRepeat_Rgh">
+      <init_from>GroundWoodRepeat_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="WallRepeatNP_Alb">
+      <init_from>WallRepeatNP_Alb.png</init_from>
+    </image>
+    <image id="WallRepeatNP_Nrm">
+      <init_from>WallRepeatNP_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeatNP_Rgh">
+      <init_from>WallRepeatNP_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="BoxWoodRepeat">
+      <instance_effect url="#Effect_BoxWoodRepeat" />
+    </material>
+    <material id="GroundMarbleTile2">
+      <instance_effect url="#Effect_GroundMarbleTile2" />
+    </material>
+    <material id="GroundWoodRepeat">
+      <instance_effect url="#Effect_GroundWoodRepeat" />
+    </material>
+    <material id="WallRepeatNP">
+      <instance_effect url="#Effect_WallRepeatNP" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_BoxWoodRepeat">
+      <profile_COMMON>
+        <newparam sid="surface_BoxWoodRepeat-diffuse">
+          <surface type="2D">
+            <init_from>BoxWoodRepeat_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BoxWoodRepeat-diffuse">
+          <sampler2D>
+            <source>surface_BoxWoodRepeat-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_BoxWoodRepeat-bump">
+          <surface type="2D">
+            <init_from>BoxWoodRepeat_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_BoxWoodRepeat-bump">
+          <sampler2D>
+            <source>surface_BoxWoodRepeat-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_BoxWoodRepeat-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_BoxWoodRepeat-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundMarbleTile2">
+      <profile_COMMON>
+        <newparam sid="surface_GroundMarbleTile2-diffuse">
+          <surface type="2D">
+            <init_from>GroundMarbleTile2_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundMarbleTile2-diffuse">
+          <sampler2D>
+            <source>surface_GroundMarbleTile2-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundMarbleTile2-bump">
+          <surface type="2D">
+            <init_from>GroundMarbleTile2_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundMarbleTile2-bump">
+          <sampler2D>
+            <source>surface_GroundMarbleTile2-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundMarbleTile2-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundMarbleTile2-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundWoodRepeat">
+      <profile_COMMON>
+        <newparam sid="surface_GroundWoodRepeat-diffuse">
+          <surface type="2D">
+            <init_from>GroundWoodRepeat_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundWoodRepeat-diffuse">
+          <sampler2D>
+            <source>surface_GroundWoodRepeat-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundWoodRepeat-bump">
+          <surface type="2D">
+            <init_from>GroundWoodRepeat_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundWoodRepeat-bump">
+          <sampler2D>
+            <source>surface_GroundWoodRepeat-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundWoodRepeat-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundWoodRepeat-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_WallRepeatNP">
+      <profile_COMMON>
+        <newparam sid="surface_WallRepeatNP-diffuse">
+          <surface type="2D">
+            <init_from>WallRepeatNP_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallRepeatNP-diffuse">
+          <sampler2D>
+            <source>surface_WallRepeatNP-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_WallRepeatNP-bump">
+          <surface type="2D">
+            <init_from>WallRepeatNP_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_WallRepeatNP-bump">
+          <sampler2D>
+            <source>surface_WallRepeatNP-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_WallRepeatNP-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_WallRepeatNP-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Edge1__GroundMarbleTile2-mesh" name="Edge1__GroundMarbleTile2">
+      <mesh>
+        <source id="Edge1__GroundMarbleTile2-position">
+          <float_array id="Edge1__GroundMarbleTile2-position-array" count="192">-1.417157 -1.5 -2.8 -1.210051 -1.5 -2.3 -2.3 -1.5 -1.210051 -2.8 -1.5 -1.417157 -1.417157 -1.5 -2.8 1.417157 -1.5 -2.8 -1.210051 -1.5 -2.3 1.210051 -1.5 -2.3 2.8 -1.5 -1.417157 2.3 -1.5 -1.210051 1.210051 -1.5 -2.3 1.417157 -1.5 -2.8 -2.8 -1.5 -1.417157 -2.3 -1.5 -1.210051 -2.3 -1.5 1.210051 -2.8 -1.5 1.417157 2.8 -1.5 -1.417157 2.8 -1.5 1.417157 2.3 -1.5 -1.210051 2.3 -1.5 1.210051 -1.417157 -1.5 2.8 -2.8 -1.5 1.417157 -1.210051 -1.5 2.3 -2.3 -1.5 1.210051 1.417157 -1.5 2.8 -1.417157 -1.5 2.8 1.210051 -1.5 2.3 -1.210051 -1.5 2.3 2.8 -1.5 1.417157 1.417157 -1.5 2.8 2.3 -1.5 1.210051 1.210051 -1.5 2.3 -2.3 0 1.210051 -2.3 0 -1.210051 -2.8 0 -1.417157 -2.8 0 1.417157 -1.417157 0 2.8 -1.210051 0 2.3 -2.8 0 1.417157 -2.3 0 1.210051 1.417157 0 2.8 1.210051 0 2.3 -1.417157 0 2.8 -1.210051 0 2.3 -2.3 0 -1.210051 -1.210051 0 -2.3 -1.417157 0 -2.8 -2.8 0 -1.417157 -1.210051 0 -2.3 1.210051 0 -2.3 1.417157 0 -2.8 -1.417157 0 -2.8 1.417157 0 -2.8 1.210051 0 -2.3 2.8 0 -1.417157 2.3 0 -1.210051 2.3 0 -1.210051 2.3 0 1.210051 2.8 0 1.417157 2.8 0 -1.417157 2.8 0 1.417157 2.3 0 1.210051 1.417157 0 2.8 1.210051 0 2.3</float_array>
+          <technique_common>
+            <accessor source="#Edge1__GroundMarbleTile2-position-array" count="64" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__GroundMarbleTile2-normal">
+          <float_array id="Edge1__GroundMarbleTile2-normal-array" count="192">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Edge1__GroundMarbleTile2-normal-array" count="64" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__GroundMarbleTile2-texcoord">
+          <float_array id="Edge1__GroundMarbleTile2-texcoord-array" count="128">-9.796347 0 -9.520205 0.6666667 -7.464975 0.6666667 -7.188835 0 10.96864 0 7.189548 0 10.69249 0.6666665 7.465692 0.6666665 5.19042 0 5.466563 0.6666666 7.521791 0.6666666 7.797934 0 -7.796969 0 -7.520826 0.6666667 -4.294025 0.6666667 -4.017882 0 5.904991 0 2.125904 0 5.628848 0.6666667 2.402046 0.6666667 -2.124773 0 -4.732285 0 -2.401018 0.6666667 -4.456247 0.6666667 0.9423211 0 -2.836765 0 0.6661813 0.6666667 -2.56062 0.6666667 2.837835 0 0.2303216 0 2.561689 0.6666667 0.506461 0.6666667 -4.294025 0.6666667 -7.520826 0.6666667 -7.796969 0 -4.017882 0 -2.124773 0 -2.401018 0.6666667 -4.732285 0 -4.456247 0.6666667 0.9423211 0 0.6661813 0.6666667 -2.836765 0 -2.56062 0.6666667 -7.464975 0.6666667 -9.520205 0.6666667 -9.796347 0 -7.188835 0 10.69249 0.6666665 7.465692 0.6666665 7.189548 0 10.96864 0 7.797934 0 7.521791 0.6666666 5.19042 0 5.466563 0.6666666 5.628848 0.6666667 2.402046 0.6666667 2.125904 0 5.904991 0 2.837835 0 2.561689 0.6666667 0.2303216 0 0.506461 0.6666667</float_array>
+          <technique_common>
+            <accessor source="#Edge1__GroundMarbleTile2-texcoord-array" count="64" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__GroundMarbleTile2-texcoord_1">
+          <float_array id="Edge1__GroundMarbleTile2-texcoord-array_1" count="128">0.3148394 0.9285268 0.2153811 0.8873274 0.2153811 0.5806973 0.3148394 0.539498 0.5321126 0.003845274 0.5321126 0.5676662 0.4326543 0.04504466 0.4326543 0.5264668 0.1034257 0.9285268 0.003967346 0.8873274 0.003967346 0.5806973 0.1034257 0.539498 0.8570535 0.5676662 0.7575952 0.5264668 0.7575952 0.04504466 0.8570535 0.003845274 0.7474326 0.003845274 0.7474326 0.5676662 0.6479744 0.04504466 0.6479744 0.5264668 0.7435263 0.5766995 0.7435263 0.965713 0.6440528 0.6179141 0.6440528 0.9245289 0.6397803 0.003845274 0.6397803 0.5676662 0.5403219 0.04504466 0.5403219 0.5264668 0.4381628 0.5375448 0.4381628 0.9265736 0.3386892 0.5787442 0.3386892 0.8853742 0.4244602 0.04896623 0.4244602 0.5303731 0.3249866 0.5715724 0.3249866 0.007766843 0.7556267 0.5375448 0.8551003 0.5787594 0.7556267 0.9265736 0.8551003 0.8853895 0.111635 0.007766843 0.2110933 0.04896623 0.111635 0.5715724 0.2110933 0.5303731 0.6378271 0.5787442 0.6378271 0.8853742 0.5383536 0.9265736 0.5383536 0.5375448 0.1034257 0.04896623 0.1034257 0.5303731 0.003967346 0.5715724 0.003967346 0.007766843 0.8965744 0.3946441 0.9960327 0.4358435 0.8965744 0.7836728 0.9960327 0.7424735 0.3187457 0.04896623 0.3187457 0.5303731 0.2192874 0.5715724 0.2192874 0.007766843 0.8672007 0.007064939 0.9666743 0.04826427 0.8672007 0.3960937 0.9666743 0.3548943</float_array>
+          <technique_common>
+            <accessor source="#Edge1__GroundMarbleTile2-texcoord-array_1" count="64" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge1__GroundMarbleTile2-vertex">
+          <input semantic="POSITION" source="#Edge1__GroundMarbleTile2-position" />
+        </vertices>
+        <triangles material="GroundMarbleTile2" count="32">
+          <input semantic="VERTEX" source="#Edge1__GroundMarbleTile2-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge1__GroundMarbleTile2-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge1__GroundMarbleTile2-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Edge1__GroundMarbleTile2-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 8 8 8 8 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 15 15 15 15 12 12 12 12 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 35 35 35 35 32 32 32 32 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 47 47 47 47 44 44 44 44 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 51 51 51 51 48 48 48 48 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 59 59 59 59 56 56 56 56 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Edge2__GroundWoodRepeat-mesh" name="Edge2__GroundWoodRepeat">
+      <mesh>
+        <source id="Edge2__GroundWoodRepeat-position">
+          <float_array id="Edge2__GroundWoodRepeat-position-array" count="48">-2.3 0 -1.210051 -2.3 0 1.210051 -1.210051 0 -2.3 -1.210051 0 2.3 1.210051 0 -2.3 1.210051 0 2.3 2.3 0 -1.210051 2.3 0 1.210051 -2.3 -1.5 -1.210051 -1.210051 -1.5 -2.3 -2.3 -1.5 1.210051 1.210051 -1.5 -2.3 -1.210051 -1.5 2.3 2.3 -1.5 -1.210051 1.210051 -1.5 2.3 2.3 -1.5 1.210051</float_array>
+          <technique_common>
+            <accessor source="#Edge2__GroundWoodRepeat-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__GroundWoodRepeat-normal">
+          <float_array id="Edge2__GroundWoodRepeat-normal-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#Edge2__GroundWoodRepeat-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__GroundWoodRepeat-texcoord">
+          <float_array id="Edge2__GroundWoodRepeat-texcoord-array" count="32">0.2113374 0.6500953 0.2113374 0.3475853 0.3475853 0.7863432 0.3475853 0.2113374 0.6500953 0.7863432 0.6500953 0.2113374 0.7863432 0.6500953 0.7863432 0.3475853 0.2113374 0.6500953 0.3475853 0.7863432 0.2113374 0.3475853 0.6500953 0.7863432 0.3475853 0.2113374 0.7863432 0.6500953 0.6500953 0.2113374 0.7863432 0.3475853</float_array>
+          <technique_common>
+            <accessor source="#Edge2__GroundWoodRepeat-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__GroundWoodRepeat-texcoord_1">
+          <float_array id="Edge2__GroundWoodRepeat-texcoord-array_1" count="32">0.003921569 0.427451 0.003921569 0.1372549 0.1372549 0.5568627 0.1372549 0.003921568 0.427451 0.5568627 0.427451 0.003921568 0.5568628 0.427451 0.5568628 0.1372549 0.9882353 0.8627451 0.8588235 0.9960784 0.9882353 0.572549 0.5686275 0.9960784 0.8588235 0.4431372 0.4352941 0.8627451 0.5686275 0.4431372 0.4352941 0.572549</float_array>
+          <technique_common>
+            <accessor source="#Edge2__GroundWoodRepeat-texcoord-array_1" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Edge2__GroundWoodRepeat-vertex">
+          <input semantic="POSITION" source="#Edge2__GroundWoodRepeat-position" />
+        </vertices>
+        <triangles material="GroundWoodRepeat" count="12">
+          <input semantic="VERTEX" source="#Edge2__GroundWoodRepeat-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Edge2__GroundWoodRepeat-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Edge2__GroundWoodRepeat-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Edge2__GroundWoodRepeat-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 3 3 3 3 5 5 5 5 4 4 4 4 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 10 10 10 10 11 11 11 11 12 12 12 12 11 11 11 11 13 13 13 13 12 12 12 12 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh" name="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat">
+      <mesh>
+        <source id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-position">
+          <float_array id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-position-array" count="96">-1.48335 -1.3 -2.966701 -2.966701 -1.3 -1.48335 -1.48335 -0.2 -2.966701 -2.966701 -0.2 -1.48335 -2.966701 -1.3 -1.48335 -2.966701 -1.3 1.48335 -2.966701 -0.2 -1.48335 -2.966701 -0.2 1.48335 -2.966701 -1.3 1.48335 -1.48335 -1.3 2.966701 -2.966701 -0.2 1.48335 -1.48335 -0.2 2.966701 -1.48335 -1.3 2.966701 1.48335 -1.3 2.966701 -1.48335 -0.2 2.966701 1.48335 -0.2 2.966701 1.48335 -1.3 -2.966701 -1.48335 -1.3 -2.966701 1.48335 -0.2 -2.966701 -1.48335 -0.2 -2.966701 2.966701 -1.3 -1.48335 1.48335 -1.3 -2.966701 2.966701 -0.2 -1.48335 1.48335 -0.2 -2.966701 2.966701 -1.3 1.48335 2.966701 -1.3 -1.48335 2.966701 -0.2 1.48335 2.966701 -0.2 -1.48335 1.48335 -1.3 2.966701 2.966701 -1.3 1.48335 1.48335 -0.2 2.966701 2.966701 -0.2 1.48335</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-position-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-normal">
+          <float_array id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-normal-array" count="96">-0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 1 0 0 1 0 0 1 0 0 1 0 0 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-normal-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord">
+          <float_array id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord-array" count="64">0.09716797 0.07714844 -0.1027832 0.07714844 0.09716797 -0.07128906 -0.1027832 -0.07128906 -0.1027832 0.07714844 -0.5024414 0.07714844 -0.1027832 -0.07128906 -0.5024414 -0.07128906 -0.5024414 0.07714844 -0.7026367 0.07714844 -0.5024414 -0.07128906 -0.7026367 -0.07128906 -0.7026367 0.07714844 -1.102539 0.07714844 -0.7026367 -0.07128906 -1.102539 -0.07128906 0.4970703 0.07714844 0.09716797 0.07714844 0.4970703 -0.07128906 0.09716797 -0.07128906 -1.702148 0.07714844 -1.902344 0.07714844 -1.702148 -0.07128906 -1.902344 -0.07128906 -1.302734 0.07714844 -1.702148 0.07714844 -1.302734 -0.07128906 -1.702148 -0.07128906 -1.102539 0.07714844 -1.302734 0.07714844 -1.102539 -0.07128906 -1.302734 -0.07128906</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord-array" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord_1">
+          <float_array id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord-array_1" count="64">0.06155489 0.1693141 0.06155489 0.2519875 0.0002441444 0.1693141 0.0002441444 0.2519875 0.06155489 0.2519875 0.06155489 0.4173343 0.0002441444 0.2519875 0.0002441444 0.4173343 0.06155489 0.4173343 0.06155489 0.5000076 0.0002441444 0.4173343 0.0002441444 0.5000076 0.06155489 0.5000076 0.06155489 0.6653391 0.0002441444 0.5000076 0.0002441444 0.6653391 0.06155489 0.003967345 0.06155489 0.1693141 0.0002441444 0.003967345 0.0002441444 0.1693141 0.06155489 0.9133593 0.06155489 0.9960327 0.0002441444 0.9133593 0.0002441444 0.9960327 0.06155489 0.7480125 0.06155489 0.9133593 0.0002441444 0.7480125 0.0002441444 0.9133593 0.06155489 0.6653391 0.06155489 0.7480125 0.0002441444 0.6653391 0.0002441444 0.7480125</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord-array_1" count="32" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-vertex">
+          <input semantic="POSITION" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-position" />
+        </vertices>
+        <triangles material="BoxWoodRepeat" count="16">
+          <input semantic="VERTEX" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="shape20__WallRepeatNP-mesh" name="shape20__WallRepeatNP">
+      <mesh>
+        <source id="shape20__WallRepeatNP-position">
+          <float_array id="shape20__WallRepeatNP-position-array" count="960">-2.858579 -0.2 -1.641421 -2.823223 -0.2 -1.606066 -2.823223 -1.3 -1.606066 -2.858579 -1.3 -1.641421 -3 -1.3 -1.3 -2.949999 -1.3 -1.3 -2.949999 -0.2 -1.3 -3 -0.2 -1.3 -3 -0.2 -1.5 -2.858579 -0.2 -1.641421 -3 -1.3 -1.5 -2.858579 -1.3 -1.641421 -3 -0.2 -1.5 -3 -1.3 -1.5 -3 -0.2 -1.3 -3 -1.3 -1.3 -3 -1.5 1.5 -3 -1.3 1.5 -3 -1.5 -1.5 -3 -1.3 -1.5 -2.95 -1.3 1.475 -2.951424 -1.3 -1.475712 -3 -1.3 -1.5 -3 -1.3 1.5 -2.8 -1.5 1.417157 -3 -1.5 1.5 -3 -1.5 -1.5 -2.8 -1.5 -1.417157 -3 -1.311342E-07 -1.5 -3 -3.934025E-07 1.5 -2.8 -3.861601E-07 1.417157 -2.8 -1.383765E-07 -1.417157 -3 -3.934025E-07 1.5 -3 -1.311342E-07 -1.5 -3 -0.2000004 1.5 -3 -0.2000001 -1.5 -3 -0.2000001 -1.5 -2.951424 -0.2000001 -1.475712 -2.95 -0.2000004 1.475 -3 -0.2000004 1.5 -3 -0.2 1.3 -3 -1.3 1.3 -3 -1.3 1.5 -3 -0.2 1.5 -3 -0.2 1.5 -3 -1.3 1.5 -2.858578 -0.2 1.641422 -2.858578 -1.3 1.641422 -1.417157 -1.5 2.8 -1.5 -1.5 3 -3 -1.5 1.5 -2.8 -1.5 1.417157 -3 -1.3 1.3 -3 -0.2 1.3 -2.95 -1.3 1.3 -2.95 -0.2 1.3 -1.475712 -1.3 2.951424 -2.95 -1.3 1.475 -3 -1.3 1.5 -1.5 -1.3 3 -2.8 -3.861601E-07 1.417157 -3 -3.934025E-07 1.5 -1.417157 -5.070521E-07 2.8 -1.5 -5.245366E-07 3 -1.5 -1.3 3 -3 -1.3 1.5 -3 -1.5 1.5 -1.5 -1.5 3 -2.858578 -0.2 1.641422 -2.858578 -1.3 1.641422 -2.823223 -0.2 1.606066 -2.823223 -1.3 1.606066 -1.5 -0.2 3 -1.5 -1.3 3 -1.3 -0.2 3 -1.3 -1.3 3 -1.641421 -0.2 2.858579 -1.641421 -1.3 2.858579 -1.5 -1.3 3 -1.5 -0.2 3 -1.641421 -1.3 2.858579 -1.641421 -0.2 2.858579 -1.606066 -1.3 2.823223 -1.606066 -0.2 2.823223 -1.5 -0.2000005 3 -3 -0.2000004 1.5 -1.475712 -0.2000005 2.951424 -2.95 -0.2000004 1.475 -1.3 -0.2 3 -1.3 -1.3 3 -1.3 -0.2 2.949999 -1.3 -1.3 2.949999 -1.5 -5.245366E-07 3 -3 -3.934025E-07 1.5 -1.5 -0.2000005 3 -3 -0.2000004 1.5 -3 -1.311342E-07 -1.5 -1.5 0 -3 -3 -0.2000001 -1.5 -1.5 -0.2 -3 -3 -0.2000001 -1.5 -1.5 -0.2 -3 -2.951424 -0.2000001 -1.475712 -1.475 -0.2 -2.95 -1.5 0 -3 -3 -1.311342E-07 -1.5 -2.8 -1.383765E-07 -1.417157 -1.417157 -1.748456E-08 -2.8 -1.5 -0.2 -3 -1.5 -1.3 -3 -1.641422 -0.2 -2.858578 -1.641422 -1.3 -2.858578 -1.641422 -0.2 -2.858578 -1.641422 -1.3 -2.858578 -1.606066 -0.2 -2.823223 -1.606066 -1.3 -2.823223 -3 -1.3 -1.5 -1.5 -1.3 -3 -1.5 -1.5 -3 -3 -1.5 -1.5 -3 -1.3 -1.5 -2.951424 -1.3 -1.475712 -1.5 -1.3 -3 -1.475 -1.3 -2.95 -2.8 -1.5 -1.417157 -3 -1.5 -1.5 -1.5 -1.5 -3 -1.417157 -1.5 -2.8 -1.5 -0.2 -3 -1.3 -0.2 -3 -1.5 -1.3 -3 -1.3 -1.3 -3 -1.3 -1.3 -3 -1.3 -0.2 -3 -1.3 -1.3 -2.95 -1.3 -0.2 -2.95 1.5 -0.2 -3 1.475712 -0.2 -2.951424 -1.475 -0.2 -2.95 -1.5 -0.2 -3 1.417157 -1.748456E-08 -2.8 1.5 0 -3 -1.417157 -1.748456E-08 -2.8 -1.5 0 -3 -1.5 -1.3 -3 1.5 -1.3 -3 1.5 -1.5 -3 -1.5 -1.5 -3 -1.5 -1.3 -3 -1.475 -1.3 -2.95 1.5 -1.3 -3 1.475712 -1.3 -2.951424 -1.5 0 -3 1.5 0 -3 -1.5 -0.2 -3 1.5 -0.2 -3 -1.417157 -1.5 -2.8 -1.5 -1.5 -3 1.5 -1.5 -3 1.417157 -1.5 -2.8 1.5 -1.3 -3 1.3 -1.3 -3 1.3 -0.2 -3 1.5 -0.2 -3 3 -0.2 -1.3 3 -1.3 -1.3 3 -1.3 -1.5 3 -0.2 -1.5 3 -1.3 -1.3 3 -0.2 -1.3 2.95 -1.3 -1.3 2.95 -0.2 -1.3 3 -1.3 -1.5 2.858578 -1.3 -1.641422 2.858578 -0.2 -1.641422 3 -0.2 -1.5 1.475712 -1.3 -2.951424 2.95 -1.3 -1.475 3 -1.3 -1.5 1.5 -1.3 -3 2.858578 -0.2 -1.641422 2.858578 -1.3 -1.641422 2.823223 -0.2 -1.606066 2.823223 -1.3 -1.606066 1.5 -1.3 -3 3 -1.3 -1.5 3 -1.5 -1.5 1.5 -1.5 -3 1.417157 -1.5 -2.8 1.5 -1.5 -3 3 -1.5 -1.5 2.8 -1.5 -1.417157 2.8 -1.383765E-07 -1.417157 3 -1.311342E-07 -1.5 1.417157 -1.748456E-08 -2.8 1.5 0 -3 1.5 0 -3 3 -1.311342E-07 -1.5 1.5 -0.2 -3 3 -0.2000001 -1.5 1.641421 -0.2 -2.858579 1.606066 -0.2 -2.823223 1.606066 -1.3 -2.823223 1.641421 -1.3 -2.858579 1.641421 -0.2 -2.858579 1.641421 -1.3 -2.858579 1.5 -1.3 -3 1.5 -0.2 -3 1.3 -0.2 -3 1.3 -1.3 -3 1.3 -0.2 -2.949999 1.3 -1.3 -2.949999 3 -0.2000001 -1.5 2.95 -0.2000001 -1.475 1.475712 -0.2 -2.951424 1.5 -0.2 -3 -1.5 -5.245366E-07 3 1.5 -5.245366E-07 3 1.417157 -5.070521E-07 2.8 -1.417157 -5.070521E-07 2.8 1.5 -0.2 3 1.3 -0.2 3 1.5 -1.3 3 1.3 -1.3 3 1.3 -1.3 3 1.3 -0.2 3 1.3 -1.3 2.95 1.3 -0.2 2.95 1.5 -0.2000005 3 -1.5 -0.2000005 3 1.475 -0.2000005 2.95 -1.475712 -0.2000005 2.951424 1.5 -1.5 3 1.5 -1.3 3 -1.5 -1.5 3 -1.5 -1.3 3 1.5 -1.3 3 1.475 -1.3 2.95 -1.5 -1.3 3 -1.475712 -1.3 2.951424 -1.5 -5.245366E-07 3 -1.5 -0.2000005 3 1.5 -0.2000005 3 1.5 -5.245366E-07 3 1.417157 -1.5 2.8 1.5 -1.5 3 -1.5 -1.5 3 -1.417157 -1.5 2.8 1.641422 -0.2 2.858578 1.641422 -1.3 2.858578 1.606066 -0.2 2.823222 1.606066 -1.3 2.823222 1.5 -1.3 3 1.641422 -1.3 2.858578 1.641422 -0.2 2.858578 1.5 -0.2 3 3 -1.3 -1.5 3 -1.3 1.5 3 -1.5 1.5 3 -1.5 -1.5 2.8 -1.5 -1.417157 3 -1.5 -1.5 3 -1.5 1.5 2.8 -1.5 1.417157 3 -0.2 1.5 3 -1.3 1.5 3 -0.2 1.3 3 -1.3 1.3 3 -0.2 1.3 3 -1.3 1.3 2.95 -0.2 1.3 2.95 -1.3 1.3 3 -0.2 1.5 2.858579 -0.2 1.641421 3 -1.3 1.5 2.858579 -1.3 1.641421 1.417157 -5.070521E-07 2.8 1.5 -5.245366E-07 3 2.8 -3.861601E-07 1.417157 3 -3.934025E-07 1.5 2.8 -1.5 1.417157 3 -1.5 1.5 1.5 -1.5 3 1.417157 -1.5 2.8 2.951424 -1.3 1.475712 1.475 -1.3 2.95 1.5 -1.3 3 3 -1.3 1.5 1.5 -5.245366E-07 3 1.5 -0.2000005 3 3 -0.2000004 1.5 3 -3.934025E-07 1.5 2.858579 -1.3 1.641421 2.858579 -0.2 1.641421 2.823224 -1.3 1.606066 2.823224 -0.2 1.606066 1.5 -0.2000005 3 1.475 -0.2000005 2.95 2.951424 -0.2000004 1.475712 3 -0.2000004 1.5 3 -1.3 1.5 1.5 -1.3 3 1.5 -1.5 3 3 -1.5 1.5 3 -3.934025E-07 1.5 3 -1.311342E-07 -1.5 2.8 -1.383765E-07 -1.417157 2.8 -3.861601E-07 1.417157 3 -1.311342E-07 -1.5 3 -3.934025E-07 1.5 3 -0.2000001 -1.5 3 -0.2000004 1.5 3 -0.2000001 -1.5 3 -0.2000004 1.5 2.95 -0.2000001 -1.475 2.951424 -0.2000004 1.475712 3 -1.3 -1.5 2.95 -1.3 -1.475 3 -1.3 1.5 2.951424 -1.3 1.475712</float_array>
+          <technique_common>
+            <accessor source="#shape20__WallRepeatNP-position-array" count="320" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shape20__WallRepeatNP-normal">
+          <float_array id="shape20__WallRepeatNP-normal-array" count="960">0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0 1 0 0 1 0 0 1 0 0 1 0 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 -0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.7064579 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#shape20__WallRepeatNP-normal-array" count="320" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shape20__WallRepeatNP-texcoord">
+          <float_array id="shape20__WallRepeatNP-texcoord-array" count="640">0.1784668 -1.007813 0.09747314 -1.007813 0.09814453 -1.349609 0.1784668 -1.349609 0.1787109 -0.6689453 0.09814453 -0.6689453 0.09814453 -1.007813 0.1787109 -1.007813 0.4985352 -1.007813 0.1784668 -1.007813 0.4985352 -1.349609 0.1784668 -1.349609 0.4985352 -1.007813 0.4985352 -0.6689453 0.1787109 -1.007813 0.1787109 -0.6689453 0.4978027 0.7550049 0.1778564 0.755127 0.4985352 -0.3457031 0.1784668 -0.3466797 0.01811218 0.7458496 0.01873779 -0.3369141 0.1784668 -0.3466797 0.1778564 0.755127 0.9780273 0.6784668 0.6582031 0.7036133 0.6582031 -0.2148438 0.9780273 -0.1894531 0.6582031 -0.2148438 0.6582031 0.7036133 0.9780273 0.6784668 0.9780273 -0.1894531 0.4978027 0.7550049 0.4985352 -0.3457031 0.1778564 0.755127 0.1784668 -0.3466797 0.1784668 -0.3466797 0.01873779 -0.3369141 0.01811218 0.7458496 0.1778564 0.755127 0.1784668 -1.007813 0.1784668 -1.349609 0.4985352 -1.349609 0.4985352 -1.007813 0.4985352 -1.007813 0.4985352 -0.6689453 0.1787109 -1.007813 0.1787109 -0.6689453 0.9780273 0.5534668 0.6582031 0.5786133 0.6582031 -0.0703125 0.9780273 -0.04492188 0.1784668 -1.349609 0.1784668 -1.007813 0.09814453 -1.349609 0.09747314 -1.007813 0.01806641 1.017746 0.01873779 0.2558594 0.1784668 0.25 0.1778564 1.023987 0.9780273 -0.04492188 0.6582031 -0.0703125 0.9780273 0.5534668 0.6582031 0.5786133 0.1778564 1.023987 0.1784668 0.25 0.4985352 0.2504883 0.4978027 1.023987 0.1787109 -1.007813 0.1787109 -0.6689453 0.09814453 -1.007813 0.09814453 -0.6689453 0.4985352 -1.007813 0.4985352 -0.6689453 0.1787109 -1.007813 0.1787109 -0.6689453 0.1784668 -1.007813 0.1784668 -1.349609 0.4985352 -1.349609 0.4985352 -1.007813 0.1784668 -1.349609 0.1784668 -1.007813 0.09814453 -1.349609 0.09747314 -1.007813 0.1778564 1.023987 0.1784668 0.25 0.01806641 1.017746 0.01873779 0.2558594 0.1787109 -1.007813 0.1787109 -0.6689453 0.09814453 -1.007813 0.09814453 -0.6689453 0.4978027 1.023987 0.4985352 0.2504883 0.1778564 1.023987 0.1784668 0.25 0.4978027 1.023987 0.4985352 0.2504883 0.1778564 1.023987 0.1784668 0.25 0.1778564 1.023987 0.1784668 0.25 0.01806641 1.017746 0.01873779 0.2558594 0.6582031 -0.0703125 0.6582031 0.5786133 0.9780273 0.5534668 0.9780273 -0.04492188 0.4985352 -1.007813 0.4985352 -0.6689453 0.1787109 -1.007813 0.1787109 -0.6689453 0.1787109 -1.007813 0.1787109 -0.6689453 0.09814453 -1.007813 0.09814453 -0.6689453 0.1778564 1.023987 0.1784668 0.25 0.4985352 0.2504883 0.4978027 1.023987 0.1778564 1.023987 0.01806641 1.017746 0.1784668 0.25 0.01873779 0.2558594 0.9780273 0.5534668 0.6582031 0.5786133 0.6582031 -0.0703125 0.9780273 -0.04492188 0.4985352 -1.007813 0.1784668 -1.007813 0.4985352 -1.349609 0.1784668 -1.349609 0.1784668 -1.349609 0.1784668 -1.007813 0.09814453 -1.349609 0.09747314 -1.007813 0.1784668 -0.3466797 0.01873779 -0.3369141 0.01811218 0.7458496 0.1778564 0.755127 0.9780273 -0.1894531 0.6582031 -0.2148438 0.9780273 0.6784668 0.6582031 0.7036133 0.1778564 0.755127 0.1784668 -0.3466797 0.4985352 -0.3457031 0.4978027 0.7550049 0.1778564 0.755127 0.01811218 0.7458496 0.1784668 -0.3466797 0.01873779 -0.3369141 0.4978027 0.7550049 0.4985352 -0.3457031 0.1778564 0.755127 0.1784668 -0.3466797 0.9780273 0.6784668 0.6582031 0.7036133 0.6582031 -0.2148438 0.9780273 -0.1894531 0.4985352 -0.6689453 0.1787109 -0.6689453 0.1787109 -1.007813 0.4985352 -1.007813 0.1784668 -1.007813 0.1784668 -1.349609 0.4985352 -1.349609 0.4985352 -1.007813 0.1784668 -1.349609 0.1784668 -1.007813 0.09814453 -1.349609 0.09747314 -1.007813 0.4985352 -0.6689453 0.1787109 -0.6689453 0.1787109 -1.007813 0.4985352 -1.007813 0.01806641 1.017746 0.01873779 0.2558594 0.1784668 0.25 0.1778564 1.023987 0.1787109 -1.007813 0.1787109 -0.6689453 0.09814453 -1.007813 0.09814453 -0.6689453 0.1778564 1.023987 0.1784668 0.25 0.4985352 0.2504883 0.4978027 1.023987 0.9780273 0.5534668 0.6582031 0.5786133 0.6582031 -0.0703125 0.9780273 -0.04492188 0.9780273 -0.04492188 0.6582031 -0.0703125 0.9780273 0.5534668 0.6582031 0.5786133 0.4978027 1.023987 0.4985352 0.2504883 0.1778564 1.023987 0.1784668 0.25 0.1784668 -1.007813 0.09747314 -1.007813 0.09814453 -1.349609 0.1784668 -1.349609 0.1784668 -1.007813 0.1784668 -1.349609 0.4985352 -1.349609 0.4985352 -1.007813 0.1787109 -1.007813 0.1787109 -0.6689453 0.09814453 -1.007813 0.09814453 -0.6689453 0.1784668 0.25 0.01873779 0.2558594 0.01806641 1.017746 0.1778564 1.023987 0.6582031 -0.2148438 0.6582031 0.7036133 0.9780273 0.6784668 0.9780273 -0.1894531 0.4985352 -1.007813 0.1784668 -1.007813 0.4985352 -1.349609 0.1784668 -1.349609 0.1784668 -1.349609 0.1784668 -1.007813 0.09814453 -1.349609 0.09747314 -1.007813 0.1778564 0.755127 0.1784668 -0.3466797 0.01811218 0.7458496 0.01873779 -0.3369141 0.4978027 0.7550049 0.1778564 0.755127 0.4985352 -0.3457031 0.1784668 -0.3466797 0.1778564 0.755127 0.01811218 0.7458496 0.1784668 -0.3466797 0.01873779 -0.3369141 0.4985352 -0.3457031 0.1784668 -0.3466797 0.1778564 0.755127 0.4978027 0.7550049 0.9780273 0.6784668 0.6582031 0.7036133 0.6582031 -0.2148438 0.9780273 -0.1894531 0.1787109 -1.007813 0.1787109 -0.6689453 0.09814453 -1.007813 0.09814453 -0.6689453 0.4985352 -0.6689453 0.1787109 -0.6689453 0.1787109 -1.007813 0.4985352 -1.007813 0.1778564 0.755127 0.1784668 -0.3466797 0.4985352 -0.3457031 0.4978027 0.7550049 0.9780273 0.6784668 0.6582031 0.7036133 0.6582031 -0.2148438 0.9780273 -0.1894531 0.4985352 -1.007813 0.4985352 -0.6689453 0.1787109 -1.007813 0.1787109 -0.6689453 0.1787109 -1.007813 0.1787109 -0.6689453 0.09814453 -1.007813 0.09814453 -0.6689453 0.4985352 -1.007813 0.1784668 -1.007813 0.4985352 -1.349609 0.1784668 -1.349609 0.9780273 -0.04492188 0.6582031 -0.0703125 0.9780273 0.5534668 0.6582031 0.5786133 0.9780273 0.5534668 0.6582031 0.5786133 0.6582031 -0.0703125 0.9780273 -0.04492188 0.01806641 1.017746 0.01873779 0.2558594 0.1784668 0.25 0.1778564 1.023987 0.4985352 0.2504883 0.1784668 0.25 0.1778564 1.023987 0.4978027 1.023987 0.1784668 -1.349609 0.1784668 -1.007813 0.09814453 -1.349609 0.09747314 -1.007813 0.1784668 0.25 0.01873779 0.2558594 0.01806641 1.017746 0.1778564 1.023987 0.1778564 1.023987 0.1784668 0.25 0.4985352 0.2504883 0.4978027 1.023987 0.6582031 -0.2148438 0.6582031 0.7036133 0.9780273 0.6784668 0.9780273 -0.1894531 0.4978027 0.7550049 0.4985352 -0.3457031 0.1778564 0.755127 0.1784668 -0.3466797 0.1778564 0.755127 0.1784668 -0.3466797 0.01811218 0.7458496 0.01873779 -0.3369141 0.1778564 0.755127 0.01811218 0.7458496 0.1784668 -0.3466797 0.01873779 -0.3369141</float_array>
+          <technique_common>
+            <accessor source="#shape20__WallRepeatNP-texcoord-array" count="320" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shape20__WallRepeatNP-texcoord_1">
+          <float_array id="shape20__WallRepeatNP-texcoord-array_1" count="640">0.2304723 0.7036698 0.2230259 0.7036698 0.2230869 0.5398794 0.2304723 0.5398947 0.167483 0.877348 0.1600824 0.877348 0.1600824 0.7144579 0.167483 0.7144579 0.2598611 0.7036698 0.2304723 0.7036698 0.2598611 0.539971 0.2304723 0.5398947 0.1968719 0.7144579 0.1968719 0.877348 0.167483 0.7144579 0.167483 0.877348 0.2059663 0.534371 0.1765621 0.5344015 0.2060273 0.005813658 0.1766232 0.005630553 0.161883 0.5299611 0.161944 0.009979427 0.1766232 0.005630553 0.1765621 0.5344015 0.5760891 0.4363928 0.546685 0.4485695 0.546685 0.007568479 0.5760891 0.01974517 0.7199512 0.003967345 0.7199512 0.4449836 0.690547 0.4328069 0.690547 0.01614404 0.3741207 0.534371 0.3740597 0.005813658 0.4035248 0.5344015 0.4034638 0.005630553 0.4034638 0.005630553 0.418143 0.009979427 0.418204 0.5299611 0.4035248 0.5344015 0.1675288 0.7054703 0.1675288 0.5416952 0.1969329 0.5417715 0.1969329 0.7054703 0.9089494 0.7648127 0.9089494 0.9277028 0.8795758 0.7648127 0.8795758 0.9277028 0.4825818 0.7504234 0.4531929 0.7626001 0.4531929 0.4507667 0.4825818 0.4629435 0.1675288 0.5416952 0.1675288 0.7054703 0.1601434 0.54168 0.1600824 0.7054703 0.7265126 0.7557794 0.7265736 0.3901122 0.7412528 0.3870909 0.7411917 0.7587701 0.0306096 0.5510491 0.06001373 0.5388724 0.0306096 0.8385443 0.06001373 0.850721 0.7411917 0.7587701 0.7412528 0.3870909 0.7706569 0.3873503 0.7705958 0.7587701 0.8795758 0.7648127 0.8795758 0.9277028 0.8721599 0.7648127 0.8721599 0.9277028 0.7201343 0.7612116 0.7201343 0.9241017 0.6907607 0.7612116 0.6907607 0.9241017 0.117174 0.7054703 0.117174 0.5416952 0.1465782 0.5417715 0.1465782 0.7054703 0.117174 0.5416952 0.117174 0.7054703 0.1097887 0.54168 0.1097276 0.7054703 0.64448 0.8289006 0.644419 0.4572213 0.6591592 0.8259099 0.6590982 0.4602426 0.6907607 0.7612116 0.6907607 0.9241017 0.68336 0.7612116 0.68336 0.9241017 0.6150911 0.8289006 0.6150301 0.4574807 0.64448 0.8289006 0.644419 0.4572213 0.7787136 0.7605707 0.7786526 0.3891509 0.8081178 0.7605707 0.8080568 0.3888915 0.8081178 0.7605707 0.8080568 0.3888915 0.822797 0.7575799 0.822736 0.3919127 0.538323 0.4471656 0.538323 0.7590142 0.5089341 0.7468376 0.5089341 0.4593424 0.5151446 0.759411 0.5151446 0.9223011 0.485771 0.759411 0.485771 0.9223011 0.485771 0.759411 0.485771 0.9223011 0.4783551 0.759411 0.4783551 0.9223011 0.7429923 0.3775693 0.7430533 0.005874753 0.7724575 0.006134152 0.7723964 0.3775693 0.7429923 0.3775693 0.7283131 0.3745785 0.7430533 0.005874753 0.7283741 0.008895993 0.9141527 0.3062791 0.8847486 0.3184558 0.8847486 0.006622434 0.9141527 0.01879913 0.3120165 0.7036698 0.2826124 0.7036698 0.3120165 0.539971 0.2826124 0.5398947 0.2826124 0.5398947 0.2826124 0.7036698 0.275227 0.5398794 0.2751659 0.7036698 0.2434272 0.005630553 0.2581064 0.009979427 0.2581674 0.5299611 0.2434882 0.5344015 0.5826505 0.01614404 0.6120546 0.003967345 0.5826505 0.4328069 0.6120546 0.4449836 0.01832609 0.5344015 0.01838712 0.005630553 0.047776 0.005813658 0.04771496 0.534371 0.01832609 0.5344015 0.003646906 0.5299611 0.01838712 0.005630553 0.003692683 0.009979427 0.2140841 0.534371 0.214023 0.005813658 0.2434882 0.5344015 0.2434272 0.005630553 0.4574044 0.4363928 0.4280156 0.4485695 0.4280156 0.007568479 0.4574044 0.01974517 0.8550088 0.9313039 0.8256199 0.9313039 0.8256199 0.7684138 0.8550088 0.7684138 0.1225757 0.8798962 0.1225757 0.7161212 0.1519799 0.7161822 0.1519799 0.8798962 0.1225757 0.7161212 0.1225757 0.8798962 0.1151904 0.7161059 0.1151293 0.8798962 0.5618982 0.9960327 0.5325246 0.9960327 0.5325246 0.8331426 0.5618982 0.8331426 0.8326085 0.3745785 0.8326696 0.008895993 0.8473487 0.005874753 0.8472877 0.3775693 0.5325246 0.8331426 0.5325246 0.9960327 0.5251087 0.8331426 0.5251087 0.9960327 0.8472877 0.3775693 0.8473487 0.005874753 0.8767529 0.006134152 0.8766918 0.3775693 0.6965743 0.7486382 0.6671702 0.7608148 0.6671702 0.4489662 0.6965743 0.4611429 0.3363088 0.5510491 0.3656977 0.5388724 0.3363088 0.8385443 0.3656977 0.850721 0.5629358 0.8253147 0.5628748 0.4538796 0.59234 0.8253147 0.592279 0.4536202 0.257435 0.8780957 0.2499886 0.8780957 0.2500496 0.7143053 0.257435 0.7143206 0.257435 0.8780957 0.257435 0.7143206 0.2868391 0.7143969 0.2868391 0.8780957 0.8256199 0.7684138 0.8256199 0.9313039 0.8182192 0.7684138 0.8182192 0.9313039 0.592279 0.4536202 0.6069581 0.4566415 0.6070191 0.8223239 0.59234 0.8253147 0.6480201 0.003967345 0.6480201 0.4449836 0.618616 0.4328069 0.618616 0.01614404 0.1052262 0.8780957 0.07582208 0.8780957 0.1052262 0.7143969 0.07582208 0.7143206 0.07582208 0.7143206 0.07582208 0.8780957 0.06843671 0.7143053 0.06837568 0.8780957 0.2956283 0.5344015 0.2955825 0.005630553 0.3103075 0.5299611 0.3102617 0.009979427 0.0998703 0.534371 0.07046616 0.5344015 0.09993134 0.005813658 0.0705272 0.005630553 0.07046616 0.5344015 0.05578699 0.5299611 0.0705272 0.005630553 0.05584802 0.009979427 0.2661784 0.005813658 0.2955825 0.005630553 0.2956283 0.5344015 0.2662394 0.534371 0.4969711 0.4363928 0.4675669 0.4485695 0.4675669 0.007568479 0.4969711 0.01974517 0.7806668 0.7684138 0.7806668 0.9313039 0.7732662 0.7684138 0.7732662 0.9313039 0.8100557 0.9313039 0.7806668 0.9313039 0.7806668 0.7684138 0.8100557 0.7684138 0.1244068 0.5344015 0.1244678 0.005630553 0.153872 0.005813658 0.1538109 0.534371 0.5365377 0.4363928 0.5071336 0.4485695 0.5071336 0.007568479 0.5365377 0.01974517 0.7650874 0.7666132 0.7650874 0.9295033 0.7357137 0.7666132 0.7357137 0.9295033 0.7357137 0.7666132 0.7357137 0.9295033 0.7283131 0.7666132 0.7283131 0.9295033 0.241886 0.8762951 0.2124819 0.8762951 0.241886 0.7125963 0.2124819 0.71252 0.4154269 0.543862 0.444831 0.5316854 0.4154269 0.831342 0.444831 0.8435187 0.9141527 0.6263523 0.8847486 0.6385291 0.8847486 0.3266957 0.9141527 0.3388724 0.7804532 0.3745785 0.7805142 0.008895993 0.7951934 0.005874753 0.7951324 0.3775693 0.830808 0.3891509 0.8602121 0.3888915 0.8602731 0.7605707 0.830869 0.7605707 0.2124819 0.71252 0.2124819 0.8762951 0.2050965 0.7125047 0.2050355 0.8762951 0.8602121 0.3888915 0.8748913 0.3919127 0.8749523 0.7575799 0.8602731 0.7605707 0.7951324 0.3775693 0.7951934 0.005874753 0.8245975 0.006134152 0.8245365 0.3775693 0.6839857 0.003967345 0.6839857 0.4449836 0.6545815 0.4328069 0.6545815 0.01614404 0.3201801 0.534371 0.320119 0.005813658 0.3495842 0.5344015 0.3495232 0.005630553 0.3495842 0.5344015 0.3495232 0.005630553 0.3642634 0.5299611 0.3642023 0.009979427 0.1244068 0.5344015 0.1097276 0.5299611 0.1244678 0.005630553 0.1097887 0.009979427</float_array>
+          <technique_common>
+            <accessor source="#shape20__WallRepeatNP-texcoord-array_1" count="320" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="shape20__WallRepeatNP-vertex">
+          <input semantic="POSITION" source="#shape20__WallRepeatNP-position" />
+        </vertices>
+        <triangles material="WallRepeatNP" count="160">
+          <input semantic="VERTEX" source="#shape20__WallRepeatNP-vertex" offset="0" />
+          <input semantic="NORMAL" source="#shape20__WallRepeatNP-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#shape20__WallRepeatNP-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#shape20__WallRepeatNP-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 4 4 4 4 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 23 23 23 23 20 20 20 20 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 27 27 27 27 24 24 24 24 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 39 39 39 39 36 36 36 36 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 43 43 43 43 40 40 40 40 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 51 51 51 51 48 48 48 48 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 59 59 59 59 56 56 56 56 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 67 67 67 67 64 64 64 64 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 76 76 76 76 77 77 77 77 78 78 78 78 79 79 79 79 76 76 76 76 78 78 78 78 80 80 80 80 81 81 81 81 82 82 82 82 81 81 81 81 83 83 83 83 82 82 82 82 84 84 84 84 85 85 85 85 86 86 86 86 85 85 85 85 87 87 87 87 86 86 86 86 88 88 88 88 89 89 89 89 90 90 90 90 89 89 89 89 91 91 91 91 90 90 90 90 92 92 92 92 93 93 93 93 94 94 94 94 93 93 93 93 95 95 95 95 94 94 94 94 96 96 96 96 97 97 97 97 98 98 98 98 97 97 97 97 99 99 99 99 98 98 98 98 100 100 100 100 101 101 101 101 102 102 102 102 101 101 101 101 103 103 103 103 102 102 102 102 104 104 104 104 105 105 105 105 106 106 106 106 107 107 107 107 104 104 104 104 106 106 106 106 108 108 108 108 109 109 109 109 110 110 110 110 109 109 109 109 111 111 111 111 110 110 110 110 112 112 112 112 113 113 113 113 114 114 114 114 113 113 113 113 115 115 115 115 114 114 114 114 116 116 116 116 117 117 117 117 118 118 118 118 119 119 119 119 116 116 116 116 118 118 118 118 120 120 120 120 121 121 121 121 122 122 122 122 121 121 121 121 123 123 123 123 122 122 122 122 124 124 124 124 125 125 125 125 126 126 126 126 127 127 127 127 124 124 124 124 126 126 126 126 128 128 128 128 129 129 129 129 130 130 130 130 129 129 129 129 131 131 131 131 130 130 130 130 132 132 132 132 133 133 133 133 134 134 134 134 133 133 133 133 135 135 135 135 134 134 134 134 136 136 136 136 137 137 137 137 138 138 138 138 139 139 139 139 136 136 136 136 138 138 138 138 140 140 140 140 141 141 141 141 142 142 142 142 141 141 141 141 143 143 143 143 142 142 142 142 144 144 144 144 145 145 145 145 146 146 146 146 147 147 147 147 144 144 144 144 146 146 146 146 148 148 148 148 149 149 149 149 150 150 150 150 149 149 149 149 151 151 151 151 150 150 150 150 152 152 152 152 153 153 153 153 154 154 154 154 153 153 153 153 155 155 155 155 154 154 154 154 156 156 156 156 157 157 157 157 158 158 158 158 159 159 159 159 156 156 156 156 158 158 158 158 160 160 160 160 161 161 161 161 162 162 162 162 163 163 163 163 160 160 160 160 162 162 162 162 164 164 164 164 165 165 165 165 166 166 166 166 167 167 167 167 164 164 164 164 166 166 166 166 168 168 168 168 169 169 169 169 170 170 170 170 169 169 169 169 171 171 171 171 170 170 170 170 172 172 172 172 173 173 173 173 174 174 174 174 175 175 175 175 172 172 172 172 174 174 174 174 176 176 176 176 177 177 177 177 178 178 178 178 179 179 179 179 176 176 176 176 178 178 178 178 180 180 180 180 181 181 181 181 182 182 182 182 181 181 181 181 183 183 183 183 182 182 182 182 184 184 184 184 185 185 185 185 186 186 186 186 187 187 187 187 184 184 184 184 186 186 186 186 188 188 188 188 189 189 189 189 190 190 190 190 191 191 191 191 188 188 188 188 190 190 190 190 192 192 192 192 193 193 193 193 194 194 194 194 193 193 193 193 195 195 195 195 194 194 194 194 196 196 196 196 197 197 197 197 198 198 198 198 197 197 197 197 199 199 199 199 198 198 198 198 200 200 200 200 201 201 201 201 202 202 202 202 203 203 203 203 200 200 200 200 202 202 202 202 204 204 204 204 205 205 205 205 206 206 206 206 207 207 207 207 204 204 204 204 206 206 206 206 208 208 208 208 209 209 209 209 210 210 210 210 209 209 209 209 211 211 211 211 210 210 210 210 212 212 212 212 213 213 213 213 214 214 214 214 215 215 215 215 212 212 212 212 214 214 214 214 216 216 216 216 217 217 217 217 218 218 218 218 219 219 219 219 216 216 216 216 218 218 218 218 220 220 220 220 221 221 221 221 222 222 222 222 221 221 221 221 223 223 223 223 222 222 222 222 224 224 224 224 225 225 225 225 226 226 226 226 225 225 225 225 227 227 227 227 226 226 226 226 228 228 228 228 229 229 229 229 230 230 230 230 229 229 229 229 231 231 231 231 230 230 230 230 232 232 232 232 233 233 233 233 234 234 234 234 233 233 233 233 235 235 235 235 234 234 234 234 236 236 236 236 237 237 237 237 238 238 238 238 237 237 237 237 239 239 239 239 238 238 238 238 240 240 240 240 241 241 241 241 242 242 242 242 243 243 243 243 240 240 240 240 242 242 242 242 244 244 244 244 245 245 245 245 246 246 246 246 247 247 247 247 244 244 244 244 246 246 246 246 248 248 248 248 249 249 249 249 250 250 250 250 249 249 249 249 251 251 251 251 250 250 250 250 252 252 252 252 253 253 253 253 254 254 254 254 255 255 255 255 252 252 252 252 254 254 254 254 256 256 256 256 257 257 257 257 258 258 258 258 259 259 259 259 256 256 256 256 258 258 258 258 260 260 260 260 261 261 261 261 262 262 262 262 263 263 263 263 260 260 260 260 262 262 262 262 264 264 264 264 265 265 265 265 266 266 266 266 265 265 265 265 267 267 267 267 266 266 266 266 268 268 268 268 269 269 269 269 270 270 270 270 269 269 269 269 271 271 271 271 270 270 270 270 272 272 272 272 273 273 273 273 274 274 274 274 273 273 273 273 275 275 275 275 274 274 274 274 276 276 276 276 277 277 277 277 278 278 278 278 277 277 277 277 279 279 279 279 278 278 278 278 280 280 280 280 281 281 281 281 282 282 282 282 283 283 283 283 280 280 280 280 282 282 282 282 284 284 284 284 285 285 285 285 286 286 286 286 287 287 287 287 284 284 284 284 286 286 286 286 288 288 288 288 289 289 289 289 290 290 290 290 291 291 291 291 288 288 288 288 290 290 290 290 292 292 292 292 293 293 293 293 294 294 294 294 293 293 293 293 295 295 295 295 294 294 294 294 296 296 296 296 297 297 297 297 298 298 298 298 299 299 299 299 296 296 296 296 298 298 298 298 300 300 300 300 301 301 301 301 302 302 302 302 303 303 303 303 300 300 300 300 302 302 302 302 304 304 304 304 305 305 305 305 306 306 306 306 307 307 307 307 304 304 304 304 306 306 306 306 308 308 308 308 309 309 309 309 310 310 310 310 309 309 309 309 311 311 311 311 310 310 310 310 312 312 312 312 313 313 313 313 314 314 314 314 313 313 313 313 315 315 315 315 314 314 314 314 316 316 316 316 317 317 317 317 318 318 318 318 317 317 317 317 319 319 319 319 318 318 318 318 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Edge1__GroundMarbleTile2-mesh">
+      <skin source="#Edge1__GroundMarbleTile2-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge1__GroundMarbleTile2-mesh-joint">
+          <Name_array id="Edge1__GroundMarbleTile2-mesh-joint-array" count="1">FldObj_OctaFloor8P60x15x60_Octa</Name_array>
+          <technique_common>
+            <accessor source="#Edge1__GroundMarbleTile2-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__GroundMarbleTile2-mesh-inv_bind_matrix">
+          <float_array id="Edge1__GroundMarbleTile2-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge1__GroundMarbleTile2-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge1__GroundMarbleTile2-mesh-weight">
+          <float_array id="Edge1__GroundMarbleTile2-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge1__GroundMarbleTile2-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge1__GroundMarbleTile2-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge1__GroundMarbleTile2-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="64">
+          <input semantic="JOINT" source="#Edge1__GroundMarbleTile2-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge1__GroundMarbleTile2-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Edge2__GroundWoodRepeat-mesh">
+      <skin source="#Edge2__GroundWoodRepeat-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Edge2__GroundWoodRepeat-mesh-joint">
+          <Name_array id="Edge2__GroundWoodRepeat-mesh-joint-array" count="1">FldObj_OctaFloor8P60x15x60_Octa</Name_array>
+          <technique_common>
+            <accessor source="#Edge2__GroundWoodRepeat-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__GroundWoodRepeat-mesh-inv_bind_matrix">
+          <float_array id="Edge2__GroundWoodRepeat-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Edge2__GroundWoodRepeat-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Edge2__GroundWoodRepeat-mesh-weight">
+          <float_array id="Edge2__GroundWoodRepeat-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Edge2__GroundWoodRepeat-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Edge2__GroundWoodRepeat-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Edge2__GroundWoodRepeat-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#Edge2__GroundWoodRepeat-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Edge2__GroundWoodRepeat-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh">
+      <skin source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-joint">
+          <Name_array id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-joint-array" count="1">FldObj_OctaFloor8P60x15x60_Octa</Name_array>
+          <technique_common>
+            <accessor source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-inv_bind_matrix">
+          <float_array id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-weight">
+          <float_array id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="32">
+          <input semantic="JOINT" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_shape20__WallRepeatNP-mesh">
+      <skin source="#shape20__WallRepeatNP-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="shape20__WallRepeatNP-mesh-joint">
+          <Name_array id="shape20__WallRepeatNP-mesh-joint-array" count="1">FldObj_OctaFloor8P60x15x60_Octa</Name_array>
+          <technique_common>
+            <accessor source="#shape20__WallRepeatNP-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shape20__WallRepeatNP-mesh-inv_bind_matrix">
+          <float_array id="shape20__WallRepeatNP-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#shape20__WallRepeatNP-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="shape20__WallRepeatNP-mesh-weight">
+          <float_array id="shape20__WallRepeatNP-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#shape20__WallRepeatNP-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#shape20__WallRepeatNP-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#shape20__WallRepeatNP-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="320">
+          <input semantic="JOINT" source="#shape20__WallRepeatNP-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#shape20__WallRepeatNP-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_OctaFloor8P60x15x60_Octa" name="FldObj_OctaFloor8P60x15x60_Octa" sid="FldObj_OctaFloor8P60x15x60_Octa" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Edge1__GroundMarbleTile2" name="Edge1__GroundMarbleTile2" type="NODE">
+        <instance_controller url="#Armature_Edge1__GroundMarbleTile2-mesh">
+          <skeleton>#Armature_FldObj_OctaFloor8P60x15x60_Octa</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundMarbleTile2" target="#GroundMarbleTile2" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Edge2__GroundWoodRepeat" name="Edge2__GroundWoodRepeat" type="NODE">
+        <instance_controller url="#Armature_Edge2__GroundWoodRepeat-mesh">
+          <skeleton>#Armature_FldObj_OctaFloor8P60x15x60_Octa</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundWoodRepeat" target="#GroundWoodRepeat" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat" name="TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat" type="NODE">
+        <instance_controller url="#Armature_TestObj_Ikkaku119_pCylinder3__BoxWoodRepeat-mesh">
+          <skeleton>#Armature_FldObj_OctaFloor8P60x15x60_Octa</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BoxWoodRepeat" target="#BoxWoodRepeat" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="shape20__WallRepeatNP" name="shape20__WallRepeatNP" type="NODE">
+        <instance_controller url="#Armature_shape20__WallRepeatNP-mesh">
+          <skeleton>#Armature_FldObj_OctaFloor8P60x15x60_Octa</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="WallRepeatNP" target="#WallRepeatNP" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

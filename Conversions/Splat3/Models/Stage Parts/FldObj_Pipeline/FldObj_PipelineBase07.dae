@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="AltanaPipelineGraffiti00_Alb">
+      <init_from>AltanaPipelineGraffiti00_Alb.png</init_from>
+    </image>
+    <image id="AltanaPipelineGraffiti00_Opa">
+      <init_from>AltanaPipelineGraffiti00_Opa.png</init_from>
+    </image>
+    <image id="AreaSeatPipeline_Alb">
+      <init_from>AreaSeatPipeline_Alb.png</init_from>
+    </image>
+    <image id="AreaSeatPipeline_Nrm">
+      <init_from>AreaSeatPipeline_Nrm.png</init_from>
+    </image>
+    <image id="BaseGenerator_Alb">
+      <init_from>BaseGenerator_Alb.png</init_from>
+    </image>
+    <image id="BaseGenerator_Mtl">
+      <init_from>BaseGenerator_Mtl.png</init_from>
+    </image>
+    <image id="BaseGenerator_Nrm">
+      <init_from>BaseGenerator_Nrm.png</init_from>
+    </image>
+    <image id="BaseGenerator_Rgh">
+      <init_from>BaseGenerator_Rgh.png</init_from>
+    </image>
+    <image id="BlockCurbYellow_Alb">
+      <init_from>BlockCurbYellow_Alb.png</init_from>
+    </image>
+    <image id="BlockCurbYellow_Nrm">
+      <init_from>BlockCurbYellow_Nrm.png</init_from>
+    </image>
+    <image id="BlockCurbYellow_Rgh">
+      <init_from>BlockCurbYellow_Rgh.png</init_from>
+    </image>
+    <image id="GroundConcHandPrint_Alb">
+      <init_from>GroundConcHandPrint_Alb.png</init_from>
+    </image>
+    <image id="GroundConcHandPrint_Nrm">
+      <init_from>GroundConcHandPrint_Nrm.png</init_from>
+    </image>
+    <image id="GroundConcHandPrint_Rgh">
+      <init_from>GroundConcHandPrint_Rgh.png</init_from>
+    </image>
+    <image id="GroundConc_Alb">
+      <init_from>GroundConc_Alb.png</init_from>
+    </image>
+    <image id="GroundConc_Nrm">
+      <init_from>GroundConc_Nrm.png</init_from>
+    </image>
+    <image id="GroundConc_Rgh">
+      <init_from>GroundConc_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+    <image id="PipelineBase_Alb">
+      <init_from>PipelineBase_Alb.png</init_from>
+    </image>
+    <image id="PipelineBase_Mtl">
+      <init_from>PipelineBase_Mtl.png</init_from>
+    </image>
+    <image id="PipelineBase_Nrm">
+      <init_from>PipelineBase_Nrm.png</init_from>
+    </image>
+    <image id="PipelineBase_Rgh">
+      <init_from>PipelineBase_Rgh.png</init_from>
+    </image>
+    <image id="PipelineBridge_Alb">
+      <init_from>PipelineBridge_Alb.png</init_from>
+    </image>
+    <image id="PipelineBridge_Nrm">
+      <init_from>PipelineBridge_Nrm.png</init_from>
+    </image>
+    <image id="PipelineBridge_Rgh">
+      <init_from>PipelineBridge_Rgh.png</init_from>
+    </image>
+    <image id="PipelineCrutch_Alb">
+      <init_from>PipelineCrutch_Alb.png</init_from>
+    </image>
+    <image id="PipelineCrutch_Mtl">
+      <init_from>PipelineCrutch_Mtl.png</init_from>
+    </image>
+    <image id="PipelineCrutch_Nrm">
+      <init_from>PipelineCrutch_Nrm.png</init_from>
+    </image>
+    <image id="PipelineCrutch_Rgh">
+      <init_from>PipelineCrutch_Rgh.png</init_from>
+    </image>
+    <image id="PipelineFace_Alb">
+      <init_from>PipelineFace_Alb.png</init_from>
+    </image>
+    <image id="PipelineFace_Nrm">
+      <init_from>PipelineFace_Nrm.png</init_from>
+    </image>
+    <image id="PipelineFace_Rgh">
+      <init_from>PipelineFace_Rgh.png</init_from>
+    </image>
+    <image id="PipelineLightGrd_Alb">
+      <init_from>PipelineLightGrd_Alb.png</init_from>
+    </image>
+    <image id="PipelineLight_Emm">
+      <init_from>PipelineLight_Emm.png</init_from>
+    </image>
+    <image id="PipelineParts_Alb">
+      <init_from>PipelineParts_Alb.png</init_from>
+    </image>
+    <image id="PipelineParts_Mtl">
+      <init_from>PipelineParts_Mtl.png</init_from>
+    </image>
+    <image id="PipelineParts_Nrm">
+      <init_from>PipelineParts_Nrm.png</init_from>
+    </image>
+    <image id="PipelineParts_Rgh">
+      <init_from>PipelineParts_Rgh.png</init_from>
+    </image>
+    <image id="Pipeline_Alb">
+      <init_from>Pipeline_Alb.png</init_from>
+    </image>
+    <image id="Pipeline_Nrm">
+      <init_from>Pipeline_Nrm.png</init_from>
+    </image>
+    <image id="Pipeline_Rgh">
+      <init_from>Pipeline_Rgh.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Alb">
+      <init_from>WallConcreteWhite_Alb.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Nrm">
+      <init_from>WallConcreteWhite_Nrm.png</init_from>
+    </image>
+    <image id="WallConcreteWhite_Rgh">
+      <init_from>WallConcreteWhite_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="AltanaPipelineGraffiti00">
+      <instance_effect url="#Effect_AltanaPipelineGraffiti00" />
+    </material>
+    <material id="GroundConc">
+      <instance_effect url="#Effect_GroundConc" />
+    </material>
+    <material id="GroundConcHandPrint">
+      <instance_effect url="#Effect_GroundConcHandPrint" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_AltanaPipelineGraffiti00">
+      <profile_COMMON>
+        <newparam sid="surface_AltanaPipelineGraffiti00-diffuse">
+          <surface type="2D">
+            <init_from>AltanaPipelineGraffiti00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_AltanaPipelineGraffiti00-diffuse">
+          <sampler2D>
+            <source>surface_AltanaPipelineGraffiti00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_AltanaPipelineGraffiti00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundConc">
+      <profile_COMMON>
+        <newparam sid="surface_GroundConc-diffuse">
+          <surface type="2D">
+            <init_from>GroundConc_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc-diffuse">
+          <sampler2D>
+            <source>surface_GroundConc-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundConc-bump">
+          <surface type="2D">
+            <init_from>GroundConc_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc-bump">
+          <sampler2D>
+            <source>surface_GroundConc-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundConc-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundConc-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundConcHandPrint">
+      <profile_COMMON>
+        <newparam sid="surface_GroundConcHandPrint-diffuse">
+          <surface type="2D">
+            <init_from>GroundConcHandPrint_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConcHandPrint-diffuse">
+          <sampler2D>
+            <source>surface_GroundConcHandPrint-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundConcHandPrint-bump">
+          <surface type="2D">
+            <init_from>GroundConcHandPrint_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConcHandPrint-bump">
+          <sampler2D>
+            <source>surface_GroundConcHandPrint-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundConcHandPrint-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundConcHandPrint-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh" name="Area01and02Graffiti13__AltanaPipelineGraffiti00">
+      <mesh>
+        <source id="Area01and02Graffiti13__AltanaPipelineGraffiti00-position">
+          <float_array id="Area01and02Graffiti13__AltanaPipelineGraffiti00-position-array" count="132">2.213195 5.510309 7.165622 -2.237937 5.510309 7.16564 2.21318 5.510309 10.40801 -2.237951 5.510309 10.40804 -4.147497 5.510309 10.48886 -2.313989 5.510309 10.48885 -4.147486 5.510309 5.18585 -2.313967 5.510309 5.185841 4.147422 5.510309 5.185808 2.313907 5.510309 5.185819 4.147391 5.510309 10.48881 2.313885 5.510309 10.48883 2.137943 5.51081 10.34775 3.0563 5.51081 10.68199 2.475192 5.51081 9.421166 3.393551 5.51081 9.755411 0.4507518 5.51031 13.56603 1.413198 5.51031 13.73573 0.6219789 5.51031 12.59497 1.584426 5.51031 12.76466 -4.07415 5.51131 4.513543 -3.273593 5.51131 5.074086 -3.508575 5.51131 3.705821 -2.708017 5.51131 4.266365 -2.732798 5.51081 6.137863 -1.335945 5.51081 5.486485 -3.458476 5.51081 4.581635 -2.061622 5.51081 3.930256 3.074508 5.51031 11.61516 3.823164 5.51031 12.24335 3.708329 5.51031 10.85981 4.456985 5.51031 11.48799 4.405495 5.51131 9.122325 5.291218 5.51131 8.709294 3.988775 5.51131 8.228662 4.874499 5.51131 7.815631 3.347974 5.51131 11.49998 4.310417 5.51131 11.33027 3.17675 5.51131 10.52891 4.139194 5.51131 10.3592 2.107342 5.510309 5.231522 -2.132076 5.510309 5.231543 2.107336 5.510309 6.717658 -2.132082 5.510309 6.717678</float_array>
+          <technique_common>
+            <accessor source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-position-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Area01and02Graffiti13__AltanaPipelineGraffiti00-normal">
+          <float_array id="Area01and02Graffiti13__AltanaPipelineGraffiti00-normal-array" count="132">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-normal-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Area01and02Graffiti13__AltanaPipelineGraffiti00-texcoord">
+          <float_array id="Area01and02Graffiti13__AltanaPipelineGraffiti00-texcoord-array" count="88">0.5677577 0.7871062 0.28159 0.7871062 0.5677577 0.5786374 0.28159 0.5786374 0.578378 0.6552835 0.6962539 0.6552835 0.578378 0.996231 0.6962539 0.996231 0.8206455 0.996231 0.7027695 0.996231 0.8206455 0.6552835 0.7027695 0.6552835 0.5758602 0.1425956 0.6369421 0.1425956 0.5758602 0.2042267 0.6369421 0.2042267 0.6366217 0.08017093 0.6977035 0.08017093 0.6366217 0.1418021 0.6977035 0.1418021 0.5758602 0.08017093 0.6369421 0.08017093 0.5758602 0.1418021 0.6369421 0.1418021 0.4778515 0.08209354 0.5741817 0.08209354 0.4778515 0.1894102 0.5741817 0.1894102 0.5758602 0.1425956 0.6369421 0.1425956 0.5758602 0.2042267 0.6369421 0.2042267 0.6366217 0.08017093 0.6977035 0.08017093 0.6366217 0.1418021 0.6977035 0.1418021 0.5758602 0.1425956 0.6369421 0.1425956 0.5758602 0.2042267 0.6369421 0.2042267 0.2796979 0.3595331 0.003952087 0.3595331 0.2796979 0.2639811 0.003952087 0.2639811</float_array>
+          <technique_common>
+            <accessor source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-texcoord-array" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Area01and02Graffiti13__AltanaPipelineGraffiti00-vertex">
+          <input semantic="POSITION" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-position" />
+        </vertices>
+        <triangles material="AltanaPipelineGraffiti00" count="22">
+          <input semantic="VERTEX" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="GroundConcHandPrint_low1__GroundConcHandPrint-mesh" name="GroundConcHandPrint_low1__GroundConcHandPrint">
+      <mesh>
+        <source id="GroundConcHandPrint_low1__GroundConcHandPrint-position">
+          <float_array id="GroundConcHandPrint_low1__GroundConcHandPrint-position-array" count="135">-0.1803643 5.52 10.65051 -0.1803637 5.52 10.31293 -0.5179383 5.52 10.31293 -0.4839476 5.52 10.80441 -0.180365 5.52 10.98808 -0.8268166 5.52 10.80441 -0.855513 5.52 10.31293 -0.4119355 5.52 11.18593 -0.1803656 5.52 11.32565 -1.172403 5.52 10.69925 -1.193088 5.52 10.31293 -0.4119361 5.52 11.52879 -0.1803675 5.52 12.33838 -1.029224 5.52 11.01462 -0.4866682 5.52 12.41359 -0.8261836 5.52 11.7221 -0.6009589 5.52 12.98504 -0.1803695 5.52 13.3511 -1.517583 5.52 13.30434 -1.033594 5.52 12.50447 -1.501986 5.52 13.05183 -2.205817 5.52 13.3511 -2.079216 5.52 11.68064 -2.069339 5.52 12.4558 -2.410438 5.52 13.00482 -3.21854 5.52 13.3511 -2.51063 5.52 12.18781 -2.904433 5.52 12.8529 -3.218539 5.52 12.33838 -2.893363 5.52 12.14226 -3.100709 5.52 11.67682 -2.556344 5.52 11.66486 -2.909516 5.52 11.72468 -2.924824 5.52 11.36707 -3.100709 5.52 11.33925 -3.025208 5.52 10.95939 -2.553344 5.52 11.16601 -2.848139 5.52 10.98126 -3.025207 5.52 10.62182 -2.687632 5.52 10.62182 -2.353702 5.52 10.66797 -2.405246 5.52 10.33053 -2.067672 5.52 10.33053 -1.891756 5.52 10.62709 -1.911111 5.52 11.03951</float_array>
+          <technique_common>
+            <accessor source="#GroundConcHandPrint_low1__GroundConcHandPrint-position-array" count="45" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GroundConcHandPrint_low1__GroundConcHandPrint-normal">
+          <float_array id="GroundConcHandPrint_low1__GroundConcHandPrint-normal-array" count="135">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#GroundConcHandPrint_low1__GroundConcHandPrint-normal-array" count="45" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GroundConcHandPrint_low1__GroundConcHandPrint-color">
+          <float_array id="GroundConcHandPrint_low1__GroundConcHandPrint-color-array" count="180">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.6 0 0 0 0 0 0 0 0.6 0 0 0 0 0 0 0 0.6 0 0 0 0 0 0 0 0.6 0 0 0 0 0 0 0 0.6 0 0 0 0 0 0 0 1 0 0 0 0.6 0 0 0 1 0 0 0 0.6 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0.6 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0.6 0 0 0 0 0 0 0 1 0 0 0 0.6 0 0 0 0 0 0 0 0.6 0 0 0 0 0 0 0 1 0 0 0 0.6 0 0 0 0.6 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0.6 0 0 0 0 0 0 0 0 0 0 0 0.6 0 0 0 0 0 0 0 0 0 0 0 0.6 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#GroundConcHandPrint_low1__GroundConcHandPrint-color-array" count="45" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GroundConcHandPrint_low1__GroundConcHandPrint-texcoord">
+          <float_array id="GroundConcHandPrint_low1__GroundConcHandPrint-texcoord-array" count="90">0.4841993 0.4321508 0.4841993 0.4841993 0.4321508 0.4841993 0.4373999 0.408423 0.4841993 0.3801175 0.3845426 0.408423 0.3801175 0.4841993 0.4484932 0.3496147 0.4841993 0.328069 0.3312581 0.4246433 0.328069 0.4841993 0.4484932 0.2967575 0.4841993 0.1719387 0.3533379 0.3760281 0.4369726 0.1603418 0.3846342 0.2669413 0.4193484 0.07223618 0.4841993 0.01579309 0.2780346 0.02301061 0.3526513 0.146334 0.2804456 0.06193638 0.1719387 0.01579309 0.1914549 0.2733349 0.1929809 0.1538262 0.140383 0.06918442 0.01579309 0.01579309 0.1249409 0.1951476 0.06422523 0.09260702 0.01579309 0.1719387 0.06593423 0.2021668 0.03396658 0.27393 0.1178912 0.2757763 0.06344701 0.2665446 0.06108186 0.3216754 0.03396658 0.3259785 0.04560922 0.3845426 0.118349 0.3526818 0.0729076 0.3811551 0.04560922 0.4365759 0.09765774 0.4365759 0.1491264 0.4294652 0.1411917 0.4814832 0.193225 0.4814832 0.2203555 0.4357672 0.2173648 0.3721828</float_array>
+          <technique_common>
+            <accessor source="#GroundConcHandPrint_low1__GroundConcHandPrint-texcoord-array" count="45" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="GroundConcHandPrint_low1__GroundConcHandPrint-vertex">
+          <input semantic="POSITION" source="#GroundConcHandPrint_low1__GroundConcHandPrint-position" />
+        </vertices>
+        <triangles material="GroundConcHandPrint" count="68">
+          <input semantic="VERTEX" source="#GroundConcHandPrint_low1__GroundConcHandPrint-vertex" offset="0" />
+          <input semantic="NORMAL" source="#GroundConcHandPrint_low1__GroundConcHandPrint-normal" offset="1" />
+          <input semantic="COLOR" source="#GroundConcHandPrint_low1__GroundConcHandPrint-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#GroundConcHandPrint_low1__GroundConcHandPrint-texcoord" offset="3" set="0" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 4 4 4 4 0 0 0 0 3 3 3 3 3 3 3 3 2 2 2 2 5 5 5 5 2 2 2 2 6 6 6 6 5 5 5 5 7 7 7 7 4 4 4 4 3 3 3 3 7 7 7 7 3 3 3 3 5 5 5 5 8 8 8 8 4 4 4 4 7 7 7 7 5 5 5 5 6 6 6 6 9 9 9 9 6 6 6 6 10 10 10 10 9 9 9 9 11 11 11 11 8 8 8 8 7 7 7 7 12 12 12 12 8 8 8 8 11 11 11 11 13 13 13 13 7 7 7 7 5 5 5 5 13 13 13 13 11 11 11 11 7 7 7 7 13 13 13 13 5 5 5 5 9 9 9 9 14 14 14 14 12 12 12 12 11 11 11 11 15 15 15 15 11 11 11 11 13 13 13 13 14 14 14 14 11 11 11 11 15 15 15 15 12 12 12 12 14 14 14 14 16 16 16 16 17 17 17 17 12 12 12 12 16 16 16 16 17 17 17 17 16 16 16 16 18 18 18 18 19 19 19 19 14 14 14 14 15 15 15 15 19 19 19 19 16 16 16 16 14 14 14 14 16 16 16 16 20 20 20 20 18 18 18 18 20 20 20 20 16 16 16 16 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 19 19 19 19 15 15 15 15 22 22 22 22 22 22 22 22 15 15 15 15 13 13 13 13 20 20 20 20 19 19 19 19 23 23 23 23 23 23 23 23 19 19 19 19 22 22 22 22 20 20 20 20 24 24 24 24 21 21 21 21 24 24 24 24 20 20 20 20 23 23 23 23 25 25 25 25 21 21 21 21 24 24 24 24 24 24 24 24 23 23 23 23 26 26 26 26 23 23 23 23 22 22 22 22 26 26 26 26 27 27 27 27 25 25 25 25 24 24 24 24 27 27 27 27 24 24 24 24 26 26 26 26 25 25 25 25 27 27 27 27 28 28 28 28 27 27 27 27 29 29 29 29 28 28 28 28 27 27 27 27 26 26 26 26 29 29 29 29 28 28 28 28 29 29 29 29 30 30 30 30 26 26 26 26 31 31 31 31 29 29 29 29 22 22 22 22 31 31 31 31 26 26 26 26 29 29 29 29 32 32 32 32 30 30 30 30 31 31 31 31 32 32 32 32 29 29 29 29 32 32 32 32 33 33 33 33 30 30 30 30 33 33 33 33 34 34 34 34 30 30 30 30 34 34 34 34 33 33 33 33 35 35 35 35 32 32 32 32 31 31 31 31 36 36 36 36 32 32 32 32 36 36 36 36 33 33 33 33 31 31 31 31 22 22 22 22 36 36 36 36 33 33 33 33 37 37 37 37 35 35 35 35 33 33 33 33 36 36 36 36 37 37 37 37 35 35 35 35 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 37 37 37 37 40 40 40 40 39 39 39 39 36 36 36 36 40 40 40 40 37 37 37 37 40 40 40 40 41 41 41 41 39 39 39 39 42 42 42 42 41 41 41 41 40 40 40 40 43 43 43 43 42 42 42 42 40 40 40 40 36 36 36 36 43 43 43 43 40 40 40 40 10 10 10 10 42 42 42 42 43 43 43 43 9 9 9 9 10 10 10 10 43 43 43 43 36 36 36 36 44 44 44 44 43 43 43 43 43 43 43 43 44 44 44 44 9 9 9 9 22 22 22 22 44 44 44 44 36 36 36 36 44 44 44 44 13 13 13 13 9 9 9 9 44 44 44 44 22 22 22 22 13 13 13 13 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Ground__GroundConc-mesh" name="Ground__GroundConc">
+      <mesh>
+        <source id="Ground__GroundConc-position">
+          <float_array id="Ground__GroundConc-position-array" count="12">5.924981 5.510309 -3.469595 -5.924953 5.510309 -3.469557 5.924846 5.510309 18.35005 -5.924974 5.510309 18.35013</float_array>
+          <technique_common>
+            <accessor source="#Ground__GroundConc-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__GroundConc-normal">
+          <float_array id="Ground__GroundConc-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Ground__GroundConc-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__GroundConc-texcoord">
+          <float_array id="Ground__GroundConc-texcoord-array" count="8">1.356445 1.429932 -0.3566895 1.429932 1.356445 -1.724609 -0.3566895 -1.724609</float_array>
+          <technique_common>
+            <accessor source="#Ground__GroundConc-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Ground__GroundConc-vertex">
+          <input semantic="POSITION" source="#Ground__GroundConc-position" />
+        </vertices>
+        <triangles material="GroundConc" count="2">
+          <input semantic="VERTEX" source="#Ground__GroundConc-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Ground__GroundConc-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Ground__GroundConc-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh">
+      <skin source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-joint">
+          <Name_array id="Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-joint-array" count="1">FldObj_PipelineBase07</Name_array>
+          <technique_common>
+            <accessor source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-inv_bind_matrix">
+          <float_array id="Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-weight">
+          <float_array id="Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="44">
+          <input semantic="JOINT" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_GroundConcHandPrint_low1__GroundConcHandPrint-mesh">
+      <skin source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="GroundConcHandPrint_low1__GroundConcHandPrint-mesh-joint">
+          <Name_array id="GroundConcHandPrint_low1__GroundConcHandPrint-mesh-joint-array" count="1">FldObj_PipelineBase07</Name_array>
+          <technique_common>
+            <accessor source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GroundConcHandPrint_low1__GroundConcHandPrint-mesh-inv_bind_matrix">
+          <float_array id="GroundConcHandPrint_low1__GroundConcHandPrint-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GroundConcHandPrint_low1__GroundConcHandPrint-mesh-weight">
+          <float_array id="GroundConcHandPrint_low1__GroundConcHandPrint-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="45">
+          <input semantic="JOINT" source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#GroundConcHandPrint_low1__GroundConcHandPrint-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Ground__GroundConc-mesh">
+      <skin source="#Ground__GroundConc-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Ground__GroundConc-mesh-joint">
+          <Name_array id="Ground__GroundConc-mesh-joint-array" count="1">FldObj_PipelineBase07</Name_array>
+          <technique_common>
+            <accessor source="#Ground__GroundConc-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__GroundConc-mesh-inv_bind_matrix">
+          <float_array id="Ground__GroundConc-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Ground__GroundConc-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Ground__GroundConc-mesh-weight">
+          <float_array id="Ground__GroundConc-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Ground__GroundConc-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Ground__GroundConc-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Ground__GroundConc-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Ground__GroundConc-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Ground__GroundConc-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_PipelineBase07" name="FldObj_PipelineBase07" sid="FldObj_PipelineBase07" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Area01and02Graffiti13__AltanaPipelineGraffiti00" name="Area01and02Graffiti13__AltanaPipelineGraffiti00" type="NODE">
+        <instance_controller url="#Armature_Area01and02Graffiti13__AltanaPipelineGraffiti00-mesh">
+          <skeleton>#Armature_FldObj_PipelineBase07</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="AltanaPipelineGraffiti00" target="#AltanaPipelineGraffiti00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="GroundConcHandPrint_low1__GroundConcHandPrint" name="GroundConcHandPrint_low1__GroundConcHandPrint" type="NODE">
+        <instance_controller url="#Armature_GroundConcHandPrint_low1__GroundConcHandPrint-mesh">
+          <skeleton>#Armature_FldObj_PipelineBase07</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundConcHandPrint" target="#GroundConcHandPrint" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Ground__GroundConc" name="Ground__GroundConc" type="NODE">
+        <instance_controller url="#Armature_Ground__GroundConc-mesh">
+          <skeleton>#Armature_FldObj_PipelineBase07</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundConc" target="#GroundConc" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
