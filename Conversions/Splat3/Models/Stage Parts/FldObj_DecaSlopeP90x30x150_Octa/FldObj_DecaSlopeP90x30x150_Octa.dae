@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="FlameMetal00_Alb">
+      <init_from>FlameMetal00_Alb.png</init_from>
+    </image>
+    <image id="FlameMetal00_Nrm">
+      <init_from>FlameMetal00_Nrm.png</init_from>
+    </image>
+    <image id="FlameMetal00_Rgh">
+      <init_from>FlameMetal00_Rgh.png</init_from>
+    </image>
+    <image id="GroundConc_Alb">
+      <init_from>GroundConc_Alb.png</init_from>
+    </image>
+    <image id="GroundConc_Nrm">
+      <init_from>GroundConc_Nrm.png</init_from>
+    </image>
+    <image id="GroundConc_Rgh">
+      <init_from>GroundConc_Rgh.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Alb">
+      <init_from>GroundSlopeDot_Alb.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Nrm">
+      <init_from>GroundSlopeDot_Nrm.png</init_from>
+    </image>
+    <image id="GroundSlopeDot_Rgh">
+      <init_from>GroundSlopeDot_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="FlameMetal00">
+      <instance_effect url="#Effect_FlameMetal00" />
+    </material>
+    <material id="GroundConc">
+      <instance_effect url="#Effect_GroundConc" />
+    </material>
+    <material id="GroundSlopeDot">
+      <instance_effect url="#Effect_GroundSlopeDot" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_FlameMetal00">
+      <profile_COMMON>
+        <newparam sid="surface_FlameMetal00-diffuse">
+          <surface type="2D">
+            <init_from>FlameMetal00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FlameMetal00-diffuse">
+          <sampler2D>
+            <source>surface_FlameMetal00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_FlameMetal00-bump">
+          <surface type="2D">
+            <init_from>FlameMetal00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_FlameMetal00-bump">
+          <sampler2D>
+            <source>surface_FlameMetal00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_FlameMetal00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_FlameMetal00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundConc">
+      <profile_COMMON>
+        <newparam sid="surface_GroundConc-diffuse">
+          <surface type="2D">
+            <init_from>GroundConc_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc-diffuse">
+          <sampler2D>
+            <source>surface_GroundConc-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundConc-bump">
+          <surface type="2D">
+            <init_from>GroundConc_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundConc-bump">
+          <sampler2D>
+            <source>surface_GroundConc-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundConc-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundConc-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_GroundSlopeDot">
+      <profile_COMMON>
+        <newparam sid="surface_GroundSlopeDot-diffuse">
+          <surface type="2D">
+            <init_from>GroundSlopeDot_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundSlopeDot-diffuse">
+          <sampler2D>
+            <source>surface_GroundSlopeDot-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_GroundSlopeDot-bump">
+          <surface type="2D">
+            <init_from>GroundSlopeDot_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GroundSlopeDot-bump">
+          <sampler2D>
+            <source>surface_GroundSlopeDot-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GroundSlopeDot-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_GroundSlopeDot-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface32_FlameMetal00__FlameMetal00-mesh" name="polySurface32_FlameMetal00__FlameMetal00">
+      <mesh>
+        <source id="polySurface32_FlameMetal00__FlameMetal00-position">
+          <float_array id="polySurface32_FlameMetal00__FlameMetal00-position-array" count="624">-4.25 3 -4.75 4.25 3 -4.75 -4.25 3 -5.75 4.25 3 -5.75 4.5 3 -4.5 4.25 3 -4.75 -4.5 3 -4.5 -4.25 3 -4.75 -4.5 3 -7.5 -4.25 3 -7.25 4.5 3 -7.5 4.25 3 -7.25 4.25 3 -6 -4.25 3 -6 4.25 3 -5.75 -4.25 3 -5.75 -4.25 0 5.75 4.25 0 5.75 -4.25 0 4.75 4.25 0 4.75 4.5 0 7.5 4.25 0 7.25 -4.5 0 7.5 -4.25 0 7.25 -4.5 0 4.5 -4.25 0 4.75 4.5 0 4.5 4.25 0 4.75 4.25 0 5.75 -4.25 0 5.75 4.25 0 6 -4.25 0 6 -4.5 -3 7.5 4.5 -3 7.5 -4.25 -2.75 7.5 4.25 -2.75 7.5 4.5 0 7.5 -4.5 0 7.5 4.25 -0.25 7.5 -4.25 -0.25 7.5 -4.25 -3 5.75 -4.25 -3 4.75 4.25 -3 5.75 4.25 -3 4.75 4.5 -3 7.5 -4.5 -3 7.5 4.25 -3 7.25 -4.25 -3 7.25 -4.5 -3 4.5 4.5 -3 4.5 -4.25 -3 4.75 4.25 -3 4.75 4.25 -3 5.75 4.25 -3 6 -4.25 -3 5.75 -4.25 -3 6 -4.5 0 -7.5 -4.25 0.25 -7.5 4.5 0 -7.5 4.25 0.25 -7.5 4.5 3 -7.5 4.25 2.75 -7.5 -4.5 3 -7.5 -4.25 2.75 -7.5 4.5 0 -4.5 -4.5 0 -4.5 4.25 0 -4.75 -4.25 0 -4.75 -4.5 0 -7.5 4.5 0 -7.5 -4.25 0 -7.25 4.25 0 -7.25 4.25 0 -6 4.25 0 -5.75 -4.25 0 -6 -4.25 0 -5.75 -4.25 0 -4.75 -4.25 0 -5.75 4.25 0 -4.75 4.25 0 -5.75 4 3 -4.5 4 0 4.5 4.5 3 -4.5 4.5 0 4.5 -4.5 3 -4.5 -4.5 0 4.5 -4 3 -4.5 -4 0 4.5 -4.5 0 -4.5 -4 0 -4.5 -4.5 -3 4.5 -4 -3 4.5 4 0 -4.5 4.5 0 -4.5 4 -3 4.5 4.5 -3 4.5 4.5 0 -4.5 4.5 0.25 -4.459431 4.5 -3 4.5 4.5 -2.75 4.540569 4.5 0 4.5 4.5 -0.25 4.459431 4.5 3 -4.5 4.5 2.75 -4.540569 -4.5 0 -4.5 -4.5 -3 4.5 -4.5 0.25 -4.459431 -4.5 -2.75 4.540569 -4.5 0 4.5 -4.5 3 -4.5 -4.5 -0.25 4.459431 -4.5 2.75 -4.540569 4.25 0.25 -7.5 4.25 2.75 -7.5 4.5 3 -7.5 4.5 0 -7.5 4.5 3 -7.5 4.5 2.75 -7.25 4.5 0 -7.5 4.5 0.25 -7.25 4.5 2.75 -7.25 4.5 3 -7.5 4.5 3 -4.5 4.5 2.75 -4.540569 4.5 0.25 -7.25 4.5 0.25 -4.459431 4.5 0 -4.5 4.5 0 -7.5 4.5 0 -4.5 4.25 0 -4.75 4.25 0 -7.25 4.5 0 -7.5 4.5 3 -7.5 4.25 3 -7.25 4.5 3 -4.5 4.25 3 -4.75 -4.25 2.75 -7.5 -4.25 0.25 -7.5 -4.5 0 -7.5 -4.5 3 -7.5 -4.5 3 -7.5 -4.5 0 -7.5 -4.5 2.75 -7.25 -4.5 0.25 -7.25 -4.5 2.75 -7.25 -4.5 2.75 -4.540569 -4.5 3 -4.5 -4.5 3 -7.5 -4.5 0 -4.5 -4.5 0 -7.5 -4.25 0 -4.75 -4.25 0 -7.25 -4.5 0 -7.5 -4.5 0 -4.5 -4.5 0.25 -7.25 -4.5 0.25 -4.459431 -4.5 3 -4.5 -4.25 3 -4.75 -4.5 3 -7.5 -4.25 3 -7.25 -4.5 0 4.5 -4.5 -0.25 4.459431 -4.5 -0.25 7.25 -4.5 0 7.5 -4.5 0 7.5 -4.5 -3 7.5 -4.25 -0.25 7.5 -4.25 -2.75 7.5 -4.5 -3 7.5 -4.5 -2.75 7.25 -4.5 -3 4.5 -4.5 -2.75 4.540569 -4.5 -3 7.5 -4.5 -3 4.5 -4.25 -3 7.25 -4.25 -3 4.75 -4.5 -3 7.5 -4.5 0 7.5 -4.5 -2.75 7.25 -4.5 -0.25 7.25 -4.5 0 7.5 -4.25 0 7.25 -4.5 0 4.5 -4.25 0 4.75 4.5 -0.25 7.25 4.5 -0.25 4.459431 4.5 0 4.5 4.5 0 7.5 4.5 0 4.5 4.25 0 4.75 4.5 0 7.5 4.25 0 7.25 4.5 -3 7.5 4.25 -3 7.25 4.25 -3 4.75 4.5 -3 4.5 4.5 0 7.5 4.25 -0.25 7.5 4.25 -2.75 7.5 4.5 -3 7.5 4.5 -2.75 7.25 4.5 -3 7.5 4.5 -3 4.5 4.5 -2.75 4.540569 4.5 -2.75 7.25 4.5 -0.25 7.25 4.5 0 7.5 4.5 -3 7.5</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_FlameMetal00__FlameMetal00-position-array" count="208" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_FlameMetal00__FlameMetal00-normal">
+          <float_array id="polySurface32_FlameMetal00__FlameMetal00-normal-array" count="624">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_FlameMetal00__FlameMetal00-normal-array" count="208" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_FlameMetal00__FlameMetal00-texcoord">
+          <float_array id="polySurface32_FlameMetal00__FlameMetal00-texcoord-array" count="416">-0.1259766 0.1269531 0.875 0.1269531 -0.1259766 0.2519531 0.875 0.2519531 2.589844 0.4111328 2.525391 0.5231934 0.2756348 0.4111328 0.3398438 0.5231934 0.1781006 0.4111328 0.1237183 0.5231934 -1.78418 0.4111328 -1.729492 0.5231934 -1.09375 0.4111328 2.722656 0.4111328 -1.09375 0.5231934 2.722656 0.5231934 -0.1259766 0.1269531 0.875 0.1269531 -0.1259766 0.2519531 0.875 0.2519531 2.589844 0.4111328 2.525391 0.5231934 0.2756348 0.4111328 0.3398438 0.5231934 0.1781006 0.4111328 0.1237183 0.5231934 -1.78418 0.4111328 -1.729492 0.5231934 -1.09375 0.4111328 2.722656 0.4111328 -1.09375 0.5231934 2.722656 0.5231934 2.4375 0.4101563 0.2165527 0.4101563 2.34375 0.5246582 0.2683105 0.5246582 -0.1102905 0.4101563 -1.84082 0.4101563 -0.1489258 0.5246582 -1.8125 0.5246582 -0.1259766 0.1269531 -0.1259766 0.2519531 0.875 0.1269531 0.875 0.2519531 2.589844 0.4111328 0.2756348 0.4111328 2.525391 0.5231934 0.3398438 0.5231934 0.1781006 0.4111328 -1.78418 0.4111328 0.1237183 0.5231934 -1.729492 0.5231934 -1.09375 0.4111328 -1.09375 0.5231934 2.722656 0.4111328 2.722656 0.5231934 2.4375 0.4101563 2.34375 0.5246582 0.2165527 0.4101563 0.2683105 0.5246582 -0.1102905 0.4101563 -0.1489258 0.5246582 -1.84082 0.4101563 -1.8125 0.5246582 2.589844 0.4111328 0.2756348 0.4111328 2.525391 0.5231934 0.3398438 0.5231934 0.1781006 0.4111328 -1.78418 0.4111328 0.1237183 0.5231934 -1.729492 0.5231934 -1.09375 0.4111328 -1.09375 0.5231934 2.722656 0.4111328 2.722656 0.5231934 -0.1259766 0.1269531 -0.1259766 0.2519531 0.875 0.1269531 0.875 0.2519531 -0.5253906 0.8764648 1.710938 0.8764648 -0.5253906 0.9943657 1.710938 0.9943657 -0.5253906 0.8764648 1.710938 0.8764648 -0.5253906 0.9943657 1.710938 0.9943657 -0.5253906 0.8764648 -0.5253906 0.9943657 1.710938 0.8764648 1.710938 0.9943657 -0.5253906 0.8764648 -0.5253906 0.9943657 1.710938 0.8764648 1.710938 0.9943657 2.494141 0.4101563 2.5 0.5246582 1.217773 0.4101563 1.223633 0.5246582 0.5083008 0.4101563 0.5151367 0.5246582 -0.7661133 0.4101563 -0.7602539 0.5246582 2.494141 0.4101563 1.217773 0.4101563 2.5 0.5246582 1.223633 0.5246582 0.5083008 0.4101563 -0.7661133 0.4101563 0.5151367 0.5246582 -0.7602539 0.5246582 0.2683105 0.5246582 -0.1489258 0.5246582 -0.1102905 0.4101563 0.2165527 0.4101563 3.542969 0.4101563 3.474609 0.5246582 2.722656 0.4101563 2.791016 0.5246582 -1.608398 0.5246582 -1.686523 0.4101563 -0.7558594 0.4101563 -0.7670898 0.5246582 2.748047 0.5246582 2.488281 0.5246582 2.494141 0.4101563 2.775391 0.4101563 -2.179688 0.4111328 -2.144531 0.5231934 -1.768555 0.5231934 -1.733398 0.4111328 -1.733398 0.4111328 -1.768555 0.5231934 -2.179688 0.4111328 -2.144531 0.5231934 -1.8125 0.5246582 -2.523438 0.5246582 -2.591797 0.4101563 -1.84082 0.4101563 3.542969 0.4101563 2.722656 0.4101563 3.474609 0.5246582 2.791016 0.5246582 -1.608398 0.5246582 -0.7670898 0.5246582 -0.7558594 0.4101563 -1.686523 0.4101563 0.3215332 0.4111328 0.137207 0.4111328 0.314209 0.5231934 0.1442871 0.5231934 2.775391 0.4101563 2.494141 0.4101563 2.748047 0.5246582 2.488281 0.5246582 0.3215332 0.4111328 0.314209 0.5231934 0.137207 0.4111328 0.1442871 0.5231934 0.5083008 0.4101563 0.5024414 0.5246582 0.7773438 0.5246582 0.8081055 0.4101563 -1.84082 0.4101563 -2.591797 0.4101563 -1.8125 0.5246582 -2.523438 0.5246582 0.9267578 0.4101563 0.9575195 0.5246582 1.229492 0.4101563 1.223633 0.5246582 0.3215332 0.4111328 0.137207 0.4111328 0.314209 0.5231934 0.1442871 0.5231934 0.9609375 0.4101563 0.7744141 0.4101563 0.9418945 0.5246582 0.7929688 0.5246582 0.3215332 0.4111328 0.314209 0.5231934 0.137207 0.4111328 0.1442871 0.5231934 0.7773438 0.5246582 0.5024414 0.5246582 0.5083008 0.4101563 0.8081055 0.4101563 -1.733398 0.4111328 -1.768555 0.5231934 -2.179688 0.4111328 -2.144531 0.5231934 -2.179688 0.4111328 -2.144531 0.5231934 -1.768555 0.5231934 -1.733398 0.4111328 -0.1102905 0.4101563 -0.1489258 0.5246582 0.2683105 0.5246582 0.2165527 0.4101563 0.9575195 0.5246582 0.9267578 0.4101563 1.229492 0.4101563 1.223633 0.5246582 0.9418945 0.5246582 0.7929688 0.5246582 0.7744141 0.4101563 0.9609375 0.4101563</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_FlameMetal00__FlameMetal00-texcoord-array" count="208" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_FlameMetal00__FlameMetal00-texcoord_1">
+          <float_array id="polySurface32_FlameMetal00__FlameMetal00-texcoord-array_1" count="416">0.6966811 0.202594 0.6966811 0.005920529 0.721233 0.202594 0.721233 0.005920529 0.1967651 0.00894177 0.2188296 0.02156103 0.1967651 0.4639048 0.2188296 0.4512856 0.4530404 0.007507443 0.4750896 0.01818877 0.4530404 0.3931487 0.4750896 0.3824674 0.06683452 0.7575952 0.06683452 0.007629514 0.0888838 0.7575952 0.0888838 0.007629514 0.7291676 0.202594 0.7291676 0.005920529 0.7537194 0.202594 0.7537194 0.005920529 0.2292515 0.00894177 0.2513161 0.02156103 0.2292515 0.4639048 0.2513161 0.4512856 0.4819104 0.007507443 0.503975 0.01818877 0.4819104 0.3931487 0.503975 0.3824674 0.09930571 0.7575952 0.09930571 0.007629514 0.1213703 0.7575952 0.1213703 0.007629514 0.02610819 0.003967345 0.02610819 0.440589 0.003662165 0.02233922 0.003662165 0.430396 0.02610819 0.5048295 0.02610819 0.8448462 0.003662165 0.5124285 0.003662165 0.8393072 0.7862058 0.202594 0.7616388 0.202594 0.7862058 0.005920529 0.7616388 0.005920529 0.2837873 0.005340636 0.2837873 0.4602884 0.261738 0.01795989 0.261738 0.4476692 0.5346456 0.005706847 0.5346456 0.3913481 0.5125963 0.01638818 0.5125963 0.3806668 0.1538567 0.7575952 0.1317922 0.7575952 0.1538567 0.007629514 0.1317922 0.007629514 0.03434806 0.007583737 0.05679408 0.02595562 0.03434806 0.4442054 0.05679408 0.4339971 0.03434806 0.5084459 0.05679408 0.5160296 0.03434806 0.8484626 0.05679408 0.8429084 0.3162737 0.005340636 0.3162737 0.4602884 0.2942245 0.01795989 0.2942245 0.4476692 0.5653315 0.005706847 0.5653315 0.3913481 0.543267 0.01638818 0.543267 0.3806668 0.1863432 0.7575952 0.1642786 0.7575952 0.1863432 0.007629514 0.1642786 0.007629514 0.8186923 0.202594 0.7941253 0.202594 0.8186923 0.005920529 0.7941253 0.005920529 0.3267109 0.4472114 0.3267109 0.007644773 0.3498741 0.4472114 0.3498741 0.007644773 0.3591974 0.4472114 0.3591974 0.007644773 0.3823606 0.4472114 0.3823606 0.007644773 0.414847 0.4472114 0.3916686 0.4472114 0.414847 0.007644773 0.3916686 0.007644773 0.4455177 0.4472114 0.4223545 0.4472114 0.4455177 0.007644773 0.4223545 0.007644773 0.5739529 0.007110715 0.5963989 0.005752623 0.5739529 0.2579385 0.5963989 0.2568094 0.6353094 0.007202268 0.6577706 0.005905271 0.6353094 0.2577707 0.6577706 0.256611 0.6270848 0.008911252 0.6270848 0.259739 0.6046388 0.00755322 0.6046388 0.2586099 0.6884413 0.007202268 0.6884413 0.2577707 0.6659952 0.005905271 0.6659952 0.256611 0.05679408 0.4339971 0.05679408 0.5160296 0.03434806 0.5084459 0.03434806 0.4442054 0.8879835 0.007995725 0.9104295 0.02145416 0.8879835 0.1690547 0.9104295 0.1556726 0.849073 0.175494 0.8266118 0.1908446 0.8266118 0.007873654 0.849073 0.01013201 0.7804837 0.2860761 0.7804837 0.3368887 0.7580377 0.3357595 0.7580377 0.2805066 0.7494164 0.3002213 0.7273518 0.2933699 0.7273518 0.2192111 0.7494164 0.2123445 0.8482795 0.1888762 0.8703288 0.1957427 0.8482795 0.2767529 0.8703288 0.2699016 0.05679408 0.8429084 0.05679408 0.9828184 0.03434806 0.9960327 0.03434806 0.8484626 0.9194476 0.1632105 0.9194476 0.3242542 0.8970016 0.1766537 0.8970016 0.3108873 0.8572976 0.175494 0.8572976 0.01013201 0.8797436 0.007873654 0.8797436 0.1908446 0.9190661 0.3338216 0.9190661 0.3700313 0.8970016 0.3352712 0.8970016 0.3686579 0.888777 0.2769055 0.888777 0.3321584 0.8663157 0.282475 0.8663157 0.3332723 0.7183337 0.3049363 0.7403983 0.3063859 0.7183337 0.3411612 0.7403983 0.3397879 0.6794232 0.3231403 0.6569772 0.3242847 0.6569772 0.270283 0.6794232 0.2642405 0.02610819 0.8448462 0.02610819 0.9924163 0.003662165 0.8393072 0.003662165 0.979202 0.6054322 0.3276722 0.5829709 0.3216602 0.6054322 0.2680705 0.5829709 0.2692607 0.6501564 0.3320058 0.6501564 0.3682307 0.6280919 0.3334554 0.6280919 0.3668574 0.8562905 0.3012131 0.8562905 0.33785 0.8338292 0.3048753 0.8338292 0.3341726 0.6876478 0.3067521 0.7097124 0.3082017 0.6876478 0.3429618 0.7097124 0.3415884 0.7804837 0.2197452 0.7804837 0.2737621 0.7580377 0.2726177 0.7580377 0.2137026 0.6966811 0.2123445 0.7187304 0.2192111 0.6966811 0.3002213 0.7187304 0.2933699 0.8396582 0.2948043 0.8175936 0.287953 0.8175936 0.2137942 0.8396582 0.2069276 0.02610819 0.5048295 0.003662165 0.5124285 0.003662165 0.430396 0.02610819 0.440589 0.6361029 0.3198596 0.6136568 0.3258564 0.6136568 0.2662699 0.6361029 0.2674601 0.8111696 0.2958572 0.8111696 0.3251392 0.7887236 0.3288167 0.7887236 0.292195</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_FlameMetal00__FlameMetal00-texcoord-array_1" count="208" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface32_FlameMetal00__FlameMetal00-vertex">
+          <input semantic="POSITION" source="#polySurface32_FlameMetal00__FlameMetal00-position" />
+        </vertices>
+        <triangles material="FlameMetal00" count="104">
+          <input semantic="VERTEX" source="#polySurface32_FlameMetal00__FlameMetal00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface32_FlameMetal00__FlameMetal00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface32_FlameMetal00__FlameMetal00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface32_FlameMetal00__FlameMetal00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 76 76 76 76 77 77 77 77 78 78 78 78 77 77 77 77 79 79 79 79 78 78 78 78 80 80 80 80 81 81 81 81 82 82 82 82 81 81 81 81 83 83 83 83 82 82 82 82 84 84 84 84 85 85 85 85 86 86 86 86 85 85 85 85 87 87 87 87 86 86 86 86 88 88 88 88 89 89 89 89 90 90 90 90 89 89 89 89 91 91 91 91 90 90 90 90 92 92 92 92 93 93 93 93 94 94 94 94 93 93 93 93 95 95 95 95 94 94 94 94 96 96 96 96 97 97 97 97 98 98 98 98 97 97 97 97 99 99 99 99 98 98 98 98 100 100 100 100 101 101 101 101 102 102 102 102 101 101 101 101 103 103 103 103 102 102 102 102 104 104 104 104 105 105 105 105 106 106 106 106 105 105 105 105 107 107 107 107 106 106 106 106 108 108 108 108 109 109 109 109 110 110 110 110 109 109 109 109 111 111 111 111 110 110 110 110 112 112 112 112 113 113 113 113 114 114 114 114 115 115 115 115 112 112 112 112 114 114 114 114 116 116 116 116 117 117 117 117 118 118 118 118 117 117 117 117 119 119 119 119 118 118 118 118 120 120 120 120 121 121 121 121 122 122 122 122 123 123 123 123 120 120 120 120 122 122 122 122 124 124 124 124 125 125 125 125 126 126 126 126 127 127 127 127 124 124 124 124 126 126 126 126 128 128 128 128 129 129 129 129 130 130 130 130 131 131 131 131 128 128 128 128 130 130 130 130 132 132 132 132 133 133 133 133 134 134 134 134 133 133 133 133 135 135 135 135 134 134 134 134 136 136 136 136 137 137 137 137 138 138 138 138 139 139 139 139 136 136 136 136 138 138 138 138 140 140 140 140 141 141 141 141 142 142 142 142 141 141 141 141 143 143 143 143 142 142 142 142 144 144 144 144 145 145 145 145 146 146 146 146 147 147 147 147 144 144 144 144 146 146 146 146 148 148 148 148 149 149 149 149 150 150 150 150 149 149 149 149 151 151 151 151 150 150 150 150 152 152 152 152 153 153 153 153 154 154 154 154 153 153 153 153 155 155 155 155 154 154 154 154 156 156 156 156 157 157 157 157 158 158 158 158 157 157 157 157 159 159 159 159 158 158 158 158 160 160 160 160 161 161 161 161 162 162 162 162 163 163 163 163 160 160 160 160 162 162 162 162 164 164 164 164 165 165 165 165 166 166 166 166 165 165 165 165 167 167 167 167 166 166 166 166 168 168 168 168 169 169 169 169 170 170 170 170 169 169 169 169 171 171 171 171 170 170 170 170 172 172 172 172 173 173 173 173 174 174 174 174 173 173 173 173 175 175 175 175 174 174 174 174 176 176 176 176 177 177 177 177 178 178 178 178 177 177 177 177 179 179 179 179 178 178 178 178 180 180 180 180 181 181 181 181 182 182 182 182 181 181 181 181 183 183 183 183 182 182 182 182 184 184 184 184 185 185 185 185 186 186 186 186 187 187 187 187 184 184 184 184 186 186 186 186 188 188 188 188 189 189 189 189 190 190 190 190 189 189 189 189 191 191 191 191 190 190 190 190 192 192 192 192 193 193 193 193 194 194 194 194 195 195 195 195 192 192 192 192 194 194 194 194 196 196 196 196 197 197 197 197 198 198 198 198 199 199 199 199 196 196 196 196 198 198 198 198 200 200 200 200 201 201 201 201 202 202 202 202 203 203 203 203 200 200 200 200 202 202 202 202 204 204 204 204 205 205 205 205 206 206 206 206 207 207 207 207 204 204 204 204 206 206 206 206 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface32_GroundConc__GroundConc-mesh" name="polySurface32_GroundConc__GroundConc">
+      <mesh>
+        <source id="polySurface32_GroundConc__GroundConc-position">
+          <float_array id="polySurface32_GroundConc__GroundConc-position-array" count="48">-4.25 3 -6 4.25 3 -6 -4.25 3 -7.25 4.25 3 -7.25 -4.25 0 7.25 4.25 0 7.25 -4.25 0 6 4.25 0 6 -4.25 -3 7.25 -4.25 -3 6 4.25 -3 7.25 4.25 -3 6 -4.25 0 -6 -4.25 0 -7.25 4.25 0 -6 4.25 0 -7.25</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundConc__GroundConc-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundConc__GroundConc-normal">
+          <float_array id="polySurface32_GroundConc__GroundConc-normal-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundConc__GroundConc-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundConc__GroundConc-texcoord">
+          <float_array id="polySurface32_GroundConc__GroundConc-texcoord-array" count="32">-0.1968504 0 0.8661417 0 -0.1968504 0.1574803 0.8661417 0.1574803 -0.1968504 0 0.8661417 0 -0.1968504 0.1574803 0.8661417 0.1574803 -0.1968504 0 -0.1968504 0.1574803 0.8661417 0 0.8661417 0.1574803 -0.1968504 0 -0.1968504 0.1574803 0.8661417 0 0.8661417 0.1574803</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundConc__GroundConc-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundConc__GroundConc-texcoord_1">
+          <float_array id="polySurface32_GroundConc__GroundConc-texcoord-array_1" count="32">0.002441444 0.9960327 0.002441444 0.003967345 0.148333 0.9960327 0.148333 0.003967345 0.1576257 0.9960327 0.1576257 0.003967345 0.3035172 0.9960327 0.3035172 0.003967345 0.4587015 0.9960327 0.3128099 0.9960327 0.4587015 0.003967345 0.3128099 0.003967345 0.6138857 0.9960327 0.4679942 0.9960327 0.6138857 0.003967345 0.4679942 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundConc__GroundConc-texcoord-array_1" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface32_GroundConc__GroundConc-vertex">
+          <input semantic="POSITION" source="#polySurface32_GroundConc__GroundConc-position" />
+        </vertices>
+        <triangles material="GroundConc" count="8">
+          <input semantic="VERTEX" source="#polySurface32_GroundConc__GroundConc-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface32_GroundConc__GroundConc-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface32_GroundConc__GroundConc-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface32_GroundConc__GroundConc-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface32_GroundSlopeDot__GroundSlopeDot-mesh" name="polySurface32_GroundSlopeDot__GroundSlopeDot">
+      <mesh>
+        <source id="polySurface32_GroundSlopeDot__GroundSlopeDot-position">
+          <float_array id="polySurface32_GroundSlopeDot__GroundSlopeDot-position-array" count="120">-4.25 -0.25 7.5 -4.25 -2.75 7.5 4.25 -0.25 7.5 4.25 -2.75 7.5 -4.25 2.75 -7.5 4.25 2.75 -7.5 -4.25 0.25 -7.5 4.25 0.25 -7.5 4 0 4.5 4 3 -4.5 -4 0 4.5 -4 3 -4.5 4 -3 4.5 -4 -3 4.5 4 0 -4.5 -4 0 -4.5 4.5 2.75 -4.540569 4.5 -0.25 4.459431 4.5 0.25 -4.459431 4.5 -2.75 4.540569 -4.5 2.75 -4.540569 -4.5 0.25 -4.459431 -4.5 -0.25 4.459431 -4.5 -2.75 4.540569 4.5 2.75 -7.25 4.5 2.75 -4.540569 4.5 0.25 -7.25 4.5 0.25 -4.459431 -4.5 2.75 -7.25 -4.5 0.25 -7.25 -4.5 2.75 -4.540569 -4.5 0.25 -4.459431 -4.5 -0.25 4.459431 -4.5 -2.75 4.540569 -4.5 -0.25 7.25 -4.5 -2.75 7.25 4.5 -0.25 4.459431 4.5 -0.25 7.25 4.5 -2.75 4.540569 4.5 -2.75 7.25</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundSlopeDot__GroundSlopeDot-position-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundSlopeDot__GroundSlopeDot-normal">
+          <float_array id="polySurface32_GroundSlopeDot__GroundSlopeDot-normal-array" count="120">0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 0.9491194 0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 0 -0.9491194 -0.3170255 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundSlopeDot__GroundSlopeDot-normal-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord">
+          <float_array id="polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord-array" count="80">0.0368042 0.1049805 0.0368042 0.4174805 0.7241211 0.1049805 0.7241211 0.4174805 0.03692627 0.1049805 0.7241211 0.1049805 0.03692627 0.4174805 0.7241211 0.4174805 0 0 1.185547 0 0 1 1.185547 1 0 0 0 1 1.185547 0 1.185547 1 -0.4755859 0.112793 0.7143555 0.112793 -0.4755859 0.4150391 0.7143555 0.4150391 -0.4755859 0.112793 -0.4755859 0.4150391 0.7143555 0.112793 0.7143555 0.4150391 -0.8056641 0.112793 -0.4755859 0.112793 -0.8056641 0.4150391 -0.4755859 0.4150391 -0.8056641 0.112793 -0.8056641 0.4150391 -0.4755859 0.112793 -0.4755859 0.4150391 0.7143555 0.112793 0.7143555 0.4150391 1.054688 0.112793 1.054688 0.4150391 0.7143555 0.112793 1.054688 0.112793 0.7143555 0.4150391 1.054688 0.4150391</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord-array" count="40" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord_1">
+          <float_array id="polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord-array_1" count="80">0.288716 0.3716945 0.2263829 0.3716945 0.288716 0.2345617 0.2263829 0.2345617 0.6852521 0.3716945 0.6852521 0.2345617 0.7475852 0.3716945 0.7475852 0.2345617 0.01799039 0.3708858 0.01799039 0.1343709 0.2174411 0.3708858 0.2174563 0.1343709 0.6763104 0.3708858 0.4768597 0.3708858 0.6763104 0.1343709 0.4768597 0.1343709 0.935729 0.3091936 0.935729 0.07176316 0.9960327 0.3091936 0.9960327 0.07176316 0.9940337 0.6879225 0.9337301 0.6879225 0.9940337 0.4504768 0.9337301 0.4504768 0.935729 0.3750973 0.935729 0.3091936 0.9960327 0.3750973 0.9960327 0.3091936 0.9940337 0.7538109 0.9337301 0.7538109 0.9940337 0.6879225 0.9337301 0.6879225 0.9940337 0.4504768 0.9337301 0.4504768 0.9940337 0.38262 0.9337301 0.38262 0.935729 0.07176316 0.935729 0.00390631 0.9960327 0.07176316 0.9960327 0.00390631</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord-array_1" count="40" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface32_GroundSlopeDot__GroundSlopeDot-vertex">
+          <input semantic="POSITION" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-position" />
+        </vertices>
+        <triangles material="GroundSlopeDot" count="20">
+          <input semantic="VERTEX" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface32_FlameMetal00__FlameMetal00-mesh">
+      <skin source="#polySurface32_FlameMetal00__FlameMetal00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface32_FlameMetal00__FlameMetal00-mesh-joint">
+          <Name_array id="polySurface32_FlameMetal00__FlameMetal00-mesh-joint-array" count="1">dis_</Name_array>
+          <technique_common>
+            <accessor source="#polySurface32_FlameMetal00__FlameMetal00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_FlameMetal00__FlameMetal00-mesh-inv_bind_matrix">
+          <float_array id="polySurface32_FlameMetal00__FlameMetal00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_FlameMetal00__FlameMetal00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_FlameMetal00__FlameMetal00-mesh-weight">
+          <float_array id="polySurface32_FlameMetal00__FlameMetal00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_FlameMetal00__FlameMetal00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface32_FlameMetal00__FlameMetal00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface32_FlameMetal00__FlameMetal00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="208">
+          <input semantic="JOINT" source="#polySurface32_FlameMetal00__FlameMetal00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface32_FlameMetal00__FlameMetal00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface32_GroundConc__GroundConc-mesh">
+      <skin source="#polySurface32_GroundConc__GroundConc-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface32_GroundConc__GroundConc-mesh-joint">
+          <Name_array id="polySurface32_GroundConc__GroundConc-mesh-joint-array" count="1">dis_</Name_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundConc__GroundConc-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundConc__GroundConc-mesh-inv_bind_matrix">
+          <float_array id="polySurface32_GroundConc__GroundConc-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundConc__GroundConc-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundConc__GroundConc-mesh-weight">
+          <float_array id="polySurface32_GroundConc__GroundConc-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundConc__GroundConc-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface32_GroundConc__GroundConc-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface32_GroundConc__GroundConc-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#polySurface32_GroundConc__GroundConc-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface32_GroundConc__GroundConc-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface32_GroundSlopeDot__GroundSlopeDot-mesh">
+      <skin source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-joint">
+          <Name_array id="polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-joint-array" count="1">dis_</Name_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-inv_bind_matrix">
+          <float_array id="polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-weight">
+          <float_array id="polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="40">
+          <input semantic="JOINT" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface32_GroundSlopeDot__GroundSlopeDot-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_dis_" name="dis_" sid="dis_" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface32_FlameMetal00__FlameMetal00" name="polySurface32_FlameMetal00__FlameMetal00" type="NODE">
+        <instance_controller url="#Armature_polySurface32_FlameMetal00__FlameMetal00-mesh">
+          <skeleton>#Armature_dis_</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FlameMetal00" target="#FlameMetal00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface32_GroundConc__GroundConc" name="polySurface32_GroundConc__GroundConc" type="NODE">
+        <instance_controller url="#Armature_polySurface32_GroundConc__GroundConc-mesh">
+          <skeleton>#Armature_dis_</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundConc" target="#GroundConc" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface32_GroundSlopeDot__GroundSlopeDot" name="polySurface32_GroundSlopeDot__GroundSlopeDot" type="NODE">
+        <instance_controller url="#Armature_polySurface32_GroundSlopeDot__GroundSlopeDot-mesh">
+          <skeleton>#Armature_dis_</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GroundSlopeDot" target="#GroundSlopeDot" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

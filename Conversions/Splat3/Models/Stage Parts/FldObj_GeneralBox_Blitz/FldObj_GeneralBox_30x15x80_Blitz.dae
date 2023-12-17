@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Alb">
+      <init_from>M_GeneralBoxBody_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Nrm">
+      <init_from>M_GeneralBoxBody_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxBody_Rgh">
+      <init_from>M_GeneralBoxBody_Rgh.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Alb">
+      <init_from>M_GeneralBoxTopEdge_Alb.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Nrm">
+      <init_from>M_GeneralBoxTopEdge_Nrm.png</init_from>
+    </image>
+    <image id="M_GeneralBoxTopEdge_Rgh">
+      <init_from>M_GeneralBoxTopEdge_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_GeneralBoxBody">
+      <instance_effect url="#Effect_M_GeneralBoxBody" />
+    </material>
+    <material id="M_GeneralBoxTopEdge">
+      <instance_effect url="#Effect_M_GeneralBoxTopEdge" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_GeneralBoxBody">
+      <profile_COMMON>
+        <newparam sid="surface_M_GeneralBoxBody-diffuse">
+          <surface type="2D">
+            <init_from>M_GeneralBoxBody_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_GeneralBoxBody-diffuse">
+          <sampler2D>
+            <source>surface_M_GeneralBoxBody-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_GeneralBoxBody-bump">
+          <surface type="2D">
+            <init_from>M_GeneralBoxBody_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_GeneralBoxBody-bump">
+          <sampler2D>
+            <source>surface_M_GeneralBoxBody-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_GeneralBoxBody-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_GeneralBoxBody-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_M_GeneralBoxTopEdge">
+      <profile_COMMON>
+        <newparam sid="surface_M_GeneralBoxTopEdge-diffuse">
+          <surface type="2D">
+            <init_from>M_GeneralBoxTopEdge_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_GeneralBoxTopEdge-diffuse">
+          <sampler2D>
+            <source>surface_M_GeneralBoxTopEdge-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_GeneralBoxTopEdge-bump">
+          <surface type="2D">
+            <init_from>M_GeneralBoxTopEdge_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_GeneralBoxTopEdge-bump">
+          <sampler2D>
+            <source>surface_M_GeneralBoxTopEdge-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_GeneralBoxTopEdge-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_GeneralBoxTopEdge-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="body__M_GeneralBoxBody-mesh" name="body__M_GeneralBoxBody">
+      <mesh>
+        <source id="body__M_GeneralBoxBody-position">
+          <float_array id="body__M_GeneralBoxBody-position-array" count="402">1.406259 0 3.90626 1.406259 0 -3.90626 1.472544 0.027456 -3.90626 1.472544 0.027456 3.90626 1.5 0.09374066 -3.90626 1.5 0.09374066 3.90626 1.5 1.406259 -3.90626 1.5 1.406259 3.90626 1.472544 1.472544 -3.90626 1.472544 1.472544 3.90626 1.406259 1.5 -3.90626 1.406259 1.5 3.90626 -1.406259 1.5 3.90626 -1.406259 1.5 -3.90626 -1.472544 1.472544 -3.90626 -1.472544 1.472544 3.90626 -1.5 1.406259 -3.90626 -1.5 1.406259 3.90626 -1.5 0.09374066 3.90626 -1.5 0.09374066 -3.90626 -1.472544 0.027456 -3.90626 -1.472544 0.027456 3.90626 -1.406259 0 -3.90626 -1.406259 0 3.90626 -1.459601 1.459601 -3.959601 -1.472544 1.406259 -3.972544 -1.472544 0.09374066 -3.972544 -1.459601 0.04039888 -3.959601 -1.406259 0.027456 -3.972544 -1.406259 0 -3.90626 -1.459601 0.04039888 -3.959601 -1.406259 0.09374066 -4 -1.472544 0.09374066 -3.972544 1.406259 0.027456 -3.972544 1.459601 0.04039888 -3.959601 1.406259 0.09374066 -4 1.472544 0.09374066 -3.972544 -1.406259 1.406259 -4 -1.472544 1.406259 -3.972544 -1.459601 1.459601 -3.959601 1.472544 1.406259 -3.972544 1.406259 1.406259 -4 -1.406259 1.472544 -3.972544 -1.406259 1.5 -3.90626 1.459601 1.459601 -3.959601 1.406259 1.472544 -3.972544 -1.459601 1.459601 3.959601 -1.406259 1.472544 3.972544 -1.472544 1.406259 3.972544 -1.406259 1.406259 4 1.406259 1.472544 3.972544 -1.472544 0.09374066 3.972544 -1.406259 0.09374066 4 -1.459601 0.04039888 3.959601 -1.406259 0.027456 3.972544 1.406259 1.406259 4 1.406259 0.09374066 4 1.406259 0.027456 3.972544 1.459601 0.04039888 3.959601 1.472544 0.09374066 3.972544 1.472544 1.406259 3.972544 1.459601 1.459601 3.959601 -1.472579 0.0936983 -3.972579 -1.406726 -0.0004672024 -3.906464 -1.50094 0.09280127 -3.906667 -1.472579 1.406301 -3.972579 -1.47255 0.02745009 3.90626 -1.406259 0 3.90626 -1.5 1.406259 -3.90626 -1.50017 0.0936646 3.906441 -1.413028 0.02392242 3.990477 -1.47255 1.47255 -3.90626 -1.406263 1.500004 -3.906262 -1.406721 1.500462 3.906458 -1.501104 1.40727 3.906831 -1.406297 1.472584 3.972583 1.406332 1.50017 3.906429 -1.406785 1.406291 4.000851 1.406909 1.407086 4.001091 1.47258 1.47258 3.906294 1.406721 1.500462 -3.906458 1.406551 0.09361183 4.000292 1.500414 1.406279 3.906509 1.406261 0.02745279 3.972544 1.406259 0 3.90626 1.496632 0.02268511 3.915285 1.50111 1.407271 -3.90683 1.472546 0.02745289 -3.90626 1.406259 0 -3.90626 1.500168 0.09366516 -3.906443 1.41302 0.02393038 -3.990541 1.406294 1.472582 -3.972579 -1.406263 1.500004 -3.906262 1.406785 1.406293 -4.00085 -1.409644 1.475986 -3.990119 -1.472579 1.406301 -3.972579 -1.472579 0.0936983 -3.972579 -1.406361 0.09384383 -4.000524 -1.406259 0.027456 -3.972544 -1.406726 -0.0004672024 -3.906464 -1.4395 -0.0009948242 -3.991338 1.412272 0.02345769 -3.994102 1.406259 0 -3.90626 1.496588 0.02257361 -3.916177 1.406509 -0.0001757585 3.90632 1.497125 0.0227911 3.915467 1.413708 0.023794 3.990336 -1.484709 0.007408505 3.916164 -1.406933 0.09319299 4.001416 1.497087 1.477524 3.915551 1.501168 1.406964 -3.906816 1.417034 1.497075 -3.981076 1.406332 1.5002 3.90646 1.407097 1.406976 4.001596 -1.413174 1.476219 3.990444 -1.406712 1.500454 3.906458 -1.501788 1.407915 3.906846 -1.489805 1.494626 -3.920058 1.412272 0.02345769 -3.994102 -1.4395 -0.0009948242 -3.991338 -1.489805 1.494626 -3.920058 1.417034 1.497075 -3.981076 1.496588 0.02257361 -3.916177 1.501168 1.406964 -3.906816 1.497125 0.0227911 3.915467 1.497087 1.477524 3.915551 1.407097 1.406976 4.001596 1.413708 0.023794 3.990336 -1.406933 0.09319299 4.001416 -1.413174 1.476219 3.990444 -1.484709 0.007408505 3.916164 -1.501788 1.407915 3.906846 -1.489805 1.494626 -3.920058 -1.4395 -0.0009948242 -3.991338</float_array>
+          <technique_common>
+            <accessor source="#body__M_GeneralBoxBody-position-array" count="134" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="body__M_GeneralBoxBody-normal">
+          <float_array id="body__M_GeneralBoxBody-normal-array" count="402">0.2896282 -0.9510763 0.1056751 0.2896282 -0.9510763 -0.1056751 0.7084149 -0.7064579 -0.001956947 0.7084149 -0.7064579 0.001956947 1 -0.01956947 -0.003913894 1 -0.01956947 0.003913894 1 0.01956947 -0.003913894 1 0.01956947 0.003913894 0.7084149 0.7064579 -0.001956947 0.7084149 0.7064579 0.001956947 0.2896282 0.9510763 -0.1056751 0.2896282 0.9510763 0.1056751 -0.2896282 0.9510763 0.1056751 -0.2896282 0.9510763 -0.1056751 -0.7084149 0.7064579 -0.001956947 -0.7084149 0.7064579 0.001956947 -1 0.01956947 -0.003913894 -1 0.01956947 0.003913894 -1 -0.01956947 0.003913894 -1 -0.01956947 -0.003913894 -0.7084149 -0.7064579 -0.001956947 -0.7084149 -0.7064579 0.001956947 -0.2896282 -0.9510763 -0.1056751 -0.2896282 -0.9510763 0.1056751 -0.6144814 0.4931507 -0.6144814 -0.7064579 0.01369863 -0.7064579 -0.7064579 -0.01369863 -0.7064579 -0.6144814 -0.4931507 -0.6144814 -0.003913894 -0.7064579 -0.7084149 -0.2896282 -0.9510763 -0.1056751 -0.6144814 -0.4931507 -0.6144814 -0.009784736 -0.01956947 -1 -0.7064579 -0.01369863 -0.7064579 0.003913894 -0.7064579 -0.7084149 0.6144814 -0.4931507 -0.6144814 0.009784736 -0.01956947 -1 0.7064579 -0.01369863 -0.7064579 -0.009784736 0.01956947 -1 -0.7064579 0.01369863 -0.7064579 -0.6144814 0.4931507 -0.6144814 0.7064579 0.01369863 -0.7064579 0.009784736 0.01956947 -1 -0.003913894 0.7064579 -0.7084149 -0.2896282 0.9510763 -0.1056751 0.6144814 0.4931507 -0.6144814 0.003913894 0.7064579 -0.7084149 -0.6144814 0.4931507 0.6144814 -0.003913894 0.7064579 0.7084149 -0.7064579 0.01369863 0.7064579 -0.009784736 0.01956947 1 0.003913894 0.7064579 0.7084149 -0.7064579 -0.01369863 0.7064579 -0.009784736 -0.01956947 1 -0.6144814 -0.4931507 0.6144814 -0.003913894 -0.7064579 0.7084149 0.009784736 0.01956947 1 0.009784736 -0.01956947 1 0.003913894 -0.7064579 0.7084149 0.6144814 -0.4931507 0.6144814 0.7064579 -0.01369863 0.7064579 0.7064579 0.01369863 0.7064579 0.6144814 0.4931507 0.6144814 -0.7064579 -0.01369863 -0.7064579 -0.2896282 -0.9510763 -0.1056751 -1 -0.01956947 -0.003913894 -0.7064579 0.01369863 -0.7064579 -0.7064579 -0.7064579 0.001956947 -0.2896282 -0.9510763 0.1056751 -1 0.01956947 -0.003913894 -1 -0.01956947 0.003913894 -0.009784736 -0.01956947 1 -0.7064579 0.7064579 -0.001956947 -0.2896282 0.9510763 -0.1056751 -0.2896282 0.9510763 0.1056751 -1 0.01956947 0.003913894 -0.003913894 0.7064579 0.7084149 0.2896282 0.9510763 0.1056751 -0.009784736 0.01956947 1 0.009784736 0.01956947 1 0.7064579 0.7064579 0.001956947 0.2896282 0.9510763 -0.1056751 0.009784736 -0.01956947 1 1 0.01956947 0.003913894 0.003913894 -0.7064579 0.7084149 0.2896282 -0.9510763 0.1056751 1 -0.01956947 0.003913894 1 0.01956947 -0.003913894 0.7064579 -0.7064579 -0.001956947 0.2896282 -0.9510763 -0.1056751 1 -0.01956947 -0.003913894 0.009784736 -0.01956947 -1 0.003913894 0.7064579 -0.7084149 -0.2896282 0.9510763 -0.1056751 0.009784736 0.01956947 -1 -0.009784736 0.01956947 -1 -0.7064579 0.01369863 -0.7064579 -0.7064579 -0.01369863 -0.7064579 -0.009784736 -0.01956947 -1 -0.003913894 -0.7064579 -0.7084149 -0.2896282 -0.9510763 -0.1056751 -0.003913894 -0.7064579 -0.7084149 0.009784736 -0.01956947 -1 0.2896282 -0.9510763 -0.1056751 0.7064579 -0.7064579 -0.001956947 0.2896282 -0.9510763 0.1056751 1 -0.01956947 0.003913894 0.003913894 -0.7064579 0.7084149 -0.2896282 -0.9510763 0.1056751 -0.009784736 -0.01956947 1 0.7064579 0.7064579 0.001956947 1 0.01956947 -0.003913894 0.2896282 0.9510763 -0.1056751 0.2896282 0.9510763 0.1056751 0.009784736 0.01956947 1 -0.003913894 0.7064579 0.7084149 -0.2896282 0.9510763 0.1056751 -1 0.01956947 0.003913894 -0.7064579 0.7064579 -0.001956947 0.009784736 -0.01956947 -1 -0.009784736 -0.01956947 -1 -0.001956947 0.04696673 -0.9980431 0.009784736 0.01956947 -1 1 -0.01956947 -0.007827789 1 0.01956947 -0.003913894 1 -0.01956947 0.003913894 1 0.01956947 0.003913894 0.009784736 0.01956947 1 0.0332681 -0.01956947 1 -0.009784736 -0.01956947 1 -0.009784736 0.01956947 1 -1 -0.01956947 0.003913894 -1 0.01956947 0.003913894 -1 0.01956947 -0.003913894 -0.9980431 -0.04500978 -0.007827789</float_array>
+          <technique_common>
+            <accessor source="#body__M_GeneralBoxBody-normal-array" count="134" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="body__M_GeneralBoxBody-texcoord">
+          <float_array id="body__M_GeneralBoxBody-texcoord-array" count="268">1.739258 -0.2734375 -0.2617188 -0.2734375 -0.2595215 -0.2978516 1.737305 -0.2958984 -0.2575684 -0.3154297 1.735352 -0.3144531 -0.2575684 -0.6435547 1.735352 -0.6435547 -0.2595215 -0.6572266 1.737305 -0.6572266 -0.2614746 -0.6796875 1.739258 -0.6796875 2.474609 -0.6796875 4.480469 -0.6796875 4.480469 -0.6621094 2.476563 -0.6621094 4.480469 -0.6435547 2.478516 -0.6435547 2.478516 -0.3134766 4.476563 -0.3056641 4.476563 -0.2880859 2.476563 -0.2949219 4.476563 -0.2734375 2.474609 -0.2734375 4.496094 -0.6621094 4.5 -0.6435547 4.5 -0.3056641 4.484375 -0.2880859 -0.9794922 -0.2900391 -0.9794922 -0.2734375 -0.9882813 -0.2910156 -0.9799805 -0.3085938 -1 -0.3076172 -0.267334 -0.2978516 -0.263916 -0.3037109 -0.2724609 -0.3154297 -0.2651367 -0.3154297 -0.9814453 -0.6435547 -1 -0.6435547 -0.996582 -0.6601563 -0.2648926 -0.6435547 -0.2724609 -0.6435547 -0.9814453 -0.6601563 -0.9814453 -0.6796875 -0.263916 -0.6503906 -0.267334 -0.6601563 2.472656 -0.6523438 2.46875 -0.6582031 2.470703 -0.6435547 2.462891 -0.6435547 1.745117 -0.6582031 2.470703 -0.3134766 2.462891 -0.3134766 2.472656 -0.3017578 2.46875 -0.2958984 1.75 -0.6435547 1.75 -0.3144531 1.745117 -0.2958984 1.742188 -0.3017578 1.743164 -0.3144531 1.743164 -0.6435547 1.742188 -0.6523438 4.5 -0.3056641 4.476563 -0.2734375 4.476563 -0.3056641 4.5 -0.6435547 2.476563 -0.2949219 2.474609 -0.2734375 4.480469 -0.6435547 2.478516 -0.3134766 2.46875 -0.2958984 4.480469 -0.6621094 4.480469 -0.6796875 2.474609 -0.6796875 2.478516 -0.6435547 2.46875 -0.6582031 1.739258 -0.6796875 2.462891 -0.6435547 1.75 -0.6435547 1.737305 -0.6572266 -0.2614746 -0.6796875 1.75 -0.3144531 1.735352 -0.6435547 1.745117 -0.2958984 1.739258 -0.2734375 1.737305 -0.2958984 -0.2575684 -0.6435547 -0.2595215 -0.2978516 -0.2617188 -0.2734375 -0.2575684 -0.3154297 -0.267334 -0.2978516 -0.267334 -0.6601563 -0.9814453 -0.6796875 -0.2724609 -0.6435547 -0.9814453 -0.6601563 -1 -0.6435547 -1 -0.3076172 -0.9799805 -0.3085938 -0.9794922 -0.2900391 -0.9794922 -0.2734375 -0.9794922 -0.2900391 -0.267334 -0.2978516 -0.2617188 -0.2734375 -0.2595215 -0.2978516 1.739258 -0.2734375 1.737305 -0.2958984 1.745117 -0.2958984 2.476563 -0.2949219 2.462891 -0.3134766 1.737305 -0.6572266 -0.2575684 -0.6435547 -0.267334 -0.6601563 1.739258 -0.6796875 1.75 -0.6435547 2.46875 -0.6582031 2.474609 -0.6796875 2.478516 -0.6435547 4.480469 -0.6621094 -0.267334 -0.2978516 -0.9794922 -0.2900391 -0.9814453 -0.6796875 -0.267334 -0.6601563 -0.2595215 -0.2978516 -0.2575684 -0.6435547 1.737305 -0.2958984 1.737305 -0.6572266 1.75 -0.6435547 1.745117 -0.2958984 2.462891 -0.3134766 2.46875 -0.6582031 2.476563 -0.2949219 2.478516 -0.6435547 4.480469 -0.6621094 4.476563 -0.2734375</float_array>
+          <technique_common>
+            <accessor source="#body__M_GeneralBoxBody-texcoord-array" count="134" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="body__M_GeneralBoxBody-texcoord_1">
+          <float_array id="body__M_GeneralBoxBody-texcoord-array_1" count="268">0.07350271 0.5018082 0.07350271 0.8628672 0.06916915 0.8624704 0.06945907 0.5022049 0.06591897 0.8621348 0.06619364 0.5025406 0.006820783 0.8621195 0.006820783 0.5025558 0.004226749 0.8624704 0.004226749 0.5022049 0.0002899214 0.8628519 0.0002899214 0.5018234 0.0002899214 0.3692073 0.0002899214 0.007339597 0.003372244 0.007339597 0.003372244 0.3688105 0.006820783 0.007339597 0.006820783 0.3684748 0.06631571 0.3684748 0.06762799 0.007522702 0.07093919 0.007568479 0.06958114 0.3688258 0.07350271 0.007583737 0.07350271 0.3692226 0.003372244 0.004638731 0.006820783 0.003967345 0.06775006 0.003967345 0.07081712 0.006088376 0.07051194 0.9923857 0.07350271 0.9923552 0.07042038 0.9939421 0.06724651 0.9925078 0.06736858 0.9960327 0.06913863 0.86392 0.06805523 0.8632944 0.06590372 0.8648356 0.0658732 0.8634775 0.006820783 0.9927214 0.006820783 0.9960327 0.003723201 0.9954223 0.006820783 0.8634775 0.006820783 0.8648356 0.003723201 0.9927214 0.0002899214 0.9927214 0.005523766 0.8632944 0.003723201 0.8639048 0.005096513 0.3696346 0.0040589 0.3702602 0.006820783 0.3698177 0.006820783 0.371191 0.0040589 0.5007553 0.06625468 0.3698329 0.06626993 0.3712062 0.06846723 0.3696346 0.06953536 0.3702754 0.006820783 0.4998398 0.06616312 0.4998245 0.06941329 0.5007553 0.06834516 0.5013962 0.06614786 0.5011978 0.006820783 0.5011978 0.005157549 0.5013962 0.06775006 0.003967345 0.07350271 0.007583737 0.06762799 0.007522702 0.006820783 0.003967345 0.06958114 0.3688258 0.07350271 0.3692226 0.006820783 0.007339597 0.06631571 0.3684748 0.06953536 0.3702754 0.003372244 0.007339597 0.0002899214 0.007339597 0.0002899214 0.3692073 0.006820783 0.3684748 0.0040589 0.3702602 0.0002899214 0.5018234 0.006820783 0.371191 0.006820783 0.4998398 0.004226749 0.5022049 0.0002899214 0.8628519 0.06616312 0.4998245 0.006820783 0.5025558 0.06941329 0.5007553 0.07350271 0.5018082 0.06945907 0.5022049 0.006820783 0.8621195 0.06916915 0.8624704 0.07350271 0.8628672 0.06591897 0.8621348 0.06913863 0.86392 0.003723201 0.8639048 0.0002899214 0.9927214 0.006820783 0.8648356 0.003723201 0.9927214 0.006820783 0.9960327 0.06736858 0.9960327 0.06724651 0.9925078 0.07051194 0.9923857 0.07350271 0.9923552 0.07051194 0.9923857 0.06913863 0.86392 0.07350271 0.8628672 0.06916915 0.8624704 0.07350271 0.5018082 0.06945907 0.5022049 0.06941329 0.5007553 0.06958114 0.3688258 0.06626993 0.3712062 0.004226749 0.5022049 0.006820783 0.8621195 0.003723201 0.8639048 0.0002899214 0.5018234 0.006820783 0.4998398 0.0040589 0.3702602 0.0002899214 0.3692073 0.006820783 0.3684748 0.003372244 0.007339597 0.06913863 0.86392 0.07051194 0.9923857 0.0002899214 0.9927214 0.003723201 0.8639048 0.06916915 0.8624704 0.006820783 0.8621195 0.06945907 0.5022049 0.004226749 0.5022049 0.006820783 0.4998398 0.06941329 0.5007553 0.06626993 0.3712062 0.0040589 0.3702602 0.06958114 0.3688258 0.006820783 0.3684748 0.003372244 0.007339597 0.07350271 0.007583737</float_array>
+          <technique_common>
+            <accessor source="#body__M_GeneralBoxBody-texcoord-array_1" count="134" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="body__M_GeneralBoxBody-vertex">
+          <input semantic="POSITION" source="#body__M_GeneralBoxBody-position" />
+        </vertices>
+        <triangles material="M_GeneralBoxBody" count="104">
+          <input semantic="VERTEX" source="#body__M_GeneralBoxBody-vertex" offset="0" />
+          <input semantic="NORMAL" source="#body__M_GeneralBoxBody-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#body__M_GeneralBoxBody-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#body__M_GeneralBoxBody-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 0 0 0 0 2 2 2 2 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 3 3 3 3 4 4 4 4 4 4 4 4 6 6 6 6 5 5 5 5 6 6 6 6 7 7 7 7 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 7 7 7 7 8 8 8 8 9 9 9 9 8 8 8 8 10 10 10 10 11 11 11 11 9 9 9 9 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 15 15 15 15 12 12 12 12 14 14 14 14 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 15 15 15 15 16 16 16 16 17 17 17 17 16 16 16 16 18 18 18 18 16 16 16 16 19 19 19 19 18 18 18 18 18 18 18 18 19 19 19 19 20 20 20 20 21 21 21 21 18 18 18 18 20 20 20 20 21 21 21 21 20 20 20 20 22 22 22 22 23 23 23 23 21 21 21 21 22 22 22 22 14 14 14 14 13 13 13 13 24 24 24 24 16 16 16 16 14 14 14 14 24 24 24 24 25 25 25 25 16 16 16 16 24 24 24 24 16 16 16 16 25 25 25 25 19 19 19 19 25 25 25 25 26 26 26 26 19 19 19 19 19 19 19 19 26 26 26 26 27 27 27 27 20 20 20 20 19 19 19 19 27 27 27 27 27 27 27 27 22 22 22 22 20 20 20 20 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 28 28 28 28 1 1 1 1 31 31 31 31 28 28 28 28 30 30 30 30 32 32 32 32 31 31 31 31 30 30 30 30 28 28 28 28 33 33 33 33 1 1 1 1 28 28 28 28 31 31 31 31 33 33 33 33 34 34 34 34 1 1 1 1 33 33 33 33 2 2 2 2 1 1 1 1 34 34 34 34 4 4 4 4 2 2 2 2 34 34 34 34 31 31 31 31 35 35 35 35 33 33 33 33 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 4 4 4 4 34 34 34 34 35 35 35 35 36 36 36 36 34 34 34 34 6 6 6 6 4 4 4 4 36 36 36 36 37 37 37 37 31 31 31 31 32 32 32 32 35 35 35 35 31 31 31 31 37 37 37 37 38 38 38 38 37 37 37 37 32 32 32 32 37 37 37 37 38 38 38 38 39 39 39 39 40 40 40 40 36 36 36 36 35 35 35 35 40 40 40 40 6 6 6 6 36 36 36 36 41 41 41 41 35 35 35 35 37 37 37 37 41 41 41 41 40 40 40 40 35 35 35 35 42 42 42 42 37 37 37 37 39 39 39 39 37 37 37 37 42 42 42 42 41 41 41 41 39 39 39 39 43 43 43 43 42 42 42 42 6 6 6 6 40 40 40 40 44 44 44 44 40 40 40 40 41 41 41 41 44 44 44 44 8 8 8 8 6 6 6 6 44 44 44 44 44 44 44 44 10 10 10 10 8 8 8 8 42 42 42 42 45 45 45 45 41 41 41 41 41 41 41 41 45 45 45 45 44 44 44 44 42 42 42 42 43 43 43 43 45 45 45 45 45 45 45 45 10 10 10 10 44 44 44 44 43 43 43 43 10 10 10 10 45 45 45 45 46 46 46 46 12 12 12 12 15 15 15 15 15 15 15 15 17 17 17 17 46 46 46 46 47 47 47 47 12 12 12 12 46 46 46 46 12 12 12 12 47 47 47 47 11 11 11 11 17 17 17 17 48 48 48 48 46 46 46 46 49 49 49 49 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 46 46 46 46 47 47 47 47 50 50 50 50 11 11 11 11 47 47 47 47 49 49 49 49 50 50 50 50 51 51 51 51 48 48 48 48 17 17 17 17 18 18 18 18 51 51 51 51 17 17 17 17 52 52 52 52 49 49 49 49 48 48 48 48 51 51 51 51 52 52 52 52 48 48 48 48 51 51 51 51 18 18 18 18 53 53 53 53 52 52 52 52 51 51 51 51 53 53 53 53 18 18 18 18 21 21 21 21 53 53 53 53 21 21 21 21 23 23 23 23 53 53 53 53 54 54 54 54 52 52 52 52 53 53 53 53 53 53 53 53 23 23 23 23 54 54 54 54 55 55 55 55 49 49 49 49 52 52 52 52 49 49 49 49 55 55 55 55 50 50 50 50 52 52 52 52 54 54 54 54 56 56 56 56 56 56 56 56 55 55 55 55 52 52 52 52 54 54 54 54 23 23 23 23 57 57 57 57 54 54 54 54 57 57 57 57 56 56 56 56 23 23 23 23 0 0 0 0 57 57 57 57 57 57 57 57 0 0 0 0 58 58 58 58 56 56 56 56 57 57 57 57 58 58 58 58 58 58 58 58 0 0 0 0 3 3 3 3 3 3 3 3 5 5 5 5 58 58 58 58 59 59 59 59 56 56 56 56 58 58 58 58 5 5 5 5 59 59 59 59 58 58 58 58 56 56 56 56 59 59 59 59 55 55 55 55 59 59 59 59 5 5 5 5 60 60 60 60 59 59 59 59 60 60 60 60 55 55 55 55 5 5 5 5 7 7 7 7 60 60 60 60 55 55 55 55 60 60 60 60 61 61 61 61 60 60 60 60 7 7 7 7 61 61 61 61 50 50 50 50 55 55 55 55 61 61 61 61 7 7 7 7 9 9 9 9 61 61 61 61 61 61 61 61 11 11 11 11 50 50 50 50 9 9 9 9 11 11 11 11 61 61 61 61 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="top__M_GeneralBoxTopEdge-mesh" name="top__M_GeneralBoxTopEdge">
+      <mesh>
+        <source id="top__M_GeneralBoxTopEdge-position">
+          <float_array id="top__M_GeneralBoxTopEdge-position-array" count="72">-1.406259 1.5 3.90626 1.406259 1.5 3.90626 -1.406259 1.5 -3.90626 1.406259 1.5 -3.90626 -1.406259 0 3.90626 -1.406259 0 -3.90626 1.406259 0 3.90626 1.406259 0 -3.90626 -1.406721 1.500462 3.906458 1.406332 1.50017 3.906429 -1.406263 1.500004 -3.906262 1.406721 1.500462 -3.906458 -1.406259 0 3.90626 -1.406726 -0.0004672024 -3.906464 1.406259 0 3.90626 1.406259 0 -3.90626 -1.406712 1.500454 3.906458 1.406332 1.5002 3.90646 -1.489805 1.494626 -3.920058 1.417034 1.497075 -3.981076 -1.484709 0.007408505 3.916164 -1.4395 -0.0009948242 -3.991338 1.406509 -0.0001757585 3.90632 1.406259 0 -3.90626</float_array>
+          <technique_common>
+            <accessor source="#top__M_GeneralBoxTopEdge-position-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="top__M_GeneralBoxTopEdge-normal">
+          <float_array id="top__M_GeneralBoxTopEdge-normal-array" count="72">0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#top__M_GeneralBoxTopEdge-normal-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="top__M_GeneralBoxTopEdge-texcoord">
+          <float_array id="top__M_GeneralBoxTopEdge-texcoord-array" count="48">0 0 2 0 0 6 2 6 4 0 4 6 2 0 2 6 0 0 2 0 0 6 2 6 4 0 4 6 2 0 2 6 0 0 2 0 0 6 2 6 4 0 4 6 2 0 2 6</float_array>
+          <technique_common>
+            <accessor source="#top__M_GeneralBoxTopEdge-texcoord-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="top__M_GeneralBoxTopEdge-texcoord_1">
+          <float_array id="top__M_GeneralBoxTopEdge-texcoord-array_1" count="48">0.002685588 0.003967345 0.3333639 0.003967345 0.002685588 0.9960327 0.3333639 0.9960327 0.6727245 0.003967345 0.6727245 0.9960327 0.3420462 0.003967345 0.3420462 0.9960327 0.002685588 0.003967345 0.3333639 0.003967345 0.002685588 0.9960327 0.3333639 0.9960327 0.6727245 0.003967345 0.6727245 0.9960327 0.3420462 0.003967345 0.3420462 0.9960327 0.002685588 0.003967345 0.3333639 0.003967345 0.002685588 0.9960327 0.3333639 0.9960327 0.6727245 0.003967345 0.6727245 0.9960327 0.3420462 0.003967345 0.3420462 0.9960327</float_array>
+          <technique_common>
+            <accessor source="#top__M_GeneralBoxTopEdge-texcoord-array_1" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="top__M_GeneralBoxTopEdge-vertex">
+          <input semantic="POSITION" source="#top__M_GeneralBoxTopEdge-position" />
+        </vertices>
+        <triangles material="M_GeneralBoxTopEdge" count="4">
+          <input semantic="VERTEX" source="#top__M_GeneralBoxTopEdge-vertex" offset="0" />
+          <input semantic="NORMAL" source="#top__M_GeneralBoxTopEdge-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#top__M_GeneralBoxTopEdge-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#top__M_GeneralBoxTopEdge-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_body__M_GeneralBoxBody-mesh">
+      <skin source="#body__M_GeneralBoxBody-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="body__M_GeneralBoxBody-mesh-joint">
+          <Name_array id="body__M_GeneralBoxBody-mesh-joint-array" count="1">FldObj_GeneralBox_30x15x80_Blitz</Name_array>
+          <technique_common>
+            <accessor source="#body__M_GeneralBoxBody-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="body__M_GeneralBoxBody-mesh-inv_bind_matrix">
+          <float_array id="body__M_GeneralBoxBody-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#body__M_GeneralBoxBody-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="body__M_GeneralBoxBody-mesh-weight">
+          <float_array id="body__M_GeneralBoxBody-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#body__M_GeneralBoxBody-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#body__M_GeneralBoxBody-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#body__M_GeneralBoxBody-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="134">
+          <input semantic="JOINT" source="#body__M_GeneralBoxBody-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#body__M_GeneralBoxBody-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_top__M_GeneralBoxTopEdge-mesh">
+      <skin source="#top__M_GeneralBoxTopEdge-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="top__M_GeneralBoxTopEdge-mesh-joint">
+          <Name_array id="top__M_GeneralBoxTopEdge-mesh-joint-array" count="1">FldObj_GeneralBox_30x15x80_Blitz</Name_array>
+          <technique_common>
+            <accessor source="#top__M_GeneralBoxTopEdge-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="top__M_GeneralBoxTopEdge-mesh-inv_bind_matrix">
+          <float_array id="top__M_GeneralBoxTopEdge-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#top__M_GeneralBoxTopEdge-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="top__M_GeneralBoxTopEdge-mesh-weight">
+          <float_array id="top__M_GeneralBoxTopEdge-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#top__M_GeneralBoxTopEdge-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#top__M_GeneralBoxTopEdge-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#top__M_GeneralBoxTopEdge-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="24">
+          <input semantic="JOINT" source="#top__M_GeneralBoxTopEdge-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#top__M_GeneralBoxTopEdge-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_GeneralBox_30x15x80_Blitz" name="FldObj_GeneralBox_30x15x80_Blitz" sid="FldObj_GeneralBox_30x15x80_Blitz" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="body__M_GeneralBoxBody" name="body__M_GeneralBoxBody" type="NODE">
+        <instance_controller url="#Armature_body__M_GeneralBoxBody-mesh">
+          <skeleton>#Armature_FldObj_GeneralBox_30x15x80_Blitz</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_GeneralBoxBody" target="#M_GeneralBoxBody" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="top__M_GeneralBoxTopEdge" name="top__M_GeneralBoxTopEdge" type="NODE">
+        <instance_controller url="#Armature_top__M_GeneralBoxTopEdge-mesh">
+          <skeleton>#Armature_FldObj_GeneralBox_30x15x80_Blitz</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_GeneralBoxTopEdge" target="#M_GeneralBoxTopEdge" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
