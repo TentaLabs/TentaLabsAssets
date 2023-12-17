@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images />
+  <library_geometries />
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Root" name="Root" sid="Root" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_Joint_Root" name="Joint_Root" sid="Joint_Root" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <node id="Armature_Pos_0" name="Pos_0" sid="Pos_0" type="JOINT">
+              <matrix sid="transform">1 0 0 0.6000003 0 1 0 1.03923 0 0 1 0 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_Pos_1" name="Pos_1" sid="Pos_1" type="JOINT">
+              <matrix sid="transform">1 0 0 -0.5999998 0 1 0 1.03923 0 0 1 0 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_Pos_2" name="Pos_2" sid="Pos_2" type="JOINT">
+              <matrix sid="transform">1 0 0 1.2 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_Pos_3" name="Pos_3" sid="Pos_3" type="JOINT">
+              <matrix sid="transform">1 0 0 -1.2 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_Pos_4" name="Pos_4" sid="Pos_4" type="JOINT">
+              <matrix sid="transform">1 0 0 0.5999999 0 1 0 -1.03923 0 0 1 0 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_Pos_5" name="Pos_5" sid="Pos_5" type="JOINT">
+              <matrix sid="transform">1 0 0 -0.6000001 0 1 0 -1.03923 0 0 1 0 0 0 0 1</matrix>
+            </node>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
