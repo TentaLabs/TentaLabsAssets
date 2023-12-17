@@ -1,0 +1,1328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="CanolaAV_Alb">
+      <init_from>CanolaAV_Alb.png</init_from>
+    </image>
+    <image id="CanolaAV_Nrm">
+      <init_from>CanolaAV_Nrm.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Nrm">
+      <init_from>CanolaA_Nrm.png</init_from>
+    </image>
+    <image id="CanolaBV_Alb">
+      <init_from>CanolaBV_Alb.png</init_from>
+    </image>
+    <image id="CanolaBV_Nrm">
+      <init_from>CanolaBV_Nrm.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Nrm">
+      <init_from>CanolaB_Nrm.png</init_from>
+    </image>
+    <image id="CanolaCV_Alb">
+      <init_from>CanolaCV_Alb.png</init_from>
+    </image>
+    <image id="CanolaC_Alb">
+      <init_from>CanolaC_Alb.png</init_from>
+    </image>
+    <image id="Canola_Fxm">
+      <init_from>Canola_Fxm.png</init_from>
+    </image>
+    <image id="Canola_Opa">
+      <init_from>Canola_Opa.png</init_from>
+    </image>
+    <image id="CarSet_Alb">
+      <init_from>CarSet_Alb.png</init_from>
+    </image>
+    <image id="CarSet_Emi">
+      <init_from>CarSet_Emi.png</init_from>
+    </image>
+    <image id="CarSet_Mtl">
+      <init_from>CarSet_Mtl.png</init_from>
+    </image>
+    <image id="CarSet_Nrm">
+      <init_from>CarSet_Nrm.png</init_from>
+    </image>
+    <image id="CarSet_Rgh">
+      <init_from>CarSet_Rgh.png</init_from>
+    </image>
+    <image id="DVFenceIronSet_Alb">
+      <init_from>DVFenceIronSet_Alb.png</init_from>
+    </image>
+    <image id="DVFenceIronSet_Nrm">
+      <init_from>DVFenceIronSet_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundConcrete_Alb">
+      <init_from>DVGroundConcrete_Alb.png</init_from>
+    </image>
+    <image id="DVGroundConcrete_Nrm">
+      <init_from>DVGroundConcrete_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundGrassLittleSoil_Alb">
+      <init_from>DVGroundGrassLittleSoil_Alb.png</init_from>
+    </image>
+    <image id="DVGroundGrassLittleSoil_Nrm">
+      <init_from>DVGroundGrassLittleSoil_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundSealSet_Alb">
+      <init_from>DVGroundSealSet_Alb.png</init_from>
+    </image>
+    <image id="DVGroundSealSet_Nrm">
+      <init_from>DVGroundSealSet_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundSealSet_Opa">
+      <init_from>DVGroundSealSet_Opa.png</init_from>
+    </image>
+    <image id="DVPoleChain_Alb">
+      <init_from>DVPoleChain_Alb.png</init_from>
+    </image>
+    <image id="DVPoleChain_Nrm">
+      <init_from>DVPoleChain_Nrm.png</init_from>
+    </image>
+    <image id="DVPoleChain_Opa">
+      <init_from>DVPoleChain_Opa.png</init_from>
+    </image>
+    <image id="DVSet_Alb">
+      <init_from>DVSet_Alb.png</init_from>
+    </image>
+    <image id="DVSet_Emm">
+      <init_from>DVSet_Emm.png</init_from>
+    </image>
+    <image id="DVSet_Nrm">
+      <init_from>DVSet_Nrm.png</init_from>
+    </image>
+    <image id="DVSet_Opa">
+      <init_from>DVSet_Opa.png</init_from>
+    </image>
+    <image id="DVVendorSet_Alb">
+      <init_from>DVVendorSet_Alb.png</init_from>
+    </image>
+    <image id="DVVendorSet_Emm">
+      <init_from>DVVendorSet_Emm.png</init_from>
+    </image>
+    <image id="DVVendorSet_Nrm">
+      <init_from>DVVendorSet_Nrm.png</init_from>
+    </image>
+    <image id="DVWaterBasic_Nrm">
+      <init_from>DVWaterBasic_Nrm.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Alb">
+      <init_from>DV_BuilWall_Alb.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Nrm">
+      <init_from>DV_BuilWall_Nrm.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Opa">
+      <init_from>DV_BuilWall_Opa.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Rgh">
+      <init_from>DV_BuilWall_Rgh.png</init_from>
+    </image>
+    <image id="GardeningObj_Alb">
+      <init_from>GardeningObj_Alb.png</init_from>
+    </image>
+    <image id="GardeningObj_Mtl">
+      <init_from>GardeningObj_Mtl.png</init_from>
+    </image>
+    <image id="GardeningObj_Nrm">
+      <init_from>GardeningObj_Nrm.png</init_from>
+    </image>
+    <image id="GardeningObj_Rgh">
+      <init_from>GardeningObj_Rgh.png</init_from>
+    </image>
+    <image id="Glass01_Nrm">
+      <init_from>Glass01_Nrm.png</init_from>
+    </image>
+    <image id="Glass01_Rgh">
+      <init_from>Glass01_Rgh.png</init_from>
+    </image>
+    <image id="GlassWire_Alb">
+      <init_from>GlassWire_Alb.png</init_from>
+    </image>
+    <image id="GlassWire_Nrm">
+      <init_from>GlassWire_Nrm.png</init_from>
+    </image>
+    <image id="GlassWire_Opa">
+      <init_from>GlassWire_Opa.png</init_from>
+    </image>
+    <image id="GlassWire_Rgh">
+      <init_from>GlassWire_Rgh.png</init_from>
+    </image>
+    <image id="Grass_Alb">
+      <init_from>Grass_Alb.png</init_from>
+    </image>
+    <image id="Grass_Nrm">
+      <init_from>Grass_Nrm.png</init_from>
+    </image>
+    <image id="Grass_Rgh">
+      <init_from>Grass_Rgh.png</init_from>
+    </image>
+    <image id="InsectPlant_Alb">
+      <init_from>InsectPlant_Alb.png</init_from>
+    </image>
+    <image id="InsectPlant_Nrm">
+      <init_from>InsectPlant_Nrm.png</init_from>
+    </image>
+    <image id="InsectPlant_Opa">
+      <init_from>InsectPlant_Opa.png</init_from>
+    </image>
+    <image id="InsectPlant_Rgh">
+      <init_from>InsectPlant_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Alb">
+      <init_from>JyohekiBGApartment_Alb.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Emm">
+      <init_from>JyohekiBGApartment_Emm.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Opa">
+      <init_from>JyohekiBGApartment_Opa.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Rgh">
+      <init_from>JyohekiBGApartment_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiBGObj_Alb">
+      <init_from>JyohekiBGObj_Alb.png</init_from>
+    </image>
+    <image id="JyohekiBGObj_Emm">
+      <init_from>JyohekiBGObj_Emm.png</init_from>
+    </image>
+    <image id="JyohekiBGObj_Opa">
+      <init_from>JyohekiBGObj_Opa.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Alb">
+      <init_from>JyohekiGraffiti01_Alb.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Mtl">
+      <init_from>JyohekiGraffiti01_Mtl.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Nrm">
+      <init_from>JyohekiGraffiti01_Nrm.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Opa">
+      <init_from>JyohekiGraffiti01_Opa.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Rgh">
+      <init_from>JyohekiGraffiti01_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Alb">
+      <init_from>JyohekiSeat00_Alb.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Mask_Resi">
+      <init_from>JyohekiSeat00_Mask_Resi.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Nrm">
+      <init_from>JyohekiSeat00_Nrm.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Rgh">
+      <init_from>JyohekiSeat00_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Alb">
+      <init_from>JyohekiTileSet_Alb.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Mtl">
+      <init_from>JyohekiTileSet_Mtl.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Nrm">
+      <init_from>JyohekiTileSet_Nrm.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Rgh">
+      <init_from>JyohekiTileSet_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="Light_Emm.0">
+      <init_from>Light_Emm.0.png</init_from>
+    </image>
+    <image id="Light_Emm.1">
+      <init_from>Light_Emm.1.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Alb">
+      <init_from>mJyohekiAntenna_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Mtl">
+      <init_from>mJyohekiAntenna_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Nrm">
+      <init_from>mJyohekiAntenna_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Rgh">
+      <init_from>mJyohekiAntenna_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Alb">
+      <init_from>mJyohekiBackside_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Mtl">
+      <init_from>mJyohekiBackside_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Nrm">
+      <init_from>mJyohekiBackside_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Opa">
+      <init_from>mJyohekiBackside_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Rgh">
+      <init_from>mJyohekiBackside_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Alb">
+      <init_from>mJyohekiBarbershopChair_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Mtl">
+      <init_from>mJyohekiBarbershopChair_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Nrm">
+      <init_from>mJyohekiBarbershopChair_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Rgh">
+      <init_from>mJyohekiBarbershopChair_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopDesk_Alb">
+      <init_from>mJyohekiBarbershopDesk_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopDesk_Nrm">
+      <init_from>mJyohekiBarbershopDesk_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopDesk_Rgh">
+      <init_from>mJyohekiBarbershopDesk_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Alb">
+      <init_from>mJyohekiBarbershopEntrance_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Mtl">
+      <init_from>mJyohekiBarbershopEntrance_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Nrm">
+      <init_from>mJyohekiBarbershopEntrance_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Rgh">
+      <init_from>mJyohekiBarbershopEntrance_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFloor_Alb">
+      <init_from>mJyohekiBarbershopFloor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFloor_Nrm">
+      <init_from>mJyohekiBarbershopFloor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFloor_Rgh">
+      <init_from>mJyohekiBarbershopFloor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Alb">
+      <init_from>mJyohekiBarbershopFrame_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Emm">
+      <init_from>mJyohekiBarbershopFrame_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Mtl">
+      <init_from>mJyohekiBarbershopFrame_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Nrm">
+      <init_from>mJyohekiBarbershopFrame_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Rgh">
+      <init_from>mJyohekiBarbershopFrame_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Alb">
+      <init_from>mJyohekiBarbershopObj_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Mtl">
+      <init_from>mJyohekiBarbershopObj_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Nrm">
+      <init_from>mJyohekiBarbershopObj_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Rgh">
+      <init_from>mJyohekiBarbershopObj_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Alb">
+      <init_from>mJyohekiBarbershopSignboard_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Mtl">
+      <init_from>mJyohekiBarbershopSignboard_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Nrm">
+      <init_from>mJyohekiBarbershopSignboard_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Rgh">
+      <init_from>mJyohekiBarbershopSignboard_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallBlue_Nrm">
+      <init_from>mJyohekiBarbershopWallBlue_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallBlue_Rgh">
+      <init_from>mJyohekiBarbershopWallBlue_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallWood_Alb">
+      <init_from>mJyohekiBarbershopWallWood_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallWood_Nrm">
+      <init_from>mJyohekiBarbershopWallWood_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallWood_Rgh">
+      <init_from>mJyohekiBarbershopWallWood_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Alb">
+      <init_from>mJyohekiCoinlaundryBoard_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Mtl">
+      <init_from>mJyohekiCoinlaundryBoard_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Nrm">
+      <init_from>mJyohekiCoinlaundryBoard_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Rgh">
+      <init_from>mJyohekiCoinlaundryBoard_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Alb">
+      <init_from>mJyohekiCoinlaundryDesk_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Mtl">
+      <init_from>mJyohekiCoinlaundryDesk_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Nrm">
+      <init_from>mJyohekiCoinlaundryDesk_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Rgh">
+      <init_from>mJyohekiCoinlaundryDesk_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryFloor_Alb">
+      <init_from>mJyohekiCoinlaundryFloor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryFloor_Nrm">
+      <init_from>mJyohekiCoinlaundryFloor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryFloor_Rgh">
+      <init_from>mJyohekiCoinlaundryFloor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Alb">
+      <init_from>mJyohekiCoinlaundryMachine_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Mtl">
+      <init_from>mJyohekiCoinlaundryMachine_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Nrm">
+      <init_from>mJyohekiCoinlaundryMachine_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Rgh">
+      <init_from>mJyohekiCoinlaundryMachine_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWallSide_Alb">
+      <init_from>mJyohekiCoinlaundryWallSide_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWallSide_Nrm">
+      <init_from>mJyohekiCoinlaundryWallSide_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWallSide_Rgh">
+      <init_from>mJyohekiCoinlaundryWallSide_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWall_Alb">
+      <init_from>mJyohekiCoinlaundryWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWall_Nrm">
+      <init_from>mJyohekiCoinlaundryWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWall_Rgh">
+      <init_from>mJyohekiCoinlaundryWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Alb">
+      <init_from>mJyohekiDoor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Mtl">
+      <init_from>mJyohekiDoor_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Nrm">
+      <init_from>mJyohekiDoor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Rgh">
+      <init_from>mJyohekiDoor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Alb">
+      <init_from>mJyohekiDotBlock2_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Ao">
+      <init_from>mJyohekiDotBlock2_Ao.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Nrm">
+      <init_from>mJyohekiDotBlock2_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Opa">
+      <init_from>mJyohekiDotBlock2_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Rgh">
+      <init_from>mJyohekiDotBlock2_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVAsphalt_Alb">
+      <init_from>mJyohekiDVAsphalt_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVAsphalt_Nrm">
+      <init_from>mJyohekiDVAsphalt_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVAsphalt_Rgh">
+      <init_from>mJyohekiDVAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Alb">
+      <init_from>mJyohekiDVDumpSiteWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Mtl">
+      <init_from>mJyohekiDVDumpSiteWall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Nrm">
+      <init_from>mJyohekiDVDumpSiteWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Rgh">
+      <init_from>mJyohekiDVDumpSiteWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Alb">
+      <init_from>mJyohekiDVDumpSite_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Mtl">
+      <init_from>mJyohekiDVDumpSite_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Nrm">
+      <init_from>mJyohekiDVDumpSite_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Rgh">
+      <init_from>mJyohekiDVDumpSite_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVFence_Alb">
+      <init_from>mJyohekiDVFence_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVFence_Nrm">
+      <init_from>mJyohekiDVFence_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVFence_Rgh">
+      <init_from>mJyohekiDVFence_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVLawn_Alb">
+      <init_from>mJyohekiDVLawn_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVLawn_Nrm">
+      <init_from>mJyohekiDVLawn_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVLawn_Rgh">
+      <init_from>mJyohekiDVLawn_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Alb">
+      <init_from>mJyohekiDVObj_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Emm">
+      <init_from>mJyohekiDVObj_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Mtl">
+      <init_from>mJyohekiDVObj_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Nrm">
+      <init_from>mJyohekiDVObj_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Rgh">
+      <init_from>mJyohekiDVObj_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoad_Alb">
+      <init_from>mJyohekiDVRoad_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoad_Nrm">
+      <init_from>mJyohekiDVRoad_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoad_Rgh">
+      <init_from>mJyohekiDVRoad_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall01_Emm">
+      <init_from>mJyohekiDVRoomWall01_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Alb">
+      <init_from>mJyohekiDVRoomWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Emm">
+      <init_from>mJyohekiDVRoomWall_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Mtl">
+      <init_from>mJyohekiDVRoomWall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Nrm">
+      <init_from>mJyohekiDVRoomWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Opa">
+      <init_from>mJyohekiDVRoomWall_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Rgh">
+      <init_from>mJyohekiDVRoomWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Alb">
+      <init_from>mJyohekiDVSideBlock_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Mtl">
+      <init_from>mJyohekiDVSideBlock_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Nrm">
+      <init_from>mJyohekiDVSideBlock_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Rgh">
+      <init_from>mJyohekiDVSideBlock_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVStep_Alb">
+      <init_from>mJyohekiDVStep_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVStep_Nrm">
+      <init_from>mJyohekiDVStep_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVStep_Rgh">
+      <init_from>mJyohekiDVStep_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVTileRed_Alb">
+      <init_from>mJyohekiDVTileRed_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVTileRed_Nrm">
+      <init_from>mJyohekiDVTileRed_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVTileRed_Rgh">
+      <init_from>mJyohekiDVTileRed_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVWoodBase_Alb">
+      <init_from>mJyohekiDVWoodBase_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVWoodBase_Nrm">
+      <init_from>mJyohekiDVWoodBase_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVWoodBase_Rgh">
+      <init_from>mJyohekiDVWoodBase_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Alb">
+      <init_from>mJyohekiEntranceDoor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Mtl">
+      <init_from>mJyohekiEntranceDoor_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Nrm">
+      <init_from>mJyohekiEntranceDoor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Rgh">
+      <init_from>mJyohekiEntranceDoor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceFloor_Alb">
+      <init_from>mJyohekiEntranceFloor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceFloor_Nrm">
+      <init_from>mJyohekiEntranceFloor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceFloor_Rgh">
+      <init_from>mJyohekiEntranceFloor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceGround_Alb">
+      <init_from>mJyohekiEntranceGround_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceGround_Nrm">
+      <init_from>mJyohekiEntranceGround_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceGround_Rgh">
+      <init_from>mJyohekiEntranceGround_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Alb">
+      <init_from>mJyohekiEntranceObj_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Emm">
+      <init_from>mJyohekiEntranceObj_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Mtl">
+      <init_from>mJyohekiEntranceObj_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Nrm">
+      <init_from>mJyohekiEntranceObj_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Rgh">
+      <init_from>mJyohekiEntranceObj_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceWall_Alb">
+      <init_from>mJyohekiEntranceWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceWall_Nrm">
+      <init_from>mJyohekiEntranceWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceWall_Rgh">
+      <init_from>mJyohekiEntranceWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Alb">
+      <init_from>mJyohekiFence_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Mtl">
+      <init_from>mJyohekiFence_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Nrm">
+      <init_from>mJyohekiFence_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Opa">
+      <init_from>mJyohekiFence_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Rgh">
+      <init_from>mJyohekiFence_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Alb">
+      <init_from>mJyohekiHandrailEdging_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Mtl">
+      <init_from>mJyohekiHandrailEdging_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Nrm">
+      <init_from>mJyohekiHandrailEdging_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Rgh">
+      <init_from>mJyohekiHandrailEdging_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Alb">
+      <init_from>mJyohekiMetalFrame_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Mtl">
+      <init_from>mJyohekiMetalFrame_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Nrm">
+      <init_from>mJyohekiMetalFrame_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Rgh">
+      <init_from>mJyohekiMetalFrame_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Alb">
+      <init_from>mJyohekiMetalNet_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Mtl">
+      <init_from>mJyohekiMetalNet_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Nrm">
+      <init_from>mJyohekiMetalNet_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Rgh">
+      <init_from>mJyohekiMetalNet_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Alb">
+      <init_from>mJyohekiMetalWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Mtl">
+      <init_from>mJyohekiMetalWall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Nrm">
+      <init_from>mJyohekiMetalWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Rgh">
+      <init_from>mJyohekiMetalWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Alb">
+      <init_from>mJyohekiNet_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Mtl">
+      <init_from>mJyohekiNet_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Nrm">
+      <init_from>mJyohekiNet_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Opa">
+      <init_from>mJyohekiNet_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Rgh">
+      <init_from>mJyohekiNet_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Alb">
+      <init_from>mJyohekiOutdoorunit_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Mtl">
+      <init_from>mJyohekiOutdoorunit_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Nrm">
+      <init_from>mJyohekiOutdoorunit_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Opa">
+      <init_from>mJyohekiOutdoorunit_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Rgh">
+      <init_from>mJyohekiOutdoorunit_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallBrick_Alb">
+      <init_from>mJyohekiOuterWallBrick_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallBrick_Nrm">
+      <init_from>mJyohekiOuterWallBrick_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallBrick_Rgh">
+      <init_from>mJyohekiOuterWallBrick_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallGreen_Alb">
+      <init_from>mJyohekiOuterWallGreen_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallGreen_Nrm">
+      <init_from>mJyohekiOuterWallGreen_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallGreen_Rgh">
+      <init_from>mJyohekiOuterWallGreen_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWall_Alb">
+      <init_from>mJyohekiOuterWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWall_Nrm">
+      <init_from>mJyohekiOuterWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWall_Rgh">
+      <init_from>mJyohekiOuterWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Alb">
+      <init_from>mJyohekiPipe_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Mtl">
+      <init_from>mJyohekiPipe_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Nrm">
+      <init_from>mJyohekiPipe_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Rgh">
+      <init_from>mJyohekiPipe_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Alb">
+      <init_from>mJyohekiRoadCornerTileA_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Mtl">
+      <init_from>mJyohekiRoadCornerTileA_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Nrm">
+      <init_from>mJyohekiRoadCornerTileA_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Rgh">
+      <init_from>mJyohekiRoadCornerTileA_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Alb">
+      <init_from>mJyohekiRoadCornerTileB_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Mtl">
+      <init_from>mJyohekiRoadCornerTileB_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Nrm">
+      <init_from>mJyohekiRoadCornerTileB_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Rgh">
+      <init_from>mJyohekiRoadCornerTileB_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadEdge_Alb">
+      <init_from>mJyohekiRoadEdge_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadEdge_Nrm">
+      <init_from>mJyohekiRoadEdge_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadEdge_Rgh">
+      <init_from>mJyohekiRoadEdge_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Alb">
+      <init_from>mJyohekiRoadMetalTileA_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Mtl">
+      <init_from>mJyohekiRoadMetalTileA_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Nrm">
+      <init_from>mJyohekiRoadMetalTileA_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Rgh">
+      <init_from>mJyohekiRoadMetalTileA_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileA_Alb">
+      <init_from>mJyohekiRoadTileA_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileA_Nrm">
+      <init_from>mJyohekiRoadTileA_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileA_Rgh">
+      <init_from>mJyohekiRoadTileA_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileB_Alb">
+      <init_from>mJyohekiRoadTileB_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileB_Nrm">
+      <init_from>mJyohekiRoadTileB_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileB_Rgh">
+      <init_from>mJyohekiRoadTileB_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileC_Alb">
+      <init_from>mJyohekiRoadTileC_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileC_Nrm">
+      <init_from>mJyohekiRoadTileC_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileC_Rgh">
+      <init_from>mJyohekiRoadTileC_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileD_Alb">
+      <init_from>mJyohekiRoadTileD_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileD_Nrm">
+      <init_from>mJyohekiRoadTileD_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileD_Rgh">
+      <init_from>mJyohekiRoadTileD_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoad_Alb">
+      <init_from>mJyohekiRoad_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoad_Nrm">
+      <init_from>mJyohekiRoad_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoad_Rgh">
+      <init_from>mJyohekiRoad_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Alb">
+      <init_from>mJyohekiStreetlight_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Emm">
+      <init_from>mJyohekiStreetlight_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Mtl">
+      <init_from>mJyohekiStreetlight_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Nrm">
+      <init_from>mJyohekiStreetlight_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Rgh">
+      <init_from>mJyohekiStreetlight_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Alb">
+      <init_from>mJyohekiTank_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Mtl">
+      <init_from>mJyohekiTank_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Nrm">
+      <init_from>mJyohekiTank_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Rgh">
+      <init_from>mJyohekiTank_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Alb">
+      <init_from>mJyohekiTelPole_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Mtl">
+      <init_from>mJyohekiTelPole_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Nrm">
+      <init_from>mJyohekiTelPole_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Rgh">
+      <init_from>mJyohekiTelPole_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWallUnder_Alb">
+      <init_from>mJyohekiWallUnder_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWallUnder_Nrm">
+      <init_from>mJyohekiWallUnder_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWallUnder_Rgh">
+      <init_from>mJyohekiWallUnder_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Alb">
+      <init_from>mJyohekiWaterTank_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Mtl">
+      <init_from>mJyohekiWaterTank_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Nrm">
+      <init_from>mJyohekiWaterTank_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Rgh">
+      <init_from>mJyohekiWaterTank_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Alb">
+      <init_from>mJyohekiWindowSmall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Emm">
+      <init_from>mJyohekiWindowSmall_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Mtl">
+      <init_from>mJyohekiWindowSmall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Nrm">
+      <init_from>mJyohekiWindowSmall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Rgh">
+      <init_from>mJyohekiWindowSmall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Alb">
+      <init_from>mJyohekiWindow_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Emm">
+      <init_from>mJyohekiWindow_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Mtl">
+      <init_from>mJyohekiWindow_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Nrm">
+      <init_from>mJyohekiWindow_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Rgh">
+      <init_from>mJyohekiWindow_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Alb">
+      <init_from>mJyohekiWireNetting_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Mtl">
+      <init_from>mJyohekiWireNetting_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Nrm">
+      <init_from>mJyohekiWireNetting_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Opa">
+      <init_from>mJyohekiWireNetting_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Rgh">
+      <init_from>mJyohekiWireNetting_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWoodCover_Alb">
+      <init_from>mJyohekiWoodCover_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWoodCover_Nrm">
+      <init_from>mJyohekiWoodCover_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWoodCover_Rgh">
+      <init_from>mJyohekiWoodCover_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWoodFence_Alb">
+      <init_from>mJyohekiWoodFence_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWoodFence_Nrm">
+      <init_from>mJyohekiWoodFence_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWoodFence_Rgh">
+      <init_from>mJyohekiWoodFence_Rgh.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Alb">
+      <init_from>Mt_Wave_Bike_B_Alb.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Mtl">
+      <init_from>Mt_Wave_Bike_B_Mtl.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Nrm">
+      <init_from>Mt_Wave_Bike_B_Nrm.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Opa">
+      <init_from>Mt_Wave_Bike_B_Opa.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Rgh">
+      <init_from>Mt_Wave_Bike_B_Rgh.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Alb">
+      <init_from>PlazaCafeTableSet_Alb.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Mtl">
+      <init_from>PlazaCafeTableSet_Mtl.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Nrm">
+      <init_from>PlazaCafeTableSet_Nrm.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Rgh">
+      <init_from>PlazaCafeTableSet_Rgh.png</init_from>
+    </image>
+    <image id="PlazaChukeiBuildWindow_Emm.0">
+      <init_from>PlazaChukeiBuildWindow_Emm.0.png</init_from>
+    </image>
+    <image id="PlazaChukeiBuildWindow_Emm.1">
+      <init_from>PlazaChukeiBuildWindow_Emm.1.png</init_from>
+    </image>
+    <image id="PlazaChukeiBuildWindow_Emm.2">
+      <init_from>PlazaChukeiBuildWindow_Emm.2.png</init_from>
+    </image>
+    <image id="PlazaChukeiBuildWindow_Emm.3">
+      <init_from>PlazaChukeiBuildWindow_Emm.3.png</init_from>
+    </image>
+    <image id="PlazaChukeiBuildWindow_Emm.4">
+      <init_from>PlazaChukeiBuildWindow_Emm.4.png</init_from>
+    </image>
+    <image id="SheetVinylBlue_Alb">
+      <init_from>SheetVinylBlue_Alb.png</init_from>
+    </image>
+    <image id="SheetVinylBlue_Nrm">
+      <init_from>SheetVinylBlue_Nrm.png</init_from>
+    </image>
+    <image id="SheetVinylBlue_Rgh">
+      <init_from>SheetVinylBlue_Rgh.png</init_from>
+    </image>
+    <image id="SheetVinyl_Alb">
+      <init_from>SheetVinyl_Alb.png</init_from>
+    </image>
+    <image id="SheetVinyl_Mtl">
+      <init_from>SheetVinyl_Mtl.png</init_from>
+    </image>
+    <image id="SheetVinyl_Nrm">
+      <init_from>SheetVinyl_Nrm.png</init_from>
+    </image>
+    <image id="SheetVinyl_Rgh">
+      <init_from>SheetVinyl_Rgh.png</init_from>
+    </image>
+    <image id="Starfish00_Alb">
+      <init_from>Starfish00_Alb.png</init_from>
+    </image>
+    <image id="Starfish00_Nrm">
+      <init_from>Starfish00_Nrm.png</init_from>
+    </image>
+    <image id="Starfish00_Rgh">
+      <init_from>Starfish00_Rgh.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Alb">
+      <init_from>StreetKanbanSet_Alb.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Mtl">
+      <init_from>StreetKanbanSet_Mtl.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Nrm">
+      <init_from>StreetKanbanSet_Nrm.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Rgh">
+      <init_from>StreetKanbanSet_Rgh.png</init_from>
+    </image>
+    <image id="StreetLightSingle00_Alb">
+      <init_from>StreetLightSingle00_Alb.png</init_from>
+    </image>
+    <image id="StreetLightSingle00_Emm">
+      <init_from>StreetLightSingle00_Emm.png</init_from>
+    </image>
+    <image id="StreetLightSingle00_Mtl">
+      <init_from>StreetLightSingle00_Mtl.png</init_from>
+    </image>
+    <image id="StreetLightSingle00_Nrm">
+      <init_from>StreetLightSingle00_Nrm.png</init_from>
+    </image>
+    <image id="StreetLightSingle00_Rgh">
+      <init_from>StreetLightSingle00_Rgh.png</init_from>
+    </image>
+    <image id="TransmissionTowerMaterial_Alb">
+      <init_from>TransmissionTowerMaterial_Alb.png</init_from>
+    </image>
+    <image id="TransmissionTowerMaterial_Nrm">
+      <init_from>TransmissionTowerMaterial_Nrm.png</init_from>
+    </image>
+    <image id="TransmissionTowerMaterial_Opa">
+      <init_from>TransmissionTowerMaterial_Opa.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Alb">
+      <init_from>TropicalPlantsSetLeaves_Alb.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Nrm">
+      <init_from>TropicalPlantsSetLeaves_Nrm.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Opa">
+      <init_from>TropicalPlantsSetLeaves_Opa.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Rgh">
+      <init_from>TropicalPlantsSetLeaves_Rgh.png</init_from>
+    </image>
+    <image id="VinylClear_Nrm">
+      <init_from>VinylClear_Nrm.png</init_from>
+    </image>
+    <image id="WallIvy_Alb">
+      <init_from>WallIvy_Alb.png</init_from>
+    </image>
+    <image id="WallIvy_Nrm">
+      <init_from>WallIvy_Nrm.png</init_from>
+    </image>
+    <image id="WallMarbleBlack_Alb">
+      <init_from>WallMarbleBlack_Alb.png</init_from>
+    </image>
+    <image id="WallMarbleBlack_Nrm">
+      <init_from>WallMarbleBlack_Nrm.png</init_from>
+    </image>
+    <image id="WallSteelGrey_Alb">
+      <init_from>WallSteelGrey_Alb.png</init_from>
+    </image>
+    <image id="WallSteelSet_Alb">
+      <init_from>WallSteelSet_Alb.png</init_from>
+    </image>
+    <image id="WallSteelSet_Mtl">
+      <init_from>WallSteelSet_Mtl.png</init_from>
+    </image>
+    <image id="WallSteelSet_Nrm">
+      <init_from>WallSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="WallSteelSet_Rgh">
+      <init_from>WallSteelSet_Rgh.png</init_from>
+    </image>
+    <image id="WoodBlock_Alb">
+      <init_from>WoodBlock_Alb.png</init_from>
+    </image>
+    <image id="WoodBlock_Nrm">
+      <init_from>WoodBlock_Nrm.png</init_from>
+    </image>
+    <image id="WoodBlock_Rgh">
+      <init_from>WoodBlock_Rgh.png</init_from>
+    </image>
+    <image id="WoodTile_Alb">
+      <init_from>WoodTile_Alb.png</init_from>
+    </image>
+    <image id="WoodTile_Nrm">
+      <init_from>WoodTile_Nrm.png</init_from>
+    </image>
+    <image id="WoodTile_Rgh">
+      <init_from>WoodTile_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="PondWater">
+      <instance_effect url="#Effect_PondWater" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_PondWater">
+      <profile_COMMON>
+        <newparam sid="surface_PondWater-bump">
+          <surface type="2D">
+            <init_from>DVWaterBasic_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PondWater-bump">
+          <sampler2D>
+            <source>surface_PondWater-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <bump>
+              <texture texture="sampler_PondWater-bump" texcoord="CHANNEL0" />
+            </bump>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Water1__PondWater-mesh" name="Water1__PondWater">
+      <mesh>
+        <source id="Water1__PondWater-position">
+          <float_array id="Water1__PondWater-position-array" count="114">14 5 -31 13.9293 4.920703 -30.92929 14 5 -26.5 4.620701 4.920703 -30.92929 4.55 5 -31 13.9293 4.920703 -26.5707 4.55 5 -26.5 4.620701 4.920703 -26.5707 -4.55 5 31 -4.55 5 26.5 -4.620701 4.920703 26.5707 -4.620701 4.920703 30.92929 -13.5 5 31 -13.4293 4.920703 26.5707 -13.5 5 26.5 -13.4293 4.920703 30.92929 -13.43093 4.922446 26.56911 -13.52394 4.92311 31.02395 -4.529637 4.922566 31.02135 -4.618668 4.922955 26.56869 14 5 -31 13.9293 4.920703 -30.92929 14 5 -26.5 4.620701 4.920703 -30.92929 4.55 5 -31 13.9293 4.920703 -26.5707 4.55 5 -26.5 4.620701 4.920703 -26.5707 -13.43093 4.922446 26.56911 -13.52394 4.92311 31.02395 -4.529637 4.922566 31.02135 -4.618668 4.922955 26.56869 4.529467 4.922531 -31.02147 4.55 5 -26.5 4.620694 4.920681 -26.57071 13.93089 4.922405 -26.56915 4.529467 4.922531 -31.02147 14.02396 4.923068 -31.02397</float_array>
+          <technique_common>
+            <accessor source="#Water1__PondWater-position-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Water1__PondWater-normal">
+          <float_array id="Water1__PondWater-normal-array" count="114">-0.2759295 0.7651663 0.5831702 -0.01174168 1 0.02348337 -0.2759295 0.7651663 -0.5831702 0.01174168 1 0.02348337 0.2759295 0.7651663 0.5831702 -0.01174168 1 -0.02348337 0.2759295 0.7651663 -0.5831702 0.01174168 1 -0.02348337 -0.2857143 0.7671233 -0.5733855 -0.2857143 0.7671233 0.5733855 -0.01174168 1 0.02348337 -0.01174168 1 -0.02348337 0.2857143 0.7671233 -0.5733855 0.01174168 1 0.02348337 0.2857143 0.7671233 0.5733855 0.01174168 1 -0.02348337 0.01174168 1 0.02544031 0.2857143 0.7671233 -0.5733855 -0.01174168 1 -0.02544031 -0.01174168 1 0.02348337 -0.2759295 0.7651663 0.5831702 -0.01174168 1 0.02348337 -0.2759295 0.7651663 -0.5831702 0.01174168 1 0.02544031 0.2759295 0.7651663 0.5831702 -0.01174168 1 -0.02544031 0.2759295 0.7651663 -0.5831702 0.01174168 1 -0.02348337 0.01174168 1 0.02544031 0.2857143 0.7671233 -0.5733855 -0.01174168 1 -0.02544031 -0.01174168 1 0.02348337 0.2759295 0.7651663 0.5831702 0.2759295 0.7651663 -0.5831702 0.01174168 1 -0.02348337 -0.01174168 1 -0.02544031 0.01174168 1 0.02544031 -0.2759295 0.7651663 0.5831702</float_array>
+          <technique_common>
+            <accessor source="#Water1__PondWater-normal-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Water1__PondWater-texcoord">
+          <float_array id="Water1__PondWater-texcoord-array" count="76">-0.2301025 0.1689453 -0.2141113 0.1831055 -0.2301025 0.8311768 0.9902344 0.1831055 1.005859 0.1689453 -0.2141113 0.8173828 1.005859 0.8311768 0.9902344 0.8173828 1.005859 0.1689453 1.005859 0.8311768 0.9902344 0.8173828 0.9902344 0.1831055 -0.2301025 0.1689453 -0.2141113 0.8173828 -0.2301025 0.8311768 -0.2141113 0.1831055 -0.2141113 0.8173828 -0.2301025 0.1689453 1.005859 0.1689453 0.9902344 0.8173828 -0.2301025 0.1689453 -0.2141113 0.1831055 -0.2301025 0.8311768 0.9902344 0.1831055 1.005859 0.1689453 -0.2141113 0.8173828 1.005859 0.8311768 0.9902344 0.8173828 -0.2141113 0.8173828 -0.2301025 0.1689453 1.005859 0.1689453 0.9902344 0.8173828 1.005859 0.1689453 1.005859 0.8311768 0.9902344 0.8173828 -0.2141113 0.8173828 1.005859 0.1689453 -0.2301025 0.1689453</float_array>
+          <technique_common>
+            <accessor source="#Water1__PondWater-texcoord-array" count="38" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Water1__PondWater-texcoord_1">
+          <float_array id="Water1__PondWater-texcoord-array_1" count="76">0.505745 0.9192492 0.5159075 0.9074845 0.9960327 0.9192492 0.5159075 0.01542687 0.505745 0.003662169 0.9858701 0.9074845 0.9960327 0.003662169 0.9858701 0.01542687 0.003967346 0.003662169 0.494255 0.003662169 0.4840925 0.01542687 0.01412985 0.01542687 0.003967346 0.9192492 0.4840925 0.9074845 0.494255 0.9192492 0.01412985 0.9074845 0.4840925 0.9074845 0.003967346 0.9192492 0.003967346 0.003662169 0.4840925 0.01542687 0.505745 0.9192492 0.5159075 0.9074845 0.9960327 0.9192492 0.5159075 0.01542687 0.505745 0.003662169 0.9858701 0.9074845 0.9960327 0.003662169 0.9858701 0.01542687 0.4840925 0.9074845 0.003967346 0.9192492 0.003967346 0.003662169 0.4840925 0.01542687 0.505745 0.003662169 0.9960327 0.003662169 0.9858701 0.01542687 0.9858701 0.9074845 0.505745 0.003662169 0.505745 0.9192492</float_array>
+          <technique_common>
+            <accessor source="#Water1__PondWater-texcoord-array_1" count="38" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Water1__PondWater-vertex">
+          <input semantic="POSITION" source="#Water1__PondWater-position" />
+        </vertices>
+        <triangles material="PondWater" count="20">
+          <input semantic="VERTEX" source="#Water1__PondWater-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Water1__PondWater-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Water1__PondWater-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Water1__PondWater-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 0 0 0 0 3 3 3 3 0 0 0 0 4 4 4 4 3 3 3 3 1 1 1 1 5 5 5 5 2 2 2 2 1 1 1 1 3 3 3 3 5 5 5 5 2 2 2 2 5 5 5 5 6 6 6 6 3 3 3 3 4 4 4 4 7 7 7 7 3 3 3 3 7 7 7 7 5 5 5 5 4 4 4 4 6 6 6 6 7 7 7 7 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 8 8 8 8 10 10 10 10 12 12 12 12 8 8 8 8 11 11 11 11 13 13 13 13 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 13 13 13 13 14 14 14 14 13 13 13 13 9 9 9 9 15 15 15 15 12 12 12 12 11 11 11 11 12 12 12 12 15 15 15 15 14 14 14 14 15 15 15 15 11 11 11 11 13 13 13 13 15 15 15 15 13 13 13 13 14 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Water1__PondWater-mesh">
+      <skin source="#Water1__PondWater-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Water1__PondWater-mesh-joint">
+          <Name_array id="Water1__PondWater-mesh-joint-array" count="1">FldObj_Jyoheki03_Water</Name_array>
+          <technique_common>
+            <accessor source="#Water1__PondWater-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Water1__PondWater-mesh-inv_bind_matrix">
+          <float_array id="Water1__PondWater-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Water1__PondWater-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Water1__PondWater-mesh-weight">
+          <float_array id="Water1__PondWater-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Water1__PondWater-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Water1__PondWater-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Water1__PondWater-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="38">
+          <input semantic="JOINT" source="#Water1__PondWater-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Water1__PondWater-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_Jyoheki03_Water" name="FldObj_Jyoheki03_Water" sid="FldObj_Jyoheki03_Water" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Water1__PondWater" name="Water1__PondWater" type="NODE">
+        <instance_controller url="#Armature_Water1__PondWater-mesh">
+          <skeleton>#Armature_FldObj_Jyoheki03_Water</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PondWater" target="#PondWater" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
