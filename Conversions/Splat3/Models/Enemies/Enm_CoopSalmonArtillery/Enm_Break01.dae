@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_Body_2cl">
+      <init_from>M_Body_2cl.png</init_from>
+    </image>
+    <image id="M_Body_Alb">
+      <init_from>M_Body_Alb.png</init_from>
+    </image>
+    <image id="M_Body_Ao">
+      <init_from>M_Body_Ao.png</init_from>
+    </image>
+    <image id="M_Body_Emm">
+      <init_from>M_Body_Emm.png</init_from>
+    </image>
+    <image id="M_Body_Mtl">
+      <init_from>M_Body_Mtl.png</init_from>
+    </image>
+    <image id="M_Body_Nrm">
+      <init_from>M_Body_Nrm.png</init_from>
+    </image>
+    <image id="M_Body_Rgh">
+      <init_from>M_Body_Rgh.png</init_from>
+    </image>
+    <image id="M_Cannonball_Alb">
+      <init_from>M_Cannonball_Alb.png</init_from>
+    </image>
+    <image id="M_Cannonball_Nrm">
+      <init_from>M_Cannonball_Nrm.png</init_from>
+    </image>
+    <image id="M_Cannonball_Rgh">
+      <init_from>M_Cannonball_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Cannonball">
+      <instance_effect url="#Effect_M_Cannonball" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Cannonball">
+      <profile_COMMON>
+        <newparam sid="surface_M_Cannonball-diffuse">
+          <surface type="2D">
+            <init_from>M_Cannonball_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Cannonball-diffuse">
+          <sampler2D>
+            <source>surface_M_Cannonball-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Cannonball-bump">
+          <surface type="2D">
+            <init_from>M_Cannonball_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Cannonball-bump">
+          <sampler2D>
+            <source>surface_M_Cannonball-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Cannonball-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_Cannonball-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Enm_Break01__M_Cannonball-mesh" name="Enm_Break01__M_Cannonball">
+      <mesh>
+        <source id="Enm_Break01__M_Cannonball-position">
+          <float_array id="Enm_Break01__M_Cannonball-position-array" count="288">0.197876 0.1329346 -0.03729248 0.1917725 0.1345215 -0.04827881 0.04455566 0.2119141 0.05691528 0.03845215 0.213501 0.04595947 -0.1738281 -0.152832 0.01026154 -0.1768799 -0.1461182 0 -0.008010864 -0.2232666 -0.08105469 -0.01101685 -0.2165527 -0.09130859 -0.01101685 -0.2165527 -0.09130859 -0.1768799 -0.1461182 0 -0.09069824 -0.04708862 0.04238892 0.07183838 -0.1118164 -0.05007935 -0.02345276 0.05767822 0.0607605 0.1295166 -0.006252289 -0.03536987 0.03845215 0.213501 0.04595947 0.1917725 0.1345215 -0.04827881 0.197876 0.1329346 -0.03729248 0.04455566 0.2119141 0.05691528 0.1350098 -0.009262085 -0.02445984 -0.01808167 0.0546875 0.07165527 0.07568359 -0.1174316 -0.03948975 -0.08685303 -0.05267334 0.05297852 -0.008010864 -0.2232666 -0.08105469 -0.1738281 -0.152832 0.01026154 0.1295166 -0.006252289 -0.03536987 0.1917725 0.1345215 -0.04827881 0.197876 0.1329346 -0.03729248 0.1350098 -0.009262085 -0.02445984 0.07183838 -0.1118164 -0.05007935 0.07568359 -0.1174316 -0.03948975 -0.008010864 -0.2232666 -0.08105469 -0.01101685 -0.2165527 -0.09130859 -0.09069824 -0.04708862 0.04238892 -0.1768799 -0.1461182 0 -0.1738281 -0.152832 0.01026154 -0.08685303 -0.05267334 0.05297852 -0.02345276 0.05767822 0.0607605 -0.01808167 0.0546875 0.07165527 0.04455566 0.2119141 0.05691528 0.03845215 0.213501 0.04595947 -0.008575439 -0.2243652 -0.08605957 -0.1776123 -0.1523438 0.008453369 -0.09332275 -0.04733276 0.04888916 0.199707 0.1350098 -0.04156494 0.135498 -0.008926392 -0.03393555 0.04211426 0.2158203 0.05465698 0.199707 0.1350098 -0.04156494 0.04211426 0.2158203 0.05465698 0.135498 -0.008926392 -0.03393555 -0.09332275 -0.04733276 0.04888916 -0.1776123 -0.1523438 0.008453369 -0.008575439 -0.2243652 -0.08605957 0.07556152 -0.1174316 -0.03912354 0.07183838 -0.1118774 -0.05020142 0.135498 -0.008926392 -0.03393555 -0.008575439 -0.2243652 -0.08605957 -0.01771545 0.05450439 0.07177734 -0.02348328 0.05773926 0.06072998 -0.09332275 -0.04733276 0.04888916 0.04211426 0.2158203 0.05465698 0.07183838 -0.1118774 -0.05020142 -0.008575439 -0.2243652 -0.08605957 -0.09332275 -0.04733276 0.04888916 -0.02348328 0.05773926 0.06072998 0.135498 -0.008926392 -0.03393555 0.04211426 0.2158203 0.05465698 0.04211426 0.2158203 0.05465698 -0.01771545 0.05450439 0.07177734 0.135498 -0.008926392 -0.03393555 0.07556152 -0.1174316 -0.03912354 -0.09332275 -0.04733276 0.04888916 -0.008575439 -0.2243652 -0.08605957 -0.008346558 -0.223877 -0.08270264 -0.1750488 -0.15271 0.009735107 -0.0703125 -0.01386261 0.05368042 0.1190796 -0.03497314 -0.03756714 -0.008346558 -0.223877 -0.08270264 -0.0703125 -0.01386261 0.05368042 0.1190796 -0.03497314 -0.03756714 -0.0703125 -0.01386261 0.05368042 0.04385376 0.2133789 0.0562439 0.1984863 0.1335449 -0.03863525 0.1190796 -0.03497314 -0.03756714 0.04385376 0.2133789 0.0562439 0.1984863 0.1335449 -0.03863525 0.04385376 0.2133789 0.0562439 0.1190796 -0.03497314 -0.03756714 0.04385376 0.2133789 0.0562439 -0.0703125 -0.01386261 0.05368042 0.1190796 -0.03497314 -0.03756714 0.1190796 -0.03497314 -0.03756714 -0.0703125 -0.01386261 0.05368042 -0.008346558 -0.223877 -0.08270264 -0.0703125 -0.01386261 0.05368042 -0.1750488 -0.15271 0.009735107 -0.008346558 -0.223877 -0.08270264</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Cannonball-position-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Cannonball-normal">
+          <float_array id="Enm_Break01__M_Cannonball-normal-array" count="288">0.407045 0.9080235 -0.09784736 0.407045 0.9080235 -0.09784736 0.407045 0.9080235 -0.09784736 0.407045 0.9080235 -0.09784736 -0.5225049 -0.7749511 -0.3522505 -0.5225049 -0.7749511 -0.3522505 -0.5225049 -0.7749511 -0.3522505 -0.5225049 -0.7749511 -0.3522505 -0.2367906 0.5303327 -0.81409 -0.2367906 0.5303327 -0.81409 -0.295499 0.4579256 -0.8375734 -0.3033268 0.4461839 -0.8414873 -0.4344423 0.2270059 -0.8708415 -0.4383562 0.221135 -0.8708415 -0.483366 0.1213307 -0.8669276 -0.483366 0.1213307 -0.8669276 0.481409 -0.1213307 0.8669276 0.481409 -0.1213307 0.8669276 0.4383562 -0.223092 0.8708415 0.4344423 -0.2289628 0.8708415 0.3052838 -0.4461839 0.8414873 0.295499 -0.4559687 0.8395303 0.2367906 -0.5303327 0.81409 0.2367906 -0.5303327 0.81409 0.7866927 -0.3796478 -0.4892368 0.7808219 -0.3894325 -0.4892368 0.7808219 -0.3894325 -0.4892368 0.7866927 -0.3796478 -0.4892368 0.778865 -0.3913894 -0.4911937 0.778865 -0.3913894 -0.4911937 0.7651663 -0.4129159 -0.4931507 0.7651663 -0.4129159 -0.4931507 -0.7573385 0.4227006 0.4970646 -0.7475538 0.4363992 0.5009785 -0.7475538 0.4363992 0.5009785 -0.7573385 0.4227006 0.4970646 -0.7827789 0.3816047 0.4911937 -0.7827789 0.3816047 0.4911937 -0.7925636 0.3620352 0.4911937 -0.7925636 0.3620352 0.4911937 -0.2367906 0.5303327 -0.81409 -0.2367906 0.5303327 -0.81409 -0.295499 0.4579256 -0.8375734 -0.483366 0.1213307 -0.8669276 -0.4383562 0.221135 -0.8708415 -0.483366 0.1213307 -0.8669276 0.481409 -0.1213307 0.8669276 0.481409 -0.1213307 0.8669276 0.4383562 -0.223092 0.8708415 0.295499 -0.4559687 0.8395303 0.2367906 -0.5303327 0.81409 0.2367906 -0.5303327 0.81409 0.778865 -0.3913894 -0.4911937 0.778865 -0.3913894 -0.4911937 0.7866927 -0.3796478 -0.4892368 0.7651663 -0.4129159 -0.4931507 -0.7827789 0.3816047 0.4911937 -0.7827789 0.3816047 0.4911937 -0.7573385 0.4227006 0.4970646 -0.7925636 0.3620352 0.4911937 -0.3033268 0.4461839 -0.8414873 -0.2367906 0.5303327 -0.81409 -0.295499 0.4579256 -0.8375734 -0.4344423 0.2270059 -0.8708415 -0.4383562 0.221135 -0.8708415 -0.483366 0.1213307 -0.8669276 0.481409 -0.1213307 0.8669276 0.4344423 -0.2289628 0.8708415 0.4383562 -0.223092 0.8708415 0.3052838 -0.4461839 0.8414873 0.295499 -0.4559687 0.8395303 0.2367906 -0.5303327 0.81409 -0.2367906 0.5303327 -0.81409 -0.2367906 0.5303327 -0.81409 -0.295499 0.4579256 -0.8375734 -0.3033268 0.4461839 -0.8414873 -0.2367906 0.5303327 -0.81409 -0.295499 0.4579256 -0.8375734 -0.4383562 0.221135 -0.8708415 -0.4344423 0.2270059 -0.8708415 -0.483366 0.1213307 -0.8669276 -0.483366 0.1213307 -0.8669276 -0.4383562 0.221135 -0.8708415 -0.483366 0.1213307 -0.8669276 0.481409 -0.1213307 0.8669276 0.481409 -0.1213307 0.8669276 0.4383562 -0.223092 0.8708415 0.481409 -0.1213307 0.8669276 0.4344423 -0.2289628 0.8708415 0.4383562 -0.223092 0.8708415 0.3052838 -0.4461839 0.8414873 0.295499 -0.4559687 0.8395303 0.2367906 -0.5303327 0.81409 0.295499 -0.4559687 0.8395303 0.2367906 -0.5303327 0.81409 0.2367906 -0.5303327 0.81409</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Cannonball-normal-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Cannonball-texcoord">
+          <float_array id="Enm_Break01__M_Cannonball-texcoord-array" count="192">0.8106661 0.4918593 0.8106661 0.4918593 0.7544823 0.5409018 0.7544823 0.5409018 0.6861982 0.2934768 0.6861982 0.2934768 0.7560235 0.2477912 0.7560235 0.2477912 0.7560235 0.2477912 0.6861982 0.2934768 0.7099718 0.3662776 0.7778439 0.3226673 0.7344778 0.4432135 0.7931487 0.402533 0.7544823 0.5409018 0.8106661 0.4918593 0.8106661 0.4918593 0.7544823 0.5409018 0.7931487 0.402533 0.7344778 0.4432135 0.7778439 0.3226673 0.7099718 0.3662776 0.7560235 0.2477912 0.6861982 0.2934768 0.7931487 0.402533 0.8106661 0.4918593 0.8106661 0.4918593 0.7931487 0.402533 0.7778439 0.3226673 0.7778439 0.3226673 0.7560235 0.2477912 0.7560235 0.2477912 0.7099718 0.3662776 0.6861982 0.2934768 0.6861982 0.2934768 0.7099718 0.3662776 0.7344778 0.4432135 0.7344778 0.4432135 0.7544823 0.5409018 0.7544823 0.5409018 0.7560235 0.2477912 0.6861982 0.2934768 0.7099718 0.3662776 0.8106661 0.4918593 0.7931487 0.402533 0.7544823 0.5409018 0.8106661 0.4918593 0.7544823 0.5409018 0.7931487 0.402533 0.7099718 0.3662776 0.6861982 0.2934768 0.7560235 0.2477912 0.7778439 0.3226673 0.7778439 0.3226673 0.7931487 0.402533 0.7560235 0.2477912 0.7344778 0.4432135 0.7344778 0.4432135 0.7099718 0.3662776 0.7544823 0.5409018 0.7778439 0.3226673 0.7560235 0.2477912 0.7099718 0.3662776 0.7344778 0.4432135 0.7931487 0.402533 0.7544823 0.5409018 0.7544823 0.5409018 0.7344778 0.4432135 0.7931487 0.402533 0.7778439 0.3226673 0.7099718 0.3662776 0.7560235 0.2477912 0.7560235 0.2477912 0.6861982 0.2934768 0.7099718 0.3662776 0.7931487 0.402533 0.7560235 0.2477912 0.7099718 0.3662776 0.7931487 0.402533 0.7099718 0.3662776 0.7544823 0.5409018 0.8106661 0.4918593 0.7931487 0.402533 0.7544823 0.5409018 0.8106661 0.4918593 0.7544823 0.5409018 0.7931487 0.402533 0.7544823 0.5409018 0.7099718 0.3662776 0.7931487 0.402533 0.7931487 0.402533 0.7099718 0.3662776 0.7560235 0.2477912 0.7099718 0.3662776 0.6861982 0.2934768 0.7560235 0.2477912</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Cannonball-texcoord-array" count="96" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Enm_Break01__M_Cannonball-vertex">
+          <input semantic="POSITION" source="#Enm_Break01__M_Cannonball-position" />
+        </vertices>
+        <triangles material="M_Cannonball" count="28">
+          <input semantic="VERTEX" source="#Enm_Break01__M_Cannonball-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Enm_Break01__M_Cannonball-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Enm_Break01__M_Cannonball-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 11 11 11 8 8 8 10 10 10 10 10 10 12 12 12 11 11 11 12 12 12 13 13 13 11 11 11 13 13 13 12 12 12 14 14 14 15 15 15 13 13 13 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 18 18 18 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 27 27 27 24 24 24 26 26 26 28 28 28 24 24 24 27 27 27 29 29 29 28 28 28 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31 28 28 28 30 30 30 32 32 32 33 33 33 34 34 34 35 35 35 32 32 32 34 34 34 36 36 36 32 32 32 35 35 35 37 37 37 36 36 36 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39 36 36 36 38 38 38 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Enm_Break01__M_Cannonball-mesh">
+      <skin source="#Enm_Break01__M_Cannonball-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Enm_Break01__M_Cannonball-mesh-joint">
+          <Name_array id="Enm_Break01__M_Cannonball-mesh-joint-array" count="1">Enm_Break01</Name_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Cannonball-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Cannonball-mesh-inv_bind_matrix">
+          <float_array id="Enm_Break01__M_Cannonball-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Cannonball-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Cannonball-mesh-weight">
+          <float_array id="Enm_Break01__M_Cannonball-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Cannonball-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Enm_Break01__M_Cannonball-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Enm_Break01__M_Cannonball-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="96">
+          <input semantic="JOINT" source="#Enm_Break01__M_Cannonball-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Enm_Break01__M_Cannonball-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Enm_Break01" name="Enm_Break01" sid="Enm_Break01" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Enm_Break01__M_Cannonball" name="Enm_Break01__M_Cannonball" type="NODE">
+        <instance_controller url="#Armature_Enm_Break01__M_Cannonball-mesh">
+          <skeleton>#Armature_Enm_Break01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Cannonball" target="#M_Cannonball" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

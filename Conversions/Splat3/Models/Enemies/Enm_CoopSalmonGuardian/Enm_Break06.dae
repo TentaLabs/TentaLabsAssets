@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_BodyBreak_2cl">
+      <init_from>M_BodyBreak_2cl.png</init_from>
+    </image>
+    <image id="M_Body_Alb">
+      <init_from>M_Body_Alb.png</init_from>
+    </image>
+    <image id="M_Body_Ao">
+      <init_from>M_Body_Ao.png</init_from>
+    </image>
+    <image id="M_Body_Emm">
+      <init_from>M_Body_Emm.png</init_from>
+    </image>
+    <image id="M_Body_Mtl">
+      <init_from>M_Body_Mtl.png</init_from>
+    </image>
+    <image id="M_Body_Nrm">
+      <init_from>M_Body_Nrm.png</init_from>
+    </image>
+    <image id="M_Body_Rgh">
+      <init_from>M_Body_Rgh.png</init_from>
+    </image>
+    <image id="M_GlassBreak_2cl">
+      <init_from>M_GlassBreak_2cl.png</init_from>
+    </image>
+    <image id="M_Glass_Alb">
+      <init_from>M_Glass_Alb.png</init_from>
+    </image>
+    <image id="M_Glass_Nrm">
+      <init_from>M_Glass_Nrm.png</init_from>
+    </image>
+    <image id="M_Salmon_2cl">
+      <init_from>M_Salmon_2cl.png</init_from>
+    </image>
+    <image id="M_Salmon_Alb">
+      <init_from>M_Salmon_Alb.png</init_from>
+    </image>
+    <image id="M_Salmon_Emm">
+      <init_from>M_Salmon_Emm.png</init_from>
+    </image>
+    <image id="M_Salmon_Mtl">
+      <init_from>M_Salmon_Mtl.png</init_from>
+    </image>
+    <image id="M_Salmon_Nrm">
+      <init_from>M_Salmon_Nrm.png</init_from>
+    </image>
+    <image id="M_Salmon_Rgh">
+      <init_from>M_Salmon_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Body">
+      <instance_effect url="#Effect_M_Body" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Body">
+      <profile_COMMON>
+        <newparam sid="surface_M_Body-diffuse">
+          <surface type="2D">
+            <init_from>M_Body_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-diffuse">
+          <sampler2D>
+            <source>surface_M_Body-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Body-bump">
+          <surface type="2D">
+            <init_from>M_Body_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-bump">
+          <sampler2D>
+            <source>surface_M_Body-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Body-emission">
+          <surface type="2D">
+            <init_from>M_Body_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-emission">
+          <sampler2D>
+            <source>surface_M_Body-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Body-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_Body-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_M_Body-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Enm_Break06__M_Body-mesh" name="Enm_Break06__M_Body">
+      <mesh>
+        <source id="Enm_Break06__M_Body-position">
+          <float_array id="Enm_Break06__M_Body-position-array" count="306">0 -0.1620477 -0.02328491 0.02328491 -0.1620477 0 -0.02328491 -0.1620477 0 0 -0.1620477 0.02328491 0 0.03793402 -0.03256226 0 -0.1620477 -0.02328491 -0.02328491 -0.1620477 0 -0.03256226 0.03793402 0 0 -0.1620477 0.02328491 0 0.03793402 0.03256226 0.02328491 -0.1620477 0 0.03256226 0.03793402 0 0 -0.1620477 -0.02328491 0 0.03793402 -0.03256226 0.08428955 0.03306647 0 0.06817627 0.03306647 0.04953003 0 0.03306647 0 0.06817627 0.03306647 -0.04953003 0.02604675 0.03306647 0.08013916 0.02604675 0.03306647 -0.08013916 -0.02604675 0.03306647 0.08013916 -0.02604675 0.03306647 -0.08013916 -0.06817627 0.03306647 0.04953003 -0.06817627 0.03306647 -0.04953003 -0.08428955 0.03306647 0 0.04718018 0.07372351 -0.03427124 0.06817627 0.03306647 -0.04953003 0.02604675 0.03306647 -0.08013916 0.05831909 0.07372351 0 0.08428955 0.03306647 0 0.01802063 0.07372351 -0.05548096 -0.02604675 0.03306647 -0.08013916 0.04718018 0.07372351 0.03427124 0.06817627 0.03306647 0.04953003 0 0.09845038 0 0.01802063 0.07372351 0.05548096 0.02604675 0.03306647 0.08013916 -0.01802063 0.07372351 -0.05548096 -0.06817627 0.03306647 -0.04953003 -0.01802063 0.07372351 0.05548096 -0.02604675 0.03306647 0.08013916 -0.04718018 0.07372351 -0.03427124 -0.08428955 0.03306647 0 -0.04718018 0.07372351 0.03427124 -0.06817627 0.03306647 0.04953003 -0.05831909 0.07372351 0 0 -0.1620477 -0.02328491 0.02328491 -0.1620477 0 -0.02328491 -0.1620477 0 0 -0.1620477 0.02328491 0 0.03793402 -0.03256226 0 -0.1620477 -0.02328491 -0.02328491 -0.1620477 0 -0.03256226 0.03793402 0 0 -0.1620477 0.02328491 0 0.03793402 0.03256226 0.02328491 -0.1620477 0 0.03256226 0.03793402 0 0 -0.1620477 -0.02328491 0 0.03793402 -0.03256226 -0.08557129 0.03425666 0.0004384518 -0.02658081 0.03463813 0.08154297 -0.06939697 0.03472968 0.05050659 0.02658081 0.0346839 0.0814209 0.06951904 0.03486701 0.05038452 0.08563232 0.03439398 -0.000411272 0.06933594 0.03472968 -0.05056763 0.02650452 0.03544684 -0.08227539 -0.02604675 0.03306647 -0.08013916 -0.06817627 0.03306647 -0.04953003 -0.04754639 0.07550116 -0.03555298 -0.02604675 0.03306647 -0.08013916 -0.06817627 0.03306647 -0.04953003 0.02650452 0.03544684 -0.08227539 -0.08557129 0.03425666 0.0004384518 0.001379013 0.1080329 0.001302719 0.06933594 0.03472968 -0.05056763 -0.06939697 0.03472968 0.05050659 0.08563232 0.03439398 -0.000411272 -0.02658081 0.03463813 0.08154297 0.06951904 0.03486701 0.05038452 0.02658081 0.0346839 0.0814209 -0.01085663 0.03793402 0.03256226 -0.01085663 0.03793402 -0.03256226 -0.01527405 -0.176452 -0.01324463 0.01033783 -0.1736443 0.01725769 0.03521729 0.0342414 -0.002687454 -0.01527405 -0.176452 -0.01324463 -0.01085663 0.03793402 -0.03256226 0.07403564 0.0349433 0.05691528 -0.02957153 0.03436347 0.09094238 -0.0925293 0.03401252 0.003541946 0.0925293 0.03401252 -0.003541946 0.02957153 0.03436347 -0.09094238 -0.07403564 0.0349433 -0.05691528 0 0.1123664 0 0.0925293 0.03401252 -0.003541946 0.02957153 0.03436347 -0.09094238 -0.07403564 0.0349433 -0.05691528 0.07403564 0.0349433 0.05691528 -0.0925293 0.03401252 0.003541946 -0.02957153 0.03436347 0.09094238</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break06__M_Body-position-array" count="102" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break06__M_Body-normal">
+          <float_array id="Enm_Break06__M_Body-normal-array" count="306">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.04696673 -0.9980431 0 -0.04696673 -0.9980431 -0.9980431 -0.04696673 0 -0.9980431 -0.04696673 0 0 -0.04696673 0.9980431 0 -0.04696673 0.9980431 0.9980431 -0.04696673 0 0.9980431 -0.04696673 0 0 -0.04696673 -0.9980431 0 -0.04696673 -0.9980431 0.9099804 -0.4168297 0 0.7358121 -0.4168297 0.5342466 0 -1 0 0.7358121 -0.4168297 -0.5342466 0.2818004 -0.4168297 0.8649706 0.2818004 -0.4168297 -0.8649706 -0.2818004 -0.4168297 0.8649706 -0.2818004 -0.4168297 -0.8649706 -0.7358121 -0.4168297 0.5342466 -0.7358121 -0.4168297 -0.5342466 -0.9099804 -0.4168297 0 0.6007828 0.6712329 -0.4363992 0.7358121 -0.4168297 -0.5342466 0.2818004 -0.4168297 -0.8649706 0.7416829 0.6712329 0 0.9099804 -0.4168297 0 0.2289628 0.6712329 -0.704501 -0.2818004 -0.4168297 -0.8649706 0.6007828 0.6712329 0.4363992 0.7358121 -0.4168297 0.5342466 0 1 0 0.2289628 0.6712329 0.704501 0.2818004 -0.4168297 0.8649706 -0.2289628 0.6712329 -0.704501 -0.7358121 -0.4168297 -0.5342466 -0.2289628 0.6712329 0.704501 -0.2818004 -0.4168297 0.8649706 -0.6007828 0.6712329 -0.4363992 -0.9099804 -0.4168297 0 -0.6007828 0.6712329 0.4363992 -0.7358121 -0.4168297 0.5342466 -0.7416829 0.6712329 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.04696673 -0.9980431 0 -0.04696673 -0.9980431 -0.9980431 -0.04696673 0 -0.9980431 -0.04696673 0 0 -0.04696673 0.9980431 0 -0.04696673 0.9980431 0.9980431 -0.04696673 0 0.9980431 -0.04696673 0 0 -0.04696673 -0.9980431 0 -0.04696673 -0.9980431 -0.9099804 -0.4168297 0 -0.2818004 -0.4168297 0.8649706 -0.7358121 -0.4168297 0.5342466 0.2818004 -0.4168297 0.8649706 0.7358121 -0.4168297 0.5342466 0.9099804 -0.4168297 0 0.7358121 -0.4168297 -0.5342466 0.2818004 -0.4168297 -0.8649706 -0.2818004 -0.4168297 -0.8649706 -0.7358121 -0.4168297 -0.5342466 -0.2289628 0.6712329 -0.704501 -0.2818004 -0.4168297 -0.8649706 -0.7358121 -0.4168297 -0.5342466 0.2818004 -0.4168297 -0.8649706 -0.9099804 -0.4168297 0 0 1 0 0.7358121 -0.4168297 -0.5342466 -0.7358121 -0.4168297 0.5342466 0.9099804 -0.4168297 0 -0.2818004 -0.4168297 0.8649706 0.7358121 -0.4168297 0.5342466 0.2818004 -0.4168297 0.8649706 -0.6418787 0.1154599 0.7592955 0 -0.04696673 -0.9980431 -0.9980431 -0.04696673 0 0 -0.04696673 0.9980431 0.9980431 -0.04696673 0 0 -0.04696673 -0.9980431 0 -0.04696673 -0.9980431 0.7358121 -0.4168297 0.5342466 -0.2818004 -0.4168297 0.8649706 -0.9099804 -0.4168297 0 0.9099804 -0.4168297 0 0.2818004 -0.4168297 -0.8649706 -0.7358121 -0.4168297 -0.5342466 0 1 0 0.9099804 -0.4168297 0 0.2818004 -0.4168297 -0.8649706 -0.7358121 -0.4168297 -0.5342466 0.7358121 -0.4168297 0.5342466 -0.9099804 -0.4168297 0 -0.2818004 -0.4168297 0.8649706</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break06__M_Body-normal-array" count="102" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break06__M_Body-texcoord">
+          <float_array id="Enm_Break06__M_Body-texcoord-array" count="204">0.5832608 0.444831 0.5938506 0.444831 0.5832456 0.4554361 0.5938659 0.4554361 0.5726253 0.501564 0.5726253 0.4554361 0.5832456 0.4554361 0.5832456 0.501564 0.5938659 0.4554361 0.5938659 0.501564 0.6044862 0.4554361 0.6044862 0.501564 0.6150911 0.4554361 0.6150911 0.501564 0.6450141 0.4509041 0.6609445 0.4560769 0.6450141 0.4780194 0.6290837 0.4560769 0.6708019 0.4696422 0.6192264 0.4696422 0.6708019 0.4863966 0.6192264 0.4863966 0.6609445 0.4999619 0.6290837 0.4999619 0.6450141 0.5051347 0.7185626 0.4567788 0.7282826 0.4438392 0.7402915 0.4609903 0.7084306 0.4526436 0.7084306 0.4369268 0.7247883 0.4658884 0.7402915 0.4818189 0.6982986 0.4567788 0.6885786 0.4438392 0.7084306 0.4714122 0.6920729 0.4658884 0.6765698 0.4609903 0.7247883 0.4769207 0.7282826 0.49897 0.6920729 0.4769207 0.6765698 0.4818189 0.7185626 0.4860456 0.7084306 0.5058824 0.6982986 0.4860456 0.6885786 0.49897 0.7084306 0.4901655 0.5832608 0.444831 0.5938506 0.444831 0.5832456 0.4554361 0.5938659 0.4554361 0.5726253 0.501564 0.5726253 0.4554361 0.5832456 0.4554361 0.5832456 0.501564 0.5938659 0.4554361 0.5938659 0.501564 0.6044862 0.4554361 0.6044862 0.501564 0.6150911 0.4554361 0.6150911 0.501564 0.6450141 0.5051347 0.6708019 0.4863966 0.6609445 0.4999619 0.6708019 0.4696422 0.6609445 0.4560769 0.6450141 0.4509041 0.6290837 0.4560769 0.6192264 0.4696422 0.6192264 0.4863966 0.6290837 0.4999619 0.7185626 0.4860456 0.7402915 0.4818189 0.7282826 0.49897 0.7402915 0.4609903 0.7084306 0.5058824 0.7084306 0.4714122 0.7282826 0.4438392 0.6885786 0.49897 0.7084306 0.4369268 0.6765698 0.4818189 0.6885786 0.4438392 0.6765698 0.4609903 0.5938659 0.501564 0.5726253 0.501564 0.5832456 0.4554361 0.5938659 0.4554361 0.6044862 0.501564 0.6150911 0.4554361 0.6150911 0.501564 0.6609445 0.4560769 0.6708019 0.4863966 0.6450141 0.5051347 0.6450141 0.4509041 0.6192264 0.4696422 0.6290837 0.4999619 0.7084306 0.4714122 0.7084306 0.4369268 0.7402915 0.4609903 0.7282826 0.49897 0.6885786 0.4438392 0.7084306 0.5058824 0.6765698 0.4818189</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break06__M_Body-texcoord-array" count="102" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Enm_Break06__M_Body-vertex">
+          <input semantic="POSITION" source="#Enm_Break06__M_Body-position" />
+        </vertices>
+        <triangles material="M_Body" count="50">
+          <input semantic="VERTEX" source="#Enm_Break06__M_Body-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Enm_Break06__M_Body-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Enm_Break06__M_Body-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 7 7 7 4 4 4 6 6 6 7 7 7 6 6 6 8 8 8 9 9 9 7 7 7 8 8 8 9 9 9 8 8 8 10 10 10 11 11 11 9 9 9 10 10 10 11 11 11 10 10 10 12 12 12 13 13 13 11 11 11 12 12 12 14 14 14 15 15 15 16 16 16 14 14 14 16 16 16 17 17 17 15 15 15 18 18 18 16 16 16 17 17 17 16 16 16 19 19 19 16 16 16 18 18 18 20 20 20 16 16 16 21 21 21 19 19 19 16 16 16 20 20 20 22 22 22 16 16 16 23 23 23 21 21 21 16 16 16 22 22 22 24 24 24 16 16 16 24 24 24 23 23 23 25 25 25 26 26 26 27 27 27 25 25 25 28 28 28 26 26 26 28 28 28 29 29 29 26 26 26 25 25 25 27 27 27 30 30 30 30 30 30 27 27 27 31 31 31 32 32 32 29 29 29 28 28 28 32 32 32 33 33 33 29 29 29 34 34 34 28 28 28 25 25 25 34 34 34 32 32 32 28 28 28 34 34 34 25 25 25 30 30 30 35 35 35 33 33 33 32 32 32 34 34 34 35 35 35 32 32 32 35 35 35 36 36 36 33 33 33 30 30 30 31 31 31 37 37 37 34 34 34 30 30 30 37 37 37 37 37 37 31 31 31 38 38 38 39 39 39 36 36 36 35 35 35 34 34 34 39 39 39 35 35 35 39 39 39 40 40 40 36 36 36 37 37 37 38 38 38 41 41 41 34 34 34 37 37 37 41 41 41 41 41 41 38 38 38 42 42 42 43 43 43 40 40 40 39 39 39 34 34 34 43 43 43 39 39 39 43 43 43 44 44 44 40 40 40 34 34 34 41 41 41 45 45 45 34 34 34 45 45 45 43 43 43 41 41 41 42 42 42 45 45 45 45 45 45 44 44 44 43 43 43 45 45 45 42 42 42 44 44 44 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Enm_Break06__M_Body-mesh">
+      <skin source="#Enm_Break06__M_Body-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Enm_Break06__M_Body-mesh-joint">
+          <Name_array id="Enm_Break06__M_Body-mesh-joint-array" count="1">Enm_Break06</Name_array>
+          <technique_common>
+            <accessor source="#Enm_Break06__M_Body-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break06__M_Body-mesh-inv_bind_matrix">
+          <float_array id="Enm_Break06__M_Body-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 -0.05926581 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break06__M_Body-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break06__M_Body-mesh-weight">
+          <float_array id="Enm_Break06__M_Body-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break06__M_Body-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Enm_Break06__M_Body-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Enm_Break06__M_Body-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="102">
+          <input semantic="JOINT" source="#Enm_Break06__M_Body-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Enm_Break06__M_Body-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Enm_Break06" name="Enm_Break06" sid="Enm_Break06" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0.05926581 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Enm_Break06__M_Body" name="Enm_Break06__M_Body" type="NODE">
+        <instance_controller url="#Armature_Enm_Break06__M_Body-mesh">
+          <skeleton>#Armature_Enm_Break06</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Body" target="#M_Body" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

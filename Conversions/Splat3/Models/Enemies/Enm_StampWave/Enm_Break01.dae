@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="InkScroll_Nrm">
+      <init_from>InkScroll_Nrm.png</init_from>
+    </image>
+    <image id="M_Body_Alb">
+      <init_from>M_Body_Alb.png</init_from>
+    </image>
+    <image id="M_Body_Ao">
+      <init_from>M_Body_Ao.png</init_from>
+    </image>
+    <image id="M_Body_Emm">
+      <init_from>M_Body_Emm.png</init_from>
+    </image>
+    <image id="M_Body_Mtl">
+      <init_from>M_Body_Mtl.png</init_from>
+    </image>
+    <image id="M_Body_Nrm">
+      <init_from>M_Body_Nrm.png</init_from>
+    </image>
+    <image id="M_Body_Rgh">
+      <init_from>M_Body_Rgh.png</init_from>
+    </image>
+    <image id="M_Body_Tcl">
+      <init_from>M_Body_Tcl.png</init_from>
+    </image>
+    <image id="M_Ear_Alb">
+      <init_from>M_Ear_Alb.png</init_from>
+    </image>
+    <image id="M_Ear_Ao">
+      <init_from>M_Ear_Ao.png</init_from>
+    </image>
+    <image id="M_Ear_Mtl">
+      <init_from>M_Ear_Mtl.png</init_from>
+    </image>
+    <image id="M_Ear_Nrm">
+      <init_from>M_Ear_Nrm.png</init_from>
+    </image>
+    <image id="M_Ear_Rgh">
+      <init_from>M_Ear_Rgh.png</init_from>
+    </image>
+    <image id="M_Face_Alb">
+      <init_from>M_Face_Alb.png</init_from>
+    </image>
+    <image id="M_Face_Flk">
+      <init_from>M_Face_Flk.png</init_from>
+    </image>
+    <image id="M_Face_Nrm">
+      <init_from>M_Face_Nrm.png</init_from>
+    </image>
+    <image id="M_Face_Rgh">
+      <init_from>M_Face_Rgh.png</init_from>
+    </image>
+    <image id="M_PlasticWrap_Alb">
+      <init_from>M_PlasticWrap_Alb.png</init_from>
+    </image>
+    <image id="M_PlasticWrap_Nrm">
+      <init_from>M_PlasticWrap_Nrm.png</init_from>
+    </image>
+    <image id="M_TakolienBody00_Rft">
+      <init_from>M_TakolienBody00_Rft.png</init_from>
+    </image>
+    <image id="M_Tako_2cl">
+      <init_from>M_Tako_2cl.png</init_from>
+    </image>
+    <image id="M_Tako_Alb">
+      <init_from>M_Tako_Alb.png</init_from>
+    </image>
+    <image id="M_Tako_Ao">
+      <init_from>M_Tako_Ao.png</init_from>
+    </image>
+    <image id="M_Tako_Nrm">
+      <init_from>M_Tako_Nrm.png</init_from>
+    </image>
+    <image id="M_Tako_Rgh">
+      <init_from>M_Tako_Rgh.png</init_from>
+    </image>
+    <image id="M_Tako_Trm">
+      <init_from>M_Tako_Trm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Body">
+      <instance_effect url="#Effect_M_Body" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Body">
+      <profile_COMMON>
+        <newparam sid="surface_M_Body-diffuse">
+          <surface type="2D">
+            <init_from>M_Body_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-diffuse">
+          <sampler2D>
+            <source>surface_M_Body-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Body-emission">
+          <surface type="2D">
+            <init_from>M_Body_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-emission">
+          <sampler2D>
+            <source>surface_M_Body-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Body-bump">
+          <surface type="2D">
+            <init_from>M_Body_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-bump">
+          <sampler2D>
+            <source>surface_M_Body-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Body-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <texture texture="sampler_M_Body-emission" texcoord="CHANNEL0" />
+            </emission>
+            <bump>
+              <texture texture="sampler_M_Body-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Enm_Break01__M_Body-mesh" name="Enm_Break01__M_Body">
+      <mesh>
+        <source id="Enm_Break01__M_Body-position">
+          <float_array id="Enm_Break01__M_Body-position-array" count="120">0.07086182 0.04321289 0.4759614 0.07086182 0.04321289 -0.3692535 0.08850098 0.02552795 -0.3692535 0.08850098 0.02552795 0.4759614 0.01979065 -0.04321289 -0.3692535 0.01979065 -0.04321289 0.4759614 -0.08850098 -0.04321289 0.4759614 -0.08850098 -0.04321289 -0.3692535 -0.08850098 -0.01820374 -0.3692535 -0.08850098 -0.01820374 0.4759614 0.08850098 0.02552795 -0.3692535 0.07086182 0.04321289 -0.3692535 0.07086182 0.04321289 0.4759614 0.08850098 0.02552795 0.4759614 0.01979065 -0.04321289 -0.3692535 0.01979065 -0.04321289 0.4759614 -0.08850098 -0.04321289 0.4759614 -0.08850098 -0.04321289 -0.3692535 -0.08850098 -0.01820374 -0.3692535 -0.08850098 -0.01820374 0.4759614 0.08850098 0.02552795 -0.3692535 0.01979065 -0.04321289 -0.3692535 0.08850098 0.02552795 0.4759614 0.01979065 -0.04321289 0.4759614 -0.08850098 -0.04321289 0.4759614 -0.08850098 -0.04321289 -0.3692535 0.08850098 0.02552795 -0.3692535 0.08850098 0.02552795 0.4759614 0.01979065 -0.04321289 -0.3692535 0.01979065 -0.04321289 0.4759614 -0.08850098 -0.04321289 0.4759614 -0.08850098 -0.04321289 -0.3692535 0.08850098 0.02552795 0.4759614 0.08850098 0.02552795 -0.3692535 -0.08850098 -0.04321289 0.4759614 -0.08850098 -0.04321289 -0.3692535 0.08850098 0.02552795 0.4759614 -0.08850098 -0.04321289 0.4759614 0.08850098 0.02552795 -0.3692535 -0.08850098 -0.04321289 -0.3692535</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-position-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Body-normal">
+          <float_array id="Enm_Break01__M_Body-normal-array" count="120">-0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.8610567 0.5088063 0 -0.8610567 0.5088063 0 -0.3620352 0.9315069 0 -0.3620352 0.9315069 0 0.2250489 0.9745597 0 0.2250489 0.9745597 0 1 0 0 1 0 0 0.8610567 -0.5088063 0 0.7064579 0.7064579 0 0.7064579 0.7064579 0 0.8610567 -0.5088063 0 0.3620352 -0.9315069 0 0.3620352 -0.9315069 0 -0.2250489 -0.9745597 0 -0.2250489 -0.9745597 0 -1 0 0 -1 0 0 -0.8610567 0.5088063 0 -0.3620352 0.9315069 0 -0.8610567 0.5088063 0 -0.3620352 0.9315069 0 0.2250489 0.9745597 0 0.2250489 0.9745597 0 0.8610567 -0.5088063 0 0.8610567 -0.5088063 0 0.3620352 -0.9315069 0 0.3620352 -0.9315069 0 -0.2250489 -0.9745597 0 -0.2250489 -0.9745597 0 -0.3620352 0.9315069 0 -0.3620352 0.9315069 0 0.2250489 0.9745597 0 0.2250489 0.9745597 0 0.3620352 -0.9315069 0 -0.2250489 -0.9745597 0 0.3620352 -0.9315069 0 -0.2250489 -0.9745597 0</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-normal-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Body-texcoord">
+          <float_array id="Enm_Break01__M_Body-texcoord-array" count="80">0.9490196 0.8745098 0.9490196 0.9843137 0.9529412 0.9843137 0.9529412 0.8745098 0.9686275 0.9843137 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9882353 0.9843137 0.9882353 0.8745098 0.9529412 0.9843137 0.9490196 0.9843137 0.9490196 0.8745098 0.9529412 0.8745098 0.9686275 0.9843137 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9882353 0.9843137 0.9882353 0.8745098 0.9529412 0.9843137 0.9686275 0.9843137 0.9529412 0.8745098 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9529412 0.9843137 0.9529412 0.8745098 0.9686275 0.9843137 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9529412 0.8745098 0.9529412 0.9843137 0.9843137 0.8745098 0.9843137 0.9843137 0.9529412 0.8745098 0.9843137 0.8745098 0.9529412 0.9843137 0.9843137 0.9843137</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-texcoord-array" count="40" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Body-texcoord_1">
+          <float_array id="Enm_Break01__M_Body-texcoord-array_1" count="80">0.6392157 0.6509804 0.6392157 0.7529412 0.6431373 0.7529412 0.6431373 0.6509804 0.6588235 0.7529412 0.6588235 0.6509804 0.6705883 0.6509804 0.6705883 0.7529412 0.6745098 0.7529412 0.6745098 0.6509804 0.6431373 0.7529412 0.6392157 0.7529412 0.6392157 0.6509804 0.6431373 0.6509804 0.6588235 0.7529412 0.6588235 0.6509804 0.6705883 0.6509804 0.6705883 0.7529412 0.6745098 0.7529412 0.6745098 0.6509804 0.6431373 0.7529412 0.6588235 0.7529412 0.6431373 0.6509804 0.6588235 0.6509804 0.6705883 0.6509804 0.6705883 0.7529412 0.6431373 0.7529412 0.6431373 0.6509804 0.6588235 0.7529412 0.6588235 0.6509804 0.6705883 0.6509804 0.6705883 0.7529412 0.6431373 0.6509804 0.6431373 0.7529412 0.6705883 0.6509804 0.6705883 0.7529412 0.6431373 0.6509804 0.6705883 0.6509804 0.6431373 0.7529412 0.6705883 0.7529412</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-texcoord-array_1" count="40" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Body-texcoord_2">
+          <float_array id="Enm_Break01__M_Body-texcoord-array_2" count="80">0.9490196 0.8745098 0.9490196 0.9843137 0.9529412 0.9843137 0.9529412 0.8745098 0.9686275 0.9843137 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9882353 0.9843137 0.9882353 0.8745098 0.9529412 0.9843137 0.9490196 0.9843137 0.9490196 0.8745098 0.9529412 0.8745098 0.9686275 0.9843137 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9882353 0.9843137 0.9882353 0.8745098 0.9529412 0.9843137 0.9686275 0.9843137 0.9529412 0.8745098 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9529412 0.9843137 0.9529412 0.8745098 0.9686275 0.9843137 0.9686275 0.8745098 0.9843137 0.8745098 0.9843137 0.9843137 0.9529412 0.8745098 0.9529412 0.9843137 0.9843137 0.8745098 0.9843137 0.9843137 0.9529412 0.8745098 0.9843137 0.8745098 0.9529412 0.9843137 0.9843137 0.9843137</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-texcoord-array_2" count="40" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Enm_Break01__M_Body-vertex">
+          <input semantic="POSITION" source="#Enm_Break01__M_Body-position" />
+        </vertices>
+        <triangles material="M_Body" count="16">
+          <input semantic="VERTEX" source="#Enm_Break01__M_Body-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Enm_Break01__M_Body-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Enm_Break01__M_Body-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Enm_Break01__M_Body-texcoord_1" offset="3" set="1" />
+          <input semantic="TEXCOORD" source="#Enm_Break01__M_Body-texcoord_2" offset="4" set="2" />
+          <p>0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 0 0 0 0 0 2 2 2 2 2 2 2 2 2 2 4 4 4 4 4 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 3 3 3 3 3 5 5 5 5 5 4 4 4 4 4 6 6 6 6 6 4 4 4 4 4 7 7 7 7 7 6 6 6 6 6 7 7 7 7 7 8 8 8 8 8 6 6 6 6 6 8 8 8 8 8 9 9 9 9 9 6 6 6 6 6 10 10 10 10 10 11 11 11 11 11 12 12 12 12 12 13 13 13 13 13 10 10 10 10 10 12 12 12 12 12 10 10 10 10 10 13 13 13 13 13 14 14 14 14 14 13 13 13 13 13 15 15 15 15 15 14 14 14 14 14 15 15 15 15 15 16 16 16 16 16 14 14 14 14 14 16 16 16 16 16 17 17 17 17 17 14 14 14 14 14 17 17 17 17 17 16 16 16 16 16 18 18 18 18 18 16 16 16 16 16 19 19 19 19 19 18 18 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Enm_Break01__M_Body-mesh">
+      <skin source="#Enm_Break01__M_Body-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Enm_Break01__M_Body-mesh-joint">
+          <Name_array id="Enm_Break01__M_Body-mesh-joint-array" count="1">Enm_Break01</Name_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Body-mesh-inv_bind_matrix">
+          <float_array id="Enm_Break01__M_Body-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 -0.05335397 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break01__M_Body-mesh-weight">
+          <float_array id="Enm_Break01__M_Body-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break01__M_Body-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Enm_Break01__M_Body-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Enm_Break01__M_Body-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="40">
+          <input semantic="JOINT" source="#Enm_Break01__M_Body-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Enm_Break01__M_Body-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Enm_Break01" name="Enm_Break01" sid="Enm_Break01" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0.05335397 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Enm_Break01__M_Body" name="Enm_Break01__M_Body" type="NODE">
+        <instance_controller url="#Armature_Enm_Break01__M_Body-mesh">
+          <skeleton>#Armature_Enm_Break01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Body" target="#M_Body" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

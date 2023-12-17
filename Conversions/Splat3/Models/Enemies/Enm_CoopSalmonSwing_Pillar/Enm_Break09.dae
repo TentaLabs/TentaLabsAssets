@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_Body_Alb">
+      <init_from>M_Body_Alb.png</init_from>
+    </image>
+    <image id="M_Body_Mtl">
+      <init_from>M_Body_Mtl.png</init_from>
+    </image>
+    <image id="M_Body_Nrm">
+      <init_from>M_Body_Nrm.png</init_from>
+    </image>
+    <image id="M_Body_Rgh">
+      <init_from>M_Body_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Body">
+      <instance_effect url="#Effect_M_Body" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Body">
+      <profile_COMMON>
+        <newparam sid="surface_M_Body-diffuse">
+          <surface type="2D">
+            <init_from>M_Body_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-diffuse">
+          <sampler2D>
+            <source>surface_M_Body-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Body-bump">
+          <surface type="2D">
+            <init_from>M_Body_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-bump">
+          <sampler2D>
+            <source>surface_M_Body-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Body-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_Body-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Enm_Break09__M_Body-mesh" name="Enm_Break09__M_Body">
+      <mesh>
+        <source id="Enm_Break09__M_Body-position">
+          <float_array id="Enm_Break09__M_Body-position-array" count="267">0.500698 1.442743 0.6226033 0.534361 1.44217 0.6226041 0.5008591 1.449646 -0.06186623 0.5296011 1.448931 -0.07375221 0.500698 1.442743 0.6226033 0.436363 -1.35439 0.6319134 0.534361 1.44217 0.6226041 0.4693546 -1.354963 0.6319142 0.436363 -1.35439 0.6319134 0.4364757 -1.349417 0.01707321 0.4693546 -1.354963 0.6319142 0.4646441 -1.350132 0.005424195 -0.3775292 -1.292937 -0.07162346 -0.3775295 -1.29351 -0.1046298 0.3605863 -1.327212 -0.07084602 0.3722588 -1.327927 -0.09899735 -0.3775292 -1.292937 -0.07162346 -0.4257868 1.46822 -0.1351594 -0.3775295 -1.29351 -0.1046298 -0.4257869 1.467646 -0.1688284 -0.4257868 1.46822 -0.1351594 0.4171238 1.451385 -0.1347665 -0.4257869 1.467646 -0.1688284 0.4290321 1.45067 -0.1634868 0.4171238 1.451385 -0.1347665 0.4721528 1.450516 -0.1121666 0.4290321 1.45067 -0.1634868 0.4924779 1.4498 -0.1324696 0.4313546 -1.339029 -0.06035736 0.4114335 -1.338315 -0.04045792 0.3722588 -1.327927 -0.09899735 0.3605863 -1.327212 -0.07084602 0.4924779 1.4498 -0.1324696 0.4721528 1.450516 -0.1121666 0.5296011 1.448931 -0.07375221 0.5008591 1.449646 -0.06186623 0.4364757 -1.349417 0.01707321 0.4114335 -1.338315 -0.04045792 0.4646441 -1.350132 0.005424195 0.4313546 -1.339029 -0.06035736 0.534361 1.44217 0.6226041 0.4693546 -1.354963 0.6319142 0.4646441 -1.350132 0.005424195 0.5296011 1.448931 -0.07375221 0.4924779 1.4498 -0.1324696 0.4313546 -1.339029 -0.06035736 0.4290321 1.45067 -0.1634868 0.3722588 -1.327927 -0.09899735 -0.3775295 -1.29351 -0.1046298 -0.4257869 1.467646 -0.1688284 0.436363 -1.35439 0.6319134 0.4693546 -1.354963 0.6319142 0.534361 1.44217 0.6226041 -0.4257868 1.46822 -0.1351594 -0.4257869 1.467646 -0.1688284 -0.3775295 -1.29351 -0.1046298 0.4171238 1.451385 -0.1347665 0.4924779 1.4498 -0.1324696 0.4290321 1.45067 -0.1634868 0.436363 -1.35439 0.6319134 0.4364757 -1.349417 0.01707321 0.4693546 -1.354963 0.6319142 0.4646441 -1.350132 0.005424195 -0.4257868 1.46822 -0.1351594 0.4171238 1.451385 -0.1347665 -0.4257869 1.467646 -0.1688284 0.4290321 1.45067 -0.1634868 0.4364757 -1.349417 0.01707321 0.4114335 -1.338315 -0.04045792 0.4646441 -1.350132 0.005424195 0.3722588 -1.327927 -0.09899735 -0.3775295 -1.29351 -0.1046298 -0.4257869 1.467646 -0.1688284 0.4290321 1.45067 -0.1634868 0.3722588 -1.327927 -0.09899735 0.4924779 1.4498 -0.1324696 0.4646441 -1.350132 0.005424195 0.5296011 1.448931 -0.07375221 0.534361 1.44217 0.6226041 0.4693546 -1.354963 0.6319142 -0.3775295 -1.29351 -0.1046298 -0.4257869 1.467646 -0.1688284 0.4290321 1.45067 -0.1634868 0.3722588 -1.327927 -0.09899735 0.4924779 1.4498 -0.1324696 0.4646441 -1.350132 0.005424195 0.5296011 1.448931 -0.07375221 0.534361 1.44217 0.6226041 0.4693546 -1.354963 0.6319142</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break09__M_Body-position-array" count="89" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break09__M_Body-normal">
+          <float_array id="Enm_Break09__M_Body-normal-array" count="267">0.02348337 1 0.009784736 0.02348337 1 0.009784736 0.02348337 1 0.009784736 0.02348337 1 0.009784736 0 0.003913894 1 0 0.003913894 1 0 0.003913894 1 0 0.003913894 1 -0.02348337 -1 -0.007827789 -0.02348337 -1 -0.007827789 -0.02348337 -1 -0.007827789 -0.02348337 -1 -0.007827789 -0.04696673 -0.9980431 0.01174168 -0.04696673 -0.9980431 0.01174168 -0.04696673 -0.9980431 0.01174168 -0.04696673 -0.9980431 0.01174168 -1 -0.01761252 0 -1 -0.01761252 0 -1 -0.01761252 0 -1 -0.01761252 0 0.01956947 1 -0.01761252 0.01956947 1 -0.01761252 0.01956947 1 -0.01761252 0.01956947 1 -0.01761252 0.02152642 1 -0.01565558 0.02152642 1 -0.01565558 0.02152642 1 -0.01565558 0.02152642 1 -0.01565558 -0.1545988 -0.9863014 -0.07240704 -0.1545988 -0.9863014 -0.07240704 -0.1545988 -0.9863014 -0.07240704 -0.1545988 -0.9863014 -0.07240704 0.02739726 1 -0.001956947 0.02739726 1 -0.001956947 0.02739726 1 -0.001956947 0.02739726 1 -0.001956947 -0.111546 -0.9863014 -0.1252446 -0.111546 -0.9863014 -0.1252446 -0.111546 -0.9863014 -0.1252446 -0.111546 -0.9863014 -0.1252446 1 -0.02348337 -0.007827789 1 -0.02348337 -0.007827789 0.9980431 -0.02348337 -0.05088063 0.9980431 -0.02544031 -0.05675147 0.7064579 -0.0332681 -0.7084149 0.7260274 -0.0332681 -0.6868885 0.04500978 -0.02348337 -0.9980431 0.05088063 -0.02348337 -0.9980431 0.005870841 -0.02348337 -1 0.005870841 -0.02348337 -1 0 0.003913894 1 0 0.003913894 1 0 0.003913894 1 -1 -0.01761252 0 -1 -0.01761252 0 -1 -0.01761252 0 0.01956947 1 -0.01565558 0.02152642 1 -0.01369863 0.02152642 1 -0.01565558 -0.02348337 -1 -0.007827789 -0.02348337 -1 -0.007827789 -0.02348337 -1 -0.007827789 -0.02348337 -1 -0.007827789 0.01956947 1 -0.01761252 0.01956947 1 -0.01565558 0.01956947 1 -0.01761252 0.01956947 1 -0.01565558 -0.111546 -0.9863014 -0.1252446 -0.111546 -0.9863014 -0.1252446 -0.111546 -0.9863014 -0.1252446 -0.111546 -0.9863014 -0.1252446 0.005870841 -0.02348337 -1 0.005870841 -0.02348337 -1 0.04500978 -0.02348337 -0.9980431 0.05088063 -0.02348337 -0.9980431 0.7064579 -0.0332681 -0.7084149 0.9980431 -0.02348337 -0.04892368 0.9980431 -0.02544031 -0.05675147 1 -0.02348337 -0.007827789 1 -0.02348337 -0.007827789 0.005870841 -0.02348337 -1 0.005870841 -0.02348337 -1 0.04500978 -0.02348337 -0.9980431 0.05088063 -0.02348337 -0.9980431 0.7064579 -0.0332681 -0.7084149 0.9980431 -0.02348337 -0.04892368 0.9980431 -0.02544031 -0.05675147 1 -0.02348337 -0.007827789 1 -0.02348337 -0.007827789</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break09__M_Body-normal-array" count="89" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break09__M_Body-texcoord">
+          <float_array id="Enm_Break09__M_Body-texcoord-array" count="178">0.6373846 0.4634928 0.6398108 0.4599985 0.6955978 0.4634928 0.6955978 0.4599985 0.6373846 0.4634928 0.6373846 0.2272679 0.6398108 0.4599985 0.6398108 0.2300603 0.6373846 0.2272679 0.6955978 0.2272679 0.6398108 0.2300603 0.6955978 0.2300603 0.7790951 0.2272679 0.776669 0.2300603 0.7089036 0.2272679 0.7089036 0.2300603 0.7790951 0.2272679 0.7790951 0.4634928 0.776669 0.2300603 0.776669 0.4599985 0.7790951 0.4634928 0.7089036 0.4634928 0.776669 0.4599985 0.7089036 0.4599985 0.7089036 0.4634928 0.702388 0.4634928 0.7089036 0.4599985 0.702388 0.4599985 0.702388 0.2300603 0.702388 0.2272679 0.7089036 0.2300603 0.7089036 0.2272679 0.702388 0.4599985 0.702388 0.4634928 0.6955978 0.4599985 0.6955978 0.4634928 0.6955978 0.2272679 0.702388 0.2272679 0.6955978 0.2300603 0.702388 0.2300603 0.6398108 0.4599985 0.6398108 0.2300603 0.6955978 0.2300603 0.6955978 0.4599985 0.702388 0.4599985 0.702388 0.2300603 0.7089036 0.4599985 0.7089036 0.2300603 0.776669 0.2300603 0.776669 0.4599985 0.6373846 0.2272679 0.6398108 0.2300603 0.6398108 0.4599985 0.7790951 0.4634928 0.776669 0.4599985 0.776669 0.2300603 0.7089036 0.4634928 0.702388 0.4599985 0.7089036 0.4599985 0.6373846 0.2272679 0.6955978 0.2272679 0.6398108 0.2300603 0.6955978 0.2300603 0.7790951 0.4634928 0.7089036 0.4634928 0.776669 0.4599985 0.7089036 0.4599985 0.6955978 0.2272679 0.702388 0.2272679 0.6955978 0.2300603 0.7089036 0.2300603 0.776669 0.2300603 0.776669 0.4599985 0.7089036 0.4599985 0.7089036 0.2300603 0.702388 0.4599985 0.6955978 0.2300603 0.6955978 0.4599985 0.6398108 0.4599985 0.6398108 0.2300603 0.776669 0.2300603 0.776669 0.4599985 0.7089036 0.4599985 0.7089036 0.2300603 0.702388 0.4599985 0.6955978 0.2300603 0.6955978 0.4599985 0.6398108 0.4599985 0.6398108 0.2300603</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break09__M_Body-texcoord-array" count="89" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Enm_Break09__M_Body-vertex">
+          <input semantic="POSITION" source="#Enm_Break09__M_Body-position" />
+        </vertices>
+        <triangles material="M_Body" count="28">
+          <input semantic="VERTEX" source="#Enm_Break09__M_Body-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Enm_Break09__M_Body-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Enm_Break09__M_Body-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 43 43 43 40 40 40 42 42 42 44 44 44 43 43 43 42 42 42 45 45 45 44 44 44 42 42 42 46 46 46 44 44 44 45 45 45 47 47 47 46 46 46 45 45 45 47 47 47 48 48 48 46 46 46 48 48 48 49 49 49 46 46 46 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Enm_Break09__M_Body-mesh">
+      <skin source="#Enm_Break09__M_Body-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Enm_Break09__M_Body-mesh-joint">
+          <Name_array id="Enm_Break09__M_Body-mesh-joint-array" count="1">Enm_Break09</Name_array>
+          <technique_common>
+            <accessor source="#Enm_Break09__M_Body-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break09__M_Body-mesh-inv_bind_matrix">
+          <float_array id="Enm_Break09__M_Body-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 -4.972002 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break09__M_Body-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break09__M_Body-mesh-weight">
+          <float_array id="Enm_Break09__M_Body-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break09__M_Body-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Enm_Break09__M_Body-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Enm_Break09__M_Body-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="89">
+          <input semantic="JOINT" source="#Enm_Break09__M_Body-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Enm_Break09__M_Body-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Enm_Break09" name="Enm_Break09" sid="Enm_Break09" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 4.972002 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Enm_Break09__M_Body" name="Enm_Break09__M_Body" type="NODE">
+        <instance_controller url="#Armature_Enm_Break09__M_Body-mesh">
+          <skeleton>#Armature_Enm_Break09</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Body" target="#M_Body" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
