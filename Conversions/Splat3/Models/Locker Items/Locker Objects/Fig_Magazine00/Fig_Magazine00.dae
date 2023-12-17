@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_Magazine_Alb.00">
+      <init_from>M_Magazine_Alb.00.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.01">
+      <init_from>M_Magazine_Alb.01.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.02">
+      <init_from>M_Magazine_Alb.02.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.03">
+      <init_from>M_Magazine_Alb.03.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.04">
+      <init_from>M_Magazine_Alb.04.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.05">
+      <init_from>M_Magazine_Alb.05.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.06">
+      <init_from>M_Magazine_Alb.06.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.07">
+      <init_from>M_Magazine_Alb.07.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.08">
+      <init_from>M_Magazine_Alb.08.png</init_from>
+    </image>
+    <image id="M_Magazine_Alb.09">
+      <init_from>M_Magazine_Alb.09.png</init_from>
+    </image>
+    <image id="M_Magazine_Nrm">
+      <init_from>M_Magazine_Nrm.png</init_from>
+    </image>
+    <image id="M_Magazine_Rgh">
+      <init_from>M_Magazine_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Magazine">
+      <instance_effect url="#Effect_M_Magazine" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Magazine">
+      <profile_COMMON>
+        <newparam sid="surface_M_Magazine-diffuse">
+          <surface type="2D">
+            <init_from>M_Magazine_Alb.00</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Magazine-diffuse">
+          <sampler2D>
+            <source>surface_M_Magazine-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Magazine-bump">
+          <surface type="2D">
+            <init_from>M_Magazine_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Magazine-bump">
+          <sampler2D>
+            <source>surface_M_Magazine-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Magazine-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_Magazine-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface1__M_Magazine-mesh" name="polySurface1__M_Magazine">
+      <mesh>
+        <source id="polySurface1__M_Magazine-position">
+          <float_array id="polySurface1__M_Magazine-position-array" count="249">-0.248177 0.004422158 0.007778652 -0.248177 0.004597574 -0.01182807 -0.2434787 0.004400551 0.01557896 -0.2434787 0.004619658 -0.01991528 0 0.004400671 0.009412784 0 0.004619777 -0.01993292 0.2459689 0.004412621 0.006655865 0.248177 0.004303575 0.03445096 0.248177 0.004521757 -0.01313541 -0.2434787 0.6363587 -0.01745922 -0.248177 0.6363365 -0.01011863 -0.248177 0.6361613 0.00945833 -0.2434787 0.6361396 0.01803503 0 0.6361398 0.01801737 0 0.6363589 -0.01747687 0.2459689 0.6362485 -0.0001431913 0.248177 0.6361398 0.01959415 0.248177 0.6363589 -0.02014106 0.248177 0.004303575 0.03445096 0.248177 0.164761 0.0176897 0 0.004400671 0.009412784 0 0.164761 0.01432829 -0.2434787 0.004400551 0.01557896 -0.2434787 0.164761 0.01432829 0.248177 0.3204404 0.01492576 -0.2434787 0.3204404 0.01384725 0 0.3204404 0.01384725 -0.2434787 0.4671721 0.01555632 0 0.4671721 0.01555632 -0.2434787 0.6361396 0.01803503 0.248177 0.4671721 0.01683904 0 0.6361398 0.01801737 0.248177 0.6361398 0.01959415 0.248177 0.164761 0.0176897 0.248177 0.004303575 0.03445096 0.2459689 0.004412621 0.006655865 0.2459689 0.1648706 -0.003292566 0.248177 0.004521757 -0.01313541 0.248177 0.3204404 0.01492576 0.248177 0.1649801 -0.02427095 0.2459689 0.32055 -0.004941829 0.248177 0.3206595 -0.02480945 0.248177 0.4673912 -0.0228962 0.2459689 0.4672816 -0.003028578 0.248177 0.6363589 -0.02014106 0.248177 0.4671721 0.01683904 0.2459689 0.6362485 -0.0001431913 0.248177 0.6361398 0.01959415 -0.2434787 0.6361396 0.01803503 -0.248177 0.6361613 0.00945833 -0.2434787 0.4671721 0.01555632 -0.248177 0.467194 0.007728779 -0.248177 0.6363365 -0.01011863 -0.2434787 0.3204404 0.01384725 -0.248177 0.4673693 -0.01186307 -0.2434787 0.6363587 -0.01745922 -0.2434787 0.4673912 -0.01993795 -0.248177 0.3204623 0.006549619 -0.2434787 0.164761 0.01432829 -0.248177 0.3206376 -0.01304223 -0.2434787 0.3206595 -0.02164699 -0.248177 0.1647829 0.006881501 -0.2434787 0.004400551 0.01557896 -0.248177 0.004422158 0.007778652 -0.248177 0.004597574 -0.01182807 -0.248177 0.1649582 -0.01271035 -0.2434787 0.1649801 -0.02116598 -0.2434787 0.004619658 -0.01991528 -0.2434787 0.6363587 -0.01745922 0 0.6363589 -0.01747687 -0.2434787 0.4673912 -0.01993795 0 0.4673912 -0.01993795 0.248177 0.6363589 -0.02014106 -0.2434787 0.3206595 -0.02164699 0.248177 0.4673912 -0.0228962 0 0.3206595 -0.02164699 0.248177 0.3206595 -0.02480945 -0.2434787 0.1649801 -0.02116598 0.248177 0.1649801 -0.02427095 0 0.1649801 -0.02116598 -0.2434787 0.004619658 -0.01991528 0 0.004619777 -0.01993292 0.248177 0.004521757 -0.01313541</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__M_Magazine-position-array" count="83" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__M_Magazine-normal">
+          <float_array id="polySurface1__M_Magazine-normal-array" count="249">0 -1 -0.007827789 0 -1 -0.007827789 0 -1 -0.005870841 0 -1 -0.005870841 0 -1 -0.007827789 0 -1 -0.007827789 0 -1 -0.003913894 0 -1 -0.003913894 0 -1 -0.003913894 0 1 0.005870841 -0.001956947 1 0.007827789 -0.001956947 1 0.007827789 0 1 0.005870841 0 1 0.005870841 0 1 0.005870841 0 1 0.005870841 0 1 0.005870841 0 1 0.005870841 -0.05675147 0.037182 0.9980431 -0.0332681 0.02348337 1 -0.02348337 0.01369863 1 -0.01369863 0.009784736 1 -0.01761252 -0.01174168 1 -0.02348337 -0.003913894 1 -0.007827789 0 1 -0.02935421 -0.003913894 1 -0.003913894 -0.001956947 1 -0.03131115 -0.01369863 1 -0.001956947 -0.01369863 1 -0.0332681 -0.01369863 1 -0.005870841 -0.01369863 1 -0.001956947 -0.01565558 1 -0.005870841 -0.01565558 1 0.9960861 -0.005870841 -0.09784736 0.9960861 -0.007827789 -0.09001957 1 -0.001956947 -0.003913894 1 0 0.001956947 0.9941292 0.007827789 0.1076321 0.9941292 0 -0.109589 0.9941292 0.003913894 0.1076321 1 0 0 0.9941292 0 0.109589 0.9941292 -0.001956947 0.109589 1 0 0 0.9941292 -0.001956947 0.109589 0.9941292 0.001956947 -0.111546 1 0 0 0.9941292 0.001956947 -0.111546 -0.0332681 -0.01369863 1 -0.9863014 -0.001956947 0.1663405 -0.03131115 -0.01369863 1 -0.9863014 -0.001956947 0.1682975 -0.9863014 0.001956947 -0.1682975 -0.02935421 -0.003913894 1 -0.9863014 0.001956947 -0.1682975 -0.03131115 0.01369863 -1 -0.03131115 0.01369863 -1 -0.9863014 0 0.1702544 -0.02348337 -0.003913894 1 -0.9863014 0 -0.1663405 -0.0332681 0.003913894 -1 -0.9863014 0 0.1702544 -0.01761252 -0.01174168 1 -0.9843444 0.001956947 0.1722113 -0.9863014 -0.001956947 -0.1643836 -0.9863014 0 -0.1663405 -0.0332681 -0.005870841 -1 -0.0332681 -0.007827789 -1 -0.03131115 0.01369863 -1 -0.005870841 0.01565558 -1 -0.03131115 0.01369863 -1 -0.005870841 0.01369863 -1 -0.01174168 0.01565558 -1 -0.0332681 0.003913894 -1 -0.01174168 0.01369863 -1 -0.005870841 0.003913894 -1 -0.01174168 0.003913894 -1 -0.0332681 -0.005870841 -1 -0.001956947 -0.02152642 -1 -0.001956947 -0.01369863 -1 -0.0332681 -0.007827789 -1 0.003913894 -0.02348337 -1 0.007827789 -0.03913894 -1</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__M_Magazine-normal-array" count="83" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__M_Magazine-texcoord">
+          <float_array id="polySurface1__M_Magazine-texcoord-array" count="166">0.6608987 0.0646525 0.6608987 0.08996719 0.6548409 0.05432212 0.6548409 0.09990084 0.3402457 0.05432212 0.3405661 0.09990084 0.03215076 0.07829404 0.03215076 0.05432212 0.03215076 0.09990084 0.6548409 0.1224384 0.6608987 0.1338063 0.6608987 0.1587244 0.6548409 0.1730068 0.3452201 0.1730068 0.3451286 0.1224384 0.03215076 0.1478752 0.03215076 0.1730068 0.03215076 0.1224384 0.9879149 0.3920805 0.9879149 0.5403372 0.7587548 0.3920805 0.7587548 0.5403372 0.534432 0.3920805 0.534432 0.5403372 0.9879149 0.683711 0.534432 0.683711 0.7587548 0.683711 0.534432 0.8189059 0.7587548 0.8189059 0.534432 0.9745938 0.9879149 0.8189059 0.7587548 0.9745938 0.9879149 0.9745938 0.234226 0.2752117 0.03215076 0.2752117 0.03215076 0.2451515 0.234226 0.2451515 0.03215076 0.2198672 0.4299382 0.2752117 0.234226 0.2198672 0.4299382 0.2451515 0.4299382 0.2198672 0.6136721 0.2198672 0.6136721 0.2451515 0.8246891 0.2198672 0.6136721 0.2752117 0.8246891 0.2451515 0.8246891 0.2752117 0.5180133 0.9745938 0.5094377 0.9745938 0.5180133 0.8189059 0.5094377 0.8189059 0.4908827 0.9745938 0.5180133 0.683711 0.4908827 0.8189059 0.4819867 0.9745938 0.4819867 0.8189059 0.5094377 0.683711 0.5180133 0.5403372 0.4908827 0.683711 0.4819867 0.683711 0.5094377 0.5403372 0.5180133 0.3920805 0.5094377 0.3920805 0.4908827 0.3920805 0.4908827 0.5403372 0.4819867 0.5403372 0.4819867 0.3920805 0.4623331 0.9745938 0.2379645 0.9745938 0.4623331 0.8189059 0.2379645 0.8189059 0.009170672 0.9745938 0.4623331 0.683711 0.009170672 0.8189059 0.2379645 0.683711 0.009170672 0.683711 0.4623331 0.5403372 0.009170672 0.5403372 0.2379645 0.5403372 0.4623331 0.3920805 0.2379645 0.3920805 0.009170672 0.3920805</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__M_Magazine-texcoord-array" count="83" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface1__M_Magazine-vertex">
+          <input semantic="POSITION" source="#polySurface1__M_Magazine-position" />
+        </vertices>
+        <triangles material="M_Magazine" count="86">
+          <input semantic="VERTEX" source="#polySurface1__M_Magazine-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface1__M_Magazine-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface1__M_Magazine-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 2 2 2 3 3 3 4 4 4 3 3 3 5 5 5 4 4 4 6 6 6 4 4 4 5 5 5 4 4 4 6 6 6 7 7 7 5 5 5 8 8 8 6 6 6 9 9 9 10 10 10 11 11 11 12 12 12 9 9 9 11 11 11 12 12 12 13 13 13 9 9 9 13 13 13 14 14 14 9 9 9 13 13 13 15 15 15 14 14 14 13 13 13 16 16 16 15 15 15 14 14 14 15 15 15 17 17 17 18 18 18 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 22 22 22 20 20 20 21 21 21 23 23 23 22 22 22 21 21 21 19 19 19 24 24 24 21 21 21 23 23 23 21 21 21 25 25 25 21 21 21 26 26 26 25 25 25 24 24 24 26 26 26 21 21 21 25 25 25 26 26 26 27 27 27 26 26 26 24 24 24 28 28 28 26 26 26 28 28 28 27 27 27 29 29 29 27 27 27 28 28 28 24 24 24 30 30 30 28 28 28 31 31 31 29 29 29 28 28 28 31 31 31 28 28 28 30 30 30 32 32 32 31 31 31 30 30 30 33 33 33 34 34 34 35 35 35 36 36 36 33 33 33 35 35 35 36 36 36 35 35 35 37 37 37 33 33 33 36 36 36 38 38 38 39 39 39 36 36 36 37 37 37 36 36 36 39 39 39 40 40 40 36 36 36 40 40 40 38 38 38 39 39 39 41 41 41 40 40 40 40 40 40 41 41 41 42 42 42 40 40 40 43 43 43 38 38 38 43 43 43 40 40 40 42 42 42 43 43 43 42 42 42 44 44 44 43 43 43 45 45 45 38 38 38 46 46 46 43 43 43 44 44 44 45 45 45 43 43 43 46 46 46 47 47 47 45 45 45 46 46 46 48 48 48 49 49 49 50 50 50 49 49 49 51 51 51 50 50 50 49 49 49 52 52 52 51 51 51 53 53 53 50 50 50 51 51 51 52 52 52 54 54 54 51 51 51 52 52 52 55 55 55 54 54 54 55 55 55 56 56 56 54 54 54 57 57 57 53 53 53 51 51 51 58 58 58 53 53 53 57 57 57 51 51 51 54 54 54 59 59 59 54 54 54 56 56 56 59 59 59 57 57 57 51 51 51 59 59 59 56 56 56 60 60 60 59 59 59 61 61 61 58 58 58 57 57 57 58 58 58 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 64 64 64 63 63 63 61 61 61 57 57 57 59 59 59 65 65 65 61 61 61 57 57 57 65 65 65 59 59 59 60 60 60 65 65 65 65 65 65 64 64 64 61 61 61 60 60 60 66 66 66 65 65 65 65 65 65 66 66 66 64 64 64 66 66 66 67 67 67 64 64 64 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 69 69 69 72 72 72 71 71 71 70 70 70 71 71 71 73 73 73 72 72 72 74 74 74 71 71 71 71 71 71 75 75 75 73 73 73 71 71 71 74 74 74 75 75 75 74 74 74 76 76 76 75 75 75 73 73 73 75 75 75 77 77 77 76 76 76 78 78 78 75 75 75 75 75 75 79 79 79 77 77 77 78 78 78 79 79 79 75 75 75 77 77 77 79 79 79 80 80 80 79 79 79 81 81 81 80 80 80 79 79 79 78 78 78 81 81 81 78 78 78 82 82 82 81 81 81 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polySurface1__M_Magazine-mesh">
+      <skin source="#polySurface1__M_Magazine-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface1__M_Magazine-mesh-joint">
+          <Name_array id="polySurface1__M_Magazine-mesh-joint-array" count="1">Root_Model</Name_array>
+          <technique_common>
+            <accessor source="#polySurface1__M_Magazine-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__M_Magazine-mesh-inv_bind_matrix">
+          <float_array id="polySurface1__M_Magazine-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__M_Magazine-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface1__M_Magazine-mesh-weight">
+          <float_array id="polySurface1__M_Magazine-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface1__M_Magazine-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface1__M_Magazine-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface1__M_Magazine-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="83">
+          <input semantic="JOINT" source="#polySurface1__M_Magazine-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface1__M_Magazine-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Root_Model" name="Root_Model" sid="Root_Model" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="polySurface1__M_Magazine" name="polySurface1__M_Magazine" type="NODE">
+        <instance_controller url="#Armature_polySurface1__M_Magazine-mesh">
+          <skeleton>#Armature_Root_Model</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Magazine" target="#M_Magazine" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
