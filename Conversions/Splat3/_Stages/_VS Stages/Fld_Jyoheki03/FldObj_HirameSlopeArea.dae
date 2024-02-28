@@ -1,0 +1,1767 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="CanolaAV_Alb">
+      <init_from>CanolaAV_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaBV_Alb">
+      <init_from>CanolaBV_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaCV_Alb">
+      <init_from>CanolaCV_Alb.png</init_from>
+    </image>
+    <image id="CanolaC_Alb">
+      <init_from>CanolaC_Alb.png</init_from>
+    </image>
+    <image id="Canola_Fxm">
+      <init_from>Canola_Fxm.png</init_from>
+    </image>
+    <image id="Canola_Opa">
+      <init_from>Canola_Opa.png</init_from>
+    </image>
+    <image id="CarSet_Alb">
+      <init_from>CarSet_Alb.png</init_from>
+    </image>
+    <image id="CarSet_Emi">
+      <init_from>CarSet_Emi.png</init_from>
+    </image>
+    <image id="CarSet_Mtl">
+      <init_from>CarSet_Mtl.png</init_from>
+    </image>
+    <image id="CarSet_Nrm">
+      <init_from>CarSet_Nrm.png</init_from>
+    </image>
+    <image id="CarSet_Rgh">
+      <init_from>CarSet_Rgh.png</init_from>
+    </image>
+    <image id="DVFenceIronSet_Alb">
+      <init_from>DVFenceIronSet_Alb.png</init_from>
+    </image>
+    <image id="DVFenceIronSet_Nrm">
+      <init_from>DVFenceIronSet_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundConcrete_Alb">
+      <init_from>DVGroundConcrete_Alb.png</init_from>
+    </image>
+    <image id="DVGroundConcrete_Nrm">
+      <init_from>DVGroundConcrete_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundGrassLittleSoil_Alb">
+      <init_from>DVGroundGrassLittleSoil_Alb.png</init_from>
+    </image>
+    <image id="DVGroundGrassLittleSoil_Nrm">
+      <init_from>DVGroundGrassLittleSoil_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundSealSet_Alb">
+      <init_from>DVGroundSealSet_Alb.png</init_from>
+    </image>
+    <image id="DVGroundSealSet_Nrm">
+      <init_from>DVGroundSealSet_Nrm.png</init_from>
+    </image>
+    <image id="DVGroundSealSet_Opa">
+      <init_from>DVGroundSealSet_Opa.png</init_from>
+    </image>
+    <image id="DVPoleChain_Alb">
+      <init_from>DVPoleChain_Alb.png</init_from>
+    </image>
+    <image id="DVPoleChain_Nrm">
+      <init_from>DVPoleChain_Nrm.png</init_from>
+    </image>
+    <image id="DVPoleChain_Opa">
+      <init_from>DVPoleChain_Opa.png</init_from>
+    </image>
+    <image id="DVSet_Alb">
+      <init_from>DVSet_Alb.png</init_from>
+    </image>
+    <image id="DVSet_Emm">
+      <init_from>DVSet_Emm.png</init_from>
+    </image>
+    <image id="DVSet_Nrm">
+      <init_from>DVSet_Nrm.png</init_from>
+    </image>
+    <image id="DVSet_Opa">
+      <init_from>DVSet_Opa.png</init_from>
+    </image>
+    <image id="DVVendorSet_Alb">
+      <init_from>DVVendorSet_Alb.png</init_from>
+    </image>
+    <image id="DVVendorSet_Emm">
+      <init_from>DVVendorSet_Emm.png</init_from>
+    </image>
+    <image id="DVVendorSet_Nrm">
+      <init_from>DVVendorSet_Nrm.png</init_from>
+    </image>
+    <image id="DVWaterBasic_Nrm">
+      <init_from>DVWaterBasic_Nrm.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Alb">
+      <init_from>DV_BuilWall_Alb.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Emm">
+      <init_from>DV_BuilWall_Emm.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Nrm">
+      <init_from>DV_BuilWall_Nrm.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Opa">
+      <init_from>DV_BuilWall_Opa.png</init_from>
+    </image>
+    <image id="DV_BuilWall_Rgh">
+      <init_from>DV_BuilWall_Rgh.png</init_from>
+    </image>
+    <image id="GardeningObj_Alb">
+      <init_from>GardeningObj_Alb.png</init_from>
+    </image>
+    <image id="GardeningObj_Mtl">
+      <init_from>GardeningObj_Mtl.png</init_from>
+    </image>
+    <image id="GardeningObj_Nrm">
+      <init_from>GardeningObj_Nrm.png</init_from>
+    </image>
+    <image id="GardeningObj_Rgh">
+      <init_from>GardeningObj_Rgh.png</init_from>
+    </image>
+    <image id="Glass01_Nrm">
+      <init_from>Glass01_Nrm.png</init_from>
+    </image>
+    <image id="Glass01_Rgh">
+      <init_from>Glass01_Rgh.png</init_from>
+    </image>
+    <image id="GlassWire_Alb">
+      <init_from>GlassWire_Alb.png</init_from>
+    </image>
+    <image id="GlassWire_Nrm">
+      <init_from>GlassWire_Nrm.png</init_from>
+    </image>
+    <image id="GlassWire_Opa">
+      <init_from>GlassWire_Opa.png</init_from>
+    </image>
+    <image id="GlassWire_Rgh">
+      <init_from>GlassWire_Rgh.png</init_from>
+    </image>
+    <image id="Grass_Alb">
+      <init_from>Grass_Alb.png</init_from>
+    </image>
+    <image id="Grass_Nrm">
+      <init_from>Grass_Nrm.png</init_from>
+    </image>
+    <image id="Grass_Rgh">
+      <init_from>Grass_Rgh.png</init_from>
+    </image>
+    <image id="InsectPlant_Alb">
+      <init_from>InsectPlant_Alb.png</init_from>
+    </image>
+    <image id="InsectPlant_Nrm">
+      <init_from>InsectPlant_Nrm.png</init_from>
+    </image>
+    <image id="InsectPlant_Opa">
+      <init_from>InsectPlant_Opa.png</init_from>
+    </image>
+    <image id="InsectPlant_Rgh">
+      <init_from>InsectPlant_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Alb">
+      <init_from>JyohekiBGApartment_Alb.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Emm">
+      <init_from>JyohekiBGApartment_Emm.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Opa">
+      <init_from>JyohekiBGApartment_Opa.png</init_from>
+    </image>
+    <image id="JyohekiBGApartment_Rgh">
+      <init_from>JyohekiBGApartment_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiBGObj_Alb">
+      <init_from>JyohekiBGObj_Alb.png</init_from>
+    </image>
+    <image id="JyohekiBGObj_Emm">
+      <init_from>JyohekiBGObj_Emm.png</init_from>
+    </image>
+    <image id="JyohekiBGObj_Opa">
+      <init_from>JyohekiBGObj_Opa.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Alb">
+      <init_from>JyohekiGraffiti01_Alb.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Mtl">
+      <init_from>JyohekiGraffiti01_Mtl.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Nrm">
+      <init_from>JyohekiGraffiti01_Nrm.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Opa">
+      <init_from>JyohekiGraffiti01_Opa.png</init_from>
+    </image>
+    <image id="JyohekiGraffiti01_Rgh">
+      <init_from>JyohekiGraffiti01_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Alb">
+      <init_from>JyohekiSeat00_Alb.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Mask_Resi">
+      <init_from>JyohekiSeat00_Mask_Resi.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Nrm">
+      <init_from>JyohekiSeat00_Nrm.png</init_from>
+    </image>
+    <image id="JyohekiSeat00_Rgh">
+      <init_from>JyohekiSeat00_Rgh.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Alb">
+      <init_from>JyohekiTileSet_Alb.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Mtl">
+      <init_from>JyohekiTileSet_Mtl.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Nrm">
+      <init_from>JyohekiTileSet_Nrm.png</init_from>
+    </image>
+    <image id="JyohekiTileSet_Rgh">
+      <init_from>JyohekiTileSet_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Alb">
+      <init_from>mJyohekiAntenna_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Mtl">
+      <init_from>mJyohekiAntenna_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Nrm">
+      <init_from>mJyohekiAntenna_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiAntenna_Rgh">
+      <init_from>mJyohekiAntenna_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Alb">
+      <init_from>mJyohekiBackside_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Mtl">
+      <init_from>mJyohekiBackside_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Nrm">
+      <init_from>mJyohekiBackside_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Opa">
+      <init_from>mJyohekiBackside_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiBackside_Rgh">
+      <init_from>mJyohekiBackside_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Alb">
+      <init_from>mJyohekiBarbershopChair_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Mtl">
+      <init_from>mJyohekiBarbershopChair_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Nrm">
+      <init_from>mJyohekiBarbershopChair_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopChair_Rgh">
+      <init_from>mJyohekiBarbershopChair_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopDesk_Alb">
+      <init_from>mJyohekiBarbershopDesk_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopDesk_Nrm">
+      <init_from>mJyohekiBarbershopDesk_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopDesk_Rgh">
+      <init_from>mJyohekiBarbershopDesk_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Alb">
+      <init_from>mJyohekiBarbershopEntrance_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Mtl">
+      <init_from>mJyohekiBarbershopEntrance_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Nrm">
+      <init_from>mJyohekiBarbershopEntrance_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopEntrance_Rgh">
+      <init_from>mJyohekiBarbershopEntrance_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFloor_Alb">
+      <init_from>mJyohekiBarbershopFloor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFloor_Nrm">
+      <init_from>mJyohekiBarbershopFloor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFloor_Rgh">
+      <init_from>mJyohekiBarbershopFloor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Alb">
+      <init_from>mJyohekiBarbershopFrame_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Emm">
+      <init_from>mJyohekiBarbershopFrame_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Mtl">
+      <init_from>mJyohekiBarbershopFrame_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Nrm">
+      <init_from>mJyohekiBarbershopFrame_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopFrame_Rgh">
+      <init_from>mJyohekiBarbershopFrame_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Alb">
+      <init_from>mJyohekiBarbershopObj_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Mtl">
+      <init_from>mJyohekiBarbershopObj_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Nrm">
+      <init_from>mJyohekiBarbershopObj_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopObj_Rgh">
+      <init_from>mJyohekiBarbershopObj_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Alb">
+      <init_from>mJyohekiBarbershopSignboard_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Mtl">
+      <init_from>mJyohekiBarbershopSignboard_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Nrm">
+      <init_from>mJyohekiBarbershopSignboard_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopSignboard_Rgh">
+      <init_from>mJyohekiBarbershopSignboard_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallBlue_Nrm">
+      <init_from>mJyohekiBarbershopWallBlue_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallBlue_Rgh">
+      <init_from>mJyohekiBarbershopWallBlue_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallWood_Alb">
+      <init_from>mJyohekiBarbershopWallWood_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallWood_Nrm">
+      <init_from>mJyohekiBarbershopWallWood_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiBarbershopWallWood_Rgh">
+      <init_from>mJyohekiBarbershopWallWood_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Alb">
+      <init_from>mJyohekiCoinlaundryBoard_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Mtl">
+      <init_from>mJyohekiCoinlaundryBoard_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Nrm">
+      <init_from>mJyohekiCoinlaundryBoard_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryBoard_Rgh">
+      <init_from>mJyohekiCoinlaundryBoard_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Alb">
+      <init_from>mJyohekiCoinlaundryDesk_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Mtl">
+      <init_from>mJyohekiCoinlaundryDesk_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Nrm">
+      <init_from>mJyohekiCoinlaundryDesk_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryDesk_Rgh">
+      <init_from>mJyohekiCoinlaundryDesk_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryFloor_Alb">
+      <init_from>mJyohekiCoinlaundryFloor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryFloor_Nrm">
+      <init_from>mJyohekiCoinlaundryFloor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryFloor_Rgh">
+      <init_from>mJyohekiCoinlaundryFloor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Alb">
+      <init_from>mJyohekiCoinlaundryMachine_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Mtl">
+      <init_from>mJyohekiCoinlaundryMachine_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Nrm">
+      <init_from>mJyohekiCoinlaundryMachine_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryMachine_Rgh">
+      <init_from>mJyohekiCoinlaundryMachine_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWallSide_Alb">
+      <init_from>mJyohekiCoinlaundryWallSide_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWallSide_Nrm">
+      <init_from>mJyohekiCoinlaundryWallSide_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWallSide_Rgh">
+      <init_from>mJyohekiCoinlaundryWallSide_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWall_Alb">
+      <init_from>mJyohekiCoinlaundryWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWall_Nrm">
+      <init_from>mJyohekiCoinlaundryWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiCoinlaundryWall_Rgh">
+      <init_from>mJyohekiCoinlaundryWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Alb">
+      <init_from>mJyohekiDoor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Mtl">
+      <init_from>mJyohekiDoor_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Nrm">
+      <init_from>mJyohekiDoor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDoor_Rgh">
+      <init_from>mJyohekiDoor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Alb">
+      <init_from>mJyohekiDotBlock2_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Ao">
+      <init_from>mJyohekiDotBlock2_Ao.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Nrm">
+      <init_from>mJyohekiDotBlock2_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Opa">
+      <init_from>mJyohekiDotBlock2_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiDotBlock2_Rgh">
+      <init_from>mJyohekiDotBlock2_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVAsphalt_Alb">
+      <init_from>mJyohekiDVAsphalt_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVAsphalt_Nrm">
+      <init_from>mJyohekiDVAsphalt_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVAsphalt_Rgh">
+      <init_from>mJyohekiDVAsphalt_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Alb">
+      <init_from>mJyohekiDVDumpSiteWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Mtl">
+      <init_from>mJyohekiDVDumpSiteWall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Nrm">
+      <init_from>mJyohekiDVDumpSiteWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSiteWall_Rgh">
+      <init_from>mJyohekiDVDumpSiteWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Alb">
+      <init_from>mJyohekiDVDumpSite_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Mtl">
+      <init_from>mJyohekiDVDumpSite_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Nrm">
+      <init_from>mJyohekiDVDumpSite_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVDumpSite_Rgh">
+      <init_from>mJyohekiDVDumpSite_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVFence_Alb">
+      <init_from>mJyohekiDVFence_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVFence_Nrm">
+      <init_from>mJyohekiDVFence_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVFence_Rgh">
+      <init_from>mJyohekiDVFence_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVLawn_Alb">
+      <init_from>mJyohekiDVLawn_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVLawn_Nrm">
+      <init_from>mJyohekiDVLawn_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVLawn_Rgh">
+      <init_from>mJyohekiDVLawn_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Alb">
+      <init_from>mJyohekiDVObj_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Emm">
+      <init_from>mJyohekiDVObj_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Mtl">
+      <init_from>mJyohekiDVObj_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Nrm">
+      <init_from>mJyohekiDVObj_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVObj_Rgh">
+      <init_from>mJyohekiDVObj_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoad_Alb">
+      <init_from>mJyohekiDVRoad_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoad_Nrm">
+      <init_from>mJyohekiDVRoad_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoad_Rgh">
+      <init_from>mJyohekiDVRoad_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall01_Emm">
+      <init_from>mJyohekiDVRoomWall01_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Alb">
+      <init_from>mJyohekiDVRoomWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Emm">
+      <init_from>mJyohekiDVRoomWall_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Mtl">
+      <init_from>mJyohekiDVRoomWall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Nrm">
+      <init_from>mJyohekiDVRoomWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Opa">
+      <init_from>mJyohekiDVRoomWall_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiDVRoomWall_Rgh">
+      <init_from>mJyohekiDVRoomWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Alb">
+      <init_from>mJyohekiDVSideBlock_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Mtl">
+      <init_from>mJyohekiDVSideBlock_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Nrm">
+      <init_from>mJyohekiDVSideBlock_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVSideBlock_Rgh">
+      <init_from>mJyohekiDVSideBlock_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVStep_Alb">
+      <init_from>mJyohekiDVStep_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVStep_Nrm">
+      <init_from>mJyohekiDVStep_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVStep_Rgh">
+      <init_from>mJyohekiDVStep_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVTileRed_Alb">
+      <init_from>mJyohekiDVTileRed_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVTileRed_Nrm">
+      <init_from>mJyohekiDVTileRed_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVTileRed_Rgh">
+      <init_from>mJyohekiDVTileRed_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiDVWoodBase_Alb">
+      <init_from>mJyohekiDVWoodBase_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiDVWoodBase_Nrm">
+      <init_from>mJyohekiDVWoodBase_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiDVWoodBase_Rgh">
+      <init_from>mJyohekiDVWoodBase_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Alb">
+      <init_from>mJyohekiEntranceDoor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Mtl">
+      <init_from>mJyohekiEntranceDoor_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Nrm">
+      <init_from>mJyohekiEntranceDoor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceDoor_Rgh">
+      <init_from>mJyohekiEntranceDoor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceFloor_Alb">
+      <init_from>mJyohekiEntranceFloor_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceFloor_Nrm">
+      <init_from>mJyohekiEntranceFloor_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceFloor_Rgh">
+      <init_from>mJyohekiEntranceFloor_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceGround_Alb">
+      <init_from>mJyohekiEntranceGround_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceGround_Nrm">
+      <init_from>mJyohekiEntranceGround_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceGround_Rgh">
+      <init_from>mJyohekiEntranceGround_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Alb">
+      <init_from>mJyohekiEntranceObj_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Emm">
+      <init_from>mJyohekiEntranceObj_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Mtl">
+      <init_from>mJyohekiEntranceObj_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Nrm">
+      <init_from>mJyohekiEntranceObj_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceObj_Rgh">
+      <init_from>mJyohekiEntranceObj_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceWall_Alb">
+      <init_from>mJyohekiEntranceWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceWall_Nrm">
+      <init_from>mJyohekiEntranceWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiEntranceWall_Rgh">
+      <init_from>mJyohekiEntranceWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Alb">
+      <init_from>mJyohekiFence_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Mtl">
+      <init_from>mJyohekiFence_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Nrm">
+      <init_from>mJyohekiFence_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Opa">
+      <init_from>mJyohekiFence_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiFence_Rgh">
+      <init_from>mJyohekiFence_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Alb">
+      <init_from>mJyohekiHandrailEdging_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Mtl">
+      <init_from>mJyohekiHandrailEdging_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Nrm">
+      <init_from>mJyohekiHandrailEdging_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiHandrailEdging_Rgh">
+      <init_from>mJyohekiHandrailEdging_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Alb">
+      <init_from>mJyohekiMetalFrame_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Mtl">
+      <init_from>mJyohekiMetalFrame_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Nrm">
+      <init_from>mJyohekiMetalFrame_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiMetalFrame_Rgh">
+      <init_from>mJyohekiMetalFrame_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Alb">
+      <init_from>mJyohekiMetalNet_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Mtl">
+      <init_from>mJyohekiMetalNet_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Nrm">
+      <init_from>mJyohekiMetalNet_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiMetalNet_Rgh">
+      <init_from>mJyohekiMetalNet_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Alb">
+      <init_from>mJyohekiMetalWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Mtl">
+      <init_from>mJyohekiMetalWall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Nrm">
+      <init_from>mJyohekiMetalWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiMetalWall_Rgh">
+      <init_from>mJyohekiMetalWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Alb">
+      <init_from>mJyohekiNet_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Mtl">
+      <init_from>mJyohekiNet_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Nrm">
+      <init_from>mJyohekiNet_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Opa">
+      <init_from>mJyohekiNet_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiNet_Rgh">
+      <init_from>mJyohekiNet_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Alb">
+      <init_from>mJyohekiOutdoorunit_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Mtl">
+      <init_from>mJyohekiOutdoorunit_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Nrm">
+      <init_from>mJyohekiOutdoorunit_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Opa">
+      <init_from>mJyohekiOutdoorunit_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiOutdoorunit_Rgh">
+      <init_from>mJyohekiOutdoorunit_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallBrick_Alb">
+      <init_from>mJyohekiOuterWallBrick_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallBrick_Nrm">
+      <init_from>mJyohekiOuterWallBrick_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallBrick_Rgh">
+      <init_from>mJyohekiOuterWallBrick_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallGreen_Alb">
+      <init_from>mJyohekiOuterWallGreen_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallGreen_Nrm">
+      <init_from>mJyohekiOuterWallGreen_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWallGreen_Rgh">
+      <init_from>mJyohekiOuterWallGreen_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWall_Alb">
+      <init_from>mJyohekiOuterWall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWall_Nrm">
+      <init_from>mJyohekiOuterWall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiOuterWall_Rgh">
+      <init_from>mJyohekiOuterWall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Alb">
+      <init_from>mJyohekiPipe_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Mtl">
+      <init_from>mJyohekiPipe_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Nrm">
+      <init_from>mJyohekiPipe_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiPipe_Rgh">
+      <init_from>mJyohekiPipe_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Alb">
+      <init_from>mJyohekiRoadCornerTileA_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Mtl">
+      <init_from>mJyohekiRoadCornerTileA_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Nrm">
+      <init_from>mJyohekiRoadCornerTileA_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileA_Rgh">
+      <init_from>mJyohekiRoadCornerTileA_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Alb">
+      <init_from>mJyohekiRoadCornerTileB_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Mtl">
+      <init_from>mJyohekiRoadCornerTileB_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Nrm">
+      <init_from>mJyohekiRoadCornerTileB_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadCornerTileB_Rgh">
+      <init_from>mJyohekiRoadCornerTileB_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadEdge_Alb">
+      <init_from>mJyohekiRoadEdge_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadEdge_Nrm">
+      <init_from>mJyohekiRoadEdge_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadEdge_Rgh">
+      <init_from>mJyohekiRoadEdge_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Alb">
+      <init_from>mJyohekiRoadMetalTileA_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Mtl">
+      <init_from>mJyohekiRoadMetalTileA_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Nrm">
+      <init_from>mJyohekiRoadMetalTileA_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadMetalTileA_Rgh">
+      <init_from>mJyohekiRoadMetalTileA_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileA_Alb">
+      <init_from>mJyohekiRoadTileA_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileA_Nrm">
+      <init_from>mJyohekiRoadTileA_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileA_Rgh">
+      <init_from>mJyohekiRoadTileA_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileB_Alb">
+      <init_from>mJyohekiRoadTileB_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileB_Nrm">
+      <init_from>mJyohekiRoadTileB_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileB_Rgh">
+      <init_from>mJyohekiRoadTileB_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileC_Alb">
+      <init_from>mJyohekiRoadTileC_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileC_Nrm">
+      <init_from>mJyohekiRoadTileC_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileC_Rgh">
+      <init_from>mJyohekiRoadTileC_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileD_Alb">
+      <init_from>mJyohekiRoadTileD_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileD_Nrm">
+      <init_from>mJyohekiRoadTileD_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoadTileD_Rgh">
+      <init_from>mJyohekiRoadTileD_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiRoad_Alb">
+      <init_from>mJyohekiRoad_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiRoad_Nrm">
+      <init_from>mJyohekiRoad_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiRoad_Rgh">
+      <init_from>mJyohekiRoad_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Alb">
+      <init_from>mJyohekiStreetlight_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Emm">
+      <init_from>mJyohekiStreetlight_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Mtl">
+      <init_from>mJyohekiStreetlight_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Nrm">
+      <init_from>mJyohekiStreetlight_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiStreetlight_Rgh">
+      <init_from>mJyohekiStreetlight_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Alb">
+      <init_from>mJyohekiTank_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Mtl">
+      <init_from>mJyohekiTank_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Nrm">
+      <init_from>mJyohekiTank_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiTank_Rgh">
+      <init_from>mJyohekiTank_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Alb">
+      <init_from>mJyohekiTelPole_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Mtl">
+      <init_from>mJyohekiTelPole_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Nrm">
+      <init_from>mJyohekiTelPole_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiTelPole_Rgh">
+      <init_from>mJyohekiTelPole_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWallUnder_Alb">
+      <init_from>mJyohekiWallUnder_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWallUnder_Nrm">
+      <init_from>mJyohekiWallUnder_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWallUnder_Rgh">
+      <init_from>mJyohekiWallUnder_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Alb">
+      <init_from>mJyohekiWaterTank_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Mtl">
+      <init_from>mJyohekiWaterTank_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Nrm">
+      <init_from>mJyohekiWaterTank_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWaterTank_Rgh">
+      <init_from>mJyohekiWaterTank_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Alb">
+      <init_from>mJyohekiWindowSmall_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Emm">
+      <init_from>mJyohekiWindowSmall_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Mtl">
+      <init_from>mJyohekiWindowSmall_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Nrm">
+      <init_from>mJyohekiWindowSmall_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWindowSmall_Rgh">
+      <init_from>mJyohekiWindowSmall_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Alb">
+      <init_from>mJyohekiWindow_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Emm">
+      <init_from>mJyohekiWindow_Emm.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Mtl">
+      <init_from>mJyohekiWindow_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Nrm">
+      <init_from>mJyohekiWindow_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWindow_Rgh">
+      <init_from>mJyohekiWindow_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Alb">
+      <init_from>mJyohekiWireNetting_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Mtl">
+      <init_from>mJyohekiWireNetting_Mtl.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Nrm">
+      <init_from>mJyohekiWireNetting_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Opa">
+      <init_from>mJyohekiWireNetting_Opa.png</init_from>
+    </image>
+    <image id="mJyohekiWireNetting_Rgh">
+      <init_from>mJyohekiWireNetting_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWoodCover_Alb">
+      <init_from>mJyohekiWoodCover_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWoodCover_Nrm">
+      <init_from>mJyohekiWoodCover_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWoodCover_Rgh">
+      <init_from>mJyohekiWoodCover_Rgh.png</init_from>
+    </image>
+    <image id="mJyohekiWoodFence_Alb">
+      <init_from>mJyohekiWoodFence_Alb.png</init_from>
+    </image>
+    <image id="mJyohekiWoodFence_Nrm">
+      <init_from>mJyohekiWoodFence_Nrm.png</init_from>
+    </image>
+    <image id="mJyohekiWoodFence_Rgh">
+      <init_from>mJyohekiWoodFence_Rgh.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Alb">
+      <init_from>Mt_Wave_Bike_B_Alb.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Mtl">
+      <init_from>Mt_Wave_Bike_B_Mtl.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Nrm">
+      <init_from>Mt_Wave_Bike_B_Nrm.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Opa">
+      <init_from>Mt_Wave_Bike_B_Opa.png</init_from>
+    </image>
+    <image id="Mt_Wave_Bike_B_Rgh">
+      <init_from>Mt_Wave_Bike_B_Rgh.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Alb">
+      <init_from>M_FenceVinyl_Alb.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Mtl">
+      <init_from>M_FenceVinyl_Mtl.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Nrm">
+      <init_from>M_FenceVinyl_Nrm.png</init_from>
+    </image>
+    <image id="M_FenceVinyl_Rgh">
+      <init_from>M_FenceVinyl_Rgh.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Alb">
+      <init_from>PlazaCafeTableSet_Alb.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Mtl">
+      <init_from>PlazaCafeTableSet_Mtl.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Nrm">
+      <init_from>PlazaCafeTableSet_Nrm.png</init_from>
+    </image>
+    <image id="PlazaCafeTableSet_Rgh">
+      <init_from>PlazaCafeTableSet_Rgh.png</init_from>
+    </image>
+    <image id="SheetVinylBlue_Alb">
+      <init_from>SheetVinylBlue_Alb.png</init_from>
+    </image>
+    <image id="SheetVinylBlue_Nrm">
+      <init_from>SheetVinylBlue_Nrm.png</init_from>
+    </image>
+    <image id="SheetVinylBlue_Rgh">
+      <init_from>SheetVinylBlue_Rgh.png</init_from>
+    </image>
+    <image id="SheetVinyl_Alb">
+      <init_from>SheetVinyl_Alb.png</init_from>
+    </image>
+    <image id="SheetVinyl_Mtl">
+      <init_from>SheetVinyl_Mtl.png</init_from>
+    </image>
+    <image id="SheetVinyl_Nrm">
+      <init_from>SheetVinyl_Nrm.png</init_from>
+    </image>
+    <image id="SheetVinyl_Rgh">
+      <init_from>SheetVinyl_Rgh.png</init_from>
+    </image>
+    <image id="Starfish00_Alb">
+      <init_from>Starfish00_Alb.png</init_from>
+    </image>
+    <image id="Starfish00_Nrm">
+      <init_from>Starfish00_Nrm.png</init_from>
+    </image>
+    <image id="Starfish00_Rgh">
+      <init_from>Starfish00_Rgh.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Alb">
+      <init_from>StreetKanbanSet_Alb.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Mtl">
+      <init_from>StreetKanbanSet_Mtl.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Nrm">
+      <init_from>StreetKanbanSet_Nrm.png</init_from>
+    </image>
+    <image id="StreetKanbanSet_Rgh">
+      <init_from>StreetKanbanSet_Rgh.png</init_from>
+    </image>
+    <image id="TransmissionTowerMaterial_Alb">
+      <init_from>TransmissionTowerMaterial_Alb.png</init_from>
+    </image>
+    <image id="TransmissionTowerMaterial_Nrm">
+      <init_from>TransmissionTowerMaterial_Nrm.png</init_from>
+    </image>
+    <image id="TransmissionTowerMaterial_Opa">
+      <init_from>TransmissionTowerMaterial_Opa.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Alb">
+      <init_from>TropicalPlantsSetLeaves_Alb.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Nrm">
+      <init_from>TropicalPlantsSetLeaves_Nrm.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Opa">
+      <init_from>TropicalPlantsSetLeaves_Opa.png</init_from>
+    </image>
+    <image id="TropicalPlantsSetLeaves_Rgh">
+      <init_from>TropicalPlantsSetLeaves_Rgh.png</init_from>
+    </image>
+    <image id="VinylClear_Nrm">
+      <init_from>VinylClear_Nrm.png</init_from>
+    </image>
+    <image id="WallIvy_Alb">
+      <init_from>WallIvy_Alb.png</init_from>
+    </image>
+    <image id="WallIvy_Nrm">
+      <init_from>WallIvy_Nrm.png</init_from>
+    </image>
+    <image id="WallMarbleBlack_Alb">
+      <init_from>WallMarbleBlack_Alb.png</init_from>
+    </image>
+    <image id="WallMarbleBlack_Nrm">
+      <init_from>WallMarbleBlack_Nrm.png</init_from>
+    </image>
+    <image id="WallSteelGrey_Alb">
+      <init_from>WallSteelGrey_Alb.png</init_from>
+    </image>
+    <image id="WallSteelSet_Alb">
+      <init_from>WallSteelSet_Alb.png</init_from>
+    </image>
+    <image id="WallSteelSet_Mtl">
+      <init_from>WallSteelSet_Mtl.png</init_from>
+    </image>
+    <image id="WallSteelSet_Nrm">
+      <init_from>WallSteelSet_Nrm.png</init_from>
+    </image>
+    <image id="WallSteelSet_Rgh">
+      <init_from>WallSteelSet_Rgh.png</init_from>
+    </image>
+    <image id="WoodBlock_Alb">
+      <init_from>WoodBlock_Alb.png</init_from>
+    </image>
+    <image id="WoodBlock_Nrm">
+      <init_from>WoodBlock_Nrm.png</init_from>
+    </image>
+    <image id="WoodBlock_Rgh">
+      <init_from>WoodBlock_Rgh.png</init_from>
+    </image>
+    <image id="WoodTile_Alb">
+      <init_from>WoodTile_Alb.png</init_from>
+    </image>
+    <image id="WoodTile_Nrm">
+      <init_from>WoodTile_Nrm.png</init_from>
+    </image>
+    <image id="WoodTile_Rgh">
+      <init_from>WoodTile_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="SheetVinylBlue">
+      <instance_effect url="#Effect_SheetVinylBlue" />
+    </material>
+    <material id="mJyohekiHandrailEdging_np">
+      <instance_effect url="#Effect_mJyohekiHandrailEdging_np" />
+    </material>
+    <material id="mJyohekiOuterWall">
+      <instance_effect url="#Effect_mJyohekiOuterWall" />
+    </material>
+    <material id="mJyohekiWoodFence">
+      <instance_effect url="#Effect_mJyohekiWoodFence" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_SheetVinylBlue">
+      <profile_COMMON>
+        <newparam sid="surface_SheetVinylBlue-diffuse">
+          <surface type="2D">
+            <init_from>SheetVinylBlue_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SheetVinylBlue-diffuse">
+          <sampler2D>
+            <source>surface_SheetVinylBlue-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_SheetVinylBlue-bump">
+          <surface type="2D">
+            <init_from>SheetVinylBlue_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_SheetVinylBlue-bump">
+          <sampler2D>
+            <source>surface_SheetVinylBlue-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_SheetVinylBlue-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_SheetVinylBlue-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_mJyohekiHandrailEdging_np">
+      <profile_COMMON>
+        <newparam sid="surface_mJyohekiHandrailEdging_np-diffuse">
+          <surface type="2D">
+            <init_from>mJyohekiHandrailEdging_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mJyohekiHandrailEdging_np-diffuse">
+          <sampler2D>
+            <source>surface_mJyohekiHandrailEdging_np-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mJyohekiHandrailEdging_np-bump">
+          <surface type="2D">
+            <init_from>mJyohekiHandrailEdging_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mJyohekiHandrailEdging_np-bump">
+          <sampler2D>
+            <source>surface_mJyohekiHandrailEdging_np-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_mJyohekiHandrailEdging_np-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_mJyohekiHandrailEdging_np-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_mJyohekiOuterWall">
+      <profile_COMMON>
+        <newparam sid="surface_mJyohekiOuterWall-diffuse">
+          <surface type="2D">
+            <init_from>mJyohekiOuterWall_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mJyohekiOuterWall-diffuse">
+          <sampler2D>
+            <source>surface_mJyohekiOuterWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mJyohekiOuterWall-bump">
+          <surface type="2D">
+            <init_from>mJyohekiOuterWall_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mJyohekiOuterWall-bump">
+          <sampler2D>
+            <source>surface_mJyohekiOuterWall-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_mJyohekiOuterWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_mJyohekiOuterWall-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_mJyohekiWoodFence">
+      <profile_COMMON>
+        <newparam sid="surface_mJyohekiWoodFence-diffuse">
+          <surface type="2D">
+            <init_from>mJyohekiWoodFence_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mJyohekiWoodFence-diffuse">
+          <sampler2D>
+            <source>surface_mJyohekiWoodFence-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mJyohekiWoodFence-bump">
+          <surface type="2D">
+            <init_from>mJyohekiWoodFence_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mJyohekiWoodFence-bump">
+          <sampler2D>
+            <source>surface_mJyohekiWoodFence-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_mJyohekiWoodFence-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_mJyohekiWoodFence-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="SteelFrame_1__mJyohekiHandrailEdging_np-mesh" name="SteelFrame_1__mJyohekiHandrailEdging_np">
+      <mesh>
+        <source id="SteelFrame_1__mJyohekiHandrailEdging_np-position">
+          <float_array id="SteelFrame_1__mJyohekiHandrailEdging_np-position-array" count="336">13.69998 6.199978 -36.95 13.69998 8.676423 -36.95 13.5 5.999999 -36.95 13.5 8.999997 -36.95 13.69998 6.199978 -36.95 13.5 5.999999 -36.95 19.85287 6.199978 -36.95 21 5.999999 -36.95 13.69998 8.676423 -36.95 19.85287 6.199978 -36.95 13.5 8.999997 -36.95 21 5.999999 -36.95 13.69998 6.199978 -37 13.69998 8.676423 -37 13.69998 6.199978 -36.95 13.69998 8.676423 -36.95 13.5 8.999997 -37 13.5 5.999999 -37 13.5 8.999997 -36.95 13.5 5.999999 -36.95 13.5 5.999999 -37 21 5.999999 -37 13.5 5.999999 -36.95 21 5.999999 -36.95 19.85287 6.199978 -37 13.69998 6.199978 -37 19.85287 6.199978 -36.95 13.69998 6.199978 -36.95 13.69998 8.676423 -37 19.85287 6.199978 -37 13.69998 8.676423 -36.95 19.85287 6.199978 -36.95 21 5.999999 -37 13.5 8.999997 -37 21 5.999999 -36.95 13.5 8.999997 -36.95 -13.69998 6.199978 36.95 -13.69998 8.676423 36.95 -13.5 5.999999 36.95 -13.5 8.999997 36.95 -13.69998 6.199978 36.95 -13.5 5.999999 36.95 -19.85287 6.199978 36.95 -21 5.999999 36.95 -13.69998 8.676423 36.95 -19.85287 6.199978 36.95 -13.5 8.999997 36.95 -21 5.999999 36.95 -13.69998 6.199978 37 -13.69998 8.676423 37 -13.69998 6.199978 36.95 -13.69998 8.676423 36.95 -13.5 8.999997 37 -13.5 5.999999 37 -13.5 8.999997 36.95 -13.5 5.999999 36.95 -13.5 5.999999 37 -21 5.999999 37 -13.5 5.999999 36.95 -21 5.999999 36.95 -19.85287 6.199978 37 -13.69998 6.199978 37 -19.85287 6.199978 36.95 -13.69998 6.199978 36.95 -13.69998 8.676423 37 -19.85287 6.199978 37 -13.69998 8.676423 36.95 -19.85287 6.199978 36.95 -21 5.999999 37 -13.5 8.999997 37 -21 5.999999 36.95 -13.5 8.999997 36.95 13.66018 6.161125 -36.99056 13.68059 8.704156 -36.97749 13.5 5.998755 -36.95242 13.48597 8.945443 -36.97097 13.66018 6.161125 -36.99056 13.5 5.998755 -36.95242 19.87805 6.195016 -36.97514 21 6.000012 -36.95361 13.68059 8.704156 -36.97749 19.87805 6.195016 -36.97514 13.48597 8.945443 -36.97097 21 6.000012 -36.95361 -13.66018 6.161125 36.99056 -13.6806 8.704156 36.97749 -13.5 5.998755 36.95242 -13.487 8.945055 36.97097 -13.66018 6.161125 36.99056 -13.5 5.998755 36.95242 -19.87805 6.195016 36.97514 -21 5.999999 36.95361 -13.6806 8.704156 36.97749 -19.87805 6.195016 36.97514 -13.487 8.945055 36.97097 -21 5.999999 36.95361 13.67516 8.708449 -36.98425 13.48186 8.96335 -36.96069 13.46157 5.959195 -36.98874 13.46157 5.959195 -36.98874 21 6.000015 -36.95521 19.88116 6.193843 -36.9789 -13.46154 5.957502 36.98932 -21 5.999999 36.95521 -19.88104 6.193617 36.97919 -19.88104 6.193617 36.97919 -21 5.999999 36.95521 -13.47205 8.964715 36.97134 13.67516 8.708449 -36.98425 19.88116 6.193843 -36.9789 13.48186 8.96335 -36.96069 21 6.000015 -36.95521</float_array>
+          <technique_common>
+            <accessor source="#SteelFrame_1__mJyohekiHandrailEdging_np-position-array" count="112" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SteelFrame_1__mJyohekiHandrailEdging_np-normal">
+          <float_array id="SteelFrame_1__mJyohekiHandrailEdging_np-normal-array" count="336">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.3737769 -0.9275929 0 -0.3737769 -0.9275929 0 -0.3737769 -0.9275929 0 -0.3737769 -0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.3737769 -0.9275929 0 0.3737769 -0.9275929 0 0.3737769 -0.9275929 0 0.3737769 -0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#SteelFrame_1__mJyohekiHandrailEdging_np-normal-array" count="112" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SteelFrame_1__mJyohekiHandrailEdging_np-texcoord">
+          <float_array id="SteelFrame_1__mJyohekiHandrailEdging_np-texcoord-array" count="224">0.4570313 0.4008789 0.824707 0.4008789 0.4272461 0.4301758 0.8725586 0.4301758 0.9101563 0.4008789 0.9399414 0.4301758 -0.002609253 0.4008789 -0.1727295 0.4301758 0.4196777 0.4008789 1.304688 0.4008789 0.3789063 0.4301758 1.456055 0.4301758 0.4570313 0.3930664 0.824707 0.3930664 0.4570313 0.4008789 0.824707 0.4008789 0.8725586 0.4379883 0.4272461 0.4379883 0.8725586 0.4301758 0.4272461 0.4301758 0.9399414 0.4379883 -0.1727295 0.4379883 0.9399414 0.4301758 -0.1727295 0.4301758 -0.00261116 0.3930664 0.9101563 0.3930664 -0.002609253 0.4008789 0.9101563 0.4008789 0.4196777 0.3930664 1.304688 0.3930664 0.4196777 0.4008789 1.304688 0.4008789 1.456055 0.4379883 0.3789063 0.4379883 1.456055 0.4301758 0.3789063 0.4301758 0.4570313 0.4008789 0.824707 0.4008789 0.4272461 0.4301758 0.8725586 0.4301758 0.9101563 0.4008789 0.9399414 0.4301758 -0.002609253 0.4008789 -0.1727295 0.4301758 0.4196777 0.4008789 1.304688 0.4008789 0.3789063 0.4301758 1.456055 0.4301758 0.4570313 0.3930664 0.824707 0.3930664 0.4570313 0.4008789 0.824707 0.4008789 0.8725586 0.4379883 0.4272461 0.4379883 0.8725586 0.4301758 0.4272461 0.4301758 0.9399414 0.4379883 -0.1727295 0.4379883 0.9399414 0.4301758 -0.1727295 0.4301758 -0.00261116 0.3930664 0.9101563 0.3930664 -0.002609253 0.4008789 0.9101563 0.4008789 0.4196777 0.3930664 1.304688 0.3930664 0.4196777 0.4008789 1.304688 0.4008789 1.456055 0.4379883 0.3789063 0.4379883 1.456055 0.4301758 0.3789063 0.4301758 0.4570313 0.4008789 0.824707 0.4008789 0.4272461 0.4301758 0.8579102 0.4379883 0.9101563 0.4008789 0.9399414 0.4301758 -0.002609253 0.4008789 -0.1727295 0.4301758 0.4196777 0.4008789 1.304688 0.4008789 0.3789063 0.4301758 1.456055 0.4301758 0.4570313 0.4008789 0.824707 0.4008789 0.4272461 0.4301758 0.8579102 0.4379883 0.9101563 0.4008789 0.9399414 0.4301758 -0.002609253 0.4008789 -0.1727295 0.4301758 0.4196777 0.4008789 1.304688 0.4008789 0.3789063 0.4301758 1.456055 0.4301758 0.824707 0.4008789 0.8579102 0.4379883 0.4272461 0.4301758 0.9399414 0.4301758 -0.1727295 0.4301758 -0.002609253 0.4008789 0.9399414 0.4301758 -0.1727295 0.4301758 -0.002609253 0.4008789 1.304688 0.4008789 1.456055 0.4301758 0.3789063 0.4301758 0.4196777 0.4008789 1.304688 0.4008789 0.3789063 0.4301758 1.456055 0.4301758</float_array>
+          <technique_common>
+            <accessor source="#SteelFrame_1__mJyohekiHandrailEdging_np-texcoord-array" count="112" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SteelFrame_1__mJyohekiHandrailEdging_np-texcoord_1">
+          <float_array id="SteelFrame_1__mJyohekiHandrailEdging_np-texcoord-array_1" count="224">0.2695964 0.3759823 0.2695964 0.05220109 0.2957503 0.402121 0.2957503 0.009903133 0.06448463 0.0360418 0.09062333 0.009903133 0.06448463 0.840177 0.09062333 0.9900969 0.1670405 0.9232929 0.1670405 0.1437858 0.1931792 0.9592584 0.1931792 0.009903133 0.2630655 0.3759823 0.2630655 0.05220109 0.2695964 0.3759823 0.2695964 0.05220109 0.3022812 0.009903133 0.3022812 0.402121 0.2957503 0.009903133 0.2957503 0.402121 0.09716945 0.009903133 0.09716945 0.9900969 0.09062333 0.009903133 0.09062333 0.9900969 0.0579385 0.840177 0.0579385 0.0360418 0.06448463 0.840177 0.06448463 0.0360418 0.1605096 0.9232929 0.1605096 0.1437705 0.1670405 0.9232929 0.1670405 0.1437858 0.1997253 0.009903133 0.1997253 0.9592737 0.1931792 0.009903133 0.1931792 0.9592584 0.2183261 0.3759823 0.2183261 0.05220109 0.2444648 0.402121 0.2444648 0.009903133 0.01301595 0.0360418 0.03916991 0.009903133 0.01301595 0.840177 0.03916991 0.9900969 0.1157549 0.9232929 0.1157549 0.1437858 0.1419089 0.9592584 0.1419089 0.009903133 0.21178 0.3759823 0.21178 0.05220109 0.2183261 0.3759823 0.2183261 0.05220109 0.2510109 0.009903133 0.2510109 0.402121 0.2444648 0.009903133 0.2444648 0.402121 0.04570077 0.009903133 0.04570077 0.9900969 0.03916991 0.009903133 0.03916991 0.9900969 0.006485085 0.840177 0.006485085 0.0360418 0.01301595 0.840177 0.01301595 0.0360418 0.1092241 0.9232929 0.1092241 0.1437705 0.1157549 0.9232929 0.1157549 0.1437858 0.1484398 0.009903133 0.1484398 0.9592737 0.1419089 0.009903133 0.1419089 0.9592584 0.2695964 0.3759823 0.2695964 0.05220109 0.2957503 0.402121 0.3022812 0.02285802 0.06448463 0.0360418 0.09062333 0.009903133 0.06448463 0.840177 0.09062333 0.9900969 0.1670405 0.9232929 0.1670405 0.1437858 0.1931792 0.9592584 0.1931792 0.009903133 0.2183261 0.3759823 0.2183261 0.05220109 0.2444648 0.402121 0.2510109 0.02285802 0.01301595 0.0360418 0.03916991 0.009903133 0.01301595 0.840177 0.03916991 0.9900969 0.1157549 0.9232929 0.1157549 0.1437858 0.1419089 0.9592584 0.1419089 0.009903133 0.2695964 0.05220109 0.3022812 0.02285802 0.2957503 0.402121 0.09062333 0.009903133 0.09062333 0.9900969 0.06448463 0.840177 0.03916991 0.009903133 0.03916991 0.9900969 0.01301595 0.840177 0.1157549 0.1437858 0.1419089 0.009903133 0.1419089 0.9592584 0.1670405 0.9232929 0.1670405 0.1437858 0.1931792 0.9592584 0.1931792 0.009903133</float_array>
+          <technique_common>
+            <accessor source="#SteelFrame_1__mJyohekiHandrailEdging_np-texcoord-array_1" count="112" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="SteelFrame_1__mJyohekiHandrailEdging_np-vertex">
+          <input semantic="POSITION" source="#SteelFrame_1__mJyohekiHandrailEdging_np-position" />
+        </vertices>
+        <triangles material="mJyohekiHandrailEdging_np" count="36">
+          <input semantic="VERTEX" source="#SteelFrame_1__mJyohekiHandrailEdging_np-vertex" offset="0" />
+          <input semantic="NORMAL" source="#SteelFrame_1__mJyohekiHandrailEdging_np-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#SteelFrame_1__mJyohekiHandrailEdging_np-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#SteelFrame_1__mJyohekiHandrailEdging_np-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Vinyl_000_1__SheetVinylBlue-mesh" name="Vinyl_000_1__SheetVinylBlue">
+      <mesh>
+        <source id="Vinyl_000_1__SheetVinylBlue-position">
+          <float_array id="Vinyl_000_1__SheetVinylBlue-position-array" count="54">13.69998 6.19998 -37 19.85287 6.199979 -37 13.69998 8.676424 -37 -13.69998 6.19998 37 -19.85287 6.199979 37 -13.69998 8.676424 37 13.66018 6.161125 -36.99056 19.87805 6.195016 -36.97514 13.68059 8.704156 -36.97749 -13.66018 6.161125 36.99056 -19.87805 6.195016 36.97514 -13.6806 8.704156 36.97749 13.46157 5.959195 -36.98874 19.88116 6.193843 -36.9789 13.67516 8.708449 -36.98425 -13.46154 5.957502 36.98932 -19.88104 6.193617 36.97919 -13.47205 8.964715 36.97134</float_array>
+          <technique_common>
+            <accessor source="#Vinyl_000_1__SheetVinylBlue-position-array" count="18" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinyl_000_1__SheetVinylBlue-normal">
+          <float_array id="Vinyl_000_1__SheetVinylBlue-normal-array" count="54">0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Vinyl_000_1__SheetVinylBlue-normal-array" count="18" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinyl_000_1__SheetVinylBlue-texcoord">
+          <float_array id="Vinyl_000_1__SheetVinylBlue-texcoord-array" count="36">0.9995117 -0.0009765625 0.9995117 1.536621 0.3806152 -0.0009765625 0.9995117 -0.0009765625 0.9995117 1.536621 0.3806152 -0.0009765625 0.9995117 -0.0009765625 0.9995117 1.536621 0.3806152 -0.0009765625 0.9995117 -0.0009765625 0.9995117 1.536621 0.3806152 -0.0009765625 0.9995117 -0.0009765625 0.9995117 1.536621 0.3806152 -0.0009765625 0.9995117 -0.0009765625 0.9995117 1.536621 0.3806152 -0.0009765625</float_array>
+          <technique_common>
+            <accessor source="#Vinyl_000_1__SheetVinylBlue-texcoord-array" count="18" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinyl_000_1__SheetVinylBlue-texcoord_1">
+          <float_array id="Vinyl_000_1__SheetVinylBlue-texcoord-array_1" count="36">0.8098878 0.009903133 0.8098878 0.9900969 0.4153811 0.009903133 0.4035248 0.009903133 0.4035248 0.9900969 0.009002823 0.009903133 0.8098878 0.009903133 0.8098878 0.9900969 0.4153811 0.009903133 0.4035248 0.009903133 0.4035248 0.9900969 0.009002823 0.009903133 0.8098878 0.009903133 0.8098878 0.9900969 0.4153811 0.009903133 0.4035248 0.009903133 0.4035248 0.9900969 0.009002823 0.009903133</float_array>
+          <technique_common>
+            <accessor source="#Vinyl_000_1__SheetVinylBlue-texcoord-array_1" count="18" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Vinyl_000_1__SheetVinylBlue-vertex">
+          <input semantic="POSITION" source="#Vinyl_000_1__SheetVinylBlue-position" />
+        </vertices>
+        <triangles material="SheetVinylBlue" count="2">
+          <input semantic="VERTEX" source="#Vinyl_000_1__SheetVinylBlue-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Vinyl_000_1__SheetVinylBlue-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Vinyl_000_1__SheetVinylBlue-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Vinyl_000_1__SheetVinylBlue-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Wall_1__mJyohekiOuterWall-mesh" name="Wall_1__mJyohekiOuterWall">
+      <mesh>
+        <source id="Wall_1__mJyohekiOuterWall-position">
+          <float_array id="Wall_1__mJyohekiOuterWall-position-array" count="54">13.5 6 -44 13.5 8.899999 -44 20.9 5.960907 -44 -13.5 6 44 -13.5 8.899999 44 -20.9 5.960907 44 13.5 6 -44 13.5 8.899999 -44 20.91479 5.970956 -44.01145 -13.5 6 44 -13.5 8.899999 44 -20.9148 5.970957 44.01145 13.5 6 -44 13.5 8.899999 -44 20.91681 5.972967 -44.013 -13.5 6 44 -13.5 8.899999 44 -20.91682 5.972962 44.013</float_array>
+          <technique_common>
+            <accessor source="#Wall_1__mJyohekiOuterWall-position-array" count="18" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Wall_1__mJyohekiOuterWall-normal">
+          <float_array id="Wall_1__mJyohekiOuterWall-normal-array" count="54">0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Wall_1__mJyohekiOuterWall-normal-array" count="18" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Wall_1__mJyohekiOuterWall-texcoord">
+          <float_array id="Wall_1__mJyohekiOuterWall-texcoord-array" count="36">0.05098039 0.2705882 0.2627451 0.2705882 0.07843138 0.7294117 0.05098039 0.2705882 0.2627451 0.2705882 0.07843138 0.7294117 0.05098039 0.2705882 0.2627451 0.2705882 0.07843138 0.7294117 0.05098039 0.2705882 0.2627451 0.2705882 0.07843138 0.7294117 0.05098039 0.2705882 0.2627451 0.2705882 0.07843138 0.7294117 0.05098039 0.2705882 0.2627451 0.2705882 0.07843138 0.7294117</float_array>
+          <technique_common>
+            <accessor source="#Wall_1__mJyohekiOuterWall-texcoord-array" count="18" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Wall_1__mJyohekiOuterWall-texcoord_1">
+          <float_array id="Wall_1__mJyohekiOuterWall-texcoord-array_1" count="36">0.4722667 0.009903133 0.9227283 0.009903133 0.5324636 0.9900969 0.009567407 0.009903133 0.4600137 0.009903133 0.06976425 0.9900969 0.4722667 0.009903133 0.9227283 0.009903133 0.5324636 0.9900969 0.009567407 0.009903133 0.4600137 0.009903133 0.06976425 0.9900969 0.4722667 0.009903133 0.9227283 0.009903133 0.5324636 0.9900969 0.009567407 0.009903133 0.4600137 0.009903133 0.06976425 0.9900969</float_array>
+          <technique_common>
+            <accessor source="#Wall_1__mJyohekiOuterWall-texcoord-array_1" count="18" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Wall_1__mJyohekiOuterWall-vertex">
+          <input semantic="POSITION" source="#Wall_1__mJyohekiOuterWall-position" />
+        </vertices>
+        <triangles material="mJyohekiOuterWall" count="2">
+          <input semantic="VERTEX" source="#Wall_1__mJyohekiOuterWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Wall_1__mJyohekiOuterWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Wall_1__mJyohekiOuterWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Wall_1__mJyohekiOuterWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="WoodPlate_000_1__mJyohekiWoodFence-mesh" name="WoodPlate_000_1__mJyohekiWoodFence">
+      <mesh>
+        <source id="WoodPlate_000_1__mJyohekiWoodFence-position">
+          <float_array id="WoodPlate_000_1__mJyohekiWoodFence-position-array" count="2418">20.9 6.079999 -37.3 13.5 9.019999 -37.3 20.9 6.079999 -37 13.5 9.019999 -37 20.9 6.079999 -37 13.5 9.019999 -37 20.9 5.960907 -37 13.5 8.900908 -37 20.9 5.888197 -37.3 13.5 8.828197 -37.3 20.9 6.079999 -37.3 13.5 9.019999 -37.3 13.5 9.019999 -37 13.5 9.019999 -37.3 13.5 8.900908 -37 13.5 8.828197 -37.3 -20.9 6.079999 37.3 -13.5 9.019999 37.3 -20.9 6.079999 37 -13.5 9.019999 37 -20.9 6.079999 37 -13.5 9.019999 37 -20.9 5.960907 37 -13.5 8.900908 37 -20.9 5.888094 37.3 -13.5 8.828094 37.3 -20.9 6.079999 37.3 -13.5 9.019999 37.3 -13.5 9.019999 37 -13.5 9.019999 37.3 -13.5 8.900908 37 -13.5 8.828094 37.3 20.9 6.079999 -44 13.5 9.019999 -44 20.9 6.079999 -43.7 13.5 9.019999 -43.7 20.9 6.079999 -43.7 13.5 9.019999 -43.7 20.9 5.886407 -43.7 13.5 8.826407 -43.7 20.9 5.960907 -44 13.5 8.900908 -44 20.9 6.079999 -44 13.5 9.019999 -44 13.5 9.019999 -44 13.5 8.900908 -44 13.5 9.019999 -43.7 13.5 8.826407 -43.7 -20.9 6.079999 44 -13.5 9.019999 44 -20.9 6.079999 43.7 -13.5 9.019999 43.7 -20.9 6.079999 43.7 -13.5 9.019999 43.7 -20.9 5.887546 43.7 -13.5 8.827545 43.7 -20.9 5.960907 44 -13.5 8.900908 44 -20.9 6.079999 44 -13.5 9.019999 44 -13.5 9.019999 44 -13.5 8.900908 44 -13.5 9.019999 43.7 -13.5 8.827545 43.7 20.89999 6.079999 -44 20.9 6.079999 -37 20.99999 6.079999 -44 21 6.079999 -37 20.99999 6.079999 -44 21 6.079999 -37 20.99999 5.900908 -44 21 5.900908 -37 20.89999 5.900908 -44 20.9 5.900908 -37 20.89999 6.079999 -44 20.9 6.079999 -37 20.99999 6.079999 -44 20.99999 5.900908 -44 20.89999 6.079999 -44 20.89999 5.900908 -44 21 6.079999 -37 20.9 6.079999 -37 21 5.900908 -37 20.9 5.900908 -37 -20.9 6.079999 44 -20.9 6.079999 37 -21 6.079999 44 -21 6.079999 37 -21 6.079999 44 -21 6.079999 37 -21 5.900908 44 -21 5.900908 37 -20.9 5.900908 44 -20.9 5.900908 37 -20.9 6.079999 44 -20.9 6.079999 37 -21 6.079999 44 -21 5.900908 44 -20.9 6.079999 44 -20.9 5.900908 44 -21 6.079999 37 -20.9 6.079999 37 -21 5.900908 37 -20.9 5.900908 37 19.77935 6.476128 -37.3 19.77935 6.476128 -43.7 19.2919 6.671095 -37.3 19.2919 6.671095 -43.7 19.2919 6.671095 -37.3 19.2919 6.671095 -43.7 19.19558 6.564935 -37.3 19.19558 6.564935 -43.7 19.77589 6.332829 -37.3 19.77589 6.332829 -43.7 19.77935 6.476128 -37.3 19.77935 6.476128 -43.7 20.35966 6.244022 -37.3 20.35966 6.244022 -43.7 19.8722 6.43899 -37.3 19.8722 6.43899 -43.7 19.8722 6.43899 -37.3 19.8722 6.43899 -43.7 19.77589 6.332829 -37.3 19.77589 6.332829 -43.7 20.35619 6.100725 -37.3 20.35619 6.100725 -43.7 20.35966 6.244022 -37.3 20.35966 6.244022 -43.7 20.93996 6.011917 -37.3 20.93996 6.011917 -43.7 20.45251 6.206885 -37.3 20.4525 6.206885 -43.7 20.45251 6.206885 -37.3 20.4525 6.206885 -43.7 20.35619 6.100725 -37.3 20.35619 6.100725 -43.7 13.97631 8.797177 -37.3 13.97631 8.797177 -43.7 13.48886 9.022145 -37.3 13.48886 9.022145 -43.7 13.48886 9.022145 -37.3 13.48886 9.022145 -43.7 13.39255 8.885984 -37.3 13.39255 8.885984 -43.7 13.97285 8.653879 -37.3 13.97285 8.653879 -43.7 13.97631 8.797177 -37.3 13.97631 8.797177 -43.7 14.55662 8.565072 -37.3 14.55662 8.565072 -43.7 14.06916 8.76004 -37.3 14.06916 8.76004 -43.7 14.06916 8.76004 -37.3 14.06916 8.76004 -43.7 13.97285 8.653879 -37.3 13.97285 8.653879 -43.7 14.55315 8.421775 -37.3 14.55315 8.421775 -43.7 14.55662 8.565072 -37.3 14.55662 8.565072 -43.7 15.13692 8.332967 -37.3 15.13692 8.332967 -43.7 14.64947 8.527935 -37.3 14.64947 8.527935 -43.7 14.64947 8.527935 -37.3 14.64947 8.527935 -43.7 14.55315 8.421775 -37.3 14.55315 8.421775 -43.7 15.13346 8.18967 -37.3 15.13346 8.18967 -43.7 15.13692 8.332967 -37.3 15.13692 8.332967 -43.7 15.71723 8.100863 -37.3 15.71722 8.100863 -43.7 15.22977 8.29583 -37.3 15.22977 8.29583 -43.7 15.22977 8.29583 -37.3 15.22977 8.29583 -43.7 15.13346 8.18967 -37.3 15.13346 8.18967 -43.7 15.71376 7.957565 -37.3 15.71376 7.957565 -43.7 15.71723 8.100863 -37.3 15.71722 8.100863 -43.7 16.29753 7.868757 -37.3 16.29753 7.868757 -43.7 15.81007 8.063725 -37.3 15.81007 8.063725 -43.7 15.81007 8.063725 -37.3 15.81007 8.063725 -43.7 15.71376 7.957565 -37.3 15.71376 7.957565 -43.7 16.29406 7.72546 -37.3 16.29406 7.72546 -43.7 16.29753 7.868757 -37.3 16.29753 7.868757 -43.7 16.87783 7.636652 -37.3 16.87783 7.636652 -43.7 16.39038 7.831621 -37.3 16.39038 7.831621 -43.7 16.39038 7.831621 -37.3 16.39038 7.831621 -43.7 16.29406 7.72546 -37.3 16.29406 7.72546 -43.7 16.87437 7.493355 -37.3 16.87437 7.493355 -43.7 16.87783 7.636652 -37.3 16.87783 7.636652 -43.7 17.45814 7.404548 -37.3 17.45814 7.404548 -43.7 16.97068 7.599515 -37.3 16.97068 7.599515 -43.7 16.97068 7.599515 -37.3 16.97068 7.599515 -43.7 16.87437 7.493355 -37.3 16.87437 7.493355 -43.7 17.45467 7.26125 -37.3 17.45467 7.26125 -43.7 17.45814 7.404548 -37.3 17.45814 7.404548 -43.7 18.03844 7.172443 -37.3 18.03844 7.172443 -43.7 17.55099 7.367411 -37.3 17.55098 7.367411 -43.7 17.55099 7.367411 -37.3 17.55098 7.367411 -43.7 17.45467 7.26125 -37.3 17.45467 7.26125 -43.7 18.03498 7.029146 -37.3 18.03498 7.029146 -43.7 18.03844 7.172443 -37.3 18.03844 7.172443 -43.7 18.61874 6.940338 -37.3 18.61874 6.940338 -43.7 18.13129 7.135306 -37.3 18.13129 7.135306 -43.7 18.13129 7.135306 -37.3 18.13129 7.135306 -43.7 18.03498 7.029146 -37.3 18.03498 7.029146 -43.7 18.61528 6.79704 -37.3 18.61528 6.79704 -43.7 18.61874 6.940338 -37.3 18.61874 6.940338 -43.7 19.19905 6.708233 -37.3 19.19905 6.708233 -43.7 18.71159 6.903201 -37.3 18.71159 6.903201 -43.7 18.71159 6.903201 -37.3 18.71159 6.903201 -43.7 18.61528 6.79704 -37.3 18.61528 6.79704 -43.7 19.19558 6.564935 -37.3 19.19558 6.564935 -43.7 19.19905 6.708233 -37.3 19.19905 6.708233 -43.7 -19.77936 6.476128 37.3 -19.77936 6.476128 43.7 -19.2919 6.671095 37.3 -19.2919 6.671095 43.7 -19.2919 6.671095 37.3 -19.2919 6.671095 43.7 -19.19559 6.564935 37.3 -19.19559 6.564935 43.7 -19.77589 6.332829 37.3 -19.77589 6.332829 43.7 -19.77936 6.476128 37.3 -19.77936 6.476128 43.7 -20.35966 6.244022 37.3 -20.35966 6.244022 43.7 -19.8722 6.43899 37.3 -19.8722 6.43899 43.7 -19.8722 6.43899 37.3 -19.8722 6.43899 43.7 -19.77589 6.332829 37.3 -19.77589 6.332829 43.7 -20.3562 6.100725 37.3 -20.3562 6.100725 43.7 -20.35966 6.244022 37.3 -20.35966 6.244022 43.7 -20.93996 6.011917 37.3 -20.93996 6.011917 43.7 -20.45251 6.206885 37.3 -20.45251 6.206885 43.7 -20.45251 6.206885 37.3 -20.45251 6.206885 43.7 -20.3562 6.100725 37.3 -20.3562 6.100725 43.7 -13.97632 8.797177 37.3 -13.97632 8.797177 43.7 -13.48886 9.022145 37.3 -13.48886 9.022145 43.7 -13.48886 9.022145 37.3 -13.48886 9.022145 43.7 -13.39255 8.885984 37.3 -13.39255 8.885984 43.7 -13.97285 8.653879 37.3 -13.97285 8.653879 43.7 -13.97632 8.797177 37.3 -13.97632 8.797177 43.7 -14.55662 8.565072 37.3 -14.55662 8.565072 43.7 -14.06917 8.76004 37.3 -14.06917 8.76004 43.7 -14.06917 8.76004 37.3 -14.06917 8.76004 43.7 -13.97285 8.653879 37.3 -13.97285 8.653879 43.7 -14.55316 8.421775 37.3 -14.55316 8.421775 43.7 -14.55662 8.565072 37.3 -14.55662 8.565072 43.7 -15.13692 8.332967 37.3 -15.13692 8.332967 43.7 -14.64947 8.527935 37.3 -14.64947 8.527935 43.7 -14.64947 8.527935 37.3 -14.64947 8.527935 43.7 -14.55316 8.421775 37.3 -14.55316 8.421775 43.7 -15.13346 8.18967 37.3 -15.13346 8.18967 43.7 -15.13692 8.332967 37.3 -15.13692 8.332967 43.7 -15.71723 8.100863 37.3 -15.71723 8.100863 43.7 -15.22977 8.29583 37.3 -15.22977 8.29583 43.7 -15.22977 8.29583 37.3 -15.22977 8.29583 43.7 -15.13346 8.18967 37.3 -15.13346 8.18967 43.7 -15.71376 7.957565 37.3 -15.71376 7.957565 43.7 -15.71723 8.100863 37.3 -15.71723 8.100863 43.7 -16.29753 7.868757 37.3 -16.29753 7.868757 43.7 -15.81008 8.063725 37.3 -15.81008 8.063725 43.7 -15.81008 8.063725 37.3 -15.81008 8.063725 43.7 -15.71376 7.957565 37.3 -15.71376 7.957565 43.7 -16.29407 7.72546 37.3 -16.29407 7.72546 43.7 -16.29753 7.868757 37.3 -16.29753 7.868757 43.7 -16.87783 7.636652 37.3 -16.87783 7.636652 43.7 -16.39038 7.831621 37.3 -16.39038 7.831621 43.7 -16.39038 7.831621 37.3 -16.39038 7.831621 43.7 -16.29407 7.72546 37.3 -16.29407 7.72546 43.7 -16.87437 7.493355 37.3 -16.87437 7.493355 43.7 -16.87783 7.636652 37.3 -16.87783 7.636652 43.7 -17.45814 7.404548 37.3 -17.45814 7.404548 43.7 -16.97068 7.599515 37.3 -16.97068 7.599515 43.7 -16.97068 7.599515 37.3 -16.97068 7.599515 43.7 -16.87437 7.493355 37.3 -16.87437 7.493355 43.7 -17.45468 7.26125 37.3 -17.45468 7.26125 43.7 -17.45814 7.404548 37.3 -17.45814 7.404548 43.7 -18.03844 7.172443 37.3 -18.03844 7.172443 43.7 -17.55099 7.367411 37.3 -17.55099 7.367411 43.7 -17.55099 7.367411 37.3 -17.55099 7.367411 43.7 -17.45468 7.26125 37.3 -17.45468 7.26125 43.7 -18.03498 7.029146 37.3 -18.03498 7.029146 43.7 -18.03844 7.172443 37.3 -18.03844 7.172443 43.7 -18.61875 6.940338 37.3 -18.61875 6.940338 43.7 -18.13129 7.135306 37.3 -18.13129 7.135306 43.7 -18.13129 7.135306 37.3 -18.13129 7.135306 43.7 -18.03498 7.029146 37.3 -18.03498 7.029146 43.7 -18.61528 6.79704 37.3 -18.61528 6.79704 43.7 -18.61875 6.940338 37.3 -18.61875 6.940338 43.7 -19.19905 6.708233 37.3 -19.19905 6.708233 43.7 -18.71159 6.903201 37.3 -18.71159 6.903201 43.7 -18.71159 6.903201 37.3 -18.71159 6.903201 43.7 -18.61528 6.79704 37.3 -18.61528 6.79704 43.7 -19.19559 6.564935 37.3 -19.19559 6.564935 43.7 -19.19905 6.708233 37.3 -19.19905 6.708233 43.7 13.49306 9.029469 -37.29062 13.5 8.828197 -37.3 13.48597 8.945443 -36.97097 -13.49303 9.029484 37.29061 -13.5 8.828094 37.3 -13.487 8.945055 36.97097 13.5003 9.013095 -44.00688 13.49999 8.824102 -43.70215 13.5 9.019999 -43.7 -13.5003 9.013065 44.00687 -13.5 8.825233 43.70215 -13.5 9.019999 43.7 20.90749 6.087482 -36.99262 21.00447 5.905379 -36.9958 20.90508 6.085039 -44.00983 20.90508 6.085039 -44.00983 21.00447 5.905379 -36.9958 20.99913 5.900015 -44.00893 20.90749 6.087482 -36.99262 20.89992 5.900833 -37.00007 21.00447 5.905379 -36.9958 -20.9075 6.087482 36.99262 -21.00447 5.905379 36.9958 -20.90508 6.085038 44.00983 -20.90508 6.085038 44.00983 -21.00447 5.905379 36.9958 -20.99913 5.900014 44.00893 -20.9075 6.087482 36.99262 -20.89992 5.900833 37.00007 -21.00447 5.905379 36.9958 15.71376 7.957565 -43.7 15.71768 8.101163 -43.69965 15.74457 7.977886 -37.27621 16.29406 7.72546 -43.7 16.29851 7.868074 -43.69849 16.42832 7.797285 -37.23709 16.39038 7.831621 -43.7 16.29406 7.72546 -43.7 16.42832 7.797285 -37.23709 19.1886 6.599775 -43.72292 19.20003 6.707548 -43.69849 19.32975 6.637208 -37.23738 20.9 6.079999 -37.3 13.49306 9.029469 -37.29062 20.89981 6.07089 -36.99974 13.48597 8.945443 -36.97097 20.9 5.888197 -37.3 13.5 8.828197 -37.3 20.9 6.079999 -37.3 13.49306 9.029469 -37.29062 -20.9 6.079999 37.3 -13.49303 9.029484 37.29061 -20.89981 6.070891 36.99973 -13.487 8.945055 36.97097 -20.9 5.888094 37.3 -13.5 8.828094 37.3 -20.9 6.079999 37.3 -13.49303 9.029484 37.29061 20.91479 5.970956 -44.01145 13.5003 9.013095 -44.00688 20.90577 6.083919 -43.70446 13.5 9.019999 -43.7 -20.9148 5.970957 44.01145 -13.5003 9.013065 44.00687 -20.90577 6.08392 43.70446 -13.5 9.019999 43.7 20.99913 5.900015 -44.00893 20.89992 5.900833 -37.00007 20.90508 6.085039 -44.00983 20.90749 6.087482 -36.99262 -20.99913 5.900014 44.00893 -20.89992 5.900833 37.00007 -20.90508 6.085038 44.00983 -20.9075 6.087482 36.99262 19.89643 6.41359 -37.25777 19.74159 6.481204 -43.70965 19.32975 6.637208 -37.23738 19.1886 6.599775 -43.72292 20.35966 6.244022 -37.3 20.34262 6.24729 -43.70329 19.89643 6.41359 -37.25777 19.74159 6.481204 -43.70965 20.35619 6.100725 -37.3 20.35619 6.100725 -43.7 20.35966 6.244022 -37.3 20.34262 6.24729 -43.70329 20.93996 6.011917 -37.3 20.93996 6.011917 -43.7 20.45251 6.206885 -37.3 20.4525 6.206885 -43.7 20.45251 6.206885 -37.3 20.4525 6.206885 -43.7 20.35619 6.100725 -37.3 20.35619 6.100725 -43.7 13.97631 8.797177 -37.3 13.97631 8.797177 -43.7 13.48021 9.009915 -37.29961 13.4802 9.0099 -43.7 13.97285 8.653879 -37.3 13.97285 8.653879 -43.7 13.97631 8.797177 -37.3 13.97631 8.797177 -43.7 14.67506 8.501236 -37.25565 14.52231 8.561625 -43.69862 14.08387 8.750728 -37.27793 14.06916 8.76004 -43.7 14.08387 8.750728 -37.27793 14.06916 8.76004 -43.7 13.97285 8.653879 -37.3 13.97285 8.653879 -43.7 15.13692 8.332967 -37.3 15.12218 8.335693 -43.70008 14.67506 8.501236 -37.25565 14.52231 8.561625 -43.69862 15.13346 8.18967 -37.3 15.13346 8.18967 -43.7 15.13692 8.332967 -37.3 15.12218 8.335693 -43.70008 15.74457 7.977886 -37.27621 15.71768 8.101163 -43.69965 15.23733 8.300813 -37.29417 15.22977 8.29583 -43.7 15.23733 8.300813 -37.29417 15.22977 8.29583 -43.7 15.13346 8.18967 -37.3 15.13346 8.18967 -43.7 16.42832 7.797285 -37.23709 16.29851 7.868074 -43.69849 15.82401 8.054859 -37.279 15.81007 8.063725 -43.7 15.82401 8.054859 -37.279 15.81007 8.063725 -43.7 15.74457 7.977886 -37.27621 15.71376 7.957565 -43.7 16.9949 7.574183 -37.25781 16.84161 7.633904 -43.70451 16.42832 7.797285 -37.23709 16.39038 7.831621 -43.7 17.45814 7.404548 -37.3 17.44101 7.408262 -43.70358 16.9949 7.574183 -37.25781 16.84161 7.633904 -43.70451 17.45467 7.26125 -37.3 17.45467 7.26125 -43.7 17.45814 7.404548 -37.3 17.44101 7.408262 -43.70358 18.15673 7.108676 -37.25567 18.00226 7.16965 -43.70443 17.5657 7.358093 -37.27792 17.55098 7.367411 -43.7 17.5657 7.358093 -37.27792 17.55098 7.367411 -43.7 17.45467 7.26125 -37.3 17.45467 7.26125 -43.7 18.61874 6.940338 -37.3 18.60161 6.944054 -43.70358 18.15673 7.108676 -37.25567 18.00226 7.16965 -43.70443 18.61528 6.79704 -37.3 18.61528 6.79704 -43.7 18.61874 6.940338 -37.3 18.60161 6.944054 -43.70358 19.32975 6.637208 -37.23738 19.20003 6.707548 -43.69849 18.72553 6.894309 -37.27898 18.71159 6.903201 -43.7 18.72553 6.894309 -37.27898 18.71159 6.903201 -43.7 18.61528 6.79704 -37.3 18.61528 6.79704 -43.7 -19.91016 6.404719 37.2371 -19.74491 6.47352 43.7043 -19.3059 6.662227 37.27898 -19.2919 6.671095 43.7 -19.3059 6.662227 37.27898 -19.2919 6.671095 43.7 -19.19559 6.564935 37.3 -19.19559 6.564935 43.7 -20.4768 6.181536 37.25779 -20.30923 6.244642 43.70757 -19.91016 6.404719 37.2371 -19.74491 6.47352 43.7043 -20.93996 6.011917 37.3 -20.923 6.01559 43.70354 -20.4768 6.181536 37.25779 -20.30923 6.244642 43.70757 -13.97632 8.797177 37.3 -13.97632 8.797177 43.7 -13.48021 9.009916 37.29961 -13.4802 9.0099 43.7 -13.97285 8.653879 37.3 -13.97285 8.653879 43.7 -13.97632 8.797177 37.3 -13.97632 8.797177 43.7 -14.67492 8.501306 37.25567 -14.52045 8.562278 43.70443 -14.08388 8.750723 37.27792 -14.06917 8.76004 43.7 -14.08388 8.750723 37.27792 -14.06917 8.76004 43.7 -13.97285 8.653879 37.3 -13.97285 8.653879 43.7 -15.13692 8.332967 37.3 -15.11979 8.336684 43.70358 -14.67492 8.501306 37.25567 -14.52045 8.562278 43.70443 -15.13346 8.18967 37.3 -15.13346 8.18967 43.7 -15.13692 8.332967 37.3 -15.11979 8.336684 43.70358 -15.84803 8.029463 37.2371 -15.68279 8.098255 43.7043 -15.24378 8.286963 37.27898 -15.22977 8.29583 43.7 -15.24378 8.286963 37.27898 -15.22977 8.29583 43.7 -15.13346 8.18967 37.3 -15.13346 8.18967 43.7 -16.41467 7.80627 37.25779 -16.24708 7.86938 43.70757 -15.84803 8.029463 37.2371 -15.68279 8.098255 43.7043 -16.87783 7.636652 37.3 -16.86155 7.640188 43.7034 -16.41467 7.80627 37.25779 -16.24708 7.86938 43.70757 -16.87437 7.493355 37.3 -16.87437 7.493355 43.7 -16.87783 7.636652 37.3 -16.86155 7.640188 43.7034 -17.57644 7.340782 37.25567 -17.42196 7.401755 43.70443 -16.9854 7.590198 37.27792 -16.97068 7.599515 43.7 -16.9854 7.590198 37.27792 -16.97068 7.599515 43.7 -16.87437 7.493355 37.3 -16.87437 7.493355 43.7 -18.03844 7.172443 37.3 -18.02131 7.176159 43.70358 -17.57644 7.340782 37.25567 -17.42196 7.401755 43.70443 -18.03498 7.029146 37.3 -18.03498 7.029146 43.7 -18.03844 7.172443 37.3 -18.02131 7.176159 43.70358 -18.73704 6.876572 37.25566 -18.58257 6.937545 43.70443 -18.14601 7.125988 37.27792 -18.13129 7.135306 43.7 -18.14601 7.125988 37.27792 -18.13129 7.135306 43.7 -18.03498 7.029146 37.3 -18.03498 7.029146 43.7 -19.19905 6.708233 37.3 -19.18192 6.711949 43.70358 -18.73704 6.876572 37.25566 -18.58257 6.937545 43.70443 -19.19559 6.564935 37.3 -19.19559 6.564935 43.7 -19.19905 6.708233 37.3 -19.18192 6.711949 43.70358 20.90577 6.083919 -43.70446 13.5 9.019999 -43.7 20.9 5.886407 -43.7 19.1886 6.599775 -43.72292 13.49999 8.824102 -43.70215 -20.90577 6.08392 43.70446 -13.5 9.019999 43.7 -20.9 5.887546 43.7 -19.19559 6.564935 43.7 -13.5 8.825233 43.70215 19.21815 6.632359 -43.76895 20.90742 6.064714 -43.70574 13.49054 8.993831 -43.70237 -19.21818 6.632679 43.75636 -20.90743 6.064847 43.70575 -13.49064 8.994068 43.70239 20.89988 6.063745 -37.30001 13.47566 8.989962 -37.28916 20.89975 6.067151 -36.99966 13.48186 8.96335 -36.96069 -20.89988 6.06373 37.30001 -13.47649 8.989252 37.28885 -20.89978 6.067131 36.99965 -13.47205 8.964715 36.97134 20.91681 5.972967 -44.013 13.50058 9.004426 -44.0098 20.90742 6.064714 -43.70574 13.49054 8.993831 -43.70237 -20.91682 5.972962 44.013 -13.50058 9.004418 44.00979 -20.90743 6.064847 43.70575 -13.49064 8.994068 43.70239 19.91776 6.398686 -37.24512 19.73323 6.481046 -43.70556 19.33632 6.632361 -37.22195 19.21815 6.632359 -43.76895 20.48141 6.174657 -37.29853 20.29598 6.245407 -43.75842 19.91776 6.398686 -37.24512 19.73323 6.481046 -43.70556 20.93996 6.011917 -37.3 20.91803 6.016671 -43.73042 20.48141 6.174657 -37.29853 20.29598 6.245407 -43.75842 14.11592 8.715788 -37.22167 13.93555 8.793041 -43.69861 13.49314 8.994999 -37.27544 13.4771 9.005529 -43.7 14.69373 8.488472 -37.22741 14.50185 8.564368 -43.69834 14.11592 8.715788 -37.22167 13.93555 8.793041 -43.69861 15.27399 8.256111 -37.22708 15.08069 8.332888 -43.70619 14.69373 8.488472 -37.22741 14.50185 8.564368 -43.69834 15.85447 8.023918 -37.22705 15.66123 8.10101 -43.7021 15.27399 8.256111 -37.22708 15.08069 8.332888 -43.70619 16.43462 7.791909 -37.22706 16.24165 7.868529 -43.70525 15.85447 8.023918 -37.22705 15.66123 8.10101 -43.7021 17.01493 7.5598 -37.22715 16.8191 7.637708 -43.70995 16.43462 7.791909 -37.22706 16.24165 7.868529 -43.70525 17.59537 7.32759 -37.22539 17.40241 7.404661 -43.70207 17.01493 7.5598 -37.22715 16.8191 7.637708 -43.70995 18.17561 7.095842 -37.24687 17.9814 7.17125 -43.69978 17.59537 7.32759 -37.22539 17.40241 7.404661 -43.70207 18.7551 6.863757 -37.27748 18.57215 6.95067 -43.77256 18.17561 7.095842 -37.24687 17.9814 7.17125 -43.69978 19.33632 6.632361 -37.22195 19.21815 6.632359 -43.76895 18.7551 6.863757 -37.27748 18.57215 6.95067 -43.77256 -19.91756 6.398395 37.22518 -19.73316 6.481139 43.71047 -19.33624 6.632369 37.22779 -19.21818 6.632679 43.75636 -20.48311 6.174915 37.24696 -20.29705 6.244129 43.70913 -19.91756 6.398395 37.22518 -19.73316 6.481139 43.71047 -20.93996 6.011917 37.3 -20.91804 6.017141 43.70473 -20.48311 6.174915 37.24696 -20.29705 6.244129 43.70913 -14.1158 8.715862 37.22164 -13.93331 8.793798 43.70547 -13.49316 8.994989 37.27542 -13.47711 9.005529 43.7 -14.69363 8.488542 37.22738 -14.49688 8.566325 43.70938 -14.1158 8.715862 37.22164 -13.93331 8.793798 43.70547 -15.27404 8.256088 37.22703 -15.07868 8.333844 43.70904 -14.69363 8.488542 37.22738 -14.49688 8.566325 43.70938 -15.85434 8.024001 37.22704 -15.65891 8.101759 43.70905 -15.27404 8.256088 37.22703 -15.07868 8.333844 43.70904 -16.43464 7.791896 37.22704 -16.23921 7.869654 43.70905 -15.85434 8.024001 37.22704 -15.65891 8.101759 43.70905 -17.01495 7.559791 37.22704 -16.81951 7.637546 43.70905 -16.43464 7.791896 37.22704 -16.23921 7.869654 43.70905 -17.59526 7.327693 37.22705 -17.39989 7.405498 43.70912 -17.01495 7.559791 37.22704 -16.81951 7.637546 43.70905 -18.17545 7.095511 37.22698 -17.9789 7.172462 43.70795 -17.59526 7.327693 37.22705 -17.39989 7.405498 43.70912 -18.75657 6.863771 37.22715 -18.57351 6.949398 43.72062 -18.17545 7.095511 37.22698 -17.9789 7.172462 43.70795 -19.33624 6.632369 37.22779 -19.21818 6.632679 43.75636 -18.75657 6.863771 37.22715 -18.57351 6.949398 43.72062</float_array>
+          <technique_common>
+            <accessor source="#WoodPlate_000_1__mJyohekiWoodFence-position-array" count="806" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WoodPlate_000_1__mJyohekiWoodFence-normal">
+          <float_array id="WoodPlate_000_1__mJyohekiWoodFence-normal-array" count="2418">0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 -0.816047 0.5772994 0 -0.816047 0.5772994 0 -0.816047 0.5772994 0 -0.816047 0.5772994 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 0.816047 0.5772994 0 0.816047 0.5772994 0 0.816047 0.5772994 0 0.816047 0.5772994 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 0 0 1 0 0 1 0 0 1 0 0 1 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 1 -0.02348337 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.739726 0.6712329 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 0.739726 0.6712329 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 -1 -0.02348337 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 -0.369863 0.9295499 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.4187867 0.9080235 0 0.4187867 0.9080235 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.4187867 0.9080235 0 -0.4187867 0.9080235 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0 -0.37182 0.9275929 0</float_array>
+          <technique_common>
+            <accessor source="#WoodPlate_000_1__mJyohekiWoodFence-normal-array" count="806" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WoodPlate_000_1__mJyohekiWoodFence-texcoord">
+          <float_array id="WoodPlate_000_1__mJyohekiWoodFence-texcoord-array" count="1612">-0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.6025391 1.248047 0.6025391 -0.2856445 0.5019531 1.248047 0.5019531 -0.2770996 0.526123 1.256836 0.526123 0.4375 0.5773926 0.4375 0.5266113 0.4577637 0.5773926 0.4577637 0.5266113 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.6025391 1.248047 0.6025391 -0.2856445 0.5019531 1.248047 0.5019531 -0.2770996 0.526123 1.256836 0.526123 0.4375 0.5773926 0.4375 0.5266113 0.4577637 0.5773926 0.4577637 0.5266113 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.6025391 1.248047 0.6025391 -0.2856445 0.5019531 1.248047 0.5019531 -0.2770996 0.526123 1.256836 0.526123 0.4375 0.5266113 0.4577637 0.5266113 0.4375 0.5773926 0.4577637 0.5773926 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.6025391 1.248047 0.6025391 -0.2856445 0.5019531 1.248047 0.5019531 -0.2770996 0.526123 1.256836 0.526123 0.4375 0.5266113 0.4577637 0.5266113 0.4375 0.5773926 0.4577637 0.5773926 0.2775879 0.526123 1.811523 0.526123 0.2775879 0.5783691 1.811523 0.5783691 0.2775879 0.5783691 1.811523 0.5783691 0.2780762 0.6025391 1.8125 0.6025391 0.2780762 0.5019531 1.811523 0.5019531 0.2775879 0.526123 1.811523 0.526123 0.5405273 0.5773926 0.4499512 0.5773926 0.5405273 0.5266113 0.4499512 0.5266113 1.811523 0.5783691 1.811523 0.526123 1.8125 0.6025391 1.84668 0.5783691 0.2775879 0.526123 1.811523 0.526123 0.2775879 0.5783691 1.811523 0.5783691 0.2775879 0.5783691 1.811523 0.5783691 0.2780762 0.6025391 1.8125 0.6025391 0.2780762 0.5019531 1.811523 0.5019531 0.2775879 0.526123 1.811523 0.526123 0.5405273 0.5773926 0.4499512 0.5773926 0.5405273 0.5266113 0.4499512 0.5266113 1.811523 0.5783691 1.811523 0.526123 1.8125 0.6025391 1.84668 0.5783691 -0.01293945 0.526123 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 -0.01307678 0.5019531 0.7788086 0.5019531 -0.01293945 0.526123 0.7788086 0.526123 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.0297699 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 -0.01293945 0.526123 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 -0.01308441 0.5019531 0.7788086 0.5019531 -0.01293945 0.526123 0.7788086 0.526123 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.02978516 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 0.2580566 0.2304688 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.2827148 0.2580566 0.2827148 1.049805 0.2827148 0.2578125 0.3066406 1.049805 0.3066406 0.2580566 0.206543 1.049805 0.206543 0.2580566 0.2304688 1.049805 0.2304688 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 0.2580566 0.2304688 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.2827148 0.2580566 0.2827148 1.049805 0.2827148 0.2578125 0.3066406 1.049805 0.3066406 0.2578125 0.206543 1.049805 0.206543 0.2580566 0.2304688 1.049805 0.2304688 -0.01293945 0.526123 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 -0.01307678 0.5019531 0.7788086 0.5019531 -0.01293945 0.526123 0.7788086 0.526123 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.0297699 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.01293945 0.526123 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 -0.01307678 0.5019531 0.7788086 0.5019531 -0.01293945 0.526123 0.7788086 0.526123 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.0297699 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 -0.01293945 0.526123 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 -0.01308441 0.5019531 0.7788086 0.5019531 -0.01293945 0.526123 0.7788086 0.526123 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.02978516 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 0.2580566 0.2304688 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.2827148 0.2580566 0.2827148 1.049805 0.2827148 0.2578125 0.3066406 1.049805 0.3066406 0.2580566 0.206543 1.049805 0.206543 0.2580566 0.2304688 1.049805 0.2304688 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 0.2580566 0.2304688 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.2827148 0.2580566 0.2827148 1.049805 0.2827148 0.2578125 0.3066406 1.049805 0.3066406 0.2578125 0.206543 1.049805 0.206543 0.2580566 0.2304688 1.049805 0.2304688 -0.01293945 0.526123 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 -0.01307678 0.5019531 0.7788086 0.5019531 -0.01293945 0.526123 0.7788086 0.526123 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.0297699 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 0.4375 0.5266113 0.4577637 0.5266113 0.4577637 0.5773926 0.4375 0.5266113 0.4577637 0.5266113 0.4577637 0.5773926 0.4375 0.5266113 0.4577637 0.5773926 0.4375 0.5773926 0.4375 0.5266113 0.4577637 0.5773926 0.4375 0.5773926 1.811523 0.526123 1.8125 0.6025391 0.2775879 0.526123 0.2775879 0.526123 1.8125 0.6025391 0.2780762 0.6025391 1.811523 0.526123 1.84668 0.5783691 1.8125 0.6025391 1.811523 0.526123 1.8125 0.6025391 0.2775879 0.526123 0.2775879 0.526123 1.8125 0.6025391 0.2780762 0.6025391 1.811523 0.526123 1.84668 0.5783691 1.8125 0.6025391 0.762207 0.5019531 0.762207 0.526123 -0.02978516 0.5019531 1.049805 0.206543 1.049805 0.2304688 0.2580566 0.206543 1.036133 0.2827148 1.036133 0.3066406 0.2445068 0.2827148 1.036133 0.206543 1.036133 0.2304688 0.2443848 0.206543 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.248047 0.6025391 -0.2856445 0.5019531 1.248047 0.5019531 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.248047 0.6025391 -0.2856445 0.5019531 1.248047 0.5019531 -0.2770996 0.526123 1.256836 0.526123 -0.2856445 0.5019531 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.5019531 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 0.2780762 0.5019531 1.811523 0.5019531 0.2775879 0.526123 1.811523 0.526123 0.2780762 0.5019531 1.811523 0.5019531 0.2775879 0.526123 1.811523 0.526123 -0.01307678 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.0297699 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 -0.01308441 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.02978516 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 0.2580566 0.206543 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.2827148 0.2580566 0.2827148 1.049805 0.2827148 0.2578125 0.3066406 1.049805 0.3066406 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2580566 0.2304688 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.3066406 0.2578125 0.206543 1.049805 0.206543 0.2580566 0.2304688 1.049805 0.2304688 -0.01307678 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 -0.0297699 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.2827148 0.2445068 0.2827148 1.036133 0.2827148 0.2442627 0.3066406 1.036133 0.3066406 -0.01307678 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.0297699 0.5019531 0.762207 0.5019531 -0.02963257 0.526123 0.762207 0.526123 -0.01308441 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01296234 0.5783691 0.7788086 0.5783691 -0.01309967 0.6025391 0.7788086 0.6025391 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.02978516 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 0.2580566 0.206543 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.3066406 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 0.2578125 0.206543 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.2827148 0.2580566 0.2827148 1.049805 0.2827148 0.2578125 0.3066406 1.049805 0.3066406 -0.01293945 0.526123 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 -0.01307678 0.5019531 0.7788086 0.5019531 -0.01293945 0.526123 0.7788086 0.526123 -0.0297699 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.02964783 0.5783691 0.762207 0.5783691 -0.02980042 0.6025391 0.762207 0.6025391 0.2445068 0.2304688 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2304688 1.036133 0.2304688 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.6025391 0.06774902 0.6025391 1.248047 0.6025391 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.6025391 0.06762695 0.6025391 1.248047 0.6025391 0.06774902 0.6025391 -0.2770996 0.5783691 1.256836 0.5783691 0.06762695 0.6025391 -0.2770996 0.5783691 1.256836 0.5783691 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.248047 0.6025391 -0.2770996 0.526123 1.256836 0.526123 -0.2770996 0.5783691 1.248047 0.6025391 -0.2856445 0.5019531 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 -0.2856445 0.5019531 1.256836 0.526123 -0.2770996 0.5783691 1.256836 0.5783691 -0.01307678 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 -0.0297699 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.01308441 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 -0.02978516 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 0.2580566 0.206543 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.3066406 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 0.2578125 0.206543 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.3066406 -0.01307678 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 -0.0297699 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2827148 1.036133 0.3066406 -0.01307678 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 -0.02963257 0.526123 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 -0.0297699 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.5783691 -0.01308441 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 -0.02978516 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 0.2580566 0.206543 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.3066406 0.2443848 0.206543 1.036133 0.2304688 0.2445068 0.2827148 1.036133 0.3066406 0.2578125 0.206543 1.049805 0.2304688 0.2580566 0.2827148 1.049805 0.3066406 -0.01307678 0.5019531 0.7788086 0.526123 -0.01296234 0.5783691 0.7788086 0.6025391 -0.0297699 0.5019531 0.762207 0.526123 -0.02964783 0.5783691 0.762207 0.6025391 0.2443848 0.206543 1.036133 0.206543 0.2445068 0.2827148 1.036133 0.3066406</float_array>
+          <technique_common>
+            <accessor source="#WoodPlate_000_1__mJyohekiWoodFence-texcoord-array" count="806" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WoodPlate_000_1__mJyohekiWoodFence-texcoord_1">
+          <float_array id="WoodPlate_000_1__mJyohekiWoodFence-texcoord-array_1" count="1612">0.2395972 0.6475013 0.2395972 0.009903133 0.2613718 0.6475013 0.2613718 0.009903133 0.2613718 0.6475013 0.2613718 0.009903133 0.2713664 0.6510414 0.2713664 0.01341265 0.2296178 0.6510414 0.2296178 0.01341265 0.2395972 0.6475013 0.2395972 0.009903133 0.07049668 0.6928207 0.07049668 0.6717021 0.07887389 0.6928207 0.07887389 0.6717021 0.1288624 0.6475013 0.1288624 0.009903133 0.1506218 0.6475013 0.1506218 0.009903133 0.1506218 0.6475013 0.1506218 0.009903133 0.1606165 0.6510414 0.1606165 0.01341265 0.1188678 0.6510414 0.1188678 0.01341265 0.1288624 0.6475013 0.1288624 0.009903133 0.1110094 0.6928207 0.1110094 0.6717021 0.1194018 0.6928207 0.1194018 0.6717021 0.2949722 0.6475013 0.2949722 0.009903133 0.3167468 0.6475013 0.3167468 0.009903133 0.3167468 0.6475013 0.3167468 0.009903133 0.3267262 0.6510414 0.3267262 0.01341265 0.2849775 0.6510414 0.2849775 0.01341265 0.2949722 0.6475013 0.2949722 0.009903133 0.0502327 0.6717021 0.05862516 0.6717021 0.0502327 0.6928207 0.05862516 0.6928207 0.1842222 0.6475013 0.1842222 0.009903133 0.2059968 0.6475013 0.2059968 0.009903133 0.2059968 0.6475013 0.2059968 0.009903133 0.2159915 0.6510414 0.2159915 0.01341265 0.1742428 0.6510414 0.1742428 0.01341265 0.1842222 0.6475013 0.1842222 0.009903133 0.09076066 0.6717021 0.09913787 0.6717021 0.09076066 0.6928207 0.09913787 0.6928207 0.07348745 0.6619364 0.07348745 0.0243839 0.09526207 0.6619211 0.09526207 0.02447546 0.09526207 0.6619211 0.09526207 0.02447546 0.1052415 0.6617686 0.1052415 0.02398717 0.06350805 0.6617686 0.06350805 0.02458227 0.07348745 0.6619364 0.07348745 0.0243839 0.1523919 0.6608225 0.1523919 0.6986343 0.1312734 0.6608225 0.1312734 0.6986343 0.09526207 0.02447546 0.07348745 0.0243839 0.1052415 0.02398717 0.09526207 0.009903133 0.01983673 0.6619364 0.01983673 0.0243839 0.04161135 0.6619211 0.04161135 0.02447546 0.04161135 0.6619211 0.04161135 0.02447546 0.05159075 0.6617686 0.05159075 0.02398717 0.009842069 0.6617686 0.009842069 0.02458227 0.01983673 0.6619364 0.01983673 0.0243839 0.1853819 0.6608225 0.1853819 0.6986343 0.1642634 0.6608225 0.1642634 0.6986343 0.04161135 0.02447546 0.01983673 0.0243839 0.05159075 0.02398717 0.04161135 0.009903133 0.3144884 0.9900358 0.3144884 0.6608835 0.3362631 0.9900358 0.3362631 0.6608835 0.3362631 0.9900358 0.3362631 0.6608835 0.3462425 0.9900969 0.3462425 0.6608225 0.3044938 0.9900816 0.3044938 0.6608377 0.3144884 0.9900358 0.3144884 0.6608835 0.2608683 0.9900358 0.2608683 0.6608835 0.2826276 0.9900358 0.2826276 0.6608835 0.2826276 0.9900358 0.2826276 0.6608835 0.2926223 0.9900969 0.2926223 0.6608225 0.2508736 0.9900969 0.2508736 0.6608225 0.2608683 0.9900358 0.2608683 0.6608835 0.7334859 0.678172 0.7334859 0.3490196 0.7552605 0.6781873 0.7552605 0.3490196 0.7552605 0.6781873 0.7552605 0.3490196 0.7652552 0.6782483 0.7652552 0.3489586 0.6898604 0.678172 0.6898604 0.3490196 0.7116197 0.6781873 0.7116197 0.3490196 0.7116197 0.6781873 0.7116197 0.3490196 0.7216144 0.6782483 0.7216144 0.3489586 0.6798657 0.678233 0.6798657 0.3489738 0.6898604 0.678172 0.6898604 0.3490196 0.207248 0.9900358 0.207248 0.6608835 0.2290074 0.9900358 0.2290074 0.6608835 0.2290074 0.9900358 0.2290074 0.6608835 0.2390021 0.9900969 0.2390021 0.6608225 0.1972534 0.9900969 0.1972534 0.6608225 0.207248 0.9900358 0.207248 0.6608835 0.6362249 0.678172 0.6362249 0.3490348 0.6579995 0.6781873 0.6579995 0.3490196 0.6579995 0.6781873 0.6579995 0.3490196 0.6679942 0.6782483 0.6679942 0.3489586 0.6262455 0.678233 0.6262455 0.3489738 0.6362249 0.678172 0.6362249 0.3490348 0.5826047 0.678172 0.5826047 0.3490196 0.6043794 0.6781873 0.6043794 0.3490196 0.6043794 0.6781873 0.6043794 0.3490196 0.614374 0.6782483 0.614374 0.3489586 0.5726253 0.678233 0.5726253 0.3489738 0.5826047 0.678172 0.5826047 0.3490196 0.4057069 0.3391165 0.4057069 0.009979427 0.4274815 0.3391318 0.4274815 0.009964168 0.4274815 0.3391318 0.4274815 0.009964168 0.4374762 0.3391928 0.4374762 0.009903133 0.3957275 0.3391775 0.3957275 0.009918392 0.4057069 0.3391165 0.4057069 0.009979427 0.5289845 0.678172 0.5289845 0.3490196 0.5507591 0.6781873 0.5507591 0.3490196 0.5507591 0.6781873 0.5507591 0.3490196 0.5607386 0.6782483 0.5607386 0.3489586 0.5189899 0.678233 0.5189899 0.3489738 0.5289845 0.678172 0.5289845 0.3490196 0.6825666 0.3391165 0.6825666 0.009964168 0.7043259 0.3391165 0.7043259 0.009964168 0.7043259 0.3391165 0.7043259 0.009964168 0.7143206 0.3391775 0.7143206 0.009903133 0.6725719 0.3391775 0.6725719 0.009903133 0.6825666 0.3391165 0.6825666 0.009964168 0.7379263 0.3391165 0.7379263 0.009964168 0.7597009 0.3391165 0.7597009 0.009964168 0.7597009 0.3391165 0.7597009 0.009964168 0.7696956 0.3391775 0.7696956 0.009903133 0.7279469 0.3391775 0.7279469 0.009903133 0.7379263 0.3391165 0.7379263 0.009964168 0.7933013 0.3391165 0.7933013 0.009964168 0.8150759 0.3391165 0.8150759 0.009964168 0.8150759 0.3391165 0.8150759 0.009964168 0.8250553 0.3391775 0.8250553 0.009903133 0.7833067 0.3391775 0.7833067 0.009903133 0.7933013 0.3391165 0.7933013 0.009964168 0.8486763 0.3391165 0.8486763 0.009964168 0.8704357 0.3391165 0.8704357 0.009964168 0.8704357 0.3391165 0.8704357 0.009964168 0.8804303 0.3391775 0.8804303 0.009903133 0.8386816 0.3391775 0.8386816 0.009903133 0.8486763 0.3391165 0.8486763 0.009964168 0.4753643 0.678172 0.4753643 0.3490348 0.4971237 0.6781873 0.4971237 0.3490196 0.4971237 0.6781873 0.4971237 0.3490196 0.5071183 0.678233 0.5071183 0.3489586 0.4653696 0.678233 0.4653696 0.3489738 0.4753643 0.678172 0.4753643 0.3490348 0.4217288 0.6781873 0.4217288 0.3490348 0.4435035 0.6781873 0.4435035 0.3490348 0.4435035 0.6781873 0.4435035 0.3490348 0.4534981 0.6782483 0.4534981 0.3489738 0.4117495 0.6782483 0.4117495 0.3489738 0.4217288 0.6781873 0.4217288 0.3490348 0.8940566 0.3391165 0.8940566 0.009964168 0.9158312 0.3391165 0.9158312 0.009964168 0.9158312 0.3391165 0.9158312 0.009964168 0.9258106 0.3391775 0.9258106 0.009903133 0.947982 0.3391165 0.947982 0.009964168 0.9697566 0.3391165 0.9697566 0.009964168 0.9697566 0.3391165 0.9697566 0.009964168 0.9797513 0.3391775 0.9797513 0.009903133 0.9380026 0.3391775 0.9380026 0.009903133 0.947982 0.3391165 0.947982 0.009964168 0.3681086 0.6781873 0.3681086 0.3490348 0.3898833 0.6781873 0.3898833 0.3490348 0.3898833 0.6781873 0.3898833 0.3490348 0.3998779 0.6782483 0.3998779 0.3489738 0.3581292 0.6782483 0.3581292 0.3489738 0.3681086 0.6781873 0.3681086 0.3490348 0.8943618 0.678172 0.8943618 0.3490348 0.9161364 0.6781873 0.9161364 0.3490196 0.9161364 0.6781873 0.9161364 0.3490196 0.9261158 0.6782483 0.9261158 0.3489586 0.8843671 0.678233 0.8843671 0.3489738 0.8943618 0.678172 0.8943618 0.3490348 0.8407416 0.678172 0.8407416 0.3490196 0.862501 0.6781873 0.862501 0.3490196 0.862501 0.6781873 0.862501 0.3490196 0.8724956 0.6782483 0.8724956 0.3489586 0.8307469 0.678233 0.8307469 0.3489738 0.8407416 0.678172 0.8407416 0.3490196 0.3503471 0.3391165 0.3503471 0.009979427 0.3721065 0.3391318 0.3721065 0.009964168 0.3721065 0.3391318 0.3721065 0.009964168 0.3821012 0.3391928 0.3821012 0.009903133 0.3403525 0.3391775 0.3403525 0.009918392 0.3503471 0.3391165 0.3503471 0.009979427 0.7871061 0.678172 0.7871061 0.3490348 0.8088807 0.6781873 0.8088807 0.3490196 0.8088807 0.6781873 0.8088807 0.3490196 0.8188754 0.6782483 0.8188754 0.3489586 0.7771267 0.678233 0.7771267 0.3489738 0.7871061 0.678172 0.7871061 0.3490348 0.4610819 0.3391165 0.4610819 0.009964168 0.4828565 0.3391165 0.4828565 0.009964168 0.4828565 0.3391165 0.4828565 0.009964168 0.4928359 0.3391775 0.4928359 0.009903133 0.4510872 0.3391775 0.4510872 0.009903133 0.4610819 0.3391165 0.4610819 0.009964168 0.5164568 0.3391165 0.5164568 0.009964168 0.5382162 0.3391165 0.5382162 0.009964168 0.5382162 0.3391165 0.5382162 0.009964168 0.5482109 0.3391775 0.5482109 0.009903133 0.5064622 0.3391775 0.5064622 0.009903133 0.5164568 0.3391165 0.5164568 0.009964168 0.5718166 0.3391165 0.5718166 0.009964168 0.5935912 0.3391165 0.5935912 0.009964168 0.5935912 0.3391165 0.5935912 0.009964168 0.6035859 0.3391775 0.6035859 0.009903133 0.5618372 0.3391775 0.5618372 0.009903133 0.5718166 0.3391165 0.5718166 0.009964168 0.6271916 0.3391165 0.6271916 0.009964168 0.6489662 0.3391165 0.6489662 0.009964168 0.6489662 0.3391165 0.6489662 0.009964168 0.6589456 0.3391775 0.6589456 0.009903133 0.6171969 0.3391775 0.6171969 0.009903133 0.6271916 0.3391165 0.6271916 0.009964168 0.07049668 0.6717021 0.07887389 0.6717021 0.07887389 0.6928207 0.1110094 0.6717021 0.1194018 0.6717021 0.1194018 0.6928207 0.0502327 0.6717021 0.05862516 0.6928207 0.0502327 0.6928207 0.09076066 0.6717021 0.09913787 0.6928207 0.09076066 0.6928207 0.07348745 0.0243839 0.1052415 0.02398717 0.07348745 0.6619364 0.07348745 0.6619364 0.1052415 0.02398717 0.1052415 0.6617686 0.07348745 0.0243839 0.09526207 0.009903133 0.1052415 0.02398717 0.01983673 0.0243839 0.05159075 0.02398717 0.01983673 0.6619364 0.01983673 0.6619364 0.05159075 0.02398717 0.05159075 0.6617686 0.01983673 0.0243839 0.04161135 0.009903133 0.05159075 0.02398717 0.5726253 0.3489738 0.5826047 0.3490196 0.5726253 0.678233 0.3957275 0.009918392 0.4057069 0.009979427 0.3957275 0.3391775 0.5507591 0.3490196 0.5607386 0.3489586 0.5507591 0.6781873 0.8386816 0.009903133 0.8486763 0.009964168 0.8386816 0.3391775 0.2395972 0.6475013 0.2395972 0.009903133 0.2613718 0.6475013 0.2713664 0.01341265 0.2296178 0.6510414 0.2296178 0.01341265 0.2395972 0.6475013 0.2395972 0.009903133 0.1288624 0.6475013 0.1288624 0.009903133 0.1506218 0.6475013 0.1606165 0.01341265 0.1188678 0.6510414 0.1188678 0.01341265 0.1288624 0.6475013 0.1288624 0.009903133 0.2849775 0.6510414 0.2949722 0.009903133 0.3167468 0.6475013 0.3167468 0.009903133 0.1742428 0.6510414 0.1842222 0.009903133 0.2059968 0.6475013 0.2059968 0.009903133 0.06350805 0.6617686 0.06350805 0.02458227 0.07348745 0.6619364 0.07348745 0.0243839 0.009842069 0.6617686 0.009842069 0.02458227 0.01983673 0.6619364 0.01983673 0.0243839 0.3044938 0.9900816 0.3144884 0.6608835 0.3362631 0.9900358 0.3462425 0.6608225 0.2608683 0.9900358 0.2608683 0.6608835 0.2826276 0.9900358 0.2926223 0.6608225 0.2508736 0.9900969 0.2508736 0.6608225 0.2608683 0.9900358 0.2608683 0.6608835 0.7334859 0.678172 0.7334859 0.3490196 0.7552605 0.6781873 0.7552605 0.3490196 0.7552605 0.6781873 0.7552605 0.3490196 0.7652552 0.6782483 0.7652552 0.3489586 0.6898604 0.678172 0.6898604 0.3490196 0.7116197 0.6781873 0.7116197 0.3490196 0.6798657 0.678233 0.6798657 0.3489738 0.6898604 0.678172 0.6898604 0.3490196 0.1972534 0.9900969 0.207248 0.6608835 0.2290074 0.9900358 0.2290074 0.6608835 0.2290074 0.9900358 0.2290074 0.6608835 0.2390021 0.9900969 0.2390021 0.6608225 0.6362249 0.678172 0.6362249 0.3490348 0.6579995 0.6781873 0.6679942 0.3489586 0.6262455 0.678233 0.6262455 0.3489738 0.6362249 0.678172 0.6362249 0.3490348 0.5726253 0.678233 0.5826047 0.3490196 0.6043794 0.6781873 0.6043794 0.3490196 0.6043794 0.6781873 0.6043794 0.3490196 0.614374 0.6782483 0.614374 0.3489586 0.3957275 0.3391775 0.4057069 0.009979427 0.4274815 0.3391318 0.4274815 0.009964168 0.4274815 0.3391318 0.4274815 0.009964168 0.4374762 0.3391928 0.4374762 0.009903133 0.5189899 0.678233 0.5289845 0.3490196 0.5507591 0.6781873 0.5507591 0.3490196 0.6825666 0.3391165 0.6825666 0.009964168 0.7043259 0.3391165 0.7143206 0.009903133 0.6725719 0.3391775 0.6725719 0.009903133 0.6825666 0.3391165 0.6825666 0.009964168 0.7279469 0.3391775 0.7379263 0.009964168 0.7597009 0.3391165 0.7597009 0.009964168 0.7597009 0.3391165 0.7597009 0.009964168 0.7696956 0.3391775 0.7696956 0.009903133 0.7933013 0.3391165 0.7933013 0.009964168 0.8150759 0.3391165 0.8250553 0.009903133 0.7833067 0.3391775 0.7833067 0.009903133 0.7933013 0.3391165 0.7933013 0.009964168 0.8386816 0.3391775 0.8486763 0.009964168 0.8704357 0.3391165 0.8704357 0.009964168 0.8704357 0.3391165 0.8704357 0.009964168 0.8804303 0.3391775 0.8804303 0.009903133 0.4653696 0.678233 0.4753643 0.3490348 0.4971237 0.6781873 0.4971237 0.3490196 0.4971237 0.6781873 0.4971237 0.3490196 0.5071183 0.678233 0.5071183 0.3489586 0.4117495 0.6782483 0.4217288 0.3490348 0.4435035 0.6781873 0.4534981 0.3489738 0.8940566 0.3391165 0.8940566 0.009964168 0.9158312 0.3391165 0.9258106 0.009903133 0.947982 0.3391165 0.947982 0.009964168 0.9697566 0.3391165 0.9697566 0.009964168 0.9380026 0.3391775 0.9380026 0.009903133 0.947982 0.3391165 0.947982 0.009964168 0.3581292 0.6782483 0.3681086 0.3490348 0.3898833 0.6781873 0.3898833 0.3490348 0.3898833 0.6781873 0.3898833 0.3490348 0.3998779 0.6782483 0.3998779 0.3489738 0.8943618 0.678172 0.8943618 0.3490348 0.9161364 0.6781873 0.9261158 0.3489586 0.8843671 0.678233 0.8843671 0.3489738 0.8943618 0.678172 0.8943618 0.3490348 0.8307469 0.678233 0.8407416 0.3490196 0.862501 0.6781873 0.862501 0.3490196 0.862501 0.6781873 0.862501 0.3490196 0.8724956 0.6782483 0.8724956 0.3489586 0.3403525 0.3391775 0.3503471 0.009979427 0.3721065 0.3391318 0.3821012 0.009903133 0.7871061 0.678172 0.7871061 0.3490348 0.8088807 0.6781873 0.8188754 0.3489586 0.7771267 0.678233 0.7771267 0.3489738 0.7871061 0.678172 0.7871061 0.3490348 0.4510872 0.3391775 0.4610819 0.009964168 0.4828565 0.3391165 0.4828565 0.009964168 0.4828565 0.3391165 0.4828565 0.009964168 0.4928359 0.3391775 0.4928359 0.009903133 0.5164568 0.3391165 0.5164568 0.009964168 0.5382162 0.3391165 0.5482109 0.009903133 0.5064622 0.3391775 0.5064622 0.009903133 0.5164568 0.3391165 0.5164568 0.009964168 0.5618372 0.3391775 0.5718166 0.009964168 0.5935912 0.3391165 0.5935912 0.009964168 0.5935912 0.3391165 0.5935912 0.009964168 0.6035859 0.3391775 0.6035859 0.009903133 0.6271916 0.3391165 0.6271916 0.009964168 0.6489662 0.3391165 0.6589456 0.009903133 0.6171969 0.3391775 0.6171969 0.009903133 0.6271916 0.3391165 0.6271916 0.009964168 0.3167468 0.6475013 0.3167468 0.009903133 0.3267262 0.6510414 0.3267262 0.5041428 0.3267262 0.01341265 0.2059968 0.6475013 0.2059968 0.009903133 0.2159915 0.6510414 0.2159915 0.5041733 0.2159915 0.01341265 0.3267262 0.5041428 0.3167468 0.6475013 0.3167468 0.009903133 0.2159915 0.5041733 0.2059968 0.6475013 0.2059968 0.009903133 0.2395972 0.6475013 0.2395972 0.009903133 0.2613718 0.6475013 0.2713664 0.01341265 0.1288624 0.6475013 0.1288624 0.009903133 0.1506218 0.6475013 0.1606165 0.01341265 0.2849775 0.6510414 0.2949722 0.009903133 0.3167468 0.6475013 0.3167468 0.009903133 0.1742428 0.6510414 0.1842222 0.009903133 0.2059968 0.6475013 0.2059968 0.009903133 0.3044938 0.9900816 0.3144884 0.6608835 0.3362631 0.9900358 0.3462425 0.6608225 0.2508736 0.9900969 0.2608683 0.6608835 0.2826276 0.9900358 0.2926223 0.6608225 0.7334859 0.678172 0.7334859 0.3490196 0.7552605 0.6781873 0.7652552 0.3489586 0.6798657 0.678233 0.6898604 0.3490196 0.7116197 0.6781873 0.7116197 0.3490196 0.1972534 0.9900969 0.207248 0.6608835 0.2290074 0.9900358 0.2390021 0.6608225 0.6262455 0.678233 0.6362249 0.3490348 0.6579995 0.6781873 0.6679942 0.3489586 0.5726253 0.678233 0.5826047 0.3490196 0.6043794 0.6781873 0.614374 0.3489586 0.3957275 0.3391775 0.4057069 0.009979427 0.4274815 0.3391318 0.4374762 0.009903133 0.5189899 0.678233 0.5289845 0.3490196 0.5507591 0.6781873 0.5607386 0.3489586 0.6725719 0.3391775 0.6825666 0.009964168 0.7043259 0.3391165 0.7143206 0.009903133 0.7279469 0.3391775 0.7379263 0.009964168 0.7597009 0.3391165 0.7696956 0.009903133 0.7833067 0.3391775 0.7933013 0.009964168 0.8150759 0.3391165 0.8250553 0.009903133 0.8386816 0.3391775 0.8386816 0.009903133 0.8704357 0.3391165 0.8804303 0.009903133 0.4653696 0.678233 0.4753643 0.3490348 0.4971237 0.6781873 0.5071183 0.3489586 0.4117495 0.6782483 0.4217288 0.3490348 0.4435035 0.6781873 0.4534981 0.3489738 0.8940566 0.3391165 0.8940566 0.009964168 0.9158312 0.3391165 0.9258106 0.009903133 0.9380026 0.3391775 0.947982 0.009964168 0.9697566 0.3391165 0.9697566 0.009964168 0.3581292 0.6782483 0.3681086 0.3490348 0.3898833 0.6781873 0.3998779 0.3489738 0.8843671 0.678233 0.8943618 0.3490348 0.9161364 0.6781873 0.9261158 0.3489586 0.8307469 0.678233 0.8407416 0.3490196 0.862501 0.6781873 0.8724956 0.3489586 0.3403525 0.3391775 0.3503471 0.009979427 0.3721065 0.3391318 0.3821012 0.009903133 0.7771267 0.678233 0.7871061 0.3490348 0.8088807 0.6781873 0.8188754 0.3489586 0.4510872 0.3391775 0.4610819 0.009964168 0.4828565 0.3391165 0.4928359 0.009903133 0.5064622 0.3391775 0.5164568 0.009964168 0.5382162 0.3391165 0.5482109 0.009903133 0.5618372 0.3391775 0.5718166 0.009964168 0.5935912 0.3391165 0.6035859 0.009903133 0.6171969 0.3391775 0.6171969 0.009903133 0.6489662 0.3391165 0.6589456 0.009903133</float_array>
+          <technique_common>
+            <accessor source="#WoodPlate_000_1__mJyohekiWoodFence-texcoord-array_1" count="806" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="WoodPlate_000_1__mJyohekiWoodFence-vertex">
+          <input semantic="POSITION" source="#WoodPlate_000_1__mJyohekiWoodFence-position" />
+        </vertices>
+        <triangles material="mJyohekiWoodFence" count="204">
+          <input semantic="VERTEX" source="#WoodPlate_000_1__mJyohekiWoodFence-vertex" offset="0" />
+          <input semantic="NORMAL" source="#WoodPlate_000_1__mJyohekiWoodFence-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#WoodPlate_000_1__mJyohekiWoodFence-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#WoodPlate_000_1__mJyohekiWoodFence-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 48 48 48 48 49 49 49 49 50 50 50 50 49 49 49 49 51 51 51 51 50 50 50 50 52 52 52 52 53 53 53 53 54 54 54 54 53 53 53 53 55 55 55 55 54 54 54 54 56 56 56 56 57 57 57 57 58 58 58 58 57 57 57 57 59 59 59 59 58 58 58 58 60 60 60 60 61 61 61 61 62 62 62 62 61 61 61 61 63 63 63 63 62 62 62 62 64 64 64 64 65 65 65 65 66 66 66 66 65 65 65 65 67 67 67 67 66 66 66 66 68 68 68 68 69 69 69 69 70 70 70 70 69 69 69 69 71 71 71 71 70 70 70 70 72 72 72 72 73 73 73 73 74 74 74 74 73 73 73 73 75 75 75 75 74 74 74 74 76 76 76 76 77 77 77 77 78 78 78 78 77 77 77 77 79 79 79 79 78 78 78 78 80 80 80 80 81 81 81 81 82 82 82 82 81 81 81 81 83 83 83 83 82 82 82 82 84 84 84 84 85 85 85 85 86 86 86 86 85 85 85 85 87 87 87 87 86 86 86 86 88 88 88 88 89 89 89 89 90 90 90 90 89 89 89 89 91 91 91 91 90 90 90 90 92 92 92 92 93 93 93 93 94 94 94 94 93 93 93 93 95 95 95 95 94 94 94 94 96 96 96 96 97 97 97 97 98 98 98 98 97 97 97 97 99 99 99 99 98 98 98 98 100 100 100 100 101 101 101 101 102 102 102 102 101 101 101 101 103 103 103 103 102 102 102 102 104 104 104 104 105 105 105 105 106 106 106 106 105 105 105 105 107 107 107 107 106 106 106 106 108 108 108 108 109 109 109 109 110 110 110 110 109 109 109 109 111 111 111 111 110 110 110 110 112 112 112 112 113 113 113 113 114 114 114 114 113 113 113 113 115 115 115 115 114 114 114 114 116 116 116 116 117 117 117 117 118 118 118 118 117 117 117 117 119 119 119 119 118 118 118 118 120 120 120 120 121 121 121 121 122 122 122 122 121 121 121 121 123 123 123 123 122 122 122 122 124 124 124 124 125 125 125 125 126 126 126 126 125 125 125 125 127 127 127 127 126 126 126 126 128 128 128 128 129 129 129 129 130 130 130 130 129 129 129 129 131 131 131 131 130 130 130 130 132 132 132 132 133 133 133 133 134 134 134 134 133 133 133 133 135 135 135 135 134 134 134 134 136 136 136 136 137 137 137 137 138 138 138 138 137 137 137 137 139 139 139 139 138 138 138 138 140 140 140 140 141 141 141 141 142 142 142 142 141 141 141 141 143 143 143 143 142 142 142 142 144 144 144 144 145 145 145 145 146 146 146 146 145 145 145 145 147 147 147 147 146 146 146 146 148 148 148 148 149 149 149 149 150 150 150 150 149 149 149 149 151 151 151 151 150 150 150 150 152 152 152 152 153 153 153 153 154 154 154 154 153 153 153 153 155 155 155 155 154 154 154 154 156 156 156 156 157 157 157 157 158 158 158 158 157 157 157 157 159 159 159 159 158 158 158 158 160 160 160 160 161 161 161 161 162 162 162 162 161 161 161 161 163 163 163 163 162 162 162 162 164 164 164 164 165 165 165 165 166 166 166 166 165 165 165 165 167 167 167 167 166 166 166 166 168 168 168 168 169 169 169 169 170 170 170 170 169 169 169 169 171 171 171 171 170 170 170 170 172 172 172 172 173 173 173 173 174 174 174 174 173 173 173 173 175 175 175 175 174 174 174 174 176 176 176 176 177 177 177 177 178 178 178 178 177 177 177 177 179 179 179 179 178 178 178 178 180 180 180 180 181 181 181 181 182 182 182 182 181 181 181 181 183 183 183 183 182 182 182 182 184 184 184 184 185 185 185 185 186 186 186 186 185 185 185 185 187 187 187 187 186 186 186 186 188 188 188 188 189 189 189 189 190 190 190 190 189 189 189 189 191 191 191 191 190 190 190 190 192 192 192 192 193 193 193 193 194 194 194 194 193 193 193 193 195 195 195 195 194 194 194 194 196 196 196 196 197 197 197 197 198 198 198 198 197 197 197 197 199 199 199 199 198 198 198 198 200 200 200 200 201 201 201 201 202 202 202 202 201 201 201 201 203 203 203 203 202 202 202 202 204 204 204 204 205 205 205 205 206 206 206 206 205 205 205 205 207 207 207 207 206 206 206 206 208 208 208 208 209 209 209 209 210 210 210 210 209 209 209 209 211 211 211 211 210 210 210 210 212 212 212 212 213 213 213 213 214 214 214 214 213 213 213 213 215 215 215 215 214 214 214 214 216 216 216 216 217 217 217 217 218 218 218 218 217 217 217 217 219 219 219 219 218 218 218 218 220 220 220 220 221 221 221 221 222 222 222 222 221 221 221 221 223 223 223 223 222 222 222 222 224 224 224 224 225 225 225 225 226 226 226 226 225 225 225 225 227 227 227 227 226 226 226 226 228 228 228 228 229 229 229 229 230 230 230 230 229 229 229 229 231 231 231 231 230 230 230 230 232 232 232 232 233 233 233 233 234 234 234 234 233 233 233 233 235 235 235 235 234 234 234 234 236 236 236 236 237 237 237 237 238 238 238 238 237 237 237 237 239 239 239 239 238 238 238 238 240 240 240 240 241 241 241 241 242 242 242 242 241 241 241 241 243 243 243 243 242 242 242 242 244 244 244 244 245 245 245 245 246 246 246 246 245 245 245 245 247 247 247 247 246 246 246 246 248 248 248 248 249 249 249 249 250 250 250 250 249 249 249 249 251 251 251 251 250 250 250 250 252 252 252 252 253 253 253 253 254 254 254 254 253 253 253 253 255 255 255 255 254 254 254 254 256 256 256 256 257 257 257 257 258 258 258 258 257 257 257 257 259 259 259 259 258 258 258 258 260 260 260 260 261 261 261 261 262 262 262 262 261 261 261 261 263 263 263 263 262 262 262 262 264 264 264 264 265 265 265 265 266 266 266 266 265 265 265 265 267 267 267 267 266 266 266 266 268 268 268 268 269 269 269 269 270 270 270 270 269 269 269 269 271 271 271 271 270 270 270 270 272 272 272 272 273 273 273 273 274 274 274 274 273 273 273 273 275 275 275 275 274 274 274 274 276 276 276 276 277 277 277 277 278 278 278 278 277 277 277 277 279 279 279 279 278 278 278 278 280 280 280 280 281 281 281 281 282 282 282 282 281 281 281 281 283 283 283 283 282 282 282 282 284 284 284 284 285 285 285 285 286 286 286 286 285 285 285 285 287 287 287 287 286 286 286 286 288 288 288 288 289 289 289 289 290 290 290 290 289 289 289 289 291 291 291 291 290 290 290 290 292 292 292 292 293 293 293 293 294 294 294 294 293 293 293 293 295 295 295 295 294 294 294 294 296 296 296 296 297 297 297 297 298 298 298 298 297 297 297 297 299 299 299 299 298 298 298 298 300 300 300 300 301 301 301 301 302 302 302 302 301 301 301 301 303 303 303 303 302 302 302 302 304 304 304 304 305 305 305 305 306 306 306 306 305 305 305 305 307 307 307 307 306 306 306 306 308 308 308 308 309 309 309 309 310 310 310 310 309 309 309 309 311 311 311 311 310 310 310 310 312 312 312 312 313 313 313 313 314 314 314 314 313 313 313 313 315 315 315 315 314 314 314 314 316 316 316 316 317 317 317 317 318 318 318 318 317 317 317 317 319 319 319 319 318 318 318 318 320 320 320 320 321 321 321 321 322 322 322 322 321 321 321 321 323 323 323 323 322 322 322 322 324 324 324 324 325 325 325 325 326 326 326 326 325 325 325 325 327 327 327 327 326 326 326 326 328 328 328 328 329 329 329 329 330 330 330 330 329 329 329 329 331 331 331 331 330 330 330 330 332 332 332 332 333 333 333 333 334 334 334 334 333 333 333 333 335 335 335 335 334 334 334 334 336 336 336 336 337 337 337 337 338 338 338 338 337 337 337 337 339 339 339 339 338 338 338 338 340 340 340 340 341 341 341 341 342 342 342 342 341 341 341 341 343 343 343 343 342 342 342 342 344 344 344 344 345 345 345 345 346 346 346 346 345 345 345 345 347 347 347 347 346 346 346 346 348 348 348 348 349 349 349 349 350 350 350 350 349 349 349 349 351 351 351 351 350 350 350 350 352 352 352 352 353 353 353 353 354 354 354 354 353 353 353 353 355 355 355 355 354 354 354 354 356 356 356 356 357 357 357 357 358 358 358 358 357 357 357 357 359 359 359 359 358 358 358 358 360 360 360 360 361 361 361 361 362 362 362 362 361 361 361 361 363 363 363 363 362 362 362 362 364 364 364 364 365 365 365 365 366 366 366 366 365 365 365 365 367 367 367 367 366 366 366 366 368 368 368 368 369 369 369 369 370 370 370 370 369 369 369 369 371 371 371 371 370 370 370 370 372 372 372 372 373 373 373 373 374 374 374 374 373 373 373 373 375 375 375 375 374 374 374 374 376 376 376 376 377 377 377 377 378 378 378 378 377 377 377 377 379 379 379 379 378 378 378 378 380 380 380 380 381 381 381 381 382 382 382 382 381 381 381 381 383 383 383 383 382 382 382 382 384 384 384 384 385 385 385 385 386 386 386 386 385 385 385 385 387 387 387 387 386 386 386 386 388 388 388 388 389 389 389 389 390 390 390 390 389 389 389 389 391 391 391 391 390 390 390 390 392 392 392 392 393 393 393 393 394 394 394 394 393 393 393 393 395 395 395 395 394 394 394 394 396 396 396 396 397 397 397 397 398 398 398 398 397 397 397 397 399 399 399 399 398 398 398 398 400 400 400 400 401 401 401 401 402 402 402 402 401 401 401 401 403 403 403 403 402 402 402 402 404 404 404 404 405 405 405 405 406 406 406 406 405 405 405 405 407 407 407 407 406 406 406 406 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_SteelFrame_1__mJyohekiHandrailEdging_np-mesh">
+      <skin source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="SteelFrame_1__mJyohekiHandrailEdging_np-mesh-joint">
+          <Name_array id="SteelFrame_1__mJyohekiHandrailEdging_np-mesh-joint-array" count="1">FldObj_HirameSlopeArea</Name_array>
+          <technique_common>
+            <accessor source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SteelFrame_1__mJyohekiHandrailEdging_np-mesh-inv_bind_matrix">
+          <float_array id="SteelFrame_1__mJyohekiHandrailEdging_np-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SteelFrame_1__mJyohekiHandrailEdging_np-mesh-weight">
+          <float_array id="SteelFrame_1__mJyohekiHandrailEdging_np-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="112">
+          <input semantic="JOINT" source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#SteelFrame_1__mJyohekiHandrailEdging_np-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Vinyl_000_1__SheetVinylBlue-mesh">
+      <skin source="#Vinyl_000_1__SheetVinylBlue-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Vinyl_000_1__SheetVinylBlue-mesh-joint">
+          <Name_array id="Vinyl_000_1__SheetVinylBlue-mesh-joint-array" count="1">FldObj_HirameSlopeArea</Name_array>
+          <technique_common>
+            <accessor source="#Vinyl_000_1__SheetVinylBlue-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinyl_000_1__SheetVinylBlue-mesh-inv_bind_matrix">
+          <float_array id="Vinyl_000_1__SheetVinylBlue-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Vinyl_000_1__SheetVinylBlue-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Vinyl_000_1__SheetVinylBlue-mesh-weight">
+          <float_array id="Vinyl_000_1__SheetVinylBlue-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Vinyl_000_1__SheetVinylBlue-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Vinyl_000_1__SheetVinylBlue-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Vinyl_000_1__SheetVinylBlue-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="18">
+          <input semantic="JOINT" source="#Vinyl_000_1__SheetVinylBlue-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Vinyl_000_1__SheetVinylBlue-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Wall_1__mJyohekiOuterWall-mesh">
+      <skin source="#Wall_1__mJyohekiOuterWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Wall_1__mJyohekiOuterWall-mesh-joint">
+          <Name_array id="Wall_1__mJyohekiOuterWall-mesh-joint-array" count="1">FldObj_HirameSlopeArea</Name_array>
+          <technique_common>
+            <accessor source="#Wall_1__mJyohekiOuterWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Wall_1__mJyohekiOuterWall-mesh-inv_bind_matrix">
+          <float_array id="Wall_1__mJyohekiOuterWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Wall_1__mJyohekiOuterWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Wall_1__mJyohekiOuterWall-mesh-weight">
+          <float_array id="Wall_1__mJyohekiOuterWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Wall_1__mJyohekiOuterWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Wall_1__mJyohekiOuterWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Wall_1__mJyohekiOuterWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="18">
+          <input semantic="JOINT" source="#Wall_1__mJyohekiOuterWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Wall_1__mJyohekiOuterWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_WoodPlate_000_1__mJyohekiWoodFence-mesh">
+      <skin source="#WoodPlate_000_1__mJyohekiWoodFence-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="WoodPlate_000_1__mJyohekiWoodFence-mesh-joint">
+          <Name_array id="WoodPlate_000_1__mJyohekiWoodFence-mesh-joint-array" count="1">FldObj_HirameSlopeArea</Name_array>
+          <technique_common>
+            <accessor source="#WoodPlate_000_1__mJyohekiWoodFence-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WoodPlate_000_1__mJyohekiWoodFence-mesh-inv_bind_matrix">
+          <float_array id="WoodPlate_000_1__mJyohekiWoodFence-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#WoodPlate_000_1__mJyohekiWoodFence-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="WoodPlate_000_1__mJyohekiWoodFence-mesh-weight">
+          <float_array id="WoodPlate_000_1__mJyohekiWoodFence-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#WoodPlate_000_1__mJyohekiWoodFence-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#WoodPlate_000_1__mJyohekiWoodFence-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#WoodPlate_000_1__mJyohekiWoodFence-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="806">
+          <input semantic="JOINT" source="#WoodPlate_000_1__mJyohekiWoodFence-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#WoodPlate_000_1__mJyohekiWoodFence-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_HirameSlopeArea" name="FldObj_HirameSlopeArea" sid="FldObj_HirameSlopeArea" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="SteelFrame_1__mJyohekiHandrailEdging_np" name="SteelFrame_1__mJyohekiHandrailEdging_np" type="NODE">
+        <instance_controller url="#Armature_SteelFrame_1__mJyohekiHandrailEdging_np-mesh">
+          <skeleton>#Armature_FldObj_HirameSlopeArea</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mJyohekiHandrailEdging_np" target="#mJyohekiHandrailEdging_np" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Vinyl_000_1__SheetVinylBlue" name="Vinyl_000_1__SheetVinylBlue" type="NODE">
+        <instance_controller url="#Armature_Vinyl_000_1__SheetVinylBlue-mesh">
+          <skeleton>#Armature_FldObj_HirameSlopeArea</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SheetVinylBlue" target="#SheetVinylBlue" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Wall_1__mJyohekiOuterWall" name="Wall_1__mJyohekiOuterWall" type="NODE">
+        <instance_controller url="#Armature_Wall_1__mJyohekiOuterWall-mesh">
+          <skeleton>#Armature_FldObj_HirameSlopeArea</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mJyohekiOuterWall" target="#mJyohekiOuterWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="WoodPlate_000_1__mJyohekiWoodFence" name="WoodPlate_000_1__mJyohekiWoodFence" type="NODE">
+        <instance_controller url="#Armature_WoodPlate_000_1__mJyohekiWoodFence-mesh">
+          <skeleton>#Armature_FldObj_HirameSlopeArea</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mJyohekiWoodFence" target="#mJyohekiWoodFence" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
