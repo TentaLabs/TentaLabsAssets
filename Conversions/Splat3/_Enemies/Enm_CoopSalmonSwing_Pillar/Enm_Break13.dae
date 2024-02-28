@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="M_Body_Alb">
+      <init_from>M_Body_Alb.png</init_from>
+    </image>
+    <image id="M_Body_Mtl">
+      <init_from>M_Body_Mtl.png</init_from>
+    </image>
+    <image id="M_Body_Nrm">
+      <init_from>M_Body_Nrm.png</init_from>
+    </image>
+    <image id="M_Body_Rgh">
+      <init_from>M_Body_Rgh.png</init_from>
+    </image>
+    <image id="PaintDummy00">
+      <init_from>PaintDummy00.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_Body">
+      <instance_effect url="#Effect_M_Body" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_Body">
+      <profile_COMMON>
+        <newparam sid="surface_M_Body-diffuse">
+          <surface type="2D">
+            <init_from>M_Body_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-diffuse">
+          <sampler2D>
+            <source>surface_M_Body-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_Body-bump">
+          <surface type="2D">
+            <init_from>M_Body_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_Body-bump">
+          <sampler2D>
+            <source>surface_M_Body-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_Body-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_Body-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Enm_Break13__M_Body-mesh" name="Enm_Break13__M_Body">
+      <mesh>
+        <source id="Enm_Break13__M_Body-position">
+          <float_array id="Enm_Break13__M_Body-position-array" count="102">0.07573693 -0.3516073 -0.1231655 0.07880066 -0.2167773 -0.5804433 0.09809616 -0.3519979 -0.1231658 0.08496544 0.05396605 0.04199287 0.1011819 -0.2171683 -0.5804424 0.08550919 0.07781124 -0.4287183 0.1075562 0.08071899 -0.428584 0.1070086 0.0568738 0.04213716 0.08229889 0.1729536 -0.3822312 0.06023758 0.1700459 -0.3823666 0.06963638 0.5844774 -0.24426 0.08187187 0.154213 0.08664938 0.05981361 0.1513052 0.08650408 0.09214874 0.5840869 -0.2442599 0.06722321 0.47824 0.2136876 0.08971817 0.4778495 0.2136863 0.09809616 -0.3519979 -0.1231658 0.1011819 -0.2171683 -0.5804424 0.1075562 0.08071899 -0.428584 0.08550919 0.07781124 -0.4287183 0.1070086 0.0568738 0.04213716 0.08229889 0.1729536 -0.3822312 0.08187187 0.154213 0.08664938 0.09214874 0.5840869 -0.2442599 0.06963638 0.5844774 -0.24426 0.06722321 0.47824 0.2136876 0.08971817 0.4778495 0.2136863 0.09868044 -0.3521886 -0.1222159 0.09870401 -0.2172685 -0.5805046 0.1071643 0.08986282 -0.4475747 0.09084729 0.153513 0.09083097 0.0817188 0.1729193 -0.382203 0.09027573 0.5841398 -0.2443493 0.0873347 0.4779053 0.2136915</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break13__M_Body-position-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break13__M_Body-normal">
+          <float_array id="Enm_Break13__M_Body-normal-array" count="102">0 -0.9178082 0.3953033 -0.02935421 -0.5831702 -0.8121331 0.9941292 -0.09589041 0.03131115 0.02348337 -0.3816047 0.9236791 0.9960861 -0.06457926 -0.06066536 -0.02935421 0.4520548 -0.8923679 1 0.03131115 -0.02935421 0.9980431 0.037182 0.05675147 0.9960861 0.07827789 -0.05675147 -0.02152642 0.3424658 -0.9393346 0.001956947 0.890411 -0.4540117 1 -0.001956947 0.04305284 0.02544031 -0.3737769 0.9275929 0.9980431 0.04696673 -0.03522505 0.02544031 0.6105675 0.7906067 0.9980431 0.02152642 0.05870841 0.9941292 -0.09589041 0.03131115 0.9960861 -0.06457926 -0.06066536 1 0.03131115 -0.02935421 -0.02935421 0.4520548 -0.8923679 0.9980431 0.037182 0.05675147 0.9960861 0.07827789 -0.05675147 1 -0.001956947 0.04305284 0.9980431 0.04696673 -0.03522505 0.001956947 0.890411 -0.4540117 0.02544031 0.6105675 0.7906067 0.9980431 0.02152642 0.05870841 0.9941292 -0.09589041 0.03131115 0.9960861 -0.06457926 -0.06066536 1 0.03131115 -0.02935421 1 -0.001956947 0.04305284 0.9960861 0.07827789 -0.05675147 0.9980431 0.04696673 -0.03522505 0.9980431 0.02152642 0.05870841</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break13__M_Body-normal-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break13__M_Body-texcoord">
+          <float_array id="Enm_Break13__M_Body-texcoord-array" count="68">0.613077 0.6489509 0.5736935 0.6504768 0.6120241 0.6473793 0.6224002 0.6142214 0.5748379 0.6489815 0.5751278 0.6191653 0.5771267 0.6190432 0.6205692 0.6134279 0.5791104 0.610132 0.5772183 0.6096742 0.5861143 0.5748989 0.6234989 0.6045319 0.625452 0.6046388 0.5872434 0.5764401 0.6246433 0.571786 0.6234989 0.5733272 0.6120241 0.6473793 0.5748379 0.6489815 0.5771267 0.6190432 0.5751278 0.6191653 0.6205692 0.6134279 0.5791104 0.610132 0.6234989 0.6045319 0.5872434 0.5764401 0.5861143 0.5748989 0.6246433 0.571786 0.6234989 0.5733272 0.6120241 0.6473793 0.5748379 0.6489815 0.5751278 0.6191653 0.6234989 0.6045319 0.5791104 0.610132 0.5872434 0.5764401 0.6234989 0.5733272</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break13__M_Body-texcoord-array" count="34" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Enm_Break13__M_Body-vertex">
+          <input semantic="POSITION" source="#Enm_Break13__M_Body-position" />
+        </vertices>
+        <triangles material="M_Body" count="22">
+          <input semantic="VERTEX" source="#Enm_Break13__M_Body-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Enm_Break13__M_Body-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Enm_Break13__M_Body-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 0 0 0 2 2 2 3 3 3 1 1 1 4 4 4 2 2 2 1 1 1 5 5 5 4 4 4 2 2 2 4 4 4 6 6 6 5 5 5 6 6 6 4 4 4 2 2 2 7 7 7 3 3 3 7 7 7 2 2 2 6 6 6 8 8 8 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 8 8 8 5 5 5 9 9 9 10 10 10 8 8 8 3 3 3 7 7 7 11 11 11 11 11 11 7 7 7 8 8 8 12 12 12 3 3 3 11 11 11 10 10 10 13 13 13 8 8 8 11 11 11 8 8 8 13 13 13 10 10 10 14 14 14 13 13 13 12 12 12 11 11 11 14 14 14 15 15 15 11 11 11 13 13 13 11 11 11 15 15 15 14 14 14 14 14 14 15 15 15 13 13 13 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Enm_Break13__M_Body-mesh">
+      <skin source="#Enm_Break13__M_Body-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Enm_Break13__M_Body-mesh-joint">
+          <Name_array id="Enm_Break13__M_Body-mesh-joint-array" count="1">Enm_Break13</Name_array>
+          <technique_common>
+            <accessor source="#Enm_Break13__M_Body-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break13__M_Body-mesh-inv_bind_matrix">
+          <float_array id="Enm_Break13__M_Body-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 -4.972002 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break13__M_Body-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Enm_Break13__M_Body-mesh-weight">
+          <float_array id="Enm_Break13__M_Body-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Enm_Break13__M_Body-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Enm_Break13__M_Body-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Enm_Break13__M_Body-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="34">
+          <input semantic="JOINT" source="#Enm_Break13__M_Body-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Enm_Break13__M_Body-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Enm_Break13" name="Enm_Break13" sid="Enm_Break13" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 4.972002 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Enm_Break13__M_Body" name="Enm_Break13__M_Body" type="NODE">
+        <instance_controller url="#Armature_Enm_Break13__M_Body-mesh">
+          <skeleton>#Armature_Enm_Break13</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_Body" target="#M_Body" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
