@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Alminium00_Alb">
+      <init_from>Alminium00_Alb.png</init_from>
+    </image>
+    <image id="Alminium00_Mtl">
+      <init_from>Alminium00_Mtl.png</init_from>
+    </image>
+    <image id="Alminium00_Nrm">
+      <init_from>Alminium00_Nrm.png</init_from>
+    </image>
+    <image id="Alminium00_Rgh">
+      <init_from>Alminium00_Rgh.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="Ceiling00_Alb">
+      <init_from>Ceiling00_Alb.png</init_from>
+    </image>
+    <image id="Ceiling00_Emm">
+      <init_from>Ceiling00_Emm.png</init_from>
+    </image>
+    <image id="Ceiling00_Mtl">
+      <init_from>Ceiling00_Mtl.png</init_from>
+    </image>
+    <image id="Ceiling00_Nrm">
+      <init_from>Ceiling00_Nrm.png</init_from>
+    </image>
+    <image id="Ceiling00_Rgh">
+      <init_from>Ceiling00_Rgh.png</init_from>
+    </image>
+    <image id="CircleFloor00_Alb">
+      <init_from>CircleFloor00_Alb.png</init_from>
+    </image>
+    <image id="CircleFloor00_Mtl">
+      <init_from>CircleFloor00_Mtl.png</init_from>
+    </image>
+    <image id="CircleFloor00_Nrm">
+      <init_from>CircleFloor00_Nrm.png</init_from>
+    </image>
+    <image id="CircleFloor00_Rgh">
+      <init_from>CircleFloor00_Rgh.png</init_from>
+    </image>
+    <image id="CircusCurb00_Alb">
+      <init_from>CircusCurb00_Alb.png</init_from>
+    </image>
+    <image id="CircusCurb00_Emm">
+      <init_from>CircusCurb00_Emm.png</init_from>
+    </image>
+    <image id="CircusCurb00_Mtl">
+      <init_from>CircusCurb00_Mtl.png</init_from>
+    </image>
+    <image id="CircusCurb00_Nrm">
+      <init_from>CircusCurb00_Nrm.png</init_from>
+    </image>
+    <image id="CircusCurb00_Rgh">
+      <init_from>CircusCurb00_Rgh.png</init_from>
+    </image>
+    <image id="Concrete00_Alb">
+      <init_from>Concrete00_Alb.png</init_from>
+    </image>
+    <image id="Concrete00_Mtl">
+      <init_from>Concrete00_Mtl.png</init_from>
+    </image>
+    <image id="Concrete00_Nrm">
+      <init_from>Concrete00_Nrm.png</init_from>
+    </image>
+    <image id="Concrete00_Rgh">
+      <init_from>Concrete00_Rgh.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Alb">
+      <init_from>ConcreteTilePlaid00_Alb.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Mtl">
+      <init_from>ConcreteTilePlaid00_Mtl.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Nrm">
+      <init_from>ConcreteTilePlaid00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Rgh">
+      <init_from>ConcreteTilePlaid00_Rgh.png</init_from>
+    </image>
+    <image id="Curb00_Alb">
+      <init_from>Curb00_Alb.png</init_from>
+    </image>
+    <image id="Curb00_Mtl">
+      <init_from>Curb00_Mtl.png</init_from>
+    </image>
+    <image id="Curb00_Nrm">
+      <init_from>Curb00_Nrm.png</init_from>
+    </image>
+    <image id="Curb00_Rgh">
+      <init_from>Curb00_Rgh.png</init_from>
+    </image>
+    <image id="Erosion00_Alb">
+      <init_from>Erosion00_Alb.png</init_from>
+    </image>
+    <image id="Erosion00_Nrm">
+      <init_from>Erosion00_Nrm.png</init_from>
+    </image>
+    <image id="EVMetal_Alb">
+      <init_from>EVMetal_Alb.png</init_from>
+    </image>
+    <image id="EVMetal_Mtl">
+      <init_from>EVMetal_Mtl.png</init_from>
+    </image>
+    <image id="EVMetal_Nrm">
+      <init_from>EVMetal_Nrm.png</init_from>
+    </image>
+    <image id="EVMetal_Rgh">
+      <init_from>EVMetal_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine00_Alb">
+      <init_from>FloorLine00_Alb.png</init_from>
+    </image>
+    <image id="FloorLine00_Mtl">
+      <init_from>FloorLine00_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine00_Nrm">
+      <init_from>FloorLine00_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine00_Rgh">
+      <init_from>FloorLine00_Rgh.png</init_from>
+    </image>
+    <image id="FloorNP00_Alb">
+      <init_from>FloorNP00_Alb.png</init_from>
+    </image>
+    <image id="FloorNP00_Nrm">
+      <init_from>FloorNP00_Nrm.png</init_from>
+    </image>
+    <image id="Geta00_Alb">
+      <init_from>Geta00_Alb.png</init_from>
+    </image>
+    <image id="Geta00_Mtl">
+      <init_from>Geta00_Mtl.png</init_from>
+    </image>
+    <image id="Geta00_Nrm">
+      <init_from>Geta00_Nrm.png</init_from>
+    </image>
+    <image id="Geta00_Rgh">
+      <init_from>Geta00_Rgh.png</init_from>
+    </image>
+    <image id="GetaWall00_Alb">
+      <init_from>GetaWall00_Alb.png</init_from>
+    </image>
+    <image id="GetaWall00_Mtl">
+      <init_from>GetaWall00_Mtl.png</init_from>
+    </image>
+    <image id="GetaWall00_Nrm">
+      <init_from>GetaWall00_Nrm.png</init_from>
+    </image>
+    <image id="GetaWall00_Rgh">
+      <init_from>GetaWall00_Rgh.png</init_from>
+    </image>
+    <image id="Glass00_Alb">
+      <init_from>Glass00_Alb.png</init_from>
+    </image>
+    <image id="Glass00_Mtl">
+      <init_from>Glass00_Mtl.png</init_from>
+    </image>
+    <image id="Glass00_Nrm">
+      <init_from>Glass00_Nrm.png</init_from>
+    </image>
+    <image id="Glass00_Opa">
+      <init_from>Glass00_Opa.png</init_from>
+    </image>
+    <image id="Glass00_Rgh">
+      <init_from>Glass00_Rgh.png</init_from>
+    </image>
+    <image id="Grafitti00_Alb">
+      <init_from>Grafitti00_Alb.png</init_from>
+    </image>
+    <image id="Grafitti00_Mtl">
+      <init_from>Grafitti00_Mtl.png</init_from>
+    </image>
+    <image id="Grafitti00_Nrm">
+      <init_from>Grafitti00_Nrm.png</init_from>
+    </image>
+    <image id="Grafitti00_Rgh">
+      <init_from>Grafitti00_Rgh.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Alb">
+      <init_from>HangingSignBoard_Alb.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Emm">
+      <init_from>HangingSignBoard_Emm.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Mtl">
+      <init_from>HangingSignBoard_Mtl.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Nrm">
+      <init_from>HangingSignBoard_Nrm.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Rgh">
+      <init_from>HangingSignBoard_Rgh.png</init_from>
+    </image>
+    <image id="IronTile00_Alb">
+      <init_from>IronTile00_Alb.png</init_from>
+    </image>
+    <image id="IronTile00_Mtl">
+      <init_from>IronTile00_Mtl.png</init_from>
+    </image>
+    <image id="IronTile00_Nrm">
+      <init_from>IronTile00_Nrm.png</init_from>
+    </image>
+    <image id="IronTile00_Rgh">
+      <init_from>IronTile00_Rgh.png</init_from>
+    </image>
+    <image id="LiftFloor00_Alb">
+      <init_from>LiftFloor00_Alb.png</init_from>
+    </image>
+    <image id="LiftFloor00_Emm">
+      <init_from>LiftFloor00_Emm.png</init_from>
+    </image>
+    <image id="LiftFloor00_Mtl">
+      <init_from>LiftFloor00_Mtl.png</init_from>
+    </image>
+    <image id="LiftFloor00_Nrm">
+      <init_from>LiftFloor00_Nrm.png</init_from>
+    </image>
+    <image id="LiftFloor00_Rgh">
+      <init_from>LiftFloor00_Rgh.png</init_from>
+    </image>
+    <image id="Light00_Alb">
+      <init_from>Light00_Alb.png</init_from>
+    </image>
+    <image id="Light00_Emm">
+      <init_from>Light00_Emm.png</init_from>
+    </image>
+    <image id="Light00_Mtl">
+      <init_from>Light00_Mtl.png</init_from>
+    </image>
+    <image id="Light00_Nrm">
+      <init_from>Light00_Nrm.png</init_from>
+    </image>
+    <image id="Light00_Rgh">
+      <init_from>Light00_Rgh.png</init_from>
+    </image>
+    <image id="Light01_Alb">
+      <init_from>Light01_Alb.png</init_from>
+    </image>
+    <image id="Light01_Emm">
+      <init_from>Light01_Emm.png</init_from>
+    </image>
+    <image id="Light01_Mtl">
+      <init_from>Light01_Mtl.png</init_from>
+    </image>
+    <image id="Light01_Nrm">
+      <init_from>Light01_Nrm.png</init_from>
+    </image>
+    <image id="Light01_Rgh">
+      <init_from>Light01_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="LightShaft00_Nrm">
+      <init_from>LightShaft00_Nrm.png</init_from>
+    </image>
+    <image id="MetalCircle00_Alb">
+      <init_from>MetalCircle00_Alb.png</init_from>
+    </image>
+    <image id="MetalCircle00_Mtl">
+      <init_from>MetalCircle00_Mtl.png</init_from>
+    </image>
+    <image id="MetalCircle00_Nrm">
+      <init_from>MetalCircle00_Nrm.png</init_from>
+    </image>
+    <image id="MetalCircle00_Rgh">
+      <init_from>MetalCircle00_Rgh.png</init_from>
+    </image>
+    <image id="MetalCircle01_Alb">
+      <init_from>MetalCircle01_Alb.png</init_from>
+    </image>
+    <image id="MetalCircle01_Mtl">
+      <init_from>MetalCircle01_Mtl.png</init_from>
+    </image>
+    <image id="MetalCircle01_Nrm">
+      <init_from>MetalCircle01_Nrm.png</init_from>
+    </image>
+    <image id="MetalCircle01_Rgh">
+      <init_from>MetalCircle01_Rgh.png</init_from>
+    </image>
+    <image id="MetalSlope01_Alb">
+      <init_from>MetalSlope01_Alb.png</init_from>
+    </image>
+    <image id="MetalSlope01_Mtl">
+      <init_from>MetalSlope01_Mtl.png</init_from>
+    </image>
+    <image id="MetalSlope01_Nrm">
+      <init_from>MetalSlope01_Nrm.png</init_from>
+    </image>
+    <image id="MetalSlope01_Rgh">
+      <init_from>MetalSlope01_Rgh.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Alb">
+      <init_from>PrisonCeiling00_Alb.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Emm">
+      <init_from>PrisonCeiling00_Emm.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Mtl">
+      <init_from>PrisonCeiling00_Mtl.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Nrm">
+      <init_from>PrisonCeiling00_Nrm.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Rgh">
+      <init_from>PrisonCeiling00_Rgh.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Alb">
+      <init_from>PrisonMetal00_Alb.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Mtl">
+      <init_from>PrisonMetal00_Mtl.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Nrm">
+      <init_from>PrisonMetal00_Nrm.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Rgh">
+      <init_from>PrisonMetal00_Rgh.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Alb">
+      <init_from>PrisonPillar01_Alb.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Mtl">
+      <init_from>PrisonPillar01_Mtl.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Nrm">
+      <init_from>PrisonPillar01_Nrm.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Rgh">
+      <init_from>PrisonPillar01_Rgh.png</init_from>
+    </image>
+    <image id="PrisonWall00_Alb">
+      <init_from>PrisonWall00_Alb.png</init_from>
+    </image>
+    <image id="PrisonWall00_Mtl">
+      <init_from>PrisonWall00_Mtl.png</init_from>
+    </image>
+    <image id="PrisonWall00_Nrm">
+      <init_from>PrisonWall00_Nrm.png</init_from>
+    </image>
+    <image id="PrisonWall00_Rgh">
+      <init_from>PrisonWall00_Rgh.png</init_from>
+    </image>
+    <image id="PrisonWall01_Alb">
+      <init_from>PrisonWall01_Alb.png</init_from>
+    </image>
+    <image id="PrisonWall01_Mtl">
+      <init_from>PrisonWall01_Mtl.png</init_from>
+    </image>
+    <image id="PrisonWall01_Nrm">
+      <init_from>PrisonWall01_Nrm.png</init_from>
+    </image>
+    <image id="PrisonWall01_Rgh">
+      <init_from>PrisonWall01_Rgh.png</init_from>
+    </image>
+    <image id="PrisonWall02_Alb">
+      <init_from>PrisonWall02_Alb.png</init_from>
+    </image>
+    <image id="PrisonWall02_Mtl">
+      <init_from>PrisonWall02_Mtl.png</init_from>
+    </image>
+    <image id="PrisonWall02_Nrm">
+      <init_from>PrisonWall02_Nrm.png</init_from>
+    </image>
+    <image id="PrisonWall02_Rgh">
+      <init_from>PrisonWall02_Rgh.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Alb">
+      <init_from>SdodrElevatorFront00_Alb.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Emm">
+      <init_from>SdodrElevatorFront00_Emm.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Mtl">
+      <init_from>SdodrElevatorFront00_Mtl.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Nrm">
+      <init_from>SdodrElevatorFront00_Nrm.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Rgh">
+      <init_from>SdodrElevatorFront00_Rgh.png</init_from>
+    </image>
+    <image id="SealConcrete_Alb">
+      <init_from>SealConcrete_Alb.png</init_from>
+    </image>
+    <image id="SealConcrete_Mtl">
+      <init_from>SealConcrete_Mtl.png</init_from>
+    </image>
+    <image id="SealConcrete_Nrm">
+      <init_from>SealConcrete_Nrm.png</init_from>
+    </image>
+    <image id="SealConcrete_Rgh">
+      <init_from>SealConcrete_Rgh.png</init_from>
+    </image>
+    <image id="Searchlight00_Alb">
+      <init_from>Searchlight00_Alb.png</init_from>
+    </image>
+    <image id="Searchlight00_Emm">
+      <init_from>Searchlight00_Emm.png</init_from>
+    </image>
+    <image id="Searchlight00_Mtl">
+      <init_from>Searchlight00_Mtl.png</init_from>
+    </image>
+    <image id="Searchlight00_Nrm">
+      <init_from>Searchlight00_Nrm.png</init_from>
+    </image>
+    <image id="Searchlight00_Rgh">
+      <init_from>Searchlight00_Rgh.png</init_from>
+    </image>
+    <image id="Silver00_Alb">
+      <init_from>Silver00_Alb.png</init_from>
+    </image>
+    <image id="Silver00_Mtl">
+      <init_from>Silver00_Mtl.png</init_from>
+    </image>
+    <image id="Silver00_Nrm">
+      <init_from>Silver00_Nrm.png</init_from>
+    </image>
+    <image id="Silver00_Rgh">
+      <init_from>Silver00_Rgh.png</init_from>
+    </image>
+    <image id="SpotLight00_Alb">
+      <init_from>SpotLight00_Alb.png</init_from>
+    </image>
+    <image id="SpotLight00_Emm">
+      <init_from>SpotLight00_Emm.png</init_from>
+    </image>
+    <image id="SpotLight00_Mtl">
+      <init_from>SpotLight00_Mtl.png</init_from>
+    </image>
+    <image id="SpotLight00_Nrm">
+      <init_from>SpotLight00_Nrm.png</init_from>
+    </image>
+    <image id="SpotLight00_Rgh">
+      <init_from>SpotLight00_Rgh.png</init_from>
+    </image>
+    <image id="Stone00_Alb">
+      <init_from>Stone00_Alb.png</init_from>
+    </image>
+    <image id="Stone00_Mtl">
+      <init_from>Stone00_Mtl.png</init_from>
+    </image>
+    <image id="Stone00_Nrm">
+      <init_from>Stone00_Nrm.png</init_from>
+    </image>
+    <image id="Stone00_Rgh">
+      <init_from>Stone00_Rgh.png</init_from>
+    </image>
+    <image id="Sushi00_Alb">
+      <init_from>Sushi00_Alb.png</init_from>
+    </image>
+    <image id="Sushi00_Emm">
+      <init_from>Sushi00_Emm.png</init_from>
+    </image>
+    <image id="Sushi00_Fxm">
+      <init_from>Sushi00_Fxm.png</init_from>
+    </image>
+    <image id="Sushi00_Mtl">
+      <init_from>Sushi00_Mtl.png</init_from>
+    </image>
+    <image id="Sushi00_Nrm">
+      <init_from>Sushi00_Nrm.png</init_from>
+    </image>
+    <image id="Sushi00_Rgh">
+      <init_from>Sushi00_Rgh.png</init_from>
+    </image>
+    <image id="Sushi00_Trm">
+      <init_from>Sushi00_Trm.png</init_from>
+    </image>
+    <image id="Sushi1_Vsp">
+      <init_from>Sushi1_Vsp.png</init_from>
+    </image>
+    <image id="Sushi2_Vsp">
+      <init_from>Sushi2_Vsp.png</init_from>
+    </image>
+    <image id="Sushi3_Vsp">
+      <init_from>Sushi3_Vsp.png</init_from>
+    </image>
+    <image id="SushiDish00_Alb">
+      <init_from>SushiDish00_Alb.png</init_from>
+    </image>
+    <image id="SushiDish00_Mtl">
+      <init_from>SushiDish00_Mtl.png</init_from>
+    </image>
+    <image id="SushiDish00_Nrm">
+      <init_from>SushiDish00_Nrm.png</init_from>
+    </image>
+    <image id="SushiDish00_Rgh">
+      <init_from>SushiDish00_Rgh.png</init_from>
+    </image>
+    <image id="SushiDish01_Alb">
+      <init_from>SushiDish01_Alb.png</init_from>
+    </image>
+    <image id="SushiDish01_Mtl">
+      <init_from>SushiDish01_Mtl.png</init_from>
+    </image>
+    <image id="SushiDish01_Nrm">
+      <init_from>SushiDish01_Nrm.png</init_from>
+    </image>
+    <image id="SushiDish01_Rgh">
+      <init_from>SushiDish01_Rgh.png</init_from>
+    </image>
+    <image id="SushiGeta00_Alb">
+      <init_from>SushiGeta00_Alb.png</init_from>
+    </image>
+    <image id="SushiGeta00_Emm">
+      <init_from>SushiGeta00_Emm.png</init_from>
+    </image>
+    <image id="SushiGeta00_Mtl">
+      <init_from>SushiGeta00_Mtl.png</init_from>
+    </image>
+    <image id="SushiGeta00_Nrm">
+      <init_from>SushiGeta00_Nrm.png</init_from>
+    </image>
+    <image id="SushiGeta00_Rgh">
+      <init_from>SushiGeta00_Rgh.png</init_from>
+    </image>
+    <image id="SushiLine00_Alb">
+      <init_from>SushiLine00_Alb.png</init_from>
+    </image>
+    <image id="SushiLine00_Mtl">
+      <init_from>SushiLine00_Mtl.png</init_from>
+    </image>
+    <image id="SushiLine00_Nrm">
+      <init_from>SushiLine00_Nrm.png</init_from>
+    </image>
+    <image id="SushiLine00_Rgh">
+      <init_from>SushiLine00_Rgh.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Alb">
+      <init_from>TowerKingConcrete01_Alb.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Mtl">
+      <init_from>TowerKingConcrete01_Mtl.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Nrm">
+      <init_from>TowerKingConcrete01_Nrm.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Rgh">
+      <init_from>TowerKingConcrete01_Rgh.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Alb">
+      <init_from>TowerKingMetalSlope00_Alb.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Mtl">
+      <init_from>TowerKingMetalSlope00_Mtl.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Nrm">
+      <init_from>TowerKingMetalSlope00_Nrm.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Rgh">
+      <init_from>TowerKingMetalSlope00_Rgh.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Alb">
+      <init_from>TowerKingWoodWall00_Alb.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Mtl">
+      <init_from>TowerKingWoodWall00_Mtl.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Nrm">
+      <init_from>TowerKingWoodWall00_Nrm.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Rgh">
+      <init_from>TowerKingWoodWall00_Rgh.png</init_from>
+    </image>
+    <image id="Truss00_Alb">
+      <init_from>Truss00_Alb.png</init_from>
+    </image>
+    <image id="Truss00_Mtl">
+      <init_from>Truss00_Mtl.png</init_from>
+    </image>
+    <image id="Truss00_Nrm">
+      <init_from>Truss00_Nrm.png</init_from>
+    </image>
+    <image id="Truss00_Rgh">
+      <init_from>Truss00_Rgh.png</init_from>
+    </image>
+    <image id="WallConcrete00_Alb">
+      <init_from>WallConcrete00_Alb.png</init_from>
+    </image>
+    <image id="WallConcrete00_Nrm">
+      <init_from>WallConcrete00_Nrm.png</init_from>
+    </image>
+    <image id="WallObject00_Alb">
+      <init_from>WallObject00_Alb.png</init_from>
+    </image>
+    <image id="WallObject00_Emi">
+      <init_from>WallObject00_Emi.png</init_from>
+    </image>
+    <image id="WallObject00_Mtl">
+      <init_from>WallObject00_Mtl.png</init_from>
+    </image>
+    <image id="WallObject00_Nrm">
+      <init_from>WallObject00_Nrm.png</init_from>
+    </image>
+    <image id="WallObject00_Rgh">
+      <init_from>WallObject00_Rgh.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Alb">
+      <init_from>WatchTowerWall00_Alb.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Mtl">
+      <init_from>WatchTowerWall00_Mtl.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Nrm">
+      <init_from>WatchTowerWall00_Nrm.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Rgh">
+      <init_from>WatchTowerWall00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Erosion00">
+      <instance_effect url="#Effect_Erosion00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Erosion00">
+      <profile_COMMON>
+        <newparam sid="surface_Erosion00-diffuse">
+          <surface type="2D">
+            <init_from>Erosion00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Erosion00-diffuse">
+          <sampler2D>
+            <source>surface_Erosion00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Erosion00-bump">
+          <surface type="2D">
+            <init_from>Erosion00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Erosion00-bump">
+          <sampler2D>
+            <source>surface_Erosion00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Erosion00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Erosion00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="group527_pCylinder254__Erosion00-mesh" name="group527_pCylinder254__Erosion00">
+      <mesh>
+        <source id="group527_pCylinder254__Erosion00-position">
+          <float_array id="group527_pCylinder254__Erosion00-position-array" count="117">-28.21732 97.02419 -28.52516 -23.40752 97.02283 -32.58805 -26.36329 80.52368 -26.651 -21.86958 80.52299 -30.447 -18.02137 97.02145 -35.84849 -16.83736 80.52229 -33.4933 -20.89144 62.85999 -29.08526 -16.0843 62.85999 -31.99531 -25.18417 62.85998 -25.45903 -16.45259 97.02145 -36.59502 -10.52529 97.02145 -38.71823 -15.37165 80.52229 -34.19078 -9.833792 80.52229 -36.17449 -4.338842 97.02287 -39.88818 -4.053791 80.523 -37.26748 1.954489 97.02425 -40.07597 1.826041 80.5237 -37.44283 8.199709 97.02423 -39.27679 7.66091 80.5237 -36.69617 -9.561182 69.57482 -35.17167 -14.99997 69.57482 -33.22345 1.89005 69.57567 -36.41731 7.620533 69.57568 -35.68402 -3.884589 69.57525 -36.24511 14.24302 97.02419 -37.5105 13.30714 80.52368 -35.04594 13.16575 69.57565 -34.06332 33.88809 80.52343 -16.02794 35.97819 80.52339 -10.52935 32.37241 62.85996 -15.31111 34.36904 62.85996 -10.05845 30.96354 80.52348 -21.13188 29.57867 62.85997 -20.18677 27.27658 80.52351 -25.71548 26.0566 62.85997 -24.56536 22.91797 80.52355 -29.66588 21.89293 62.85997 -28.33908 17.99505 80.5236 -32.88581 17.19019 62.85998 -31.41499</float_array>
+          <technique_common>
+            <accessor source="#group527_pCylinder254__Erosion00-position-array" count="39" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group527_pCylinder254__Erosion00-normal">
+          <float_array id="group527_pCylinder254__Erosion00-normal-array" count="117">-0.6379648 -0.1565558 -0.7534246 -0.5753425 -0.1585127 -0.8023483 -0.6399217 -0.1252446 -0.7573385 -0.5792564 -0.1272016 -0.8062623 -0.5107632 -0.1565558 -0.8454012 -0.5146771 -0.1252446 -0.849315 -0.5812133 -0.09393346 -0.8082192 -0.5146771 -0.09393346 -0.851272 -0.6418787 -0.09393346 -0.7612525 -0.332681 -0.1565558 -0.9295499 -0.258317 -0.1585127 -0.9530333 -0.334638 -0.1330724 -0.9334638 -0.260274 -0.1330724 -0.9569471 -0.1076321 -0.1585127 -0.9823875 -0.1076321 -0.1330724 -0.9843444 0.04892368 -0.1585127 -0.9863014 0.04892368 -0.1330724 -0.9902152 0.2015656 -0.1585127 -0.9667319 0.2015656 -0.1330724 -0.9706458 -0.260274 -0.09393346 -0.960861 -0.3365949 -0.09393346 -0.9373777 0.04892368 -0.09197652 -0.9941292 0.2035225 -0.09001957 -0.9745597 -0.1076321 -0.09393346 -0.9902152 0.2778865 -0.1565558 -0.9471624 0.2778865 -0.1311155 -0.9510763 0.2798434 -0.09001957 -0.9569471 0.9001957 -0.09393346 -0.4266145 0.9315069 -0.09393346 -0.3542074 0.9001957 -0.09393346 -0.4266145 0.9315069 -0.09393346 -0.3542074 0.8219178 -0.09393346 -0.5616438 0.8219178 -0.09393346 -0.5616438 0.7240704 -0.09393346 -0.6829746 0.7240704 -0.09393346 -0.6829746 0.6086106 -0.09393346 -0.7886497 0.6086106 -0.09393346 -0.7886497 0.5440313 -0.09393346 -0.8336595 0.5440313 -0.09393346 -0.8336595</float_array>
+          <technique_common>
+            <accessor source="#group527_pCylinder254__Erosion00-normal-array" count="39" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group527_pCylinder254__Erosion00-texcoord">
+          <float_array id="group527_pCylinder254__Erosion00-texcoord-array" count="78">1 1 0.5019608 1 1 0.5137255 0.5019608 0.5137255 0 1 0 0.5137255 0.5019608 0 0 0 1 0 1 1 0.8 1 1 0.2980392 0.8 0.2980392 0.6 1 0.6 0.2980392 0.4 1 0.4 0.2980392 0.2 1 0.2 0.2980392 0.8 0 1 0 0.4 0 0.2 0 0.6 0 0 1 0 0.2980392 0 0 0.8 0 1 0 0.8 1 1 1 0.6 0 0.6 1 0.4 0 0.4 1 0.2 0 0.2 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#group527_pCylinder254__Erosion00-texcoord-array" count="39" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group527_pCylinder254__Erosion00-texcoord_1">
+          <float_array id="group527_pCylinder254__Erosion00-texcoord-array_1" count="78">0.05587854 0.3556268 0.05587854 0.3664149 0.03445487 0.3546197 0.03445487 0.3644007 0.05587854 0.3770505 0.03445487 0.3740444 0.01164263 0.3636377 0.01164263 0.3729152 0.01164263 0.3542382 0.05587854 0.3874571 0.05587854 0.3975738 0.03445487 0.3834897 0.03445487 0.3926604 0.05587854 0.4072938 0.03445487 0.4015107 0.05587854 0.4165713 0.03445487 0.4099794 0.05587854 0.4253452 0.03445487 0.4179904 0.02532998 0.391928 0.02532998 0.3828946 0.02532998 0.4089876 0.02532998 0.4168765 0.02532998 0.4006409 0.05587854 0.4335241 0.03445487 0.4255131 0.02534524 0.4242771 0.9667811 0.383093 0.9667811 0.3736629 0.9895476 0.3816129 0.9895476 0.3725337 0.9667811 0.3922637 0.9895476 0.3904326 0.9667811 0.4010987 0.9895476 0.3989471 0.9667811 0.4095522 0.9895476 0.4070802 0.9667811 0.4175479 0.9895476 0.4147707</float_array>
+          <technique_common>
+            <accessor source="#group527_pCylinder254__Erosion00-texcoord-array_1" count="39" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="group527_pCylinder254__Erosion00-vertex">
+          <input semantic="POSITION" source="#group527_pCylinder254__Erosion00-position" />
+        </vertices>
+        <triangles material="Erosion00" count="38">
+          <input semantic="VERTEX" source="#group527_pCylinder254__Erosion00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#group527_pCylinder254__Erosion00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#group527_pCylinder254__Erosion00-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#group527_pCylinder254__Erosion00-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 1 1 1 1 4 4 4 4 3 3 3 3 4 4 4 4 5 5 5 5 3 3 3 3 3 3 3 3 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 2 2 2 2 3 3 3 3 8 8 8 8 3 3 3 3 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 10 10 10 10 12 12 12 12 11 11 11 11 13 13 13 13 14 14 14 14 10 10 10 10 14 14 14 14 12 12 12 12 10 10 10 10 15 15 15 15 16 16 16 16 13 13 13 13 16 16 16 16 14 14 14 14 13 13 13 13 15 15 15 15 17 17 17 17 16 16 16 16 17 17 17 17 18 18 18 18 16 16 16 16 12 12 12 12 19 19 19 19 11 11 11 11 19 19 19 19 20 20 20 20 11 11 11 11 16 16 16 16 18 18 18 18 21 21 21 21 18 18 18 18 22 22 22 22 21 21 21 21 14 14 14 14 16 16 16 16 23 23 23 23 16 16 16 16 21 21 21 21 23 23 23 23 12 12 12 12 14 14 14 14 19 19 19 19 14 14 14 14 23 23 23 23 19 19 19 19 17 17 17 17 24 24 24 24 18 18 18 18 24 24 24 24 25 25 25 25 18 18 18 18 18 18 18 18 25 25 25 25 22 22 22 22 25 25 25 25 26 26 26 26 22 22 22 22 27 27 27 27 28 28 28 28 29 29 29 29 28 28 28 28 30 30 30 30 29 29 29 29 31 31 31 31 27 27 27 27 32 32 32 32 27 27 27 27 29 29 29 29 32 32 32 32 33 33 33 33 31 31 31 31 34 34 34 34 31 31 31 31 32 32 32 32 34 34 34 34 35 35 35 35 33 33 33 33 36 36 36 36 33 33 33 33 34 34 34 34 36 36 36 36 37 37 37 37 35 35 35 35 38 38 38 38 35 35 35 35 36 36 36 36 38 38 38 38 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_group527_pCylinder254__Erosion00-mesh">
+      <skin source="#group527_pCylinder254__Erosion00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="group527_pCylinder254__Erosion00-mesh-joint">
+          <Name_array id="group527_pCylinder254__Erosion00-mesh-joint-array" count="1">Obj_SdodrTowerKingErosion</Name_array>
+          <technique_common>
+            <accessor source="#group527_pCylinder254__Erosion00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group527_pCylinder254__Erosion00-mesh-inv_bind_matrix">
+          <float_array id="group527_pCylinder254__Erosion00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#group527_pCylinder254__Erosion00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="group527_pCylinder254__Erosion00-mesh-weight">
+          <float_array id="group527_pCylinder254__Erosion00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#group527_pCylinder254__Erosion00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#group527_pCylinder254__Erosion00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#group527_pCylinder254__Erosion00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="39">
+          <input semantic="JOINT" source="#group527_pCylinder254__Erosion00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#group527_pCylinder254__Erosion00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_SdodrTowerKingErosion" name="Obj_SdodrTowerKingErosion" sid="Obj_SdodrTowerKingErosion" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="group527_pCylinder254__Erosion00" name="group527_pCylinder254__Erosion00" type="NODE">
+        <instance_controller url="#Armature_group527_pCylinder254__Erosion00-mesh">
+          <skeleton>#Armature_Obj_SdodrTowerKingErosion</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Erosion00" target="#Erosion00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

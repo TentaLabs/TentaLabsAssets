@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="ColorSample00_Alb">
+      <init_from>ColorSample00_Alb.png</init_from>
+    </image>
+    <image id="ColorSample00_Nrm">
+      <init_from>ColorSample00_Nrm.png</init_from>
+    </image>
+    <image id="DJboothBarrier_Alb">
+      <init_from>DJboothBarrier_Alb.png</init_from>
+    </image>
+    <image id="DJboothBarrier_Mtl">
+      <init_from>DJboothBarrier_Mtl.png</init_from>
+    </image>
+    <image id="DJboothBarrier_Nrm">
+      <init_from>DJboothBarrier_Nrm.png</init_from>
+    </image>
+    <image id="DJboothBarrier_Opa">
+      <init_from>DJboothBarrier_Opa.png</init_from>
+    </image>
+    <image id="DJboothBarrier_Rgh">
+      <init_from>DJboothBarrier_Rgh.png</init_from>
+    </image>
+    <image id="EmmLine_Alb">
+      <init_from>EmmLine_Alb.png</init_from>
+    </image>
+    <image id="EmmLine_Nrm">
+      <init_from>EmmLine_Nrm.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="MonitorDotLow_Fxm">
+      <init_from>MonitorDotLow_Fxm.png</init_from>
+    </image>
+    <image id="movTV_Alb.0000_Alb">
+      <init_from>movTV_Alb.0000_Alb.png</init_from>
+    </image>
+    <image id="OdakoConcrete00_Alb">
+      <init_from>OdakoConcrete00_Alb.png</init_from>
+    </image>
+    <image id="OdakoConcrete00_Mtl">
+      <init_from>OdakoConcrete00_Mtl.png</init_from>
+    </image>
+    <image id="OdakoConcrete00_Nrm">
+      <init_from>OdakoConcrete00_Nrm.png</init_from>
+    </image>
+    <image id="OdakoConcrete00_Rgh">
+      <init_from>OdakoConcrete00_Rgh.png</init_from>
+    </image>
+    <image id="OdakoConcrete01_Alb">
+      <init_from>OdakoConcrete01_Alb.png</init_from>
+    </image>
+    <image id="OdakoConcrete01_Mtl">
+      <init_from>OdakoConcrete01_Mtl.png</init_from>
+    </image>
+    <image id="OdakoConcrete01_Nrm">
+      <init_from>OdakoConcrete01_Nrm.png</init_from>
+    </image>
+    <image id="OdakoConcrete01_Rgh">
+      <init_from>OdakoConcrete01_Rgh.png</init_from>
+    </image>
+    <image id="OdakoConcrete02_Alb">
+      <init_from>OdakoConcrete02_Alb.png</init_from>
+    </image>
+    <image id="OdakoConcrete02_Mtl">
+      <init_from>OdakoConcrete02_Mtl.png</init_from>
+    </image>
+    <image id="OdakoConcrete02_Nrm">
+      <init_from>OdakoConcrete02_Nrm.png</init_from>
+    </image>
+    <image id="OdakoConcrete02_Rgh">
+      <init_from>OdakoConcrete02_Rgh.png</init_from>
+    </image>
+    <image id="OdakoDJbooth00_Alb">
+      <init_from>OdakoDJbooth00_Alb.png</init_from>
+    </image>
+    <image id="OdakoDJbooth00_Mtl">
+      <init_from>OdakoDJbooth00_Mtl.png</init_from>
+    </image>
+    <image id="OdakoDJbooth00_Nrm">
+      <init_from>OdakoDJbooth00_Nrm.png</init_from>
+    </image>
+    <image id="OdakoDJbooth00_Rgh">
+      <init_from>OdakoDJbooth00_Rgh.png</init_from>
+    </image>
+    <image id="OdakoMonitorSpeaker00_Alb">
+      <init_from>OdakoMonitorSpeaker00_Alb.png</init_from>
+    </image>
+    <image id="OdakoMonitorSpeaker00_Mtl">
+      <init_from>OdakoMonitorSpeaker00_Mtl.png</init_from>
+    </image>
+    <image id="OdakoMonitorSpeaker00_Nrm">
+      <init_from>OdakoMonitorSpeaker00_Nrm.png</init_from>
+    </image>
+    <image id="OdakoMonitorSpeaker00_Rgh">
+      <init_from>OdakoMonitorSpeaker00_Rgh.png</init_from>
+    </image>
+    <image id="OdakoSozai00_Alb">
+      <init_from>OdakoSozai00_Alb.png</init_from>
+    </image>
+    <image id="OdakoSozai00_Mtl">
+      <init_from>OdakoSozai00_Mtl.png</init_from>
+    </image>
+    <image id="OdakoSozai00_Nrm">
+      <init_from>OdakoSozai00_Nrm.png</init_from>
+    </image>
+    <image id="OdakoSozai00_Rgh">
+      <init_from>OdakoSozai00_Rgh.png</init_from>
+    </image>
+    <image id="OdakoTakotsubo00_Alb">
+      <init_from>OdakoTakotsubo00_Alb.png</init_from>
+    </image>
+    <image id="OdakoTakotsubo00_Mtl">
+      <init_from>OdakoTakotsubo00_Mtl.png</init_from>
+    </image>
+    <image id="OdakoTakotsubo00_Nrm">
+      <init_from>OdakoTakotsubo00_Nrm.png</init_from>
+    </image>
+    <image id="OdakoTakotsubo00_Rgh">
+      <init_from>OdakoTakotsubo00_Rgh.png</init_from>
+    </image>
+    <image id="OdakoWood00_Alb">
+      <init_from>OdakoWood00_Alb.png</init_from>
+    </image>
+    <image id="OdakoWood00_Mtl">
+      <init_from>OdakoWood00_Mtl.png</init_from>
+    </image>
+    <image id="OdakoWood00_Nrm">
+      <init_from>OdakoWood00_Nrm.png</init_from>
+    </image>
+    <image id="OdakoWood00_Rgh">
+      <init_from>OdakoWood00_Rgh.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBigMesh_Alb">
+      <init_from>PlazaSpeakerBigMesh_Alb.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBigMesh_Nrm">
+      <init_from>PlazaSpeakerBigMesh_Nrm.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBigMesh_Opa">
+      <init_from>PlazaSpeakerBigMesh_Opa.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBig_Alb">
+      <init_from>PlazaSpeakerBig_Alb.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBig_Emm">
+      <init_from>PlazaSpeakerBig_Emm.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBig_Nrm">
+      <init_from>PlazaSpeakerBig_Nrm.png</init_from>
+    </image>
+    <image id="PlazaSpotLight_Alb">
+      <init_from>PlazaSpotLight_Alb.png</init_from>
+    </image>
+    <image id="PlazaSpotLight_Nrm">
+      <init_from>PlazaSpotLight_Nrm.png</init_from>
+    </image>
+    <image id="PlazaSpotLight_Rgh">
+      <init_from>PlazaSpotLight_Rgh.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai00_Alb">
+      <init_from>SdodrOdako1stSozai00_Alb.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai00_Mtl">
+      <init_from>SdodrOdako1stSozai00_Mtl.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai00_Nrm">
+      <init_from>SdodrOdako1stSozai00_Nrm.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai00_Rgh">
+      <init_from>SdodrOdako1stSozai00_Rgh.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai01_Alb">
+      <init_from>SdodrOdako1stSozai01_Alb.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai01_Mtl">
+      <init_from>SdodrOdako1stSozai01_Mtl.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai01_Nrm">
+      <init_from>SdodrOdako1stSozai01_Nrm.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai01_Rgh">
+      <init_from>SdodrOdako1stSozai01_Rgh.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai02_Alb">
+      <init_from>SdodrOdako1stSozai02_Alb.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai02_Mtl">
+      <init_from>SdodrOdako1stSozai02_Mtl.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai02_Nrm">
+      <init_from>SdodrOdako1stSozai02_Nrm.png</init_from>
+    </image>
+    <image id="SdodrOdako1stSozai02_Rgh">
+      <init_from>SdodrOdako1stSozai02_Rgh.png</init_from>
+    </image>
+    <image id="StageObj2_Alb">
+      <init_from>StageObj2_Alb.png</init_from>
+    </image>
+    <image id="StageObj2_Nrm">
+      <init_from>StageObj2_Nrm.png</init_from>
+    </image>
+    <image id="StageObj_Alb">
+      <init_from>StageObj_Alb.png</init_from>
+    </image>
+    <image id="StageObj_Nrm">
+      <init_from>StageObj_Nrm.png</init_from>
+    </image>
+    <image id="WallRepeat_Alb">
+      <init_from>WallRepeat_Alb.png</init_from>
+    </image>
+    <image id="WallRepeat_Nrm">
+      <init_from>WallRepeat_Nrm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_TV">
+      <instance_effect url="#Effect_M_TV" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_TV">
+      <profile_COMMON>
+        <newparam sid="surface_M_TV-diffuse">
+          <surface type="2D">
+            <init_from>movTV_Alb.0000_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_TV-diffuse">
+          <sampler2D>
+            <source>surface_M_TV-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_TV-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="monitor_parts19__M_TV-mesh" name="monitor_parts19__M_TV">
+      <mesh>
+        <source id="monitor_parts19__M_TV-position">
+          <float_array id="monitor_parts19__M_TV-position-array" count="24">-55.88707 36.25799 -44.26012 -55.88707 36.25799 -11.46955 -59.14049 17.90259 -44.26012 -59.14049 17.90259 -11.46955 55.88707 36.25799 -44.26012 59.14049 17.90259 -44.26012 55.88707 36.25799 -11.46955 59.14049 17.90259 -11.46955</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts19__M_TV-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts19__M_TV-normal">
+          <float_array id="monitor_parts19__M_TV-normal-array" count="24">0.4211015 -0.07450901 0 0.4211015 -0.07450901 0 0.4211015 -0.07450901 0 0.4211015 -0.07450901 0 -0.4211015 -0.07450901 0 -0.4211015 -0.07450901 0 -0.4211015 -0.07450901 0 -0.4211015 -0.07450901 0</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts19__M_TV-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts19__M_TV-texcoord">
+          <float_array id="monitor_parts19__M_TV-texcoord-array" count="16">0.9995117 1 0 1 1 0.0004882813 0 0 0 1 0 0 1 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts19__M_TV-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="monitor_parts19__M_TV-vertex">
+          <input semantic="POSITION" source="#monitor_parts19__M_TV-position" />
+        </vertices>
+        <triangles material="M_TV" count="4">
+          <input semantic="VERTEX" source="#monitor_parts19__M_TV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#monitor_parts19__M_TV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#monitor_parts19__M_TV-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="monitor_parts11__M_TV-mesh" name="monitor_parts11__M_TV">
+      <mesh>
+        <source id="monitor_parts11__M_TV-position">
+          <float_array id="monitor_parts11__M_TV-position-array" count="12">51.74631 36.25799 33.01685 53.71469 17.90259 35.60725 25.63813 36.25799 52.85582 27.60652 17.90259 55.44623</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts11__M_TV-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts11__M_TV-normal">
+          <float_array id="monitor_parts11__M_TV-normal-array" count="12">-0.2545027 -0.07450901 -0.3357091 -0.2545027 -0.07450901 -0.3357091 -0.2545027 -0.07450901 -0.3357091 -0.2545027 -0.07450901 -0.3357091</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts11__M_TV-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts11__M_TV-texcoord">
+          <float_array id="monitor_parts11__M_TV-texcoord-array" count="8">0 1 0 0.0004882813 1 1 0.9995117 0</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts11__M_TV-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="monitor_parts11__M_TV-vertex">
+          <input semantic="POSITION" source="#monitor_parts11__M_TV-position" />
+        </vertices>
+        <triangles material="M_TV" count="2">
+          <input semantic="VERTEX" source="#monitor_parts11__M_TV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#monitor_parts11__M_TV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#monitor_parts11__M_TV-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="monitor_parts3__M_TV-mesh" name="monitor_parts3__M_TV">
+      <mesh>
+        <source id="monitor_parts3__M_TV-position">
+          <float_array id="monitor_parts3__M_TV-position-array" count="12">-51.74631 36.25799 33.01685 -25.63813 36.25799 52.85582 -53.71469 17.90259 35.60725 -27.60652 17.90259 55.44622</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts3__M_TV-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts3__M_TV-normal">
+          <float_array id="monitor_parts3__M_TV-normal-array" count="12">0.2545027 -0.07450901 -0.3357091 0.2545027 -0.07450901 -0.3357091 0.2545027 -0.07450901 -0.3357091 0.2545027 -0.07450901 -0.3357091</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts3__M_TV-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts3__M_TV-texcoord">
+          <float_array id="monitor_parts3__M_TV-texcoord-array" count="8">1 1 0 1 0.9995117 0 0 0.0004882813</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts3__M_TV-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="monitor_parts3__M_TV-vertex">
+          <input semantic="POSITION" source="#monitor_parts3__M_TV-position" />
+        </vertices>
+        <triangles material="M_TV" count="2">
+          <input semantic="VERTEX" source="#monitor_parts3__M_TV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#monitor_parts3__M_TV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#monitor_parts3__M_TV-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_monitor_parts19__M_TV-mesh">
+      <skin source="#monitor_parts19__M_TV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="monitor_parts19__M_TV-mesh-joint">
+          <Name_array id="monitor_parts19__M_TV-mesh-joint-array" count="1">Fld_SdodrBarrierKingOdako1stSignage</Name_array>
+          <technique_common>
+            <accessor source="#monitor_parts19__M_TV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts19__M_TV-mesh-inv_bind_matrix">
+          <float_array id="monitor_parts19__M_TV-mesh-inv_bind_matrix-array" count="16">0.4277989 0 0 0 0 0.4277989 0 0 0 0 0.4277989 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts19__M_TV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts19__M_TV-mesh-weight">
+          <float_array id="monitor_parts19__M_TV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts19__M_TV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#monitor_parts19__M_TV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#monitor_parts19__M_TV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#monitor_parts19__M_TV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#monitor_parts19__M_TV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_monitor_parts11__M_TV-mesh">
+      <skin source="#monitor_parts11__M_TV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="monitor_parts11__M_TV-mesh-joint">
+          <Name_array id="monitor_parts11__M_TV-mesh-joint-array" count="1">monitor_parts11</Name_array>
+          <technique_common>
+            <accessor source="#monitor_parts11__M_TV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts11__M_TV-mesh-inv_bind_matrix">
+          <float_array id="monitor_parts11__M_TV-mesh-inv_bind_matrix-array" count="16">0.4277989 0 0 -17.01854 0 0.4277989 0 -11.3418 0 0 0.4277989 -18.98144 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts11__M_TV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts11__M_TV-mesh-weight">
+          <float_array id="monitor_parts11__M_TV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts11__M_TV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#monitor_parts11__M_TV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#monitor_parts11__M_TV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#monitor_parts11__M_TV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#monitor_parts11__M_TV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_monitor_parts3__M_TV-mesh">
+      <skin source="#monitor_parts3__M_TV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="monitor_parts3__M_TV-mesh-joint">
+          <Name_array id="monitor_parts3__M_TV-mesh-joint-array" count="1">monitor_parts3</Name_array>
+          <technique_common>
+            <accessor source="#monitor_parts3__M_TV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts3__M_TV-mesh-inv_bind_matrix">
+          <float_array id="monitor_parts3__M_TV-mesh-inv_bind_matrix-array" count="16">0.4277989 0 0 17.01854 0 0.4277989 0 -11.3418 0 0 0.4277989 -18.98144 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts3__M_TV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="monitor_parts3__M_TV-mesh-weight">
+          <float_array id="monitor_parts3__M_TV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#monitor_parts3__M_TV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#monitor_parts3__M_TV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#monitor_parts3__M_TV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#monitor_parts3__M_TV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#monitor_parts3__M_TV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_SdodrBarrierKingOdako1stSignage" name="Fld_SdodrBarrierKingOdako1stSignage" sid="Fld_SdodrBarrierKingOdako1stSignage" type="JOINT">
+          <matrix sid="transform">2.337547 0 0 0 0 2.337547 0 0 0 0 2.337547 0 0 0 0 1</matrix>
+          <node id="Armature_monitor_parts11" name="monitor_parts11" sid="monitor_parts11" type="JOINT">
+            <matrix sid="transform">1 0 0 17.01854 0 1 0 11.3418 0 0 1 18.98144 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_monitor_parts3" name="monitor_parts3" sid="monitor_parts3" type="JOINT">
+            <matrix sid="transform">1 0 0 -17.01854 0 1 0 11.3418 0 0 1 18.98144 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="monitor_parts19__M_TV" name="monitor_parts19__M_TV" type="NODE">
+        <instance_controller url="#Armature_monitor_parts19__M_TV-mesh">
+          <skeleton>#Armature_Fld_SdodrBarrierKingOdako1stSignage</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_TV" target="#M_TV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="monitor_parts11__M_TV" name="monitor_parts11__M_TV" type="NODE">
+        <instance_controller url="#Armature_monitor_parts11__M_TV-mesh">
+          <skeleton>#Armature_Fld_SdodrBarrierKingOdako1stSignage</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_TV" target="#M_TV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="monitor_parts3__M_TV" name="monitor_parts3__M_TV" type="NODE">
+        <instance_controller url="#Armature_monitor_parts3__M_TV-mesh">
+          <skeleton>#Armature_Fld_SdodrBarrierKingOdako1stSignage</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_TV" target="#M_TV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

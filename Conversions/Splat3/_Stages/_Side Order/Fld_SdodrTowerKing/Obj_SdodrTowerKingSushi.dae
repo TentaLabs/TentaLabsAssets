@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Alminium00_Alb">
+      <init_from>Alminium00_Alb.png</init_from>
+    </image>
+    <image id="Alminium00_Mtl">
+      <init_from>Alminium00_Mtl.png</init_from>
+    </image>
+    <image id="Alminium00_Nrm">
+      <init_from>Alminium00_Nrm.png</init_from>
+    </image>
+    <image id="Alminium00_Rgh">
+      <init_from>Alminium00_Rgh.png</init_from>
+    </image>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="Ceiling00_Alb">
+      <init_from>Ceiling00_Alb.png</init_from>
+    </image>
+    <image id="Ceiling00_Emm">
+      <init_from>Ceiling00_Emm.png</init_from>
+    </image>
+    <image id="Ceiling00_Mtl">
+      <init_from>Ceiling00_Mtl.png</init_from>
+    </image>
+    <image id="Ceiling00_Nrm">
+      <init_from>Ceiling00_Nrm.png</init_from>
+    </image>
+    <image id="Ceiling00_Rgh">
+      <init_from>Ceiling00_Rgh.png</init_from>
+    </image>
+    <image id="CircleFloor00_Alb">
+      <init_from>CircleFloor00_Alb.png</init_from>
+    </image>
+    <image id="CircleFloor00_Mtl">
+      <init_from>CircleFloor00_Mtl.png</init_from>
+    </image>
+    <image id="CircleFloor00_Nrm">
+      <init_from>CircleFloor00_Nrm.png</init_from>
+    </image>
+    <image id="CircleFloor00_Rgh">
+      <init_from>CircleFloor00_Rgh.png</init_from>
+    </image>
+    <image id="CircusCurb00_Alb">
+      <init_from>CircusCurb00_Alb.png</init_from>
+    </image>
+    <image id="CircusCurb00_Emm">
+      <init_from>CircusCurb00_Emm.png</init_from>
+    </image>
+    <image id="CircusCurb00_Mtl">
+      <init_from>CircusCurb00_Mtl.png</init_from>
+    </image>
+    <image id="CircusCurb00_Nrm">
+      <init_from>CircusCurb00_Nrm.png</init_from>
+    </image>
+    <image id="CircusCurb00_Rgh">
+      <init_from>CircusCurb00_Rgh.png</init_from>
+    </image>
+    <image id="Concrete00_Alb">
+      <init_from>Concrete00_Alb.png</init_from>
+    </image>
+    <image id="Concrete00_Mtl">
+      <init_from>Concrete00_Mtl.png</init_from>
+    </image>
+    <image id="Concrete00_Nrm">
+      <init_from>Concrete00_Nrm.png</init_from>
+    </image>
+    <image id="Concrete00_Rgh">
+      <init_from>Concrete00_Rgh.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Alb">
+      <init_from>ConcreteTilePlaid00_Alb.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Mtl">
+      <init_from>ConcreteTilePlaid00_Mtl.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Nrm">
+      <init_from>ConcreteTilePlaid00_Nrm.png</init_from>
+    </image>
+    <image id="ConcreteTilePlaid00_Rgh">
+      <init_from>ConcreteTilePlaid00_Rgh.png</init_from>
+    </image>
+    <image id="Curb00_Alb">
+      <init_from>Curb00_Alb.png</init_from>
+    </image>
+    <image id="Curb00_Mtl">
+      <init_from>Curb00_Mtl.png</init_from>
+    </image>
+    <image id="Curb00_Nrm">
+      <init_from>Curb00_Nrm.png</init_from>
+    </image>
+    <image id="Curb00_Rgh">
+      <init_from>Curb00_Rgh.png</init_from>
+    </image>
+    <image id="Erosion00_Alb">
+      <init_from>Erosion00_Alb.png</init_from>
+    </image>
+    <image id="Erosion00_Nrm">
+      <init_from>Erosion00_Nrm.png</init_from>
+    </image>
+    <image id="EVMetal_Alb">
+      <init_from>EVMetal_Alb.png</init_from>
+    </image>
+    <image id="EVMetal_Mtl">
+      <init_from>EVMetal_Mtl.png</init_from>
+    </image>
+    <image id="EVMetal_Nrm">
+      <init_from>EVMetal_Nrm.png</init_from>
+    </image>
+    <image id="EVMetal_Rgh">
+      <init_from>EVMetal_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine00_Alb">
+      <init_from>FloorLine00_Alb.png</init_from>
+    </image>
+    <image id="FloorLine00_Mtl">
+      <init_from>FloorLine00_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine00_Nrm">
+      <init_from>FloorLine00_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine00_Rgh">
+      <init_from>FloorLine00_Rgh.png</init_from>
+    </image>
+    <image id="FloorNP00_Alb">
+      <init_from>FloorNP00_Alb.png</init_from>
+    </image>
+    <image id="FloorNP00_Nrm">
+      <init_from>FloorNP00_Nrm.png</init_from>
+    </image>
+    <image id="Geta00_Alb">
+      <init_from>Geta00_Alb.png</init_from>
+    </image>
+    <image id="Geta00_Mtl">
+      <init_from>Geta00_Mtl.png</init_from>
+    </image>
+    <image id="Geta00_Nrm">
+      <init_from>Geta00_Nrm.png</init_from>
+    </image>
+    <image id="Geta00_Rgh">
+      <init_from>Geta00_Rgh.png</init_from>
+    </image>
+    <image id="GetaWall00_Alb">
+      <init_from>GetaWall00_Alb.png</init_from>
+    </image>
+    <image id="GetaWall00_Mtl">
+      <init_from>GetaWall00_Mtl.png</init_from>
+    </image>
+    <image id="GetaWall00_Nrm">
+      <init_from>GetaWall00_Nrm.png</init_from>
+    </image>
+    <image id="GetaWall00_Rgh">
+      <init_from>GetaWall00_Rgh.png</init_from>
+    </image>
+    <image id="Glass00_Alb">
+      <init_from>Glass00_Alb.png</init_from>
+    </image>
+    <image id="Glass00_Mtl">
+      <init_from>Glass00_Mtl.png</init_from>
+    </image>
+    <image id="Glass00_Nrm">
+      <init_from>Glass00_Nrm.png</init_from>
+    </image>
+    <image id="Glass00_Opa">
+      <init_from>Glass00_Opa.png</init_from>
+    </image>
+    <image id="Glass00_Rgh">
+      <init_from>Glass00_Rgh.png</init_from>
+    </image>
+    <image id="Grafitti00_Alb">
+      <init_from>Grafitti00_Alb.png</init_from>
+    </image>
+    <image id="Grafitti00_Mtl">
+      <init_from>Grafitti00_Mtl.png</init_from>
+    </image>
+    <image id="Grafitti00_Nrm">
+      <init_from>Grafitti00_Nrm.png</init_from>
+    </image>
+    <image id="Grafitti00_Rgh">
+      <init_from>Grafitti00_Rgh.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Alb">
+      <init_from>HangingSignBoard_Alb.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Emm">
+      <init_from>HangingSignBoard_Emm.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Mtl">
+      <init_from>HangingSignBoard_Mtl.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Nrm">
+      <init_from>HangingSignBoard_Nrm.png</init_from>
+    </image>
+    <image id="HangingSignBoard_Rgh">
+      <init_from>HangingSignBoard_Rgh.png</init_from>
+    </image>
+    <image id="IronTile00_Alb">
+      <init_from>IronTile00_Alb.png</init_from>
+    </image>
+    <image id="IronTile00_Mtl">
+      <init_from>IronTile00_Mtl.png</init_from>
+    </image>
+    <image id="IronTile00_Nrm">
+      <init_from>IronTile00_Nrm.png</init_from>
+    </image>
+    <image id="IronTile00_Rgh">
+      <init_from>IronTile00_Rgh.png</init_from>
+    </image>
+    <image id="LiftFloor00_Alb">
+      <init_from>LiftFloor00_Alb.png</init_from>
+    </image>
+    <image id="LiftFloor00_Emm">
+      <init_from>LiftFloor00_Emm.png</init_from>
+    </image>
+    <image id="LiftFloor00_Mtl">
+      <init_from>LiftFloor00_Mtl.png</init_from>
+    </image>
+    <image id="LiftFloor00_Nrm">
+      <init_from>LiftFloor00_Nrm.png</init_from>
+    </image>
+    <image id="LiftFloor00_Rgh">
+      <init_from>LiftFloor00_Rgh.png</init_from>
+    </image>
+    <image id="Light00_Alb">
+      <init_from>Light00_Alb.png</init_from>
+    </image>
+    <image id="Light00_Emm">
+      <init_from>Light00_Emm.png</init_from>
+    </image>
+    <image id="Light00_Mtl">
+      <init_from>Light00_Mtl.png</init_from>
+    </image>
+    <image id="Light00_Nrm">
+      <init_from>Light00_Nrm.png</init_from>
+    </image>
+    <image id="Light00_Rgh">
+      <init_from>Light00_Rgh.png</init_from>
+    </image>
+    <image id="Light01_Alb">
+      <init_from>Light01_Alb.png</init_from>
+    </image>
+    <image id="Light01_Emm">
+      <init_from>Light01_Emm.png</init_from>
+    </image>
+    <image id="Light01_Mtl">
+      <init_from>Light01_Mtl.png</init_from>
+    </image>
+    <image id="Light01_Nrm">
+      <init_from>Light01_Nrm.png</init_from>
+    </image>
+    <image id="Light01_Rgh">
+      <init_from>Light01_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="LightShaft00_Nrm">
+      <init_from>LightShaft00_Nrm.png</init_from>
+    </image>
+    <image id="MetalCircle00_Alb">
+      <init_from>MetalCircle00_Alb.png</init_from>
+    </image>
+    <image id="MetalCircle00_Mtl">
+      <init_from>MetalCircle00_Mtl.png</init_from>
+    </image>
+    <image id="MetalCircle00_Nrm">
+      <init_from>MetalCircle00_Nrm.png</init_from>
+    </image>
+    <image id="MetalCircle00_Rgh">
+      <init_from>MetalCircle00_Rgh.png</init_from>
+    </image>
+    <image id="MetalCircle01_Alb">
+      <init_from>MetalCircle01_Alb.png</init_from>
+    </image>
+    <image id="MetalCircle01_Mtl">
+      <init_from>MetalCircle01_Mtl.png</init_from>
+    </image>
+    <image id="MetalCircle01_Nrm">
+      <init_from>MetalCircle01_Nrm.png</init_from>
+    </image>
+    <image id="MetalCircle01_Rgh">
+      <init_from>MetalCircle01_Rgh.png</init_from>
+    </image>
+    <image id="MetalSlope01_Alb">
+      <init_from>MetalSlope01_Alb.png</init_from>
+    </image>
+    <image id="MetalSlope01_Mtl">
+      <init_from>MetalSlope01_Mtl.png</init_from>
+    </image>
+    <image id="MetalSlope01_Nrm">
+      <init_from>MetalSlope01_Nrm.png</init_from>
+    </image>
+    <image id="MetalSlope01_Rgh">
+      <init_from>MetalSlope01_Rgh.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Alb">
+      <init_from>PrisonCeiling00_Alb.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Emm">
+      <init_from>PrisonCeiling00_Emm.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Mtl">
+      <init_from>PrisonCeiling00_Mtl.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Nrm">
+      <init_from>PrisonCeiling00_Nrm.png</init_from>
+    </image>
+    <image id="PrisonCeiling00_Rgh">
+      <init_from>PrisonCeiling00_Rgh.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Alb">
+      <init_from>PrisonMetal00_Alb.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Mtl">
+      <init_from>PrisonMetal00_Mtl.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Nrm">
+      <init_from>PrisonMetal00_Nrm.png</init_from>
+    </image>
+    <image id="PrisonMetal00_Rgh">
+      <init_from>PrisonMetal00_Rgh.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Alb">
+      <init_from>PrisonPillar01_Alb.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Mtl">
+      <init_from>PrisonPillar01_Mtl.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Nrm">
+      <init_from>PrisonPillar01_Nrm.png</init_from>
+    </image>
+    <image id="PrisonPillar01_Rgh">
+      <init_from>PrisonPillar01_Rgh.png</init_from>
+    </image>
+    <image id="PrisonWall00_Alb">
+      <init_from>PrisonWall00_Alb.png</init_from>
+    </image>
+    <image id="PrisonWall00_Mtl">
+      <init_from>PrisonWall00_Mtl.png</init_from>
+    </image>
+    <image id="PrisonWall00_Nrm">
+      <init_from>PrisonWall00_Nrm.png</init_from>
+    </image>
+    <image id="PrisonWall00_Rgh">
+      <init_from>PrisonWall00_Rgh.png</init_from>
+    </image>
+    <image id="PrisonWall01_Alb">
+      <init_from>PrisonWall01_Alb.png</init_from>
+    </image>
+    <image id="PrisonWall01_Mtl">
+      <init_from>PrisonWall01_Mtl.png</init_from>
+    </image>
+    <image id="PrisonWall01_Nrm">
+      <init_from>PrisonWall01_Nrm.png</init_from>
+    </image>
+    <image id="PrisonWall01_Rgh">
+      <init_from>PrisonWall01_Rgh.png</init_from>
+    </image>
+    <image id="PrisonWall02_Alb">
+      <init_from>PrisonWall02_Alb.png</init_from>
+    </image>
+    <image id="PrisonWall02_Mtl">
+      <init_from>PrisonWall02_Mtl.png</init_from>
+    </image>
+    <image id="PrisonWall02_Nrm">
+      <init_from>PrisonWall02_Nrm.png</init_from>
+    </image>
+    <image id="PrisonWall02_Rgh">
+      <init_from>PrisonWall02_Rgh.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Alb">
+      <init_from>SdodrElevatorFront00_Alb.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Emm">
+      <init_from>SdodrElevatorFront00_Emm.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Mtl">
+      <init_from>SdodrElevatorFront00_Mtl.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Nrm">
+      <init_from>SdodrElevatorFront00_Nrm.png</init_from>
+    </image>
+    <image id="SdodrElevatorFront00_Rgh">
+      <init_from>SdodrElevatorFront00_Rgh.png</init_from>
+    </image>
+    <image id="SealConcrete_Alb">
+      <init_from>SealConcrete_Alb.png</init_from>
+    </image>
+    <image id="SealConcrete_Mtl">
+      <init_from>SealConcrete_Mtl.png</init_from>
+    </image>
+    <image id="SealConcrete_Nrm">
+      <init_from>SealConcrete_Nrm.png</init_from>
+    </image>
+    <image id="SealConcrete_Rgh">
+      <init_from>SealConcrete_Rgh.png</init_from>
+    </image>
+    <image id="Searchlight00_Alb">
+      <init_from>Searchlight00_Alb.png</init_from>
+    </image>
+    <image id="Searchlight00_Emm">
+      <init_from>Searchlight00_Emm.png</init_from>
+    </image>
+    <image id="Searchlight00_Mtl">
+      <init_from>Searchlight00_Mtl.png</init_from>
+    </image>
+    <image id="Searchlight00_Nrm">
+      <init_from>Searchlight00_Nrm.png</init_from>
+    </image>
+    <image id="Searchlight00_Rgh">
+      <init_from>Searchlight00_Rgh.png</init_from>
+    </image>
+    <image id="Silver00_Alb">
+      <init_from>Silver00_Alb.png</init_from>
+    </image>
+    <image id="Silver00_Mtl">
+      <init_from>Silver00_Mtl.png</init_from>
+    </image>
+    <image id="Silver00_Nrm">
+      <init_from>Silver00_Nrm.png</init_from>
+    </image>
+    <image id="Silver00_Rgh">
+      <init_from>Silver00_Rgh.png</init_from>
+    </image>
+    <image id="SpotLight00_Alb">
+      <init_from>SpotLight00_Alb.png</init_from>
+    </image>
+    <image id="SpotLight00_Emm">
+      <init_from>SpotLight00_Emm.png</init_from>
+    </image>
+    <image id="SpotLight00_Mtl">
+      <init_from>SpotLight00_Mtl.png</init_from>
+    </image>
+    <image id="SpotLight00_Nrm">
+      <init_from>SpotLight00_Nrm.png</init_from>
+    </image>
+    <image id="SpotLight00_Rgh">
+      <init_from>SpotLight00_Rgh.png</init_from>
+    </image>
+    <image id="Stone00_Alb">
+      <init_from>Stone00_Alb.png</init_from>
+    </image>
+    <image id="Stone00_Mtl">
+      <init_from>Stone00_Mtl.png</init_from>
+    </image>
+    <image id="Stone00_Nrm">
+      <init_from>Stone00_Nrm.png</init_from>
+    </image>
+    <image id="Stone00_Rgh">
+      <init_from>Stone00_Rgh.png</init_from>
+    </image>
+    <image id="Sushi00_Alb">
+      <init_from>Sushi00_Alb.png</init_from>
+    </image>
+    <image id="Sushi00_Emm">
+      <init_from>Sushi00_Emm.png</init_from>
+    </image>
+    <image id="Sushi00_Fxm">
+      <init_from>Sushi00_Fxm.png</init_from>
+    </image>
+    <image id="Sushi00_Mtl">
+      <init_from>Sushi00_Mtl.png</init_from>
+    </image>
+    <image id="Sushi00_Nrm">
+      <init_from>Sushi00_Nrm.png</init_from>
+    </image>
+    <image id="Sushi00_Rgh">
+      <init_from>Sushi00_Rgh.png</init_from>
+    </image>
+    <image id="Sushi00_Trm">
+      <init_from>Sushi00_Trm.png</init_from>
+    </image>
+    <image id="Sushi1_Vsp">
+      <init_from>Sushi1_Vsp.png</init_from>
+    </image>
+    <image id="Sushi2_Vsp">
+      <init_from>Sushi2_Vsp.png</init_from>
+    </image>
+    <image id="Sushi3_Vsp">
+      <init_from>Sushi3_Vsp.png</init_from>
+    </image>
+    <image id="SushiDish00_Alb">
+      <init_from>SushiDish00_Alb.png</init_from>
+    </image>
+    <image id="SushiDish00_Mtl">
+      <init_from>SushiDish00_Mtl.png</init_from>
+    </image>
+    <image id="SushiDish00_Nrm">
+      <init_from>SushiDish00_Nrm.png</init_from>
+    </image>
+    <image id="SushiDish00_Rgh">
+      <init_from>SushiDish00_Rgh.png</init_from>
+    </image>
+    <image id="SushiDish01_Alb">
+      <init_from>SushiDish01_Alb.png</init_from>
+    </image>
+    <image id="SushiDish01_Mtl">
+      <init_from>SushiDish01_Mtl.png</init_from>
+    </image>
+    <image id="SushiDish01_Nrm">
+      <init_from>SushiDish01_Nrm.png</init_from>
+    </image>
+    <image id="SushiDish01_Rgh">
+      <init_from>SushiDish01_Rgh.png</init_from>
+    </image>
+    <image id="SushiGeta00_Alb">
+      <init_from>SushiGeta00_Alb.png</init_from>
+    </image>
+    <image id="SushiGeta00_Emm">
+      <init_from>SushiGeta00_Emm.png</init_from>
+    </image>
+    <image id="SushiGeta00_Mtl">
+      <init_from>SushiGeta00_Mtl.png</init_from>
+    </image>
+    <image id="SushiGeta00_Nrm">
+      <init_from>SushiGeta00_Nrm.png</init_from>
+    </image>
+    <image id="SushiGeta00_Rgh">
+      <init_from>SushiGeta00_Rgh.png</init_from>
+    </image>
+    <image id="SushiLine00_Alb">
+      <init_from>SushiLine00_Alb.png</init_from>
+    </image>
+    <image id="SushiLine00_Mtl">
+      <init_from>SushiLine00_Mtl.png</init_from>
+    </image>
+    <image id="SushiLine00_Nrm">
+      <init_from>SushiLine00_Nrm.png</init_from>
+    </image>
+    <image id="SushiLine00_Rgh">
+      <init_from>SushiLine00_Rgh.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Alb">
+      <init_from>TowerKingConcrete01_Alb.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Mtl">
+      <init_from>TowerKingConcrete01_Mtl.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Nrm">
+      <init_from>TowerKingConcrete01_Nrm.png</init_from>
+    </image>
+    <image id="TowerKingConcrete01_Rgh">
+      <init_from>TowerKingConcrete01_Rgh.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Alb">
+      <init_from>TowerKingMetalSlope00_Alb.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Mtl">
+      <init_from>TowerKingMetalSlope00_Mtl.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Nrm">
+      <init_from>TowerKingMetalSlope00_Nrm.png</init_from>
+    </image>
+    <image id="TowerKingMetalSlope00_Rgh">
+      <init_from>TowerKingMetalSlope00_Rgh.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Alb">
+      <init_from>TowerKingWoodWall00_Alb.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Mtl">
+      <init_from>TowerKingWoodWall00_Mtl.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Nrm">
+      <init_from>TowerKingWoodWall00_Nrm.png</init_from>
+    </image>
+    <image id="TowerKingWoodWall00_Rgh">
+      <init_from>TowerKingWoodWall00_Rgh.png</init_from>
+    </image>
+    <image id="Truss00_Alb">
+      <init_from>Truss00_Alb.png</init_from>
+    </image>
+    <image id="Truss00_Mtl">
+      <init_from>Truss00_Mtl.png</init_from>
+    </image>
+    <image id="Truss00_Nrm">
+      <init_from>Truss00_Nrm.png</init_from>
+    </image>
+    <image id="Truss00_Rgh">
+      <init_from>Truss00_Rgh.png</init_from>
+    </image>
+    <image id="WallConcrete00_Alb">
+      <init_from>WallConcrete00_Alb.png</init_from>
+    </image>
+    <image id="WallConcrete00_Nrm">
+      <init_from>WallConcrete00_Nrm.png</init_from>
+    </image>
+    <image id="WallObject00_Alb">
+      <init_from>WallObject00_Alb.png</init_from>
+    </image>
+    <image id="WallObject00_Emi">
+      <init_from>WallObject00_Emi.png</init_from>
+    </image>
+    <image id="WallObject00_Mtl">
+      <init_from>WallObject00_Mtl.png</init_from>
+    </image>
+    <image id="WallObject00_Nrm">
+      <init_from>WallObject00_Nrm.png</init_from>
+    </image>
+    <image id="WallObject00_Rgh">
+      <init_from>WallObject00_Rgh.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Alb">
+      <init_from>WatchTowerWall00_Alb.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Mtl">
+      <init_from>WatchTowerWall00_Mtl.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Nrm">
+      <init_from>WatchTowerWall00_Nrm.png</init_from>
+    </image>
+    <image id="WatchTowerWall00_Rgh">
+      <init_from>WatchTowerWall00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Sushi00">
+      <instance_effect url="#Effect_Sushi00" />
+    </material>
+    <material id="SushiRedEye00">
+      <instance_effect url="#Effect_SushiRedEye00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Sushi00">
+      <profile_COMMON>
+        <newparam sid="surface_Sushi00-diffuse">
+          <surface type="2D">
+            <init_from>Sushi00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Sushi00-diffuse">
+          <sampler2D>
+            <source>surface_Sushi00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Sushi00-bump">
+          <surface type="2D">
+            <init_from>Sushi00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Sushi00-bump">
+          <sampler2D>
+            <source>surface_Sushi00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Sushi00-emission">
+          <surface type="2D">
+            <init_from>Sushi00_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Sushi00-emission">
+          <sampler2D>
+            <source>surface_Sushi00-emission</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Sushi00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Sushi00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <texture texture="sampler_Sushi00-emission" texcoord="CHANNEL0" />
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_SushiRedEye00">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="TailPartBase2Shape2__Sushi00-mesh" name="TailPartBase2Shape2__Sushi00">
+      <mesh>
+        <source id="TailPartBase2Shape2__Sushi00-position">
+          <float_array id="TailPartBase2Shape2__Sushi00-position-array" count="1803">-2.873264 -1.430511E-06 -5.428385 6.005294 -1.430511E-06 -1.288245 -6.005282 -1.430511E-06 1.288248 2.873277 -1.430511E-06 5.428388 3.28339 8.664461 1.65205 2.789274 9.222406 1.656493 1.896781 8.927869 1.876105 2.885013 7.811976 1.867219 1.326632 8.424101 1.733482 2.31487 7.308249 1.724576 0.0948205 6.862045 1.001077 0.6091363 6.280612 0.9962646 1.098625 6.497223 1.25451 0.3707993 7.319366 1.261064 1.41802 6.995354 1.198585 0.9036982 7.576747 1.203418 1.096043 7.589025 1.109801 1.453151 7.186199 1.106851 1.706163 8.127881 1.262567 2.062673 7.724935 1.25921 2.940835 7.821146 1.453944 3.066577 8.390129 1.197377 7.077726 8.352375 4.453886 7.203468 8.921361 4.197317 7.34213 8.656928 4.754552 7.390516 8.87472 4.65655 2.557033 9.11907 1.228468 2.790913 8.731494 1.660758 4.358869 10.71131 1.67908 4.593351 10.32389 2.111756 4.846743 10.77726 1.75427 4.936185 10.62896 1.919641 1.998196 9.069727 0.8133048 2.4846 9.041533 1.223053 3.673425 13.67355 -0.7324989 4.160432 13.64552 -0.322365 4.069843 13.95278 -0.8677967 4.256138 13.94207 -0.7109159 6.212669 3.552775 -1.732975 -2.665884 3.552775 -5.873113 -2.665884 6.614848 -5.873113 6.212669 6.614848 -1.732975 -2.873264 7.105552 -5.428385 6.005289 7.105552 -1.288248 2.873271 7.105552 5.428385 -6.005282 7.105552 1.288248 -6.212663 6.614848 1.732978 2.66589 6.614848 5.873116 2.66589 3.552775 5.873116 -6.212663 3.552775 1.732978 -2.873264 -1.430511E-06 -5.428385 -6.005282 -1.430511E-06 1.288248 -6.450013 0.4907033 1.080867 -3.317995 0.4907033 -5.635767 -6.450013 3.552775 1.080867 -3.317995 3.552775 -5.635767 1.778515 8.196148 0.7337877 1.168394 7.657293 0.5810212 1.706163 8.127881 1.262567 1.096043 7.589025 1.109801 1.007503 7.675114 0.4401423 0.9036982 7.576747 1.203418 0.3707993 7.319366 1.261064 0.5180204 7.458543 0.1818764 0.1986253 6.960411 0.2378018 0.0948205 6.862045 1.001077 7.2541 8.981192 4.825813 6.847052 9.19954 4.639552 7.205714 8.7634 4.923815 6.72131 8.630554 4.896121 2.71016 8.668308 1.639612 2.584419 8.099325 1.896179 7.390516 8.87472 4.65655 7.2541 8.981192 4.825813 7.325793 8.822715 4.810452 7.203468 8.921361 4.197317 6.847052 9.19954 4.639552 2.71016 8.668308 1.639612 3.066577 8.390129 1.197377 4.392555 13.8356 -0.8801789 4.516849 13.36734 -0.7646 4.20626 13.84631 -1.03706 4.029841 13.39537 -1.174734 2.841017 8.763354 0.7808183 2.354613 8.791548 0.3710698 4.256138 13.94207 -0.7109159 4.392555 13.8356 -0.8801789 4.242013 13.92501 -0.8844004 4.160432 13.64552 -0.322365 4.516849 13.36734 -0.7646 2.841017 8.763354 0.7808183 2.4846 9.041533 1.223053 2.789274 9.222406 1.656493 2.889714 9.316895 0.9243692 2.09646 9.116563 0.4110657 1.896781 8.927869 1.876105 1.326632 8.424101 1.733482 1.526324 8.612876 0.2684017 6.648356 9.050079 4.334089 4.236691 10.20883 1.66153 3.159764 8.416784 1.920841 2.828344 8.964582 1.309154 2.497522 9.5125 0.6978738 4.056256 13.33894 -0.4528203 6.816142 8.919125 4.125903 3.32755 8.28583 1.712656 4.404477 10.07788 1.453345 2.99613 8.833628 1.100968 2.665308 9.381545 0.4896879 4.224042 13.20799 -0.6610062 4.224042 13.20799 -0.6610062 4.056256 13.33894 -0.4528203 4.404477 10.07788 1.453345 4.236691 10.20883 1.66153 6.648356 9.050079 4.334089 6.816142 8.919125 4.125903 2.584419 8.099325 1.896179 2.940835 7.821146 1.453944 6.72131 8.630554 4.896121 7.077726 8.352375 4.453886 7.34213 8.656928 4.754552 7.205714 8.7634 4.923815 7.325793 8.822715 4.810452 7.2541 8.981192 4.825813 7.390516 8.87472 4.65655 5.071157 10.52361 1.75217 4.946259 10.04845 1.673874 4.981715 10.67191 1.586799 4.711777 10.43587 1.241198 2.909941 8.843629 0.7905859 3.143821 8.456053 1.222876 2.354613 8.791548 0.3710698 1.998196 9.069727 0.8133048 4.029841 13.39537 -1.174734 3.673425 13.67355 -0.7324989 4.069843 13.95278 -0.8677967 4.20626 13.84631 -1.03706 4.242013 13.92501 -0.8844004 4.392555 13.8356 -0.8801789 4.256138 13.94207 -0.7109159 6.005294 -1.430511E-06 -1.288245 6.450025 0.4907033 -1.080864 2.873277 -1.430511E-06 5.428388 3.318007 0.4907033 5.635769 3.318007 3.552775 5.635769 6.450025 3.552775 -1.080864 4.593351 10.32389 2.111756 2.790913 8.731494 1.660758 3.015829 8.513541 1.531344 4.818262 10.1059 1.982362 4.936185 10.62896 1.919641 3.143821 8.456053 1.222876 5.022336 10.54559 1.870252 4.946259 10.04845 1.673874 5.071157 10.52361 1.75217 2.66589 3.552775 5.873116 3.318007 3.552775 5.635769 2.66589 6.614848 5.873116 3.318002 6.614848 5.635767 2.873271 7.105552 5.428385 6.450025 3.552775 -1.080864 6.005289 7.105552 -1.288248 6.450019 6.614848 -1.080866 6.212669 3.552775 -1.732975 6.212669 6.614848 -1.732975 -3.317995 3.552775 -5.635767 -2.665884 3.552775 -5.873113 -3.317995 0.4907033 -5.635767 -2.665884 0.4907033 -5.873113 -2.873264 -1.430511E-06 -5.428385 6.212669 3.552775 -1.732975 6.005294 -1.430511E-06 -1.288245 6.212674 0.4907033 -1.732973 6.450025 3.552775 -1.080864 6.450025 0.4907033 -1.080864 2.09646 9.116563 0.4110657 2.889714 9.316895 0.9243692 3.383233 8.758828 0.9195201 1.526324 8.612876 0.2684017 2.51455 7.496944 0.2595359 3.084698 8.000711 0.4021586 3.28339 8.664461 1.65205 2.31487 7.308249 1.724576 2.885013 7.811976 1.867219 0.6091363 6.280612 0.9962646 0.7137513 6.378977 0.2331192 1.098625 6.497223 1.25451 0.1986253 6.960411 0.2378018 0.5180204 7.458543 0.1818764 1.246053 6.63624 0.175066 1.41802 6.995354 1.198585 1.007503 7.675114 0.4401423 1.522629 7.093678 0.4354602 1.524899 7.254308 0.577685 1.453151 7.186199 1.106851 1.168394 7.657293 0.5810212 2.135019 7.793164 0.730451 2.062673 7.724935 1.25921 1.778515 8.196148 0.7337877 4.358869 10.71131 1.67908 4.846743 10.77726 1.75427 4.895565 10.75528 1.636187 4.486866 10.65386 1.370592 2.557033 9.11907 1.228468 2.685025 9.061581 0.920001 4.711777 10.43587 1.241198 4.981715 10.67191 1.586799 2.909941 8.843629 0.7905859 -2.665884 3.552775 -5.873113 -3.317995 3.552775 -5.635767 -2.665884 6.614848 -5.873113 -3.317995 6.614848 -5.635767 -2.873264 7.105552 -5.428385 -6.005282 7.105552 1.288248 -6.450013 6.614848 1.080867 -6.450013 3.552775 1.080867 -6.212663 6.614848 1.732978 -6.212663 3.552775 1.732978 3.318007 3.552775 5.635769 2.66589 3.552775 5.873116 3.318007 0.4907033 5.635769 2.665895 0.4907033 5.873118 2.873277 -1.430511E-06 5.428388 -6.005282 -1.430511E-06 1.288248 -6.212663 0.4907033 1.732978 -6.212663 3.552775 1.732978 -6.450013 0.4907033 1.080867 -6.450013 3.552775 1.080867 2.889714 9.316895 0.9243692 3.202888 9.093303 1.317415 3.383233 8.758828 0.9195201 2.789274 9.222406 1.656493 3.28339 8.664461 1.65205 5.071157 10.52361 1.75217 4.981715 10.67191 1.586799 4.984279 10.67275 1.759596 5.022336 10.54559 1.870252 4.895565 10.75528 1.636187 4.936185 10.62896 1.919641 4.846743 10.77726 1.75427 1.706163 8.127881 1.262567 1.326632 8.424101 1.733482 1.526324 8.612876 0.2684017 2.31487 7.308249 1.724576 1.778515 8.196148 0.7337877 2.062673 7.724935 1.25921 2.51455 7.496944 0.2595359 2.135019 7.793164 0.730451 0.7137513 6.378977 0.2331192 0.6091363 6.280612 0.9962646 0.4477324 6.380221 0.3782616 0.1986253 6.960411 0.2378018 0.3910024 6.327039 0.7912568 0.1687052 6.694872 0.3807196 0.1127791 6.641648 0.7938652 0.0948205 6.862045 1.001077 0.2361906 6.472464 0.5750105 -4.611461 6.009101 3.57608 -4.799949 5.543042 3.343144 -2.939664 5.299213 3.948007 -3.11299 5.812697 4.063299 -1.559469 6.6139 3.44539 -4.998176 7.264497 2.683995 -5.280033 7.101554 2.235667 -4.505725 6.109818 3.537574 -4.855664 7.245819 2.730333 -3.149768 5.932091 3.978458 -3.849642 8.204092 2.363976 -2.001235 6.871685 3.658437 -2.143746 6.890365 3.612102 -2.039558 8.172415 2.337909 -2.387947 8.127079 2.766356 -2.493681 8.026362 2.804861 -3.899837 8.416241 1.733049 -3.886419 8.323486 2.279134 -2.873264 -1.430511E-06 -5.428385 6.005294 -1.430511E-06 -1.288245 -6.005282 -1.430511E-06 1.288248 2.873277 -1.430511E-06 5.428388 2.31487 7.308249 1.724576 3.28339 8.664461 1.65205 2.789274 9.222406 1.656493 1.326632 8.424101 1.733482 2.789274 9.222406 1.656493 2.889714 9.316895 0.9243692 1.526324 8.612876 0.2684017 1.326632 8.424101 1.733482 2.909941 8.843629 0.7905859 4.981715 10.67191 1.586799 4.946259 10.04845 1.673874 3.143821 8.456053 1.222876 4.358869 10.71131 1.67908 2.909941 8.843629 0.7905859 2.557033 9.11907 1.228468 4.981715 10.67191 1.586799 3.28339 8.664461 1.65205 3.383233 8.758828 0.9195201 2.889714 9.316895 0.9243692 2.789274 9.222406 1.656493 0.1986253 6.960411 0.2378018 0.7137513 6.378977 0.2331192 0.6091363 6.280612 0.9962646 0.0948205 6.862045 1.001077 0.0948205 6.862045 1.001077 0.6091363 6.280612 0.9962646 1.098625 6.497223 1.25451 0.3707993 7.319366 1.261064 2.062673 7.724935 1.25921 1.706163 8.127881 1.262567 2.940835 7.821146 1.453944 3.066577 8.390129 1.197377 7.077726 8.352375 4.453886 7.203468 8.921361 4.197317 7.390516 8.87472 4.65655 2.557033 9.11907 1.228468 2.790913 8.731494 1.660758 4.358869 10.71131 1.67908 4.593351 10.32389 2.111756 4.981715 10.67191 1.586799 1.998196 9.069727 0.8133048 2.4846 9.041533 1.223053 3.673425 13.67355 -0.7324989 4.160432 13.64552 -0.322365 4.392555 13.8356 -0.8801789 6.212669 3.552775 -1.732975 -2.665884 3.552775 -5.873113 -2.665884 6.614848 -5.873113 6.212669 6.614848 -1.732975 -2.873264 7.105552 -5.428385 6.005289 7.105552 -1.288248 2.873271 7.105552 5.428385 -6.005282 7.105552 1.288248 -6.212663 6.614848 1.732978 2.66589 6.614848 5.873116 2.66589 3.552775 5.873116 -6.212663 3.552775 1.732978 -2.873264 -1.430511E-06 -5.428385 -6.005282 -1.430511E-06 1.288248 -6.450013 0.4907033 1.080867 -3.317995 0.4907033 -5.635767 -6.450013 3.552775 1.080867 -3.317995 3.552775 -5.635767 0.1986253 6.960411 0.2378018 0.0948205 6.862045 1.001077 0.3707993 7.319366 1.261064 0.5180204 7.458543 0.1818764 1.706163 8.127881 1.262567 1.778515 8.196148 0.7337877 3.066577 8.390129 1.197377 2.71016 8.668308 1.639612 7.203468 8.921361 4.197317 6.847052 9.19954 4.639552 7.390516 8.87472 4.65655 4.392555 13.8356 -0.8801789 4.516849 13.36734 -0.7646 4.029841 13.39537 -1.174734 2.841017 8.763354 0.7808183 2.354613 8.791548 0.3710698 2.4846 9.041533 1.223053 2.841017 8.763354 0.7808183 4.160432 13.64552 -0.322365 4.516849 13.36734 -0.7646 4.392555 13.8356 -0.8801789 6.816142 8.919125 4.125903 3.32755 8.28583 1.712656 4.404477 10.07788 1.453345 2.665308 9.381545 0.4896879 4.224042 13.20799 -0.6610062 2.584419 8.099325 1.896179 2.940835 7.821146 1.453944 6.72131 8.630554 4.896121 7.077726 8.352375 4.453886 7.390516 8.87472 4.65655 2.354613 8.791548 0.3710698 1.998196 9.069727 0.8133048 4.029841 13.39537 -1.174734 3.673425 13.67355 -0.7324989 4.392555 13.8356 -0.8801789 1.526324 8.612876 0.2684017 2.889714 9.316895 0.9243692 3.383233 8.758828 0.9195201 2.51455 7.496944 0.2595359 3.28339 8.664461 1.65205 2.31487 7.308249 1.724576 6.847052 9.19954 4.639552 6.72131 8.630554 4.896121 7.390516 8.87472 4.65655 2.71016 8.668308 1.639612 2.584419 8.099325 1.896179 6.816142 8.919125 4.125903 4.404477 10.07788 1.453345 3.159764 8.416784 1.920841 2.497522 9.5125 0.6978738 4.224042 13.20799 -0.6610062 4.593351 10.32389 2.111756 2.790913 8.731494 1.660758 3.143821 8.456053 1.222876 4.946259 10.04845 1.673874 4.981715 10.67191 1.586799 6.005294 -1.430511E-06 -1.288245 6.450025 0.4907033 -1.080864 2.873277 -1.430511E-06 5.428388 3.318007 0.4907033 5.635769 3.318007 3.552775 5.635769 6.450025 3.552775 -1.080864 -2.665884 3.552775 -5.873113 -3.317995 3.552775 -5.635767 -2.665884 6.614848 -5.873113 -2.873264 7.105552 -5.428385 -6.450013 6.614848 1.080867 -6.450013 3.552775 1.080867 -6.005282 7.105552 1.288248 -6.212663 3.552775 1.732978 -6.212663 6.614848 1.732978 3.318007 3.552775 5.635769 2.66589 3.552775 5.873116 3.318007 0.4907033 5.635769 2.873277 -1.430511E-06 5.428388 -6.212663 0.4907033 1.732978 -6.212663 3.552775 1.732978 -6.005282 -1.430511E-06 1.288248 -6.450013 3.552775 1.080867 -6.450013 0.4907033 1.080867 2.66589 3.552775 5.873116 3.318007 3.552775 5.635769 2.66589 6.614848 5.873116 3.318002 6.614848 5.635767 2.873271 7.105552 5.428385 6.450025 3.552775 -1.080864 6.005289 7.105552 -1.288248 6.450019 6.614848 -1.080866 6.212669 3.552775 -1.732975 6.212669 6.614848 -1.732975 -3.317995 3.552775 -5.635767 -2.665884 3.552775 -5.873113 -3.317995 0.4907033 -5.635767 -2.665884 0.4907033 -5.873113 -2.873264 -1.430511E-06 -5.428385 6.212669 3.552775 -1.732975 6.005294 -1.430511E-06 -1.288245 6.212674 0.4907033 -1.732973 6.450025 3.552775 -1.080864 6.450025 0.4907033 -1.080864 0.6091363 6.280612 0.9962646 0.7137513 6.378977 0.2331192 1.098625 6.497223 1.25451 2.135019 7.793164 0.730451 2.062673 7.724935 1.25921 0.5180204 7.458543 0.1818764 1.778515 8.196148 0.7337877 0.1986253 6.960411 0.2378018 1.706163 8.127881 1.262567 1.326632 8.424101 1.733482 1.526324 8.612876 0.2684017 2.31487 7.308249 1.724576 1.778515 8.196148 0.7337877 2.062673 7.724935 1.25921 2.51455 7.496944 0.2595359 2.135019 7.793164 0.730451 -4.505725 6.109818 3.537574 -4.799949 5.543042 3.343144 -2.939664 5.299213 3.948007 -3.149768 5.932091 3.978458 -4.855664 7.245819 2.730333 -1.559469 6.6139 3.44539 -5.280033 7.101554 2.235667 -2.143746 6.890365 3.612102 -3.849642 8.204092 2.363976 -2.039558 8.172415 2.337909 -3.899837 8.416241 1.733049 -2.493681 8.026362 2.804861 2.940835 7.821146 1.453944 3.066577 8.390129 1.197377 7.364861 8.684646 4.844911 2.552646 9.122821 1.223284 2.793493 8.726204 1.666602 4.8782 10.57475 1.989126 1.998196 9.069727 0.8133048 2.4846 9.041533 1.223053 3.841726 13.83752 -0.652862 2.593142 8.113515 1.922788 7.364861 8.684646 4.844911 2.751782 8.715333 1.674802 3.066577 8.390129 1.197377 2.751782 8.715333 1.674802 7.364861 8.684646 4.844911 2.4846 9.041533 1.223053 2.878693 8.793046 0.7943512 3.841726 13.83752 -0.652862 2.676136 9.291677 1.727446 1.534234 8.707643 0.2152143 1.533169 8.151052 1.356321 2.593142 8.113515 1.922788 2.940835 7.821146 1.453944 7.364861 8.684646 4.844911 3.173742 8.461288 1.219204 2.965597 8.930156 0.7458518 4.8782 10.57475 1.989126 4.8782 10.57475 1.989126 2.793493 8.726204 1.666602 3.173742 8.461288 1.219204 4.8782 10.57475 1.989126 2.965597 8.930156 0.7458518 2.552646 9.122821 1.223284 3.30182 8.650234 1.675483 3.433313 8.701549 0.7885547 2.676136 9.291677 1.727446 2.157599 7.662094 0.5840963 1.533169 8.151052 1.356321 1.534234 8.707643 0.2152143 -2.864437 -0.04697694 -5.550043 6.165133 -0.06906533 -1.363888 -6.159356 -0.0696885 1.365552 2.911916 -0.07195891 5.598211 2.35866 7.368902 1.721026 3.30182 8.650234 1.675483 2.676136 9.291677 1.727446 1.533169 8.151052 1.356321 0.617286 6.332084 0.9715854 2.35866 7.368902 1.721026 0.07380729 6.87354 1.018091 1.533169 8.151052 1.356321 2.157599 7.662094 0.5840963 0.480345 7.449091 0.1565829 1.533169 8.151052 1.356321 0.07380729 6.87354 1.018091 4.196568 13.51635 -1.138762 3.841726 13.83752 -0.652862 2.878693 8.793046 0.7943512 2.354613 8.791548 0.3710698 2.354613 8.791548 0.3710698 1.998196 9.069727 0.8133048 4.196568 13.51635 -1.138762 3.841726 13.83752 -0.652862 3.3787 3.55248 5.681743 2.911916 -0.07195891 5.598211 6.165133 -0.06906533 -1.363888 6.506797 3.55525 -1.072031 0.480345 7.449091 0.1565829 0.7283171 6.366611 0.2149009 0.617286 6.332084 0.9715854 0.07380729 6.87354 1.018091 -6.255179 3.5495 1.781578 2.655529 3.554804 5.939891 -6.169655 7.175488 1.350588 2.935571 7.175418 5.591631 -2.934473 7.176876 -5.595352 6.176671 7.176986 -1.340642 6.26004 3.552562 -1.788475 -2.661584 3.55007 -5.935688 -6.518651 3.554696 1.068456 -3.342353 3.563656 -5.652431 -3.327068 0.4876269 -5.636287 -6.159356 -0.0696885 1.365552 -2.864437 -0.04697694 -5.550043 6.792699 8.962479 4.205431 3.327528 8.285825 1.71265 4.423532 10.2081 1.559702 2.665287 9.38154 0.4896824 4.184023 13.27902 -0.6052424 6.506797 3.55525 -1.072031 6.26004 3.552562 -1.788475 6.176671 7.176986 -1.340642 3.3787 3.55248 5.681743 2.935571 7.175418 5.591631 2.655529 3.554804 5.939891 1.534234 8.707643 0.2152143 2.676136 9.291677 1.727446 3.433313 8.701549 0.7885547 2.157599 7.662094 0.5840963 3.30182 8.650234 1.675483 2.35866 7.368902 1.721026 -2.661584 3.55007 -5.935688 -3.342353 3.563656 -5.652431 -2.934473 7.176876 -5.595352 -6.518651 3.554696 1.068456 -6.169655 7.175488 1.350588 -6.255179 3.5495 1.781578 3.3787 3.55248 5.681743 2.655529 3.554804 5.939891 2.911916 -0.07195891 5.598211 -6.255179 3.5495 1.781578 -6.159356 -0.0696885 1.365552 -6.518651 3.554696 1.068456 6.792699 8.962479 4.205431 4.423532 10.2081 1.559702 3.161726 8.43513 1.936936 2.49904 9.53116 0.7130373 4.184023 13.27902 -0.6052424 -3.342353 3.563656 -5.652431 -2.661584 3.55007 -5.935688 -3.327068 0.4876269 -5.636287 -2.864437 -0.04697694 -5.550043 6.26004 3.552562 -1.788475 6.165133 -0.06906533 -1.363888 6.506797 3.55525 -1.072031 2.157599 7.662094 0.5840963 0.7283171 6.366611 0.2149009 0.480345 7.449091 0.1565829 0.617286 6.332084 0.9715854 2.35866 7.368902 1.721026</float_array>
+          <technique_common>
+            <accessor source="#TailPartBase2Shape2__Sushi00-position-array" count="601" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TailPartBase2Shape2__Sushi00-normal">
+          <float_array id="TailPartBase2Shape2__Sushi00-normal-array" count="1803">-0.01565558 -0.9980431 -0.07436399 0.0665362 -0.9980431 -0.03522505 -0.0665362 -0.9980431 0.03522505 0.01565558 -0.9980431 0.07436399 0.7338552 -0.1193738 0.667319 -0.02544031 0.7377691 0.6751468 -0.3757339 0.5792564 0.7221135 0.5362035 -0.4500979 0.7142857 -0.7495108 0.2367906 0.6183953 0.148728 -0.778865 0.6105675 -0.8375734 0.09393346 0.5381604 -0.003913894 -0.8473581 0.5303327 0.3737769 -0.6183953 0.6908023 -0.5636008 0.4403131 0.6986302 0.6575342 -0.2739726 0.702544 -0.18591 0.6790606 0.7103718 -0.3522505 0.5949119 0.7221135 0.5518591 -0.4285714 0.7142857 -0.9001957 -0.4207436 0.109589 -0.5264188 -0.8434442 0.1056751 0.2661448 -0.9432485 -0.2015656 0.5303327 0.3111546 -0.7886497 0.2935421 -0.9354208 -0.1937378 0.5499021 0.3228963 -0.7690802 0.6810176 -0.7123288 0.1682975 0.8982387 0.3150685 -0.3033268 -0.6634051 0.6438356 0.3816047 -0.3776908 0.1702544 0.9099804 -0.6242661 0.6771037 0.3874756 -0.3365949 0.1996086 0.9197652 -0.1545988 0.8845401 0.4403131 0.06849315 0.5127202 0.8551859 -0.9354208 0.3522505 0.03522505 0.1311155 0.2720157 0.9530333 -0.925636 0.3776908 0.03522505 0.148728 0.2935421 0.9452055 -0.5792564 0.8023483 -0.1428571 0.295499 0.7416829 0.6027398 0.4657534 0 -0.8845401 0.3796478 0 -0.925636 0.3796478 0.1330724 -0.9158513 0.4579256 0.1330724 -0.8786693 -0.01565558 0.9980431 -0.07436399 0.0665362 0.9980431 -0.03522505 0.01565558 0.9980431 0.07436399 -0.0665362 0.9980431 0.03522505 -0.4579256 0.1330724 0.8786693 -0.3796478 0.1330724 0.9158513 -0.3796478 0 0.925636 -0.4657534 0 0.8845401 -0.01565558 -0.9980431 -0.07436399 -0.0665362 -0.9980431 0.03522505 -0.9197652 -0.1311155 -0.3679061 -0.8727984 -0.1311155 -0.4696673 -0.9315069 0 -0.3659491 -0.8786693 0 -0.4774951 -0.8238748 -0.3502935 -0.444227 -0.1702544 0.7671233 -0.6183953 -0.9001957 -0.4207436 0.109589 -0.3522505 0.5949119 0.7221135 -0.01565558 0.8414873 -0.5401174 -0.18591 0.6790606 0.7103718 -0.5636008 0.4403131 0.6986302 -0.3737769 0.6183953 -0.6908023 -0.6692759 0.2544031 -0.6986302 -0.8375734 0.09393346 0.5381604 0.2446184 0.8258317 0.5088063 -0.2465753 0.9452055 0.2172211 0.02739726 -0.2035225 0.9784736 -0.5088063 -0.3091977 0.8023483 -0.2720157 0.9393346 0.2093934 -0.5283757 -0.3209393 0.7847358 0.8982387 0.3150685 -0.3033268 0.2446184 0.8258317 0.5088063 0.8023483 0.08806262 0.5909981 0.5499021 0.3228963 -0.7690802 -0.2465753 0.9452055 0.2172211 -0.2720157 0.9393346 0.2093934 0.5303327 0.3111546 -0.7886497 0.9510763 0.2289628 -0.2113503 0.9432485 -0.3287671 -0.04305284 0.07436399 0.2915851 -0.9530333 -0.1213307 -0.2485323 -0.960861 0.9334638 -0.3542074 -0.04305284 -0.1389433 -0.2700587 -0.9530333 0.295499 0.7416829 0.6027398 0.9510763 0.2289628 -0.2113503 0.3131115 0.8962818 -0.3111546 0.148728 0.2935421 0.9452055 0.9432485 -0.3287671 -0.04305284 0.9334638 -0.3542074 -0.04305284 0.1311155 0.2720157 0.9530333 -0.02544031 0.7377691 0.6751468 0.1291585 0.8825831 -0.4520548 -0.1917808 0.7534246 -0.62818 -0.3757339 0.5792564 0.7221135 -0.7495108 0.2367906 0.6183953 -0.5675147 0.4090019 -0.7142857 -0.1545988 0.849315 0.5068493 -0.4324853 0.5420744 0.7201566 -0.5636008 0.4403131 0.6986302 -0.5636008 0.4403131 0.6986302 -0.5636008 0.4403131 0.6986302 0.01956947 0.5596869 0.8277887 0.7632094 0.1330724 -0.6320939 0.5636008 -0.4403131 -0.6986302 0.6790606 -0.3248532 -0.6594912 0.5636008 -0.4403131 -0.6986302 0.5636008 -0.4403131 -0.6986302 0.9373777 -0.1565558 -0.3111546 0.9373777 -0.1565558 -0.3111546 0.01956947 0.5596869 0.8277887 0.6790606 -0.3248532 -0.6594912 -0.4324853 0.5420744 0.7201566 -0.1545988 0.849315 0.5068493 0.7632094 0.1330724 -0.6320939 -0.5283757 -0.3209393 0.7847358 0.2661448 -0.9432485 -0.2015656 -0.5088063 -0.3091977 0.8023483 0.2935421 -0.9354208 -0.1937378 0.6810176 -0.7123288 0.1682975 0.02739726 -0.2035225 0.9784736 0.8023483 0.08806262 0.5909981 0.2446184 0.8258317 0.5088063 0.8982387 0.3150685 -0.3033268 0.9530333 -0.1780822 -0.2407045 0.702544 -0.6105675 -0.3679061 0.7299413 0.1937378 -0.6555773 0.4129159 -0.1330724 -0.9001957 0.3776908 -0.1702544 -0.9099804 0.6634051 -0.6438356 -0.3816047 -0.1389433 -0.2700587 -0.9530333 -0.9354208 0.3522505 0.03522505 -0.1213307 -0.2485323 -0.960861 -0.925636 0.3776908 0.03522505 -0.5792564 0.8023483 -0.1428571 0.07436399 0.2915851 -0.9530333 0.3131115 0.8962818 -0.3111546 0.9510763 0.2289628 -0.2113503 0.295499 0.7416829 0.6027398 0.0665362 -0.9980431 -0.03522505 0.9197652 -0.1311155 0.3679061 0.01565558 -0.9980431 0.07436399 0.8727984 -0.1311155 0.4696673 0.8786693 0 0.4774951 0.9315069 0 0.3659491 -0.3365949 0.1996086 0.9197652 -0.3776908 0.1702544 0.9099804 0.3737769 -0.6183953 0.6908023 0.4187867 -0.5792564 0.7005871 0.06849315 0.5127202 0.8551859 0.6634051 -0.6438356 -0.3816047 0.7338552 -0.1213307 0.667319 0.702544 -0.6105675 -0.3679061 0.9530333 -0.1780822 -0.2407045 -0.3796478 0 0.925636 0.8786693 0 0.4774951 -0.3796478 0.1330724 0.9158513 0.8727984 0.1311155 0.4696673 0.01565558 0.9980431 0.07436399 0.9315069 0 0.3659491 0.0665362 0.9980431 -0.03522505 0.9197652 0.1311155 0.3679061 0.4657534 0 -0.8845401 0.4579256 0.1330724 -0.8786693 -0.8786693 0 -0.4774951 0.3796478 0 -0.925636 -0.8727984 -0.1311155 -0.4696673 0.3796478 -0.1330724 -0.9158513 -0.01565558 -0.9980431 -0.07436399 0.4657534 0 -0.8845401 0.0665362 -0.9980431 -0.03522505 0.4579256 -0.1330724 -0.8786693 0.9315069 0 0.3659491 0.9197652 -0.1311155 0.3679061 -0.1917808 0.7534246 -0.62818 0.1291585 0.8825831 -0.4520548 0.888454 0.02544031 -0.4579256 -0.5675147 0.4090019 -0.7142857 0.3307241 -0.6066536 -0.7221135 0.7201566 -0.2759295 -0.6360078 0.7338552 -0.1193738 0.667319 0.148728 -0.778865 0.6105675 0.5362035 -0.4500979 0.7142857 -0.003913894 -0.8473581 0.5303327 0.1663405 -0.6888454 -0.7064579 0.3737769 -0.6183953 0.6908023 -0.6692759 0.2544031 -0.6986302 -0.3737769 0.6183953 -0.6908023 0.5636008 -0.4403131 -0.6986302 0.6575342 -0.2739726 0.702544 -0.01565558 0.8414873 -0.5401174 0.8277887 -0.111546 -0.5479452 0.7358121 -0.2544031 -0.62818 0.5518591 -0.4285714 0.7142857 -0.1702544 0.7671233 -0.6183953 -0.4500979 -0.7729941 -0.4481409 -0.5264188 -0.8434442 0.1056751 -0.8238748 -0.3502935 -0.444227 -0.6242661 0.6771037 0.3874756 -0.1545988 0.8845401 0.4403131 0.1272016 0.8825831 -0.4520548 -0.3287671 0.6575342 -0.6790606 -0.6634051 0.6438356 0.3816047 -0.3737769 0.6183953 -0.6908023 0.4129159 -0.1330724 -0.9001957 0.7299413 0.1937378 -0.6555773 0.3776908 -0.1702544 -0.9099804 0.3796478 0 -0.925636 -0.8786693 0 -0.4774951 0.3796478 0.1330724 -0.9158513 -0.8727984 0.1311155 -0.4696673 -0.01565558 0.9980431 -0.07436399 -0.0665362 0.9980431 0.03522505 -0.9197652 0.1311155 -0.3679061 -0.9315069 0 -0.3659491 -0.4579256 0.1330724 0.8786693 -0.4657534 0 0.8845401 0.8786693 0 0.4774951 -0.3796478 0 0.925636 0.8727984 -0.1311155 0.4696673 -0.3796478 -0.1330724 0.9158513 0.01565558 -0.9980431 0.07436399 -0.0665362 -0.9980431 0.03522505 -0.4579256 -0.1330724 0.8786693 -0.4657534 0 0.8845401 -0.9197652 -0.1311155 -0.3679061 -0.9315069 0 -0.3659491 0.1291585 0.8825831 -0.4520548 0.7377691 0.6497065 0.183953 0.888454 0.02544031 -0.4579256 -0.02544031 0.7377691 0.6751468 0.7338552 -0.1193738 0.667319 0.9530333 -0.1780822 -0.2407045 0.7299413 0.1937378 -0.6555773 0.7358121 0.6497065 0.183953 0.7338552 -0.1213307 0.667319 0.1272016 0.8825831 -0.4520548 0.06849315 0.5127202 0.8551859 -0.1545988 0.8845401 0.4403131 -0.9001957 -0.4207436 0.109589 -0.7495108 0.2367906 0.6183953 -0.5675147 0.4090019 -0.7142857 0.148728 -0.778865 0.6105675 -0.8238748 -0.3502935 -0.444227 -0.5264188 -0.8434442 0.1056751 0.3307241 -0.6066536 -0.7221135 -0.4500979 -0.7729941 -0.4481409 0.1663405 -0.6888454 -0.7064579 -0.003913894 -0.8473581 0.5303327 -0.3365949 -0.7847358 -0.5205479 -0.6692759 0.2544031 -0.6986302 -0.4363992 -0.8767123 0.1996086 -0.8238748 -0.2348337 -0.516634 -0.9217221 -0.3287671 0.2054795 -0.8375734 0.09393346 0.5381604 -0.7358121 -0.6516634 -0.183953 -0.6125244 -0.04696673 0.7886497 -0.6438356 -0.1174168 0.7553816 0.037182 -0.2074364 0.9784736 0.01174168 -0.1291585 0.9921722 0.5420744 0.2739726 0.7945206 -0.7749511 0.4755382 0.4168297 -0.8199608 0.4540117 0.3502935 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 0.4755382 0.3131115 0.8219178 -0.1996086 0.5264188 0.8258317 0.3679061 0.8454012 0.3874756 0.3131115 0.8356164 0.4520548 -0.1996086 0.5264188 0.8258317 -0.3150685 0.9354208 0.1663405 -0.3111546 0.9178082 0.2485323 -0.01565558 -0.9980431 -0.07436399 0.0665362 -0.9980431 -0.03522505 -0.0665362 -0.9980431 0.03522505 0.01565558 -0.9980431 0.07436399 0.1369863 -0.7847358 0.6046967 0.7338552 -0.1193738 0.667319 -0.02544031 0.7377691 0.6751468 -0.7495108 0.2367906 0.6183953 -0.02544031 0.7377691 0.6751468 0.1291585 0.8825831 -0.4520548 -0.6086106 0.3522505 -0.7123288 -0.7495108 0.2367906 0.6183953 0.3776908 -0.1702544 -0.9099804 0.4129159 -0.1330724 -0.9001957 0.702544 -0.6105675 -0.3679061 0.6634051 -0.6438356 -0.3816047 -0.6242661 0.6771037 0.3874756 0.3776908 -0.1702544 -0.9099804 -0.6634051 0.6438356 0.3816047 0.4129159 -0.1330724 -0.9001957 0.7338552 -0.1193738 0.667319 0.888454 0.02544031 -0.4579256 0.1291585 0.8825831 -0.4520548 -0.02544031 0.7377691 0.6751468 -0.6692759 0.2544031 -0.6986302 0.1663405 -0.6888454 -0.7064579 -0.003913894 -0.8473581 0.5303327 -0.8375734 0.09393346 0.5381604 -0.8375734 0.09393346 0.5381604 -0.003913894 -0.8473581 0.5303327 0.3737769 -0.6183953 0.6908023 -0.5636008 0.4403131 0.6986302 0.5518591 -0.4285714 0.7142857 -0.9001957 -0.4207436 0.109589 0.2661448 -0.9432485 -0.2015656 0.5303327 0.3111546 -0.7886497 0.2935421 -0.9354208 -0.1937378 0.5499021 0.3228963 -0.7690802 0.8982387 0.3150685 -0.3033268 -0.6634051 0.6438356 0.3816047 -0.3776908 0.1702544 0.9099804 -0.6242661 0.6771037 0.3874756 -0.3365949 0.1996086 0.9197652 0.7299413 0.1937378 -0.6555773 -0.9354208 0.3522505 0.0332681 0.1311155 0.2720157 0.9530333 -0.925636 0.3776908 0.03522505 0.148728 0.2935421 0.9452055 0.9510763 0.2289628 -0.2113503 0.4657534 0 -0.8845401 0.3796478 0 -0.925636 0.3796478 0.1330724 -0.9158513 0.4579256 0.1330724 -0.8786693 -0.01565558 0.9980431 -0.07436399 0.0665362 0.9980431 -0.03522505 0.01565558 0.9980431 0.07436399 -0.0665362 0.9980431 0.03522505 -0.4579256 0.1330724 0.8786693 -0.3796478 0.1330724 0.9158513 -0.3796478 0 0.925636 -0.4657534 0 0.8845401 -0.01565558 -0.9980431 -0.07436399 -0.0665362 -0.9980431 0.03522505 -0.9197652 -0.1311155 -0.3679061 -0.8727984 -0.1311155 -0.4696673 -0.9315069 0 -0.3659491 -0.8786693 0 -0.4774951 -0.6692759 0.2544031 -0.6986302 -0.8375734 0.09393346 0.5381604 -0.5636008 0.4403131 0.6986302 -0.3737769 0.6183953 -0.6908023 -0.9001957 -0.4207436 0.109589 -0.8238748 -0.3502935 -0.444227 0.5303327 0.3111546 -0.7886497 -0.2720157 0.9393346 0.2093934 0.5499021 0.3228963 -0.7690802 -0.2465753 0.9452055 0.2172211 0.8982387 0.3150685 -0.3033268 0.9510763 0.2289628 -0.2113503 0.9432485 -0.3287671 -0.04305284 -0.1213307 -0.2485323 -0.960861 0.9334638 -0.3542074 -0.04305284 -0.1389433 -0.2681018 -0.9530333 0.1311155 0.2720157 0.9530333 0.9334638 -0.3542074 -0.04305284 0.148728 0.2935421 0.9452055 0.9432485 -0.3287671 -0.04305284 0.9510763 0.2289628 -0.2113503 0.7632094 0.1330724 -0.6320939 0.5636008 -0.4403131 -0.6986302 0.6790606 -0.3248532 -0.6594912 0.5636008 -0.4403131 -0.6986302 0.9373777 -0.1565558 -0.3111546 -0.5283757 -0.3209393 0.7847358 0.2661448 -0.9432485 -0.2015656 -0.5088063 -0.3091977 0.8023483 0.2935421 -0.9354208 -0.1937378 0.8982387 0.3150685 -0.3033268 -0.1389433 -0.2681018 -0.9530333 -0.9354208 0.3522505 0.0332681 -0.1213307 -0.2485323 -0.960861 -0.925636 0.3776908 0.03522505 0.9510763 0.2289628 -0.2113503 -0.6086106 0.3522505 -0.7123288 0.1291585 0.8825831 -0.4520548 0.888454 0.02544031 -0.4579256 0.7201566 -0.2759295 -0.6360078 0.7338552 -0.1193738 0.667319 0.1369863 -0.7847358 0.6046967 -0.2465753 0.9452055 0.2172211 -0.5088063 -0.3091977 0.8023483 0.8982387 0.3150685 -0.3033268 -0.2720157 0.9393346 0.2093934 -0.5283757 -0.3209393 0.7847358 -0.1545988 0.849315 0.5068493 -0.4324853 0.5420744 0.7201566 -0.5636008 0.4403131 0.6986302 -0.5636008 0.4403131 0.6986302 0.01956947 0.5596869 0.8277887 -0.3365949 0.1996086 0.9197652 -0.3776908 0.1702544 0.9099804 0.6634051 -0.6438356 -0.3816047 0.702544 -0.6105675 -0.3679061 0.7299413 0.1937378 -0.6555773 0.0665362 -0.9980431 -0.03522505 0.9197652 -0.1311155 0.3679061 0.01565558 -0.9980431 0.07436399 0.8727984 -0.1311155 0.4696673 0.8786693 0 0.4774951 0.9315069 0 0.3659491 0.3796478 0 -0.925636 -0.8786693 0 -0.4774951 0.3796478 0.1330724 -0.9158513 -0.01565558 0.9980431 -0.07436399 -0.9197652 0.1311155 -0.3679061 -0.9315069 0 -0.3659491 -0.0665362 0.9980431 0.03522505 -0.4657534 0 0.8845401 -0.4579256 0.1330724 0.8786693 0.8786693 0 0.4774951 -0.3796478 0 0.925636 0.8727984 -0.1311155 0.4696673 0.01565558 -0.9980431 0.07436399 -0.4579256 -0.1330724 0.8786693 -0.4657534 0 0.8845401 -0.0665362 -0.9980431 0.03522505 -0.9315069 0 -0.3659491 -0.9197652 -0.1311155 -0.3679061 -0.3796478 0 0.925636 0.8786693 0 0.4774951 -0.3796478 0.1330724 0.9158513 0.8727984 0.1311155 0.4696673 0.01565558 0.9980431 0.07436399 0.9315069 0 0.3659491 0.0665362 0.9980431 -0.03522505 0.9197652 0.1311155 0.3679061 0.4657534 0 -0.8845401 0.4579256 0.1330724 -0.8786693 -0.8786693 0 -0.4774951 0.3796478 0 -0.925636 -0.8727984 -0.1311155 -0.4696673 0.3796478 -0.1330724 -0.9158513 -0.01565558 -0.9980431 -0.07436399 0.4657534 0 -0.8845401 0.0665362 -0.9980431 -0.03522505 0.4579256 -0.1330724 -0.8786693 0.9315069 0 0.3659491 0.9197652 -0.1311155 0.3679061 -0.003913894 -0.8473581 0.5303327 0.1663405 -0.6888454 -0.7064579 0.3737769 -0.6183953 0.6908023 -0.4500979 -0.7729941 -0.4481409 0.5518591 -0.4285714 0.7142857 -0.3737769 0.6183953 -0.6908023 -0.8238748 -0.3502935 -0.444227 -0.6692759 0.2544031 -0.6986302 -0.9001957 -0.4207436 0.109589 -0.7495108 0.2367906 0.6183953 -0.6086106 0.3522505 -0.7123288 0.1369863 -0.7847358 0.6046967 -0.8238748 -0.3502935 -0.444227 0.5518591 -0.4285714 0.7142857 0.7201566 -0.2759295 -0.6360078 -0.4500979 -0.7729941 -0.4481409 -0.6125244 -0.04696673 0.7886497 -0.6438356 -0.1174168 0.7553816 0.037182 -0.2074364 0.9784736 0.01174168 -0.1291585 0.9921722 -0.1996086 0.5264188 0.8258317 0.5420744 0.2739726 0.7945206 -0.8199608 0.4540117 0.3502935 0.4755382 0.3131115 0.8219178 -0.3111546 0.9178082 0.2485323 0.3679061 0.8454012 0.3874756 -0.3150685 0.9354208 0.1663405 0.3131115 0.8356164 0.4520548 0.2661448 -0.9432485 -0.2015656 0.5303327 0.3111546 -0.7886497 0.2935421 -0.9354208 -0.1937378 -0.6634051 0.6438356 0.3816047 -0.3776908 0.1702544 0.9099804 -0.6242661 0.6771037 0.3874756 -0.9354208 0.3522505 0.0332681 0.1311155 0.2720157 0.9530333 -0.925636 0.3776908 0.03522505 -0.5283757 -0.3209393 0.7847358 -0.4579256 -0.3072407 0.8336595 -0.2720157 0.9393346 0.2093934 0.5303327 0.3111546 -0.7886497 -0.2720157 0.9393346 0.2093934 0.2935421 -0.9354208 -0.1937378 0.1311155 0.2720157 0.9530333 0.9334638 -0.3542074 -0.04305284 -0.925636 0.3776908 0.03522505 -0.02544031 0.7377691 0.6751468 -0.6086106 0.3522505 -0.7123288 -0.9001957 -0.4207436 0.109589 -0.5283757 -0.3209393 0.7847358 0.2661448 -0.9432485 -0.2015656 -0.4579256 -0.3072407 0.8336595 0.6634051 -0.6438356 -0.3816047 0.3776908 -0.1702544 -0.9099804 0.2622309 0.2407045 -0.9334638 -0.3365949 0.1996086 0.9197652 -0.3776908 0.1702544 0.9099804 0.6634051 -0.6438356 -0.3816047 -0.6242661 0.6771037 0.3874756 0.3776908 -0.1702544 -0.9099804 -0.6634051 0.6438356 0.3816047 0.7338552 -0.1193738 0.667319 0.888454 0.02544031 -0.4579256 -0.02544031 0.7377691 0.6751468 -0.4500979 -0.7729941 -0.4481409 -0.9001957 -0.4207436 0.109589 -0.6086106 0.3522505 -0.7123288 -0.01565558 -0.9980431 -0.07436399 0.0665362 -0.9980431 -0.03522505 -0.0665362 -0.9980431 0.03522505 0.01565558 -0.9980431 0.07436399 0.1369863 -0.7847358 0.6046967 0.7338552 -0.1193738 0.667319 -0.02544031 0.7377691 0.6751468 -0.9001957 -0.4207436 0.109589 0.2054795 -0.7240704 0.6575342 0.1369863 -0.7847358 0.6046967 -0.8923679 -0.2544031 0.3737769 -0.9001957 -0.4207436 0.109589 -0.4500979 -0.7729941 -0.4481409 -0.3737769 0.6183953 -0.6908023 -0.9001957 -0.4207436 0.109589 -0.8923679 -0.2544031 0.3737769 -0.1213307 -0.2485323 -0.960861 -0.925636 0.3776908 0.03522505 0.9334638 -0.3542074 -0.04305284 -0.1389433 -0.2681018 -0.9530333 -0.1389433 -0.2681018 -0.9530333 -0.9354208 0.3522505 0.0332681 -0.1213307 -0.2485323 -0.960861 -0.925636 0.3776908 0.03522505 0.8786693 0 0.4774951 0.01565558 -0.9980431 0.07436399 0.0665362 -0.9980431 -0.03522505 0.9315069 0 0.3659491 -0.3737769 0.6183953 -0.6908023 0.1663405 -0.6888454 -0.7064579 0.2054795 -0.7240704 0.6575342 -0.8923679 -0.2544031 0.3737769 -0.4657534 0 0.8845401 -0.3796478 0 0.925636 -0.0665362 0.9980431 0.03522505 0.01565558 0.9980431 0.07436399 -0.01565558 0.9980431 -0.07436399 0.0665362 0.9980431 -0.03522505 0.4657534 0 -0.8845401 0.3796478 0 -0.925636 -0.9315069 0 -0.3659491 -0.8786693 0 -0.4774951 -0.8727984 -0.1311155 -0.4696673 -0.0665362 -0.9980431 0.03522505 -0.01565558 -0.9980431 -0.07436399 0.7632094 0.1330724 -0.6320939 0.5636008 -0.4403131 -0.6986302 0.6790606 -0.3248532 -0.6594912 0.5636008 -0.4403131 -0.6986302 0.9373777 -0.1565558 -0.3111546 0.9315069 0 0.3659491 0.4657534 0 -0.8845401 0.0665362 0.9980431 -0.03522505 0.8786693 0 0.4774951 0.01565558 0.9980431 0.07436399 -0.3796478 0 0.925636 -0.6086106 0.3522505 -0.7123288 -0.02544031 0.7377691 0.6751468 0.888454 0.02544031 -0.4579256 -0.4500979 -0.7729941 -0.4481409 0.7338552 -0.1193738 0.667319 0.1369863 -0.7847358 0.6046967 0.3796478 0 -0.925636 -0.8786693 0 -0.4774951 -0.01565558 0.9980431 -0.07436399 -0.9315069 0 -0.3659491 -0.0665362 0.9980431 0.03522505 -0.4657534 0 0.8845401 0.8786693 0 0.4774951 -0.3796478 0 0.925636 0.01565558 -0.9980431 0.07436399 -0.4657534 0 0.8845401 -0.0665362 -0.9980431 0.03522505 -0.9315069 0 -0.3659491 -0.1545988 0.849315 0.5068493 -0.4324853 0.5420744 0.7201566 -0.5636008 0.4403131 0.6986302 -0.5636008 0.4403131 0.6986302 0.01956947 0.5596869 0.8277887 -0.8786693 0 -0.4774951 0.3796478 0 -0.925636 -0.8727984 -0.1311155 -0.4696673 0.3796478 -0.1330724 -0.9158513 0.4657534 0 -0.8845401 0.0665362 -0.9980431 -0.03522505 0.9315069 0 0.3659491 -0.4500979 -0.7729941 -0.4481409 0.1663405 -0.6888454 -0.7064579 -0.3737769 0.6183953 -0.6908023 0.2054795 -0.7240704 0.6575342 0.1369863 -0.7847358 0.6046967</float_array>
+          <technique_common>
+            <accessor source="#TailPartBase2Shape2__Sushi00-normal-array" count="601" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TailPartBase2Shape2__Sushi00-texcoord">
+          <float_array id="TailPartBase2Shape2__Sushi00-texcoord-array" count="1202">0.2451209 0.3319753 0.2451209 0.01428246 0.4854505 0.3319753 0.4854505 0.01428246 0.5293508 0.3278553 0.5293508 0.3454947 0.5564355 0.3454947 0.5564355 0.3102006 0.5823606 0.3454947 0.5823606 0.3102006 0.7914245 0.2905928 0.7730373 0.2905928 0.7654078 0.3089799 0.7914245 0.3089799 0.7730373 0.3273823 0.7914245 0.3273823 0.7914245 0.3318227 0.7786831 0.3318227 0.7914245 0.3595483 0.7786831 0.3595483 0.7943847 0.1922026 0.7730678 0.191928 0.7938659 0.02017242 0.772549 0.01989776 0.7872435 0.006134152 0.7790951 0.006027341 0.6885023 0.298085 0.6675364 0.298085 0.6885023 0.2161593 0.6675364 0.2161593 0.6820325 0.2022431 0.6740063 0.2022431 0.523888 0.3509575 0.5025712 0.3506829 0.5233692 0.1789426 0.5020524 0.1786679 0.5167468 0.164889 0.5085832 0.1647822 0.5594568 0.8838941 0.2732738 0.8838941 0.2685588 0.775494 0.5641718 0.775494 0.2685588 0.7475853 0.5641718 0.7475853 0.5641718 0.5368735 0.2685588 0.5368735 0.2685588 0.5089647 0.5641718 0.5089647 0.5594568 0.4005646 0.2732738 0.4005646 0.004715038 0.6128328 0.004715038 0.3725032 0.0206302 0.3725032 0.0206302 0.6128328 0.1199359 0.3778744 0.1199359 0.6074617 0.5147936 0.006363034 0.5147936 0.03408867 0.5020524 0.006363034 0.5020524 0.03408867 0.5204394 0.03852904 0.5020524 0.03852904 0.5020524 0.05693144 0.5280537 0.05693144 0.5204394 0.07531852 0.5020524 0.07531852 0.7651331 0.006057858 0.7716793 0.01994354 0.7569848 0.00616467 0.7503624 0.02021819 0.7711604 0.1919585 0.7498436 0.1922331 0.5313039 0.3102617 0.5394064 0.3102617 0.5353475 0.3140917 0.5247577 0.2963302 0.5459373 0.2963302 0.5459373 0.1861601 0.5247577 0.1861601 0.8105593 0.005798399 0.8171054 0.01968414 0.8024109 0.005905271 0.7957885 0.01995879 0.8165866 0.1916991 0.7952697 0.1919737 0.8319677 0.1816587 0.8238651 0.1816587 0.827924 0.1778287 0.8384985 0.1955749 0.8173342 0.1955749 0.8173342 0.3057603 0.8384985 0.3057603 0.6973831 0.009826839 0.7150225 0.009826839 0.7326772 0.03692681 0.6973831 0.03692681 0.6973831 0.06283665 0.7326772 0.06283665 0.6167849 0.005355895 0.5660792 0.1213855 0.5020524 0.09173721 0.5020524 0.1213855 0.5020524 0.1510186 0.6167849 0.2373999 0.6182193 0.005355895 0.7329519 0.09173721 0.668925 0.1213855 0.7329519 0.1213855 0.7329519 0.1510186 0.6182193 0.2373999 0.7388113 0.005355895 0.7487755 0.005355895 0.7388113 0.1213855 0.7487755 0.1213855 0.7487755 0.2373999 0.7388113 0.2373999 0.7328298 0.3212024 0.7116655 0.3212024 0.7328298 0.1890898 0.7116655 0.1890898 0.7181964 0.1740749 0.7262989 0.1740749 0.72224 0.1705348 0.7262989 0.1687495 0.7181964 0.1687495 0.7816129 0.2891127 0.775143 0.2751964 0.7896391 0.2891127 0.796109 0.2751964 0.796109 0.1932555 0.775143 0.1932555 0.689601 0.1899443 0.7107652 0.1899443 0.689601 0.3220416 0.7107652 0.3220416 0.7042344 0.3370718 0.6961318 0.3370718 0.7001907 0.3406119 0.6961318 0.3423972 0.7042344 0.3423972 0.2479591 0.6112001 0.232044 0.6112001 0.2479591 0.3708553 0.232044 0.3708553 0.1327382 0.3762264 0.1327382 0.6058289 0.7708095 0.2084687 0.7708095 0.2904097 0.7603266 0.2904097 0.7603266 0.2084687 0.7643397 0.1945525 0.7498436 0.2904097 0.7603266 0.1945525 0.7498436 0.2084687 0.7563134 0.1945525 0.6824445 0.3990387 0.6824445 0.4151064 0.5821317 0.3990387 0.5821317 0.4151064 0.5660487 0.4151064 0.6824445 0.6578927 0.5660487 0.6578927 0.5821317 0.6578927 0.6824445 0.6739604 0.5821317 0.6739604 0.2385901 0.02215612 0.2385901 0.03047228 0.1392996 0.00918591 0.1392996 0.02510107 0.1233845 0.02510107 0.2385901 0.3374075 0.1233845 0.3427787 0.1392996 0.3427787 0.2385901 0.3457237 0.1392996 0.3586938 0.5564355 0.3807889 0.5293508 0.3631495 0.5293508 0.3454947 0.5823606 0.3807889 0.5823606 0.3454947 0.5564355 0.3454947 0.5293508 0.3278553 0.5823606 0.3102006 0.5564355 0.3102006 0.7730373 0.2905928 0.7914245 0.2905928 0.7654078 0.3089799 0.8098115 0.2905928 0.8174258 0.3089799 0.7914245 0.3089799 0.7730373 0.3273823 0.8098115 0.3273823 0.7914245 0.3273823 0.7914245 0.3318227 0.7786831 0.3318227 0.8041657 0.3318227 0.7914245 0.3595483 0.7786831 0.3595483 0.8041657 0.3595483 0.5684444 0.2849165 0.5619745 0.298848 0.5579614 0.298848 0.5579614 0.2849165 0.5684444 0.2029908 0.5579614 0.2029908 0.5474784 0.2849165 0.5539483 0.298848 0.5474784 0.2029908 0.5660487 0.9518273 0.5660487 0.9357595 0.6663615 0.9518273 0.6663615 0.9357595 0.6824445 0.9357595 0.6824445 0.6929733 0.6663615 0.6929733 0.5660487 0.6929733 0.6663615 0.6768903 0.5660487 0.6768903 0.1218586 0.01568627 0.1196307 0.02937365 0.02061494 0.01026934 0.02061494 0.0261845 0.004699779 0.0261845 0.004699779 0.3438773 0.02061494 0.3438773 0.1199207 0.3422294 0.02061494 0.3597925 0.1199207 0.3577173 0.6610361 0.03073168 0.6786908 0.03073168 0.6786908 0.04837108 0.6786908 0.01307696 0.6963302 0.03073168 0.8303044 0.1778592 0.8303044 0.1698329 0.8343176 0.1738461 0.8343176 0.1795224 0.8343176 0.1681697 0.8383307 0.1778592 0.8383307 0.1698329 0.6211795 0.2767681 0.6437324 0.2767681 0.6084383 0.3120623 0.6084383 0.241474 0.6084383 0.2895094 0.6084383 0.2640269 0.5731441 0.2767681 0.5956969 0.2767681 0.5234607 0.04055846 0.5418479 0.02217138 0.531899 0.04055846 0.5418479 0.0589456 0.5418479 0.03059435 0.5418479 0.05050737 0.551812 0.04055846 0.560235 0.04055846 0.5418479 0.04055846 0.08316167 0.8083009 0.08317693 0.7893339 0.1420462 0.8235447 0.1262226 0.8330968 0.1420462 0.8921645 0.03962768 0.8330663 0.02380407 0.8236362 0.08314641 0.813199 0.0437171 0.8354925 0.1221637 0.8355535 0.0437171 0.8802167 0.1262226 0.8826123 0.1221637 0.8801556 0.08317693 0.9263905 0.08316167 0.9074082 0.08314641 0.9025101 0.02380407 0.8920729 0.03962768 0.8826429 0.2451209 0.3319753 0.2451209 0.01428246 0.4854505 0.3319753 0.4854505 0.01428246 0.5823606 0.3102006 0.5293508 0.3278553 0.5293508 0.3454947 0.5823606 0.3454947 0.6973831 0.009826839 0.7150225 0.009826839 0.7326772 0.06283665 0.6973831 0.06283665 0.796109 0.1932555 0.7896391 0.2891127 0.775143 0.2751964 0.775143 0.1932555 0.5684444 0.2849165 0.5474784 0.2029908 0.5684444 0.2029908 0.5539483 0.298848 0.6963302 0.03073168 0.6786908 0.04837108 0.6610361 0.03073168 0.6786908 0.01307696 0.5418479 0.0589456 0.5234607 0.04055846 0.5418479 0.02217138 0.560235 0.04055846 0.7914245 0.2905928 0.7730373 0.2905928 0.7654078 0.3089799 0.7914245 0.3089799 0.7786831 0.3595483 0.7914245 0.3595483 0.7943847 0.1922026 0.7730678 0.191928 0.7938659 0.02017242 0.772549 0.01989776 0.7790951 0.006027341 0.6885023 0.298085 0.6675364 0.298085 0.6885023 0.2161593 0.6675364 0.2161593 0.6820325 0.2022431 0.523888 0.3509575 0.5025712 0.3506829 0.5233692 0.1789426 0.5020524 0.1786679 0.5085832 0.1647822 0.5594568 0.8838941 0.2732738 0.8838941 0.2685588 0.775494 0.5641718 0.775494 0.2685588 0.7475853 0.5641718 0.7475853 0.5641718 0.5368735 0.2685588 0.5368735 0.2685588 0.5089647 0.5641718 0.5089647 0.5594568 0.4005646 0.2732738 0.4005646 0.004715038 0.6128328 0.004715038 0.3725032 0.0206302 0.3725032 0.0206302 0.6128328 0.1199359 0.3778744 0.1199359 0.6074617 0.5204394 0.07531852 0.5020524 0.07531852 0.5020524 0.05693144 0.5280537 0.05693144 0.5020524 0.006363034 0.5147936 0.006363034 0.5247577 0.1861601 0.5459373 0.1861601 0.5247577 0.2963302 0.5459373 0.2963302 0.5313039 0.3102617 0.8105593 0.005798399 0.8171054 0.01968414 0.7957885 0.01995879 0.8165866 0.1916991 0.7952697 0.1919737 0.8384985 0.3057603 0.8173342 0.3057603 0.8384985 0.1955749 0.8173342 0.1955749 0.8238651 0.1816587 0.6182193 0.005355895 0.7329519 0.09173721 0.668925 0.1213855 0.7329519 0.1510186 0.6182193 0.2373999 0.7328298 0.3212024 0.7116655 0.3212024 0.7328298 0.1890898 0.7116655 0.1890898 0.7181964 0.1687495 0.689601 0.1899443 0.7107652 0.1899443 0.689601 0.3220416 0.7107652 0.3220416 0.6961318 0.3423972 0.5823606 0.3807889 0.5293508 0.3631495 0.5293508 0.3454947 0.5823606 0.3454947 0.5293508 0.3278553 0.5823606 0.3102006 0.7716793 0.01994354 0.7503624 0.02021819 0.7651331 0.006057858 0.7711604 0.1919585 0.7498436 0.1922331 0.6167849 0.005355895 0.5660792 0.1213855 0.5020524 0.09173721 0.5020524 0.1510186 0.6167849 0.2373999 0.7708095 0.2084687 0.7708095 0.2904097 0.7498436 0.2904097 0.7498436 0.2084687 0.7563134 0.1945525 0.2479591 0.6112001 0.232044 0.6112001 0.2479591 0.3708553 0.232044 0.3708553 0.1327382 0.3762264 0.1327382 0.6058289 0.5660487 0.9518273 0.5660487 0.9357595 0.6663615 0.9518273 0.6824445 0.9357595 0.6663615 0.6929733 0.5660487 0.6929733 0.6824445 0.6929733 0.5660487 0.6768903 0.6663615 0.6768903 0.1218586 0.01568627 0.1196307 0.02937365 0.02061494 0.01026934 0.004699779 0.0261845 0.02061494 0.3438773 0.1199207 0.3422294 0.004699779 0.3438773 0.1199207 0.3577173 0.02061494 0.3597925 0.6824445 0.3990387 0.6824445 0.4151064 0.5821317 0.3990387 0.5821317 0.4151064 0.5660487 0.4151064 0.6824445 0.6578927 0.5660487 0.6578927 0.5821317 0.6578927 0.6824445 0.6739604 0.5821317 0.6739604 0.2385901 0.02215612 0.2385901 0.03047228 0.1392996 0.00918591 0.1392996 0.02510107 0.1233845 0.02510107 0.2385901 0.3374075 0.1233845 0.3427787 0.1392996 0.3427787 0.2385901 0.3457237 0.1392996 0.3586938 0.7730373 0.2905928 0.7914245 0.2905928 0.7654078 0.3089799 0.7914245 0.3595483 0.7786831 0.3595483 0.8174258 0.3089799 0.8041657 0.3595483 0.8098115 0.2905928 0.6211795 0.2767681 0.6437324 0.2767681 0.6084383 0.3120623 0.6084383 0.241474 0.6084383 0.2895094 0.6084383 0.2640269 0.5731441 0.2767681 0.5956969 0.2767681 0.08314641 0.813199 0.08317693 0.7893339 0.1420462 0.8235447 0.1221637 0.8355535 0.0437171 0.8354925 0.1420462 0.8921645 0.02380407 0.8236362 0.1221637 0.8801556 0.0437171 0.8802167 0.08317693 0.9263905 0.02380407 0.8920729 0.08314641 0.9025101 0.7943847 0.1922026 0.7730678 0.191928 0.7938659 0.02017242 0.6885023 0.298085 0.6675364 0.298085 0.6675364 0.2161593 0.523888 0.3509575 0.5025712 0.3506829 0.5233692 0.1789426 0.7498436 0.1922331 0.7503624 0.02021819 0.7711604 0.1919585 0.5247577 0.1861601 0.5459373 0.1861601 0.5247577 0.2963302 0.8384985 0.3057603 0.8173342 0.3057603 0.8384985 0.1955749 0.6973831 0.009826839 0.7326772 0.06283665 0.6973831 0.06283665 0.7328298 0.3212024 0.7116655 0.3212024 0.7116655 0.1890898 0.775143 0.1932555 0.796109 0.1932555 0.775143 0.2751964 0.7708095 0.2084687 0.7708095 0.2904097 0.7498436 0.2904097 0.5684444 0.2849165 0.5474784 0.2029908 0.5684444 0.2029908 0.6963302 0.03073168 0.6786908 0.04837108 0.6786908 0.01307696 0.5956969 0.2767681 0.6211795 0.2767681 0.6084383 0.3120623 0.2451209 0.3319753 0.2451209 0.01428246 0.4854505 0.3319753 0.4854505 0.01428246 0.5823606 0.3102006 0.5293508 0.3278553 0.5293508 0.3454947 0.5823606 0.3454947 0.7730373 0.2905928 0.7786831 0.3595483 0.7914245 0.2905928 0.7914245 0.3595483 0.5147936 0.006363034 0.5280537 0.05693144 0.5020524 0.006363034 0.5020524 0.07531852 0.7957885 0.01995879 0.8171054 0.01968414 0.8165866 0.1916991 0.7952697 0.1919737 0.689601 0.1899443 0.7107652 0.1899443 0.689601 0.3220416 0.7107652 0.3220416 0.1327382 0.3762264 0.2479591 0.3708553 0.2479591 0.6112001 0.1327382 0.6058289 0.5418479 0.0589456 0.5234607 0.04055846 0.5418479 0.02217138 0.560235 0.04055846 0.2732738 0.4005646 0.5594568 0.4005646 0.2685588 0.5368735 0.5641718 0.5368735 0.2685588 0.7475853 0.5641718 0.7475853 0.5594568 0.8838941 0.2732738 0.8838941 0.1199359 0.3778744 0.1199359 0.6074617 0.0206302 0.6128328 0.004715038 0.3725032 0.004715038 0.6128328 0.6182193 0.005355895 0.7329519 0.09173721 0.668925 0.1213855 0.7329519 0.1510186 0.6182193 0.2373999 0.6824445 0.6578927 0.6824445 0.6739604 0.5660487 0.6578927 0.6824445 0.4151064 0.5660487 0.4151064 0.6824445 0.3990387 0.5823606 0.3807889 0.5293508 0.3631495 0.5293508 0.3454947 0.5823606 0.3454947 0.5293508 0.3278553 0.5823606 0.3102006 0.5660487 0.9518273 0.5660487 0.9357595 0.6824445 0.9357595 0.5660487 0.6929733 0.6824445 0.6929733 0.5660487 0.6768903 0.1218586 0.01568627 0.1196307 0.02937365 0.004699779 0.0261845 0.1199207 0.3422294 0.004699779 0.3438773 0.1199207 0.3577173 0.6167849 0.005355895 0.5660792 0.1213855 0.5020524 0.09173721 0.5020524 0.1510186 0.6167849 0.2373999 0.2385901 0.02215612 0.2385901 0.03047228 0.1392996 0.00918591 0.1233845 0.02510107 0.2385901 0.3374075 0.1233845 0.3427787 0.2385901 0.3457237 0.7914245 0.3595483 0.7914245 0.2905928 0.8174258 0.3089799 0.7730373 0.2905928 0.7786831 0.3595483</float_array>
+          <technique_common>
+            <accessor source="#TailPartBase2Shape2__Sushi00-texcoord-array" count="601" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TailPartBase2Shape2__Sushi00-vertex">
+          <input semantic="POSITION" source="#TailPartBase2Shape2__Sushi00-position" />
+        </vertices>
+        <triangles material="Sushi00" count="238">
+          <input semantic="VERTEX" source="#TailPartBase2Shape2__Sushi00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TailPartBase2Shape2__Sushi00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#TailPartBase2Shape2__Sushi00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 7 7 7 4 4 4 6 6 6 7 7 7 6 6 6 8 8 8 9 9 9 7 7 7 8 8 8 10 10 10 11 11 11 12 12 12 13 13 13 10 10 10 12 12 12 13 13 13 12 12 12 14 14 14 15 15 15 13 13 13 14 14 14 15 15 15 14 14 14 16 16 16 14 14 14 17 17 17 16 16 16 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 22 22 22 23 23 23 24 24 24 23 23 23 25 25 25 24 24 24 26 26 26 27 27 27 28 28 28 27 27 27 29 29 29 28 28 28 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 34 34 34 35 35 35 36 36 36 35 35 35 37 37 37 36 36 36 38 38 38 39 39 39 40 40 40 41 41 41 38 38 38 40 40 40 40 40 40 42 42 42 41 41 41 42 42 42 43 43 43 41 41 41 43 43 43 42 42 42 44 44 44 42 42 42 45 45 45 44 44 44 45 45 45 46 46 46 44 44 44 46 46 46 47 47 47 44 44 44 48 48 48 47 47 47 46 46 46 49 49 49 48 48 48 46 46 46 50 50 50 51 51 51 52 52 52 53 53 53 50 50 50 52 52 52 52 52 52 54 54 54 53 53 53 54 54 54 55 55 55 53 53 53 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 59 59 59 57 57 57 60 60 60 61 61 61 59 59 59 60 60 60 62 62 62 61 61 61 60 60 60 63 63 63 62 62 62 60 60 60 63 63 63 64 64 64 62 62 62 64 64 64 65 65 65 62 62 62 66 66 66 67 67 67 68 68 68 67 67 67 69 69 69 68 68 68 69 69 69 67 67 67 70 70 70 71 71 71 69 69 69 70 70 70 72 72 72 73 73 73 74 74 74 72 72 72 75 75 75 73 73 73 75 75 75 76 76 76 73 73 73 77 77 77 76 76 76 75 75 75 78 78 78 77 77 77 75 75 75 79 79 79 80 80 80 81 81 81 80 80 80 82 82 82 81 81 81 82 82 82 80 80 80 83 83 83 84 84 84 82 82 82 83 83 83 85 85 85 86 86 86 87 87 87 85 85 85 88 88 88 86 86 86 88 88 88 89 89 89 86 86 86 90 90 90 89 89 89 88 88 88 91 91 91 90 90 90 88 88 88 92 92 92 93 93 93 94 94 94 95 95 95 92 92 92 94 94 94 95 95 95 94 94 94 96 96 96 94 94 94 97 97 97 96 96 96 98 98 98 99 99 99 100 100 100 99 99 99 101 101 101 100 100 100 101 101 101 99 99 99 102 102 102 99 99 99 103 103 103 102 102 102 104 104 104 105 105 105 106 106 106 105 105 105 107 107 107 106 106 106 107 107 107 108 108 108 106 106 106 108 108 108 109 109 109 106 106 106 110 110 110 111 111 111 112 112 112 111 111 111 113 113 113 112 112 112 113 113 113 114 114 114 112 112 112 114 114 114 115 115 115 112 112 112 116 116 116 117 117 117 118 118 118 117 117 117 119 119 119 118 118 118 118 118 118 119 119 119 120 120 120 121 121 121 118 118 118 120 120 120 121 121 121 120 120 120 122 122 122 123 123 123 121 121 121 122 122 122 120 120 120 124 124 124 122 122 122 125 125 125 126 126 126 127 127 127 126 126 126 128 128 128 127 127 127 129 129 129 128 128 128 126 126 126 130 130 130 129 129 129 126 126 126 131 131 131 132 132 132 133 133 133 132 132 132 134 134 134 133 133 133 133 133 133 134 134 134 135 135 135 136 136 136 133 133 133 135 135 135 136 136 136 135 135 135 137 137 137 138 138 138 136 136 136 137 137 137 135 135 135 139 139 139 137 137 137 140 140 140 141 141 141 142 142 142 141 141 141 143 143 143 142 142 142 144 144 144 143 143 143 141 141 141 145 145 145 144 144 144 141 141 141 146 146 146 147 147 147 148 148 148 149 149 149 146 146 146 148 148 148 146 146 146 149 149 149 150 150 150 149 149 149 148 148 148 151 151 151 149 149 149 152 152 152 150 150 150 153 153 153 149 149 149 151 151 151 152 152 152 149 149 149 154 154 154 149 149 149 153 153 153 154 154 154 155 155 155 156 156 156 157 157 157 156 156 156 158 158 158 157 157 157 157 157 157 158 158 158 159 159 159 156 156 156 160 160 160 158 158 158 159 159 159 158 158 158 161 161 161 160 160 160 162 162 162 158 158 158 158 158 158 162 162 162 161 161 161 160 160 160 163 163 163 162 162 162 161 161 161 162 162 162 164 164 164 163 163 163 164 164 164 162 162 162 165 165 165 166 166 166 167 167 167 166 166 166 168 168 168 167 167 167 169 169 169 167 167 167 168 168 168 166 166 166 170 170 170 168 168 168 169 169 169 168 168 168 171 171 171 170 170 170 172 172 172 168 168 168 168 168 168 172 172 172 171 171 171 170 170 170 173 173 173 172 172 172 172 172 172 174 174 174 171 171 171 173 173 173 174 174 174 172 172 172 175 175 175 176 176 176 177 177 177 178 178 178 175 175 175 179 179 179 180 180 180 175 175 175 177 177 177 175 175 175 180 180 180 179 179 179 177 177 177 181 181 181 180 180 180 179 179 179 180 180 180 182 182 182 181 181 181 183 183 183 180 180 180 180 180 180 183 183 183 182 182 182 184 184 184 185 185 185 186 186 186 185 185 185 187 187 187 188 188 188 185 185 185 189 189 189 186 186 186 189 189 189 185 185 185 188 188 188 186 186 186 189 189 189 190 190 190 189 189 189 188 188 188 191 191 191 189 189 189 192 192 192 190 190 190 192 192 192 189 189 189 191 191 191 192 192 192 193 193 193 190 190 190 192 192 192 191 191 191 193 193 193 193 193 193 194 194 194 190 190 190 191 191 191 195 195 195 193 193 193 194 194 194 193 193 193 196 196 196 193 193 193 195 195 195 196 196 196 197 197 197 194 194 194 196 196 196 195 195 195 198 198 198 196 196 196 199 199 199 200 200 200 201 201 201 202 202 202 199 199 199 201 201 201 199 199 199 202 202 202 203 203 203 202 202 202 204 204 204 203 203 203 205 205 205 202 202 202 201 201 201 202 202 202 205 205 205 204 204 204 206 206 206 205 205 205 201 201 201 205 205 205 207 207 207 204 204 204 208 208 208 209 209 209 210 210 210 209 209 209 211 211 211 210 210 210 210 210 210 211 211 211 212 212 212 213 213 213 212 212 212 211 211 211 211 211 211 209 209 209 214 214 214 214 214 214 213 213 213 211 211 211 209 209 209 215 215 215 214 214 214 213 213 213 214 214 214 216 216 216 215 215 215 217 217 217 214 214 214 217 217 217 216 216 216 214 214 214 218 218 218 219 219 219 220 220 220 219 219 219 221 221 221 220 220 220 222 222 222 220 220 220 221 221 221 223 223 223 222 222 222 221 221 221 221 221 221 219 219 219 224 224 224 224 224 224 223 223 223 221 221 221 219 219 219 225 225 225 224 224 224 224 224 224 226 226 226 223 223 223 225 225 225 227 227 227 224 224 224 227 227 227 226 226 226 224 224 224 228 228 228 229 229 229 230 230 230 228 228 228 231 231 231 229 229 229 232 232 232 230 230 230 229 229 229 231 231 231 232 232 232 229 229 229 233 233 233 234 234 234 235 235 235 236 236 236 233 233 233 235 235 235 234 234 234 237 237 237 235 235 235 238 238 238 236 236 236 235 235 235 237 237 237 239 239 239 235 235 235 239 239 239 238 238 238 235 235 235 240 240 240 241 241 241 242 242 242 243 243 243 241 241 241 240 240 240 244 244 244 240 240 240 242 242 242 245 245 245 243 243 243 240 240 240 244 244 244 242 242 242 246 246 246 245 245 245 247 247 247 243 243 243 247 247 247 244 244 244 246 246 246 247 247 247 246 246 246 243 243 243 248 248 248 249 249 249 250 250 250 251 251 251 248 248 248 250 250 250 249 249 249 252 252 252 250 250 250 253 253 253 251 251 251 250 250 250 252 252 252 249 249 249 254 254 254 251 251 251 253 253 253 254 254 254 249 249 249 255 255 255 254 254 254 255 255 255 251 251 251 254 254 254 256 256 256 253 253 253 250 250 250 256 256 256 254 254 254 253 253 253 256 256 256 250 250 250 252 252 252 256 256 256 252 252 252 254 254 254 257 257 257 258 258 258 259 259 259 260 260 260 257 257 257 259 259 259 260 260 260 259 259 259 261 261 261 257 257 257 262 262 262 258 258 258 262 262 262 263 263 263 258 258 258 257 257 257 260 260 260 264 264 264 257 257 257 264 264 264 265 265 265 262 262 262 257 257 257 265 265 265 260 260 260 266 266 266 264 264 264 262 262 262 265 265 265 267 267 267 260 260 260 268 268 268 266 266 266 268 268 268 260 260 260 261 261 261 268 268 268 269 269 269 266 266 266 268 268 268 261 261 261 270 270 270 268 268 268 271 271 271 269 269 269 271 271 271 268 268 268 270 270 270 271 271 271 272 272 272 269 269 269 271 271 271 270 270 270 273 273 273 271 271 271 274 274 274 272 272 272 274 274 274 271 271 271 273 273 273 274 274 274 267 267 267 272 272 272 274 274 274 273 273 273 263 263 263 274 274 274 262 262 262 267 267 267 262 262 262 274 274 274 263 263 263 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCylinder428__SushiRedEye00-mesh" name="pCylinder428__SushiRedEye00">
+      <mesh>
+        <source id="pCylinder428__SushiRedEye00-position">
+          <float_array id="pCylinder428__SushiRedEye00-position-array" count="87">-2.143742 6.890359 3.6121 -2.493681 8.026364 2.804862 -3.499705 7.068087 3.171216 -2.493681 8.026364 2.804862 -3.84964 8.204089 2.363972 -3.499705 7.068087 3.171216 -4.855662 7.245818 2.73033 -4.505729 6.109816 3.537578 -3.499705 7.068087 3.171216 -4.505729 6.109816 3.537578 -3.149763 5.932088 3.978458 -3.499705 7.068087 3.171216 -3.149763 5.932088 3.978458 -2.143742 6.890359 3.6121 -3.499705 7.068087 3.171216 -3.84964 8.204089 2.363972 -4.855662 7.245818 2.73033 -3.149768 5.932091 3.978458 -2.143746 6.890365 3.612102 -2.493681 8.026362 2.804861 -4.505725 6.109818 3.537574 -4.855664 7.245819 2.730333 -3.849642 8.204092 2.363976 -2.941344 5.347806 4.090545 -1.548806 6.641629 3.498148 -2.070692 8.350262 2.590444 -4.874122 5.63441 3.545495 -5.344331 7.184505 2.33885 -3.916966 8.463256 1.776141</float_array>
+          <technique_common>
+            <accessor source="#pCylinder428__SushiRedEye00-position-array" count="29" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder428__SushiRedEye00-normal">
+          <float_array id="pCylinder428__SushiRedEye00-normal-array" count="87">-0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 0.01956947 -0.04109589 0.9980431 -0.03913894 0.3913894 0.9197652 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.1996086 0.5264188 0.8258317 -0.3150685 0.9354208 0.1663405</float_array>
+          <technique_common>
+            <accessor source="#pCylinder428__SushiRedEye00-normal-array" count="29" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder428__SushiRedEye00-texcoord">
+          <float_array id="pCylinder428__SushiRedEye00-texcoord-array" count="58">0.0409247 0.7728847 0.001861601 0.7052262 0.07998779 0.7020981 0.001861601 0.7052262 0.0409247 0.6375677 0.07998779 0.7020981 0.1190509 0.6375677 0.158114 0.7052262 0.07998779 0.7020981 0.158114 0.7052262 0.1190509 0.7728847 0.07998779 0.7020981 0.1190509 0.7728847 0.0409247 0.7728847 0.07998779 0.7020981 0.0409247 0.6375677 0.1190509 0.6375677 0.1190509 0.7728847 0.0409247 0.7728847 0.001861601 0.7052262 0.158114 0.7052262 0.1190509 0.6375677 0.0409247 0.6375677 0.1190509 0.7728847 0.0409247 0.7728847 0.001861601 0.7052262 0.158114 0.7052262 0.1190509 0.6375677 0.0409247 0.6375677</float_array>
+          <technique_common>
+            <accessor source="#pCylinder428__SushiRedEye00-texcoord-array" count="29" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder428__SushiRedEye00-vertex">
+          <input semantic="POSITION" source="#pCylinder428__SushiRedEye00-position" />
+        </vertices>
+        <triangles material="SushiRedEye00" count="6">
+          <input semantic="VERTEX" source="#pCylinder428__SushiRedEye00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder428__SushiRedEye00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCylinder428__SushiRedEye00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15 16 16 16 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_TailPartBase2Shape2__Sushi00-mesh">
+      <skin source="#TailPartBase2Shape2__Sushi00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TailPartBase2Shape2__Sushi00-mesh-joint">
+          <Name_array id="TailPartBase2Shape2__Sushi00-mesh-joint-array" count="1">Obj_SdodrTowerKingSushi</Name_array>
+          <technique_common>
+            <accessor source="#TailPartBase2Shape2__Sushi00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TailPartBase2Shape2__Sushi00-mesh-inv_bind_matrix">
+          <float_array id="TailPartBase2Shape2__Sushi00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TailPartBase2Shape2__Sushi00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TailPartBase2Shape2__Sushi00-mesh-weight">
+          <float_array id="TailPartBase2Shape2__Sushi00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TailPartBase2Shape2__Sushi00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TailPartBase2Shape2__Sushi00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TailPartBase2Shape2__Sushi00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="601">
+          <input semantic="JOINT" source="#TailPartBase2Shape2__Sushi00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TailPartBase2Shape2__Sushi00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCylinder428__SushiRedEye00-mesh">
+      <skin source="#pCylinder428__SushiRedEye00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder428__SushiRedEye00-mesh-joint">
+          <Name_array id="pCylinder428__SushiRedEye00-mesh-joint-array" count="1">Obj_SdodrTowerKingSushi</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder428__SushiRedEye00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder428__SushiRedEye00-mesh-inv_bind_matrix">
+          <float_array id="pCylinder428__SushiRedEye00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder428__SushiRedEye00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder428__SushiRedEye00-mesh-weight">
+          <float_array id="pCylinder428__SushiRedEye00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder428__SushiRedEye00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder428__SushiRedEye00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder428__SushiRedEye00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="29">
+          <input semantic="JOINT" source="#pCylinder428__SushiRedEye00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder428__SushiRedEye00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_SdodrTowerKingSushi" name="Obj_SdodrTowerKingSushi" sid="Obj_SdodrTowerKingSushi" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="TailPartBase2Shape2__Sushi00" name="TailPartBase2Shape2__Sushi00" type="NODE">
+        <instance_controller url="#Armature_TailPartBase2Shape2__Sushi00-mesh">
+          <skeleton>#Armature_Obj_SdodrTowerKingSushi</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Sushi00" target="#Sushi00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCylinder428__SushiRedEye00" name="pCylinder428__SushiRedEye00" type="NODE">
+        <instance_controller url="#Armature_pCylinder428__SushiRedEye00-mesh">
+          <skeleton>#Armature_Obj_SdodrTowerKingSushi</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SushiRedEye00" target="#SushiRedEye00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
