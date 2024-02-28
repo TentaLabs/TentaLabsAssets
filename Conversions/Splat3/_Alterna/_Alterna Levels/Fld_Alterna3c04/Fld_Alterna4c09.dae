@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BigLantern00_Alb">
+      <init_from>BigLantern00_Alb.png</init_from>
+    </image>
+    <image id="BigLantern00_Emi">
+      <init_from>BigLantern00_Emi.png</init_from>
+    </image>
+    <image id="BigLantern00_Nrm">
+      <init_from>BigLantern00_Nrm.png</init_from>
+    </image>
+    <image id="BigLantern00_Rgh">
+      <init_from>BigLantern00_Rgh.png</init_from>
+    </image>
+    <image id="BigLantern01_Alb">
+      <init_from>BigLantern01_Alb.png</init_from>
+    </image>
+    <image id="BigLantern01_Mtl">
+      <init_from>BigLantern01_Mtl.png</init_from>
+    </image>
+    <image id="BigLantern01_Nrm">
+      <init_from>BigLantern01_Nrm.png</init_from>
+    </image>
+    <image id="BigLantern01_Rgh">
+      <init_from>BigLantern01_Rgh.png</init_from>
+    </image>
+    <image id="BigLanternFish_Alb">
+      <init_from>BigLanternFish_Alb.png</init_from>
+    </image>
+    <image id="BigLanternFish_Emi">
+      <init_from>BigLanternFish_Emi.png</init_from>
+    </image>
+    <image id="BigLanternFish_Mtl">
+      <init_from>BigLanternFish_Mtl.png</init_from>
+    </image>
+    <image id="BigLanternFish_Nrm">
+      <init_from>BigLanternFish_Nrm.png</init_from>
+    </image>
+    <image id="BigLanternFish_Rgh">
+      <init_from>BigLanternFish_Rgh.png</init_from>
+    </image>
+    <image id="CurveMirrorResin00_Alb">
+      <init_from>CurveMirrorResin00_Alb.png</init_from>
+    </image>
+    <image id="CurveMirrorResin00_Nrm">
+      <init_from>CurveMirrorResin00_Nrm.png</init_from>
+    </image>
+    <image id="CurveMirrorResin00_Rgh">
+      <init_from>CurveMirrorResin00_Rgh.png</init_from>
+    </image>
+    <image id="JunctionFrame_Alb">
+      <init_from>JunctionFrame_Alb.png</init_from>
+    </image>
+    <image id="JunctionFrame_Mtl">
+      <init_from>JunctionFrame_Mtl.png</init_from>
+    </image>
+    <image id="JunctionFrame_Nrm">
+      <init_from>JunctionFrame_Nrm.png</init_from>
+    </image>
+    <image id="JunctionFrame_Rgh">
+      <init_from>JunctionFrame_Rgh.png</init_from>
+    </image>
+    <image id="JunctionObj_Alb">
+      <init_from>JunctionObj_Alb.png</init_from>
+    </image>
+    <image id="JunctionObj_Mtl">
+      <init_from>JunctionObj_Mtl.png</init_from>
+    </image>
+    <image id="JunctionObj_Nrm">
+      <init_from>JunctionObj_Nrm.png</init_from>
+    </image>
+    <image id="JunctionObj_Rgh">
+      <init_from>JunctionObj_Rgh.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="PillerConcreteLarge00_Alb">
+      <init_from>PillerConcreteLarge00_Alb.png</init_from>
+    </image>
+    <image id="PillerConcreteLarge00_Mtl">
+      <init_from>PillerConcreteLarge00_Mtl.png</init_from>
+    </image>
+    <image id="PillerConcreteLarge00_Nrm">
+      <init_from>PillerConcreteLarge00_Nrm.png</init_from>
+    </image>
+    <image id="PillerConcreteLarge00_Rgh">
+      <init_from>PillerConcreteLarge00_Rgh.png</init_from>
+    </image>
+    <image id="Torii_Alb">
+      <init_from>Torii_Alb.png</init_from>
+    </image>
+    <image id="Torii_Mtl">
+      <init_from>Torii_Mtl.png</init_from>
+    </image>
+    <image id="Torii_Nrm">
+      <init_from>Torii_Nrm.png</init_from>
+    </image>
+    <image id="Torii_Rgh">
+      <init_from>Torii_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="PillerConcreteLarge00">
+      <instance_effect url="#Effect_PillerConcreteLarge00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_PillerConcreteLarge00">
+      <profile_COMMON>
+        <newparam sid="surface_PillerConcreteLarge00-diffuse">
+          <surface type="2D">
+            <init_from>PillerConcreteLarge00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PillerConcreteLarge00-diffuse">
+          <sampler2D>
+            <source>surface_PillerConcreteLarge00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_PillerConcreteLarge00-bump">
+          <surface type="2D">
+            <init_from>PillerConcreteLarge00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PillerConcreteLarge00-bump">
+          <sampler2D>
+            <source>surface_PillerConcreteLarge00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_PillerConcreteLarge00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_PillerConcreteLarge00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh" name="Prop_PillerConcreteLarge_57__PillerConcreteLarge00">
+      <mesh>
+        <source id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-position">
+          <float_array id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-position-array" count="438">-75.83408 23.8797 -100.8688 -75.90591 23.46886 -100.3883 -75.20228 23.85015 -100.7996 -75.27411 23.4393 -100.3191 -76.10529 21.55445 -105.0441 -75.93944 21.11551 -105.4738 -76.4119 21.10962 -104.708 -76.24609 20.67069 -105.1377 -73.63287 23.49402 -106.0842 -73.19801 23.27897 -106.4959 -74.07105 23.1171 -106.3502 -73.63618 22.90205 -106.7619 -74.25251 23.83802 -103.6228 -74.2326 23.39119 -104.0753 -74.7317 23.52985 -103.3396 -74.7118 23.08303 -103.7921 -71.78873 20.33233 -104.9404 -60.47364 -22.78479 -93.58775 -74.03106 19.51215 -105.8205 -62.71596 -23.60497 -94.46786 -75.89945 19.236 -105.0071 -64.58436 -23.88113 -93.65448 -65.61173 -23.54422 -91.35094 -76.92683 19.57291 -102.7036 -64.91747 -22.88303 -89.53171 -76.23257 20.2341 -100.8843 -62.67515 -22.06285 -88.6516 -73.99025 21.05428 -100.0042 -60.80675 -21.7867 -89.46498 -72.12185 21.33043 -100.8176 -59.77938 -22.1236 -91.76852 -71.09447 20.99352 -103.1211 -60.47364 -22.78479 -93.58775 -71.78873 20.33233 -104.9404 -74.92248 19.55666 -102.2171 -74.81655 19.79853 -102.796 -75.0807 21.82264 -101.487 -75.00438 22.18661 -102.0032 -75.27411 23.4393 -100.3191 -75.20228 23.85015 -100.7996 -75.90591 23.46886 -100.3883 -75.83408 23.8797 -100.8688 -75.63168 22.16929 -102.1082 -75.70798 21.80531 -101.5919 -75.41509 19.66154 -102.9627 -75.521 19.41967 -102.3839 -74.39645 19.20212 -103.9636 -73.88879 19.48777 -104.2196 -75.26133 20.4007 -104.106 -74.84534 20.79346 -104.3844 -76.4119 21.10962 -104.708 -76.10529 21.55445 -105.0441 -74.55759 18.97569 -104.5359 -74.39645 19.20212 -103.9636 -75.27402 20.04187 -104.6313 -75.26133 20.4007 -104.106 -76.24609 20.67069 -105.1377 -76.4119 21.10962 -104.708 -75.93944 21.11551 -105.4738 -76.10529 21.55445 -105.0441 -74.84534 20.79346 -104.3844 -74.85801 20.43465 -104.9096 -73.88879 19.48777 -104.2196 -74.04993 19.26134 -104.7919 -76.24609 20.67069 -105.1377 -75.93944 21.11551 -105.4738 -74.85801 20.43465 -104.9096 -75.27402 20.04187 -104.6313 -74.04993 19.26134 -104.7919 -74.55759 18.97569 -104.5359 -72.09094 19.2 -104.7619 -72.47488 19.22593 -104.2552 -73.1544 21.31348 -105.6397 -73.575 21.48281 -105.1934 -73.63618 22.90205 -106.7619 -74.07105 23.1171 -106.3502 -73.19801 23.27897 -106.4959 -73.63287 23.49402 -106.0842 -73.12255 21.81404 -104.8927 -72.70195 21.64469 -105.339 -71.9858 19.41374 -103.8942 -71.60184 19.3878 -104.4009 -72.37273 20.33551 -102.1177 -72.28071 20.62794 -101.5602 -73.50287 21.87639 -102.7446 -73.48598 22.28917 -102.2607 -74.7118 23.08303 -103.7921 -74.7317 23.52985 -103.3396 -74.2326 23.39119 -104.0753 -74.25251 23.83802 -103.6228 -72.97 22.56328 -102.5125 -72.98688 22.15051 -102.9964 -71.68961 20.7817 -101.7384 -71.7816 20.48927 -102.2959 -60.80675 -21.7867 -89.46498 -62.67515 -22.06285 -88.6516 -64.91747 -22.88303 -89.53171 -65.61173 -23.54422 -91.35094 -59.77938 -22.1236 -91.76852 -64.58436 -23.88113 -93.65448 -62.71596 -23.60497 -94.46786 -60.47364 -22.78479 -93.58775 -71.09447 20.99352 -103.1211 -71.78873 20.33233 -104.9404 -74.03106 19.51215 -105.8205 -75.89945 19.236 -105.0071 -72.12185 21.33043 -100.8176 -76.92683 19.57291 -102.7036 -76.23257 20.2341 -100.8843 -73.99025 21.05428 -100.0042 -75.41509 19.66154 -102.9627 -75.63168 22.16929 -102.1082 -74.81655 19.79853 -102.796 -75.00438 22.18661 -102.0032 -75.20228 23.85015 -100.7996 -75.83408 23.8797 -100.8688 -75.521 19.41967 -102.3839 -74.92248 19.55666 -102.2171 -75.70798 21.80531 -101.5919 -75.0807 21.82264 -101.487 -75.27411 23.4393 -100.3191 -75.90591 23.46886 -100.3883 -71.9858 19.41374 -103.8942 -73.12255 21.81404 -104.8927 -72.47488 19.22593 -104.2552 -73.575 21.48281 -105.1934 -74.07105 23.1171 -106.3502 -73.63287 23.49402 -106.0842 -71.60184 19.3878 -104.4009 -72.09094 19.2 -104.7619 -72.70195 21.64469 -105.339 -73.1544 21.31348 -105.6397 -73.63618 22.90205 -106.7619 -73.19801 23.27897 -106.4959 -71.68961 20.7817 -101.7384 -72.97 22.56328 -102.5125 -72.28071 20.62794 -101.5602 -73.48598 22.28917 -102.2607 -74.7317 23.52985 -103.3396 -74.25251 23.83802 -103.6228 -71.7816 20.48927 -102.2959 -72.37273 20.33551 -102.1177 -72.98688 22.15051 -102.9964 -73.50287 21.87639 -102.7446 -74.7118 23.08303 -103.7921 -74.2326 23.39119 -104.0753</float_array>
+          <technique_common>
+            <accessor source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-position-array" count="146" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-normal">
+          <float_array id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-normal-array" count="438">-0.2949761 0.3695108 -0.1620477 -0.3743955 -0.007734008 0.3318903 0.3259145 0.3709989 -0.07744656 0.2581598 -0.01358275 0.4285415 0.1708394 0.4546125 0.1211154 0.02444617 0.2276219 -0.4444246 -0.2915057 0.1253208 0.3858977 -0.4509217 -0.11174 -0.1850854 -0.04331784 0.4426091 0.2295054 0.3810112 0.2598085 -0.1938728 -0.4878325 0.09907949 -0.04935922 -0.06395618 -0.09392495 -0.4872517 0.1138889 0.486366 -0.01473477 0.1156141 0.06851056 -0.4814531 -0.3806622 0.2061014 0.2502925 -0.3881517 -0.2247946 -0.2210869 0.3404791 -0.007128134 -0.3664264 0.3404791 -0.007128134 -0.3664264 0.03888475 -0.1172685 -0.4841409 0.03888475 -0.1172685 -0.4841409 -0.3452212 -0.1741626 -0.3173875 -0.3452212 -0.1741626 -0.3173875 -0.4827406 -0.1286858 -0.007602047 -0.4827406 -0.1286858 -0.007602047 -0.3404791 0.007128134 0.3664264 -0.3404791 0.007128134 0.3664264 -0.03888475 0.1172685 0.4841409 -0.03888475 0.1172685 0.4841409 0.3452212 0.1741626 0.3173875 0.3452212 0.1741626 0.3173875 0.4827406 0.1286858 0.007602047 0.4827406 0.1286858 0.007602047 0.3404791 -0.007128134 -0.3664264 0.3404791 -0.007128134 -0.3664264 0.2585008 -0.04454994 0.425565 0.3808451 0.1446705 -0.2900351 0.3176604 -0.1520688 0.3547159 0.375762 0.1767162 -0.2782362 0.2581598 -0.01358275 0.4285415 0.3259145 0.3709989 -0.07744656 -0.3743955 -0.007734008 0.3318903 -0.2949761 0.3695108 -0.1620477 -0.2809418 0.1646341 -0.3792726 -0.4183575 -0.1576492 0.2226248 -0.2786437 0.03941846 -0.4130839 -0.4326696 -0.1402237 0.2079185 -0.1294562 -0.1184102 0.4682842 0.4223661 0.2009608 0.1757593 -0.1257772 -0.08178382 0.4768533 0.3766132 0.2619269 0.1991682 -0.2915057 0.1253208 0.3858977 0.1708394 0.4546125 0.1211154 -0.4186012 -0.1954659 -0.1903598 -0.1294562 -0.1184102 0.4682842 -0.3872147 -0.2738587 -0.1585891 -0.1257772 -0.08178382 0.4768533 -0.4509217 -0.11174 -0.1850854 -0.2915057 0.1253208 0.3858977 0.02444617 0.2276219 -0.4444246 0.1708394 0.4546125 0.1211154 0.3766132 0.2619269 0.1991682 0.1788452 0.1147436 -0.4521414 0.4223661 0.2009608 0.1757593 0.1619142 0.1384412 -0.45231 -0.4509217 -0.11174 -0.1850854 0.02444617 0.2276219 -0.4444246 0.1788452 0.1147436 -0.4521414 -0.3872147 -0.2738587 -0.1585891 0.1619142 0.1384412 -0.45231 -0.4186012 -0.1954659 -0.1903598 -0.04301656 -0.1739663 -0.4671889 -0.457357 -0.1601476 0.1251359 -0.04506512 -0.2575951 -0.425945 -0.4688955 -0.1160395 0.1297115 -0.06395618 -0.09392495 -0.4872517 -0.4878325 0.09907949 -0.04935922 0.3810112 0.2598085 -0.1938728 -0.04331784 0.4426091 0.2295054 0.005019883 0.2426779 0.4369555 0.4733539 0.1465167 -0.06994397 0.04917406 0.1771807 0.4653307 0.4592251 0.1801253 -0.08284032 -0.3568083 -0.2917324 -0.1933441 -0.2301655 0.03828333 0.4422045 -0.3244877 -0.3575203 -0.1304903 -0.23171 0.07209231 0.43735 -0.3881517 -0.2247946 -0.2210869 -0.3806622 0.2061014 0.2502925 0.1156141 0.06851056 -0.4814531 0.1138889 0.486366 -0.01473477 0.3069493 0.3594853 0.1633631 0.2797378 -0.02302629 -0.4138434 0.3620174 0.2924719 0.1830312 0.2642366 -0.003670722 -0.4239988 0.1229902 -0.4686645 0.1233981 0.1229902 -0.4686645 0.1233981 0.1229902 -0.4686645 0.1233981 0.1229902 -0.4686645 0.1233981 0.1229902 -0.4686645 0.1233981 0.1229902 -0.4686645 0.1233981 0.1229902 -0.4686645 0.1233981 0.1229902 -0.4686645 0.1233981 -0.1229902 0.4686645 -0.1233981 -0.1229902 0.4686645 -0.1233981 -0.1229902 0.4686645 -0.1233981 -0.1229902 0.4686645 -0.1233981 -0.1229902 0.4686645 -0.1233981 -0.1229902 0.4686645 -0.1233981 -0.1229902 0.4686645 -0.1233981 -0.1229902 0.4686645 -0.1233981 -0.2786437 0.03941846 -0.4130839 -0.2809418 0.1646341 -0.3792726 0.3808451 0.1446705 -0.2900351 0.375762 0.1767162 -0.2782362 0.3259145 0.3709989 -0.07744656 -0.2949761 0.3695108 -0.1620477 -0.4326696 -0.1402237 0.2079185 0.2585008 -0.04454994 0.425565 -0.4183575 -0.1576492 0.2226248 0.3176604 -0.1520688 0.3547159 0.2581598 -0.01358275 0.4285415 -0.3743955 -0.007734008 0.3318903 0.04917406 0.1771807 0.4653307 0.005019883 0.2426779 0.4369555 -0.457357 -0.1601476 0.1251359 -0.4688955 -0.1160395 0.1297115 -0.4878325 0.09907949 -0.04935922 -0.04331784 0.4426091 0.2295054 0.4592251 0.1801253 -0.08284032 -0.04301656 -0.1739663 -0.4671889 0.4733539 0.1465167 -0.06994397 -0.04506512 -0.2575951 -0.425945 -0.06395618 -0.09392495 -0.4872517 0.3810112 0.2598085 -0.1938728 0.3620174 0.2924719 0.1830312 0.3069493 0.3594853 0.1633631 -0.2301655 0.03828333 0.4422045 -0.23171 0.07209231 0.43735 -0.3806622 0.2061014 0.2502925 0.1138889 0.486366 -0.01473477 0.2642366 -0.003670722 -0.4239988 -0.3568083 -0.2917324 -0.1933441 0.2797378 -0.02302629 -0.4138434 -0.3244877 -0.3575203 -0.1304903 -0.3881517 -0.2247946 -0.2210869 0.1156141 0.06851056 -0.4814531</float_array>
+          <technique_common>
+            <accessor source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-normal-array" count="146" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-texcoord">
+          <float_array id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-texcoord-array" count="292">0.9544823 0.9679408 0.9427176 0.9679408 0.9544823 0.9566186 0.9427176 0.9566186 0.983856 0.9679408 0.9721065 0.9679408 0.983856 0.9566186 0.9721065 0.9566186 0.9285115 0.9679408 0.9167621 0.9679408 0.9285115 0.9566186 0.9167621 0.9566186 0.9039597 0.9679408 0.8922102 0.9679408 0.9039597 0.9566186 0.8922102 0.9566186 0.2385748 0.7637904 0.2385748 0.009262204 0.2786603 0.7637904 0.2786603 0.009262204 0.318761 0.7637904 0.318761 0.009262204 0.3588464 0.009262204 0.3588464 0.7637904 0.3989471 0.009262204 0.3989471 0.7637904 0.4390478 0.009262204 0.4390478 0.7637904 0.4791333 0.009262204 0.4791333 0.7637904 0.519234 0.009262204 0.519234 0.7637904 0.5593194 0.009262204 0.5593194 0.7637904 0.9544823 0.9055009 0.9427176 0.9055009 0.9544823 0.8644541 0.9427176 0.8644541 0.9544823 0.8233921 0.9427176 0.8233921 0.9427176 0.8233921 0.9544823 0.8233921 0.9544823 0.8644541 0.9427176 0.8644541 0.9544823 0.9055009 0.9427176 0.9055009 0.983856 0.9055009 0.9721065 0.9055009 0.983856 0.8644541 0.9721065 0.8644541 0.983856 0.8233921 0.9721065 0.8233921 0.983856 0.9055009 0.9721065 0.9055009 0.983856 0.8644541 0.9721065 0.8644541 0.983856 0.8233921 0.9721065 0.8233921 0.9721065 0.8233921 0.983856 0.8233921 0.983856 0.8644541 0.9721065 0.8644541 0.983856 0.9055009 0.9721065 0.9055009 0.9721065 0.8233921 0.983856 0.8233921 0.983856 0.8644541 0.9721065 0.8644541 0.983856 0.9055009 0.9721065 0.9055009 0.9285115 0.9055009 0.9167621 0.9055009 0.9285115 0.8644541 0.9167621 0.8644541 0.9285115 0.8233921 0.9167621 0.8233921 0.9167621 0.8233921 0.9285115 0.8233921 0.9285115 0.8644541 0.9167621 0.8644541 0.9285115 0.9055009 0.9167621 0.9055009 0.9039597 0.9055009 0.8922102 0.9055009 0.9039597 0.8644541 0.8922102 0.8644541 0.9039597 0.8233921 0.8922102 0.8233921 0.8922102 0.8233921 0.9039597 0.8233921 0.9039597 0.8644541 0.8922102 0.8644541 0.9039597 0.9055009 0.8922102 0.9055009 0.9699244 0.1523003 0.9320058 0.1902037 0.8656596 0.1902037 0.8277409 0.1523003 0.9699244 0.08593881 0.8277409 0.08593881 0.8656596 0.04802012 0.9320058 0.04802012 0.9699244 0.319173 0.9320058 0.3570916 0.8656596 0.3570916 0.8277409 0.319173 0.9699244 0.2528268 0.8277409 0.2528268 0.8656596 0.2149081 0.9320058 0.2149081 0.9427176 0.9055009 0.9427176 0.8644541 0.9544823 0.9055009 0.9544823 0.8644541 0.9544823 0.8233921 0.9427176 0.8233921 0.9544823 0.9055009 0.9427176 0.9055009 0.9544823 0.8644541 0.9427176 0.8644541 0.9427176 0.8233921 0.9544823 0.8233921 0.9167621 0.9055009 0.9167621 0.8644541 0.9285115 0.9055009 0.9285115 0.8644541 0.9285115 0.8233921 0.9167621 0.8233921 0.9285115 0.9055009 0.9167621 0.9055009 0.9285115 0.8644541 0.9167621 0.8644541 0.9167621 0.8233921 0.9285115 0.8233921 0.8922102 0.9055009 0.8922102 0.8644541 0.9039597 0.9055009 0.9039597 0.8644541 0.9039597 0.8233921 0.8922102 0.8233921 0.9039597 0.9055009 0.8922102 0.9055009 0.9039597 0.8644541 0.8922102 0.8644541 0.8922102 0.8233921 0.9039597 0.8233921</float_array>
+          <technique_common>
+            <accessor source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-texcoord-array" count="146" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-vertex">
+          <input semantic="POSITION" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-position" />
+        </vertices>
+        <triangles material="PillerConcreteLarge00" count="100">
+          <input semantic="VERTEX" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-texcoord" offset="2" set="0" />
+          <p>16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 18 18 18 19 19 19 20 20 20 19 19 19 21 21 21 20 20 20 21 21 21 22 22 22 20 20 20 22 22 22 23 23 23 20 20 20 22 22 22 24 24 24 23 23 23 24 24 24 25 25 25 23 23 23 24 24 24 26 26 26 25 25 25 26 26 26 27 27 27 25 25 25 26 26 26 28 28 28 27 27 27 28 28 28 29 29 29 27 27 27 28 28 28 30 30 30 29 29 29 30 30 30 31 31 31 29 29 29 30 30 30 32 32 32 31 31 31 32 32 32 33 33 33 31 31 31 94 94 94 95 95 95 96 96 96 94 94 94 96 96 96 97 97 97 94 94 94 97 97 97 98 98 98 97 97 97 99 99 99 98 98 98 98 98 98 99 99 99 100 100 100 102 102 102 104 104 104 105 105 105 102 102 102 105 105 105 106 106 106 105 105 105 107 107 107 106 106 106 106 106 106 107 107 107 108 108 108 106 106 106 108 108 108 109 109 109 98 98 98 100 100 100 101 101 101 131 131 131 132 132 132 130 130 130 132 132 132 133 133 133 130 130 130 79 79 79 76 76 76 78 78 78 125 125 125 123 123 123 126 126 126 72 72 72 73 73 73 74 74 74 47 47 47 49 49 49 48 48 48 46 46 46 47 47 47 48 48 48 53 53 53 55 55 55 54 54 54 69 69 69 67 67 67 68 68 68 67 67 67 66 66 66 68 68 68 63 63 63 61 61 61 62 62 62 61 61 61 60 60 60 62 62 62 52 52 52 53 53 53 54 54 54 129 129 129 131 131 131 130 130 130 128 128 128 129 129 129 130 130 130 70 70 70 71 71 71 72 72 72 122 122 122 123 123 123 124 124 124 71 71 71 73 73 73 72 72 72 102 102 102 103 103 103 104 104 104 79 79 79 78 78 78 80 80 80 123 123 123 125 125 125 124 124 124 81 81 81 79 79 79 80 80 80 82 82 82 83 83 83 84 84 84 83 83 83 85 85 85 84 84 84 91 91 91 90 90 90 92 92 92 93 93 93 91 91 91 92 92 92 140 140 140 141 141 141 142 142 142 141 141 141 143 143 143 142 142 142 9 9 9 11 11 11 10 10 10 73 73 73 75 75 75 74 74 74 123 123 123 127 127 127 126 126 126 8 8 8 9 9 9 10 10 10 76 76 76 77 77 77 78 78 78 48 48 48 49 49 49 50 50 50 58 58 58 59 59 59 60 60 60 5 5 5 7 7 7 6 6 6 54 54 54 55 55 55 56 56 56 4 4 4 5 5 5 6 6 6 49 49 49 51 51 51 50 50 50 55 55 55 57 57 57 56 56 56 61 61 61 58 58 58 60 60 60 67 67 67 64 64 64 66 66 66 64 64 64 65 65 65 66 66 66 110 110 110 111 111 111 112 112 112 13 13 13 15 15 15 14 14 14 116 116 116 117 117 117 118 118 118 91 91 91 88 88 88 90 90 90 85 85 85 87 87 87 86 86 86 84 84 84 85 85 85 86 86 86 88 88 88 89 89 89 90 90 90 143 143 143 144 144 144 142 142 142 135 135 135 137 137 137 136 136 136 12 12 12 13 13 13 14 14 14 45 45 45 43 43 43 44 44 44 111 111 111 113 113 113 112 112 112 134 134 134 135 135 135 136 136 136 117 117 117 119 119 119 118 118 118 43 43 43 42 42 42 44 44 44 135 135 135 139 139 139 138 138 138 144 144 144 145 145 145 142 142 142 35 35 35 37 37 37 36 36 36 34 34 34 35 35 35 36 36 36 37 37 37 39 39 39 38 38 38 113 113 113 111 111 111 114 114 114 111 111 111 115 115 115 114 114 114 1 1 1 3 3 3 2 2 2 36 36 36 37 37 37 38 38 38 40 40 40 41 41 41 42 42 42 137 137 137 135 135 135 138 138 138 119 119 119 120 120 120 118 118 118 43 43 43 40 40 40 42 42 42 0 0 0 1 1 1 2 2 2 120 120 120 121 121 121 118 118 118 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh">
+      <skin source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-joint">
+          <Name_array id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-joint-array" count="1">Prop_PillerConcreteLarge_57</Name_array>
+          <technique_common>
+            <accessor source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-inv_bind_matrix">
+          <float_array id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-inv_bind_matrix-array" count="16">0.4846374 0.1189366 -0.03131573 30.23314 -0.1229902 0.4686645 -0.1233981 -8.307788 5.587936E-08 0.1273097 0.4835207 47.17801 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-weight">
+          <float_array id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="146">
+          <input semantic="JOINT" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Prop_PillerConcreteLarge_57" name="Prop_PillerConcreteLarge_57" sid="Prop_PillerConcreteLarge_57" type="JOINT">
+          <matrix sid="transform">1.93855 -0.4919608 1.713634E-07 -62.69555 0.4757464 1.874658 0.5092387 -22.83391 -0.1252629 -0.4935922 1.934083 -91.55973 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Prop_PillerConcreteLarge_57__PillerConcreteLarge00" name="Prop_PillerConcreteLarge_57__PillerConcreteLarge00" type="NODE">
+        <instance_controller url="#Armature_Prop_PillerConcreteLarge_57__PillerConcreteLarge00-mesh">
+          <skeleton>#Armature_Prop_PillerConcreteLarge_57</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PillerConcreteLarge00" target="#PillerConcreteLarge00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
