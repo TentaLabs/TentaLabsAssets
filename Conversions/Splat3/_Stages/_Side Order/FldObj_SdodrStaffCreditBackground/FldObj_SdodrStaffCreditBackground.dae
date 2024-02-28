@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="SdodrStaffCreditBackground_01_Alb">
+      <init_from>SdodrStaffCreditBackground_01_Alb.png</init_from>
+    </image>
+    <image id="SdodrStaffCreditBackground_02_Alb">
+      <init_from>SdodrStaffCreditBackground_02_Alb.png</init_from>
+    </image>
+    <image id="SdodrStaffCreditBackground_03_Alb">
+      <init_from>SdodrStaffCreditBackground_03_Alb.png</init_from>
+    </image>
+    <image id="StaffCreditBackground00_Alb">
+      <init_from>StaffCreditBackground00_Alb.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="StaffCreditBackground00">
+      <instance_effect url="#Effect_StaffCreditBackground00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_StaffCreditBackground00">
+      <profile_COMMON>
+        <newparam sid="surface_StaffCreditBackground00-diffuse">
+          <surface type="2D">
+            <init_from>StaffCreditBackground00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_StaffCreditBackground00-diffuse">
+          <sampler2D>
+            <source>surface_StaffCreditBackground00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_StaffCreditBackground00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="floor1__StaffCreditBackground00-mesh" name="floor1__StaffCreditBackground00">
+      <mesh>
+        <source id="floor1__StaffCreditBackground00-position">
+          <float_array id="floor1__StaffCreditBackground00-position-array" count="108">2943.512 6264.957 -1231.062 2286.833 6264.957 -1946.999 2286.833 -1414.242 -1946.999 2943.512 -1414.242 -1231.062 3194.148 -1414.242 -851.9896 3194.148 6264.957 -851.9896 3382.802 -1414.242 -438.5604 3382.802 6264.957 -438.5604 3504.03 6264.957 -0.5904627 3504.03 -1414.242 -0.5904627 3555.694 6264.957 450.9015 3555.694 -1414.242 450.9015 3535.65 -1414.242 904.8975 3535.65 6264.957 904.8975 3445.267 6264.957 1350.257 3445.267 -1414.242 1350.257 3285.911 -1414.242 1775.839 3285.911 6264.957 1775.839 3062.329 6264.957 2171.47 3062.329 -1414.242 2171.47 2779.261 -1414.242 2526.979 2779.261 6264.957 2526.979 2444.364 6264.957 2834.157 2444.364 -1414.242 2834.157 2065.292 -1414.242 3084.793 2065.292 6264.957 3084.793 1651.863 6264.957 3273.447 1651.863 -1414.242 3273.447 1213.894 -1414.242 3394.677 1213.894 6264.957 3394.677 762.402 6264.957 3446.342 762.402 -1414.242 3446.342 308.406 -1414.242 3426.298 308.406 6264.957 3426.298 -136.9532 6264.957 3335.915 -136.9532 -1414.242 3335.915</float_array>
+          <technique_common>
+            <accessor source="#floor1__StaffCreditBackground00-position-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor1__StaffCreditBackground00-normal">
+          <float_array id="floor1__StaffCreditBackground00-normal-array" count="108">-0.738462 0 0.6125665 -0.7083974 0 0.6482682 -0.7083974 0 0.6482682 -0.738462 0 0.6125665 -0.8399301 0 0.4660015 -0.8399301 0 0.4660015 -0.9019384 0 0.3288317 -0.9019384 0 0.3288317 -0.9432772 0 0.1841457 -0.9432772 0 0.1841457 -0.9601886 0 0.03382269 -0.9601886 0 0.03382269 -0.9526724 0 -0.1165004 -0.9526724 0 -0.1165004 -0.9226078 0 -0.2649444 -0.9226078 0 -0.2649444 -0.8699948 0 -0.4058723 -0.8699948 0 -0.4058723 -0.7967122 0 -0.537405 -0.7967122 0 -0.537405 -0.7027603 0 -0.6557844 -0.7027603 0 -0.6557844 -0.591897 0 -0.7572524 -0.591897 0 -0.7572524 -0.4660015 0 -0.8399301 -0.4660015 0 -0.8399301 -0.3288317 0 -0.9019384 -0.3288317 0 -0.9019384 -0.1841457 0 -0.9432772 -0.1841457 0 -0.9432772 -0.03382269 0 -0.9601886 -0.03382269 0 -0.9601886 0.1165004 0 -0.9526724 0.1165004 0 -0.9526724 0.1916619 0 -0.9413982 0.1916619 0 -0.9413982</float_array>
+          <technique_common>
+            <accessor source="#floor1__StaffCreditBackground00-normal-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor1__StaffCreditBackground00-texcoord">
+          <float_array id="floor1__StaffCreditBackground00-texcoord-array" count="72">0.059021 1 0 1 0 0 0.059021 0 0.1177979 0 0.1177979 1 0.1765137 0.0004882813 0.1765137 1 0.2353516 1 0.2353516 0.0004882813 0.2941895 1 0.2941895 0.0004882813 0.3527832 0.0004882813 0.3527832 1 0.4116211 1 0.4116211 0.0004882813 0.470459 0.0004882813 0.470459 1 0.5292969 1 0.5292969 0.0004882813 0.5878906 0.0004882813 0.5878906 1 0.6469727 1 0.6469727 0.0004882813 0.7055664 0.0004882813 0.7055664 1 0.7641602 1 0.7641602 0.0004882813 0.8232422 0.0004882813 0.8232422 1 0.8818359 1 0.8818359 0 0.940918 0 0.940918 1 0.9995117 1 0.9995117 0</float_array>
+          <technique_common>
+            <accessor source="#floor1__StaffCreditBackground00-texcoord-array" count="36" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floor1__StaffCreditBackground00-vertex">
+          <input semantic="POSITION" source="#floor1__StaffCreditBackground00-position" />
+        </vertices>
+        <triangles material="StaffCreditBackground00" count="34">
+          <input semantic="VERTEX" source="#floor1__StaffCreditBackground00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#floor1__StaffCreditBackground00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#floor1__StaffCreditBackground00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 3 3 3 4 4 4 0 0 0 4 4 4 5 5 5 0 0 0 5 5 5 4 4 4 6 6 6 7 7 7 5 5 5 6 6 6 7 7 7 6 6 6 8 8 8 6 6 6 9 9 9 8 8 8 10 10 10 8 8 8 9 9 9 11 11 11 10 10 10 9 9 9 11 11 11 12 12 12 10 10 10 12 12 12 13 13 13 10 10 10 14 14 14 13 13 13 12 12 12 15 15 15 14 14 14 12 12 12 15 15 15 16 16 16 14 14 14 16 16 16 17 17 17 14 14 14 18 18 18 17 17 17 16 16 16 19 19 19 18 18 18 16 16 16 19 19 19 20 20 20 18 18 18 20 20 20 21 21 21 18 18 18 22 22 22 21 21 21 20 20 20 23 23 23 22 22 22 20 20 20 23 23 23 24 24 24 22 22 22 24 24 24 25 25 25 22 22 22 26 26 26 25 25 25 24 24 24 27 27 27 26 26 26 24 24 24 27 27 27 28 28 28 26 26 26 28 28 28 29 29 29 26 26 26 30 30 30 29 29 29 28 28 28 31 31 31 30 30 30 28 28 28 31 31 31 32 32 32 30 30 30 32 32 32 33 33 33 30 30 30 34 34 34 33 33 33 32 32 32 35 35 35 34 34 34 32 32 32 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_floor1__StaffCreditBackground00-mesh">
+      <skin source="#floor1__StaffCreditBackground00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="floor1__StaffCreditBackground00-mesh-joint">
+          <Name_array id="floor1__StaffCreditBackground00-mesh-joint-array" count="1">Move</Name_array>
+          <technique_common>
+            <accessor source="#floor1__StaffCreditBackground00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor1__StaffCreditBackground00-mesh-inv_bind_matrix">
+          <float_array id="floor1__StaffCreditBackground00-mesh-inv_bind_matrix-array" count="16">0.9601886 0 0 0 0 0.9601886 0 0.2570412 0 0 0.9601886 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#floor1__StaffCreditBackground00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor1__StaffCreditBackground00-mesh-weight">
+          <float_array id="floor1__StaffCreditBackground00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#floor1__StaffCreditBackground00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#floor1__StaffCreditBackground00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#floor1__StaffCreditBackground00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="36">
+          <input semantic="JOINT" source="#floor1__StaffCreditBackground00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#floor1__StaffCreditBackground00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_SdodrStaffCreditBackground" name="FldObj_SdodrStaffCreditBackground" sid="FldObj_SdodrStaffCreditBackground" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_Move" name="Move" sid="Move" type="JOINT">
+            <matrix sid="transform">1.041462 0 0 0 0 1.041462 0 -0.2676987 0 0 1.041462 0 0 0 0 1</matrix>
+            <node id="Armature_Effect_Locator" name="Effect_Locator" sid="Effect_Locator" type="JOINT">
+              <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="floor1__StaffCreditBackground00" name="floor1__StaffCreditBackground00" type="NODE">
+        <instance_controller url="#Armature_floor1__StaffCreditBackground00-mesh">
+          <skeleton>#Armature_FldObj_SdodrStaffCreditBackground</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="StaffCreditBackground00" target="#StaffCreditBackground00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

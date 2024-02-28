@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="Floor00_Alb">
+      <init_from>Floor00_Alb.png</init_from>
+    </image>
+    <image id="Floor00_Nrm">
+      <init_from>Floor00_Nrm.png</init_from>
+    </image>
+    <image id="Floor00_Rgh">
+      <init_from>Floor00_Rgh.png</init_from>
+    </image>
+    <image id="Wall00_Alb">
+      <init_from>Wall00_Alb.png</init_from>
+    </image>
+    <image id="Wall00_Nrm">
+      <init_from>Wall00_Nrm.png</init_from>
+    </image>
+    <image id="Wall00_Rgh">
+      <init_from>Wall00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Floor00">
+      <instance_effect url="#Effect_Floor00" />
+    </material>
+    <material id="Wall00">
+      <instance_effect url="#Effect_Wall00" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_Floor00">
+      <profile_COMMON>
+        <newparam sid="surface_Floor00-diffuse">
+          <surface type="2D">
+            <init_from>Floor00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Floor00-diffuse">
+          <sampler2D>
+            <source>surface_Floor00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Floor00-bump">
+          <surface type="2D">
+            <init_from>Floor00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Floor00-bump">
+          <sampler2D>
+            <source>surface_Floor00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Floor00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Floor00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Wall00">
+      <profile_COMMON>
+        <newparam sid="surface_Wall00-diffuse">
+          <surface type="2D">
+            <init_from>Wall00_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Wall00-diffuse">
+          <sampler2D>
+            <source>surface_Wall00-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_Wall00-bump">
+          <surface type="2D">
+            <init_from>Wall00_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_Wall00-bump">
+          <sampler2D>
+            <source>surface_Wall00-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_Wall00-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_Wall00-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh" name="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00">
+      <mesh>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-position">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-position-array" count="378">-6.75 0 6 -9.75 0 3 -6.75 -25.5 6 -9.75 -25.5 3 -9.75 0 -3 -6.75 0 -6 -9.75 -25.5 -3 -6.75 -25.5 -6 -9.75 0 3 -12.75 0 3 -9.75 -25.5 3 -12.75 -25.5 3 -12.75 0 -3 -9.75 0 -3 -12.75 -25.5 -3 -9.75 -25.5 -3 6.75 0 -6 6.75 -25.5 -6 0 -25.5 -6 0 0 -6 -6.75 -25.5 -6 -6.75 0 -6 6.75 0 6 6.75 -25.5 6 6.75 -25.5 0 6.75 0 0 6.75 -25.5 -6 6.75 0 -6 -12.75 0 3 -12.75 0 0 -12.75 -25.5 3 -12.75 -25.5 0 -12.75 -25.5 -3 -12.75 0 -3 6.75 0 6 0 0 6 6.75 -25.5 6 0 -25.5 6 -6.75 -25.5 6 -6.75 0 6 -9.75 -25.5 3 -12.75 -25.5 3 -12.75 -25.5 0 -9.75 -25.5 0 -12.75 -25.5 -3 -9.75 -25.5 -3 -6.75 -25.5 0 -6.75 -25.5 6 -6.75 -25.5 -6 0 -25.5 6 0 -25.5 0 0 -25.5 -6 6.75 -25.5 6 6.75 -25.5 -6 6.75 -25.5 0 -6.75 0 6 -9.75 0 3 -6.75 -25.5 6 -9.75 -25.5 3 -9.75 0 -3 -6.75 0 -6 -9.75 -25.5 -3 -6.75 -25.5 -6 -9.75 0 3 -12.75 0 3 -9.75 -25.5 3 -12.75 -25.5 3 -12.75 0 -3 -9.75 0 -3 -12.75 -25.5 -3 -9.75 -25.5 -3 6.75 0 -6 6.75 -25.5 -6 0 -25.5 -6 -6.75 -25.5 -6 -6.75 0 -6 6.75 0 0 6.75 0 6 6.75 -25.5 6 6.75 -25.5 -6 6.75 0 -6 -12.75 0 3 -12.75 0 -3 -12.75 -25.5 3 -12.75 -25.5 -3 6.75 0 6 -6.75 -25.5 6 6.75 -25.5 6 -6.75 0 6 -9.75 -25.5 -3 -12.75 -25.5 3 -12.75 -25.5 -3 -9.75 -25.5 3 -6.75 -25.5 6 0 -25.5 -6 -6.75 -25.5 -6 6.75 -25.5 6 6.75 -25.5 -6 -12.75 0 3 -12.75 -25.5 3 -6.75 -25.5 6 -12.75 0 -3 -6.75 -25.5 -6 -12.75 -25.5 -3 6.75 0 -6 6.75 -25.5 -6 -6.75 -25.5 -6 -12.75 0 -3 6.75 0 6 6.75 -25.5 6 6.75 -25.5 -6 6.75 0 -6 -12.75 0 3 -12.75 0 -3 -12.75 -25.5 3 -12.75 -25.5 -3 6.75 0 6 -6.75 -25.5 6 6.75 -25.5 6 -12.75 0 3 -6.75 -25.5 6 -12.75 -25.5 3 -12.75 -25.5 -3 -6.75 -25.5 -6 6.75 -25.5 6 6.75 -25.5 -6</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-position-array" count="126" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-normal">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-normal-array" count="378">-0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 -0.7064579 0 -0.7064579 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-normal-array" count="126" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-texcoord">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-texcoord-array" count="252">-8.203712 0.4534847 -9.674385 0.4534847 -8.203712 -12.04723 -9.674385 -12.04723 0.05139771 -12.04723 1.522072 -12.04723 0.05139771 0.4534832 1.522072 0.4534832 -9.674385 0.4534847 -11.14506 0.4534847 -9.674385 -12.04723 -11.14506 -12.04723 -1.419276 -12.04723 0.05139771 -12.04723 -1.419276 0.4534832 0.05139771 0.4534832 8.140098 -12.04723 8.140098 0.4534832 4.831085 0.4534832 4.831085 -12.04723 1.522072 0.4534832 1.522072 -12.04723 6.187483 13.04723 6.187483 0.5465176 9.128828 0.5465176 9.128828 13.04723 12.07017 0.5465176 12.07017 13.04723 11.24331 0.4534847 9.772638 0.4534847 11.24331 -12.04723 9.772638 -12.04723 8.301967 -12.04723 8.301967 0.4534847 -1.585686 0.4534847 -4.894699 0.4534847 -1.585686 -12.04723 -4.894699 -12.04723 -8.203712 -12.04723 -8.203712 0.4534847 -1.451882 8.635218 -1.451882 10.10589 -2.922554 10.10589 -2.922554 8.635218 -4.393226 10.10589 -4.393226 8.635218 -2.922552 7.164543 0.01879209 7.164543 -5.863896 7.164543 0.01879209 3.85553 -2.922552 3.85553 -5.863896 3.85553 0.01879209 0.5465176 -5.863896 0.5465176 -2.922552 0.5465176 -8.203712 0.4534847 -9.674385 0.4534847 -8.203712 -12.04723 -9.674385 -12.04723 0.05139771 -12.04723 1.522072 -12.04723 0.05139771 0.4534832 1.522072 0.4534832 -9.674385 0.4534847 -11.14506 0.4534847 -9.674385 -12.04723 -11.14506 -12.04723 -1.419276 -12.04723 0.05139771 -12.04723 -1.419276 0.4534832 0.05139771 0.4534832 8.140098 -12.04723 8.140098 0.4534832 4.831085 0.4534832 1.522072 0.4534832 1.522072 -12.04723 9.128828 13.04723 6.187483 13.04723 6.187483 0.5465176 12.07017 0.5465176 12.07017 13.04723 11.24331 0.4534847 8.301967 0.4534847 11.24331 -12.04723 8.301967 -12.04723 -1.585686 0.4534847 -8.203712 -12.04723 -1.585686 -12.04723 -8.203712 0.4534847 -4.393226 8.635218 -1.451882 10.10589 -4.393226 10.10589 -1.451882 8.635218 0.01879209 7.164543 -5.863896 3.85553 -5.863896 7.164543 0.01879209 0.5465176 -5.863896 0.5465176 -11.14506 0.4534847 -11.14506 -12.04723 -8.203712 -12.04723 -1.419276 -12.04723 1.522072 0.4534832 -1.419276 0.4534832 8.140098 -12.04723 8.140098 0.4534832 1.522072 0.4534832 -1.419276 -12.04723 6.187483 13.04723 6.187483 0.5465176 12.07017 0.5465176 12.07017 13.04723 11.24331 0.4534847 8.301967 0.4534847 11.24331 -12.04723 8.301967 -12.04723 -1.585686 0.4534847 -8.203712 -12.04723 -1.585686 -12.04723 -11.14506 0.4534847 0.01879209 7.164543 -1.451882 10.10589 -4.393226 10.10589 -5.863896 7.164543 0.01879209 0.5465176 -5.863896 0.5465176</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-texcoord-array" count="126" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-vertex">
+          <input semantic="POSITION" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-position" />
+        </vertices>
+        <triangles material="Floor00" count="40">
+          <input semantic="VERTEX" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 19 19 19 16 16 16 18 18 18 19 19 19 18 18 18 20 20 20 21 21 21 19 19 19 20 20 20 22 22 22 23 23 23 24 24 24 25 25 25 22 22 22 24 24 24 25 25 25 24 24 24 26 26 26 27 27 27 25 25 25 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 31 31 31 29 29 29 32 32 32 29 29 29 33 33 33 32 32 32 34 34 34 35 35 35 36 36 36 35 35 35 37 37 37 36 36 36 37 37 37 35 35 35 38 38 38 35 35 35 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 43 43 43 40 40 40 42 42 42 43 43 43 42 42 42 44 44 44 45 45 45 43 43 43 44 44 44 40 40 40 43 43 43 46 46 46 43 43 43 45 45 45 46 46 46 47 47 47 40 40 40 46 46 46 45 45 45 48 48 48 46 46 46 47 47 47 46 46 46 49 49 49 50 50 50 46 46 46 48 48 48 46 46 46 50 50 50 49 49 49 51 51 51 50 50 50 48 48 48 49 49 49 50 50 50 52 52 52 50 50 50 51 51 51 53 53 53 50 50 50 54 54 54 52 52 52 54 54 54 50 50 50 53 53 53 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh" name="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00">
+      <mesh>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-position">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-position-array" count="84">-9.75 0 0 -12.75 0 0 -12.75 0 3 -12.75 0 -3 -9.75 0 3 -9.75 0 -3 -6.75 0 0 -6.75 0 6 -6.75 0 -6 0 0 6 0 0 -6 0 0 0 6.75 0 6 6.75 0 -6 6.75 0 0 -9.75 0 3 -12.75 0 -3 -12.75 0 3 -9.75 0 -3 6.75 0 0 -6.75 0 -6 6.75 0 -6 -6.75 0 6 6.75 0 6 -12.75 0 -3 -12.75 0 3 6.75 0 6 6.75 0 -6</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-position-array" count="28" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-normal">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-normal-array" count="84">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-normal-array" count="28" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-texcoord">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-texcoord-array" count="56">3.103138 8.635214 3.103138 10.10589 1.632466 10.10589 4.57381 10.10589 1.632466 8.635214 4.57381 8.635214 3.103137 7.16454 0.161792 7.16454 6.044481 7.16454 0.161792 3.855527 6.044481 3.855527 3.103137 3.855527 0.161792 0.5465145 6.044481 0.5465145 3.103137 0.5465145 1.632466 8.635214 4.57381 10.10589 1.632466 10.10589 4.57381 8.635214 3.103137 0.5465145 6.044481 7.16454 6.044481 0.5465145 0.161792 7.16454 0.161792 0.5465145 4.57381 10.10589 1.632466 10.10589 0.161792 0.5465145 6.044481 0.5465145</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-texcoord-array" count="28" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-vertex">
+          <input semantic="POSITION" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-position" />
+        </vertices>
+        <triangles material="Wall00" count="16">
+          <input semantic="VERTEX" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-vertex" offset="0" />
+          <input semantic="NORMAL" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 0 0 0 3 3 3 4 4 4 0 0 0 2 2 2 0 0 0 5 5 5 3 3 3 0 0 0 4 4 4 6 6 6 5 5 5 0 0 0 6 6 6 4 4 4 7 7 7 6 6 6 8 8 8 5 5 5 6 6 6 6 6 6 7 7 7 9 9 9 8 8 8 6 6 6 10 10 10 11 11 11 6 6 6 9 9 9 6 6 6 11 11 11 10 10 10 11 11 11 9 9 9 12 12 12 10 10 10 11 11 11 13 13 13 14 14 14 11 11 11 12 12 12 11 11 11 14 14 14 13 13 13 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh">
+      <skin source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-joint">
+          <Name_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-joint-array" count="1">FldObj_SdodrLiftObjBase_oneRoad</Name_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-inv_bind_matrix">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-weight">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="126">
+          <input semantic="JOINT" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh">
+      <skin source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-joint">
+          <Name_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-joint-array" count="1">FldObj_SdodrLiftObjBase_oneRoad</Name_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-inv_bind_matrix">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-weight">
+          <float_array id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="28">
+          <input semantic="JOINT" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_FldObj_SdodrLiftObjBase_oneRoad" name="FldObj_SdodrLiftObjBase_oneRoad" sid="FldObj_SdodrLiftObjBase_oneRoad" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00" name="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00" type="NODE">
+        <instance_controller url="#Armature_FldObj_SdodrNeutralFloorDelta30x15x30TP21__Floor00-mesh">
+          <skeleton>#Armature_FldObj_SdodrLiftObjBase_oneRoad</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Floor00" target="#Floor00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00" name="FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00" type="NODE">
+        <instance_controller url="#Armature_FldObj_SdodrNeutralFloorDelta30x15x30TP21__Wall00-mesh">
+          <skeleton>#Armature_FldObj_SdodrLiftObjBase_oneRoad</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Wall00" target="#Wall00" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
