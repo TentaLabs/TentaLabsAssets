@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images />
+  <library_geometries />
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_A_Loc_Group" name="A_Loc_Group" sid="A_Loc_Group" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_LocatorA1" name="LocatorA1" sid="LocatorA1" type="JOINT">
+            <matrix sid="transform">-0.4419783 0.8550832 0.2710871 -11.64808 0.8970259 0.4213129 0.1335688 -2.675894 1.490116E-08 0.3022065 -0.9532425 -8.871347 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_LocatorA2" name="LocatorA2" sid="LocatorA2" type="JOINT">
+            <matrix sid="transform">-0.4419783 0.8550832 0.2710871 -9.923012 0.8970259 0.4213129 0.1335688 3.316777 1.490116E-08 0.3022065 -0.9532425 -8.793035 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_LocatorA3" name="LocatorA3" sid="LocatorA3" type="JOINT">
+            <matrix sid="transform">-0.4419783 0.8550832 0.2710871 -8.331265 0.8970259 0.4213129 0.1335688 -3.924309 1.490116E-08 0.3022065 -0.9532425 -8.385974 0 0 0 1</matrix>
+          </node>
+          <node id="Armature_LocatorA4" name="LocatorA4" sid="LocatorA4" type="JOINT">
+            <matrix sid="transform">-0.4419783 0.8550832 0.2710871 -4.153775 0.8970259 0.4213129 0.1335688 -4.261981 1.490116E-08 0.3022065 -0.9532425 -10.3317 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
