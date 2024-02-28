@@ -1,0 +1,1256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BridgeMetal00_Alb">
+      <init_from>BridgeMetal00_Alb.png</init_from>
+    </image>
+    <image id="BridgeMetal00_Mtl">
+      <init_from>BridgeMetal00_Mtl.png</init_from>
+    </image>
+    <image id="BridgeMetal00_Nrm">
+      <init_from>BridgeMetal00_Nrm.png</init_from>
+    </image>
+    <image id="BridgeMetal00_Rgh">
+      <init_from>BridgeMetal00_Rgh.png</init_from>
+    </image>
+    <image id="CanolaAV_Alb">
+      <init_from>CanolaAV_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaA_Nrm">
+      <init_from>CanolaA_Nrm.png</init_from>
+    </image>
+    <image id="CanolaBV_Alb">
+      <init_from>CanolaBV_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Nrm">
+      <init_from>CanolaB_Nrm.png</init_from>
+    </image>
+    <image id="CanolaCV_Alb">
+      <init_from>CanolaCV_Alb.png</init_from>
+    </image>
+    <image id="CanolaC_Alb">
+      <init_from>CanolaC_Alb.png</init_from>
+    </image>
+    <image id="Canola_Fxm">
+      <init_from>Canola_Fxm.png</init_from>
+    </image>
+    <image id="Canola_Opa">
+      <init_from>Canola_Opa.png</init_from>
+    </image>
+    <image id="Ceiling00_Alb">
+      <init_from>Ceiling00_Alb.png</init_from>
+    </image>
+    <image id="Ceiling00_Nrm">
+      <init_from>Ceiling00_Nrm.png</init_from>
+    </image>
+    <image id="Ceiling00_Rgh">
+      <init_from>Ceiling00_Rgh.png</init_from>
+    </image>
+    <image id="CeilingLight00_Alb">
+      <init_from>CeilingLight00_Alb.png</init_from>
+    </image>
+    <image id="CeilingLight00_Emm">
+      <init_from>CeilingLight00_Emm.png</init_from>
+    </image>
+    <image id="CeilingLight00_Nrm">
+      <init_from>CeilingLight00_Nrm.png</init_from>
+    </image>
+    <image id="CeilingLight00_Rgh">
+      <init_from>CeilingLight00_Rgh.png</init_from>
+    </image>
+    <image id="FloorBGConcrete00_Alb">
+      <init_from>FloorBGConcrete00_Alb.png</init_from>
+    </image>
+    <image id="FloorBGConcreteMask00_Emm">
+      <init_from>FloorBGConcreteMask00_Emm.png</init_from>
+    </image>
+    <image id="FloorBGRock00_Alb">
+      <init_from>FloorBGRock00_Alb.png</init_from>
+    </image>
+    <image id="FloorBGRock00_Nrm">
+      <init_from>FloorBGRock00_Nrm.png</init_from>
+    </image>
+    <image id="FloorBGRock00_Rgh">
+      <init_from>FloorBGRock00_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcrete00_Alb">
+      <init_from>FloorConcrete00_Alb.png</init_from>
+    </image>
+    <image id="FloorConcrete00_Mtl">
+      <init_from>FloorConcrete00_Mtl.png</init_from>
+    </image>
+    <image id="FloorConcrete00_Nrm">
+      <init_from>FloorConcrete00_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcrete00_Rgh">
+      <init_from>FloorConcrete00_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcrete01_Alb">
+      <init_from>FloorConcrete01_Alb.png</init_from>
+    </image>
+    <image id="FloorConcrete01_Mtl">
+      <init_from>FloorConcrete01_Mtl.png</init_from>
+    </image>
+    <image id="FloorConcrete01_Nrm">
+      <init_from>FloorConcrete01_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcrete01_Rgh">
+      <init_from>FloorConcrete01_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcrete02_Alb">
+      <init_from>FloorConcrete02_Alb.png</init_from>
+    </image>
+    <image id="FloorConcrete02_Mtl">
+      <init_from>FloorConcrete02_Mtl.png</init_from>
+    </image>
+    <image id="FloorConcrete02_Nrm">
+      <init_from>FloorConcrete02_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcrete02_Rgh">
+      <init_from>FloorConcrete02_Rgh.png</init_from>
+    </image>
+    <image id="FloorConcrete03_Alb">
+      <init_from>FloorConcrete03_Alb.png</init_from>
+    </image>
+    <image id="FloorConcrete03_Nrm">
+      <init_from>FloorConcrete03_Nrm.png</init_from>
+    </image>
+    <image id="FloorConcrete03_Rgh">
+      <init_from>FloorConcrete03_Rgh.png</init_from>
+    </image>
+    <image id="FloorFence00_Alb">
+      <init_from>FloorFence00_Alb.png</init_from>
+    </image>
+    <image id="FloorFence00_Mtl">
+      <init_from>FloorFence00_Mtl.png</init_from>
+    </image>
+    <image id="FloorFence00_Nrm">
+      <init_from>FloorFence00_Nrm.png</init_from>
+    </image>
+    <image id="FloorFence00_Opa">
+      <init_from>FloorFence00_Opa.png</init_from>
+    </image>
+    <image id="FloorFence00_Rgh">
+      <init_from>FloorFence00_Rgh.png</init_from>
+    </image>
+    <image id="FloorGrass00_Alb">
+      <init_from>FloorGrass00_Alb.png</init_from>
+    </image>
+    <image id="FloorGrass00_Mtl">
+      <init_from>FloorGrass00_Mtl.png</init_from>
+    </image>
+    <image id="FloorGrass00_Nrm">
+      <init_from>FloorGrass00_Nrm.png</init_from>
+    </image>
+    <image id="FloorGrass00_Rgh">
+      <init_from>FloorGrass00_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine00_Alb">
+      <init_from>FloorLine00_Alb.png</init_from>
+    </image>
+    <image id="FloorLine00_Mtl">
+      <init_from>FloorLine00_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine00_Nrm">
+      <init_from>FloorLine00_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine00_Rgh">
+      <init_from>FloorLine00_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine02_Alb">
+      <init_from>FloorLine02_Alb.png</init_from>
+    </image>
+    <image id="FloorLine02_Mtl">
+      <init_from>FloorLine02_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine02_Nrm">
+      <init_from>FloorLine02_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine02_Rgh">
+      <init_from>FloorLine02_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine03_Alb">
+      <init_from>FloorLine03_Alb.png</init_from>
+    </image>
+    <image id="FloorLine03_Mtl">
+      <init_from>FloorLine03_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine03_Nrm">
+      <init_from>FloorLine03_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine03_Rgh">
+      <init_from>FloorLine03_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine04_Alb">
+      <init_from>FloorLine04_Alb.png</init_from>
+    </image>
+    <image id="FloorLine04_Mtl">
+      <init_from>FloorLine04_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine04_Nrm">
+      <init_from>FloorLine04_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine04_Opa">
+      <init_from>FloorLine04_Opa.png</init_from>
+    </image>
+    <image id="FloorLine04_Rgh">
+      <init_from>FloorLine04_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine05_Alb">
+      <init_from>FloorLine05_Alb.png</init_from>
+    </image>
+    <image id="FloorLine05_Mtl">
+      <init_from>FloorLine05_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine05_Nrm">
+      <init_from>FloorLine05_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine05_Rgh">
+      <init_from>FloorLine05_Rgh.png</init_from>
+    </image>
+    <image id="FloorLine06_Alb">
+      <init_from>FloorLine06_Alb.png</init_from>
+    </image>
+    <image id="FloorLine06_Mtl">
+      <init_from>FloorLine06_Mtl.png</init_from>
+    </image>
+    <image id="FloorLine06_Nrm">
+      <init_from>FloorLine06_Nrm.png</init_from>
+    </image>
+    <image id="FloorLine06_Rgh">
+      <init_from>FloorLine06_Rgh.png</init_from>
+    </image>
+    <image id="FloorMetal00_Alb">
+      <init_from>FloorMetal00_Alb.png</init_from>
+    </image>
+    <image id="FloorMetal00_Nrm">
+      <init_from>FloorMetal00_Nrm.png</init_from>
+    </image>
+    <image id="FloorMetal00_Rgh">
+      <init_from>FloorMetal00_Rgh.png</init_from>
+    </image>
+    <image id="FloorObject00_Alb">
+      <init_from>FloorObject00_Alb.png</init_from>
+    </image>
+    <image id="FloorObject00_Nrm">
+      <init_from>FloorObject00_Nrm.png</init_from>
+    </image>
+    <image id="FloorObject00_Rgh">
+      <init_from>FloorObject00_Rgh.png</init_from>
+    </image>
+    <image id="FloorRubber00_Alb">
+      <init_from>FloorRubber00_Alb.png</init_from>
+    </image>
+    <image id="FloorRubber00_Nrm">
+      <init_from>FloorRubber00_Nrm.png</init_from>
+    </image>
+    <image id="FloorRubber00_Rgh">
+      <init_from>FloorRubber00_Rgh.png</init_from>
+    </image>
+    <image id="FloorSlope00_Alb">
+      <init_from>FloorSlope00_Alb.png</init_from>
+    </image>
+    <image id="FloorSlope00_Mtl">
+      <init_from>FloorSlope00_Mtl.png</init_from>
+    </image>
+    <image id="FloorSlope00_Nrm">
+      <init_from>FloorSlope00_Nrm.png</init_from>
+    </image>
+    <image id="FloorSlope00_Rgh">
+      <init_from>FloorSlope00_Rgh.png</init_from>
+    </image>
+    <image id="FloorSlope01_Alb">
+      <init_from>FloorSlope01_Alb.png</init_from>
+    </image>
+    <image id="FloorSlope01_Mtl">
+      <init_from>FloorSlope01_Mtl.png</init_from>
+    </image>
+    <image id="FloorSlope01_Nrm">
+      <init_from>FloorSlope01_Nrm.png</init_from>
+    </image>
+    <image id="FloorSlope01_Rgh">
+      <init_from>FloorSlope01_Rgh.png</init_from>
+    </image>
+    <image id="Glass00_Nrm">
+      <init_from>Glass00_Nrm.png</init_from>
+    </image>
+    <image id="Glass00_Rgh">
+      <init_from>Glass00_Rgh.png</init_from>
+    </image>
+    <image id="Glass01_Nrm">
+      <init_from>Glass01_Nrm.png</init_from>
+    </image>
+    <image id="GraffitiNP00_Opa">
+      <init_from>GraffitiNP00_Opa.png</init_from>
+    </image>
+    <image id="GrassFloor00_Alb">
+      <init_from>GrassFloor00_Alb.png</init_from>
+    </image>
+    <image id="GrassFloor00_Nrm">
+      <init_from>GrassFloor00_Nrm.png</init_from>
+    </image>
+    <image id="GrassFloor00_Opa">
+      <init_from>GrassFloor00_Opa.png</init_from>
+    </image>
+    <image id="GrassFloor00_Rgh">
+      <init_from>GrassFloor00_Rgh.png</init_from>
+    </image>
+    <image id="GrassFloor01_Alb">
+      <init_from>GrassFloor01_Alb.png</init_from>
+    </image>
+    <image id="GrassFloor01_Nrm">
+      <init_from>GrassFloor01_Nrm.png</init_from>
+    </image>
+    <image id="GrassFloor01_Opa">
+      <init_from>GrassFloor01_Opa.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="Megalith00_Alb">
+      <init_from>Megalith00_Alb.png</init_from>
+    </image>
+    <image id="Megalith00_Nrm">
+      <init_from>Megalith00_Nrm.png</init_from>
+    </image>
+    <image id="Megalith00_Rgh">
+      <init_from>Megalith00_Rgh.png</init_from>
+    </image>
+    <image id="MetalBox00_Alb">
+      <init_from>MetalBox00_Alb.png</init_from>
+    </image>
+    <image id="MetalBox00_Mtl">
+      <init_from>MetalBox00_Mtl.png</init_from>
+    </image>
+    <image id="MetalBox00_Nrm">
+      <init_from>MetalBox00_Nrm.png</init_from>
+    </image>
+    <image id="MetalBox00_Rgh">
+      <init_from>MetalBox00_Rgh.png</init_from>
+    </image>
+    <image id="Object00_Alb">
+      <init_from>Object00_Alb.png</init_from>
+    </image>
+    <image id="Object00_Mtl">
+      <init_from>Object00_Mtl.png</init_from>
+    </image>
+    <image id="Object00_Nrm">
+      <init_from>Object00_Nrm.png</init_from>
+    </image>
+    <image id="Object00_Rgh">
+      <init_from>Object00_Rgh.png</init_from>
+    </image>
+    <image id="Object01_Alb">
+      <init_from>Object01_Alb.png</init_from>
+    </image>
+    <image id="Object01_Mtl">
+      <init_from>Object01_Mtl.png</init_from>
+    </image>
+    <image id="Object01_Nrm">
+      <init_from>Object01_Nrm.png</init_from>
+    </image>
+    <image id="Object01_Rgh">
+      <init_from>Object01_Rgh.png</init_from>
+    </image>
+    <image id="Object02_Alb">
+      <init_from>Object02_Alb.png</init_from>
+    </image>
+    <image id="Object02_Mtl">
+      <init_from>Object02_Mtl.png</init_from>
+    </image>
+    <image id="Object02_Nrm">
+      <init_from>Object02_Nrm.png</init_from>
+    </image>
+    <image id="Object02_Rgh">
+      <init_from>Object02_Rgh.png</init_from>
+    </image>
+    <image id="Pillar00_Alb">
+      <init_from>Pillar00_Alb.png</init_from>
+    </image>
+    <image id="Pillar00_Mtl">
+      <init_from>Pillar00_Mtl.png</init_from>
+    </image>
+    <image id="Pillar00_Nrm">
+      <init_from>Pillar00_Nrm.png</init_from>
+    </image>
+    <image id="Pillar00_Rgh">
+      <init_from>Pillar00_Rgh.png</init_from>
+    </image>
+    <image id="PillarBanners00_Alb">
+      <init_from>PillarBanners00_Alb.png</init_from>
+    </image>
+    <image id="PillarBanners00_Nrm">
+      <init_from>PillarBanners00_Nrm.png</init_from>
+    </image>
+    <image id="PillarBanners00_Rgh">
+      <init_from>PillarBanners00_Rgh.png</init_from>
+    </image>
+    <image id="PillarBase00_Alb">
+      <init_from>PillarBase00_Alb.png</init_from>
+    </image>
+    <image id="PillarBase00_Mtl">
+      <init_from>PillarBase00_Mtl.png</init_from>
+    </image>
+    <image id="PillarBase00_Nrm">
+      <init_from>PillarBase00_Nrm.png</init_from>
+    </image>
+    <image id="PillarBase00_Rgh">
+      <init_from>PillarBase00_Rgh.png</init_from>
+    </image>
+    <image id="PillarBase01_Alb">
+      <init_from>PillarBase01_Alb.png</init_from>
+    </image>
+    <image id="PillarBase01_Mtl">
+      <init_from>PillarBase01_Mtl.png</init_from>
+    </image>
+    <image id="PillarBase01_Nrm">
+      <init_from>PillarBase01_Nrm.png</init_from>
+    </image>
+    <image id="PillarBase01_Rgh">
+      <init_from>PillarBase01_Rgh.png</init_from>
+    </image>
+    <image id="PillarBase02_Alb">
+      <init_from>PillarBase02_Alb.png</init_from>
+    </image>
+    <image id="PillarBase02_Mtl">
+      <init_from>PillarBase02_Mtl.png</init_from>
+    </image>
+    <image id="PillarBase02_Nrm">
+      <init_from>PillarBase02_Nrm.png</init_from>
+    </image>
+    <image id="PillarBase02_Rgh">
+      <init_from>PillarBase02_Rgh.png</init_from>
+    </image>
+    <image id="PillarBase03_Alb">
+      <init_from>PillarBase03_Alb.png</init_from>
+    </image>
+    <image id="PillarBase03_Nrm">
+      <init_from>PillarBase03_Nrm.png</init_from>
+    </image>
+    <image id="PillarBase03_Rgh">
+      <init_from>PillarBase03_Rgh.png</init_from>
+    </image>
+    <image id="PillarBase04_Alb">
+      <init_from>PillarBase04_Alb.png</init_from>
+    </image>
+    <image id="PillarBase04_Mtl">
+      <init_from>PillarBase04_Mtl.png</init_from>
+    </image>
+    <image id="PillarBase04_Nrm">
+      <init_from>PillarBase04_Nrm.png</init_from>
+    </image>
+    <image id="PillarBase04_Rgh">
+      <init_from>PillarBase04_Rgh.png</init_from>
+    </image>
+    <image id="PillarBase05_Alb">
+      <init_from>PillarBase05_Alb.png</init_from>
+    </image>
+    <image id="PillarBase05_Mtl">
+      <init_from>PillarBase05_Mtl.png</init_from>
+    </image>
+    <image id="PillarBase05_Nrm">
+      <init_from>PillarBase05_Nrm.png</init_from>
+    </image>
+    <image id="PillarBase05_Rgh">
+      <init_from>PillarBase05_Rgh.png</init_from>
+    </image>
+    <image id="PillarBG00_Alb">
+      <init_from>PillarBG00_Alb.png</init_from>
+    </image>
+    <image id="PillarBG00_Nrm">
+      <init_from>PillarBG00_Nrm.png</init_from>
+    </image>
+    <image id="PillarBG00_Rgh">
+      <init_from>PillarBG00_Rgh.png</init_from>
+    </image>
+    <image id="PillarCutPlane00_Alb">
+      <init_from>PillarCutPlane00_Alb.png</init_from>
+    </image>
+    <image id="PillarCutPlane00_Nrm">
+      <init_from>PillarCutPlane00_Nrm.png</init_from>
+    </image>
+    <image id="PillarCutPlane00_Rgh">
+      <init_from>PillarCutPlane00_Rgh.png</init_from>
+    </image>
+    <image id="PillarObject00_Alb">
+      <init_from>PillarObject00_Alb.png</init_from>
+    </image>
+    <image id="PillarObject00_Emm">
+      <init_from>PillarObject00_Emm.png</init_from>
+    </image>
+    <image id="PillarObject00_Mtl">
+      <init_from>PillarObject00_Mtl.png</init_from>
+    </image>
+    <image id="PillarObject00_Nrm">
+      <init_from>PillarObject00_Nrm.png</init_from>
+    </image>
+    <image id="PillarObject00_Rgh">
+      <init_from>PillarObject00_Rgh.png</init_from>
+    </image>
+    <image id="PillarOld00_Alb">
+      <init_from>PillarOld00_Alb.png</init_from>
+    </image>
+    <image id="PillarOld00_Nrm">
+      <init_from>PillarOld00_Nrm.png</init_from>
+    </image>
+    <image id="PillarOld00_Rgh">
+      <init_from>PillarOld00_Rgh.png</init_from>
+    </image>
+    <image id="PillarUnderBG00_Alb">
+      <init_from>PillarUnderBG00_Alb.png</init_from>
+    </image>
+    <image id="PillarUnderBG00_Mtl">
+      <init_from>PillarUnderBG00_Mtl.png</init_from>
+    </image>
+    <image id="PillarUnderBG00_Nrm">
+      <init_from>PillarUnderBG00_Nrm.png</init_from>
+    </image>
+    <image id="PillarUnderBG00_Rgh">
+      <init_from>PillarUnderBG00_Rgh.png</init_from>
+    </image>
+    <image id="SealObject00_Alb">
+      <init_from>SealObject00_Alb.png</init_from>
+    </image>
+    <image id="SealObject00_Nrm">
+      <init_from>SealObject00_Nrm.png</init_from>
+    </image>
+    <image id="SealObject00_Opa">
+      <init_from>SealObject00_Opa.png</init_from>
+    </image>
+    <image id="SealObject00_Rgh">
+      <init_from>SealObject00_Rgh.png</init_from>
+    </image>
+    <image id="SoundproofPanel00_Alb">
+      <init_from>SoundproofPanel00_Alb.png</init_from>
+    </image>
+    <image id="SoundproofPanel00_Mtl">
+      <init_from>SoundproofPanel00_Mtl.png</init_from>
+    </image>
+    <image id="SoundproofPanel00_Nrm">
+      <init_from>SoundproofPanel00_Nrm.png</init_from>
+    </image>
+    <image id="SoundproofPanel00_Rgh">
+      <init_from>SoundproofPanel00_Rgh.png</init_from>
+    </image>
+    <image id="SoundproofSheet00_Alb">
+      <init_from>SoundproofSheet00_Alb.png</init_from>
+    </image>
+    <image id="SoundproofSheet00_Nrm">
+      <init_from>SoundproofSheet00_Nrm.png</init_from>
+    </image>
+    <image id="SoundproofSheet00_Rgh">
+      <init_from>SoundproofSheet00_Rgh.png</init_from>
+    </image>
+    <image id="StageSide00_Alb">
+      <init_from>StageSide00_Alb.png</init_from>
+    </image>
+    <image id="StageSide00_Mtl">
+      <init_from>StageSide00_Mtl.png</init_from>
+    </image>
+    <image id="StageSide00_Nrm">
+      <init_from>StageSide00_Nrm.png</init_from>
+    </image>
+    <image id="StageSide00_Rgh">
+      <init_from>StageSide00_Rgh.png</init_from>
+    </image>
+    <image id="StageSide01_Alb">
+      <init_from>StageSide01_Alb.png</init_from>
+    </image>
+    <image id="StageSide01_Mtl">
+      <init_from>StageSide01_Mtl.png</init_from>
+    </image>
+    <image id="StageSide01_Nrm">
+      <init_from>StageSide01_Nrm.png</init_from>
+    </image>
+    <image id="StageSide01_Rgh">
+      <init_from>StageSide01_Rgh.png</init_from>
+    </image>
+    <image id="StageSide02_Alb">
+      <init_from>StageSide02_Alb.png</init_from>
+    </image>
+    <image id="StageSide02_Nrm">
+      <init_from>StageSide02_Nrm.png</init_from>
+    </image>
+    <image id="StageSide02_Rgh">
+      <init_from>StageSide02_Rgh.png</init_from>
+    </image>
+    <image id="Sunflower00_Alb">
+      <init_from>Sunflower00_Alb.png</init_from>
+    </image>
+    <image id="Sunflower00_Nrm">
+      <init_from>Sunflower00_Nrm.png</init_from>
+    </image>
+    <image id="SunflowerLeaf00_Alb">
+      <init_from>SunflowerLeaf00_Alb.png</init_from>
+    </image>
+    <image id="SunflowerLeaf00_Nrm">
+      <init_from>SunflowerLeaf00_Nrm.png</init_from>
+    </image>
+    <image id="SunflowerLeaf00_Opa">
+      <init_from>SunflowerLeaf00_Opa.png</init_from>
+    </image>
+    <image id="WallConcrete00_Alb">
+      <init_from>WallConcrete00_Alb.png</init_from>
+    </image>
+    <image id="WallConcrete00_Mtl">
+      <init_from>WallConcrete00_Mtl.png</init_from>
+    </image>
+    <image id="WallConcrete00_Nrm">
+      <init_from>WallConcrete00_Nrm.png</init_from>
+    </image>
+    <image id="WallConcrete00_Rgh">
+      <init_from>WallConcrete00_Rgh.png</init_from>
+    </image>
+    <image id="WallFence00_Alb">
+      <init_from>WallFence00_Alb.png</init_from>
+    </image>
+    <image id="WallFence00_Nrm">
+      <init_from>WallFence00_Nrm.png</init_from>
+    </image>
+    <image id="WallFence00_Opa">
+      <init_from>WallFence00_Opa.png</init_from>
+    </image>
+    <image id="WallFence00_Rgh">
+      <init_from>WallFence00_Rgh.png</init_from>
+    </image>
+    <image id="WallInnermost00_Alb">
+      <init_from>WallInnermost00_Alb.png</init_from>
+    </image>
+    <image id="WallMetal00_Alb">
+      <init_from>WallMetal00_Alb.png</init_from>
+    </image>
+    <image id="WallMetal00_Mtl">
+      <init_from>WallMetal00_Mtl.png</init_from>
+    </image>
+    <image id="WallMetal00_Nrm">
+      <init_from>WallMetal00_Nrm.png</init_from>
+    </image>
+    <image id="WallMetal00_Rgh">
+      <init_from>WallMetal00_Rgh.png</init_from>
+    </image>
+    <image id="WallObject00_Alb">
+      <init_from>WallObject00_Alb.png</init_from>
+    </image>
+    <image id="WallObject00_Emi">
+      <init_from>WallObject00_Emi.png</init_from>
+    </image>
+    <image id="WallObject00_Mtl">
+      <init_from>WallObject00_Mtl.png</init_from>
+    </image>
+    <image id="WallObject00_Nrm">
+      <init_from>WallObject00_Nrm.png</init_from>
+    </image>
+    <image id="WallObject00_Rgh">
+      <init_from>WallObject00_Rgh.png</init_from>
+    </image>
+    <image id="WallScaffold00_Alb">
+      <init_from>WallScaffold00_Alb.png</init_from>
+    </image>
+    <image id="WallScaffold00_Mtl">
+      <init_from>WallScaffold00_Mtl.png</init_from>
+    </image>
+    <image id="WallScaffold00_Nrm">
+      <init_from>WallScaffold00_Nrm.png</init_from>
+    </image>
+    <image id="WallScaffold00_Rgh">
+      <init_from>WallScaffold00_Rgh.png</init_from>
+    </image>
+    <image id="WallScaffold01_Alb">
+      <init_from>WallScaffold01_Alb.png</init_from>
+    </image>
+    <image id="WallScaffold01_Mtl">
+      <init_from>WallScaffold01_Mtl.png</init_from>
+    </image>
+    <image id="WallScaffold01_Nrm">
+      <init_from>WallScaffold01_Nrm.png</init_from>
+    </image>
+    <image id="WallScaffold01_Rgh">
+      <init_from>WallScaffold01_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="CanolaA">
+      <instance_effect url="#Effect_CanolaA" />
+    </material>
+    <material id="CanolaAV">
+      <instance_effect url="#Effect_CanolaAV" />
+    </material>
+    <material id="CanolaB">
+      <instance_effect url="#Effect_CanolaB" />
+    </material>
+    <material id="CanolaBV">
+      <instance_effect url="#Effect_CanolaBV" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_CanolaA">
+      <profile_COMMON>
+        <newparam sid="surface_CanolaA-diffuse">
+          <surface type="2D">
+            <init_from>CanolaA_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_CanolaA-diffuse">
+          <sampler2D>
+            <source>surface_CanolaA-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_CanolaA-bump">
+          <surface type="2D">
+            <init_from>CanolaA_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_CanolaA-bump">
+          <sampler2D>
+            <source>surface_CanolaA-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_CanolaA-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_CanolaA-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_CanolaAV">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_CanolaB">
+      <profile_COMMON>
+        <newparam sid="surface_CanolaB-diffuse">
+          <surface type="2D">
+            <init_from>CanolaB_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_CanolaB-diffuse">
+          <sampler2D>
+            <source>surface_CanolaB-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_CanolaB-bump">
+          <surface type="2D">
+            <init_from>CanolaB_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_CanolaB-bump">
+          <sampler2D>
+            <source>surface_CanolaB-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_CanolaB-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_CanolaB-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_CanolaBV">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Canola_A1__CanolaA-mesh" name="Canola_A1__CanolaA">
+      <mesh>
+        <source id="Canola_A1__CanolaA-position">
+          <float_array id="Canola_A1__CanolaA-position-array" count="36">-30.6 12.85 20.8 -35.4 12.85 20.8 -30.6 11.05 20.8 -35.4 11.05 20.8 64.5 3.8 40.5 64.5 3.8 27.7 64.5 -1 40.5 64.5 -1 27.7 -64.5 3.9 29.1 -64.5 3.9 41.9 -64.5 -0.9000001 29.1 -64.5 -0.9000001 41.9</float_array>
+          <technique_common>
+            <accessor source="#Canola_A1__CanolaA-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_A1__CanolaA-normal">
+          <float_array id="Canola_A1__CanolaA-normal-array" count="36">0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Canola_A1__CanolaA-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_A1__CanolaA-texcoord">
+          <float_array id="Canola_A1__CanolaA-texcoord-array" count="24">0.1999512 1 0 1 0.1999512 0 0 0.0004882813 0.3999023 1 0.1999512 1 0.3999023 0 0.1999512 0.0004882813 0.5996094 1 0.3999023 1 0.5996094 0 0.3999023 0.0004882813</float_array>
+          <technique_common>
+            <accessor source="#Canola_A1__CanolaA-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_A1__CanolaA-texcoord_1">
+          <float_array id="Canola_A1__CanolaA-texcoord-array_1" count="24">0.3269551 0.003448546 0.3269551 0.8647593 0.003967346 0.003448546 0.003967346 0.8647593 0.6614938 0.003448546 0.6614938 0.8647593 0.3385061 0.003448546 0.3385061 0.8647593 0.9960327 0.003448546 0.9960327 0.8647593 0.6730449 0.003448546 0.6730449 0.8647593</float_array>
+          <technique_common>
+            <accessor source="#Canola_A1__CanolaA-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Canola_A1__CanolaA-vertex">
+          <input semantic="POSITION" source="#Canola_A1__CanolaA-position" />
+        </vertices>
+        <triangles material="CanolaA" count="6">
+          <input semantic="VERTEX" source="#Canola_A1__CanolaA-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Canola_A1__CanolaA-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Canola_A1__CanolaA-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Canola_A1__CanolaA-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Canola_AV1__CanolaAV-mesh" name="Canola_AV1__CanolaAV">
+      <mesh>
+        <source id="Canola_AV1__CanolaAV-position">
+          <float_array id="Canola_AV1__CanolaAV-position-array" count="24">29 -6.3 90 35 -6.3 90 29 -22.3 90 35 -22.3 90 -35 -6.3 90 -29 -6.3 90 -35 -22.3 90 -29 -22.3 90</float_array>
+          <technique_common>
+            <accessor source="#Canola_AV1__CanolaAV-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_AV1__CanolaAV-normal">
+          <float_array id="Canola_AV1__CanolaAV-normal-array" count="24">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Canola_AV1__CanolaAV-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_AV1__CanolaAV-texcoord">
+          <float_array id="Canola_AV1__CanolaAV-texcoord-array" count="16">0 1 0 0 0.2 1 0.2 0 0.2 1 0.2 0 0.4 1 0.4 0</float_array>
+          <technique_common>
+            <accessor source="#Canola_AV1__CanolaAV-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_AV1__CanolaAV-texcoord_1">
+          <float_array id="Canola_AV1__CanolaAV-texcoord-array_1" count="16">0.2000305 0.9960327 0.001617456 0.9960327 0.2000305 0.003967345 0.001617456 0.003967345 0.4065003 0.9960327 0.2080873 0.9960327 0.4065003 0.003967345 0.2080873 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#Canola_AV1__CanolaAV-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Canola_AV1__CanolaAV-vertex">
+          <input semantic="POSITION" source="#Canola_AV1__CanolaAV-position" />
+        </vertices>
+        <triangles material="CanolaAV" count="4">
+          <input semantic="VERTEX" source="#Canola_AV1__CanolaAV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Canola_AV1__CanolaAV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Canola_AV1__CanolaAV-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Canola_AV1__CanolaAV-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Canola_B1__CanolaB-mesh" name="Canola_B1__CanolaB">
+      <mesh>
+        <source id="Canola_B1__CanolaB-position">
+          <float_array id="Canola_B1__CanolaB-position-array" count="36">64.5 3.9 -29.1 64.5 3.9 -41.9 64.5 -0.9000001 -29.1 64.5 -0.9000001 -41.9 -64.5 3.8 -40.5 -64.5 3.8 -27.7 -64.5 -1 -40.5 -64.5 -1 -27.7 30.6 12.85 -20.8 35.4 12.85 -20.8 30.6 11.05 -20.8 35.4 11.05 -20.8</float_array>
+          <technique_common>
+            <accessor source="#Canola_B1__CanolaB-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_B1__CanolaB-normal">
+          <float_array id="Canola_B1__CanolaB-normal-array" count="36">-1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Canola_B1__CanolaB-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_B1__CanolaB-texcoord">
+          <float_array id="Canola_B1__CanolaB-texcoord-array" count="24">0.1999512 1 0 1 0.1999512 0 0 0.0004882813 0.3999023 1 0.1999512 1 0.3999023 0 0.1999512 0.0004882813 0.5996094 1 0.3999023 1 0.5996094 0 0.3999023 0.0004882813</float_array>
+          <technique_common>
+            <accessor source="#Canola_B1__CanolaB-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_B1__CanolaB-texcoord_1">
+          <float_array id="Canola_B1__CanolaB-texcoord-array_1" count="24">0.3269551 0.003448546 0.3269551 0.8647593 0.003967346 0.003448546 0.003967346 0.8647593 0.6614938 0.003448546 0.6614938 0.8647593 0.3385061 0.003448546 0.3385061 0.8647593 0.9960327 0.003448546 0.9960327 0.8647593 0.6730449 0.003448546 0.6730449 0.8647593</float_array>
+          <technique_common>
+            <accessor source="#Canola_B1__CanolaB-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Canola_B1__CanolaB-vertex">
+          <input semantic="POSITION" source="#Canola_B1__CanolaB-position" />
+        </vertices>
+        <triangles material="CanolaB" count="6">
+          <input semantic="VERTEX" source="#Canola_B1__CanolaB-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Canola_B1__CanolaB-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Canola_B1__CanolaB-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Canola_B1__CanolaB-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Canola_BV1__CanolaBV-mesh" name="Canola_BV1__CanolaBV">
+      <mesh>
+        <source id="Canola_BV1__CanolaBV-position">
+          <float_array id="Canola_BV1__CanolaBV-position-array" count="24">-28.99999 -6.3 -90 -34.99999 -6.3 -90 -28.99999 -22.3 -90 -34.99999 -22.3 -90 35.00001 -6.3 -90 29.00001 -6.3 -90 35.00001 -22.3 -90 29.00001 -22.3 -90</float_array>
+          <technique_common>
+            <accessor source="#Canola_BV1__CanolaBV-position-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_BV1__CanolaBV-normal">
+          <float_array id="Canola_BV1__CanolaBV-normal-array" count="24">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Canola_BV1__CanolaBV-normal-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_BV1__CanolaBV-texcoord">
+          <float_array id="Canola_BV1__CanolaBV-texcoord-array" count="16">0.6 1 0.6 0 0.8 1 0.8 0 0.4 1 0.4 0 0.6 1 0.6 0</float_array>
+          <technique_common>
+            <accessor source="#Canola_BV1__CanolaBV-texcoord-array" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_BV1__CanolaBV-texcoord_1">
+          <float_array id="Canola_BV1__CanolaBV-texcoord-array_1" count="16">0.2000305 0.9960327 0.001617456 0.9960327 0.2000305 0.003967345 0.001617456 0.003967345 0.4065003 0.9960327 0.2080873 0.9960327 0.4065003 0.003967345 0.2080873 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#Canola_BV1__CanolaBV-texcoord-array_1" count="8" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Canola_BV1__CanolaBV-vertex">
+          <input semantic="POSITION" source="#Canola_BV1__CanolaBV-position" />
+        </vertices>
+        <triangles material="CanolaBV" count="4">
+          <input semantic="VERTEX" source="#Canola_BV1__CanolaBV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Canola_BV1__CanolaBV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Canola_BV1__CanolaBV-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Canola_BV1__CanolaBV-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Canola_A1__CanolaA-mesh">
+      <skin source="#Canola_A1__CanolaA-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Canola_A1__CanolaA-mesh-joint">
+          <Name_array id="Canola_A1__CanolaA-mesh-joint-array" count="1">Fld_Temple00_Canola</Name_array>
+          <technique_common>
+            <accessor source="#Canola_A1__CanolaA-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_A1__CanolaA-mesh-inv_bind_matrix">
+          <float_array id="Canola_A1__CanolaA-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Canola_A1__CanolaA-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_A1__CanolaA-mesh-weight">
+          <float_array id="Canola_A1__CanolaA-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Canola_A1__CanolaA-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Canola_A1__CanolaA-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Canola_A1__CanolaA-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#Canola_A1__CanolaA-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Canola_A1__CanolaA-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Canola_AV1__CanolaAV-mesh">
+      <skin source="#Canola_AV1__CanolaAV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Canola_AV1__CanolaAV-mesh-joint">
+          <Name_array id="Canola_AV1__CanolaAV-mesh-joint-array" count="1">Fld_Temple00_Canola</Name_array>
+          <technique_common>
+            <accessor source="#Canola_AV1__CanolaAV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_AV1__CanolaAV-mesh-inv_bind_matrix">
+          <float_array id="Canola_AV1__CanolaAV-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Canola_AV1__CanolaAV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_AV1__CanolaAV-mesh-weight">
+          <float_array id="Canola_AV1__CanolaAV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Canola_AV1__CanolaAV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Canola_AV1__CanolaAV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Canola_AV1__CanolaAV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#Canola_AV1__CanolaAV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Canola_AV1__CanolaAV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Canola_B1__CanolaB-mesh">
+      <skin source="#Canola_B1__CanolaB-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Canola_B1__CanolaB-mesh-joint">
+          <Name_array id="Canola_B1__CanolaB-mesh-joint-array" count="1">Fld_Temple00_Canola</Name_array>
+          <technique_common>
+            <accessor source="#Canola_B1__CanolaB-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_B1__CanolaB-mesh-inv_bind_matrix">
+          <float_array id="Canola_B1__CanolaB-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Canola_B1__CanolaB-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_B1__CanolaB-mesh-weight">
+          <float_array id="Canola_B1__CanolaB-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Canola_B1__CanolaB-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Canola_B1__CanolaB-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Canola_B1__CanolaB-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#Canola_B1__CanolaB-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Canola_B1__CanolaB-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Canola_BV1__CanolaBV-mesh">
+      <skin source="#Canola_BV1__CanolaBV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Canola_BV1__CanolaBV-mesh-joint">
+          <Name_array id="Canola_BV1__CanolaBV-mesh-joint-array" count="1">Fld_Temple00_Canola</Name_array>
+          <technique_common>
+            <accessor source="#Canola_BV1__CanolaBV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_BV1__CanolaBV-mesh-inv_bind_matrix">
+          <float_array id="Canola_BV1__CanolaBV-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Canola_BV1__CanolaBV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Canola_BV1__CanolaBV-mesh-weight">
+          <float_array id="Canola_BV1__CanolaBV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Canola_BV1__CanolaBV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Canola_BV1__CanolaBV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Canola_BV1__CanolaBV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#Canola_BV1__CanolaBV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Canola_BV1__CanolaBV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_Temple00_Canola" name="Fld_Temple00_Canola" sid="Fld_Temple00_Canola" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Canola_A1__CanolaA" name="Canola_A1__CanolaA" type="NODE">
+        <instance_controller url="#Armature_Canola_A1__CanolaA-mesh">
+          <skeleton>#Armature_Fld_Temple00_Canola</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="CanolaA" target="#CanolaA" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Canola_AV1__CanolaAV" name="Canola_AV1__CanolaAV" type="NODE">
+        <instance_controller url="#Armature_Canola_AV1__CanolaAV-mesh">
+          <skeleton>#Armature_Fld_Temple00_Canola</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="CanolaAV" target="#CanolaAV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Canola_B1__CanolaB" name="Canola_B1__CanolaB" type="NODE">
+        <instance_controller url="#Armature_Canola_B1__CanolaB-mesh">
+          <skeleton>#Armature_Fld_Temple00_Canola</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="CanolaB" target="#CanolaB" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Canola_BV1__CanolaBV" name="Canola_BV1__CanolaBV" type="NODE">
+        <instance_controller url="#Armature_Canola_BV1__CanolaBV-mesh">
+          <skeleton>#Armature_Fld_Temple00_Canola</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="CanolaBV" target="#CanolaBV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
