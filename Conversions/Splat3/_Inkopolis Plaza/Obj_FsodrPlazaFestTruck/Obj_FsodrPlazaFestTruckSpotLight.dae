@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="CanolaA_Alb">
+      <init_from>CanolaA_Alb.png</init_from>
+    </image>
+    <image id="CanolaB_Alb">
+      <init_from>CanolaB_Alb.png</init_from>
+    </image>
+    <image id="CanolaMonitorDotLow_Fxm">
+      <init_from>CanolaMonitorDotLow_Fxm.png</init_from>
+    </image>
+    <image id="Decotruck_Emm">
+      <init_from>Decotruck_Emm.png</init_from>
+    </image>
+    <image id="EventCombineBoard_Alb">
+      <init_from>EventCombineBoard_Alb.png</init_from>
+    </image>
+    <image id="EventCombineBoard_Emm">
+      <init_from>EventCombineBoard_Emm.png</init_from>
+    </image>
+    <image id="EventDecotruckCab00_Alb">
+      <init_from>EventDecotruckCab00_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckCab00_Emm">
+      <init_from>EventDecotruckCab00_Emm.png</init_from>
+    </image>
+    <image id="EventDecotruckCab00_Fxm">
+      <init_from>EventDecotruckCab00_Fxm.png</init_from>
+    </image>
+    <image id="EventDecotruckCab00_Nrm">
+      <init_from>EventDecotruckCab00_Nrm.png</init_from>
+    </image>
+    <image id="EventDecotruckCabFenderSeal_Alb">
+      <init_from>EventDecotruckCabFenderSeal_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckCabFender_Alb">
+      <init_from>EventDecotruckCabFender_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckCabFender_Nrm">
+      <init_from>EventDecotruckCabFender_Nrm.png</init_from>
+    </image>
+    <image id="EventDecotruckContainer00_Alb">
+      <init_from>EventDecotruckContainer00_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckContainer00_Nrm">
+      <init_from>EventDecotruckContainer00_Nrm.png</init_from>
+    </image>
+    <image id="EventDecotruckLight_Alb">
+      <init_from>EventDecotruckLight_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckLight_Emm">
+      <init_from>EventDecotruckLight_Emm.png</init_from>
+    </image>
+    <image id="EventDecotruckMetal00_Alb">
+      <init_from>EventDecotruckMetal00_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckMetal00_Nrm">
+      <init_from>EventDecotruckMetal00_Nrm.png</init_from>
+    </image>
+    <image id="EventDecotruckMetal01_Alb">
+      <init_from>EventDecotruckMetal01_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckMetal01_Nrm">
+      <init_from>EventDecotruckMetal01_Nrm.png</init_from>
+    </image>
+    <image id="EventDecotruckOiltankMetal_Alb">
+      <init_from>EventDecotruckOiltankMetal_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckOiltankMetal_Nrm">
+      <init_from>EventDecotruckOiltankMetal_Nrm.png</init_from>
+    </image>
+    <image id="EventDecotruckTire_Alb">
+      <init_from>EventDecotruckTire_Alb.png</init_from>
+    </image>
+    <image id="EventDecotruckTire_Nrm">
+      <init_from>EventDecotruckTire_Nrm.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="LiveScreen_Alb.00">
+      <init_from>LiveScreen_Alb.00.png</init_from>
+    </image>
+    <image id="LiveScreen_Alb.01">
+      <init_from>LiveScreen_Alb.01.png</init_from>
+    </image>
+    <image id="LiveScreen_Alb.02">
+      <init_from>LiveScreen_Alb.02.png</init_from>
+    </image>
+    <image id="LiveScreen_Alb.04">
+      <init_from>LiveScreen_Alb.04.png</init_from>
+    </image>
+    <image id="LiveScreen_Alb.05">
+      <init_from>LiveScreen_Alb.05.png</init_from>
+    </image>
+    <image id="PlazaBarIron_Alb">
+      <init_from>PlazaBarIron_Alb.png</init_from>
+    </image>
+    <image id="PlazaBarIron_Emm">
+      <init_from>PlazaBarIron_Emm.png</init_from>
+    </image>
+    <image id="PlazaBarIron_Nrm">
+      <init_from>PlazaBarIron_Nrm.png</init_from>
+    </image>
+    <image id="PlazaOBJIron_Alb">
+      <init_from>PlazaOBJIron_Alb.png</init_from>
+    </image>
+    <image id="PlazaOBJIron_Nrm">
+      <init_from>PlazaOBJIron_Nrm.png</init_from>
+    </image>
+    <image id="PlazaOBJIron_Opa">
+      <init_from>PlazaOBJIron_Opa.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBigMesh_Alb">
+      <init_from>PlazaSpeakerBigMesh_Alb.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBigMesh_Nrm">
+      <init_from>PlazaSpeakerBigMesh_Nrm.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBigMesh_Opa">
+      <init_from>PlazaSpeakerBigMesh_Opa.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBig_Alb">
+      <init_from>PlazaSpeakerBig_Alb.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBig_Emm">
+      <init_from>PlazaSpeakerBig_Emm.png</init_from>
+    </image>
+    <image id="PlazaSpeakerBig_Nrm">
+      <init_from>PlazaSpeakerBig_Nrm.png</init_from>
+    </image>
+    <image id="PlazaSpeakerSmall_Alb">
+      <init_from>PlazaSpeakerSmall_Alb.png</init_from>
+    </image>
+    <image id="PlazaSpeakerSmall_Emm">
+      <init_from>PlazaSpeakerSmall_Emm.png</init_from>
+    </image>
+    <image id="PlazaSpeakerSmall_Nrm">
+      <init_from>PlazaSpeakerSmall_Nrm.png</init_from>
+    </image>
+    <image id="PlazaSpotLight_Alb">
+      <init_from>PlazaSpotLight_Alb.png</init_from>
+    </image>
+    <image id="PlazaSpotLight_Nrm">
+      <init_from>PlazaSpotLight_Nrm.png</init_from>
+    </image>
+    <image id="Stickers_Alb">
+      <init_from>Stickers_Alb.png</init_from>
+    </image>
+    <image id="Stickers_Opa">
+      <init_from>Stickers_Opa.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="EventDecotruckLight">
+      <instance_effect url="#Effect_EventDecotruckLight" />
+    </material>
+    <material id="SpotLightBeamB">
+      <instance_effect url="#Effect_SpotLightBeamB" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_EventDecotruckLight">
+      <profile_COMMON>
+        <newparam sid="surface_EventDecotruckLight-emission">
+          <surface type="2D">
+            <init_from>EventDecotruckLight_Emm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_EventDecotruckLight-emission">
+          <sampler2D>
+            <source>surface_EventDecotruckLight-emission</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_EventDecotruckLight-diffuse">
+          <surface type="2D">
+            <init_from>EventDecotruckLight_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_EventDecotruckLight-diffuse">
+          <sampler2D>
+            <source>surface_EventDecotruckLight-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <texture texture="sampler_EventDecotruckLight-emission" texcoord="CHANNEL0" />
+            </emission>
+            <diffuse>
+              <texture texture="sampler_EventDecotruckLight-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_SpotLightBeamB">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCylinder1848__SpotLightBeamB-mesh" name="pCylinder1848__SpotLightBeamB">
+      <mesh>
+        <source id="pCylinder1848__SpotLightBeamB-position">
+          <float_array id="pCylinder1848__SpotLightBeamB-position-array" count="360">0.4896461 1.301197 -0.6748109 0.7927758 1.301197 -0.2581269 0.1007862 -0.04230697 -0.1384401 0.1629105 -0.04230697 -0.05275978 -0.0005119324 1.301197 -0.8337401 0.4896461 1.301197 -0.6748109 0.0001646423 -0.04230697 -0.1712411 0.1007862 -0.04230697 -0.1384401 -0.4904741 1.301197 -0.674209 -0.0005119324 1.301197 -0.8337401 -0.1005197 -0.04230697 -0.1386337 0.0001646423 -0.04230697 -0.1712411 -0.7930923 1.301197 -0.2571524 -0.4904741 1.301197 -0.674209 -0.162809 -0.04230705 -0.0530731 -0.1005197 -0.04230697 -0.1386337 -0.7927758 1.301197 0.2581273 -0.7930923 1.301197 -0.2571524 -0.1629109 -0.04230705 0.05275986 -0.162809 -0.04230705 -0.0530731 -0.4896454 1.301197 0.6748111 -0.7927758 1.301197 0.2581273 -0.1007862 -0.04230705 0.1384401 -0.1629109 -0.04230705 0.05275986 0.0005123139 1.301197 0.83374 -0.4896454 1.301197 0.6748111 -0.000164566 -0.04230705 0.171241 -0.1007862 -0.04230705 0.1384401 0.4904746 1.301197 0.6742088 0.0005123139 1.301197 0.83374 0.1005197 -0.04230705 0.1386338 -0.000164566 -0.04230705 0.171241 0.7930922 1.301197 0.2571528 0.4904746 1.301197 0.6742088 0.1628091 -0.04230697 0.05307304 0.1005197 -0.04230705 0.1386338 0.7927758 1.301197 -0.2581269 0.7930922 1.301197 0.2571528 0.1629105 -0.04230697 -0.05275978 0.1628091 -0.04230697 0.05307304 0.4896461 1.301197 -0.6748109 0.7927758 1.301197 -0.2581269 0.1007862 -0.04230697 -0.1384401 0.1629105 -0.04230697 -0.05275978 -0.0005119324 1.301197 -0.8337401 0.4896461 1.301197 -0.6748109 0.0001646423 -0.04230697 -0.1712411 0.1007862 -0.04230697 -0.1384401 -0.4904741 1.301197 -0.674209 -0.0005119324 1.301197 -0.8337401 -0.1005197 -0.04230697 -0.1386337 0.0001646423 -0.04230697 -0.1712411 -0.7930923 1.301197 -0.2571524 -0.4904741 1.301197 -0.674209 -0.162809 -0.04230705 -0.0530731 -0.1005197 -0.04230697 -0.1386337 -0.7927758 1.301197 0.2581273 -0.7930923 1.301197 -0.2571524 -0.1629109 -0.04230705 0.05275986 -0.162809 -0.04230705 -0.0530731 -0.4896454 1.301197 0.6748111 -0.7927758 1.301197 0.2581273 -0.1007862 -0.04230705 0.1384401 -0.1629109 -0.04230705 0.05275986 0.0005123139 1.301197 0.83374 -0.4896454 1.301197 0.6748111 -0.000164566 -0.04230705 0.171241 -0.1007862 -0.04230705 0.1384401 0.4904746 1.301197 0.6742088 0.0005123139 1.301197 0.83374 0.1005197 -0.04230705 0.1386338 -0.000164566 -0.04230705 0.171241 0.7930922 1.301197 0.2571528 0.4904746 1.301197 0.6742088 0.1628091 -0.04230697 0.05307304 0.1005197 -0.04230705 0.1386338 0.7927758 1.301197 -0.2581269 0.7930922 1.301197 0.2571528 0.1629105 -0.04230697 -0.05275978 0.1628091 -0.04230697 0.05307304 0.4896461 1.301197 -0.6748109 0.7927758 1.301197 -0.2581269 0.1007862 -0.04230697 -0.1384401 0.1629105 -0.04230697 -0.05275978 -0.0005119324 1.301197 -0.8337401 0.4896461 1.301197 -0.6748109 0.0001646423 -0.04230697 -0.1712411 0.1007862 -0.04230697 -0.1384401 -0.4904741 1.301197 -0.674209 -0.0005119324 1.301197 -0.8337401 -0.1005197 -0.04230697 -0.1386337 0.0001646423 -0.04230697 -0.1712411 -0.7930923 1.301197 -0.2571524 -0.4904741 1.301197 -0.674209 -0.162809 -0.04230705 -0.0530731 -0.1005197 -0.04230697 -0.1386337 -0.7927758 1.301197 0.2581273 -0.7930923 1.301197 -0.2571524 -0.1629109 -0.04230705 0.05275986 -0.162809 -0.04230705 -0.0530731 -0.4896454 1.301197 0.6748111 -0.7927758 1.301197 0.2581273 -0.1007862 -0.04230705 0.1384401 -0.1629109 -0.04230705 0.05275986 0.0005123139 1.301197 0.83374 -0.4896454 1.301197 0.6748111 -0.000164566 -0.04230705 0.171241 -0.1007862 -0.04230705 0.1384401 0.4904746 1.301197 0.6742088 0.0005123139 1.301197 0.83374 0.1005197 -0.04230705 0.1386338 -0.000164566 -0.04230705 0.171241 0.7930922 1.301197 0.2571528 0.4904746 1.301197 0.6742088 0.1628091 -0.04230697 0.05307304 0.1005197 -0.04230705 0.1386338 0.7927758 1.301197 -0.2581269 0.7930922 1.301197 0.2571528 0.1629105 -0.04230697 -0.05275978 0.1628091 -0.04230697 0.05307304</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1848__SpotLightBeamB-position-array" count="120" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1848__SpotLightBeamB-normal">
+          <float_array id="pCylinder1848__SpotLightBeamB-normal-array" count="360">0.5870842 -0.009784736 -0.8101761 0.9569471 0.01369863 -0.2876712 0.5264188 -0.4422701 -0.7260274 0.853229 -0.4422701 -0.2778865 -0.09393346 -0.03131115 -0.9941292 0.5870842 -0.009784736 -0.8101761 0 -0.4422701 -0.8962818 0.5264188 -0.4422701 -0.7260274 -0.6771037 -0.037182 -0.7358121 -0.09393346 -0.03131115 -0.9941292 -0.5264188 -0.4422701 -0.7260274 0 -0.4422701 -0.8962818 -0.962818 -0.02935421 -0.2661448 -0.6771037 -0.037182 -0.7358121 -0.853229 -0.4422701 -0.2778865 -0.5264188 -0.4422701 -0.7260274 -0.9569471 -0.01369863 0.2876712 -0.962818 -0.02935421 -0.2661448 -0.853229 -0.4422701 0.2778865 -0.853229 -0.4422701 -0.2778865 -0.5870842 0.009784736 0.8101761 -0.9569471 -0.01369863 0.2876712 -0.5264188 -0.4422701 0.7260274 -0.853229 -0.4422701 0.2778865 0.09393346 0.03131115 0.9941292 -0.5870842 0.009784736 0.8101761 0 -0.4422701 0.8962818 -0.5264188 -0.4422701 0.7260274 0.6771037 0.037182 0.7338552 0.09393346 0.03131115 0.9941292 0.5264188 -0.4422701 0.7260274 0 -0.4422701 0.8962818 0.964775 0.02935421 0.2641879 0.6771037 0.037182 0.7338552 0.853229 -0.4422701 0.2778865 0.5264188 -0.4422701 0.7260274 0.9569471 0.01369863 -0.2876712 0.964775 0.02935421 0.2641879 0.853229 -0.4422701 -0.2778865 0.853229 -0.4422701 0.2778865 0.5870842 -0.009784736 -0.8101761 0.9569471 0.01369863 -0.2876712 0.5264188 -0.4422701 -0.7260274 0.853229 -0.4422701 -0.2778865 -0.09393346 -0.03131115 -0.9941292 0.5870842 -0.009784736 -0.8101761 0 -0.4422701 -0.8962818 0.5264188 -0.4422701 -0.7260274 -0.6771037 -0.037182 -0.7358121 -0.09393346 -0.03131115 -0.9941292 -0.5264188 -0.4422701 -0.7260274 0 -0.4422701 -0.8962818 -0.962818 -0.02935421 -0.2661448 -0.6771037 -0.037182 -0.7358121 -0.853229 -0.4422701 -0.2778865 -0.5264188 -0.4422701 -0.7260274 -0.9569471 -0.01369863 0.2876712 -0.962818 -0.02935421 -0.2661448 -0.853229 -0.4422701 0.2778865 -0.853229 -0.4422701 -0.2778865 -0.5870842 0.009784736 0.8101761 -0.9569471 -0.01369863 0.2876712 -0.5264188 -0.4422701 0.7260274 -0.853229 -0.4422701 0.2778865 0.09393346 0.03131115 0.9941292 -0.5870842 0.009784736 0.8101761 0 -0.4422701 0.8962818 -0.5264188 -0.4422701 0.7260274 0.6771037 0.037182 0.7338552 0.09393346 0.03131115 0.9941292 0.5264188 -0.4422701 0.7260274 0 -0.4422701 0.8962818 0.964775 0.02935421 0.2641879 0.6771037 0.037182 0.7338552 0.853229 -0.4422701 0.2778865 0.5264188 -0.4422701 0.7260274 0.9569471 0.01369863 -0.2876712 0.964775 0.02935421 0.2641879 0.853229 -0.4422701 -0.2778865 0.853229 -0.4422701 0.2778865 0.5870842 -0.009784736 -0.8101761 0.9569471 0.01369863 -0.2876712 0.5264188 -0.4422701 -0.7260274 0.853229 -0.4422701 -0.2778865 -0.09393346 -0.03131115 -0.9941292 0.5870842 -0.009784736 -0.8101761 0 -0.4422701 -0.8962818 0.5264188 -0.4422701 -0.7260274 -0.6771037 -0.037182 -0.7358121 -0.09393346 -0.03131115 -0.9941292 -0.5264188 -0.4422701 -0.7260274 0 -0.4422701 -0.8962818 -0.962818 -0.02935421 -0.2661448 -0.6771037 -0.037182 -0.7358121 -0.853229 -0.4422701 -0.2778865 -0.5264188 -0.4422701 -0.7260274 -0.9569471 -0.01369863 0.2876712 -0.962818 -0.02935421 -0.2661448 -0.853229 -0.4422701 0.2778865 -0.853229 -0.4422701 -0.2778865 -0.5870842 0.009784736 0.8101761 -0.9569471 -0.01369863 0.2876712 -0.5264188 -0.4422701 0.7260274 -0.853229 -0.4422701 0.2778865 0.09393346 0.03131115 0.9941292 -0.5870842 0.009784736 0.8101761 0 -0.4422701 0.8962818 -0.5264188 -0.4422701 0.7260274 0.6771037 0.037182 0.7338552 0.09393346 0.03131115 0.9941292 0.5264188 -0.4422701 0.7260274 0 -0.4422701 0.8962818 0.964775 0.02935421 0.2641879 0.6771037 0.037182 0.7338552 0.853229 -0.4422701 0.2778865 0.5264188 -0.4422701 0.7260274 0.9569471 0.01369863 -0.2876712 0.964775 0.02935421 0.2641879 0.853229 -0.4422701 -0.2778865 0.853229 -0.4422701 0.2778865</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1848__SpotLightBeamB-normal-array" count="120" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1848__SpotLightBeamB-color">
+          <float_array id="pCylinder1848__SpotLightBeamB-color-array" count="480">0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1848__SpotLightBeamB-color-array" count="120" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1848__SpotLightBeamB-texcoord">
+          <float_array id="pCylinder1848__SpotLightBeamB-texcoord-array" count="240">1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1848__SpotLightBeamB-texcoord-array" count="120" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder1848__SpotLightBeamB-vertex">
+          <input semantic="POSITION" source="#pCylinder1848__SpotLightBeamB-position" />
+        </vertices>
+        <triangles material="SpotLightBeamB" count="20">
+          <input semantic="VERTEX" source="#pCylinder1848__SpotLightBeamB-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder1848__SpotLightBeamB-normal" offset="1" />
+          <input semantic="COLOR" source="#pCylinder1848__SpotLightBeamB-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCylinder1848__SpotLightBeamB-texcoord" offset="3" set="0" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCylinder1875__EventDecotruckLight-mesh" name="pCylinder1875__EventDecotruckLight">
+      <mesh>
+        <source id="pCylinder1875__EventDecotruckLight-position">
+          <float_array id="pCylinder1875__EventDecotruckLight-position-array" count="81">-0.1138916 -0.04042701 0.1571045 -0.0004973412 -0.03087501 0.001545906 -0.1844482 -0.04042701 0.06018066 -0.1845703 -0.04042701 -0.05975342 0.0002325773 -0.04042701 0.1940918 -0.1142578 -0.04042701 -0.1568604 0.1142578 -0.04042701 0.1568604 -0.0002330542 -0.04042701 -0.1940918 0.1845703 -0.04042701 0.05975342 0.1138916 -0.04042701 -0.1571045 0.1844482 -0.04042701 -0.06018066 -0.192627 -0.04071693 0.06280518 0.00025177 -0.03652076 0.2025146 -0.1192627 -0.03815345 -0.1638184 0.1188965 -0.03818397 -0.1640625 0.192749 -0.04070167 0.06234741 -0.1138916 -0.04042701 0.1571045 -0.0004973412 -0.03087501 0.001545906 -0.1844482 -0.04042701 0.06018066 -0.1845703 -0.04042701 -0.05975342 0.0002325773 -0.04042701 0.1940918 -0.1142578 -0.04042701 -0.1568604 0.1142578 -0.04042701 0.1568604 -0.0002330542 -0.04042701 -0.1940918 0.1845703 -0.04042701 0.05975342 0.1138916 -0.04042701 -0.1571045 0.1844482 -0.04042701 -0.06018066</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1875__EventDecotruckLight-position-array" count="27" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1875__EventDecotruckLight-normal">
+          <float_array id="pCylinder1875__EventDecotruckLight-normal-array" count="81">-0.02935421 0.9980431 0.04109589 0 1 0 -0.04696673 0.9980431 0.01565558 -0.04696673 0.9980431 -0.01565558 0 0.9980431 0.04892368 -0.02935421 0.9980431 -0.03913894 0.02935421 0.9980431 0.03913894 0 0.9980431 -0.04892368 0.04696673 0.9980431 0.01565558 0.02935421 0.9980431 -0.03913894 0.04696673 0.9980431 -0.01565558 -0.04696673 0.9980431 0.01565558 0 0.9980431 0.04892368 -0.02935421 0.9980431 -0.03913894 0.02935421 0.9980431 -0.03913894 0.04696673 0.9980431 0.01565558 -0.02935421 0.9980431 0.04109589 0 1 0 -0.04696673 0.9980431 0.01565558 -0.04696673 0.9980431 -0.01565558 0 0.9980431 0.04892368 -0.02935421 0.9980431 -0.03913894 0.02935421 0.9980431 0.03913894 0 0.9980431 -0.04892368 0.04696673 0.9980431 0.01565558 0.02935421 0.9980431 -0.03913894 0.04696673 0.9980431 -0.01565558</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1875__EventDecotruckLight-normal-array" count="27" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1875__EventDecotruckLight-texcoord">
+          <float_array id="pCylinder1875__EventDecotruckLight-texcoord-array" count="54">0.9893797 0.3368124 0.4978866 0.5022049 0.7910888 0.09530783 0.5117876 0.01104754 0.989929 0.6644083 0.2257572 0.08534372 0.7934844 0.906508 0.01089494 0.3294117 0.515053 0.9929961 0.01089494 0.676524 0.2276188 0.9207294 0.7910888 0.09530783 0.989929 0.6644083 0.2257572 0.08534372 0.01089494 0.676524 0.515053 0.9929961 0.9893797 0.3368124 0.4978866 0.5022049 0.7910888 0.09530783 0.5117876 0.01104754 0.989929 0.6644083 0.2257572 0.08534372 0.7934844 0.906508 0.01089494 0.3294117 0.515053 0.9929961 0.01089494 0.676524 0.2276188 0.9207294</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1875__EventDecotruckLight-texcoord-array" count="27" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder1875__EventDecotruckLight-vertex">
+          <input semantic="POSITION" source="#pCylinder1875__EventDecotruckLight-position" />
+        </vertices>
+        <triangles material="EventDecotruckLight" count="10">
+          <input semantic="VERTEX" source="#pCylinder1875__EventDecotruckLight-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCylinder1875__EventDecotruckLight-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCylinder1875__EventDecotruckLight-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 1 1 1 3 3 3 4 4 4 1 1 1 0 0 0 3 3 3 1 1 1 5 5 5 6 6 6 1 1 1 4 4 4 5 5 5 1 1 1 7 7 7 8 8 8 1 1 1 6 6 6 7 7 7 1 1 1 9 9 9 10 10 10 1 1 1 8 8 8 9 9 9 1 1 1 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCylinder1848__SpotLightBeamB-mesh">
+      <skin source="#pCylinder1848__SpotLightBeamB-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder1848__SpotLightBeamB-mesh-joint">
+          <Name_array id="pCylinder1848__SpotLightBeamB-mesh-joint-array" count="1">Obj_FsodrPlazaFestTruckSpotLight</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder1848__SpotLightBeamB-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1848__SpotLightBeamB-mesh-inv_bind_matrix">
+          <float_array id="pCylinder1848__SpotLightBeamB-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0.02052956 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1848__SpotLightBeamB-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1848__SpotLightBeamB-mesh-weight">
+          <float_array id="pCylinder1848__SpotLightBeamB-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1848__SpotLightBeamB-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder1848__SpotLightBeamB-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder1848__SpotLightBeamB-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="120">
+          <input semantic="JOINT" source="#pCylinder1848__SpotLightBeamB-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder1848__SpotLightBeamB-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCylinder1875__EventDecotruckLight-mesh">
+      <skin source="#pCylinder1875__EventDecotruckLight-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCylinder1875__EventDecotruckLight-mesh-joint">
+          <Name_array id="pCylinder1875__EventDecotruckLight-mesh-joint-array" count="1">Obj_FsodrPlazaFestTruckSpotLight</Name_array>
+          <technique_common>
+            <accessor source="#pCylinder1875__EventDecotruckLight-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1875__EventDecotruckLight-mesh-inv_bind_matrix">
+          <float_array id="pCylinder1875__EventDecotruckLight-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0.02052956 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1875__EventDecotruckLight-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder1875__EventDecotruckLight-mesh-weight">
+          <float_array id="pCylinder1875__EventDecotruckLight-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCylinder1875__EventDecotruckLight-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCylinder1875__EventDecotruckLight-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCylinder1875__EventDecotruckLight-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="27">
+          <input semantic="JOINT" source="#pCylinder1875__EventDecotruckLight-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCylinder1875__EventDecotruckLight-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_FsodrPlazaFestTruckSpotLight" name="Obj_FsodrPlazaFestTruckSpotLight" sid="Obj_FsodrPlazaFestTruckSpotLight" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 -0.02052956 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="pCylinder1848__SpotLightBeamB" name="pCylinder1848__SpotLightBeamB" type="NODE">
+        <instance_controller url="#Armature_pCylinder1848__SpotLightBeamB-mesh">
+          <skeleton>#Armature_Obj_FsodrPlazaFestTruckSpotLight</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="SpotLightBeamB" target="#SpotLightBeamB" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCylinder1875__EventDecotruckLight" name="pCylinder1875__EventDecotruckLight" type="NODE">
+        <instance_controller url="#Armature_pCylinder1875__EventDecotruckLight-mesh">
+          <skeleton>#Armature_Obj_FsodrPlazaFestTruckSpotLight</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="EventDecotruckLight" target="#EventDecotruckLight" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
