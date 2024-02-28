@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorD_Alb">
+      <init_from>PlazaAutoDoorD_Alb.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorD_Nrm">
+      <init_from>PlazaAutoDoorD_Nrm.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorD_Opa">
+      <init_from>PlazaAutoDoorD_Opa.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorD_Rgh">
+      <init_from>PlazaAutoDoorD_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GlassStandardWall">
+      <instance_effect url="#Effect_GlassStandardWall" />
+    </material>
+    <material id="PlazaAutoDoorD">
+      <instance_effect url="#Effect_PlazaAutoDoorD" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GlassStandardWall">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_PlazaAutoDoorD">
+      <profile_COMMON>
+        <newparam sid="surface_PlazaAutoDoorD-diffuse">
+          <surface type="2D">
+            <init_from>PlazaAutoDoorD_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PlazaAutoDoorD-diffuse">
+          <sampler2D>
+            <source>surface_PlazaAutoDoorD-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_PlazaAutoDoorD-bump">
+          <surface type="2D">
+            <init_from>PlazaAutoDoorD_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PlazaAutoDoorD-bump">
+          <sampler2D>
+            <source>surface_PlazaAutoDoorD-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_PlazaAutoDoorD-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_PlazaAutoDoorD-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="DoorSlide__GlassStandardWall-mesh" name="DoorSlide__GlassStandardWall">
+      <mesh>
+        <source id="DoorSlide__GlassStandardWall-position">
+          <float_array id="DoorSlide__GlassStandardWall-position-array" count="12">1.532436 4.060744 0.03551025 -1.512886 4.049024 0.03551025 1.532436 0.1509909 0.03551025 -1.512886 0.1509909 0.03551025</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__GlassStandardWall-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__GlassStandardWall-normal">
+          <float_array id="DoorSlide__GlassStandardWall-normal-array" count="12">0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__GlassStandardWall-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__GlassStandardWall-texcoord">
+          <float_array id="DoorSlide__GlassStandardWall-texcoord-array" count="8">0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__GlassStandardWall-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorSlide__GlassStandardWall-vertex">
+          <input semantic="POSITION" source="#DoorSlide__GlassStandardWall-position" />
+        </vertices>
+        <triangles material="GlassStandardWall" count="2">
+          <input semantic="VERTEX" source="#DoorSlide__GlassStandardWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorSlide__GlassStandardWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorSlide__GlassStandardWall-texcoord" offset="2" set="1" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DoorSlide__PlazaAutoDoorD-mesh" name="DoorSlide__PlazaAutoDoorD">
+      <mesh>
+        <source id="DoorSlide__PlazaAutoDoorD-position">
+          <float_array id="DoorSlide__PlazaAutoDoorD-position-array" count="120">1.532451 4.27108 -0.01448242 -1.512876 4.27108 -0.01448242 1.532451 4.27108 0.08551758 -1.512876 4.27108 0.08551758 1.532451 4.007167 0.08551758 -1.512876 4.007167 0.08551758 1.532451 4.007167 -0.01448242 -1.512876 4.007167 -0.01448242 1.532451 4.27108 -0.01448242 -1.512876 4.27108 -0.01448242 -1.665903 -0.008799026 -0.01448242 -1.665903 4.27108 -0.01448242 -1.512878 4.27108 -0.01448242 -1.512878 -0.008799026 -0.01448242 -1.512878 4.27108 0.08551758 -1.512878 -0.008799026 0.08551758 -1.665903 4.27108 0.08551758 -1.665903 -0.008799026 0.08551758 -1.665903 4.27108 -0.01448242 -1.665903 -0.008799026 -0.01448242 1.532451 -0.008799026 -0.01448242 1.532451 4.27108 -0.01448242 1.685476 4.27108 -0.01448242 1.685476 -0.008799026 -0.01448242 1.685476 4.27108 0.08551758 1.685476 -0.008799026 0.08551758 1.532451 4.27108 0.08551758 1.532451 -0.008799026 0.08551758 1.532451 4.27108 -0.01448242 1.532451 -0.008799026 -0.01448242 -1.512876 -0.008799026 0.08551758 1.532451 -0.008799026 0.08551758 -1.512876 0.255114 0.08551758 1.532451 0.255114 0.08551758 -1.512876 0.255114 -0.01448242 1.532451 0.255114 -0.01448242 -1.512876 -0.008799026 -0.01448242 1.532451 -0.008799026 -0.01448242 -1.512876 -0.008799026 0.08551758 1.532451 -0.008799026 0.08551758</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__PlazaAutoDoorD-position-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__PlazaAutoDoorD-normal">
+          <float_array id="DoorSlide__PlazaAutoDoorD-normal-array" count="120">0 0.3542074 -0.9354208 0 0.3542074 -0.9354208 0 0.3542074 0.9354208 0 0.3542074 0.9354208 0 -0.3542074 0.9354208 0 -0.3542074 0.9354208 0 -0.3542074 -0.9354208 0 -0.3542074 -0.9354208 0 0.3542074 -0.9354208 0 0.3542074 -0.9354208 -0.5479452 0 -0.8375734 -0.5479452 0 -0.8375734 0.5479452 0 -0.8375734 0.5479452 0 -0.8375734 0.5479452 0 0.8375734 0.5479452 0 0.8375734 -0.5479452 0 0.8375734 -0.5479452 0 0.8375734 -0.5479452 0 -0.8375734 -0.5479452 0 -0.8375734 -0.5479452 0 -0.8375734 -0.5479452 0 -0.8375734 0.5479452 0 -0.8375734 0.5479452 0 -0.8375734 0.5479452 0 0.8375734 0.5479452 0 0.8375734 -0.5479452 0 0.8375734 -0.5479452 0 0.8375734 -0.5479452 0 -0.8375734 -0.5479452 0 -0.8375734 0 -0.3542074 0.9354208 0 -0.3542074 0.9354208 0 0.3542074 0.9354208 0 0.3542074 0.9354208 0 0.3542074 -0.9354208 0 0.3542074 -0.9354208 0 -0.3542074 -0.9354208 0 -0.3542074 -0.9354208 0 -0.3542074 0.9354208 0 -0.3542074 0.9354208</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__PlazaAutoDoorD-normal-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__PlazaAutoDoorD-texcoord">
+          <float_array id="DoorSlide__PlazaAutoDoorD-texcoord-array" count="80">0.7705078 0.8540039 0.009254456 0.8540039 0.7705078 0.8289795 0.009254456 0.8289795 0.7705078 0.7629395 0.009254456 0.7629395 0.7705078 0.7380371 0.009254456 0.7380371 0.7705078 0.6721191 0.009254456 0.6721191 -0.02761841 0.8668213 1.041992 0.8668213 1.041992 0.9050293 -0.02761841 0.9050293 1.041992 0.9299927 -0.02761841 0.9299927 1.041992 0.9682617 -0.02761841 0.9682617 1.041992 0.9932442 -0.02761841 0.9932442 -0.02761841 0.8668213 1.041992 0.8668213 1.041992 0.9050293 -0.02761841 0.9050293 1.041992 0.9299927 -0.02761841 0.9299927 1.041992 0.9682617 -0.02761841 0.9682617 1.041992 0.9932442 -0.02761841 0.9932442 0.7705078 0.8540039 0.009254456 0.8540039 0.7705078 0.7879639 0.009254456 0.7879639 0.7705078 0.7629395 0.009254456 0.7629395 0.7705078 0.6970215 0.009254456 0.6970215 0.7705078 0.6721191 0.009254456 0.6721191</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__PlazaAutoDoorD-texcoord-array" count="40" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__PlazaAutoDoorD-texcoord_1">
+          <float_array id="DoorSlide__PlazaAutoDoorD-texcoord-array_1" count="80">0.3579919 0.9937438 0.3579919 0.005905271 0.3992828 0.9937438 0.3992828 0.005905271 0.5082933 0.9937438 0.5082933 0.005905271 0.5495995 0.9937438 0.5495995 0.005905271 0.6585947 0.9937438 0.6585947 0.005905271 0.3472038 0.003982604 0.3472038 0.9960174 0.3020371 0.9960174 0.3020371 0.003982604 0.2725261 0.9960174 0.2725261 0.003982604 0.2273747 0.9960174 0.2273747 0.003982604 0.1978485 0.9960174 0.1978485 0.003982604 0.1865263 0.003982604 0.1865263 0.9960174 0.1413748 0.9960174 0.1413748 0.003982604 0.1118486 0.9960174 0.1118486 0.003982604 0.06669719 0.9960174 0.06669719 0.003982604 0.03718624 0.9960174 0.03718624 0.003982604 0.6746624 0.9930571 0.6746624 0.005218565 0.7836729 0.9930571 0.7836729 0.005218565 0.824979 0.9930571 0.824979 0.005218565 0.9339742 0.9930571 0.9339742 0.005218565 0.9752804 0.9930571 0.9752804 0.005218565</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__PlazaAutoDoorD-texcoord-array_1" count="40" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DoorSlide__PlazaAutoDoorD-vertex">
+          <input semantic="POSITION" source="#DoorSlide__PlazaAutoDoorD-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorD" count="32">
+          <input semantic="VERTEX" source="#DoorSlide__PlazaAutoDoorD-vertex" offset="0" />
+          <input semantic="NORMAL" source="#DoorSlide__PlazaAutoDoorD-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#DoorSlide__PlazaAutoDoorD-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#DoorSlide__PlazaAutoDoorD-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 2 2 2 2 3 3 3 3 5 5 5 5 4 4 4 4 3 3 3 3 6 6 6 6 4 4 4 4 5 5 5 5 7 7 7 7 6 6 6 6 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 7 7 7 7 9 9 9 9 8 8 8 8 10 10 10 10 11 11 11 11 12 12 12 12 13 13 13 13 10 10 10 10 12 12 12 12 12 12 12 12 14 14 14 14 13 13 13 13 14 14 14 14 15 15 15 15 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 15 15 15 15 16 16 16 16 17 17 17 17 16 16 16 16 18 18 18 18 19 19 19 19 17 17 17 17 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 23 23 23 23 20 20 20 20 22 22 22 22 22 22 22 22 24 24 24 24 23 23 23 23 24 24 24 24 25 25 25 25 23 23 23 23 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 25 25 25 25 26 26 26 26 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 27 27 27 27 28 28 28 28 30 30 30 30 31 31 31 31 32 32 32 32 31 31 31 31 33 33 33 33 32 32 32 32 34 34 34 34 32 32 32 32 33 33 33 33 35 35 35 35 34 34 34 34 33 33 33 33 36 36 36 36 34 34 34 34 35 35 35 35 37 37 37 37 36 36 36 36 35 35 35 35 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_DoorSlide__GlassStandardWall-mesh">
+      <skin source="#DoorSlide__GlassStandardWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorSlide__GlassStandardWall-mesh-joint">
+          <Name_array id="DoorSlide__GlassStandardWall-mesh-joint-array" count="1">DoorSlide</Name_array>
+          <technique_common>
+            <accessor source="#DoorSlide__GlassStandardWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__GlassStandardWall-mesh-inv_bind_matrix">
+          <float_array id="DoorSlide__GlassStandardWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__GlassStandardWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__GlassStandardWall-mesh-weight">
+          <float_array id="DoorSlide__GlassStandardWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__GlassStandardWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorSlide__GlassStandardWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorSlide__GlassStandardWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#DoorSlide__GlassStandardWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorSlide__GlassStandardWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_DoorSlide__PlazaAutoDoorD-mesh">
+      <skin source="#DoorSlide__PlazaAutoDoorD-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="DoorSlide__PlazaAutoDoorD-mesh-joint">
+          <Name_array id="DoorSlide__PlazaAutoDoorD-mesh-joint-array" count="1">DoorSlide</Name_array>
+          <technique_common>
+            <accessor source="#DoorSlide__PlazaAutoDoorD-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__PlazaAutoDoorD-mesh-inv_bind_matrix">
+          <float_array id="DoorSlide__PlazaAutoDoorD-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__PlazaAutoDoorD-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DoorSlide__PlazaAutoDoorD-mesh-weight">
+          <float_array id="DoorSlide__PlazaAutoDoorD-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#DoorSlide__PlazaAutoDoorD-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#DoorSlide__PlazaAutoDoorD-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#DoorSlide__PlazaAutoDoorD-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="40">
+          <input semantic="JOINT" source="#DoorSlide__PlazaAutoDoorD-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#DoorSlide__PlazaAutoDoorD-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_SdodrPlazaAutoDoorD" name="Obj_SdodrPlazaAutoDoorD" sid="Obj_SdodrPlazaAutoDoorD" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_Door" name="Door" sid="Door" type="JOINT">
+            <matrix sid="transform">1 0 0 -1.665903 0 1 0 -0.008799026 0 0 1 0.08551758 0 0 0 1</matrix>
+            <node id="Armature_Col_0" name="Col_0" sid="Col_0" type="JOINT">
+              <matrix sid="transform">1 0 0 1.677623 0 1 0 2.139939 0 0 1 -0.04544758 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_DoorSlide" name="DoorSlide" sid="DoorSlide" type="JOINT">
+              <matrix sid="transform">1 0 0 1.665903 0 1 0 0.008799026 0 0 1 -0.08551758 0 0 0 1</matrix>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="DoorSlide__GlassStandardWall" name="DoorSlide__GlassStandardWall" type="NODE">
+        <instance_controller url="#Armature_DoorSlide__GlassStandardWall-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorD</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GlassStandardWall" target="#GlassStandardWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="DoorSlide__PlazaAutoDoorD" name="DoorSlide__PlazaAutoDoorD" type="NODE">
+        <instance_controller url="#Armature_DoorSlide__PlazaAutoDoorD-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorD</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorD" target="#PlazaAutoDoorD" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

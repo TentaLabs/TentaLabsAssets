@@ -1,0 +1,1655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="GlassStandard_Alb">
+      <init_from>GlassStandard_Alb.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorC_Alb">
+      <init_from>PlazaAutoDoorC_Alb.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorC_Mtl">
+      <init_from>PlazaAutoDoorC_Mtl.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorC_Nrm">
+      <init_from>PlazaAutoDoorC_Nrm.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorC_Opa">
+      <init_from>PlazaAutoDoorC_Opa.png</init_from>
+    </image>
+    <image id="PlazaAutoDoorC_Rgh">
+      <init_from>PlazaAutoDoorC_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="GlassStandardWall">
+      <instance_effect url="#Effect_GlassStandardWall" />
+    </material>
+    <material id="PlazaAutoDoorC">
+      <instance_effect url="#Effect_PlazaAutoDoorC" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_GlassStandardWall">
+      <profile_COMMON>
+        <newparam sid="surface_GlassStandardWall-diffuse">
+          <surface type="2D">
+            <init_from>GlassStandard_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_GlassStandardWall-diffuse">
+          <sampler2D>
+            <source>surface_GlassStandardWall-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_GlassStandardWall-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_PlazaAutoDoorC">
+      <profile_COMMON>
+        <newparam sid="surface_PlazaAutoDoorC-diffuse">
+          <surface type="2D">
+            <init_from>PlazaAutoDoorC_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PlazaAutoDoorC-diffuse">
+          <sampler2D>
+            <source>surface_PlazaAutoDoorC-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_PlazaAutoDoorC-bump">
+          <surface type="2D">
+            <init_from>PlazaAutoDoorC_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PlazaAutoDoorC-bump">
+          <sampler2D>
+            <source>surface_PlazaAutoDoorC-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_PlazaAutoDoorC-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_PlazaAutoDoorC-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube18406_1__PlazaAutoDoorC-mesh" name="pCube18406_1__PlazaAutoDoorC">
+      <mesh>
+        <source id="pCube18406_1__PlazaAutoDoorC-position">
+          <float_array id="pCube18406_1__PlazaAutoDoorC-position-array" count="132">-0.1762506 1.028342 0.02808527 -0.1762506 1.028342 0.05244335 -0.1762506 1.894386 0.02808527 -0.1762506 1.894386 0.05244335 -0.1762506 1.894386 0.02808527 -0.1762506 1.894386 0.05244335 -0.009545289 1.894386 0.0280873 -0.009545289 1.894386 0.05244641 -0.009545289 1.894386 0.0280873 -0.009545289 1.894386 0.05244641 -0.009545289 1.028342 0.0280873 -0.009545289 1.028342 0.05244641 -0.009545289 1.028342 0.0280873 -0.009545289 1.028342 0.05244641 -0.1762506 1.028342 0.02808527 -0.1762506 1.028342 0.05244335 -0.1762506 1.028342 0.05244335 -0.009545289 1.028342 0.05244641 -0.1762506 1.894386 0.05244335 -0.009545289 1.894386 0.05244641 -0.1762506 1.028342 0.05244335 -0.009545289 1.028342 0.05244641 -0.1762506 1.894386 0.05244335 -0.009545289 1.894386 0.05244641 -0.1762506 1.028342 0.02808527 -0.1762506 1.028342 0.05244335 -0.1762506 1.894386 0.02808527 -0.1762506 1.894386 0.05244335 -0.1762506 1.894386 0.02808527 -0.1762506 1.894386 0.05244335 -0.009545289 1.894386 0.0280873 -0.009545289 1.894386 0.05244641 -0.009545289 1.894386 0.0280873 -0.009545289 1.894386 0.05244641 -0.009545289 1.028342 0.0280873 -0.009545289 1.028342 0.05244641 -0.009545289 1.028342 0.0280873 -0.009545289 1.028342 0.05244641 -0.1762506 1.028342 0.02808527 -0.1762506 1.028342 0.05244335 -0.1762506 1.028342 0.05244335 -0.009545289 1.028342 0.05244641 -0.1762506 1.894386 0.05244335 -0.009545289 1.894386 0.05244641</float_array>
+          <technique_common>
+            <accessor source="#pCube18406_1__PlazaAutoDoorC-position-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406_1__PlazaAutoDoorC-normal">
+          <float_array id="pCube18406_1__PlazaAutoDoorC-normal-array" count="132">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube18406_1__PlazaAutoDoorC-normal-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406_1__PlazaAutoDoorC-texcoord">
+          <float_array id="pCube18406_1__PlazaAutoDoorC-texcoord-array" count="88">0.3958648 0.409308 0.4019532 0.409308 0.3958648 0.6258335 0.4019532 0.6258335 0.04504463 0.9792172 0.04504463 0.9731289 0.08671702 0.9792172 0.08671702 0.9731289 0.04054322 0.9575647 0.04054322 0.9514763 0.2570535 0.9575647 0.2570535 0.9514763 0.09874113 0.9790799 0.09874113 0.9729915 0.1404135 0.9790799 0.1404135 0.9729915 0.2918288 0.4084688 0.3335012 0.4084688 0.2918288 0.624979 0.3335012 0.624979 0.2918288 0.4084688 0.3335012 0.4084688 0.2918288 0.624979 0.3335012 0.624979 0.3958648 0.409308 0.4019532 0.409308 0.3958648 0.6258335 0.4019532 0.6258335 0.04504463 0.9792172 0.04504463 0.9731289 0.08671702 0.9792172 0.08671702 0.9731289 0.04054322 0.9575647 0.04054322 0.9514763 0.2570535 0.9575647 0.2570535 0.9514763 0.09874113 0.9790799 0.09874113 0.9729915 0.1404135 0.9790799 0.1404135 0.9729915 0.2918288 0.4084688 0.3335012 0.4084688 0.2918288 0.624979 0.3335012 0.624979</float_array>
+          <technique_common>
+            <accessor source="#pCube18406_1__PlazaAutoDoorC-texcoord-array" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406_1__PlazaAutoDoorC-texcoord_1">
+          <float_array id="pCube18406_1__PlazaAutoDoorC-texcoord-array_1" count="88">0.9362326 0.7177691 0.9398184 0.7177691 0.9362326 0.8452582 0.9398184 0.8452582 0.9163195 0.7754329 0.9127337 0.7754329 0.9163195 0.7508965 0.9127337 0.7508965 0.7948882 0.8790265 0.7913024 0.8790265 0.7948882 0.7515373 0.7913024 0.7515373 0.9104448 0.8095369 0.9068589 0.8095369 0.9104448 0.7850004 0.9068589 0.7850004 0.9362326 0.4393072 0.9607843 0.4393072 0.9362326 0.5667964 0.9607843 0.5667964 0.9362326 0.4393072 0.9607843 0.4393072 0.9362326 0.5667964 0.9607843 0.5667964 0.9362326 0.7177691 0.9398184 0.7177691 0.9362326 0.8452582 0.9398184 0.8452582 0.9163195 0.7754329 0.9127337 0.7754329 0.9163195 0.7508965 0.9127337 0.7508965 0.7948882 0.8790265 0.7913024 0.8790265 0.7948882 0.7515373 0.7913024 0.7515373 0.9104448 0.8095369 0.9068589 0.8095369 0.9104448 0.7850004 0.9068589 0.7850004 0.9362326 0.4393072 0.9607843 0.4393072 0.9362326 0.5667964 0.9607843 0.5667964</float_array>
+          <technique_common>
+            <accessor source="#pCube18406_1__PlazaAutoDoorC-texcoord-array_1" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube18406_1__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#pCube18406_1__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="10">
+          <input semantic="VERTEX" source="#pCube18406_1__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube18406_1__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube18406_1__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube18406_1__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube18411_1__PlazaAutoDoorC-mesh" name="pCube18411_1__PlazaAutoDoorC">
+      <mesh>
+        <source id="pCube18411_1__PlazaAutoDoorC-position">
+          <float_array id="pCube18411_1__PlazaAutoDoorC-position-array" count="132">-0.1796088 1.028342 -0.04009384 -0.1796088 1.894385 -0.04009384 -0.1796088 1.028342 -0.06445275 -0.1796088 1.894385 -0.06445275 -0.1796088 1.894385 -0.04009384 -0.01290834 1.894385 -0.04009127 -0.1796088 1.894385 -0.06445275 -0.01290834 1.894385 -0.0644497 -0.01290834 1.894385 -0.04009127 -0.01290834 1.028342 -0.04009127 -0.01290834 1.894385 -0.0644497 -0.01290834 1.028342 -0.0644497 -0.01290834 1.028342 -0.04009127 -0.1796088 1.028342 -0.04009384 -0.01290834 1.028342 -0.0644497 -0.1796088 1.028342 -0.06445275 -0.1796088 1.028342 -0.06445275 -0.1796088 1.894385 -0.06445275 -0.01290834 1.028342 -0.0644497 -0.01290834 1.894385 -0.0644497 -0.1796088 1.028342 -0.06445275 -0.1796088 1.894385 -0.06445275 -0.01290834 1.028342 -0.0644497 -0.01290834 1.894385 -0.0644497 -0.1796088 1.028342 -0.04009384 -0.1796088 1.894385 -0.04009384 -0.1796088 1.028342 -0.06445275 -0.1796088 1.894385 -0.06445275 -0.1796088 1.894385 -0.04009384 -0.01290834 1.894385 -0.04009127 -0.1796088 1.894385 -0.06445275 -0.01290834 1.894385 -0.0644497 -0.01290834 1.894385 -0.04009127 -0.01290834 1.028342 -0.04009127 -0.01290834 1.894385 -0.0644497 -0.01290834 1.028342 -0.0644497 -0.01290834 1.028342 -0.04009127 -0.1796088 1.028342 -0.04009384 -0.01290834 1.028342 -0.0644497 -0.1796088 1.028342 -0.06445275 -0.1796088 1.028342 -0.06445275 -0.1796088 1.894385 -0.06445275 -0.01290834 1.028342 -0.0644497 -0.01290834 1.894385 -0.0644497</float_array>
+          <technique_common>
+            <accessor source="#pCube18411_1__PlazaAutoDoorC-position-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411_1__PlazaAutoDoorC-normal">
+          <float_array id="pCube18411_1__PlazaAutoDoorC-normal-array" count="132">-1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#pCube18411_1__PlazaAutoDoorC-normal-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411_1__PlazaAutoDoorC-texcoord">
+          <float_array id="pCube18411_1__PlazaAutoDoorC-texcoord-array" count="88">1.395508 0.409668 1.395508 0.6259766 1.401367 0.409668 1.401367 0.6259766 1.044922 0.9792175 1.085938 0.9792175 1.044922 0.973114 1.085938 0.973114 1.040039 0.9576111 1.256836 0.9576111 1.040039 0.9515381 1.256836 0.9515381 1.097656 0.9788971 1.139648 0.9788971 1.097656 0.9728088 1.139648 0.9728088 1.341797 0.4086914 1.341797 0.625 1.383789 0.4086914 1.383789 0.625 1.341797 0.4086914 1.341797 0.625 1.383789 0.4086914 1.383789 0.625 1.395508 0.409668 1.395508 0.6259766 1.401367 0.409668 1.401367 0.6259766 1.044922 0.9792175 1.085938 0.9792175 1.044922 0.973114 1.085938 0.973114 1.040039 0.9576111 1.256836 0.9576111 1.040039 0.9515381 1.256836 0.9515381 1.097656 0.9788971 1.139648 0.9788971 1.097656 0.9728088 1.139648 0.9728088 1.341797 0.4086914 1.341797 0.625 1.383789 0.4086914 1.383789 0.625</float_array>
+          <technique_common>
+            <accessor source="#pCube18411_1__PlazaAutoDoorC-texcoord-array" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411_1__PlazaAutoDoorC-texcoord_1">
+          <float_array id="pCube18411_1__PlazaAutoDoorC-texcoord-array_1" count="88">0.847776 0.7512016 0.847776 0.8786755 0.8441901 0.7512016 0.8441901 0.8786755 0.9205768 0.8105745 0.9205768 0.786038 0.9241474 0.8105745 0.9241474 0.786038 0.8578928 0.8790417 0.8578928 0.7515678 0.8614786 0.8790417 0.8614786 0.7515678 0.8716106 0.7762417 0.8716106 0.7517052 0.8751965 0.7762417 0.8751965 0.7517052 0.9940795 0.6841077 0.9940795 0.8115969 0.9695277 0.6841077 0.9695277 0.8115969 0.9940795 0.6841077 0.9940795 0.8115969 0.9695277 0.6841077 0.9695277 0.8115969 0.847776 0.7512016 0.847776 0.8786755 0.8441901 0.7512016 0.8441901 0.8786755 0.9205768 0.8105745 0.9205768 0.786038 0.9241474 0.8105745 0.9241474 0.786038 0.8578928 0.8790417 0.8578928 0.7515678 0.8614786 0.8790417 0.8614786 0.7515678 0.8716106 0.7762417 0.8716106 0.7517052 0.8751965 0.7762417 0.8751965 0.7517052 0.9940795 0.6841077 0.9940795 0.8115969 0.9695277 0.6841077 0.9695277 0.8115969</float_array>
+          <technique_common>
+            <accessor source="#pCube18411_1__PlazaAutoDoorC-texcoord-array_1" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube18411_1__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#pCube18411_1__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="10">
+          <input semantic="VERTEX" source="#pCube18411_1__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube18411_1__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube18411_1__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube18411_1__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface11324__PlazaAutoDoorC-mesh" name="polySurface11324__PlazaAutoDoorC">
+      <mesh>
+        <source id="polySurface11324__PlazaAutoDoorC-position">
+          <float_array id="polySurface11324__PlazaAutoDoorC-position-array" count="36">-1.516066 2.791823 -0.0397085 -0.23102 2.791823 -0.03440423 -1.516066 1.665379 -0.0397085 -0.23102 1.665379 -0.03440423 -1.516066 2.791823 -0.0397085 -0.23102 2.791823 -0.03440423 -1.516066 1.665379 -0.0397085 -0.23102 1.665379 -0.03440423 -1.516066 2.791823 -0.0397085 -0.23102 2.791823 -0.03440423 -1.516066 1.665379 -0.0397085 -0.23102 1.665379 -0.03440423</float_array>
+          <technique_common>
+            <accessor source="#polySurface11324__PlazaAutoDoorC-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11324__PlazaAutoDoorC-normal">
+          <float_array id="polySurface11324__PlazaAutoDoorC-normal-array" count="36">0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11324__PlazaAutoDoorC-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11324__PlazaAutoDoorC-texcoord">
+          <float_array id="polySurface11324__PlazaAutoDoorC-texcoord-array" count="24">1.891602 0.8133545 1.570313 0.8133545 1.891602 0.5317383 1.570313 0.5317383 1.891602 0.8133545 1.570313 0.8133545 1.891602 0.5317383 1.570313 0.5317383 1.891602 0.8133545 1.570313 0.8133545 1.891602 0.5317383 1.570313 0.5317383</float_array>
+          <technique_common>
+            <accessor source="#polySurface11324__PlazaAutoDoorC-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11324__PlazaAutoDoorC-texcoord_1">
+          <float_array id="polySurface11324__PlazaAutoDoorC-texcoord-array_1" count="24">0.4392157 0.5058824 0.4392157 0.6980392 0.2745098 0.5058824 0.2745098 0.6980392 0.4392157 0.5058824 0.4392157 0.6980392 0.2745098 0.5058824 0.2745098 0.6980392 0.4392157 0.5058824 0.4392157 0.6980392 0.2745098 0.5058824 0.2745098 0.6980392</float_array>
+          <technique_common>
+            <accessor source="#polySurface11324__PlazaAutoDoorC-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface11324__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#polySurface11324__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="2">
+          <input semantic="VERTEX" source="#polySurface11324__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface11324__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface11324__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface11324__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface11323__PlazaAutoDoorC-mesh" name="polySurface11323__PlazaAutoDoorC">
+      <mesh>
+        <source id="polySurface11323__PlazaAutoDoorC-position">
+          <float_array id="polySurface11323__PlazaAutoDoorC-position-array" count="36">-0.2310221 3.037896 -0.0092579 -0.2310221 1.45799 -0.0092579 -1.516078 3.037896 -0.009282771 -1.516078 1.45799 -0.009282771 -0.2310221 3.037896 -0.0092579 -0.2310221 1.45799 -0.0092579 -1.516078 3.037896 -0.009282771 -1.516078 1.45799 -0.009282771 -0.2310221 3.037896 -0.0092579 -0.2310221 1.45799 -0.0092579 -1.516078 3.037896 -0.009282771 -1.516078 1.45799 -0.009282771</float_array>
+          <technique_common>
+            <accessor source="#polySurface11323__PlazaAutoDoorC-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11323__PlazaAutoDoorC-normal">
+          <float_array id="polySurface11323__PlazaAutoDoorC-normal-array" count="36">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11323__PlazaAutoDoorC-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11323__PlazaAutoDoorC-texcoord">
+          <float_array id="polySurface11323__PlazaAutoDoorC-texcoord-array" count="24">1.405273 0.8131104 1.405273 0.6379395 1.262695 0.8131104 1.262695 0.6379395 1.405273 0.8131104 1.405273 0.6379395 1.262695 0.8131104 1.262695 0.6379395 1.405273 0.8131104 1.405273 0.6379395 1.262695 0.8131104 1.262695 0.6379395</float_array>
+          <technique_common>
+            <accessor source="#polySurface11323__PlazaAutoDoorC-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11323__PlazaAutoDoorC-texcoord_1">
+          <float_array id="polySurface11323__PlazaAutoDoorC-texcoord-array_1" count="24">0.7372549 0.7411765 0.7372549 0.5058824 0.9254902 0.7411765 0.9254902 0.5058824 0.7372549 0.7411765 0.7372549 0.5058824 0.9254902 0.7411765 0.9254902 0.5058824 0.7372549 0.7411765 0.7372549 0.5058824 0.9254902 0.7411765 0.9254902 0.5058824</float_array>
+          <technique_common>
+            <accessor source="#polySurface11323__PlazaAutoDoorC-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface11323__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#polySurface11323__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="2">
+          <input semantic="VERTEX" source="#polySurface11323__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface11323__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface11323__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface11323__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface8867__GlassStandardWall-mesh" name="polySurface8867__GlassStandardWall">
+      <mesh>
+        <source id="polySurface8867__GlassStandardWall-position">
+          <float_array id="polySurface8867__GlassStandardWall-position-array" count="36">-0.2310221 3.037896 -0.0092579 -1.516078 3.037896 -0.009282771 -0.2310221 1.45799 -0.0092579 -1.516078 1.45799 -0.009282771 -0.2310221 3.037896 -0.0092579 -1.516078 3.037896 -0.009282771 -0.2310221 1.45799 -0.0092579 -1.516078 1.45799 -0.009282771 -0.2310221 3.037896 -0.0092579 -1.516078 3.037896 -0.009282771 -0.2310221 1.45799 -0.0092579 -1.516078 1.45799 -0.009282771</float_array>
+          <technique_common>
+            <accessor source="#polySurface8867__GlassStandardWall-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8867__GlassStandardWall-normal">
+          <float_array id="polySurface8867__GlassStandardWall-normal-array" count="36">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8867__GlassStandardWall-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8867__GlassStandardWall-texcoord">
+          <float_array id="polySurface8867__GlassStandardWall-texcoord-array" count="24">1.405273 0.8131104 1.262695 0.8131104 1.405273 0.6379395 1.262695 0.6379395 1.405273 0.8131104 1.262695 0.8131104 1.405273 0.6379395 1.262695 0.6379395 1.405273 0.8131104 1.262695 0.8131104 1.405273 0.6379395 1.262695 0.6379395</float_array>
+          <technique_common>
+            <accessor source="#polySurface8867__GlassStandardWall-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8867__GlassStandardWall-texcoord_1">
+          <float_array id="polySurface8867__GlassStandardWall-texcoord-array_1" count="24">0.4941176 0.8392157 0.003921569 0.8392157 0.4941176 0.1686274 0.003921569 0.1686274 0.4941176 0.8392157 0.003921569 0.8392157 0.4941176 0.1686274 0.003921569 0.1686274 0.4941176 0.8392157 0.003921569 0.8392157 0.4941176 0.1686274 0.003921569 0.1686274</float_array>
+          <technique_common>
+            <accessor source="#polySurface8867__GlassStandardWall-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface8867__GlassStandardWall-vertex">
+          <input semantic="POSITION" source="#polySurface8867__GlassStandardWall-position" />
+        </vertices>
+        <triangles material="GlassStandardWall" count="2">
+          <input semantic="VERTEX" source="#polySurface8867__GlassStandardWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface8867__GlassStandardWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface8867__GlassStandardWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface8867__GlassStandardWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface8891__PlazaAutoDoorC-mesh" name="polySurface8891__PlazaAutoDoorC">
+      <mesh>
+        <source id="polySurface8891__PlazaAutoDoorC-position">
+          <float_array id="polySurface8891__PlazaAutoDoorC-position-array" count="273">-1.756386 0.003318638 0.02805614 -1.516079 1.45799 0.02806187 -1.756386 3.32947 0.02805614 -1.756386 0.003318638 -0.04012299 -1.756386 3.32947 -0.04012299 -1.516079 1.45799 -0.04011822 0.009292603 0.003318638 -0.04009247 -0.2310181 1.45799 -0.04009533 0.009292603 3.32947 -0.04009247 -0.2310181 1.45799 0.02808475 0.009292603 0.003318638 0.02808857 0.009292603 3.32947 0.02808857 0.009292603 3.32947 -0.04009247 0.009292603 3.32947 0.02808857 0.009292603 0.003318638 -0.04009247 0.009292603 0.003318638 0.02808857 -1.756386 0.003318638 0.02805614 -1.756386 3.32947 0.02805614 -1.756386 0.003318638 -0.04012299 -1.756386 3.32947 -0.04012299 -0.2310181 1.45799 0.02808475 -0.2310181 1.45799 -0.04009533 -1.516079 1.45799 -0.04011822 -1.516079 1.45799 0.02806187 0.009292603 3.32947 0.02808857 0.009292603 3.32947 -0.04009247 -1.756386 3.32947 -0.04012299 -1.756386 3.32947 0.02805614 -1.516079 3.037895 0.02806187 -1.516079 3.037895 -0.04011822 -0.2310181 3.037895 -0.04009533 -0.2310181 3.037895 0.02808475 -1.516079 3.037895 0.02806187 -1.516079 1.45799 0.02806187 -1.516079 3.037895 -0.04011822 -1.516079 1.45799 -0.04011822 -0.2310181 1.45799 0.02808475 -0.2310181 3.037895 0.02808475 -0.2310181 1.45799 -0.04009533 -0.2310181 3.037895 -0.04009533 -0.2310181 3.037895 0.02808475 -1.516079 3.037895 0.02806187 -0.2310181 3.037895 -0.04009533 -1.516079 3.037895 -0.04011822 -1.756386 0.003318638 0.02805614 -1.756386 3.32947 0.02805614 -1.756386 0.003318638 -0.04012299 0.009292603 3.32947 -0.04009247 0.009292603 3.32947 0.02808857 0.009292603 0.003318638 -0.04009247 0.009292603 0.003318638 0.02808857 -1.756386 3.32947 0.02805614 0.009292603 3.32947 0.02808857 -1.756386 3.32947 -0.04012299 0.009292603 3.32947 -0.04009247 -1.516079 3.037895 -0.04011822 -0.2310181 3.037895 -0.04009533 0.009292603 3.32947 0.02808857 -0.2310181 1.45799 -0.04009533 0.009292603 0.003318638 0.02808857 -1.516079 1.45799 0.02806187 -1.756386 3.32947 0.02805614 -1.756386 0.003318638 0.02805614 -1.756386 3.32947 -0.04012299 0.009292603 0.003318638 -0.04009247 -1.756386 0.003318638 -0.04012299 -0.2310181 1.45799 -0.04009533 0.009292603 3.32947 -0.04009247 -1.516079 1.45799 0.02806187 -0.2310181 3.037895 -0.04009533 -1.756386 3.32947 -0.04012299 -1.516079 3.037895 -0.04011822 0.02633667 0.004281282 0.008939743 -0.2387581 1.477966 -0.01083565 -0.09106445 3.208717 0.0006999969 -0.2387581 1.477966 -0.01083565 0.02633667 0.004281282 0.008939743 -0.09106445 3.208717 0.0006999969 -1.756386 0.003318608 0.02805614 -1.654127 3.31963 0.02913857 -1.755054 0.004623175 -0.0435009 -1.756386 0.003318608 0.02805614 -1.505589 1.476457 -0.001002312 -1.654127 3.31963 0.02913857 0.02633667 0.004281282 0.008939743 -0.2387581 1.477966 -0.01083565 -1.755054 0.004623175 -0.0435009 -1.654127 3.31963 0.02913857 -1.505589 1.476457 -0.001002312 -0.2387581 1.477966 -0.01083565 0.02633667 0.004281282 0.008939743</float_array>
+          <technique_common>
+            <accessor source="#polySurface8891__PlazaAutoDoorC-position-array" count="91" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8891__PlazaAutoDoorC-normal">
+          <float_array id="polySurface8891__PlazaAutoDoorC-normal-array" count="273">0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8891__PlazaAutoDoorC-normal-array" count="91" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8891__PlazaAutoDoorC-texcoord">
+          <float_array id="polySurface8891__PlazaAutoDoorC-texcoord-array" count="182">0.4941406 0.009765625 0.5585938 0.3999023 0.4941406 0.9016724 1.494141 0.009765625 1.494141 0.9016724 1.558594 0.3999023 1.967773 0.009765625 1.90332 0.3999023 1.967773 0.9016724 0.9033203 0.3999023 0.9677734 0.009765625 0.9677734 0.9016724 1.15625 0.9908218 1.15625 0.9737854 1.988281 0.9908218 1.988281 0.9737854 1.15625 0.9737854 1.988281 0.9737854 1.15625 0.9908218 1.988281 0.9908295 1.272461 0.9605713 1.272461 0.9435425 1.592773 0.9435425 1.592773 0.9605713 1.989258 0.9143677 1.989258 0.9314575 1.547852 0.9314575 1.547852 0.9143677 1.272461 0.9605713 1.272461 0.9435425 1.592773 0.9435425 1.592773 0.9605713 1.988281 0.9605713 1.592773 0.9605713 1.988281 0.9435425 1.592773 0.9435425 1.988281 0.9605713 1.592773 0.9605713 1.988281 0.9435425 1.592773 0.9435425 0.9033203 0.8234863 0.5585938 0.8234863 1.90332 0.8234863 1.558594 0.8234863 1.15625 0.9737854 1.988281 0.9737854 1.15625 0.9908218 1.15625 0.9908218 1.15625 0.9737854 1.988281 0.9908218 1.988281 0.9737854 1.547852 0.9143677 1.989258 0.9143677 1.547852 0.9314575 1.989258 0.9314575 0.5585938 0.8234863 0.9033203 0.8234863 0.9677734 0.9016724 0.9033203 0.3999023 0.9677734 0.009765625 0.5585938 0.3999023 0.4941406 0.9016724 0.4941406 0.009765625 1.988281 0.9908295 1.967773 0.009765625 1.494141 0.009765625 1.90332 0.3999023 1.967773 0.9016724 1.558594 0.3999023 1.90332 0.8234863 1.494141 0.9016724 1.558594 0.8234863 1.967773 0.009765625 1.90332 0.3999023 1.90332 0.8234863 0.9033203 0.3999023 0.9677734 0.009765625 0.9033203 0.8234863 1.15625 0.9737854 1.988281 0.9737854 1.15625 0.9908218 0.4941406 0.009765625 0.5585938 0.3999023 0.4941406 0.9016724 0.9677734 0.009765625 0.9033203 0.3999023 1.494141 0.009765625 1.494141 0.9016724 1.558594 0.3999023 1.90332 0.3999023 1.967773 0.009765625</float_array>
+          <technique_common>
+            <accessor source="#polySurface8891__PlazaAutoDoorC-texcoord-array" count="91" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8891__PlazaAutoDoorC-texcoord_1">
+          <float_array id="polySurface8891__PlazaAutoDoorC-texcoord-array_1" count="182">0.5406119 0.007202268 0.5759823 0.2213321 0.5406119 0.4968337 0.2638895 0.003967345 0.2638895 0.4935988 0.2285191 0.2180972 0.003967346 0.003967345 0.03933776 0.2180972 0.003967346 0.4935988 0.7651637 0.2213321 0.8005341 0.007202268 0.8005341 0.4968337 0.8209354 0.4939498 0.810895 0.4939498 0.8209354 0.004318297 0.810895 0.004318297 0.8324407 0.4959182 0.8324407 0.00628674 0.8424811 0.4959182 0.8424811 0.00628674 0.9501945 0.4280461 0.9401541 0.4280461 0.9401541 0.23888 0.9501945 0.23888 0.9812772 0.2755627 0.9913176 0.2755627 0.9913176 0.5354849 0.9812924 0.5354849 0.9071031 0.4289769 0.8970627 0.4289769 0.8970779 0.2398108 0.9071031 0.2398108 0.9501945 0.006301999 0.9501945 0.23888 0.9401541 0.006301999 0.9401541 0.23888 0.9071031 0.007232785 0.9071031 0.2398108 0.8970779 0.007232785 0.8970779 0.2398108 0.7651637 0.4539101 0.5759823 0.4539101 0.03933776 0.4506752 0.2285191 0.4506752 0.8324407 0.4959182 0.8324407 0.00628674 0.8424811 0.4959182 0.8209354 0.4939498 0.810895 0.4939498 0.8209354 0.004318297 0.810895 0.004318297 0.9812924 0.5354849 0.9812772 0.2755627 0.9913176 0.5354849 0.9913176 0.2755627 0.5759823 0.4539101 0.7651637 0.4539101 0.8005341 0.4968337 0.7651637 0.2213321 0.8005341 0.007202268 0.5759823 0.2213321 0.5406119 0.4968337 0.5406119 0.007202268 0.8424811 0.00628674 0.003967346 0.003967345 0.2638895 0.003967345 0.03933776 0.2180972 0.003967346 0.4935988 0.2285191 0.2180972 0.03933776 0.4506752 0.2638895 0.4935988 0.2285191 0.4506752 0.003967346 0.003967345 0.03933776 0.2180972 0.03933776 0.4506752 0.7651637 0.2213321 0.8005341 0.007202268 0.7651637 0.4539101 0.8324407 0.4959182 0.8324407 0.00628674 0.8424811 0.4959182 0.5406119 0.007202268 0.5759823 0.2213321 0.5406119 0.4968337 0.8005341 0.007202268 0.7651637 0.2213321 0.2638895 0.003967345 0.2638895 0.4935988 0.2285191 0.2180972 0.03933776 0.2180972 0.003967346 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#polySurface8891__PlazaAutoDoorC-texcoord-array_1" count="91" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface8891__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#polySurface8891__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="30">
+          <input semantic="VERTEX" source="#polySurface8891__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface8891__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface8891__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface8891__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 9 9 9 9 1 1 1 1 10 10 10 10 1 1 1 1 0 0 0 0 10 10 10 10 6 6 6 6 3 3 3 3 7 7 7 7 3 3 3 3 5 5 5 5 7 7 7 7 20 20 20 20 21 21 21 21 22 22 22 22 23 23 23 23 20 20 20 20 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 27 27 27 27 24 24 24 24 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 9 9 9 9 11 11 11 11 41 41 41 41 40 40 40 40 11 11 11 11 2 2 2 2 41 41 41 41 11 11 11 11 1 1 1 1 41 41 41 41 2 2 2 2 7 7 7 7 42 42 42 42 8 8 8 8 42 42 42 42 43 43 43 43 8 8 8 8 43 43 43 43 4 4 4 4 8 8 8 8 4 4 4 4 43 43 43 43 5 5 5 5 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface8900__PlazaAutoDoorC-mesh" name="polySurface8900__PlazaAutoDoorC">
+      <mesh>
+        <source id="polySurface8900__PlazaAutoDoorC-position">
+          <float_array id="polySurface8900__PlazaAutoDoorC-position-array" count="36">-0.2310221 2.799886 -0.004442818 -1.516079 2.799886 -0.004465268 -0.2310221 1.693961 -0.004442818 -1.516079 1.693961 -0.004465268 -0.2310221 2.799886 -0.004442818 -1.516079 2.799886 -0.004465268 -0.2310221 1.693961 -0.004442818 -1.516079 1.693961 -0.004465268 -0.2310221 2.799886 -0.004442818 -1.516079 2.799886 -0.004465268 -0.2310221 1.693961 -0.004442818 -1.516079 1.693961 -0.004465268</float_array>
+          <technique_common>
+            <accessor source="#polySurface8900__PlazaAutoDoorC-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8900__PlazaAutoDoorC-normal">
+          <float_array id="polySurface8900__PlazaAutoDoorC-normal-array" count="36">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8900__PlazaAutoDoorC-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8900__PlazaAutoDoorC-texcoord">
+          <float_array id="polySurface8900__PlazaAutoDoorC-texcoord-array" count="24">1.891602 0.8153076 1.570313 0.8153076 1.891602 0.5388184 1.570313 0.5388184 1.891602 0.8153076 1.570313 0.8153076 1.891602 0.5388184 1.570313 0.5388184 1.891602 0.8153076 1.570313 0.8153076 1.891602 0.5388184 1.570313 0.5388184</float_array>
+          <technique_common>
+            <accessor source="#polySurface8900__PlazaAutoDoorC-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8900__PlazaAutoDoorC-texcoord_1">
+          <float_array id="polySurface8900__PlazaAutoDoorC-texcoord-array_1" count="24">0.4352941 0.7098039 0.4352941 0.8980392 0.2745098 0.7098039 0.2745098 0.8980392 0.4352941 0.7098039 0.4352941 0.8980392 0.2745098 0.7098039 0.2745098 0.8980392 0.4352941 0.7098039 0.4352941 0.8980392 0.2745098 0.7098039 0.2745098 0.8980392</float_array>
+          <technique_common>
+            <accessor source="#polySurface8900__PlazaAutoDoorC-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface8900__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#polySurface8900__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="2">
+          <input semantic="VERTEX" source="#polySurface8900__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface8900__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface8900__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface8900__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="door__PlazaAutoDoorC-mesh" name="door__PlazaAutoDoorC">
+      <mesh>
+        <source id="door__PlazaAutoDoorC-position">
+          <float_array id="door__PlazaAutoDoorC-position-array" count="288">1.774962 0.003318667 0.03089432 1.774962 3.329471 0.03089432 1.534656 1.45799 0.03051193 1.77507 3.329471 -0.03728592 1.77507 0.003318667 -0.03728592 1.534765 1.45799 -0.03766708 0.009398878 0.003318667 -0.04008957 0.009398878 3.329471 -0.04008957 0.2497065 1.45799 -0.0397084 0.009287834 3.329471 0.02808945 0.009287834 0.003318667 0.02808945 0.2495992 1.45799 0.02847061 0.009398878 3.329471 -0.04008957 0.009398878 0.003318667 -0.04008957 0.009287834 3.329471 0.02808945 0.009287834 0.003318667 0.02808945 1.774962 0.003318667 0.03089432 1.77507 0.003318667 -0.03728592 1.774962 3.329471 0.03089432 1.77507 3.329471 -0.03728592 0.2495992 1.45799 0.02847061 1.534656 1.45799 0.03051193 0.2497065 1.45799 -0.0397084 1.534765 1.45799 -0.03766708 1.534656 3.037895 0.03051193 1.534765 3.037896 -0.03766708 1.534765 1.45799 -0.03766708 1.534656 1.45799 0.03051193 0.2495992 1.45799 0.02847061 0.2497065 1.45799 -0.0397084 0.2497065 3.037896 -0.0397084 0.2495992 3.037895 0.02847061 1.77507 3.329471 -0.03728592 0.009398878 3.329471 -0.04008957 0.009287834 3.329471 0.02808945 1.774962 3.329471 0.03089432 1.534656 3.037895 0.03051193 0.2495992 3.037895 0.02847061 1.534765 3.037896 -0.03766708 0.2497065 3.037896 -0.0397084 1.534656 3.037895 0.03051193 0.2495992 3.037895 0.02847061 1.534765 3.037896 -0.03766708 0.2497065 3.037896 -0.0397084 1.534656 3.037895 0.03051193 0.2495992 3.037895 0.02847061 1.534765 3.037896 -0.03766708 1.774962 3.329471 0.03089432 0.009398878 3.329471 -0.04008957 0.009287834 3.329471 0.02808945 1.534656 1.45799 0.03051193 1.534765 1.45799 -0.03766708 0.2497065 1.45799 -0.0397084 1.534656 1.45799 0.03051193 1.534656 3.037895 0.03051193 1.534765 1.45799 -0.03766708 1.534765 3.037896 -0.03766708 0.009398878 3.329471 -0.04008957 0.009398878 0.003318667 -0.04008957 0.009287834 3.329471 0.02808945 0.009292662 0.003318667 0.02808857 0.2495992 3.037895 0.02847061 0.009398878 3.329471 -0.04008957 1.534765 3.037896 -0.03766708 0.2497065 1.45799 -0.0397084 1.774962 3.329471 0.03089432 0.009398878 0.003318667 -0.04008957 1.534765 1.45799 -0.03766708 1.77507 0.003318667 -0.03728592 0.009287834 3.329471 0.02808945 0.2495992 3.037895 0.02847061 1.534656 3.037895 0.03051193 0.2497065 1.45799 -0.0397084 1.774962 3.329471 0.03089432 0.009292662 0.003318667 0.02808857 1.534656 1.45799 0.03051193 1.77507 0.003318667 -0.03728592 1.800786 0.004028916 -0.006105924 1.612484 3.150332 0.007131852 1.526271 1.475625 0.0006846981 1.612484 3.150332 0.007131852 1.800786 0.004028916 -0.006105924 1.526271 1.475625 0.0006846981 0.009398878 0.003318667 -0.04008957 0.02633733 0.004281282 0.008939653 0.1096572 3.208668 -0.01058471 0.009398878 0.003318667 -0.04008957 0.1096572 3.208668 -0.01058471 0.2562909 1.477881 -0.01026534 1.800786 0.004028916 -0.006105924 1.526271 1.475625 0.0006846981 0.1096572 3.208668 -0.01058471 0.02633733 0.004281282 0.008939653 0.2562909 1.477881 -0.01026534 1.526271 1.475625 0.0006846981 1.800786 0.004028916 -0.006105924</float_array>
+          <technique_common>
+            <accessor source="#door__PlazaAutoDoorC-position-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="door__PlazaAutoDoorC-normal">
+          <float_array id="door__PlazaAutoDoorC-normal-array" count="288">-0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.001956947 0 1 -0.001956947 0 1 0.001956947 0 -1 0.001956947 0 -1 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1</float_array>
+          <technique_common>
+            <accessor source="#door__PlazaAutoDoorC-normal-array" count="96" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="door__PlazaAutoDoorC-texcoord">
+          <float_array id="door__PlazaAutoDoorC-texcoord-array" count="192">0.480957 0.009765625 0.480957 0.9016724 0.4165039 0.3999023 1.494141 0.9016724 1.494141 0.009765625 1.558594 0.3999023 1.967773 0.009765625 1.967773 0.9016724 1.90332 0.3999023 0.007507324 0.9016724 0.007507324 0.009765625 0.07196045 0.3999023 0.1569824 0.9908295 0.9882813 0.9908295 0.1569824 0.9737854 0.9882813 0.9737854 1.15625 0.9738007 1.15625 0.9908371 1.988281 0.9738007 1.988281 0.9908371 0.5932617 0.9605713 0.2724609 0.9605713 0.5932617 0.9435425 0.2724609 0.9435425 1.592773 0.9605713 1.592773 0.9435425 1.988281 0.9435425 1.988281 0.9605713 0.5932617 0.9605713 0.5932617 0.9435425 0.9882813 0.9435425 0.9882813 0.9605713 0.5483398 0.9313965 0.9897461 0.9313965 0.9897461 0.9143677 0.5483398 0.9143677 1.592773 0.9605713 1.272461 0.9605713 1.592773 0.9435425 1.272461 0.9435425 0.4165039 0.8234863 0.07196045 0.8234863 1.558594 0.8234863 1.90332 0.8234863 1.592773 0.9605713 1.272461 0.9605713 1.592773 0.9435425 0.5483398 0.9143677 0.9897461 0.9313965 0.9897461 0.9143677 0.2724609 0.9605713 0.2724609 0.9435425 0.5932617 0.9435425 1.988281 0.9605713 1.592773 0.9605713 1.988281 0.9435425 1.592773 0.9435425 0.1569824 0.9908295 0.9882813 0.9908295 0.1569824 0.9737854 0.9882813 0.9737854 1.90332 0.8234863 1.967773 0.9016724 1.558594 0.8234863 1.90332 0.3999023 1.494141 0.9016724 1.967773 0.009765625 1.558594 0.3999023 1.494141 0.009765625 0.007507324 0.9016724 0.07196045 0.8234863 0.4165039 0.8234863 0.07196045 0.3999023 0.480957 0.9016724 0.007507324 0.009765625 0.4165039 0.3999023 0.480957 0.009765625 0.480957 0.009765625 0.4165039 0.8234863 0.4165039 0.3999023 1.558594 0.8234863 1.494141 0.009765625 1.558594 0.3999023 0.9882813 0.9908295 0.9882813 0.9737854 0.1569824 0.9908295 1.967773 0.009765625 1.90332 0.8234863 1.90332 0.3999023 1.494141 0.009765625 1.558594 0.3999023 0.07196045 0.8234863 0.007507324 0.009765625 0.07196045 0.3999023 0.4165039 0.3999023 0.480957 0.009765625</float_array>
+          <technique_common>
+            <accessor source="#door__PlazaAutoDoorC-texcoord-array" count="96" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="door__PlazaAutoDoorC-texcoord_1">
+          <float_array id="door__PlazaAutoDoorC-texcoord-array_1" count="192">0.2648203 0.5046616 0.2648203 0.9942932 0.2294499 0.7187915 0.2722972 0.4968185 0.2722972 0.007187009 0.3076677 0.2213169 0.5322042 0.007187009 0.5322042 0.4968185 0.4968337 0.2213169 0.004898146 0.9942932 0.004898146 0.5046616 0.04028382 0.7187915 0.8755322 0.4939498 0.8755322 0.004318297 0.8855574 0.4939498 0.8855574 0.004318297 0.8640116 0.493965 0.8539864 0.493965 0.8640268 0.004333556 0.8539864 0.004333556 0.9286488 0.2388189 0.9286488 0.4279851 0.9186084 0.2388189 0.9186084 0.4279851 0.9717403 0.2389105 0.9616998 0.2389105 0.9616998 0.006332517 0.9717403 0.006332517 0.9286488 0.2388189 0.9186084 0.2388189 0.9186084 0.006240964 0.9286488 0.006240964 0.9832456 0.267216 0.9832456 0.00729382 0.993286 0.00729382 0.993286 0.267216 0.9717403 0.2389105 0.9717403 0.4280766 0.9616998 0.2389105 0.9616998 0.4280766 0.2294499 0.9513695 0.04028382 0.9513695 0.3076677 0.4538949 0.4968337 0.4538949 0.9717403 0.2389105 0.9717403 0.4280766 0.9616998 0.2389105 0.993286 0.267216 0.9832456 0.00729382 0.993286 0.00729382 0.9286488 0.4279851 0.9186084 0.4279851 0.9186084 0.2388189 0.9717403 0.006332517 0.9717403 0.2389105 0.9616998 0.006332517 0.9616998 0.2389105 0.8755322 0.4939498 0.8755322 0.004318297 0.8855574 0.4939498 0.8855574 0.004318297 0.4968337 0.4538949 0.5322042 0.4968185 0.3076677 0.4538949 0.4968337 0.2213169 0.2722972 0.4968185 0.5322042 0.007187009 0.3076677 0.2213169 0.2722972 0.007187009 0.004898146 0.9942932 0.04028382 0.9513695 0.2294499 0.9513695 0.04028382 0.7187915 0.2648203 0.9942932 0.004898146 0.5046616 0.2294499 0.7187915 0.2648203 0.5046616 0.2648203 0.5046616 0.2294499 0.9513695 0.2294499 0.7187915 0.3076677 0.4538949 0.2722972 0.007187009 0.3076677 0.2213169 0.8755322 0.004318297 0.8855574 0.004318297 0.8755322 0.4939498 0.5322042 0.007187009 0.4968337 0.4538949 0.4968337 0.2213169 0.2722972 0.007187009 0.3076677 0.2213169 0.04028382 0.9513695 0.004898146 0.5046616 0.04028382 0.7187915 0.2294499 0.7187915 0.2648203 0.5046616</float_array>
+          <technique_common>
+            <accessor source="#door__PlazaAutoDoorC-texcoord-array_1" count="96" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="door__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#door__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="30">
+          <input semantic="VERTEX" source="#door__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#door__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#door__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#door__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9 10 10 10 10 11 11 11 11 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 11 11 11 11 10 10 10 10 2 2 2 2 10 10 10 10 0 0 0 0 2 2 2 2 6 6 6 6 8 8 8 8 4 4 4 4 8 8 8 8 5 5 5 5 4 4 4 4 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 27 27 27 27 24 24 24 24 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 28 28 28 28 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 35 35 35 35 32 32 32 32 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 1 1 1 1 40 40 40 40 2 2 2 2 1 1 1 1 9 9 9 9 40 40 40 40 9 9 9 9 41 41 41 41 40 40 40 40 41 41 41 41 9 9 9 9 11 11 11 11 42 42 42 42 3 3 3 3 5 5 5 5 7 7 7 7 3 3 3 3 42 42 42 42 43 43 43 43 7 7 7 7 42 42 42 42 7 7 7 7 43 43 43 43 8 8 8 8 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube18406__PlazaAutoDoorC-mesh" name="pCube18406__PlazaAutoDoorC">
+      <mesh>
+        <source id="pCube18406__PlazaAutoDoorC-position">
+          <float_array id="pCube18406__PlazaAutoDoorC-position-array" count="132">0.1948298 1.028342 0.02838482 0.1948298 1.894385 0.02838482 0.1947911 1.028342 0.05274269 0.1947911 1.894385 0.05274269 0.1948298 1.894385 0.02838482 0.0281266 1.894385 0.02811997 0.1947911 1.894385 0.05274269 0.02808785 1.894385 0.05247784 0.0281266 1.894385 0.02811997 0.0281266 1.028342 0.02811997 0.02808785 1.894385 0.05247784 0.02808785 1.028342 0.05247784 0.0281266 1.028342 0.02811997 0.1948298 1.028342 0.02838482 0.02808785 1.028342 0.05247784 0.1947911 1.028342 0.05274269 0.1947911 1.028342 0.05274269 0.1947911 1.894385 0.05274269 0.02808785 1.028342 0.05247784 0.02808785 1.894385 0.05247784 0.1947911 1.028342 0.05274269 0.1947911 1.894385 0.05274269 0.02808785 1.028342 0.05247784 0.02808785 1.894385 0.05247784 0.1948298 1.028342 0.02838482 0.1948298 1.894385 0.02838482 0.1947911 1.028342 0.05274269 0.1947911 1.894385 0.05274269 0.1948298 1.894385 0.02838482 0.0281266 1.894385 0.02811997 0.1947911 1.894385 0.05274269 0.02808785 1.894385 0.05247784 0.0281266 1.894385 0.02811997 0.0281266 1.028342 0.02811997 0.02808785 1.894385 0.05247784 0.02808785 1.028342 0.05247784 0.0281266 1.028342 0.02811997 0.1948298 1.028342 0.02838482 0.02808785 1.028342 0.05247784 0.1947911 1.028342 0.05274269 0.1947911 1.028342 0.05274269 0.1947911 1.894385 0.05274269 0.02808785 1.028342 0.05247784 0.02808785 1.894385 0.05247784</float_array>
+          <technique_common>
+            <accessor source="#pCube18406__PlazaAutoDoorC-position-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406__PlazaAutoDoorC-normal">
+          <float_array id="pCube18406__PlazaAutoDoorC-normal-array" count="132">1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube18406__PlazaAutoDoorC-normal-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406__PlazaAutoDoorC-texcoord">
+          <float_array id="pCube18406__PlazaAutoDoorC-texcoord-array" count="88">1.395508 0.409668 1.395508 0.6259766 1.401367 0.409668 1.401367 0.6259766 1.044922 0.9792786 1.085938 0.9792786 1.044922 0.9731903 1.085938 0.9731903 1.040039 0.9576111 1.256836 0.9576111 1.040039 0.9515381 1.256836 0.9515381 1.097656 0.9789734 1.139648 0.9789734 1.097656 0.9728699 1.139648 0.9728699 0.3425293 0.4086914 0.3425293 0.625 0.3842773 0.4086914 0.3842773 0.625 0.3425293 0.4086914 0.3425293 0.625 0.3842773 0.4086914 0.3842773 0.625 1.395508 0.409668 1.395508 0.6259766 1.401367 0.409668 1.401367 0.6259766 1.044922 0.9792786 1.085938 0.9792786 1.044922 0.9731903 1.085938 0.9731903 1.040039 0.9576111 1.256836 0.9576111 1.040039 0.9515381 1.256836 0.9515381 1.097656 0.9789734 1.139648 0.9789734 1.097656 0.9728699 1.139648 0.9728699 0.3425293 0.4086914 0.3425293 0.625 0.3842773 0.4086914 0.3842773 0.625</float_array>
+          <technique_common>
+            <accessor source="#pCube18406__PlazaAutoDoorC-texcoord-array" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406__PlazaAutoDoorC-texcoord_1">
+          <float_array id="pCube18406__PlazaAutoDoorC-texcoord-array_1" count="88">0.8203555 0.7508965 0.8203555 0.8783703 0.8167697 0.7508965 0.8167697 0.8783703 0.899031 0.7754635 0.899031 0.750927 0.9026169 0.7754635 0.9026169 0.750927 0.9499504 0.845243 0.9499504 0.7177691 0.9535363 0.845243 0.9535363 0.7177691 0.8853132 0.7761044 0.8853132 0.7515678 0.8888991 0.7761044 0.8888991 0.7515678 0.9960327 0.5450675 0.9960327 0.6725566 0.9714962 0.5450675 0.9714962 0.6725566 0.9960327 0.5450675 0.9960327 0.6725566 0.9714962 0.5450675 0.9714962 0.6725566 0.8203555 0.7508965 0.8203555 0.8783703 0.8167697 0.7508965 0.8167697 0.8783703 0.899031 0.7754635 0.899031 0.750927 0.9026169 0.7754635 0.9026169 0.750927 0.9499504 0.845243 0.9499504 0.7177691 0.9535363 0.845243 0.9535363 0.7177691 0.8853132 0.7761044 0.8853132 0.7515678 0.8888991 0.7761044 0.8888991 0.7515678 0.9960327 0.5450675 0.9960327 0.6725566 0.9714962 0.5450675 0.9714962 0.6725566</float_array>
+          <technique_common>
+            <accessor source="#pCube18406__PlazaAutoDoorC-texcoord-array_1" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube18406__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#pCube18406__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="10">
+          <input semantic="VERTEX" source="#pCube18406__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube18406__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube18406__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube18406__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="pCube18411__PlazaAutoDoorC-mesh" name="pCube18411__PlazaAutoDoorC">
+      <mesh>
+        <source id="pCube18411__PlazaAutoDoorC-position">
+          <float_array id="pCube18411__PlazaAutoDoorC-position-array" count="132">0.1982993 1.028342 -0.03978919 0.1983379 1.028342 -0.06414706 0.1982993 1.894385 -0.03978919 0.1983379 1.894385 -0.06414706 0.1982993 1.894385 -0.03978919 0.1983379 1.894385 -0.06414706 0.03159606 1.894385 -0.04005404 0.03163481 1.894385 -0.06441191 0.03159606 1.894385 -0.04005404 0.03163481 1.894385 -0.06441191 0.03159606 1.028342 -0.04005404 0.03163481 1.028342 -0.06441191 0.03159606 1.028342 -0.04005404 0.03163481 1.028342 -0.06441191 0.1982993 1.028342 -0.03978919 0.1983379 1.028342 -0.06414706 0.1983379 1.028342 -0.06414706 0.03163481 1.028342 -0.06441191 0.1983379 1.894385 -0.06414706 0.03163481 1.894385 -0.06441191 0.1983379 1.028342 -0.06414706 0.03163481 1.028342 -0.06441191 0.1983379 1.894385 -0.06414706 0.03163481 1.894385 -0.06441191 0.1982993 1.028342 -0.03978919 0.1983379 1.028342 -0.06414706 0.1982993 1.894385 -0.03978919 0.1983379 1.894385 -0.06414706 0.1982993 1.894385 -0.03978919 0.1983379 1.894385 -0.06414706 0.03159606 1.894385 -0.04005404 0.03163481 1.894385 -0.06441191 0.03159606 1.894385 -0.04005404 0.03163481 1.894385 -0.06441191 0.03159606 1.028342 -0.04005404 0.03163481 1.028342 -0.06441191 0.03159606 1.028342 -0.04005404 0.03163481 1.028342 -0.06441191 0.1982993 1.028342 -0.03978919 0.1983379 1.028342 -0.06414706 0.1983379 1.028342 -0.06414706 0.03163481 1.028342 -0.06441191 0.1983379 1.894385 -0.06414706 0.03163481 1.894385 -0.06441191</float_array>
+          <technique_common>
+            <accessor source="#pCube18411__PlazaAutoDoorC-position-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411__PlazaAutoDoorC-normal">
+          <float_array id="pCube18411__PlazaAutoDoorC-normal-array" count="132">1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 1 0 0.001956947 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 -1 0 -0.001956947 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1</float_array>
+          <technique_common>
+            <accessor source="#pCube18411__PlazaAutoDoorC-normal-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411__PlazaAutoDoorC-texcoord">
+          <float_array id="pCube18411__PlazaAutoDoorC-texcoord-array" count="88">1.395508 0.409668 1.401367 0.409668 1.395508 0.6259766 1.401367 0.6259766 1.044922 0.9792786 1.044922 0.9731903 1.085938 0.9792786 1.085938 0.9731903 1.040039 0.9576111 1.040039 0.9515381 1.256836 0.9576111 1.256836 0.9515381 1.097656 0.9789734 1.097656 0.9728699 1.139648 0.9789734 1.139648 0.9728699 1.341797 0.4086914 1.383789 0.4086914 1.341797 0.625 1.383789 0.625 1.341797 0.4086914 1.383789 0.4086914 1.341797 0.625 1.383789 0.625 1.395508 0.409668 1.401367 0.409668 1.395508 0.6259766 1.401367 0.6259766 1.044922 0.9792786 1.044922 0.9731903 1.085938 0.9792786 1.085938 0.9731903 1.040039 0.9576111 1.040039 0.9515381 1.256836 0.9576111 1.256836 0.9515381 1.097656 0.9789734 1.097656 0.9728699 1.139648 0.9789734 1.139648 0.9728699 1.341797 0.4086914 1.383789 0.4086914 1.341797 0.625 1.383789 0.625</float_array>
+          <technique_common>
+            <accessor source="#pCube18411__PlazaAutoDoorC-texcoord-array" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411__PlazaAutoDoorC-texcoord_1">
+          <float_array id="pCube18411__PlazaAutoDoorC-texcoord-array_1" count="88">0.8304723 0.7507286 0.8340582 0.7507286 0.8304723 0.8782025 0.8340582 0.8782025 0.8751965 0.8119478 0.8716106 0.8119478 0.8751965 0.7874266 0.8716106 0.7874266 0.8066376 0.8789807 0.8030671 0.8789807 0.8066376 0.7514915 0.8030671 0.7514915 0.8967422 0.8107882 0.8931563 0.8107882 0.8967422 0.7862669 0.8931563 0.7862669 0.9362326 0.578378 0.9607843 0.578378 0.9362326 0.7058518 0.9607843 0.7058518 0.9362326 0.578378 0.9607843 0.578378 0.9362326 0.7058518 0.9607843 0.7058518 0.8304723 0.7507286 0.8340582 0.7507286 0.8304723 0.8782025 0.8340582 0.8782025 0.8751965 0.8119478 0.8716106 0.8119478 0.8751965 0.7874266 0.8716106 0.7874266 0.8066376 0.8789807 0.8030671 0.8789807 0.8066376 0.7514915 0.8030671 0.7514915 0.8967422 0.8107882 0.8931563 0.8107882 0.8967422 0.7862669 0.8931563 0.7862669 0.9362326 0.578378 0.9607843 0.578378 0.9362326 0.7058518 0.9607843 0.7058518</float_array>
+          <technique_common>
+            <accessor source="#pCube18411__PlazaAutoDoorC-texcoord-array_1" count="44" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube18411__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#pCube18411__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="10">
+          <input semantic="VERTEX" source="#pCube18411__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#pCube18411__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#pCube18411__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#pCube18411__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface11321__PlazaAutoDoorC-mesh" name="polySurface11321__PlazaAutoDoorC">
+      <mesh>
+        <source id="polySurface11321__PlazaAutoDoorC-position">
+          <float_array id="polySurface11321__PlazaAutoDoorC-position-array" count="36">0.2496626 3.037895 -0.03542522 1.534715 3.037895 -0.03338363 0.2496626 1.45799 -0.03542522 1.534715 1.45799 -0.03338363 0.2496626 3.037895 -0.03542522 1.534715 3.037895 -0.03338363 0.2496626 1.45799 -0.03542522 1.534715 1.45799 -0.03338363 0.2496626 3.037895 -0.03542522 1.534715 3.037895 -0.03338363 0.2496626 1.45799 -0.03542522 1.534715 1.45799 -0.03338363</float_array>
+          <technique_common>
+            <accessor source="#polySurface11321__PlazaAutoDoorC-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11321__PlazaAutoDoorC-normal">
+          <float_array id="polySurface11321__PlazaAutoDoorC-normal-array" count="36">0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1 0.001956947 0 -1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11321__PlazaAutoDoorC-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11321__PlazaAutoDoorC-texcoord">
+          <float_array id="polySurface11321__PlazaAutoDoorC-texcoord-array" count="24">0.4039216 0.8117647 0.2627451 0.8117647 0.4039216 0.6392157 0.2627451 0.6392157 0.4039216 0.8117647 0.2627451 0.8117647 0.4039216 0.6392157 0.2627451 0.6392157 0.4039216 0.8117647 0.2627451 0.8117647 0.4039216 0.6392157 0.2627451 0.6392157</float_array>
+          <technique_common>
+            <accessor source="#polySurface11321__PlazaAutoDoorC-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11321__PlazaAutoDoorC-texcoord_1">
+          <float_array id="polySurface11321__PlazaAutoDoorC-texcoord-array_1" count="24">0.7294118 0.7411765 0.5372549 0.7411765 0.7294118 0.5058824 0.5372549 0.5058824 0.7294118 0.7411765 0.5372549 0.7411765 0.7294118 0.5058824 0.5372549 0.5058824 0.7294118 0.7411765 0.5372549 0.7411765 0.7294118 0.5058824 0.5372549 0.5058824</float_array>
+          <technique_common>
+            <accessor source="#polySurface11321__PlazaAutoDoorC-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface11321__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#polySurface11321__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="2">
+          <input semantic="VERTEX" source="#polySurface11321__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface11321__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface11321__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface11321__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface11325__PlazaAutoDoorC-mesh" name="polySurface11325__PlazaAutoDoorC">
+      <mesh>
+        <source id="polySurface11325__PlazaAutoDoorC-position">
+          <float_array id="polySurface11325__PlazaAutoDoorC-position-array" count="36">1.534717 2.799886 -0.003265533 0.2496631 2.799886 -0.003288537 1.534717 1.693961 -0.003265533 0.2496631 1.693961 -0.003288537 1.534717 2.799886 -0.003265533 0.2496631 2.799886 -0.003288537 1.534717 1.693961 -0.003265533 0.2496631 1.693961 -0.003288537 1.534717 2.799886 -0.003265533 0.2496631 2.799886 -0.003288537 1.534717 1.693961 -0.003265533 0.2496631 1.693961 -0.003288537</float_array>
+          <technique_common>
+            <accessor source="#polySurface11325__PlazaAutoDoorC-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11325__PlazaAutoDoorC-normal">
+          <float_array id="polySurface11325__PlazaAutoDoorC-normal-array" count="36">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11325__PlazaAutoDoorC-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11325__PlazaAutoDoorC-texcoord">
+          <float_array id="polySurface11325__PlazaAutoDoorC-texcoord-array" count="24">1.891602 0.8153076 1.570313 0.8153076 1.891602 0.5388184 1.570313 0.5388184 1.891602 0.8153076 1.570313 0.8153076 1.891602 0.5388184 1.570313 0.5388184 1.891602 0.8153076 1.570313 0.8153076 1.891602 0.5388184 1.570313 0.5388184</float_array>
+          <technique_common>
+            <accessor source="#polySurface11325__PlazaAutoDoorC-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11325__PlazaAutoDoorC-texcoord_1">
+          <float_array id="polySurface11325__PlazaAutoDoorC-texcoord-array_1" count="24">0.6078432 0.7490196 0.6078432 0.9372549 0.4431373 0.7490196 0.4431373 0.9372549 0.6078432 0.7490196 0.6078432 0.9372549 0.4431373 0.7490196 0.4431373 0.9372549 0.6078432 0.7490196 0.6078432 0.9372549 0.4431373 0.7490196 0.4431373 0.9372549</float_array>
+          <technique_common>
+            <accessor source="#polySurface11325__PlazaAutoDoorC-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface11325__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#polySurface11325__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="2">
+          <input semantic="VERTEX" source="#polySurface11325__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface11325__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface11325__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface11325__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface9629__PlazaAutoDoorC-mesh" name="polySurface9629__PlazaAutoDoorC">
+      <mesh>
+        <source id="polySurface9629__PlazaAutoDoorC-position">
+          <float_array id="polySurface9629__PlazaAutoDoorC-position-array" count="36">0.2497072 2.791824 -0.03970737 1.53475 2.791824 -0.03440262 0.2497072 1.665379 -0.03970737 1.53475 1.665379 -0.03440262 0.2497072 2.791824 -0.03970737 1.53475 2.791824 -0.03440262 0.2497072 1.665379 -0.03970737 1.53475 1.665379 -0.03440262 0.2497072 2.791824 -0.03970737 1.53475 2.791824 -0.03440262 0.2497072 1.665379 -0.03970737 1.53475 1.665379 -0.03440262</float_array>
+          <technique_common>
+            <accessor source="#polySurface9629__PlazaAutoDoorC-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9629__PlazaAutoDoorC-normal">
+          <float_array id="polySurface9629__PlazaAutoDoorC-normal-array" count="36">0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1 0.003913894 0 -1</float_array>
+          <technique_common>
+            <accessor source="#polySurface9629__PlazaAutoDoorC-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9629__PlazaAutoDoorC-texcoord">
+          <float_array id="polySurface9629__PlazaAutoDoorC-texcoord-array" count="24">0.8941177 0.8117647 0.572549 0.8117647 0.8941177 0.5333333 0.572549 0.5333333 0.8941177 0.8117647 0.572549 0.8117647 0.8941177 0.5333333 0.572549 0.5333333 0.8941177 0.8117647 0.572549 0.8117647 0.8941177 0.5333333 0.572549 0.5333333</float_array>
+          <technique_common>
+            <accessor source="#polySurface9629__PlazaAutoDoorC-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9629__PlazaAutoDoorC-texcoord_1">
+          <float_array id="polySurface9629__PlazaAutoDoorC-texcoord-array_1" count="24">0.7843137 0.7490196 0.7843137 0.9411765 0.6156863 0.7490196 0.6156863 0.9411765 0.7843137 0.7490196 0.7843137 0.9411765 0.6156863 0.7490196 0.6156863 0.9411765 0.7843137 0.7490196 0.7843137 0.9411765 0.6156863 0.7490196 0.6156863 0.9411765</float_array>
+          <technique_common>
+            <accessor source="#polySurface9629__PlazaAutoDoorC-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface9629__PlazaAutoDoorC-vertex">
+          <input semantic="POSITION" source="#polySurface9629__PlazaAutoDoorC-position" />
+        </vertices>
+        <triangles material="PlazaAutoDoorC" count="2">
+          <input semantic="VERTEX" source="#polySurface9629__PlazaAutoDoorC-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface9629__PlazaAutoDoorC-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface9629__PlazaAutoDoorC-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface9629__PlazaAutoDoorC-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface9986__GlassStandardWall-mesh" name="polySurface9986__GlassStandardWall">
+      <mesh>
+        <source id="polySurface9986__GlassStandardWall-position">
+          <float_array id="polySurface9986__GlassStandardWall-position-array" count="36">0.249662 3.037895 -0.008873289 0.249662 1.45799 -0.008873289 1.534714 3.037895 -0.006831663 1.534714 1.45799 -0.006831663 0.249662 3.037895 -0.008873289 0.249662 1.45799 -0.008873289 1.534714 3.037895 -0.006831663 1.534714 1.45799 -0.006831663 0.249662 3.037895 -0.008873289 0.249662 1.45799 -0.008873289 1.534714 3.037895 -0.006831663 1.534714 1.45799 -0.006831663</float_array>
+          <technique_common>
+            <accessor source="#polySurface9986__GlassStandardWall-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9986__GlassStandardWall-normal">
+          <float_array id="polySurface9986__GlassStandardWall-normal-array" count="36">-0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1 -0.001956947 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface9986__GlassStandardWall-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9986__GlassStandardWall-texcoord">
+          <float_array id="polySurface9986__GlassStandardWall-texcoord-array" count="24">1.262695 0.8131104 1.262695 0.6379395 1.405273 0.8131104 1.405273 0.6379395 1.262695 0.8131104 1.262695 0.6379395 1.405273 0.8131104 1.405273 0.6379395 1.262695 0.8131104 1.262695 0.6379395 1.405273 0.8131104 1.405273 0.6379395</float_array>
+          <technique_common>
+            <accessor source="#polySurface9986__GlassStandardWall-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9986__GlassStandardWall-texcoord_1">
+          <float_array id="polySurface9986__GlassStandardWall-texcoord-array_1" count="24">0.5058824 0.8392157 0.5058824 0.1686274 0.9960784 0.8392157 0.9960784 0.1686274 0.5058824 0.8392157 0.5058824 0.1686274 0.9960784 0.8392157 0.9960784 0.1686274 0.5058824 0.8392157 0.5058824 0.1686274 0.9960784 0.8392157 0.9960784 0.1686274</float_array>
+          <technique_common>
+            <accessor source="#polySurface9986__GlassStandardWall-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface9986__GlassStandardWall-vertex">
+          <input semantic="POSITION" source="#polySurface9986__GlassStandardWall-position" />
+        </vertices>
+        <triangles material="GlassStandardWall" count="2">
+          <input semantic="VERTEX" source="#polySurface9986__GlassStandardWall-vertex" offset="0" />
+          <input semantic="NORMAL" source="#polySurface9986__GlassStandardWall-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#polySurface9986__GlassStandardWall-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#polySurface9986__GlassStandardWall-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_pCube18406_1__PlazaAutoDoorC-mesh">
+      <skin source="#pCube18406_1__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube18406_1__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="pCube18406_1__PlazaAutoDoorC-mesh-joint-array" count="1">pCube18406_1</Name_array>
+          <technique_common>
+            <accessor source="#pCube18406_1__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406_1__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="pCube18406_1__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 0.09289813 0 1 0 -1.086977 0 0 1 0.006189606 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube18406_1__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406_1__PlazaAutoDoorC-mesh-weight">
+          <float_array id="pCube18406_1__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube18406_1__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube18406_1__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube18406_1__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="44">
+          <input semantic="JOINT" source="#pCube18406_1__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube18406_1__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube18411_1__PlazaAutoDoorC-mesh">
+      <skin source="#pCube18411_1__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube18411_1__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="pCube18411_1__PlazaAutoDoorC-mesh-joint-array" count="1">pCube18411_1</Name_array>
+          <technique_common>
+            <accessor source="#pCube18411_1__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411_1__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="pCube18411_1__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 0.01290834 0 1 0 -1.028342 0 0 1 0.04009127 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube18411_1__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411_1__PlazaAutoDoorC-mesh-weight">
+          <float_array id="pCube18411_1__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube18411_1__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube18411_1__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube18411_1__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="44">
+          <input semantic="JOINT" source="#pCube18411_1__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube18411_1__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface11324__PlazaAutoDoorC-mesh">
+      <skin source="#polySurface11324__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface11324__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="polySurface11324__PlazaAutoDoorC-mesh-joint-array" count="1">polySurface11324</Name_array>
+          <technique_common>
+            <accessor source="#polySurface11324__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11324__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="polySurface11324__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 0.23102 0 1 0 -1.665379 0 0 1 0.03440423 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11324__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11324__PlazaAutoDoorC-mesh-weight">
+          <float_array id="polySurface11324__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11324__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface11324__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface11324__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface11324__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface11324__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface11323__PlazaAutoDoorC-mesh">
+      <skin source="#polySurface11323__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface11323__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="polySurface11323__PlazaAutoDoorC-mesh-joint-array" count="1">polySurface11323</Name_array>
+          <technique_common>
+            <accessor source="#polySurface11323__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11323__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="polySurface11323__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 0.8735503 0 1 0 -2.247943 0 0 1 0.009270746 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11323__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11323__PlazaAutoDoorC-mesh-weight">
+          <float_array id="polySurface11323__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11323__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface11323__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface11323__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface11323__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface11323__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface8867__GlassStandardWall-mesh">
+      <skin source="#polySurface8867__GlassStandardWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface8867__GlassStandardWall-mesh-joint">
+          <Name_array id="polySurface8867__GlassStandardWall-mesh-joint-array" count="1">polySurface8867</Name_array>
+          <technique_common>
+            <accessor source="#polySurface8867__GlassStandardWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8867__GlassStandardWall-mesh-inv_bind_matrix">
+          <float_array id="polySurface8867__GlassStandardWall-mesh-inv_bind_matrix-array" count="16">1 0 0 0.8735503 0 1 0 -2.247943 0 0 1 0.009270746 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8867__GlassStandardWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8867__GlassStandardWall-mesh-weight">
+          <float_array id="polySurface8867__GlassStandardWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8867__GlassStandardWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface8867__GlassStandardWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface8867__GlassStandardWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface8867__GlassStandardWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface8867__GlassStandardWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface8891__PlazaAutoDoorC-mesh">
+      <skin source="#polySurface8891__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface8891__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="polySurface8891__PlazaAutoDoorC-mesh-joint-array" count="1">polySurface8891</Name_array>
+          <technique_common>
+            <accessor source="#polySurface8891__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8891__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="polySurface8891__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 32.98 0 1 0 0.45 0 0 1 -15.56 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8891__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8891__PlazaAutoDoorC-mesh-weight">
+          <float_array id="polySurface8891__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8891__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface8891__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface8891__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="91">
+          <input semantic="JOINT" source="#polySurface8891__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface8891__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface8900__PlazaAutoDoorC-mesh">
+      <skin source="#polySurface8900__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface8900__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="polySurface8900__PlazaAutoDoorC-mesh-joint-array" count="1">polySurface8900</Name_array>
+          <technique_common>
+            <accessor source="#polySurface8900__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8900__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="polySurface8900__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 0.8735503 0 1 0 -2.246923 0 0 1 0.004454453 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8900__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8900__PlazaAutoDoorC-mesh-weight">
+          <float_array id="polySurface8900__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface8900__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface8900__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface8900__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface8900__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface8900__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_door__PlazaAutoDoorC-mesh">
+      <skin source="#door__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="door__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="door__PlazaAutoDoorC-mesh-joint-array" count="1">door</Name_array>
+          <technique_common>
+            <accessor source="#door__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="door__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="door__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 -0.8921789 0 1 0 -1.666395 0 0 1 0.004597623 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#door__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="door__PlazaAutoDoorC-mesh-weight">
+          <float_array id="door__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#door__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#door__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#door__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="96">
+          <input semantic="JOINT" source="#door__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#door__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube18406__PlazaAutoDoorC-mesh">
+      <skin source="#pCube18406__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube18406__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="pCube18406__PlazaAutoDoorC-mesh-joint-array" count="1">pCube18406</Name_array>
+          <technique_common>
+            <accessor source="#pCube18406__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="pCube18406__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 -1.774961 0 1 0 -0.003318672 0 0 1 -0.03089415 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube18406__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18406__PlazaAutoDoorC-mesh-weight">
+          <float_array id="pCube18406__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube18406__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube18406__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube18406__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="44">
+          <input semantic="JOINT" source="#pCube18406__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube18406__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_pCube18411__PlazaAutoDoorC-mesh">
+      <skin source="#pCube18411__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="pCube18411__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="pCube18411__PlazaAutoDoorC-mesh-joint-array" count="1">pCube18411</Name_array>
+          <technique_common>
+            <accessor source="#pCube18411__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="pCube18411__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 -1.774961 0 1 0 -0.003318672 0 0 1 -0.03089415 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#pCube18411__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube18411__PlazaAutoDoorC-mesh-weight">
+          <float_array id="pCube18411__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#pCube18411__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#pCube18411__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#pCube18411__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="44">
+          <input semantic="JOINT" source="#pCube18411__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#pCube18411__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface11321__PlazaAutoDoorC-mesh">
+      <skin source="#polySurface11321__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface11321__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="polySurface11321__PlazaAutoDoorC-mesh-joint-array" count="1">polySurface11321</Name_array>
+          <technique_common>
+            <accessor source="#polySurface11321__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11321__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="polySurface11321__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 -0.892188 0 1 0 -2.247943 0 0 1 0.03440368 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11321__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11321__PlazaAutoDoorC-mesh-weight">
+          <float_array id="polySurface11321__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11321__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface11321__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface11321__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface11321__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface11321__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface11325__PlazaAutoDoorC-mesh">
+      <skin source="#polySurface11325__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface11325__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="polySurface11325__PlazaAutoDoorC-mesh-joint-array" count="1">polySurface11325</Name_array>
+          <technique_common>
+            <accessor source="#polySurface11325__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11325__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="polySurface11325__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 -0.2496611 0 1 0 -1.693961 0 0 1 0.003288537 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11325__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface11325__PlazaAutoDoorC-mesh-weight">
+          <float_array id="polySurface11325__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface11325__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface11325__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface11325__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface11325__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface11325__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface9629__PlazaAutoDoorC-mesh">
+      <skin source="#polySurface9629__PlazaAutoDoorC-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface9629__PlazaAutoDoorC-mesh-joint">
+          <Name_array id="polySurface9629__PlazaAutoDoorC-mesh-joint-array" count="1">polySurface9629</Name_array>
+          <technique_common>
+            <accessor source="#polySurface9629__PlazaAutoDoorC-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9629__PlazaAutoDoorC-mesh-inv_bind_matrix">
+          <float_array id="polySurface9629__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="16">1 0 0 -0.8922291 0 1 0 -2.228601 0 0 1 0.03705607 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface9629__PlazaAutoDoorC-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9629__PlazaAutoDoorC-mesh-weight">
+          <float_array id="polySurface9629__PlazaAutoDoorC-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface9629__PlazaAutoDoorC-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface9629__PlazaAutoDoorC-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface9629__PlazaAutoDoorC-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface9629__PlazaAutoDoorC-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface9629__PlazaAutoDoorC-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polySurface9986__GlassStandardWall-mesh">
+      <skin source="#polySurface9986__GlassStandardWall-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="polySurface9986__GlassStandardWall-mesh-joint">
+          <Name_array id="polySurface9986__GlassStandardWall-mesh-joint-array" count="1">polySurface9986</Name_array>
+          <technique_common>
+            <accessor source="#polySurface9986__GlassStandardWall-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9986__GlassStandardWall-mesh-inv_bind_matrix">
+          <float_array id="polySurface9986__GlassStandardWall-mesh-inv_bind_matrix-array" count="16">1 0 0 -1.774961 0 1 0 -0.003318672 0 0 1 -0.03089415 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polySurface9986__GlassStandardWall-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface9986__GlassStandardWall-mesh-weight">
+          <float_array id="polySurface9986__GlassStandardWall-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#polySurface9986__GlassStandardWall-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#polySurface9986__GlassStandardWall-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#polySurface9986__GlassStandardWall-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#polySurface9986__GlassStandardWall-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#polySurface9986__GlassStandardWall-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_SdodrPlazaAutoDoorC" name="Obj_SdodrPlazaAutoDoorC" sid="Obj_SdodrPlazaAutoDoorC" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_DoorL" name="DoorL" sid="DoorL" type="JOINT">
+            <matrix sid="transform">1 0 0 -1.756387 0 1 0 0.003318634 0 0 1 0.02805664 0 0 0 1</matrix>
+            <node id="Armature_Col_0" name="Col_0" sid="Col_0" type="JOINT">
+              <matrix sid="transform">10 0 0 0.8828367 0 10 0 1.663071 0 0 10 -0.01811664 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_left" name="left" sid="left" type="JOINT">
+              <matrix sid="transform">1 0 0 1.947962E-06 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+              <node id="Armature_group17109" name="group17109" sid="group17109" type="JOINT">
+                <matrix sid="transform">1 0 0 0.8828377 0 1 0 1.663076 0 0 1 -0.03407391 0 0 0 1</matrix>
+                <node id="Armature_pCube18406_1" name="pCube18406_1" sid="pCube18406_1" type="JOINT">
+                  <matrix sid="transform">1 0 0 0.780649 0 1 0 -0.5794181 0 0 1 -0.0001723381 0 0 0 1</matrix>
+                </node>
+                <node id="Armature_pCube18411_1" name="pCube18411_1" sid="pCube18411_1" type="JOINT">
+                  <matrix sid="transform">1 0 0 0.8606388 0 1 0 -0.6380525 0 0 1 -0.034074 0 0 0 1</matrix>
+                </node>
+              </node>
+              <node id="Armature_group17399" name="group17399" sid="group17399" type="JOINT">
+                <matrix sid="transform">1 0 0 1.765674 0 1 0 0 0 0 1 3.177533E-05 0 0 0 1</matrix>
+                <node id="Armature_polySurface11324" name="polySurface11324" sid="polySurface11324" type="JOINT">
+                  <matrix sid="transform">1 0 0 -0.2403094 0 1 0 1.66206 0 0 1 -0.06249265 0 0 0 1</matrix>
+                </node>
+              </node>
+              <node id="Armature_polySurface11323" name="polySurface11323" sid="polySurface11323" type="JOINT">
+                <matrix sid="transform">1 0 0 0.8828346 0 1 0 2.244624 0 0 1 -0.03732739 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_polySurface8867" name="polySurface8867" sid="polySurface8867" type="JOINT">
+                <matrix sid="transform">1 0 0 0.8828346 0 1 0 2.244624 0 0 1 -0.03732739 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_polySurface8891" name="polySurface8891" sid="polySurface8891" type="JOINT">
+                <matrix sid="transform">1 0 0 -31.22362 0 1 0 -0.4533186 0 0 1 15.53194 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_polySurface8900" name="polySurface8900" sid="polySurface8900" type="JOINT">
+                <matrix sid="transform">1 0 0 0.8828346 0 1 0 2.243605 0 0 1 -0.03251109 0 0 0 1</matrix>
+              </node>
+            </node>
+          </node>
+          <node id="Armature_DoorR" name="DoorR" sid="DoorR" type="JOINT">
+            <matrix sid="transform">1 0 0 1.774961 0 1 0 0.003318672 0 0 1 0.03089477 0 0 0 1</matrix>
+            <node id="Armature_Col_1" name="Col_1" sid="Col_1" type="JOINT">
+              <matrix sid="transform">-10 -1.509958E-06 0 -0.8828309 1.509958E-06 -10 0 1.663071 0 0 10 -0.02095477 0 0 0 1</matrix>
+            </node>
+            <node id="Armature_right" name="right" sid="right" type="JOINT">
+              <matrix sid="transform">1 0 0 1.517125E-06 0 1 0 0 0 0 1 0.0168312 0 0 0 1</matrix>
+              <node id="Armature_door" name="door" sid="door" type="JOINT">
+                <matrix sid="transform">1 0 0 -0.8827837 0 1 0 1.663076 0 0 1 -0.0523236 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_pCube18406" name="pCube18406" sid="pCube18406" type="JOINT">
+                <matrix sid="transform">1 0 0 -1.116222E-06 0 1 0 0 0 0 1 -0.01683182 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_pCube18411" name="pCube18411" sid="pCube18411" type="JOINT">
+                <matrix sid="transform">1 0 0 -1.116221E-06 0 1 0 0 0 0 1 -0.01683182 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_polySurface11321" name="polySurface11321" sid="polySurface11321" type="JOINT">
+                <matrix sid="transform">1 0 0 -0.8827745 0 1 0 2.244624 0 0 1 -0.08212966 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_polySurface11325" name="polySurface11325" sid="polySurface11325" type="JOINT">
+                <matrix sid="transform">1 0 0 -1.525301 0 1 0 1.690642 0 0 1 -0.05101451 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_polySurface9629" name="polySurface9629" sid="polySurface9629" type="JOINT">
+                <matrix sid="transform">1 0 0 -0.8827334 0 1 0 2.225283 0 0 1 -0.08478204 0 0 0 1</matrix>
+              </node>
+              <node id="Armature_polySurface9986" name="polySurface9986" sid="polySurface9986" type="JOINT">
+                <matrix sid="transform">1 0 0 -1.116222E-06 0 1 0 0 0 0 1 -0.01683182 0 0 0 1</matrix>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node id="pCube18406_1__PlazaAutoDoorC" name="pCube18406_1__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_pCube18406_1__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube18411_1__PlazaAutoDoorC" name="pCube18411_1__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_pCube18411_1__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface11324__PlazaAutoDoorC" name="polySurface11324__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_polySurface11324__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface11323__PlazaAutoDoorC" name="polySurface11323__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_polySurface11323__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface8867__GlassStandardWall" name="polySurface8867__GlassStandardWall" type="NODE">
+        <instance_controller url="#Armature_polySurface8867__GlassStandardWall-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GlassStandardWall" target="#GlassStandardWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface8891__PlazaAutoDoorC" name="polySurface8891__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_polySurface8891__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface8900__PlazaAutoDoorC" name="polySurface8900__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_polySurface8900__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="door__PlazaAutoDoorC" name="door__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_door__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube18406__PlazaAutoDoorC" name="pCube18406__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_pCube18406__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="pCube18411__PlazaAutoDoorC" name="pCube18411__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_pCube18411__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface11321__PlazaAutoDoorC" name="polySurface11321__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_polySurface11321__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface11325__PlazaAutoDoorC" name="polySurface11325__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_polySurface11325__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface9629__PlazaAutoDoorC" name="polySurface9629__PlazaAutoDoorC" type="NODE">
+        <instance_controller url="#Armature_polySurface9629__PlazaAutoDoorC-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PlazaAutoDoorC" target="#PlazaAutoDoorC" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="polySurface9986__GlassStandardWall" name="polySurface9986__GlassStandardWall" type="NODE">
+        <instance_controller url="#Armature_polySurface9986__GlassStandardWall-mesh">
+          <skeleton>#Armature_Obj_SdodrPlazaAutoDoorC</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="GlassStandardWall" target="#GlassStandardWall" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
