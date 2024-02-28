@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="IkaPatternMsk">
+      <init_from>IkaPatternMsk.png</init_from>
+    </image>
+    <image id="movTV_Alb.0000">
+      <init_from>movTV_Alb.0000.png</init_from>
+    </image>
+    <image id="SignageMiniScroll_Alb">
+      <init_from>SignageMiniScroll_Alb.png</init_from>
+    </image>
+    <image id="SignageMiniSwitch_Alb">
+      <init_from>SignageMiniSwitch_Alb.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_TV">
+      <instance_effect url="#Effect_M_TV" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_TV">
+      <profile_COMMON>
+        <newparam sid="surface_M_TV-diffuse">
+          <surface type="2D">
+            <init_from>movTV_Alb.0000</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_TV-diffuse">
+          <sampler2D>
+            <source>surface_M_TV-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_TV-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="TV_0__M_TV-mesh" name="TV_0__M_TV">
+      <mesh>
+        <source id="TV_0__M_TV-position">
+          <float_array id="TV_0__M_TV-position-array" count="180">7.786757 34.82654 -45.17443 7.78675 34.82654 -64.34234 9.220399 26.69596 -45.17442 9.220398 26.69596 -64.34233 26.20001 20.22377 -12.99966 26.20001 20.22377 -8.700351 26.20001 43.19635 -12.99966 26.20001 43.19635 -8.700356 69.47452 2.450584 10.92043 67.00768 2.450585 17.69797 69.47415 5.771892 10.92143 67.00754 5.771893 17.69832 -17.85911 10.39883 11.23268 -22.89471 15.29554 7.946567 -17.51428 10.73896 11.33662 -21.84185 16.35922 8.255373 -17.14175 11.04134 11.45984 -20.68816 17.28681 8.634707 -16.74542 11.30281 11.60106 -19.45028 18.06494 9.079101 -16.32941 11.52066 11.75879 -18.14605 18.68238 9.582146 -15.89809 11.69259 11.93141 -16.79427 19.13025 10.13659 -15.45596 11.81681 12.11709 -15.41442 19.40207 10.73445 -15.00763 11.89203 12.3139 -14.02639 19.49395 11.36711 -14.55778 11.91746 12.51978 -14.11113 11.89284 12.73259 -12.6502 19.40454 12.02543 -13.67233 11.81841 12.9501 -11.30566 19.13515 12.69995 -13.24597 11.69496 13.17003 -10.01218 18.68965 13.38092 -12.8365 11.52378 13.39009 -8.788378 18.07446 14.05854 -12.4482 11.30666 13.60799 -7.651908 17.29846 14.72305 -12.08514 11.04586 13.82144 -6.619148 16.37282 15.36485 -11.75109 10.74411 14.02821 -5.704985 15.31089 15.97471 -11.44955 10.40456 14.22614 -28.16652 32.58326 -59.66518 -27.09187 32.58326 -63.73279 -27.09187 44.7679 -63.73279 -28.16652 44.7679 -59.66518 -30.00199 32.58326 -55.8795 -30.00199 44.7679 -55.8795 -32.53001 32.58326 -52.51655 -32.53001 44.7679 -52.51655 -35.65655 32.58326 -49.7014 -35.65655 44.7679 -49.7014 -39.26534 32.58326 -47.53876 -39.26534 44.7679 -47.53876 -43.1536 32.58326 -46.05616 -43.1536 44.7679 -46.05616 -47.02665 44.7679 -44.72256 -47.02665 32.58326 -44.72256</float_array>
+          <technique_common>
+            <accessor source="#TV_0__M_TV-position-array" count="60" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TV_0__M_TV-normal">
+          <float_array id="TV_0__M_TV-normal-array" count="180">-0.9843444 -0.1741683 0 -0.9843444 -0.1741683 0 -0.9843444 -0.1741683 0 -0.9843444 -0.1741683 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.9393346 0 -0.3424658 -0.9393346 0 -0.3424658 -0.9393346 0 -0.3424658 -0.9393346 0 -0.3424658 0.4266145 -0.1604697 -0.890411 0.4246575 -0.1604697 -0.890411 0.4246575 -0.1604697 -0.890411 0.4246575 -0.1624266 -0.890411 0.4246575 -0.1624266 -0.890411 0.4227006 -0.1624266 -0.890411 0.4227006 -0.1624266 -0.890411 0.4227006 -0.1643836 -0.8923679 0.4227006 -0.1643836 -0.8923679 0.4207436 -0.1643836 -0.8923679 0.4207436 -0.1643836 -0.8923679 0.4207436 -0.1643836 -0.8923679 0.4207436 -0.1643836 -0.8923679 0.4187867 -0.1643836 -0.8923679 0.4187867 -0.1643836 -0.8923679 0.4168297 -0.1643836 -0.8943248 0.4168297 -0.1643836 -0.8943248 0.4168297 -0.1643836 -0.8943248 0.4168297 -0.1643836 -0.8943248 0.4148728 -0.1643836 -0.8943248 0.4148728 -0.1643836 -0.8943248 0.4129159 -0.1643836 -0.8962818 0.4129159 -0.1643836 -0.8962818 0.4129159 -0.1643836 -0.8962818 0.4129159 -0.1643836 -0.8962818 0.4109589 -0.1624266 -0.8962818 0.4109589 -0.1624266 -0.8962818 0.4109589 -0.1624266 -0.8962818 0.4109589 -0.1624266 -0.8962818 0.4109589 -0.1604697 -0.8982387 0.4109589 -0.1604697 -0.8982387 0.4090019 -0.1604697 -0.8982387 0.9373777 0 0.3483366 0.9667319 0 0.2563601 0.9667319 0 0.2563601 0.9373777 0 0.3483366 0.853229 0 0.5205479 0.853229 0 0.5205479 0.7377691 0 0.6751468 0.7377691 0 0.6751468 0.5949119 0 0.8043053 0.5949119 0 0.8043053 0.4363992 0 0.9001957 0.4363992 0 0.9001957 0.3405088 0 0.9393346 0.3405088 0 0.9393346 0.3248532 0 0.9452055 0.3248532 0 0.9452055</float_array>
+          <technique_common>
+            <accessor source="#TV_0__M_TV-normal-array" count="60" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TV_0__M_TV-texcoord">
+          <float_array id="TV_0__M_TV-texcoord-array" count="120">0.8806439 0.9153734 0.1221637 0.9153734 0.8806439 0.07205307 0.1221637 0.07205307 0.005020218 0.7118639 0.005020218 0.2975357 0.9968261 0.7118486 0.9968261 0.2975357 0.003128099 0 0.9968719 0 0.003128099 1 0.9968719 1 0.6853589 0.005371153 0.9972076 0.5411154 0.6666667 0.04240483 0.9403067 0.6569924 0.6462196 0.07531852 0.8770581 0.7580224 0.6242619 0.1037766 0.8083772 0.8427558 0.6009918 0.1274739 0.735256 0.9099413 0.576669 0.1461661 0.658732 0.958648 0.5515526 0.1596704 0.5799191 0.988159 0.525887 0.1678187 0.4999619 0.9980316 0.4999466 0.1705501 0.4740215 0.1678187 0.4200046 0.988159 0.4483559 0.1596704 0.3411917 0.958648 0.4232395 0.1461661 0.2646677 0.9099413 0.3989166 0.1274739 0.1915465 0.8427558 0.3756466 0.1037766 0.1228656 0.7580224 0.3536736 0.07531852 0.059617 0.6569924 0.3332418 0.04240483 0.002716106 0.5411154 0.3145342 0.005371153 0.8563821 0 1 0 1 1 0.8563821 1 0.7127489 0 0.7127489 1 0.569131 0 0.569131 1 0.4255131 0 0.4255131 1 0.2818952 0 0.2818952 1 0.1398337 0 0.1398337 1 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#TV_0__M_TV-texcoord-array" count="60" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TV_0__M_TV-vertex">
+          <input semantic="POSITION" source="#TV_0__M_TV-position" />
+        </vertices>
+        <triangles material="M_TV" count="50">
+          <input semantic="VERTEX" source="#TV_0__M_TV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#TV_0__M_TV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#TV_0__M_TV-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 15 15 15 16 16 16 14 14 14 15 15 15 17 17 17 16 16 16 17 17 17 18 18 18 16 16 16 17 17 17 19 19 19 18 18 18 19 19 19 20 20 20 18 18 18 20 20 20 19 19 19 21 21 21 22 22 22 20 20 20 21 21 21 21 21 21 23 23 23 22 22 22 23 23 23 24 24 24 22 22 22 23 23 23 25 25 25 24 24 24 25 25 25 26 26 26 24 24 24 25 25 25 27 27 27 26 26 26 27 27 27 28 28 28 26 26 26 29 29 29 28 28 28 27 27 27 30 30 30 29 29 29 27 27 27 29 29 29 30 30 30 31 31 31 30 30 30 32 32 32 31 31 31 33 33 33 31 31 31 32 32 32 34 34 34 33 33 33 32 32 32 33 33 33 34 34 34 35 35 35 34 34 34 36 36 36 35 35 35 35 35 35 36 36 36 37 37 37 36 36 36 38 38 38 37 37 37 39 39 39 37 37 37 38 38 38 40 40 40 39 39 39 38 38 38 39 39 39 40 40 40 41 41 41 40 40 40 42 42 42 41 41 41 42 42 42 43 43 43 41 41 41 44 44 44 45 45 45 46 46 46 47 47 47 44 44 44 46 46 46 48 48 48 44 44 44 47 47 47 49 49 49 48 48 48 47 47 47 50 50 50 48 48 48 49 49 49 51 51 51 50 50 50 49 49 49 52 52 52 50 50 50 51 51 51 53 53 53 52 52 52 51 51 51 54 54 54 52 52 52 53 53 53 55 55 55 54 54 54 53 53 53 56 56 56 54 54 54 55 55 55 57 57 57 56 56 56 55 55 55 56 56 56 57 57 57 58 58 58 59 59 59 56 56 56 58 58 58 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_TV_0__M_TV-mesh">
+      <skin source="#TV_0__M_TV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="TV_0__M_TV-mesh-joint">
+          <Name_array id="TV_0__M_TV-mesh-joint-array" count="1">Fld_PlazaSignageFest</Name_array>
+          <technique_common>
+            <accessor source="#TV_0__M_TV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TV_0__M_TV-mesh-inv_bind_matrix">
+          <float_array id="TV_0__M_TV-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#TV_0__M_TV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TV_0__M_TV-mesh-weight">
+          <float_array id="TV_0__M_TV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#TV_0__M_TV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#TV_0__M_TV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#TV_0__M_TV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="60">
+          <input semantic="JOINT" source="#TV_0__M_TV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#TV_0__M_TV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Fld_PlazaSignageFest" name="Fld_PlazaSignageFest" sid="Fld_PlazaSignageFest" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="TV_0__M_TV" name="TV_0__M_TV" type="NODE">
+        <instance_controller url="#Armature_TV_0__M_TV-mesh">
+          <skeleton>#Armature_Fld_PlazaSignageFest</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_TV" target="#M_TV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
