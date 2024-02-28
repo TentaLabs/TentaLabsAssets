@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="BakeDummy00">
+      <init_from>BakeDummy00.png</init_from>
+    </image>
+    <image id="BarUnique00_Alb">
+      <init_from>BarUnique00_Alb.png</init_from>
+    </image>
+    <image id="BarUnique00_Mtl">
+      <init_from>BarUnique00_Mtl.png</init_from>
+    </image>
+    <image id="BarUnique00_Nrm">
+      <init_from>BarUnique00_Nrm.png</init_from>
+    </image>
+    <image id="BarUnique00_Rgh">
+      <init_from>BarUnique00_Rgh.png</init_from>
+    </image>
+    <image id="BigScreen_Alb">
+      <init_from>BigScreen_Alb.png</init_from>
+    </image>
+    <image id="BigScreen_Nrm">
+      <init_from>BigScreen_Nrm.png</init_from>
+    </image>
+    <image id="BigScreen_Rgh">
+      <init_from>BigScreen_Rgh.png</init_from>
+    </image>
+    <image id="ColorSampleDX_Alb">
+      <init_from>ColorSampleDX_Alb.png</init_from>
+    </image>
+    <image id="DustBoxPlants_Alb">
+      <init_from>DustBoxPlants_Alb.png</init_from>
+    </image>
+    <image id="DustBoxPlants_Mtl">
+      <init_from>DustBoxPlants_Mtl.png</init_from>
+    </image>
+    <image id="DustBoxPlants_Nrm">
+      <init_from>DustBoxPlants_Nrm.png</init_from>
+    </image>
+    <image id="DustBoxPlants_Rgh">
+      <init_from>DustBoxPlants_Rgh.png</init_from>
+    </image>
+    <image id="ExitDoor_Alb">
+      <init_from>ExitDoor_Alb.png</init_from>
+    </image>
+    <image id="ExitDoor_Mtl">
+      <init_from>ExitDoor_Mtl.png</init_from>
+    </image>
+    <image id="ExitDoor_Nrm">
+      <init_from>ExitDoor_Nrm.png</init_from>
+    </image>
+    <image id="ExitDoor_Rgh">
+      <init_from>ExitDoor_Rgh.png</init_from>
+    </image>
+    <image id="facility_Alb">
+      <init_from>facility_Alb.png</init_from>
+    </image>
+    <image id="facility_Mtl">
+      <init_from>facility_Mtl.png</init_from>
+    </image>
+    <image id="facility_Nrm">
+      <init_from>facility_Nrm.png</init_from>
+    </image>
+    <image id="facility_Opa">
+      <init_from>facility_Opa.png</init_from>
+    </image>
+    <image id="facility_Rgh">
+      <init_from>facility_Rgh.png</init_from>
+    </image>
+    <image id="FieldSignYellow02_Alb">
+      <init_from>FieldSignYellow02_Alb.png</init_from>
+    </image>
+    <image id="FieldSignYellow02_Rgh">
+      <init_from>FieldSignYellow02_Rgh.png</init_from>
+    </image>
+    <image id="Fluorescentlight_Alb">
+      <init_from>Fluorescentlight_Alb.png</init_from>
+    </image>
+    <image id="Fluorescentlight_Emm">
+      <init_from>Fluorescentlight_Emm.png</init_from>
+    </image>
+    <image id="Fluorescentlight_Mtl">
+      <init_from>Fluorescentlight_Mtl.png</init_from>
+    </image>
+    <image id="Fluorescentlight_Nrm">
+      <init_from>Fluorescentlight_Nrm.png</init_from>
+    </image>
+    <image id="Fluorescentlight_Rgh">
+      <init_from>Fluorescentlight_Rgh.png</init_from>
+    </image>
+    <image id="Gear00_Alb">
+      <init_from>Gear00_Alb.png</init_from>
+    </image>
+    <image id="Gear00_Nrm">
+      <init_from>Gear00_Nrm.png</init_from>
+    </image>
+    <image id="Gear00_Rgh">
+      <init_from>Gear00_Rgh.png</init_from>
+    </image>
+    <image id="Gear01_Alb">
+      <init_from>Gear01_Alb.png</init_from>
+    </image>
+    <image id="Gear01_Nrm">
+      <init_from>Gear01_Nrm.png</init_from>
+    </image>
+    <image id="Gear01_Rgh">
+      <init_from>Gear01_Rgh.png</init_from>
+    </image>
+    <image id="IkaPatternMsk">
+      <init_from>IkaPatternMsk.png</init_from>
+    </image>
+    <image id="LightBakeDummy00">
+      <init_from>LightBakeDummy00.png</init_from>
+    </image>
+    <image id="LobbyFloorConcrete_Alb">
+      <init_from>LobbyFloorConcrete_Alb.png</init_from>
+    </image>
+    <image id="LobbyFloorConcrete_Nrm">
+      <init_from>LobbyFloorConcrete_Nrm.png</init_from>
+    </image>
+    <image id="LobbyFloorConcrete_Rgh">
+      <init_from>LobbyFloorConcrete_Rgh.png</init_from>
+    </image>
+    <image id="LobbyShopPaper00_Alb">
+      <init_from>LobbyShopPaper00_Alb.png</init_from>
+    </image>
+    <image id="LobbyShopPaper00_Opa">
+      <init_from>LobbyShopPaper00_Opa.png</init_from>
+    </image>
+    <image id="LobbySign00_Alb">
+      <init_from>LobbySign00_Alb.png</init_from>
+    </image>
+    <image id="LobbySign00_Nrm">
+      <init_from>LobbySign00_Nrm.png</init_from>
+    </image>
+    <image id="LobbySign00_Rgh">
+      <init_from>LobbySign00_Rgh.png</init_from>
+    </image>
+    <image id="LobbySign01_Alb">
+      <init_from>LobbySign01_Alb.png</init_from>
+    </image>
+    <image id="LobbySign01_Opa">
+      <init_from>LobbySign01_Opa.png</init_from>
+    </image>
+    <image id="LobbySign02_Alb">
+      <init_from>LobbySign02_Alb.png</init_from>
+    </image>
+    <image id="LobbySign02_Nrm">
+      <init_from>LobbySign02_Nrm.png</init_from>
+    </image>
+    <image id="LobbySign02_Opa">
+      <init_from>LobbySign02_Opa.png</init_from>
+    </image>
+    <image id="LobbySign03_Alb">
+      <init_from>LobbySign03_Alb.png</init_from>
+    </image>
+    <image id="LobbySign03_Nrm">
+      <init_from>LobbySign03_Nrm.png</init_from>
+    </image>
+    <image id="LobbySign03_Opa">
+      <init_from>LobbySign03_Opa.png</init_from>
+    </image>
+    <image id="LobbySign04_Alb">
+      <init_from>LobbySign04_Alb.png</init_from>
+    </image>
+    <image id="LobbySign04_Nrm">
+      <init_from>LobbySign04_Nrm.png</init_from>
+    </image>
+    <image id="LobbySign04_Opa">
+      <init_from>LobbySign04_Opa.png</init_from>
+    </image>
+    <image id="LobbyStep_Alb">
+      <init_from>LobbyStep_Alb.png</init_from>
+    </image>
+    <image id="LobbyStep_Nrm">
+      <init_from>LobbyStep_Nrm.png</init_from>
+    </image>
+    <image id="LobbyStep_Rgh">
+      <init_from>LobbyStep_Rgh.png</init_from>
+    </image>
+    <image id="LockerLight00_Alb">
+      <init_from>LockerLight00_Alb.png</init_from>
+    </image>
+    <image id="LockerLight00_Emm">
+      <init_from>LockerLight00_Emm.png</init_from>
+    </image>
+    <image id="LockerLight00_Nrm">
+      <init_from>LockerLight00_Nrm.png</init_from>
+    </image>
+    <image id="LockerLight00_Rgh">
+      <init_from>LockerLight00_Rgh.png</init_from>
+    </image>
+    <image id="LockerSet00_Alb">
+      <init_from>LockerSet00_Alb.png</init_from>
+    </image>
+    <image id="LockerSet00_Mtl">
+      <init_from>LockerSet00_Mtl.png</init_from>
+    </image>
+    <image id="LockerSet00_Nrm">
+      <init_from>LockerSet00_Nrm.png</init_from>
+    </image>
+    <image id="LockerSet00_Rgh">
+      <init_from>LockerSet00_Rgh.png</init_from>
+    </image>
+    <image id="LockerSlope00_Alb">
+      <init_from>LockerSlope00_Alb.png</init_from>
+    </image>
+    <image id="LockerSlope00_Mtl">
+      <init_from>LockerSlope00_Mtl.png</init_from>
+    </image>
+    <image id="LockerSlope00_Nrm">
+      <init_from>LockerSlope00_Nrm.png</init_from>
+    </image>
+    <image id="LockerSlope00_Opa">
+      <init_from>LockerSlope00_Opa.png</init_from>
+    </image>
+    <image id="LockerSlope00_Rgh">
+      <init_from>LockerSlope00_Rgh.png</init_from>
+    </image>
+    <image id="metalbeamsset_Alb">
+      <init_from>metalbeamsset_Alb.png</init_from>
+    </image>
+    <image id="metalbeamsset_Nrm">
+      <init_from>metalbeamsset_Nrm.png</init_from>
+    </image>
+    <image id="metalbeamsset_Rgh">
+      <init_from>metalbeamsset_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyFloorBlack_Alb">
+      <init_from>mLobbyFloorBlack_Alb.png</init_from>
+    </image>
+    <image id="mLobbyFloorBlack_Nrm">
+      <init_from>mLobbyFloorBlack_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyFloorMat_Alb">
+      <init_from>mLobbyFloorMat_Alb.png</init_from>
+    </image>
+    <image id="mLobbyFloorMat_Nrm">
+      <init_from>mLobbyFloorMat_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyFloorMat_Rgh">
+      <init_from>mLobbyFloorMat_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyFloorRubber_Alb">
+      <init_from>mLobbyFloorRubber_Alb.png</init_from>
+    </image>
+    <image id="mLobbyFloorRubber_Nrm">
+      <init_from>mLobbyFloorRubber_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyFloorRubber_Rgh">
+      <init_from>mLobbyFloorRubber_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyFloor_Alb">
+      <init_from>mLobbyFloor_Alb.png</init_from>
+    </image>
+    <image id="mLobbyFloor_Nrm">
+      <init_from>mLobbyFloor_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyFloor_Rgh">
+      <init_from>mLobbyFloor_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyLockerRoomPanel_Alb">
+      <init_from>mLobbyLockerRoomPanel_Alb.png</init_from>
+    </image>
+    <image id="mLobbyLockerRoomPanel_Nrm">
+      <init_from>mLobbyLockerRoomPanel_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyLockerRoomPanel_Rgh">
+      <init_from>mLobbyLockerRoomPanel_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyMetalNet_Alb">
+      <init_from>mLobbyMetalNet_Alb.png</init_from>
+    </image>
+    <image id="mLobbyMetalNet_Mtl">
+      <init_from>mLobbyMetalNet_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyMetalNet_Nrm">
+      <init_from>mLobbyMetalNet_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyMetalNet_Opa">
+      <init_from>mLobbyMetalNet_Opa.png</init_from>
+    </image>
+    <image id="mLobbyMetalNet_Rgh">
+      <init_from>mLobbyMetalNet_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyMetalPanelBlack_Alb">
+      <init_from>mLobbyMetalPanelBlack_Alb.png</init_from>
+    </image>
+    <image id="mLobbyMetalPanelBlack_Mtl">
+      <init_from>mLobbyMetalPanelBlack_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyMetalPanelBlack_Nrm">
+      <init_from>mLobbyMetalPanelBlack_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyMetalPanelBlack_Rgh">
+      <init_from>mLobbyMetalPanelBlack_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyPartition_Alb">
+      <init_from>mLobbyPartition_Alb.png</init_from>
+    </image>
+    <image id="mLobbyPartition_Nrm">
+      <init_from>mLobbyPartition_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyPartition_Rgh">
+      <init_from>mLobbyPartition_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyPollBench_Alb">
+      <init_from>mLobbyPollBench_Alb.png</init_from>
+    </image>
+    <image id="mLobbyPollBench_Emm">
+      <init_from>mLobbyPollBench_Emm.png</init_from>
+    </image>
+    <image id="mLobbyPollBench_Mtl">
+      <init_from>mLobbyPollBench_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyPollBench_Nrm">
+      <init_from>mLobbyPollBench_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyPollBench_Rgh">
+      <init_from>mLobbyPollBench_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyShopFood_Alb">
+      <init_from>mLobbyShopFood_Alb.png</init_from>
+    </image>
+    <image id="mLobbyShopFood_Nrm">
+      <init_from>mLobbyShopFood_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyShopFood_Rgh">
+      <init_from>mLobbyShopFood_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyShopObjLarge_Alb">
+      <init_from>mLobbyShopObjLarge_Alb.png</init_from>
+    </image>
+    <image id="mLobbyShopObjLarge_Emm">
+      <init_from>mLobbyShopObjLarge_Emm.png</init_from>
+    </image>
+    <image id="mLobbyShopObjLarge_Mtl">
+      <init_from>mLobbyShopObjLarge_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyShopObjLarge_Nrm">
+      <init_from>mLobbyShopObjLarge_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyShopObjLarge_Opa">
+      <init_from>mLobbyShopObjLarge_Opa.png</init_from>
+    </image>
+    <image id="mLobbyShopObjLarge_Rgh">
+      <init_from>mLobbyShopObjLarge_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyShopObj_Alb">
+      <init_from>mLobbyShopObj_Alb.png</init_from>
+    </image>
+    <image id="mLobbyShopObj_Mtl">
+      <init_from>mLobbyShopObj_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyShopObj_Nrm">
+      <init_from>mLobbyShopObj_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyShopObj_Rgh">
+      <init_from>mLobbyShopObj_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyShopWall_Alb">
+      <init_from>mLobbyShopWall_Alb.png</init_from>
+    </image>
+    <image id="mLobbyShopWall_Mtl">
+      <init_from>mLobbyShopWall_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyShopWall_Nrm">
+      <init_from>mLobbyShopWall_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyShopWall_Rgh">
+      <init_from>mLobbyShopWall_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyStepsBox_Alb">
+      <init_from>mLobbyStepsBox_Alb.png</init_from>
+    </image>
+    <image id="mLobbyStepsBox_Emm">
+      <init_from>mLobbyStepsBox_Emm.png</init_from>
+    </image>
+    <image id="mLobbyStepsBox_Mtl">
+      <init_from>mLobbyStepsBox_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyStepsBox_Nrm">
+      <init_from>mLobbyStepsBox_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyStepsBox_Opa">
+      <init_from>mLobbyStepsBox_Opa.png</init_from>
+    </image>
+    <image id="mLobbyStepsBox_Rgh">
+      <init_from>mLobbyStepsBox_Rgh.png</init_from>
+    </image>
+    <image id="mLobbyWoodBox_Alb">
+      <init_from>mLobbyWoodBox_Alb.png</init_from>
+    </image>
+    <image id="mLobbyWoodBox_Mtl">
+      <init_from>mLobbyWoodBox_Mtl.png</init_from>
+    </image>
+    <image id="mLobbyWoodBox_Nrm">
+      <init_from>mLobbyWoodBox_Nrm.png</init_from>
+    </image>
+    <image id="mLobbyWoodBox_Rgh">
+      <init_from>mLobbyWoodBox_Rgh.png</init_from>
+    </image>
+    <image id="movTV_Alb.0000">
+      <init_from>movTV_Alb.0000.png</init_from>
+    </image>
+    <image id="PlantYucca_Alb">
+      <init_from>PlantYucca_Alb.png</init_from>
+    </image>
+    <image id="PlantYucca_Nrm">
+      <init_from>PlantYucca_Nrm.png</init_from>
+    </image>
+    <image id="PlantYucca_Opa">
+      <init_from>PlantYucca_Opa.png</init_from>
+    </image>
+    <image id="PlantYucca_Rgh">
+      <init_from>PlantYucca_Rgh.png</init_from>
+    </image>
+    <image id="radioUnique_Alb">
+      <init_from>radioUnique_Alb.png</init_from>
+    </image>
+    <image id="radioUnique_Emi">
+      <init_from>radioUnique_Emi.png</init_from>
+    </image>
+    <image id="radioUnique_Mtl">
+      <init_from>radioUnique_Mtl.png</init_from>
+    </image>
+    <image id="radioUnique_Nrm">
+      <init_from>radioUnique_Nrm.png</init_from>
+    </image>
+    <image id="radioUnique_Rgh">
+      <init_from>radioUnique_Rgh.png</init_from>
+    </image>
+    <image id="RampRubber_Nrm">
+      <init_from>RampRubber_Nrm.png</init_from>
+    </image>
+    <image id="RampRubber_Rgh">
+      <init_from>RampRubber_Rgh.png</init_from>
+    </image>
+    <image id="RampWoodSlope01_Alb">
+      <init_from>RampWoodSlope01_Alb.png</init_from>
+    </image>
+    <image id="RampWoodSlope01_Rgh">
+      <init_from>RampWoodSlope01_Rgh.png</init_from>
+    </image>
+    <image id="RampWoodSlope_Alb">
+      <init_from>RampWoodSlope_Alb.png</init_from>
+    </image>
+    <image id="RampWoodSlope_Nrm">
+      <init_from>RampWoodSlope_Nrm.png</init_from>
+    </image>
+    <image id="RepeatUV_Alb">
+      <init_from>RepeatUV_Alb.png</init_from>
+    </image>
+    <image id="RepeatUV_Mtl">
+      <init_from>RepeatUV_Mtl.png</init_from>
+    </image>
+    <image id="RepeatUV_Nrm">
+      <init_from>RepeatUV_Nrm.png</init_from>
+    </image>
+    <image id="RepeatUV_Rgh">
+      <init_from>RepeatUV_Rgh.png</init_from>
+    </image>
+    <image id="ScreenVendingMachine1_Alb">
+      <init_from>ScreenVendingMachine1_Alb.png</init_from>
+    </image>
+    <image id="ScreenVendingMachine1_Emm">
+      <init_from>ScreenVendingMachine1_Emm.png</init_from>
+    </image>
+    <image id="ScreenVendingMachine1_Mtl">
+      <init_from>ScreenVendingMachine1_Mtl.png</init_from>
+    </image>
+    <image id="ScreenVendingMachine1_Nrm">
+      <init_from>ScreenVendingMachine1_Nrm.png</init_from>
+    </image>
+    <image id="ScreenVendingMachine1_Rgh">
+      <init_from>ScreenVendingMachine1_Rgh.png</init_from>
+    </image>
+    <image id="SighterTargetRail_Alb">
+      <init_from>SighterTargetRail_Alb.png</init_from>
+    </image>
+    <image id="SighterTargetRail_Mtl">
+      <init_from>SighterTargetRail_Mtl.png</init_from>
+    </image>
+    <image id="SighterTargetRail_Nrm">
+      <init_from>SighterTargetRail_Nrm.png</init_from>
+    </image>
+    <image id="SighterTargetRail_Rgh">
+      <init_from>SighterTargetRail_Rgh.png</init_from>
+    </image>
+    <image id="SignageFes00_MltA">
+      <init_from>SignageFes00_MltA.png</init_from>
+    </image>
+    <image id="SignageFes00_MltB">
+      <init_from>SignageFes00_MltB.png</init_from>
+    </image>
+    <image id="SignageFes00_Mtl">
+      <init_from>SignageFes00_Mtl.png</init_from>
+    </image>
+    <image id="SignageFes00_Nrm">
+      <init_from>SignageFes00_Nrm.png</init_from>
+    </image>
+    <image id="SignageFes00_Rgh">
+      <init_from>SignageFes00_Rgh.png</init_from>
+    </image>
+    <image id="SignageLong00_Alb">
+      <init_from>SignageLong00_Alb.png</init_from>
+    </image>
+    <image id="SignageLong00_MltB">
+      <init_from>SignageLong00_MltB.png</init_from>
+    </image>
+    <image id="SignageLong00_Rgh">
+      <init_from>SignageLong00_Rgh.png</init_from>
+    </image>
+    <image id="SignageMatching00_Alb">
+      <init_from>SignageMatching00_Alb.png</init_from>
+    </image>
+    <image id="SignageMatching00_MltA">
+      <init_from>SignageMatching00_MltA.png</init_from>
+    </image>
+    <image id="SignageMatching00_MltB">
+      <init_from>SignageMatching00_MltB.png</init_from>
+    </image>
+    <image id="SignageMatching00_Rgh">
+      <init_from>SignageMatching00_Rgh.png</init_from>
+    </image>
+    <image id="Sofa_Alb">
+      <init_from>Sofa_Alb.png</init_from>
+    </image>
+    <image id="Sofa_Nrm">
+      <init_from>Sofa_Nrm.png</init_from>
+    </image>
+    <image id="Sofa_Rgh">
+      <init_from>Sofa_Rgh.png</init_from>
+    </image>
+    <image id="TableSetDrink_Alb">
+      <init_from>TableSetDrink_Alb.png</init_from>
+    </image>
+    <image id="TableSetDrink_Mtl">
+      <init_from>TableSetDrink_Mtl.png</init_from>
+    </image>
+    <image id="TableSetDrink_Nrm">
+      <init_from>TableSetDrink_Nrm.png</init_from>
+    </image>
+    <image id="TableSetDrink_Rgh">
+      <init_from>TableSetDrink_Rgh.png</init_from>
+    </image>
+    <image id="TrashBags_Alb">
+      <init_from>TrashBags_Alb.png</init_from>
+    </image>
+    <image id="TrashBags_Nrm">
+      <init_from>TrashBags_Nrm.png</init_from>
+    </image>
+    <image id="TrashBags_Rgh">
+      <init_from>TrashBags_Rgh.png</init_from>
+    </image>
+    <image id="TrussYellow_Alb">
+      <init_from>TrussYellow_Alb.png</init_from>
+    </image>
+    <image id="TrussYellow_Nrm">
+      <init_from>TrussYellow_Nrm.png</init_from>
+    </image>
+    <image id="TrussYellow_Rgh">
+      <init_from>TrussYellow_Rgh.png</init_from>
+    </image>
+    <image id="Wall02_Alb">
+      <init_from>Wall02_Alb.png</init_from>
+    </image>
+    <image id="Wall02_Nrm">
+      <init_from>Wall02_Nrm.png</init_from>
+    </image>
+    <image id="Wall02_Rgh">
+      <init_from>Wall02_Rgh.png</init_from>
+    </image>
+    <image id="Water00_Mtl">
+      <init_from>Water00_Mtl.png</init_from>
+    </image>
+    <image id="Water00_Nrm">
+      <init_from>Water00_Nrm.png</init_from>
+    </image>
+    <image id="Water00_Opa">
+      <init_from>Water00_Opa.png</init_from>
+    </image>
+    <image id="Water00_Rgh">
+      <init_from>Water00_Rgh.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_TV">
+      <instance_effect url="#Effect_M_TV" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_TV">
+      <profile_COMMON>
+        <newparam sid="surface_M_TV-diffuse">
+          <surface type="2D">
+            <init_from>movTV_Alb.0000</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_TV-diffuse">
+          <sampler2D>
+            <source>surface_M_TV-diffuse</source>
+            <wrap_s>CLAMP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_TV-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Screen4__M_TV-mesh" name="Screen4__M_TV">
+      <mesh>
+        <source id="Screen4__M_TV-position">
+          <float_array id="Screen4__M_TV-position-array" count="456">-2.211016 7.480338 22.80863 -2.219072 2.271764 22.80868 -3.991745 2.605096 23.90348 -3.980112 7.81155 23.8959 -5.873138 2.955955 24.76626 -5.856409 8.16225 24.75249 -7.843136 3.323028 25.39189 -7.822434 8.532535 25.37347 -9.873038 3.700861 25.77128 -9.84956 8.902401 25.74977 -11.93323 4.08369 25.89888 -11.90833 9.295323 25.87587 -13.99367 4.465701 25.77285 -13.96881 9.670635 25.74995 -16.02428 4.841194 25.39502 -16.00099 10.03897 25.37382 -17.99543 5.204527 24.77093 -17.97532 10.39678 24.75296 -19.68933 5.550248 23.98972 -19.86306 10.74406 23.89645 -21.64566 5.872945 22.82384 -21.63697 11.0596 22.81661 -23.27061 6.168681 21.53049 -23.27047 11.36331 21.53047 2.863542 7.378499 -16.35271 4.593113 6.944702 -16.34529 9.809418 27.7424 -16.34529 8.079846 28.1762 -16.35271 6.462679 28.58189 -16.02826 1.066426 7.834249 -15.9589 4.882805 28.97814 -15.46025 -0.1496436 8.139253 -15.52595 3.342996 29.36426 -14.64945 -1.873306 8.566556 -14.64945 1.876567 29.73205 -13.61138 -3.339736 8.934352 -13.61138 0.5001757 30.07727 -12.35895 -4.716127 9.279567 -12.35895 -0.767536 30.39523 -10.90909 -5.983839 9.597526 -10.90909 -1.909455 30.68164 -9.281399 -7.125753 9.88393 -9.281399 -2.910108 30.93261 -7.497914 -8.126412 10.13491 -7.497913 -3.755985 31.14477 -5.582741 -8.972289 10.34706 -5.58274 -4.435633 31.31523 -3.561774 -9.651938 10.51753 -3.561774 -4.939878 31.4417 -1.462348 -10.15618 10.644 -1.462348 -5.261859 31.52245 0.6869714 -10.47816 10.72475 0.6869714 -10.6136 10.75872 2.857646 -5.3973 31.55643 2.857646 -10.5606 10.74543 5.019789 -5.344291 31.54314 5.019788 -10.31989 10.68506 7.144337 -5.103591 31.48276 7.144338 -9.89474 10.57842 9.20256 -4.678437 31.37612 9.20256 -9.29089 10.42697 11.16663 -4.074594 31.22468 11.16662 -8.516507 10.23275 13.00998 -3.300206 31.03045 13.00998 -7.582077 9.998381 14.70769 -2.365773 30.79609 14.70769 -6.500207 9.727036 16.23679 -1.283904 30.52474 16.23678 -5.285559 9.422388 17.5766 -0.0692566 30.22009 17.5766 -3.785896 9.051267 18.8156 1.264603 29.88563 18.71082 -2.689075 8.776172 19.50886 2.688397 29.52853 19.61687 -1.01673 8.351715 20.29341 4.199574 29.14942 20.29341 5.889962 28.72545 20.67089 0.6736579 7.927747 20.67089 -2.190001 7.497581 22.84013 -2.219072 2.271764 22.80868 -3.979188 2.603029 23.93444 -5.828982 8.19271 24.80595 -7.826957 3.322258 25.45195 -9.839581 8.919046 25.80596 -11.93735 4.067673 25.95943 -13.97711 9.672276 25.81141 -16.03213 4.824045 25.42622 -17.9837 10.39823 24.78438 -17.99543 5.204527 24.77093 -19.68933 5.550248 23.98972 -19.88279 10.74573 23.9253 -21.64566 5.872945 22.82384 -23.29803 11.36564 21.57077 -23.27061 6.168681 21.53049 2.854401 7.36843 -16.37577 4.593113 6.944702 -16.34529 9.809418 27.7424 -16.34529 8.079846 28.1762 -16.35271 6.449944 28.58494 -16.06227 -0.1643307 8.123074 -15.563 3.314318 29.37197 -14.70189 -1.891732 8.574582 -14.67666 0.4620044 30.08399 -12.39727 -4.759359 9.273058 -12.40148 -1.947816 30.70741 -9.309483 -7.171126 9.879848 -9.308651 -9.016422 10.3608 -5.601209 -3.796936 31.16988 -5.600954 -4.986693 31.4513 -1.471906 -10.20197 10.65502 -1.471754 -5.446457 31.567 2.856604 -10.65873 10.77011 2.856738 -10.3677 10.69709 7.152393 -5.147563 31.50647 7.152249 -4.114773 31.26376 11.18465 -9.337357 10.43861 11.18401 -7.629228 10.01024 14.74055 -2.403043 30.83625 14.73682 -5.31015 9.428624 17.59901 -0.1045719 30.24462 17.62138 -3.808076 9.036991 18.84952 2.668124 29.53048 19.64726 -1.030608 8.342783 20.31463 4.199574 29.14942 20.29341 5.889962 28.72545 20.67089 0.6736579 7.927747 20.67089 -23.28221 11.36435 21.54634 -19.89739 10.74355 23.97044 -23.28395 6.168555 21.54569 -19.74211 5.549534 24.15902 -13.96102 9.736152 25.95729 -11.96408 4.090588 26.07764 -5.809633 8.247347 24.91716 -7.81022 3.317268 25.47129 -2.183965 2.266003 22.88473 -2.201198 7.486922 22.8198 2.592222 29.67612 19.81082 5.896431 28.74245 20.7079 0.5144235 7.74531 20.99396 -5.489525 9.404962 17.8119 -2.570877 30.92912 14.8677 -9.529788 10.45406 11.23879 -5.340319 31.50863 7.174867 -10.85662 10.70789 2.860802 -5.1492 31.54503 -1.508138 -9.225942 10.30063 -5.690156 -2.08159 30.87346 -9.403131 -4.874577 9.239849 -12.45823 3.220905 29.44988 -14.92244 -1.949114 8.484869 -14.85905 4.467421 6.760578 -16.72116 9.756922 27.7315 -16.69359</float_array>
+          <technique_common>
+            <accessor source="#Screen4__M_TV-position-array" count="152" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Screen4__M_TV-normal">
+          <float_array id="Screen4__M_TV-normal-array" count="456">-0.5244619 0 -0.851272 -0.5244619 0 -0.851272 -0.4774951 0 -0.8786693 -0.4657534 0 -0.8845401 -0.3659491 -0.001956947 -0.9315069 -0.3542074 -0.001956947 -0.9354208 -0.2504892 -0.001956947 -0.9686888 -0.2367906 -0.001956947 -0.9706458 -0.1291585 -0.003913894 -0.9921722 -0.1154599 -0.003913894 -0.9941292 -0.007827789 -0.003913894 -1 0.005870841 -0.003913894 -1 0.1135029 -0.003913894 -0.9941292 0.1272016 -0.003913894 -0.9921722 0.2348337 -0.005870841 -0.9726027 0.2485323 -0.005870841 -0.9686888 0.3502935 -0.003913894 -0.9373777 0.3620352 -0.003913894 -0.9315069 0.4618395 -0.001956947 -0.8864971 0.4755382 -0.001956947 -0.8806262 0.5636008 0 -0.8258317 0.5733855 0 -0.8199608 0.6203523 -0.001956947 -0.7847358 0.6203523 -0.001956947 -0.7847358 0.09589041 -0.02348337 0.9960861 -0.003913894 0.001956947 1 -0.003913894 0.001956947 1 0.09589041 -0.02348337 0.9960861 0.2504892 -0.06262231 0.9667319 0.2524462 -0.06262231 0.964775 0.3835616 -0.09589041 0.9178082 0.3835616 -0.09589041 0.9178082 0.4931507 -0.1232877 0.8610567 0.4931507 -0.1232877 0.8610567 0.5968689 -0.1506849 0.7886497 0.5968689 -0.1506849 0.7886497 0.6829746 -0.1722113 0.7103718 0.6829746 -0.1722113 0.7103718 0.7553816 -0.1898239 0.62818 0.7553816 -0.1898239 0.62818 0.81409 -0.2035225 0.5440313 0.81409 -0.2035225 0.5440313 0.8630137 -0.2172211 0.4579256 0.8630137 -0.2172211 0.4579256 0.9001957 -0.2250489 0.37182 0.9001957 -0.2250489 0.37182 0.9295499 -0.2328767 0.2837573 0.9295499 -0.2328767 0.2837573 0.9510763 -0.2387476 0.1956947 0.9510763 -0.2387476 0.1956947 0.964775 -0.2426614 0.1076321 0.964775 -0.2426614 0.1076321 0.9706458 -0.2426614 0.01956947 0.9706458 -0.2426614 0.01956947 0.9667319 -0.2426614 -0.0704501 0.9667319 -0.2426614 -0.0704501 0.9569471 -0.2407045 -0.1624266 0.9569471 -0.2407045 -0.1624266 0.9373777 -0.2348337 -0.2544031 0.9373777 -0.2348337 -0.2544031 0.9080235 -0.2270059 -0.3502935 0.9080235 -0.2270059 -0.3502935 0.8688846 -0.2172211 -0.4461839 0.8688846 -0.2172211 -0.4461839 0.816047 -0.2054795 -0.5420744 0.816047 -0.2054795 -0.5420744 0.7475538 -0.1878669 -0.6360078 0.7475538 -0.1878669 -0.6360078 0.6614481 -0.1663405 -0.7318982 0.6614481 -0.1663405 -0.7318982 0.5655577 -0.1409002 -0.8121331 0.5675147 -0.1409002 -0.8121331 0.4481409 -0.111546 -0.8864971 0.4481409 -0.111546 -0.8864971 0.3013699 -0.07436399 -0.9510763 0.3013699 -0.07436399 -0.9510763 0.2054795 -0.05088063 -0.9765166 0.2054795 -0.05088063 -0.9765166 -0.5244619 0 -0.851272 -0.5244619 0 -0.851272 -0.4774951 0 -0.8786693 -0.3522505 -0.001956947 -0.9354208 -0.2504892 -0.001956947 -0.9686888 -0.1154599 -0.003913894 -0.9941292 -0.007827789 -0.003913894 -1 0.1272016 -0.003913894 -0.9921722 0.2348337 -0.005870841 -0.9726027 0.3620352 -0.003913894 -0.9315069 0.3502935 -0.005870841 -0.9373777 0.4618395 -0.001956947 -0.8864971 0.4755382 -0.001956947 -0.8806262 0.5636008 0 -0.8258317 0.6183953 0 -0.7847358 0.6203523 -0.001956947 -0.7847358 0.09589041 -0.02348337 0.9960861 -0.003913894 0.001956947 1 -0.003913894 0.001956947 1 0.09589041 -0.02348337 0.9960861 0.2504892 -0.06262231 0.9667319 0.3835616 -0.09589041 0.9178082 0.4931507 -0.1232877 0.8610567 0.4931507 -0.1232877 0.8610567 0.6829746 -0.1722113 0.7103718 0.6829746 -0.1722113 0.7103718 0.81409 -0.2035225 0.5440313 0.81409 -0.2035225 0.5440313 0.9001957 -0.2250489 0.37182 0.9001957 -0.2250489 0.37182 0.9510763 -0.2387476 0.1956947 0.9510763 -0.2387476 0.1956947 0.9706458 -0.2426614 0.01956947 0.9706458 -0.2426614 0.01956947 0.9569471 -0.2407045 -0.1624266 0.9569471 -0.2407045 -0.1624266 0.9080235 -0.2270059 -0.3502935 0.9080235 -0.2270059 -0.3502935 0.816047 -0.2054795 -0.5420744 0.816047 -0.2054795 -0.5420744 0.6614481 -0.1663405 -0.7318982 0.6614481 -0.1663405 -0.7318982 0.5655577 -0.1409002 -0.8121331 0.4481409 -0.111546 -0.8864971 0.3013699 -0.07436399 -0.9510763 0.3013699 -0.07436399 -0.9510763 0.2054795 -0.05088063 -0.9765166 0.2054795 -0.05088063 -0.9765166 0.6183953 0 -0.7847358 0.4755382 -0.001956947 -0.8806262 0.6223092 0 -0.7827789 0.4618395 -0.001956947 -0.8864971 0.1272016 -0.003913894 -0.9921722 -0.007827789 -0.003913894 -1 -0.3522505 -0.001956947 -0.9354208 -0.2504892 -0.001956947 -0.9686888 -0.5244619 0 -0.851272 -0.5244619 0 -0.851272 0.4481409 -0.111546 -0.8864971 0.2054795 -0.05088063 -0.9765166 0.2054795 -0.05088063 -0.9765166 0.6614481 -0.1663405 -0.7318982 0.816047 -0.2054795 -0.5420744 0.9080235 -0.2270059 -0.3502935 0.9569471 -0.2407045 -0.1624266 0.9706458 -0.2426614 0.01956947 0.9510763 -0.2387476 0.1956947 0.9001957 -0.2250489 0.37182 0.81409 -0.2035225 0.5440313 0.6829746 -0.1722113 0.7103718 0.4931507 -0.1232877 0.8610567 0.4931507 -0.1232877 0.8610567 -0.003913894 0.001956947 1 -0.003913894 0.001956947 1</float_array>
+          <technique_common>
+            <accessor source="#Screen4__M_TV-normal-array" count="152" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Screen4__M_TV-texcoord">
+          <float_array id="Screen4__M_TV-texcoord-array" count="304">-0.0009360313 0.9963837 -0.0009360313 0.00390625 0.090271 0.00390625 0.090271 0.9963837 0.1810303 0.00390625 0.1810303 0.9963837 0.2719727 0.00390625 0.2719727 0.9963837 0.362793 0.00390625 0.362793 0.9963837 0.4538574 0.00390625 0.4538574 0.9963837 0.5449219 0.00390625 0.5449219 0.9963837 0.6357422 0.00390625 0.6357422 0.9963837 0.7270508 0.00390625 0.7270508 0.9963837 0.8183594 0.00390625 0.8183594 0.9963837 0.909668 0.00390625 0.909668 0.9963837 1 0.00390625 1 0.9963837 0.9614258 0 0.996582 0 0.996582 1 0.9619141 1 0.9282227 1 0.9243164 0 0.8945313 1 0.8984375 0 0.859375 1 0.859375 0 0.8237305 1 0.8232422 0 0.7866211 1 0.7861328 0 0.7480469 1 0.7480469 0 0.7084961 1 0.7084961 0 0.6679688 1 0.6679688 0 0.6269531 1 0.6269531 0 0.5849609 1 0.5849609 0 0.5424805 1 0.5424805 0 0.4997559 1 0.4997559 0 0.4572754 0 0.4572754 1 0.4147949 0 0.4147949 1 0.3728027 0 0.3728027 1 0.331543 0 0.331543 1 0.2910156 0 0.2910156 1 0.251709 0 0.2514648 1 0.2133789 0 0.2132568 1 0.1762695 0 0.1761475 1 0.1402588 0 0.1401367 1 0.1013794 0 0.1052246 1 0.07531738 0 0.0713501 1 0.03814697 0 0.03805542 1 0.003061295 1 0.00315094 0 -0.0009360313 0.9963837 -0.0009360313 0.00390625 0.090271 0.00390625 0.1810303 0.9963837 0.2719727 0.00390625 0.362793 0.9963837 0.4538574 0.00390625 0.5449219 0.9963837 0.6357422 0.00390625 0.7270508 0.9963837 0.7270508 0.00390625 0.8183594 0.00390625 0.8183594 0.9963837 0.909668 0.00390625 1 0.9963837 1 0.00390625 0.9614258 0 0.996582 0 0.996582 1 0.9619141 1 0.9282227 1 0.8984375 0 0.859375 1 0.859375 0 0.7866211 1 0.7861328 0 0.7084961 1 0.7084961 0 0.6269531 0 0.6269531 1 0.5424805 1 0.5424805 0 0.4572754 1 0.4572754 0 0.3728027 0 0.3728027 1 0.2910156 1 0.2910156 0 0.2133789 0 0.2132568 1 0.1402588 0 0.1401367 1 0.1013794 0 0.0713501 1 0.03814697 0 0.03805542 1 0.003061295 1 0.00315094 0 1 0.9963837 0.8183594 0.9963837 1 0.00390625 0.8183594 0.00390625 0.5449219 0.9963837 0.4538574 0.00390625 0.1810303 0.9963837 0.2719727 0.00390625 -0.0009360313 0.00390625 -0.0009360313 0.9963837 0.0713501 1 0.003061295 1 0.00315094 0 0.1402588 0 0.2132568 1 0.2910156 0 0.3728027 1 0.4572754 0 0.5424805 1 0.6269531 0 0.7084961 1 0.7861328 0 0.859375 1 0.859375 0 0.996582 0 0.996582 1</float_array>
+          <technique_common>
+            <accessor source="#Screen4__M_TV-texcoord-array" count="152" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Screen4__M_TV-vertex">
+          <input semantic="POSITION" source="#Screen4__M_TV-position" />
+        </vertices>
+        <triangles material="M_TV" count="74">
+          <input semantic="VERTEX" source="#Screen4__M_TV-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Screen4__M_TV-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Screen4__M_TV-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 0 0 0 2 2 2 3 3 3 2 2 2 4 4 4 5 5 5 3 3 3 4 4 4 5 5 5 4 4 4 6 6 6 7 7 7 5 5 5 6 6 6 7 7 7 6 6 6 8 8 8 9 9 9 7 7 7 8 8 8 9 9 9 8 8 8 10 10 10 11 11 11 9 9 9 10 10 10 11 11 11 10 10 10 12 12 12 13 13 13 11 11 11 12 12 12 13 13 13 12 12 12 14 14 14 15 15 15 13 13 13 14 14 14 15 15 15 14 14 14 16 16 16 17 17 17 15 15 15 16 16 16 17 17 17 16 16 16 18 18 18 19 19 19 17 17 17 18 18 18 19 19 19 18 18 18 20 20 20 21 21 21 19 19 19 20 20 20 21 21 21 20 20 20 22 22 22 23 23 23 21 21 21 22 22 22 24 24 24 25 25 25 26 26 26 27 27 27 24 24 24 26 26 26 24 24 24 27 27 27 28 28 28 29 29 29 24 24 24 28 28 28 29 29 29 28 28 28 30 30 30 31 31 31 29 29 29 30 30 30 31 31 31 30 30 30 32 32 32 33 33 33 31 31 31 32 32 32 33 33 33 32 32 32 34 34 34 35 35 35 33 33 33 34 34 34 35 35 35 34 34 34 36 36 36 37 37 37 35 35 35 36 36 36 37 37 37 36 36 36 38 38 38 39 39 39 37 37 37 38 38 38 39 39 39 38 38 38 40 40 40 41 41 41 39 39 39 40 40 40 41 41 41 40 40 40 42 42 42 43 43 43 41 41 41 42 42 42 43 43 43 42 42 42 44 44 44 45 45 45 43 43 43 44 44 44 45 45 45 44 44 44 46 46 46 47 47 47 45 45 45 46 46 46 47 47 47 46 46 46 48 48 48 49 49 49 47 47 47 48 48 48 49 49 49 48 48 48 50 50 50 51 51 51 49 49 49 50 50 50 51 51 51 50 50 50 52 52 52 50 50 50 53 53 53 52 52 52 52 52 52 53 53 53 54 54 54 53 53 53 55 55 55 54 54 54 54 54 54 55 55 55 56 56 56 55 55 55 57 57 57 56 56 56 56 56 56 57 57 57 58 58 58 57 57 57 59 59 59 58 58 58 58 58 58 59 59 59 60 60 60 59 59 59 61 61 61 60 60 60 60 60 60 61 61 61 62 62 62 61 61 61 63 63 63 62 62 62 62 62 62 63 63 63 64 64 64 63 63 63 65 65 65 64 64 64 64 64 64 65 65 65 66 66 66 65 65 65 67 67 67 66 66 66 66 66 66 67 67 67 68 68 68 67 67 67 69 69 69 68 68 68 68 68 68 69 69 69 70 70 70 69 69 69 71 71 71 70 70 70 70 70 70 71 71 71 72 72 72 71 71 71 73 73 73 72 72 72 72 72 72 73 73 73 74 74 74 73 73 73 75 75 75 74 74 74 75 75 75 76 76 76 74 74 74 76 76 76 77 77 77 74 74 74 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Screen4__M_TV-mesh">
+      <skin source="#Screen4__M_TV-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Screen4__M_TV-mesh-joint">
+          <Name_array id="Screen4__M_TV-mesh-joint-array" count="1">Obj_VSLobbyScreenSignage</Name_array>
+          <technique_common>
+            <accessor source="#Screen4__M_TV-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Screen4__M_TV-mesh-inv_bind_matrix">
+          <float_array id="Screen4__M_TV-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Screen4__M_TV-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Screen4__M_TV-mesh-weight">
+          <float_array id="Screen4__M_TV-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Screen4__M_TV-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Screen4__M_TV-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Screen4__M_TV-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="152">
+          <input semantic="JOINT" source="#Screen4__M_TV-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Screen4__M_TV-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Obj_VSLobbyScreenSignage" name="Obj_VSLobbyScreenSignage" sid="Obj_VSLobbyScreenSignage" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Screen4__M_TV" name="Screen4__M_TV" type="NODE">
+        <instance_controller url="#Armature_Screen4__M_TV-mesh">
+          <skeleton>#Armature_Obj_VSLobbyScreenSignage</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_TV" target="#M_TV" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>
