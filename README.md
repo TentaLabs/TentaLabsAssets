@@ -20,7 +20,7 @@ Whatever your creative ambitions, TentaLabs aims to give you the tools to succee
 ---
 
 ## Attribution
-TentaLab Assets ripped and prepared by MarinaraVT. Credit for use of these assets is not required, but appreciated. <br>
+Credit for use of these assets is not required, but appreciated. <br>
 
 ---
 
