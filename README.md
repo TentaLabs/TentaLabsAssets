@@ -22,5 +22,5 @@ TentaLabs Dropbox: https://www.dropbox.com/sh/uonmxyg33bcas9h/AAAS3vJV2qDwV0RbvG
 - All files available via TentaLabs may be used freely for any non-commercial purpose
 - Mirroring of files is permitted
 - TentaLabs (and by extension, Marina) does not take any responsibility for your use of these files
-- If you would like to have an asset removed, or find something that shouldn't be here, [contact me](mailto:seaslugmarina@gmail.com)
+- If you would like to have an asset removed, or find something that shouldn't be here, [contact me](mailto:reefsnax@gmail.com)
 - Do not ask for technical support
